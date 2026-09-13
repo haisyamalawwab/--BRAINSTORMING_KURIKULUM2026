@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>031 — PETA KESELARASAN DOKUMEN `KURIKULUM2026_REVISI/` TERHADAP BUKU PANDUAN KPT 2024</title>
+<style>
+@page { size: A4; margin: 15mm 12mm 16mm 12mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Calibri, Arial, sans-serif; font-size: 10pt; line-height: 1.5; color: #1a1a1a; margin: 0; }
+h1 { font-size: 18pt; color: #1F3864; border-bottom: 3px solid #2E75B6; padding-bottom: 6px; page-break-after: avoid; }
+h2 { font-size: 14pt; color: #1F3864; border-bottom: 1px solid #BDD7EE; padding-bottom: 4px; page-break-after: avoid; margin-top: 18px; }
+h3 { font-size: 11.5pt; color: #2E75B6; page-break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 8.5pt; background: #f2f5f9; padding: 1px 4px; border-radius: 3px; word-break: break-word; }
+pre { background: #f2f5f9; border: 1px solid #d3d3d3; border-radius: 6px; padding: 10px 12px; white-space: pre-wrap; word-break: break-word; page-break-inside: avoid; }
+pre code { background: transparent; padding: 0; }
+blockquote { border-left: 4px solid #2E75B6; background: #eef4fb; margin: 12px 0; padding: 8px 14px; border-radius: 0 6px 6px 0; page-break-inside: avoid; }
+img { max-width: 100%; height: auto; display: block; margin: 10px auto; page-break-inside: avoid; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0 14px 0; font-size: 8.2pt; line-height: 1.4; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: #1F3864; color: #ffffff; font-weight: 700; text-align: left; }
+th, td { border: 1px solid #8a8a8a; padding: 4px 5px; vertical-align: top; word-break: break-word; }
+tbody tr:nth-child(even) td { background: #f2f5f9; }
+.table-wrapper { width: 100%; overflow: visible; }
+.cover { text-align: center; margin: 0 0 18px 0; padding: 18px; background: #1F3864; color: #fff; border-radius: 10px; }
+.cover h1 { color: #fff; border: none; margin: 0; }
+.cover p { color: #dce8f7; margin: 4px 0 0 0; }
+.footer-note { margin-top: 22px; font-size: 8pt; color: #595959; border-top: 1px solid #ccc; padding-top: 8px; }
+</style>
+</head>
+<body>
+<div class="cover"><h1>031 — PETA KESELARASAN DOKUMEN `KURIKULUM2026_REVISI/` TERHADAP BUKU PANDUAN KPT 2024</h1><p>Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang — Kurikulum OBE 2026</p></div>
+<h1 id="031-peta-keselarasan-dokumen-kurikulum2026_revisi-terhadap-buku-panduan-kpt-2024">031 — PETA KESELARASAN DOKUMEN <code>KURIKULUM2026_REVISI/</code> TERHADAP BUKU PANDUAN KPT 2024</h1>
+<p><strong>Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang</strong>
+<strong>Tanggal:</strong> 09 September 2026
+<strong>Basis rujukan primer:</strong> <code>Buku-Panduan-KPT-2024-Direktorat-Pembelajaran-dan-Kemahasiswaan.pdf</code> (164 hlm) → diekstrak penuh ke <code>021_PANDUAN_KPT2024_DIKTI_FULLTEXT.md</code>
+<strong>Basis rujukan disiplin:</strong> <code>020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.md</code> (12 bagian A–L APTIKOM SI v2.0 2024 &amp; TI 2023)</p>
+<blockquote>
+<p><strong>Fungsi dokumen ini.</strong> Dokumen ini adalah <strong>peta penandaan (marking map)</strong> yang menjawab pertanyaan "file markdown mana yang sudah sesuai/selaras dengan KPT 2024, dan apa yang masih kurang". Dokumen ini <strong>bukan</strong> naskah buku; ia adalah kompas navigasi bagi Tim Pengembang Kurikulum dan <em>source of truth</em> status kesiapan KPT.</p>
+</blockquote>
+<hr />
+<h2 id="0-ringkasan-eksekutif">0. RINGKASAN EKSEKUTIF</h2>
+<p>Folder <code>KURIKULUM2026_REVISI/</code> telah memiliki <strong>rintisan KPT yang matang</strong>: template APTIKOM (020), fulltext panduan nasional (021), audit kelengkapan (022), dan draft naskah 12 bab berstruktur KPT 2024 (023). Dari 12 butir dokumen kurikulum KPT 2024:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: left;">Kategori</th>
+<th style="text-align: center;">Jumlah Butir</th>
+<th style="text-align: left;">Butir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">✅ <strong>Substansi lengkap &amp; terverifikasi</strong></td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">III, IV, V, VI, VII, VIII</td>
+</tr>
+<tr>
+<td style="text-align: left;">⚠️ <strong>Ada, tapi ada gap konten/format</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">II, IX, X, XI</td>
+</tr>
+<tr>
+<td style="text-align: left;">🔶 <strong>Ada, tapi menunggu data resmi UPPS</strong></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">I, XII</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Kesiapan substansi OBE ≈ 95%</strong> (inti CPL/BoK/CPMK/asesmen sudah tuntas). Yang tersisa terbagi dua: <strong>(a)</strong> gap konten/format yang <em>bisa ditulis sekarang</em> oleh Tim Kurikulum (dokumen 032–037 pada peta ini), dan <strong>(b)</strong> data administratif yang <em>wajib menunggu UPPS</em> (peringkat akreditasi, nomenklatur gelar, nomor SK, kebijakan PMB).</p>
+<hr />
+<h2 id="1-peta-12-butir-kpt-2024-file-sudah-selaras-gap">1. PETA 12 BUTIR KPT 2024 → FILE SUDAH SELARAS + GAP</h2>
+<p>Legenda status: ✅ = siap · ⚠️ = ada tapi belum lengkap · 🔶 = menunggu data UPPS · 🆕 = file baru pengisi gap.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Butir KPT 2024 (Pasal 44 + hlm. 30–31)</th>
+<th>Status</th>
+<th style="text-align: center;">File Sumber yang Sudah Selaras</th>
+<th>Gap &amp; Penanganan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I. Identitas Program Studi</strong></td>
+<td>🔶</td>
+<td style="text-align: center;">023 Bab I (tabel terisi sebagian), 001</td>
+<td>Peringkat akreditasi, gelar, website, email, SK izin — <strong>[PERLU DATA UPPS]</strong></td>
+</tr>
+<tr>
+<td><strong>II. Evaluasi Kurikulum &amp; Tracer Study</strong></td>
+<td>⚠️</td>
+<td style="text-align: center;">010 (instrumen), 001 (SWOT), 019 (audit), 024 (ekivalensi)</td>
+<td>Isian data riil Tabel II.1 (evaluasi K2025) — <strong>sebagian bisa ditulis, sebagian menunggu implementasi</strong></td>
+</tr>
+<tr>
+<td><strong>III. Landasan Perancangan &amp; Pengembangan</strong></td>
+<td>✅</td>
+<td style="text-align: center;">023 Bab III (5 landasan lengkap), 021 Bagian A.2</td>
+<td>Sudah ditulis; opsional diekstrak jadi file mandiri</td>
+</tr>
+<tr>
+<td><strong>IV. Visi, Misi, Tujuan, Strategi + University Value</strong></td>
+<td>⚠️</td>
+<td style="text-align: center;">001 (VMTS 2045), 002 (3 PEO), 023 Bab IV</td>
+<td>VMTS Universitas/Fakultas + <em>University Value</em> — <strong>[PERLU DATA UPPS]</strong></td>
+</tr>
+<tr>
+<td><strong>V. Rumusan SKL / CPL</strong></td>
+<td>✅</td>
+<td style="text-align: center;">003, 009A–009E, 009, 002, 004</td>
+<td>Lengkap. ⚠️ satu resolusi terbuka: 3 versi matriks CPL↔PL (Dok 019 P1-5)</td>
+</tr>
+<tr>
+<td><strong>VI. Penetapan Bahan Kajian</strong></td>
+<td>⚠️</td>
+<td style="text-align: center;">003, 016, 017</td>
+<td>Deskripsi/cakupan materi 36 BK belum ditulis → <strong>🆕 035</strong></td>
+</tr>
+<tr>
+<td><strong>VII. Pembentukan MK &amp; Bobot SKS</strong></td>
+<td>✅</td>
+<td style="text-align: center;">004, 005, 014</td>
+<td>Lengkap (ground truth 146 SKS / 55 MK)</td>
+</tr>
+<tr>
+<td><strong>VIII. Matriks, Peta, Masa Tempuh</strong></td>
+<td>✅</td>
+<td style="text-align: center;">004, 005, 011, 012, 015</td>
+<td>Lengkap (masa tempuh reguler 8 sem + akselerasi 7 sem)</td>
+</tr>
+<tr>
+<td><strong>IX. Modalitas Pembelajaran / RPS</strong></td>
+<td>⚠️</td>
+<td style="text-align: center;">007 (silabus 67 MK), 008 (asesmen), 018 (rubrik)</td>
+<td>Modalitas (gaya belajar/SCL/blended) → <strong>🆕 032</strong>; rubrik holistik &amp; skala persepsi → <strong>🆕 033</strong>; diagram analisis pembelajaran → <strong>🆕 036</strong>; contoh RPS lengkap → <strong>🆕 037</strong>; kolom Indikator &amp; Kriteria di 67 MK (pekerjaan massal bertahap)</td>
+</tr>
+<tr>
+<td><strong>X. Hak Belajar Maks 3 Semester di Luar Prodi</strong></td>
+<td>⚠️</td>
+<td style="text-align: center;">006 (3 dari 9 BKP), 009 (capstone/TA)</td>
+<td>6 BKP sisanya + rekognisi transkrip &amp; SKPI → <strong>🆕 034</strong></td>
+</tr>
+<tr>
+<td><strong>XI. Manajemen &amp; Mekanisme Pelaksanaan</strong></td>
+<td>⚠️</td>
+<td style="text-align: center;">008 §6, 010 §9, 013 §4, 023 Bab XI</td>
+<td>Tabel N + bukti fisik SPMI sudah berkerangka di 023; nomor SK — <strong>[PERLU DATA UPPS]</strong></td>
+</tr>
+<tr>
+<td><strong>XII. Tata Cara Penerimaan Mahasiswa per Tahapan</strong></td>
+<td>🔶</td>
+<td style="text-align: center;">023 Bab XII (kerangka)</td>
+<td>Isi memerlukan kebijakan PMB UWG — <strong>[PERLU DATA UPPS + keputusan Prodi]</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="2-inventaris-20-tabel-wajib-aptikom-tabel-pendukung-an">2. INVENTARIS 20 TABEL WAJIB APTIKOM + TABEL PENDUKUNG A–N</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Tabel</th>
+<th>Nama</th>
+<th style="text-align: center;">Status</th>
+<th>Lokasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Profil Lulusan</td>
+<td style="text-align: center;">✅</td>
+<td>002 §2, 011 Sheet 2</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>CPL Prodi</td>
+<td style="text-align: center;">✅</td>
+<td>003, 009A–009E, 011 Sheet 3</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>CPL ↔ PL</td>
+<td style="text-align: center;">✅</td>
+<td>003 §6, 004 §2</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Rumusan Bahan Kajian</td>
+<td style="text-align: center;">🆕</td>
+<td><strong>035</strong> (deskripsi cakupan materi)</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>CPL ↔ BK</td>
+<td style="text-align: center;">✅</td>
+<td>003 §4–5, 009E §2–3</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>BK ↔ MK</td>
+<td style="text-align: center;">✅</td>
+<td>004 §6</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>CPL ↔ MK</td>
+<td style="text-align: center;">✅</td>
+<td>004 §3–4</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>BK ↔ CPL ↔ MK</td>
+<td style="text-align: center;">✅</td>
+<td>004 §6</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>Susunan MK &amp; Bobot SKS</td>
+<td style="text-align: center;">✅</td>
+<td>005 §1–3</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>Organisasi MK per Semester</td>
+<td style="text-align: center;">✅</td>
+<td>005 §2–3</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>Peta Pemenuhan CPL (I-R-M)</td>
+<td style="text-align: center;">✅</td>
+<td>004, 011 Sheet 7</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>CPL–CPMK–MK</td>
+<td style="text-align: center;">✅</td>
+<td>007 Tabel A/B</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>Peta CPL–CPMK–MK per Semester</td>
+<td style="text-align: center;">⚠️</td>
+<td>tersebar; perlu konsolidasi</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>MK–CPL–CPMK</td>
+<td style="text-align: center;">✅</td>
+<td>007 Tabel B</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td>MK–CPMK–Sub-CPMK</td>
+<td style="text-align: center;">✅</td>
+<td>007 Tabel C</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td>Teknik Penilaian CPMK</td>
+<td style="text-align: center;">⚠️</td>
+<td>007 + <strong>032/033</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td>Tahap &amp; Mekanisme Penilaian</td>
+<td style="text-align: center;">✅</td>
+<td>008 §2, 018 §2</td>
+</tr>
+<tr>
+<td style="text-align: center;">18/18a</td>
+<td>Bobot Penilaian</td>
+<td style="text-align: center;">✅</td>
+<td>008 §2–3, 007</td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td>Nilai Akhir MK</td>
+<td style="text-align: center;">✅</td>
+<td>008 §3</td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td>Nilai Akhir CPL</td>
+<td style="text-align: center;">✅</td>
+<td>008 §3</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Tabel pendukung:</strong>
+- <strong>A</strong> (Identitas) 🔶 menunggu UPPS · <strong>B</strong> (Evaluasi Kurikulum) ⚠️ data riil · <strong>C</strong> (Daftar Profesi) ⚠️ perlu diformalkan · <strong>D–F</strong> (Rubrik Holistik/Analitik/Skala Persepsi) — Analitik ✅, <strong>Holistik &amp; Skala Persepsi → 🆕 033</strong> · <strong>G–L</strong> (Proses, Rubrik Bloom, Portofolio, Simulasi) ✅ · <strong>M</strong> (9 BKP MBKM) → <strong>🆕 034</strong> · <strong>N</strong> (Manajemen &amp; Bukti Fisik) berkerangka di 023, nomor SK menunggu UPPS.</p>
+<hr />
+<h2 id="3-penandaan-file-per-dokumen-001030">3. PENANDAAN FILE PER-DOKUMEN (001–030)</h2>
+<p>Menandai peran setiap file terhadap butir KPT 2024 dan status keselarasannya.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th>Peran terhadap KPT 2024</th>
+<th style="text-align: center;">Butir KPT</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>001</td>
+<td>VMTS 2045, SWOT, positioning</td>
+<td style="text-align: center;">II, IV</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>002</td>
+<td>3 PEO &amp; 4 Profil Lulusan</td>
+<td style="text-align: center;">IV, V</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>003</td>
+<td>14 CPL + genealogi + 36 BoK</td>
+<td style="text-align: center;">V, VI</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>004</td>
+<td>Matriks keterlacakan OBE (I-R-M)</td>
+<td style="text-align: center;">V, VII, VIII</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>005</td>
+<td>Struktur 8 semester + peminatan</td>
+<td style="text-align: center;">VII, VIII</td>
+<td style="text-align: center;">✅ selaras (ground truth SKS)</td>
+</tr>
+<tr>
+<td>006</td>
+<td>Panduan peminatan &amp; MBKM (3 BKP)</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">⚠️ 3 dari 9 BKP</td>
+</tr>
+<tr>
+<td>007</td>
+<td>Silabus 3-tabel 67 MK</td>
+<td style="text-align: center;">IX</td>
+<td style="text-align: center;">⚠️ kurang kolom Indikator/Kriteria</td>
+</tr>
+<tr>
+<td>008</td>
+<td>Asesmen OBE, formula CPL, rubrik analitik</td>
+<td style="text-align: center;">IX, XI</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>009A–009E</td>
+<td>Detail 14 CPL per kategori</td>
+<td style="text-align: center;">V</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>009</td>
+<td>Langkah2 CPL formal + Capstone &amp; TA non-skripsi</td>
+<td style="text-align: center;">V, IX, X</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>010</td>
+<td>Tracer study &amp; evaluasi PEO (PPEPP)</td>
+<td style="text-align: center;">II, XI</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>011</td>
+<td>14 sheet matriks terpadu</td>
+<td style="text-align: center;">V–VIII</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>012</td>
+<td>Jalur pondasi &amp; tree prasyarat</td>
+<td style="text-align: center;">VIII</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>013</td>
+<td>Rekomendasi solusi &amp; mitigasi</td>
+<td style="text-align: center;">XI (pendukung)</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>014</td>
+<td>Rasionalisasi SKS teori</td>
+<td style="text-align: center;">VII (pendukung)</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>015</td>
+<td>Simulasi akselerasi 7 semester</td>
+<td style="text-align: center;">VIII (masa tempuh)</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>016</td>
+<td>Audit BoK &amp; pipeline AI</td>
+<td style="text-align: center;">VI</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>017</td>
+<td>Audit forensik zero redundancy/gap</td>
+<td style="text-align: center;">VI, VII</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>018</td>
+<td>4 klaster rubrik &amp; model asesmen dosen</td>
+<td style="text-align: center;">IX</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>019</td>
+<td>Audit keselarasan folder (temuan P0–P2)</td>
+<td style="text-align: center;">II (evaluasi internal)</td>
+<td style="text-align: center;">⚠️ 4 temuan terbuka</td>
+</tr>
+<tr>
+<td>020</td>
+<td>Template 12 bagian A–L APTIKOM</td>
+<td style="text-align: center;">kerangka rujukan</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>021</td>
+<td>Fulltext KPT 2024 DIKTI (dari PDF)</td>
+<td style="text-align: center;">rujukan normatif nasional</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>022</td>
+<td>Audit kelengkapan vs template KPT-OBE</td>
+<td style="text-align: center;">peta gap</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>023</td>
+<td><strong>Draft naskah buku KPT 12 bab</strong></td>
+<td style="text-align: center;">I–XII</td>
+<td style="text-align: center;">⚠️ 12 bab berkerangka, gap terpetakan</td>
+</tr>
+<tr>
+<td>024</td>
+<td>Ekivalensi K2025 → K2026</td>
+<td style="text-align: center;">II (evaluasi kurikulum berjalan)</td>
+<td style="text-align: center;">✅ selaras</td>
+</tr>
+<tr>
+<td>025</td>
+<td>Rekomendasi MK peminatan 2027</td>
+<td style="text-align: center;">(di luar butir KPT)</td>
+<td style="text-align: center;">— pendukung</td>
+</tr>
+<tr>
+<td>026</td>
+<td>Analisis MK dihapus &amp; pengganti</td>
+<td style="text-align: center;">II (pendukung ekivalensi)</td>
+<td style="text-align: center;">— pendukung</td>
+</tr>
+<tr>
+<td>027–029</td>
+<td>Restrukturisasi &amp; verifikasi kode MK</td>
+<td style="text-align: center;">VII (pendukung)</td>
+<td style="text-align: center;">— pendukung</td>
+</tr>
+<tr>
+<td>030</td>
+<td>Justifikasi STA-601 sebagai MK pilihan</td>
+<td style="text-align: center;">VI, VII (pendukung)</td>
+<td style="text-align: center;">— pendukung</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="4-gap-yang-dapat-ditulis-sekarang-vs-menunggu-upps">4. GAP YANG DAPAT DITULIS SEKARANG vs MENUNGGU UPPS</h2>
+<h3 id="41-dapat-ditulis-sekarang-oleh-tim-kurikulum-tanpa-data-upps">4.1 Dapat ditulis sekarang oleh Tim Kurikulum (tanpa data UPPS)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th>Gap</th>
+<th>File Baru Pengisi</th>
+<th style="text-align: center;">Prioritas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Modalitas pembelajaran: gaya belajar VAK, SCL, blended learning, estimasi waktu</td>
+<td><strong>032_MODALITAS_PEMBELAJARAN_KPT2024.md</strong></td>
+<td style="text-align: center;">Tinggi</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Rubrik Holistik + Rubrik Skala Persepsi (Tabel D &amp; F)</td>
+<td><strong>033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.md</strong></td>
+<td style="text-align: center;">Tinggi</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>9 bentuk BKP MBKM + rekognisi transkrip &amp; SKPI</td>
+<td><strong>034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.md</strong></td>
+<td style="text-align: center;">Tinggi</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Deskripsi/cakupan materi 36 Bahan Kajian (Tabel 4)</td>
+<td><strong>035_DESKRIPSI_BAHAN_KAJIAN_36_BK.md</strong></td>
+<td style="text-align: center;">Sedang</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Diagram Analisis Pembelajaran + garis <em>entry behavior</em> (MK penciri)</td>
+<td><strong>036_DIAGRAM_ANALISIS_PEMBELAJARAN_MK_PENCIRI.md</strong></td>
+<td style="text-align: center;">Sedang</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>Contoh RPS lengkap format KPT 2024 (1 MK model)</td>
+<td><strong>037_CONTOH_RPS_LENGKAP_FORMAT_KPT2024.md</strong></td>
+<td style="text-align: center;">Sedang</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="42-menunggu-data-resmi-upps-keputusan-tim-tidak-boleh-diasumsikan">4.2 Menunggu data resmi UPPS / keputusan Tim (TIDAK boleh diasumsikan)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th>Butir</th>
+<th>Data yang dibutuhkan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Tabel A Identitas</td>
+<td>Peringkat &amp; SK akreditasi LAM INFOKOM/BAN-PT, nomenklatur gelar (SK izin prodi), website, email, SK izin pembukaan</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Bab IV (VMTS PT &amp; Fakultas)</td>
+<td>Identitas dokumen (nomor &amp; tahun SK) VMTS Universitas &amp; FSTI, rumusan <em>University Value</em></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Bab III.5.3 (kebijakan institusional)</td>
+<td>Nomor &amp; tahun Statuta, Renstra, Standar Mutu SPMI, Pedoman Akademik</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Bab XII (penerimaan mahasiswa)</td>
+<td>Kebijakan &amp; standar PMB UWG, jalur seleksi, daya tampung; keputusan Prodi atas RPL &amp; perpindahan peminatan</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Bab XI.3 (bukti fisik SPMI)</td>
+<td>Nomor SK Rektor/Dekan, SOP, standar mutu</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="43-resolusi-konsistensi-yang-masih-terbuka-dok-019">4.3 Resolusi konsistensi yang masih terbuka (Dok 019)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Temuan</th>
+<th>Dampak</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P0-2 / komposisi SKS (005 vs 007)</td>
+<td>VII, VIII</td>
+<td style="text-align: center;">✅ <strong>RESOLVED</strong> (005 = ground truth)</td>
+</tr>
+<tr>
+<td>P0-1 tabrakan kode <code>FST-204</code>/<code>FST-205</code></td>
+<td>VI, VII</td>
+<td style="text-align: center;">⚠️ terbuka</td>
+</tr>
+<tr>
+<td>P1-5 matriks CPL↔PL (3 versi) &amp; PEO↔CPL (2 versi)</td>
+<td>V</td>
+<td style="text-align: center;">⚠️ terbuka — tetapkan 003 sebagai master</td>
+</tr>
+<tr>
+<td>P1-2 rantai prasyarat (007 vs 005, 19 MK)</td>
+<td>VIII, IX</td>
+<td style="text-align: center;">⚠️ terbuka</td>
+</tr>
+<tr>
+<td>P1-1 klaim "4 asesmen = 4 CPMK" gagal 31 MK</td>
+<td>IX</td>
+<td style="text-align: center;">⚠️ terbuka — ubah ke many-to-many</td>
+</tr>
+<tr>
+<td>P1-3 rekapitulasi SKS pembina CPL tak tereproduksi</td>
+<td>IX</td>
+<td style="text-align: center;">⚠️ terbuka — hitung ulang</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="5-urutan-penyelesaian-yang-disarankan">5. URUTAN PENYELESAIAN YANG DISARANKAN</h2>
+<ol>
+<li><strong>Tutup resolusi konsistensi (4.3)</strong> — merakit naskah di atas data kontradiktif hanya memindahkan masalah.</li>
+<li><strong>Tulis file 032–037 (4.1)</strong> — gap konten/format yang bisa dituntaskan Tim Kurikulum.</li>
+<li><strong>Ajukan satu permintaan terpadu ke UPPS (4.2)</strong> — 15 titik data administratif dalam satu berkas permintaan.</li>
+<li><strong>Rakit naskah final dari 023 + file 032–037</strong>, lalu jalankan <code>_tools/verify_zero_discrepancy.py</code>.</li>
+</ol>
+<hr />
+<p><em>Dokumen 031 — Peta keselarasan &amp; status dokumen terhadap KPT 2024. Disusun sebagai kompas navigasi; bukan pengganti naskah 023.</em></p>
+<div class="footer-note">Dokumen PDF dihasilkan otomatis dari Markdown sumber (031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.md). Tabel dan gambar diformat print-ready A4. Tim Pengembang Kurikulum FSTI UWG — 2026.</div>
+</body>
+</html>
