@@ -42,6 +42,7 @@
 | **Sub-CPMK-3.1** | Menganalisis permasalahan proses bisnis konvensional yang layak ditransformasi digital. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Merumuskan usulan solusi transformasi digital berbasis AI, Cloud, dan IoT secara etis dan layak bisnis. | CPMK-3 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -84,6 +85,7 @@
 | **Sub-CPMK-4.1** | Menerapkan turunan parsial dan gradien pada prinsip optimasi Gradient Descent. | CPMK-4 | **C4** |
 | **Sub-CPMK-4.2** | Menerapkan integral untuk pemodelan luasan data pada fungsi komputasi. | CPMK-4 | **C4** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -125,6 +127,7 @@
 | **Sub-CPMK-3.2** | Menganalisis hierarki memori dan cache (L1/L2/L3) serta akselerator GPU/NPU. | CPMK-3 | **C4** |
 | **Sub-CPMK-4.1** | Mengevaluasi mekanisme bus sistem dan interupsi I/O. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengevaluasi abstraksi virtualisasi hardware (Hypervisor) dan organisasi server data center untuk cloud. | CPMK-4 | **C5** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -170,6 +173,7 @@
 | **Sub-CPMK-4.1** | Mengonstruksi model DFA untuk pengenalan pola bahasa formal. | CPMK-4 | **C4** |
 | **Sub-CPMK-4.2** | Mengonstruksi model NFA dan konversinya ke DFA untuk transisi status sistem komputasi. | CPMK-4 | **C4** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -211,6 +215,7 @@
 | **Sub-CPMK-3.2** | Menerapkan diagonalisasi matriks pada transformasi linier. | CPMK-3 | **C3** |
 | **Sub-CPMK-4.1** | Merumuskan dekomposisi SVD (Singular Value Decomposition) suatu matriks. | CPMK-4 | **C4** |
 | **Sub-CPMK-4.2** | Menerapkan PCA (NumPy) untuk reduksi dimensi pada pemrosesan data AI. | CPMK-4 | **C4** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -256,6 +261,7 @@
 | **Sub-CPMK-4.1** | Menyusun dokumen arsitektur perangkat lunak (SDD) yang siap diimplementasikan. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Menyusun rencana desain perangkat lunak yang selaras dengan kebutuhan bisnis. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -294,6 +300,7 @@
 | **Sub-CPMK-2.2** | Merancang sistem pakar dengan penalaran Backward Chaining secara logis dan konsisten. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Mengimplementasikan sistem inferensi logika fuzzy metode Mamdani untuk pengambilan keputusan. | CPMK-3 | **C4** |
 | **Sub-CPMK-3.2** | Mengimplementasikan sistem inferensi logika fuzzy metode Sugeno untuk pengambilan keputusan. | CPMK-3 | **C4** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -337,6 +344,7 @@
 | **Sub-CPMK-4.1** | Mengevaluasi kegunaan antarmuka menggunakan System Usability Scale (SUS). | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengevaluasi kegunaan antarmuka menggunakan Heuristic Evaluation dengan analisis kualitatif. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -379,6 +387,7 @@
 | **Sub-CPMK-4.1** | Mengevaluasi kualitas perangkat lunak berdasarkan standar ISO/IEC 25010. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengevaluasi hasil pengujian unit dan integrasi secara otomatis dan objektif. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -417,6 +426,7 @@
 | **Sub-CPMK-2.2** | Menyelesaikan permasalahan deadlock menggunakan Algoritma Banker secara matematis. | CPMK-2 | **C3** |
 | **Sub-CPMK-3.1** | Mengevaluasi kinerja manajemen memori virtual (paging, segmentasi, page replacement). | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi alokasi sistem berkas (file system) pada arsitektur sistem operasi modern. | CPMK-3 | **C5** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -460,6 +470,7 @@
 | **Sub-CPMK-4.1** | Mengintegrasikan front-end dengan RESTful API eksternal. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengoptimalkan performa loading aplikasi dengan skor Google Lighthouse minimal 85. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -502,6 +513,7 @@
 | **Sub-CPMK-4.1** | Menganalisis keamanan Access Control List (ACL) dasar pada lalu lintas jaringan. | CPMK-4 | **C4** |
 | **Sub-CPMK-4.2** | Mengevaluasi kinerja layanan jaringan (DNS, DHCP, NAT) pada rancangan jaringan. | CPMK-4 | **C4** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -542,6 +554,7 @@
 | **Sub-CPMK-2.2** | Mengonstruksi model unsupervised (K-Means, Hierarchical, PCA) untuk segmentasi dan reduksi dimensi. | CPMK-2 | **C5** |
 | **Sub-CPMK-3.1** | Mengevaluasi performa model menggunakan Confusion Matrix, F1-Score, dan ROC-AUC. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Membangun purwarupa inferensi model terintegrasi dengan data baru. | CPMK-3 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -585,6 +598,7 @@
 | **Sub-CPMK-4.1** | Merancang purwarupa aplikasi NLP/mesin pencari menggunakan library modern (spaCy/NLTK/HuggingFace). | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengintegrasikan API/library NLP modern sebagai solusi cerdas kebutuhan pengguna. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -626,6 +640,7 @@
 | **Sub-CPMK-3.2** | Menganalisis data faktual dan dimensional pada kubus data OLAP. | CPMK-3 | **C3** |
 | **Sub-CPMK-4.1** | Membangun dashboard Business Intelligence eksekutif interaktif menggunakan Power BI/Tableau. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Merancang visualisasi KPI yang komunikatif untuk pengambilan keputusan. | CPMK-4 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -669,6 +684,7 @@
 | **Sub-CPMK-4.1** | Mendokumentasikan API menggunakan Swagger/OpenAPI. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Mendeploy backend ke server cloud menggunakan kontainer Docker. | CPMK-4 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -711,6 +727,7 @@
 | **Sub-CPMK-4.1** | Mengevaluasi arsitektur cloud dengan load balancing dan auto-scaling. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengevaluasi toleransi bencana (high availability) pada sistem cloud. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -749,6 +766,7 @@
 | **Sub-CPMK-2.2** | Menerapkan kontrol akses berbasis peran (RBAC) pada sistem informasi. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Mengevaluasi insiden keamanan siber menggunakan kerangka NIST CSF. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi praktik keamanan informasi pada kerangka ISO/IEC 27001. | CPMK-3 | **C5** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -790,6 +808,7 @@
 | **Sub-CPMK-2.2** | Menganalisis binary dasar menggunakan reverse engineering (Ghidra). | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Mengevaluasi proses incident response pada insiden keamanan. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi kepatuhan terhadap kontrol audit ISO/IEC 27001. | CPMK-3 | **C5** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -833,6 +852,7 @@
 | **Sub-CPMK-4.1** | Membangun dashboard visualisasi data interaktif untuk eksekutif. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Menyusun laporan insight data berbasis visualisasi yang komunikatif. | CPMK-4 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -874,6 +894,7 @@
 | **Sub-CPMK-3.2** | Merancang penyimpanan data time-series untuk aplikasi IoT. | CPMK-3 | **C4** |
 | **Sub-CPMK-4.1** | Membangun aplikasi IoT end-to-end dari sensor hingga dashboard analitik. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Mengevaluasi performa dan keandalan sistem IoT yang dibangun. | CPMK-4 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -917,6 +938,7 @@
 | **Sub-CPMK-4.1** | Menguji dan merilis aplikasi mobile pada perangkat nyata. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Membangun aplikasi mobile end-to-end yang terintegrasi dan siap rilis. | CPMK-4 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -958,6 +980,7 @@
 | **Sub-CPMK-3.2** | Menggunakan Jira untuk pengelolaan backlog dan sprint. | CPMK-3 | **C3** |
 | **Sub-CPMK-4.1** | Melakukan manajemen risiko proyek dan menyusun rencana mitigasi. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengevaluasi kinerja proyek menggunakan Earned Value Management (CPI, SPI, EAC). | CPMK-4 | **C5** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1003,6 +1026,7 @@
 | **Sub-CPMK-4.1** | Melakukan load testing untuk mengukur kapasitas layanan AI. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1044,6 +1068,7 @@
 | **Sub-CPMK-3.2** | Merancang integrasi data lintas instansi pemerintahan digital. | CPMK-3 | **C4** |
 | **Sub-CPMK-4.1** | Menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Membangun purwarupa layanan smart city end-to-end yang terintegrasi data. | CPMK-4 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1087,6 +1112,7 @@
 | **Sub-CPMK-4.1** | Menerapkan regularisasi (dropout, batch norm) dan teknik optimasi pada pelatihan model. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Mengevaluasi dan menyempurnakan performa model deep learning pada dataset nyata. | CPMK-4 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1128,6 +1154,7 @@
 | **Sub-CPMK-3.2** | Mengonfigurasi observability (logging, tracing, metrik) pada platform. | CPMK-3 | **C4** |
 | **Sub-CPMK-4.1** | Membangun platform digital terintegrasi berbasis arsitektur layanan modern. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Mengevaluasi keandalan dan skalabilitas platform digital yang dibangun. | CPMK-4 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1173,6 +1200,28 @@
 | **Sub-CPMK-4.1** | Menyusun investor pitch deck dan rencana bisnis startup. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Mempresentasikan startup pada ajang Demo Day dengan argumen bisnis yang valid. | CPMK-4 | **C6** |
 
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menganalisis problem-solution fit | Mahasiswa (*A*) mampu menganalisis problem-solution fit dengan pendekatan Lean Startup (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Menyusun value proposition dan identifikasi segmen pasar sasaran | Mahasiswa (*A*) mampu menyusun value proposition dan identifikasi segmen pasar sasaran (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Membangun Minimum Viable Product (MVP) fungsional dari ide startup | Mahasiswa (*A*) mampu membangun Minimum Viable Product (MVP) fungsional dari ide startup (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menguji MVP kepada pengguna awal dan mengiterasi | Mahasiswa (*A*) mampu menguji MVP kepada pengguna awal dan mengiterasi berdasarkan umpan balik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Menganalisis metrik pertumbuhan startup (AARRR, CAC, LTV, Burn Rate) | Mahasiswa (*A*) mampu menganalisis metrik pertumbuhan startup (AARRR, CAC, LTV, Burn Rate) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Menyusun strategi pertumbuhan dan monetisasi startup digital | Mahasiswa (*A*) mampu menyusun strategi pertumbuhan dan monetisasi startup digital (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | Sub-4.1 | Menyusun investor pitch deck dan rencana bisnis startup | Mahasiswa (*A*) mampu menyusun investor pitch deck dan rencana bisnis startup (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 10 | Sub-4.2 | Mempresentasikan startup | Mahasiswa (*A*) mampu mempresentasikan startup pada ajang Demo Day dengan argumen bisnis yang valid (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1216,6 +1265,7 @@
 | **Sub-CPMK-3.1** | Membangun aplikasi web DSS interaktif untuk pengambilan keputusan. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Mengevaluasi keandalan sistem pendukung keputusan yang dibangun. | CPMK-3 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1255,6 +1305,7 @@
 | **Sub-CPMK-3.1** | Menyusun chain of custody dan laporan investigasi digital forensik. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi temuan forensik untuk rekomendasi peningkatan keamanan jaringan. | CPMK-3 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1293,6 +1344,7 @@
 | **Sub-CPMK-2.2** | Menganalisis hasil pengukuran usability untuk perbaikan desain. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Merancang enterprise design system yang konsisten dan dapat diskalakan. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Menerapkan kepatuhan aksesibilitas WCAG pada hasil desain riset. | CPMK-3 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1338,6 +1390,7 @@
 | **Sub-CPMK-4.1** | Menerapkan optimasi SGD/Gradient Descent pada masalah komputasi numerik. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Membangun solusi komputasi numerik end-to-end dengan Python/NumPy. | CPMK-4 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1380,6 +1433,7 @@
 | **Sub-CPMK-4.1** | Membangun sistem multi-agen untuk menyelesaikan masalah terdistribusi. | CPMK-4 | **C5** |
 | **Sub-CPMK-4.2** | Mengevaluasi kinerja dan efektivitas sistem agen yang dibangun. | CPMK-4 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1418,6 +1472,7 @@
 | **Sub-CPMK-2.2** | Menerapkan GitOps (ArgoCD) untuk deployment berkelanjutan. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Menyusun pipeline CI/CD kontainer untuk otomasi rilis aplikasi. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Mengevaluasi keandalan dan keamanan jalur deployment DevOps. | CPMK-3 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1458,6 +1513,7 @@
 | **Sub-CPMK-3.1** | Menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP). | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi efektivitas program manajemen risiko keamanan informasi. | CPMK-3 | **C5** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1497,6 +1553,7 @@
 | **Sub-CPMK-3.1** | Mengintegrasikan sistem melalui ESB/API dan middleware. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Membangun solusi Business Process Automation end-to-end. | CPMK-3 | **C6** |
 
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1535,6 +1592,7 @@
 | **Sub-CPMK-2.2** | Merancang alur pembayaran dan pencatatan transaksi yang aman. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal. | CPMK-3 | **C6** |
+
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1576,6 +1634,28 @@
 | **Sub-CPMK-2.2** | Menerapkan feature store untuk konsistensi data model. | CPMK-2 | **C6** |
 | **Sub-CPMK-3.1** | Mendeploy model dengan strategi canary dan blue-green. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi performa dan stabilitas pipeline AI di produksi. | CPMK-3 | **C5** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menganalisis siklus hidup MLOps (CI/CD/CT) | Mahasiswa (*A*) mampu menganalisis siklus hidup MLOps (CI/CD/CT) untuk model Machine Learning (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Mengelola eksperimen dan registry model | Mahasiswa (*A*) mampu mengelola eksperimen dan registry model menggunakan MLflow (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengotomasi retraining model dan monitoring data drift | Mahasiswa (*A*) mampu mengotomasi retraining model dan monitoring data drift (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menerapkan feature store | Mahasiswa (*A*) mampu menerapkan feature store untuk konsistensi data model (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Mendeploy model | Mahasiswa (*A*) mampu mendeploy model dengan strategi canary dan blue-green (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi performa dan stabilitas pipeline AI di produksi | Mahasiswa (*A*) mampu mengevaluasi performa dan stabilitas pipeline AI di produksi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1619,6 +1699,28 @@
 | **Sub-CPMK-4.1** | Membangun intelligent assistant end-to-end yang andal. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Menyempurnakan perilaku asisten berdasarkan evaluasi pengguna. | CPMK-4 | **C6** |
 
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menerapkan fine-tuning model LLM/Transformer | Mahasiswa (*A*) mampu menerapkan fine-tuning model LLM/Transformer untuk kebutuhan spesifik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Menyusun prompt engineering yang efektif | Mahasiswa (*A*) mampu menyusun prompt engineering yang efektif untuk tugas percakapan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Membangun sistem RAG | Mahasiswa (*A*) mampu membangun sistem RAG menggunakan LangChain dan vector database (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Mengimplementasikan agentic AI | Mahasiswa (*A*) mampu mengimplementasikan agentic AI dengan tool-use dan pemanggilan fungsi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Mengevaluasi kualitas respons percakapan asisten AI | Mahasiswa (*A*) mampu mengevaluasi kualitas respons percakapan asisten AI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengintegrasikan asisten percakapan ke saluran layanan pengguna | Mahasiswa (*A*) mampu mengintegrasikan asisten percakapan ke saluran layanan pengguna (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | Sub-4.1 | Membangun intelligent assistant end-to-end yang andal | Mahasiswa (*A*) mampu membangun intelligent assistant end-to-end yang andal (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 10 | Sub-4.2 | Menyempurnakan perilaku asisten | Mahasiswa (*A*) mampu menyempurnakan perilaku asisten berdasarkan evaluasi pengguna (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1661,6 +1763,28 @@
 | **Sub-CPMK-4.1** | Mengevaluasi keandalan dan latensi sistem smart surveillance. | CPMK-4 | **C6** |
 | **Sub-CPMK-4.2** | Menyempurnakan sistem pengawasan berdasarkan metrik akurasi deteksi. | CPMK-4 | **C6** |
 
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menerapkan video analytics dan deteksi objek real-time (YOLO) | Mahasiswa (*A*) mampu menerapkan video analytics dan deteksi objek real-time (YOLO) pada edge device (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Menganalisis alur pengolahan citra dan pelacakan objek/re-identification | Mahasiswa (*A*) mampu menganalisis alur pengolahan citra dan pelacakan objek/re-identification (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengintegrasikan kamera dan sensor | Mahasiswa (*A*) mampu mengintegrasikan kamera dan sensor untuk akuisisi data pengawasan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Mengirim data telemetri dari edge ke platform | Mahasiswa (*A*) mampu mengirim data telemetri dari edge ke platform secara real-time (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Membangun dashboard monitoring IoT | Mahasiswa (*A*) mampu membangun dashboard monitoring IoT untuk visualisasi analitik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengembangkan pipeline analitik smart surveillance end-to-end | Mahasiswa (*A*) mampu mengembangkan pipeline analitik smart surveillance end-to-end (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | Sub-4.1 | Mengevaluasi keandalan dan latensi sistem smart surveillance | Mahasiswa (*A*) mampu mengevaluasi keandalan dan latensi sistem smart surveillance (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 10 | Sub-4.2 | Menyempurnakan sistem pengawasan | Mahasiswa (*A*) mampu menyempurnakan sistem pengawasan berdasarkan metrik akurasi deteksi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1699,6 +1823,28 @@
 | **Sub-CPMK-2.2** | Menyusun metrik kinerja tata kelola pada kuadran strategis CMMI. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Menyusun rekomendasi perbaikan tata kelola TI berdasarkan hasil audit. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi keselarasan tata kelola TI dengan strategi organisasi. | CPMK-3 | **C5** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, Teori — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menganalisis domain tata kelola TI COBIT 2019 (EDM, APO, BAI, DSS, MEA) | Mahasiswa (*A*) mampu menganalisis domain tata kelola TI COBIT 2019 (EDM, APO, BAI, DSS, MEA) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 3 | Sub-1.2 | Menerapkan prinsip tata kelola COBIT 2019 | Mahasiswa (*A*) mampu menerapkan prinsip tata kelola COBIT 2019 pada organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 4 | Sub-2.1 | Memetakan tujuan TI dan tujuan perusahaan | Mahasiswa (*A*) mampu memetakan tujuan TI dan tujuan perusahaan menggunakan model COBIT 2019 (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menyusun metrik kinerja tata kelola | Mahasiswa (*A*) mampu menyusun metrik kinerja tata kelola pada kuadran strategis CMMI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
+| 6 | Sub-3.1 | Menyusun rekomendasi perbaikan tata kelola TI | Mahasiswa (*A*) mampu menyusun rekomendasi perbaikan tata kelola TI berdasarkan hasil audit (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi keselarasan tata kelola TI | Mahasiswa (*A*) mampu mengevaluasi keselarasan tata kelola TI dengan strategi organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1739,6 +1885,28 @@
 | **Sub-CPMK-3.1** | Mengevaluasi efektivitas service desk dan proses layanan ITIL 4. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Menyusun rekomendasi perbaikan layanan TI berdasarkan metrik ITIL. | CPMK-3 | **C5** |
 
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, Teori — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menjelaskan Service Value System dan praktik ITIL 4 (Core, Improve, Drive) | Mahasiswa (*A*) mampu menjelaskan Service Value System dan praktik ITIL 4 (Core, Improve, Drive) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 3 | Sub-1.2 | Menjelaskan peran SLA/OLA | Mahasiswa (*A*) mampu menjelaskan peran SLA/OLA pada pengelolaan layanan TI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 4 | Sub-2.1 | Mengimplementasikan manajemen incident dan problem | Mahasiswa (*A*) mampu mengimplementasikan manajemen incident dan problem pada organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menerapkan manajemen change dan release management | Mahasiswa (*A*) mampu menerapkan manajemen change dan release management (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
+| 6 | Sub-3.1 | Mengevaluasi efektivitas service desk dan proses layanan ITIL 4 | Mahasiswa (*A*) mampu mengevaluasi efektivitas service desk dan proses layanan ITIL 4 (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 7 | Sub-3.2 | Menyusun rekomendasi perbaikan layanan TI | Mahasiswa (*A*) mampu menyusun rekomendasi perbaikan layanan TI berdasarkan metrik ITIL (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1777,6 +1945,28 @@
 | **Sub-CPMK-2.2** | Memodelkan arsitektur application dan technology menggunakan ArchiMate. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Menyusun dokumen enterprise architecture yang selaras strategi organisasi. | CPMK-3 | **C5** |
 | **Sub-CPMK-3.2** | Mengevaluasi kesenjangan arsitektur (gap analysis) dan rencana migrasi. | CPMK-3 | **C5** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, Teori — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menjelaskan pendekatan TOGAF ADM (Architecture Vision hingga Migration Planning) | Mahasiswa (*A*) mampu menjelaskan pendekatan TOGAF ADM (Architecture Vision hingga Migration Planning) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 3 | Sub-1.2 | Menjelaskan peran model arsitektur enterprise | Mahasiswa (*A*) mampu menjelaskan peran model arsitektur enterprise pada organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 4 | Sub-2.1 | Memodelkan arsitektur business dan data | Mahasiswa (*A*) mampu memodelkan arsitektur business dan data menggunakan ArchiMate (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Memodelkan arsitektur application dan technology | Mahasiswa (*A*) mampu memodelkan arsitektur application dan technology menggunakan ArchiMate (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
+| 6 | Sub-3.1 | Menyusun dokumen enterprise architecture yang selaras strategi organisasi | Mahasiswa (*A*) mampu menyusun dokumen enterprise architecture yang selaras strategi organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi kesenjangan arsitektur (gap analysis) dan rencana migrasi | Mahasiswa (*A*) mampu mengevaluasi kesenjangan arsitektur (gap analysis) dan rencana migrasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
 
 **Boundary Guardrails** (dari Dok 037):
 
@@ -1817,6 +2007,28 @@
 | **Sub-CPMK-3.1** | Membangun aplikasi immersive/XR end-to-end yang dapat dijalankan. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Mengevaluasi kualitas dan performa pengalaman imersif. | CPMK-3 | **C6** |
 
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menerapkan teknologi XR (AR, VR, MR) | Mahasiswa (*A*) mampu menerapkan teknologi XR (AR, VR, MR) pada aplikasi imersif (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Membuat dan mengelola 3D asset | Mahasiswa (*A*) mampu membuat dan mengelola 3D asset menggunakan WebGL/Three.js (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengimplementasikan interaksi kontroller dan gestur spasial | Mahasiswa (*A*) mampu mengimplementasikan interaksi kontroller dan gestur spasial (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Mengintegrasikan Computer Vision/AI | Mahasiswa (*A*) mampu mengintegrasikan Computer Vision/AI untuk pengalaman imersif (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Membangun aplikasi immersive/XR end-to-end yang dapat dijalankan | Mahasiswa (*A*) mampu membangun aplikasi immersive/XR end-to-end yang dapat dijalankan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi kualitas dan performa pengalaman imersif | Mahasiswa (*A*) mampu mengevaluasi kualitas dan performa pengalaman imersif (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1856,6 +2068,28 @@
 | **Sub-CPMK-3.1** | Membangun aplikasi SaaS dengan arsitektur multi-tenant yang andal. | CPMK-3 | **C4** |
 | **Sub-CPMK-3.2** | Mengevaluasi skalabilitas dan keamanan isolasi antar tenant. | CPMK-3 | **C4** |
 
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Merancang arsitektur SaaS multi-tenant | Mahasiswa (*A*) mampu merancang arsitektur SaaS multi-tenant dengan isolasi antar tenant (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Menganalisis skema sharing database | Mahasiswa (*A*) mampu menganalisis skema sharing database pada arsitektur multi-tenant (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengimplementasikan proses on-boarding tenant dan manajemen kuota | Mahasiswa (*A*) mampu mengimplementasikan proses on-boarding tenant dan manajemen kuota (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menerapkan mekanisme monetisasi dan metering (plan, quota) | Mahasiswa (*A*) mampu menerapkan mekanisme monetisasi dan metering (plan, quota) pada SaaS (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Membangun aplikasi SaaS | Mahasiswa (*A*) mampu membangun aplikasi SaaS dengan arsitektur multi-tenant yang andal (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi skalabilitas dan keamanan isolasi antar tenant | Mahasiswa (*A*) mampu mengevaluasi skalabilitas dan keamanan isolasi antar tenant (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
 **Boundary Guardrails** (dari Dok 037):
 
 | Guardrail | Batas Materi |
@@ -1894,6 +2128,28 @@
 | **Sub-CPMK-2.2** | Menyusun PRD dengan user stories dan acceptance criteria. | CPMK-2 | **C4** |
 | **Sub-CPMK-3.1** | Menerapkan agile product management pada siklus pengembangan produk. | CPMK-3 | **C6** |
 | **Sub-CPMK-3.2** | Mengevaluasi metrik produk (activation, retention, revenue) untuk perbaikan. | CPMK-3 | **C6** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, Teori — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menyusun product vision dan OKR produk digital | Mahasiswa (*A*) mampu menyusun product vision dan OKR produk digital (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 3 | Sub-1.2 | Melakukan product discovery | Mahasiswa (*A*) mampu melakukan product discovery untuk memahami kebutuhan pengguna (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 4 | Sub-2.1 | Menerapkan prioritisasi fitur | Mahasiswa (*A*) mampu menerapkan prioritisasi fitur menggunakan metode RICE dan Kano (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menyusun PRD | Mahasiswa (*A*) mampu menyusun PRD dengan user stories dan acceptance criteria (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
+| 6 | Sub-3.1 | Menerapkan agile product management | Mahasiswa (*A*) mampu menerapkan agile product management pada siklus pengembangan produk (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi metrik produk (activation, retention, revenue) | Mahasiswa (*A*) mampu mengevaluasi metrik produk (activation, retention, revenue) untuk perbaikan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
 
 **Boundary Guardrails** (dari Dok 037):
 
