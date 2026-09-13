@@ -1,0 +1,4168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>043 — MATRIKS CPL, CPMK, BoK, DAN BOUNDARY GUARDRAILS PER MATA KULIAH</title>
+<style>
+@page { size: A4; margin: 15mm 12mm 16mm 12mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Calibri, Arial, sans-serif; font-size: 10pt; line-height: 1.5; color: #1a1a1a; margin: 0; }
+h1 { font-size: 18pt; color: #1F3864; border-bottom: 3px solid #2E75B6; padding-bottom: 6px; page-break-after: avoid; }
+h2 { font-size: 14pt; color: #1F3864; border-bottom: 1px solid #BDD7EE; padding-bottom: 4px; page-break-after: avoid; margin-top: 18px; }
+h3 { font-size: 11.5pt; color: #2E75B6; page-break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 8.5pt; background: #f2f5f9; padding: 1px 4px; border-radius: 3px; word-break: break-word; }
+pre { background: #f2f5f9; border: 1px solid #d3d3d3; border-radius: 6px; padding: 10px 12px; white-space: pre-wrap; word-break: break-word; page-break-inside: avoid; }
+pre code { background: transparent; padding: 0; }
+blockquote { border-left: 4px solid #2E75B6; background: #eef4fb; margin: 12px 0; padding: 8px 14px; border-radius: 0 6px 6px 0; page-break-inside: avoid; }
+img { max-width: 100%; height: auto; display: block; margin: 10px auto; page-break-inside: avoid; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0 14px 0; font-size: 8.2pt; line-height: 1.4; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: #1F3864; color: #ffffff; font-weight: 700; text-align: left; }
+th, td { border: 1px solid #8a8a8a; padding: 4px 5px; vertical-align: top; word-break: break-word; }
+tbody tr:nth-child(even) td { background: #f2f5f9; }
+.table-wrapper { width: 100%; overflow: visible; }
+.cover { text-align: center; margin: 0 0 18px 0; padding: 18px; background: #1F3864; color: #fff; border-radius: 10px; }
+.cover h1 { color: #fff; border: none; margin: 0; }
+.cover p { color: #dce8f7; margin: 4px 0 0 0; }
+.footer-note { margin-top: 22px; font-size: 8pt; color: #595959; border-top: 1px solid #ccc; padding-top: 8px; }
+</style>
+</head>
+<body>
+<div class="cover"><h1>043 — MATRIKS CPL, CPMK, BoK, DAN BOUNDARY GUARDRAILS PER MATA KULIAH</h1><p>Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang — Kurikulum OBE 2026</p></div>
+<h1 id="043-matriks-cpl-cpmk-bok-dan-boundary-guardrails-per-mata-kuliah">043 — MATRIKS CPL, CPMK, BoK, DAN BOUNDARY GUARDRAILS PER MATA KULIAH</h1>
+<h2 id="matriks-kompilasi-per-semester-core-sti-peminatan-kurikulum-obe-sistekin-2026">Matriks Kompilasi Per Semester — Core STI &amp; Peminatan (Kurikulum OBE SISTEKIN 2026)</h2>
+<p><strong>Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</strong></p>
+<blockquote>
+<p>Dokumen kerja ini mengikat <strong>CPL yang Dibebankan</strong>, <strong>Rumusan CPMK (ABCD + Level Bloom)</strong>, <strong>Bahan Kajian (BoK)</strong>, dan <strong>Boundary Guardrails (IN-SCOPE / OUT-OF-SCOPE / Handoff Anchor)</strong> untuk setiap mata kuliah, disusun <strong>per semester</strong>. Urutan: <strong>Bagian A — MK Core Prodi (STI)</strong>; <strong>Bagian B — MK Peminatan (STA/STB/STC)</strong> per jalur.</p>
+</blockquote>
+<p><strong>Sumber data:</strong> Dok 005 (struktur semester &amp; SKS), Dok 007 (CPL &amp; CPMK ABCD), Dok 037 (BoK &amp; Boundary Guardrails). <em>Primer untuk BoK sesuai Batas yang ditetapkan Dok 037; untuk beberapa MK core yang tidak dibahas eksplisit di klaster Dok 037, BoK dirujuk dari katalog BoK bagian 2 Dok 037 berdasarkan isi CPMK.</em></p>
+<hr />
+<h2 id="bagian-a-matriks-mk-core-prodi-sti-per-semester">BAGIAN A — MATRIKS MK CORE PRODI (STI) PER SEMESTER</h2>
+<h3 id="a-1-semester-1">A-1. SEMESTER 1</h3>
+<h3 id="1-sti-101-pengantar-sistem-dan-teknologi-informasi">1. STI-101 — Pengantar Sistem dan Teknologi Informasi</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>1 / 2 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Sistem Informasi &amp; Tata Kelola</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Konsep Sistem Informasi &amp; Transformasi Digital)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS01</code> Foundations of Information Systems &amp; <code>BK-IS15</code> Digital Innovation and Entrepreneurship</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menguraikan</strong> komponen pembentuk sistem informasi, siklus data-ke-informasi, dan perannya dalam organisasi (<em>B</em>) melalui studi kasus bisnis (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C2</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membandingkan</strong> jenis-jenis sistem informasi enterprise (TPS, MIS, DSS, ERP, CRM, SCM) (<em>B</em>) pada ekosistem industri modern (<em>C</em>) dengan analisis komparasi yang valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> usulan solusi transformasi digital berbasis AI, Cloud, dan IoT (<em>B</em>) terhadap permasalahan proses bisnis konvensional (<em>C</em>) secara etis dan layak bisnis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Konsep data-informasi-pengetahuan, komponen SI, sistem enterprise (TPS/MIS/DSS/ERP/CRM/SCM), transformasi digital (AI, Cloud, IoT), pengantar tata kelola TI &amp; cybersecurity.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Implementasi koding sistem / algoritma pemrograman terperinci; perancangan arsitektur cloud teknis; pentesting.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Memberi konteks bisnis &amp; peta TI; menyerahkan pengembangan sistem ke FST-102/STI-306 dan fondasi infrastruktur ke STI-103.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="2-sti-102-kalkulus">2. STI-102 — Kalkulus</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>1 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Matematika &amp; Sains Komputasi</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P1</code> (Matematika Sains Komputasi &amp; Fondasi AI)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS10</code> Applied Mathematics and Logic &amp; <code>BK-IT01</code> Information Technology Fundamentals</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menghitung</strong> limit fungsi aljabar/transenden dan memeriksa kontinuitas (<em>B</em>) menggunakan kaidah kalkulus baku (<em>C</em>) secara teliti dan benar (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> konsep turunan fungsi multivariat dan gradien (<em>B</em>) pada permasalahan laju perubahan dan optimasi ekstremum (<em>C</em>) dengan prosedur matematis standar (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> permasalahan integral tentu dan tak tentu (<em>B</em>) menggunakan teknik substitusi dan integrasi parsial (<em>C</em>) untuk pemodelan fungsi komputasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> aplikasi kalkulus diferensial-integral (<em>B</em>) pada algoritma optimasi penurunan gradien (Gradient Descent) dan luasan data (<em>C</em>) secara matematis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Limit, kontinuitas, turunan (univariat &amp; multivariat), integral, aplikasi pada optimasi &amp; Gradient Descent.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Koding numerik; pembuktian aljabar abstrak; metode numerik diskrit (itu ranah STA-601).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Turunan/integral kontinu jadi dasar STI-205 (aljabar linear) dan STI-413 (ML); komputasi aproksimasi diserahkan ke STA-601.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="3-sti-103-arsitektur-dan-organisasi-sistem-teknologi-informasi">3. STI-103 — Arsitektur dan Organisasi Sistem Teknologi Informasi</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>1 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Infrastruktur, Sistem &amp; Komputasi Awan</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P1</code> (Representasi Data Biner &amp; Logika), <code>P3</code> (Arsitektur Perangkat Keras, Virtualisasi &amp; Infrastruktur TI), <code>KU1</code> (Pemikiran Logis Rekayasa Sistem)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS03</code> IT Infrastructure and Networking &amp; <code>BK-IT01</code> Information Technology Fundamentals</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> representasi data biner, heksadesimal, floating point IEEE 754, dan siklus eksekusi instruksi Von Neumann (<em>B</em>) pada arsitektur prosesor (<em>C</em>) secara tepat dan akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1, P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> rancangan rangkaian logika kombinasional dan sekuensial (<em>B</em>) menggunakan gerbang logika biner dan flip-flop (<em>C</em>) sebagai dasar operasi Arithmetic Logic Unit (ALU) (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1, KU1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membandingkan</strong> karakteristik arsitektur prosesor CISC (x86_64) vs RISC (ARM64 / RISC-V), hirarki memori cache L1/L2/L3, dan akselerator komputasi GPU/NPU (<em>B</em>) dalam skenario beban kerja komputasi nyata (<em>C</em>) secara kritis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KU1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> mekanisme bus sistem, interupsi I/O, abstraksi virtualisasi hardware (Hypervisor), dan organisasi server data center (<em>B</em>) untuk mendukung infrastruktur cloud modern (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P3, KU1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Representasi biner/BL, gerbang logika, CPU (ALU/register), Fetch-Decode-Execute, hierarki memori &amp; cache, I/O, virtualisasi hardware, arsitektur server data center.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Logika predikat/aljabar relasi (STI-204); manajemen thread OS (STI-310); konfigurasi router (STI-312).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Memahami mesin fisik; menyerahkan manajemen perangkat lunak sistem ke STI-310 dan komunikasi data ke STI-312.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="a-2-semester-2">A-2. SEMESTER 2</h3>
+<h3 id="4-sti-204-matematika-diskrit-dan-logika">4. STI-204 — Matematika Diskrit dan Logika</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>2 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Matematika &amp; Sains Komputasi</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-103</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P1</code> (Fondasi Struktur Diskrit, Logika Komputasi &amp; Graf), <code>KU1</code> (Penalaran Formal Kritis)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS10</code> Applied Mathematics and Logic &amp; <code>BK-IT01</code> Information Technology Fundamentals</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membuktikan</strong> validitas argumen inferensi logika proposisi/predikat dan kebenaran algoritma (<em>B</em>) menggunakan tabel kebenaran, hukum aljabar logika, dan metode induksi matematika (<em>C</em>) secara runtut dan valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1, KU1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> konsep relasi ekuivalensi, himpunan terurut parsial (Poset), aljabar Boolean, dan kombinatorika (<em>B</em>) pada pemodelan struktur data dan logika query basis data (<em>C</em>) secara tepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> struktur Graf dan Pohon (Tree) (<em>B</em>) menggunakan matriks representasi (Adjacency Matrix) dan algoritma penelusuran lintasan (<em>C</em>) untuk optimasi jaringan data/komputer (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1, KU1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> model otomata berhingga (Finite State Automata / FSA: DFA dan NFA) (<em>B</em>) untuk pengenalan pola bahasa formal dan transisi status sistem komputasi (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Logika proposisi &amp; predikat, tabel kebenaran, relasi, himpunan terurut, aljabar Boolean, kombinatorika, graf &amp; pohon, FSA (DFA/NFA).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Gerbang logika fisik/gerbang mikroprosesor (STI-103); kalkulus diferensial-integral kontinu.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Logika formal &amp; struktur diskrit jadi fondasi STI-307 (Sistem Cerdas) dan STI-413.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="5-sti-205-aljabar-linear-dan-matriks">5. STI-205 — Aljabar Linear dan Matriks</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>2 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Matematika &amp; Sains Komputasi</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-102</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P1</code> (Aljabar Linear, Ruang Vektor &amp; Dekomposisi Matriks)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS10</code> Applied Mathematics and Logic &amp; <code>BK-IS18</code> Machine Learning and Data Science</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyelesaikan</strong> Sistem Persamaan Linear (SPL) (<em>B</em>) menggunakan eliminasi Gauss-Jordan dan matriks invers (<em>C</em>) secara tepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> struktur ruang vektor, kombinasi linier, kebebasan linier, basis, dan dimensi (<em>B</em>) pada ruang $\mathbb{R}^n$ (<em>C</em>) dengan kaidah aljabar formal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menghitung</strong> nilai eigen (Eigenvalues), vektor eigen (Eigenvectors), dan diagonalisasi matriks (<em>B</em>) pada matriks transformasi linier (<em>C</em>) secara presisi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> dekomposisi matriks SVD (Singular Value Decomposition) dan reduksi dimensi PCA (<em>B</em>) menggunakan pustaka Python NumPy (<em>C</em>) untuk pemrosesan data AI (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>SPL, eliminasi Gauss-Jordan, ruang vektor, basis &amp; dimensi, nilai eigen, diagonalisasi, dekomposisi SVD &amp; reduksi PCA (Python/NumPy).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Koding numerik penuh untuk fungsi non-linier (STA-601); pemodelan dataset ML.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Matriks linear menjadi prasyarat STI-413 (ML) dan fondasi STA-601.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="a-3-semester-3">A-3. SEMESTER 3</h3>
+<h3 id="6-sti-306-analisis-dan-perancangan-sistem-informasi">6. STI-306 — Analisis dan Perancangan Sistem Informasi</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Sistem Informasi &amp; Tata Kelola</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-101, FST-207</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Pemodelan Proses Bisnis &amp; Data), <code>KU1</code> (Problem Solving Analitik)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS07</code> Systems Analysis and Design &amp; <code>BK-IS09</code> Business Process Management</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengelisitasi</strong> kebutuhan fungsional dan non-fungsional perangkat lunak (<em>B</em>) dari pemangku kepentingan industri (<em>C</em>) dalam bentuk dokumen spesifikasi kebutuhan SRS IEEE 830 (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KU1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>memodelkan</strong> alur proses bisnis organisasi (<em>B</em>) menggunakan standar notasi BPMN 2.0 (<em>C</em>) dengan analisis efisiensi proses As-Is vs To-Be (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> pemodelan berorientasi objek (Use Case, Activity, Class, Sequence, State Machine) (<em>B</em>) menggunakan Unified Modeling Language (UML 2.5) (<em>C</em>) secara konsisten (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen arsitektur dan desain perangkat lunak komprehensif (SDD) (<em>B</em>) untuk persiapan implementasi teknis (<em>C</em>) secara profesional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Elisitasi kebutuhan, BPMN 2.0, UML fungsional &amp; struktural, dokumen SRS (IEEE 830).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Koding aplikasi &amp; unit testing (STI-309); estimasi biaya proyek (STI-523).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Cetak biru kebutuhan; menyerahkan konstruksi &amp; pengujian ke STI-309, manajemen ke STI-523.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="7-sti-307-sistem-cerdas">7. STI-307 — Sistem Cerdas</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 2 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Kecerdasan Artifisial</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-204, FST-204</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Representasi Pengetahuan &amp; Penalaran AI), <code>KK1</code> (Sistem Cerdas Bisnis)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS16</code> Artificial Intelligence &amp; Intelligent Systems &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma pencarian heuristic (A<em>, Greedy Best-First, Minimax) (</em>B<em>) pada permasalahan optimasi ruang status (</em>C<em>) dengan kompleksitas ruang/waktu terukur (</em>D*).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> sistem pakar (<em>Expert System</em>) dengan metode penalaran Forward Chaining dan Backward Chaining (<em>B</em>) berbasis basis aturan (<em>C</em>) secara logis dan konsisten (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> sistem inferensi logika fuzzy (Mamdani dan Sugeno) (<em>B</em>) untuk pengambilan keputusan dalam kondisi ketidakpastian (<em>C</em>) menggunakan Python Scikit-Fuzzy (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Pencarian heuristik (A*, Greedy, Minimax), knowledge representation, sistem pakar (forward/backward chaining), fuzzy inference.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>ML statistik / neural network / deep learning (STI-413/STI-626); agen otonom &amp; MAS (STA-602).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Inferensi simbolik deterministik; menyerahkan ML probabilistik ke STI-413 dan NLP ke STI-414.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="8-sti-308-uiux-design-prototyping">8. STI-308 — UI/UX Design &amp; Prototyping</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Interaksi Manusia-Komputer &amp; UX</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>FST-101</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>KK5</code> (Perancangan Antarmuka Pengguna &amp; Pengalaman Pengguna Digital)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS17</code> Human-Computer Interaction &amp; UX &amp; <code>BK-IT10</code> User Experience &amp; Interaction Design</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> riset pengguna (<em>User Research</em>) melalui wawancara, observasi, dan persona (<em>B</em>) menggunakan metodologi Design Thinking (<em>C</em>) dengan empati mendalam (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> arsitektur informasi, alur pengguna (<em>User Flow</em>), dan <em>Wireframe</em> (<em>B</em>) pada aplikasi web/mobile (<em>C</em>) secara terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> purwarupa interaktif <em>High-Fidelity</em> dan <em>Design System</em> (<em>B</em>) menggunakan perangkat lunak Figma (<em>C</em>) dengan kepatuhan standar aksesibilitas WCAG (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> kegunaan antarmuka (<em>Usability Testing</em>) (<em>B</em>) menggunakan System Usability Scale (SUS) dan Heuristic Evaluation (<em>C</em>) dengan analisis kuantitatif/kualitatif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Teori warna, tipografi, prinsip Gestalt, arsitektur informasi, wireframe, prototyping Figma, usability testing dasar (SUS/10 heuristics).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Riset pengguna kualitatif mendalam &amp; A/B testing (STC-501); koding frontend (STI-311).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Purwarupa interaktif; menyerahkan riset ilmiah pengguna ke STC-501 dan frontend ke STI-311.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="9-sti-309-rekayasa-perangkat-lunak">9. STI-309 — Rekayasa Perangkat Lunak</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Rekayasa Perangkat Lunak</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>FST-203</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur Perangkat Lunak), <code>KK5</code> (Jaminan Kualitas &amp; Pengujian Software)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS07</code> Systems Analysis and Design &amp; <code>BK-IT11</code> Software Development Practices</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>memilih</strong> model proses pengembangan perangkat lunak (Waterfall, V-Model, Scrum, Kanban) (<em>B</em>) yang sesuai dengan karakteristik proyek industri (<em>C</em>) secara terjustifikasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> arsitektur perangkat lunak modular dan prinsip SOLID (<em>B</em>) pada perancangan subsistem software (<em>C</em>) dengan <em>coupling</em> rendah dan <em>cohesion</em> tinggi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skenario pengujian perangkat lunak White-Box (Basis Path, Cyclomatic Complexity) dan Black-Box (BVA, Equivalence Partitioning) (<em>B</em>) berdasarkan spesifikasi sistem (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> kualitas perangkat lunak (<em>B</em>) berdasarkan standar ISO/IEC 25010 dan metrik pengujian otomatis (<em>C</em>) secara objektif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Model proses (Waterfall, V-Model, Scrum), arsitektur perangkat lunak, design pattern &amp; SOLID, SQA, unit/integration testing, ISO/IEC 25010.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Elisitasi kebutuhan bisnis dari nol (STI-306); EVM &amp; kontrak proyek (STI-523).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Menjamin kualitas kode; menyerahkan tata kelola jadwal/biaya ke STI-523.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="10-sti-310-sistem-operasi">10. STI-310 — Sistem Operasi</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Infrastruktur, Sistem &amp; Komputasi Awan</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-103</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Kernel OS, Konkurensi &amp; Manajemen Memori), <code>KK3</code> (Infrastruktur Sistem)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS03</code> IT Infrastructure and Networking &amp; <code>BK-IT01</code> Information Technology Fundamentals</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> siklus hidup proses, mekanisme thread, dan algoritma penjadwalan CPU (<em>B</em>) pada sistem multi-tasking (<em>C</em>) dengan perhitungan rata-rata waktu tunggu (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyelesaikan</strong> permasalahan sinkronisasi proses (Race Condition, Deadlock) (<em>B</em>) menggunakan Semaphore, Mutex, dan Algoritma Banker (<em>C</em>) secara matematis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> kinerja manajemen memori virtual (Paging, Segmentasi, Page Replacement) dan alokasi sistem berkas (<em>B</em>) pada arsitektur sistem operasi modern (<em>C</em>) dengan analisis page fault minimum (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Kernel OS, proses &amp; thread, CPU scheduling, sinkronisasi &amp; deadlock, manajemen memori virtual, file system (Linux/POSIX).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Gerbang logika fisik (STI-103); konfigurasi routing/IP (STI-312); deployment Kubernetes (STB-601).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Manajemen resource mesin lokal; menyerahkan interkoneksi antar-mesin ke STI-312.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="11-sti-311-web-front-end-development">11. STI-311 — Web Front End Development</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Platform &amp; Pengembangan Web/Mobile</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>FST-102</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Pemrograman Web Modern), <code>KK5</code> (Single Page Application / SPA)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS12</code> Web and Mobile App Development &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> struktur halaman web responsif multi-device (<em>B</em>) menggunakan HTML5 Semantik, CSS3 Flexbox/Grid, dan Variabel CSS (<em>C</em>) dengan tampilan estetik (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> logika interaktivitas client-side (<em>B</em>) menggunakan JavaScript Modern (ES6+, DOM Manipulation, Async/Await, Fetch API) (<em>C</em>) secara modular (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> aplikasi Single Page Application (SPA) berbasis komponen (<em>B</em>) menggunakan framework React.js (Hooks, Context API, React Router) (<em>C</em>) dengan arsitektur state terpusat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> aplikasi front-end dengan RESTful API eksternal (<em>B</em>) serta <strong>mengoptimalkan</strong> performa loading (<em>C</em>) dengan skor Google Lighthouse $\ge 85$ (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>HTML5/CSS3 (Flexbox, Grid), JavaScript ES6+ (DOM, Async/Await), SPA React (Hooks, Context), konsumsi REST API client-side.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Koding server-side/koneksi DB (STI-416); backend business logic.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Antarmuka web interaktif; menyerahkan penyediaan data server-side ke STI-416.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="12-sti-312-jaringan-komputer">12. STI-312 — Jaringan Komputer</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>3 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Infrastruktur, Sistem &amp; Komputasi Awan</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-103</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Protokol Jaringan TCP/IP &amp; Subnetting), <code>KK3</code> (Konfigurasi Switch/Router Enterprise)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS03</code> IT Infrastructure and Networking &amp; <code>BK-IT03</code> Networking &amp; Communications</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skema pengalamatan jaringan IPv4 (<em>B</em>) menggunakan teknik Variable Length Subnet Mask (VLSM) dan CIDR (<em>C</em>) dengan efisiensi alokasi IP optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonfigurasi</strong> perangkat Switch dan Router (<em>B</em>) untuk implementasi VLAN, Trunking, dan Inter-VLAN Routing (<em>C</em>) menggunakan Cisco Packet Tracer (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> protokol routing dinamis OSPF (<em>B</em>) pada topologi jaringan multi-router (<em>C</em>) dengan tabel routing konvergen (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> lalu lintas protokol lapisan aplikasi (HTTP, DNS, DHCP) dan keamanan Access Control List (ACL) (<em>B</em>) menggunakan Wireshark (<em>C</em>) secara kritis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Model OSI &amp; TCP/IP, subnetting VLSM/CIDR, IPv6, protokol transport, routing (OSPF), layanan jaringan (DNS/DHCP/NAT), ACL dasar.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Manajemen memori OS (STI-310); konfigurasi cloud publik (STI-417); pentesting exploit (STI-519).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Komunikasi data jaringan; menyerahkan komputasi cloud ke STI-417 dan keamanan ke STI-418.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="a-4-semester-4">A-4. SEMESTER 4</h3>
+<h3 id="13-sti-413-machine-learning">13. STI-413 — Machine Learning</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>4 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Kecerdasan Artifisial</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-205, STI-307</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Arsitektur Data &amp; Model AI), <code>KK1</code> (Pelatihan &amp; Evaluasi Model ML), <code>KK2</code> (Rekayasa Fitur)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS18</code> Machine Learning and Data Science &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> alur kerja rekayasa data Machine Learning (EDA, Imputation, Encoding, Scaling) (<em>B</em>) menggunakan Python dan scikit-learn (<em>C</em>) bebas data leakage (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi dan melatih</strong> model pembelajaran terbimbing (Linear Regression, Logistic Regression, Decision Tree, Random Forest, SVM) (<em>B</em>) pada dataset tabular (<em>C</em>) dengan parameter optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> model pembelajaran tak-terbimbing (K-Means, Hierarchical, PCA) (<em>B</em>) untuk segmentasi data dan reduksi dimensi (<em>C</em>) dengan validasi siluet yang valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P2, KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Data tabular &amp; pipeline scikit-learn, regresi, decision tree, random forest, SVM, K-Means, PCA, hyperparameter tuning, metrik evaluasi.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>PyTorch/TensorFlow, CNN/RNN, deep learning (STI-626); sistem otonom BDI &amp; teori permainan (STA-602).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Pemodelan data tabular klasik; menyerahkan data tak terstruktur (citra/sekuensial) ke STI-626.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="14-sti-414-pengantar-nlp-information-retrieval">14. STI-414 — Pengantar NLP &amp; Information Retrieval</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>4 / 2 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Kecerdasan Artifisial</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-307</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>KK1</code> (Perancangan Sistem Cerdas berbasis AI/NLP), <code>P2</code> (Konsep &amp; Rekayasa SI Cerdas)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS16</code> Artificial Intelligence &amp; Intelligent Systems &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan tahapan pemrosesan awal teks</strong> (<em>Text Preprocessing: tokenisasi, normalisasi, stopword removal, stemming/lemmatisasi</em>) (<em>B</em>) pada korpus teks bahasa alami (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK1, P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis dan membangun model representasi teks serta sistem temu balik informasi</strong> (<em>Information Retrieval: TF-IDF, Vector Space Model, BM25, Inverted Index</em>) (<em>B</em>) untuk pencarian dokumen relevan (<em>C</em>) dengan presisi dan recall terukur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1, P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengembangkan model klasifikasi teks dan analisis sentimen</strong> (<em>B</em>) menggunakan teknik machine learning dan word embedding (<em>Word2Vec, FastText</em>) (<em>C</em>) dengan metrik F1-score optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1, P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang purwarupa aplikasi pemrosesan bahasa alami atau mesin pencari cerdas</strong> (<em>B</em>) dengan mengintegrasikan API/library NLP modern (<em>HuggingFace / spaCy / NLTK</em>) (<em>C</em>) sebagai solusi cerdas kebutuhan pengguna (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1, P2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Text preprocessing, VSM, TF-IDF, N-Gram, BM25, evaluasi IR, Word2Vec/GloVe dasar, klasifikasi teks klasik (Naive Bayes, SVM teks).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Transformer mendalam/LLM, RAG, LangChain (STA-702).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Representasi matematis teks &amp; pencarian dokumen; menyerahkan bahasa generatif ke STA-702.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="15-sti-415-data-warehouse-business-intelligence">15. STI-415 — Data Warehouse &amp; Business Intelligence</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>4 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Data Management &amp; Analitik</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>FST-207</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Pemodelan Dimensi &amp; Arsitektur DWH), <code>KK2</code> (Pipeline ETL &amp; Dashboard BI)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS02</code> Data and Information Management &amp; <code>BK-IS13</code> Data Analytics and Business Intelligence</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skema multidimensi Data Warehouse (Star Schema, Snowflake Schema) (<em>B</em>) berdasarkan proses bisnis organisasi (<em>C</em>) dengan penanganan Slowly Changing Dimensions (SCD) yang tepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> pipeline Extract-Transform-Load (ETL) otomatis (<em>B</em>) menggunakan software integrasi data (Pentaho/Airflow) (<em>C</em>) dengan data cleaning yang valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> operasi kubus data OLAP dan kueri analitik tingkat lanjut (<em>B</em>) menggunakan SQL Window Functions (<em>C</em>) secara optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> dashboard Business Intelligence eksekutif interaktif (<em>B</em>) menggunakan Power BI / Tableau (<em>C</em>) dengan visualisasi KPI yang komunikatif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Arsitektur DWH Kimball, star/snowflake schema, fact &amp; dimension, SCD, pipeline ETL, OLAP, dashboard BI (Power BI/Tableau).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Normalisasi 3NF OLTP (FST-207); association rule mining &amp; klastering tingkat lanjut (STI-520).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Data multidimensional &amp; KPI; menyerahkan penemuan pola tersembunyi ke STI-520.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="16-sti-416-web-back-end-development">16. STI-416 — Web Back End Development</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>4 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Platform &amp; Pengembangan Web/Mobile</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>FST-207, STI-311</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur RESTful API &amp; Keamanan Server), <code>KK5</code> (Backend Engineering &amp; ORM)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS12</code> Web and Mobile App Development &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> RESTful API modular (<em>B</em>) menggunakan Node.js/Express atau Python FastAPI (<em>C</em>) dengan penanganan rute, middleware, dan sanitasi input yang aman (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> backend API dengan database relasional/NoSQL (<em>B</em>) menggunakan Object-Relational Mapping (ORM/ODM) (<em>C</em>) dengan operasi CRUD transaksional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> sistem autentikasi dan otorisasi (<em>B</em>) berbasis JSON Web Token (JWT) dan Role-Based Access Control (RBAC) (<em>C</em>) dengan enkripsi password Bcrypt (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4, KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mendokumentasikan</strong> API menggunakan Swagger/OpenAPI serta <strong>mendeploy</strong> backend (<em>B</em>) ke server cloud dengan kontainer Docker (<em>C</em>) secara andal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Arsitektur server-side, RESTful API design, JWT &amp; RBAC, ORM/ODM, session &amp; caching dasar (Redis), validasi input, dokumentasi Swagger/OpenAPI, deploy kontainer.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Layout CSS/HTML (STI-311); message broker skala besar (STI-627); frontend mobile (STI-522).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Layanan backend modular; menyerahkan aksesibilitas mobile ke STI-522 dan skalabilitas terdistribusi ke STI-627.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="17-sti-417-komputasi-awan-cloud-computing">17. STI-417 — Komputasi Awan (Cloud Computing)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>4 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Infrastruktur, Sistem &amp; Komputasi Awan</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-312, STI-310</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Arsitektur Cloud &amp; Virtualisasi), <code>KK3</code> (Orkestrasi Kontainer &amp; Skalabilitas)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS19</code> Cloud Architecture &amp; DevOps &amp; <code>BK-IT05</code> Cloud Computing &amp; Virtualization</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membandingkan</strong> model layanan cloud (IaaS, PaaS, SaaS, FaaS) dan model deployment (<em>B</em>) pada penyedia cloud publik (AWS/GCP/Azure) (<em>C</em>) secara kritis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengemas</strong> aplikasi ke dalam kontainer (<em>B</em>) menggunakan Dockerfile dan Docker Compose (<em>C</em>) dengan <em>layer caching</em> yang efisien (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonfigurasi</strong> arsitektur jaringan Virtual Private Cloud (VPC), Subnetting, Security Group, dan IAM (<em>B</em>) pada infrastruktur cloud (<em>C</em>) dengan standar keamanan ketat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> arsitektur sistem cloud berskala besar (<em>B</em>) dengan Load Balancing, Auto-Scaling, dan toleransi bencana (<em>High Availability</em>) (<em>C</em>) secara terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Model layanan IaaS/PaaS/SaaS/FaaS, virtualisasi &amp; hypervisor, provisi VM, object storage, VPC dasar, kontainer Docker mandiri.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Orkestrasi Kubernetes multi-node, Terraform IaC enterprise, CI/CD GitOps (STB-601).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Fondasi provisi cloud; menyerahkan automasi &amp; orkestrasi skala besar ke STB-601.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="18-sti-418-dasar-keamanan-informasi">18. STI-418 — Dasar Keamanan Informasi</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>4 / 2 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Keamanan Informasi &amp; Tata Kelola</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-312</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Prinsip Keamanan CIA &amp; Kriptografi), <code>KK3</code> (Mitigasi Kerentanan Sistem)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS06</code> Information Security and Risk Management &amp; <code>BK-IT06</code> Cybersecurity Principles &amp; Defense</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma kriptografi simetris (AES), asimetris (RSA), fungsi hash (SHA-256), dan digital signature (<em>B</em>) pada proteksi data (<em>C</em>) secara matematis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> kerentanan aplikasi web dan sistem (<em>B</em>) berdasarkan metodologi OWASP Top 10 (<em>C</em>) menggunakan alat bantu pemindai kerentanan (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> insiden keamanan siber (<em>B</em>) menggunakan kerangka kerja NIST Cybersecurity Framework dan ISO/IEC 27001 (<em>C</em>) dengan rencana mitigasi yang tepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>CIA Triad, kriptografi simetris/asimetris &amp; hashing, digital signature, kontrol akses (RBAC), OWASP Top 10 dasar, kerangka NIST CSF &amp; ISO 27001 pengantar.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Hacking exploit web aktif, forensik memori lanjut, audit COBIT formal (STB-701); pertahanan teknis jaringan (STB-501).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Prinsip keamanan; menyerahkan pertahanan jaringan ke STB-501 dan keamanan aplikasi/pentest ke STI-519.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="a-5-semester-5">A-5. SEMESTER 5</h3>
+<h3 id="19-sti-519-keamanan-informasi-lanjut">19. STI-519 — Keamanan Informasi Lanjut</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Keamanan Informasi &amp; Tata Kelola</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-418</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Audit Keamanan ISO 27001), <code>KK3</code> (Manajemen Risiko Siber), <code>KK4</code> (Uji Penetrasi Sistem)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS06</code> Information Security and Risk Management &amp; <code>BK-IT06</code> Cybersecurity Principles &amp; Defense</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengeksekusi</strong> tahapan uji penetrasi keamanan (<em>Penetration Testing</em>) (<em>B</em>) sesuai standar PTES dan MITRE ATT&amp;CK (<em>C</em>) dengan etika <em>Red Teaming</em> profesional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> audit sistem manajemen keamanan informasi (<em>B</em>) berdasarkan klausul dan kontrol keamanan ISO/IEC 27001:2022 (<em>C</em>) dalam bentuk dokumen Statement of Applicability (SoA) (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> rencana tanggap insiden (<em>Incident Response Plan</em>) dan melakukan analisis forensik digital dasar (<em>B</em>) pada kasus insiden kebocoran data (<em>C</em>) secara terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK3, KK4</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Penetration testing (PTES, MITRE ATT&amp;CK), vulnerability assessment (OpenVAS/Nessus), OWASP Top 10, BurpSuite, reverse engineering dasar (Ghidra), incident response, audit ISO/IEC 27001.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Konfigurasi subnetting router (STI-312); analisis risiko finansial organisasi &amp; BCP/DRP (STB-602).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Menjamin perangkat lunak prodi bebas celah keamanan kritikal; fokus layer aplikasi (Layer 7).</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="20-sti-520-data-mining-visualisasi-data">20. STI-520 — Data Mining &amp; Visualisasi Data</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Data Management &amp; Analitik</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-413, STI-415</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Analitik Pola Bisnis), <code>KK2</code> (Algoritma Asosiasi, Klastering &amp; Data Storytelling)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS02</code> Data and Information Management &amp; <code>BK-IS13</code> Data Analytics and Business Intelligence</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma penambangan aturan asosiasi (Apriori, FP-Growth) (<em>B</em>) pada data transaksi belanja (<em>C</em>) dengan analisis Support, Confidence, dan Lift Ratio yang valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma klastering tingkat lanjut (DBSCAN, Hierarchical Clustering) (<em>B</em>) pada data spasial/multivariat (<em>C</em>) dengan evaluasi skor Davies-Bouldin (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mendeteksi</strong> anomali dan pencilan (<em>Outliers</em>) (<em>B</em>) menggunakan algoritma Isolation Forest dan Local Outlier Factor (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2, KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> visualisasi data interaktif dan narasi wawasan bisnis (<em>Data Storytelling</em>) (<em>B</em>) menggunakan Python Plotly/Seaborn (<em>C</em>) secara estetik dan komunikatif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>CRISP-DM, EDA, association rule (Apriori, FP-Growth), klastering lanjut (DBSCAN, Hierarchical), deteksi outlier (Isolation Forest, LOF), visualisasi interaktif (Plotly, Seaborn), PCA/t-SNE.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Query SQL dasar &amp; desain tabel relasional (FST-207); dashboard KPI eksekutif statis (STI-415).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Menemukan pola dari data historis yang sudah diorganisasi di FST-207/STI-415.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="21-sti-521-internet-of-things-iot">21. STI-521 — Internet of Things (IoT)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>IoT &amp; Sistem Tertanam</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-312, STI-310</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Protokol Komunikasi IoT &amp; Telemetri), <code>KK3</code> (Perangkat Keras ESP32, MQTT &amp; Cloud IoT)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS03</code> IT Infrastructure and Networking &amp; <code>BK-IT14</code> IoT and Embedded Smart Systems</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>memprogram</strong> mikrokontroler ESP32 (<em>B</em>) untuk membaca sensor analog/digital dan mengendalikan aktuator (<em>C</em>) menggunakan antarmuka GPIO/I2C/SPI (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> protokol telemetri IoT berkecepatan tinggi (MQTT) (<em>B</em>) menggunakan broker Mosquitto (<em>C</em>) dengan QoS dan enkripsi payload yang andal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> alur otomasi middleware (<em>B</em>) menggunakan Node-RED (<em>C</em>) untuk pemrosesan logika data sensor secara real-time (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> purwarupa produk IoT cerdas (<em>B</em>) yang terhubung ke dashboard cloud (ThingsBoard/Blynk) dan database time-series (<em>C</em>) secara terintegrasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Pemrograman ESP32, sensor analog/digital &amp; aktuator, MQTT (Mosquitto), Node-RED, dashboard cloud IoT (ThingsBoard/Blynk), time-series DB.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Deep learning video streaming CCTV / AI vision (STA-703); analitik video; perangkat keras edge AI.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Dasar pengumpulan &amp; transmisi data sensor; menyerahkan AI vision edge ke STA-703.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="22-sti-522-pemrograman-aplikasi-mobile">22. STI-522 — Pemrograman Aplikasi Mobile</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Platform &amp; Pengembangan Web/Mobile</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-311, STI-416</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur Mobile Multi-Platform), <code>KK5</code> (State Management BLoC &amp; API Integrasi)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS12</code> Web and Mobile App Development &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> antarmuka aplikasi mobile responsif multi-device (<em>B</em>) menggunakan framework Flutter dan bahasa Dart (<em>C</em>) dengan prinsip Material Design 3 (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> arsitektur state management yang scalable (<em>B</em>) menggunakan Business Logic Component (BLoC) Pattern (<em>C</em>) secara terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> persistensi data lokal (SQLite/SharedPreferences) dan sinkronisasi RESTful API (<em>B</em>) pada aplikasi mobile (<em>C</em>) dengan penanganan offline-mode yang andal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun dan merilis</strong> aplikasi mobile (<em>B</em>) dengan integrasi sensor perangkat keras (Kamera, GPS Geolocation) dan push notification Firebase (<em>C</em>) ke dalam paket APK/AAB rilis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Flutter/Dart, lifecycle, UI widget, sensor perangkat (GPS, kamera, push), SQLite/Hive, sinkronisasi offline-to-online via REST API, rilis aplikasi.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Membangun backend dari awal (konsumsi API dari STI-416); arsitektur server-side.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Aplikasi mobile siap rilis; mengkonsumsi API backend yang disediakan STI-416.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="23-sti-523-manajemen-proyek-ti">23. STI-523 — Manajemen Proyek TI</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Sistem Informasi &amp; Tata Kelola</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-306, STI-309</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>KK6</code> (Perencanaan Ruang Lingkup, Penjadwalan &amp; Pengendalian Biaya Proyek TI)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS08</code> Project Management &amp; <code>BK-IT08</code> IT Service Management &amp; Governance</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> Project Charter, struktur rincian kerja (Work Breakdown Structure / WBS), dan matriks stakeholder (<em>B</em>) berdasarkan standar PMBOK v7 (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> jadwal proyek realistis (<em>B</em>) menggunakan Critical Path Method (CPM) dan estimasi tiga titik PERT (<em>C</em>) dengan alokasi sumber daya optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> metodologi Agile Project Management (<em>B</em>) menggunakan kerangka kerja Scrum dan perangkat lunak Jira (<em>C</em>) untuk pengelolaan sprint tim (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengendalikan</strong> kinerja proyek (<em>B</em>) menggunakan analisis Earned Value Management (EVM: CPI, SPI, EAC) dan mitigasi risiko (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Project Charter, WBS, estimasi (COCOMO II, PERT), CPM, Gantt, agile Scrum (sprint, daily, review, retrospective), Jira, manajemen risiko, Earned Value Management (CPI/SPI/EAC).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Koding aplikasi &amp; testing perangkat lunak (STI-309); strategi discovery pasar &amp; metrik produk (STC-703).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Tata kelola jadwal/biaya/sumber daya; menyerahkan kesuksesan pasar produk ke STC-703.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="a-6-semester-6">A-6. SEMESTER 6</h3>
+<h3 id="24-sti-624-integrasi-layanan-cerdas-berbasis-ai">24. STI-624 — Integrasi Layanan Cerdas Berbasis AI</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Kecerdasan Artifisial</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-413, STI-416</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Arsitektur AI-as-a-Service), <code>KK1</code> (Model Serving, RAG, &amp; Vektor Database)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS19</code> Cloud Architecture &amp; DevOps &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengoptimalkan dan mengonversi</strong> model deep learning terlatih (<em>B</em>) ke format ONNX dan TensorRT (<em>C</em>) untuk inferensi berlatensi rendah (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> RESTful / gRPC Inference Service asinkron (<em>B</em>) menggunakan framework FastAPI dan kontainer Docker (<em>C</em>) dengan throughput tinggi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P2, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengintegrasikan</strong> sistem Retrieval-Augmented Generation (RAG) (<em>B</em>) menggunakan Vector Database (Milvus/Chroma) dan Large Language Models (LLM API) (<em>C</em>) secara akurat dan minim halusinasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> performa layanan AI (<em>B</em>) dengan pengujian beban (<em>Load Testing</em> Locust), monitoring latensi, dan pertahanan terhadap prompt injection (<em>C</em>) secara kritis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Konversi model ke ONNX/TensorRT, RESTful/gRPC inference service, kontainerisasi model, RAG &amp; vector database, load testing, monitoring laten.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Riset/training arsitektur deep learning dari nol (STI-626); pengaturan lifecycle MLOps penuh &amp; CI/CD/CT (STA-701).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Mengoperasikan layanan AI; menyerahkan otomasi lifecycle &amp; monitoring drift produksi ke STA-701.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="25-sti-625-smart-city-pemerintahan-digital">25. STI-625 — Smart City &amp; Pemerintahan Digital</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 2 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Sistem Informasi &amp; Tata Kelola</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-521</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Infrastruktur Kota Cerdas &amp; Arsitektur SPBE), <code>KK3</code> (Integrasi GIS &amp; Telemetri Perkotaan)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS04</code> Enterprise Architecture &amp; <code>BK-IS03</code> IT Infrastructure and Networking</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> arsitektur enterprise Sistem Pemerintahan Berbasis Elektronik (SPBE) (<em>B</em>) berdasarkan regulasi nasional Perpres No. 95/2018 (<em>C</em>) dengan pemetaan 6 domain SPBE (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> peta digital perkotaan interaktif (<em>B</em>) menggunakan Web GIS (Leaflet/Mapbox) dan integrasi sensor telemetri perkotaan (<em>C</em>) secara visual dan fungsional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skema interoperabilitas data publik (<em>B</em>) berdasarkan prinsip Satu Data Indonesia dan RESTful API SPBE (<em>C</em>) dengan keamanan terstandar (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> masterplan dan purwarupa sistem layanan publik cerdas (<em>B</em>) pada salah satu pilar Smart City (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Arsitektur SPBE (Perpres), Web GIS (Leaflet/Mapbox), telemetri perkotaan, interoperabilitas data (Satu Data Indonesia), masterplan smart city.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>CeT blueprint TOGAF korporasi multi-layer (STB-703); kebijakan perda tata ruang.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Domain pemerintahan publik; menyerahkan arsitektur enterprise korporat ke STB-703.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="26-sti-626-deep-learning-neural-networks">26. STI-626 — Deep Learning &amp; Neural Networks</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Kecerdasan Artifisial</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-413</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>KK1</code> (Pemodelan Deep Learning Vision &amp; NLP), <code>KK2</code> (Rekayasa Dataset Citra &amp; Teks)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS18</code> Machine Learning and Data Science &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> arsitektur Multi-Layer Perceptron (MLP) dan mengimplementasikan algoritma Backpropagation (<em>B</em>) menggunakan framework PyTorch (<em>C</em>) secara matematis dan modular (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang, melatih, dan mengevaluasi</strong> model Convolutional Neural Networks (CNN) dan arsitektur transfer learning (ResNet, VGG) (<em>B</em>) untuk klasifikasi citra medis/industri (<em>C</em>) dengan akurasi terukur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1, KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> model sekuensial (LSTM, GRU, Transformer Self-Attention) (<em>B</em>) untuk pemrosesan bahasa alami atau prediksi runtun waktu (<em>C</em>) dengan konvergensi loss yang stabil (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> aplikasi deep learning terpadu (<em>B</em>) dengan teknik regularisasi (Dropout, Batch Normalization) dan optimasi akselerasi GPU (<em>C</em>) secara andal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>MLP &amp; backpropagation, CNN (ResNet, VGG), transfer learning, object detection (YOLO), RNN/LSTM/GRU, Transformer self-attention, regularisasi, optimasi akselerasi.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Mengulang regresi linier/decision tree (STI-413); deployment Kubernetes, CI/CD, monitoring drift (STA-701).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Menghasilkan bobot model teroptimasi; menyerahkan otomasi lifecycle &amp; deployment ke STA-701.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="27-sti-627-digital-platform-engineering">27. STI-627 — Digital Platform Engineering</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Platform &amp; Pengembangan Web/Mobile</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-416</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur Microservices &amp; Event Streaming), <code>KK5</code> (Platform Engineering &amp; CI/CD Pipeline)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS12</code> Web and Mobile App Development &amp; <code>BK-IT07</code> System Integration and Architecture</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> arsitektur sistem berbasis layanan mikro (<em>Microservices Architecture</em>) (<em>B</em>) menggunakan prinsip Domain-Driven Design (DDD) (<em>C</em>) dengan batas layanan (<em>Bounded Context</em>) yang tepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> komunikasi antar-layanan asinkron (<em>B</em>) menggunakan message streaming Apache Kafka / RabbitMQ (<em>C</em>) dengan penanganan jaminan pengiriman pesan (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonfigurasi</strong> API Gateway, Service Discovery, dan pola ketahanan sistem (Circuit Breaker, Saga Pattern) (<em>B</em>) pada klaster platform (<em>C</em>) untuk skalabilitas tinggi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4, KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> pipeline Continuous Integration / Continuous Deployment (CI/CD) otomatis (<em>B</em>) menggunakan GitHub Actions dan observability distributed tracing (<em>C</em>) secara terintegrasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Microservices &amp; DDD, event-driven, message broker (Kafka/RabbitMQ), API Gateway, circuit breaker, Saga, containerization, CI/CD pipeline, observability.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Koding CRUD sederhana (STI-416); tata kelola multitenansi bisnis (STC-702).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Platform digital terdistribusi; menyerahkan multitenansi &amp; monetisasi SaaS ke STC-702.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="a-7-semester-7">A-7. SEMESTER 7</h3>
+<h3 id="28-sti-728-inovasi-teknologi-dan-startup-digital">28. STI-728 — Inovasi Teknologi dan Startup Digital</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>Digital Innovation &amp; Entrepreneurship</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-627, MKU-204</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>KK6</code> (Inovasi Produk Digital, Lean Startup, Validasi MVP &amp; Pitching)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS15</code> Digital Innovation and Entrepreneurship &amp; <code>BK-IT13</code> Technology Entrepreneurship</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> validasi problem-solusi (<em>Problem-Solution Fit</em>) (<em>B</em>) menggunakan metodologi Lean Startup dan wawancara pengguna awal (<em>C</em>) secara empiris (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan membangun</strong> Minimum Viable Product (MVP) fungsional (<em>B</em>) berbasis solusi teknologi cerdas (AI/Platform/IoT) (<em>C</em>) dengan siklus Build-Measure-Learn yang cepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> metrik pertumbuhan startup (AARRR Pirate Metrics, CAC, LTV, Burn Rate) (<em>B</em>) pada dashboard analitik produk (<em>C</em>) secara kuantitatif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> Investor Pitch Deck 10-slide dan mempresentasikannya (<em>B</em>) di hadapan panel investor/penguji pada ajang Demo Day (<em>C</em>) secara persuasif dan profesional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Lean Startup, problem-solution fit, MVP fungsional, metrik pertumbuhan (AARRR, CAC, LTV, Burn Rate), investor pitch deck, Demo Day.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Implementasi teknis deep learning/MVP rekayasa (STI-626/STI-627); desain UI (STI-308).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Memvalidasi kejelasan pasar bisnis &amp; pitching; startup yang dibina menjadi wadah penerapan capstone/PKL (Capstone FSTI, PKL).</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="bagian-b-matriks-mk-peminatan-per-semester">BAGIAN B — MATRIKS MK PEMINATAN PER SEMESTER</h2>
+<h3 id="b-5-semester-5">B-5. SEMESTER 5</h3>
+<h3 id="29-sta-501-decision-support-systems">29. STA-501 — Decision Support Systems</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P1 Integrated Smart Systems</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-307</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Teori Pengambilan Keputusan), <code>KK1</code> (Sistem Cerdas Bisnis), <code>KK2</code> (Analitik Multi-Kriteria)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS13</code> Data Analytics and Business Intelligence &amp; <code>BK-IS16</code> Artificial Intelligence &amp; Intelligent Systems &amp; <code>BK-IT09</code> Data Analytics &amp; Information Visualization</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> metode pengambilan keputusan multi-kriteria klasik (SAW, WP, AHP) (<em>B</em>) pada kasus pemilihan alternatif bisnis (<em>C</em>) dengan uji konsistensi rasio $CR \le 0.1$ (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P2, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> metode perankingan tingkat lanjut (TOPSIS, PROMETHEE, Fuzzy AHP) (<em>B</em>) dalam kode program Python (<em>C</em>) secara tepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1, KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> aplikasi berbasis web Decision Support Systems interaktif (<em>B</em>) dengan visualisasi perbandingan alternatif dan analisis sensitivitas (<em>C</em>) secara terintegrasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK1, KK2</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Pengambilan keputusan multikriteria (SAW, WP, AHP, TOPSIS, PROMETHEE, Fuzzy AHP), uji konsistensi (CR), aplikasi web DSS interaktif, analisis sensitivitas.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Pemodelan ML regresi/klasifikasi data (STI-413); penyajian BI atur dimensi (STI-415).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Menyerahkan perangkingan alternatif keputusan bisnis; tidak mempelajari desain ML (STI-413).</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="30-stb-501-network-security-and-digital-forensics">30. STB-501 — Network Security and Digital Forensics</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P2 Cloud Infra &amp; Cybersecurity</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-312, STI-418</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Pertahanan Jaringan &amp; IDS/IPS), <code>KK3</code> (Hardening Sistem), <code>KK4</code> (Forensik Digital &amp; Bukti Siber)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS06</code> Information Security and Risk Management &amp; <code>BK-IT06</code> Cybersecurity Principles &amp; Defense</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonfigurasi dan menyusun aturan</strong> (<em>Rules</em>) Intrusion Detection / Prevention Systems (Snort / Suricata) (<em>B</em>) untuk mendeteksi serangan port scan, DoS, dan eksploitasi jaringan (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> bukti transfer data mencurigakan dan jejak eksfiltrasi (<em>B</em>) melalui analisis lalu lintas paket jaringan (PCAP) menggunakan Wireshark/Zeek (<em>C</em>) secara kritis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> akuisisi bukti digital (<em>Bit-Stream Image</em>) dan analisis forensik memori/disk (<em>B</em>) menggunakan Autopsy dan Volatility (<em>C</em>) sesuai prinsip Chain of Custody (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>IDS/IPS (Snort, Suricata), analisis PCAP (Wireshark, Zeek), akuisisi bukti digital (bit-stream image), forensik memori/disk (Autopsy, Volatility), chain of custody.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Pentest aplikasi web Layer 7 (STI-519); audit kepatuhan COBIT formal (STB-701).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Pertahanan &amp; investigasi jaringan; menyerahkan insiden aplikasi aplikatif ke STI-519.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="31-stc-501-user-experience-research-design">31. STC-501 — User Experience Research &amp; Design</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>5 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P3 Digital Platform Engineering</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-308</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur Informasi &amp; Aksesibilitas), <code>KK5</code> (Riset UX Kuantitatif/Kualitatif &amp; A/B Testing)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS17</code> Human-Computer Interaction &amp; UX &amp; <code>BK-IT10</code> User Experience &amp; Interaction Design</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengeksekusi</strong> metode riset pengguna kuantitatif dan kualitatif (Card Sorting, Tree Testing, Contextual Inquiry, Eye-Tracking Simulation) (<em>B</em>) pada produk digital (<em>C</em>) secara ilmiah (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> eksperimen A/B Testing (<em>B</em>) dengan penetapan hipotesis, ukuran sampel statistik, dan analisis signifikansi konversi (<em>C</em>) secara valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> sistem desain tingkat lanjut (<em>Advanced Design Tokens</em>) dan dokumentasi komponen Storybook (<em>B</em>) dengan kepatuhan aksesibilitas WCAG 2.1 Level AAA (<em>C</em>) secara profesional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P4, KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Metodologi UX Research (in-depth interview, contextual inquiry), persona &amp; CJM, kuantifikasi usability (SUS, NPS), enterprise design system, WCAG.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Tutorial dasar Figma &amp; prototyping (STI-308); koding frontend (STI-311).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Validasi data empiris perilaku pengguna; menyerahkan eksekusi prototipe visual ke STI-308.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="b-6-semester-6">B-6. SEMESTER 6</h3>
+<h3 id="32-sta-601-computational-methods-and-numerics">32. STA-601 — Computational Methods and Numerics</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P1 Integrated Smart Systems</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-102, STI-205</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P1</code> (Analisis Galat &amp; Metode Numerik), <code>KK1</code> (Algoritma Optimasi Komputasi AI)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS10</code> Applied Mathematics and Logic &amp; <code>BK-IS18</code> Machine Learning and Data Science &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> galat pemotongan (<em>Truncation Error</em>) dan pembulatan (<em>Round-off Error</em>) (<em>B</em>) pada representasi floating-point komputasi (<em>C</em>) secara matematis (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> metode numerik untuk akar persamaan non-linier (Newton-Raphson, Secant) dan interpolasi Spline (<em>B</em>) menggunakan Python (<em>C</em>) dengan konvergensi cepat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma integrasi numerik (Romberg, Gauss-Legendre) dan solusi Persamaan Diferensial Biasa (Runge-Kutta RK4) (<em>B</em>) pada simulasi sistem fisis (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P1, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> algoritma optimasi numerik tak-terkendala dan Stochastic Gradient Descent (<em>B</em>) untuk pencarian minimum fungsi loss model AI (<em>C</em>) secara optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Representasi floating-point &amp; galat (IEEE 754), akar non-linier (Newton-Raphson, Secant), solusi SPL numerik, interpolasi Spline, integrasi Romberg/Gauss-Legendre, PDB (RK4), optimasi SGD/Gradient Descent.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Menghitung limit/turunan murni manual tanpa kode (STI-102); melatih jaringan deep (STI-626).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Algoritma aproksimasi &amp; optimasi numerik; menyerahkan pemodelan deep learning ke STI-626.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="33-sta-602-intelligent-agent-systems">33. STA-602 — Intelligent Agent Systems</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P1 Integrated Smart Systems</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-307</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Arsitektur BDI &amp; Multi-Agent), <code>KK1</code> (Reinforcement Learning &amp; Agen Otonom)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS16</code> Artificial Intelligence &amp; Intelligent Systems &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> agen otonom berbasis arsitektur Belief-Desire-Intention (BDI) (<em>B</em>) untuk pengambilan keputusan proaktif (<em>C</em>) secara rasional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> simulasi Multi-Agent Systems (MAS) (<em>B</em>) menggunakan protokol komunikasi FIPA-ACL dan framework Python Mesa/JADE (<em>C</em>) dengan koordinasi terpadu (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P2, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma Reinforcement Learning (Q-Learning, Deep Q-Networks / DQN) (<em>B</em>) pada lingkungan simulasi Gymnasium (<em>C</em>) dengan kebijakan optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melatih</strong> agen otonom menggunakan algoritma Policy Gradient (PPO) (<em>B</em>) pada skenario multi-agen kompetitif/kooperatif (<em>C</em>) secara stabil (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Arsitektur agen (BDI), Multi-Agent Systems (MAS), protokol FIPA-ACL, framework Python Mesa/JADE, reinforcement learning dasar, negosiasi &amp; koordinasi agen.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Inferensi sistem pakar rule-based (STI-307); training deep reinforcement learning skala besar (STI-626).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Agen otonom terdistribusi; menyerahkan NN besar ke STI-626 dan pengambilan keputusan tunggal ke STI-307.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="34-stb-601-cloud-architecture-devops">34. STB-601 — Cloud Architecture &amp; DevOps</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P2 Cloud Infra &amp; Cybersecurity</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-417</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Infrastruktur Cloud Native), <code>P4</code> (Automasi CI/CD &amp; IaC), <code>KK3</code> (Orkestrasi Kubernetes &amp; GitOps)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS19</code> Cloud Architecture &amp; DevOps &amp; <code>BK-IT05</code> Cloud Computing &amp; Virtualization &amp; <code>BK-IT07</code> System Integration and Architecture</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>memprovisi</strong> infrastruktur cloud otomatis (<em>B</em>) menggunakan Infrastructure as Code (Terraform) (<em>C</em>) dengan modul deklaratif terstandar (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengorkestrasikan</strong> aplikasi multi-kontainer (<em>B</em>) pada klaster Kubernetes (Deployments, StatefulSets, Ingress, PersistentVolumes) (<em>C</em>) dengan konfigurasi <em>high availability</em> (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> pipeline Continuous Delivery berbasis GitOps (<em>B</em>) menggunakan ArgoCD dan Helm Charts (<em>C</em>) secara otomatis dan bebas <em>configuration drift</em> (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P4, KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Infrastructure as Code (Terraform), orkestrasi Kubernetes (Deployments, StatefulSets, Ingress, PV), Helm, GitOps (ArgoCD), CI/CD pipeline kontainer.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Provisi VM &amp; kontainer Docker tunggal (STI-417); arsitektur aplikasi microservices (STI-627).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Automasi &amp; orkestrasi infrastruktur; menyerahkan desain aplikasi microservices ke STI-627.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="35-stb-602-cybersecurity-risk-management">35. STB-602 — Cybersecurity Risk Management</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P2 Cloud Infra &amp; Cybersecurity</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-418</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Kerangka Kerja Risiko NIST &amp; ISO 27005), <code>KK4</code> (Penilaian Risiko Kuantitatif &amp; BCP/DRP)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS06</code> Information Security and Risk Management &amp; <code>BK-IT12</code> IT Risk Management and Compliance</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> penilaian risiko keamanan siber kualitatif dan kuantitatif (SLE, ARO, ALE) (<em>B</em>) berdasarkan standar ISO/IEC 27005 dan NIST SP 800-30 (<em>C</em>) secara presisi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3, KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> strategi penanganan risiko (Risk Treatment Plan) dan Business Impact Analysis (BIA) (<em>B</em>) pada proses bisnis kritis organisasi (<em>C</em>) dengan pemilihan kontrol keamanan terjustifikasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen rencana keberlanjutan bisnis (<em>Business Continuity Plan / BCP</em>) dan rencana pemulihan bencana (<em>Disaster Recovery Plan / DRP</em>) (<em>B</em>) dengan target metrik RTO dan RPO realistis (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Penilaian risiko kualitatif/kuantitatif (SLE, ARO, ALE), ISO/IEC 27005, NIST SP 800-30, Risk Treatment Plan, BIA, BCP &amp; DRP.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Alat pentest exploit teknis (STI-519); kontrol akses OWASP web (STI-416).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Tata kelola risiko &amp; keberlanjutan bisnis; menyerahkan deteksi exploit teknis ke STI-519.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="36-stc-601-rekayasa-otomasi-proses-bisnis-bpa">36. STC-601 — Rekayasa &amp; Otomasi Proses Bisnis (BPA)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P3 Digital Platform Engineering</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-306</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Pemodelan Proses Bisnis Lanjut), <code>P4</code> (Otomasi REST &amp; Orkestrasi), <code>KK5</code> (Camunda Workflow Engine &amp; Bot RPA)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS09</code> Business Process Management &amp; <code>BK-IT11</code> Software Development Practices</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> performa proses bisnis dan mendeteksi kesenjangan (<em>Conformance Checking</em>) (<em>B</em>) menggunakan teknik Process Mining (<em>C</em>) secara empiris (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengeksekusi</strong> alur kerja otomatis (<em>B</em>) menggunakan Workflow Engine (Camunda BPMN 8 / Temporal) dan Decision Model and Notation (DMN) (<em>C</em>) secara terstandarisasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P2, P4, KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengembangkan</strong> bot Robotic Process Automation (RPA) (<em>B</em>) menggunakan Python RPA / UiPath (<em>C</em>) untuk otomasi tugas repetitif dan ekstraksi dokumen OCR (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Otomasi proses bisnis (RPA UI Path), BPMN lanjut, pemodelan BPM (Camunda), integrasi sistem (ESB/API), middleware.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Elisitasi kebutuhan tahap awal (STI-306); koding aplikasi baru dari nol (STI-309).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Orkestrasi proses &amp; integrasi sistem lama; menyerahkan pengembangan aplikasi baru ke STI-309.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="37-stc-602-rekayasa-aplikasi-industri-vertikal-fintech-edtech">37. STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech &amp; EdTech)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>6 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P3 Digital Platform Engineering</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-416</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur Spesifik Domain), <code>KK5</code> (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS12</code> Web and Mobile App Development &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile &amp; <code>BK-IT07</code> System Integration and Architecture</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> arsitektur sistem pembayaran digital (<em>B</em>) dengan integrasi Payment Gateway API (Midtrans/Xendit) dan buku besar akuntansi ganda (<em>Double-Entry Ledger</em>) (<em>C</em>) secara aman dan konsisten (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4, KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> standar interoperabilitas pembelajaran digital (SCORM 1.2/2004 dan xAPI Tin-Can) (<em>B</em>) pada Learning Management System (LMS) (<em>C</em>) dengan pelacakan aktivitas belajar yang presisi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4, KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> platform aplikasi industri vertikal terpadu (<em>B</em>) dengan penanganan transaksi idempotensi (<em>Idempotency Key</em>) dan kepatuhan regulasi industri (<em>C</em>) secara andal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Aplikasi industri vertikal: FinTech (transaksi, e-wallet, AML/risk rule) &amp; EdTech (LMS, SIS, proctoring), integrasi pembayaran (payment gateway).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>CRUD aplikasi generik (STI-416); aturan pembayaran/transaksi di luar domain STI-416.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Spesialisasi domain vertikal; menyerahkan infrastruktur platform umum ke STI-627/STC-702.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="b-7-semester-7">B-7. SEMESTER 7</h3>
+<h3 id="38-sta-701-mlops-and-ai-pipeline">38. STA-701 — MLOps and AI Pipeline</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P1 Integrated Smart Systems</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-413, STI-624</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Pipeline Otomasi ML), <code>KK1</code> (Continuous Training &amp; Model Registry), <code>KK2</code> (Pelacakan Data)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS18</code> Machine Learning and Data Science &amp; <code>BK-IS19</code> Cloud Architecture &amp; DevOps &amp; <code>BK-IT07</code> System Integration and Architecture</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengelola</strong> pelacakan versi data dan eksperimen model (<em>B</em>) menggunakan Data Version Control (DVC) dan MLflow Tracking (<em>C</em>) secara terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> pipeline Continuous Training (CT) otomatis (<em>B</em>) menggunakan Kubeflow Pipelines / Apache Airflow (<em>C</em>) dengan trigger retraining teruji (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P4, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mendeploy dan memantau</strong> model AI produksi (<em>B</em>) dengan strategi Canary/Shadow Deployment serta deteksi Data/Concept Drift (<em>C</em>) menggunakan Evidently AI dan Prometheus (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>MLOps lifecycle (CI/CD/CT), registry model (MLflow), otomasi retraining &amp; monitoring drift, eksperimen tracking, feature store, deployment model &amp; canary.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Riset/training arsitektur model baru (STI-626); deployment layanan inference via FastAPI/ONNX mendalam (STI-624).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Otomasi &amp; tata kelola model produksi; menyerahkan pembuatan layanan inference ke STI-624.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="39-sta-702-conversational-ai-and-intelligent-assistant">39. STA-702 — Conversational AI and Intelligent Assistant</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P1 Integrated Smart Systems</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-413, STI-416</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Arsitektur Bahasa Alami Modern), <code>KK1</code> (Prompt Engineering, RAG &amp; LLM Agents)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS16</code> Artificial Intelligence &amp; Intelligent Systems &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Thought, ReAct) (<em>B</em>) menggunakan framework LangChain (<em>C</em>) dengan output terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengoptimalkan</strong> sistem RAG multi-dokumen (<em>B</em>) menggunakan teknik Contextual Compression dan Reranking (<em>C</em>) dengan skor evaluasi RAGAS yang tinggi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P2, KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> Fine-Tuning model LLM open-source (<em>B</em>) menggunakan teknik Parameter-Efficient Fine-Tuning (QLoRA) (<em>C</em>) pada domain khusus (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> asisten virtual cerdas berbasis agen otonom (Tool Calling) (<em>B</em>) dengan integrasi multi-channel (WhatsApp API / Web Widget) (<em>C</em>) secara terpadu (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>LLM/Transformer (fine-tuning), prompt engineering, RAG (LangChain, vectordb), agentic AI &amp; tool-use, evaluasi percakapan.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Analisis NLP statistik klasik VSM (STI-414); layanan API web kembali (STI-416/STI-624).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Bahasa generatif &amp; percakapan; menyerahkan pencarian dokumen klasik ke STI-414.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="40-sta-703-smart-surveillance-and-iot-analytics">40. STA-703 — Smart Surveillance and IoT Analytics</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P1 Integrated Smart Systems</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-626, STI-521</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Edge AI &amp; Video Analytics), <code>KK1</code> (Computer Vision Real-Time), <code>KK3</code> (Integrasi Sensor &amp; CCTV)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS16</code> Artificial Intelligence &amp; Intelligent Systems &amp; <code>BK-IT02</code> Applied AI &amp; Intelligent Technologies &amp; <code>BK-IT14</code> IoT and Embedded Smart Systems</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melatih dan mengoptimalkan</strong> model deteksi objek modern (YOLOv8/YOLOv10) (<em>B</em>) pada dataset CCTV kustom (<em>C</em>) dengan mAP $\ge 0.80$ (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan wajah biometrik (<em>B</em>) pada stream video RTSP real-time (<em>C</em>) dengan frame rate stabil $\ge 25$ FPS (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK1</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengonversi dan mendeploy</strong> model vision cerdas (<em>B</em>) pada perangkat komputasi tepi (<em>Edge AI: NVIDIA Jetson / Raspberry Pi 5</em>) menggunakan TensorRT/OpenVINO (<em>C</em>) secara optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P3, KK3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-4</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> sistem pengawasan cerdas terpadu (<em>B</em>) dengan trigger alarm otomatis ke broker MQTT dan dasbor monitoring (<em>C</em>) secara andal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>P3, KK1, KK3</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Video analytics &amp; edge AI, deteksi objek/re-id real-time (YOLO), pengiriman telemetri, dashboard monitoring IoT, integrasi kamera.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Telemetri sensor ESP32 &amp; MQTT dasar (STI-521); membangun backend web penuh.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Analitik AI pada video/edge; menyerahkan akuisisi sensor MQTT ke STI-521.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="41-stb-701-it-governance-compliance-cobit-2019">41. STB-701 — IT Governance &amp; Compliance (COBIT 2019)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P2 Cloud Infra &amp; Cybersecurity</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-101</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P3</code> (Tata Kelola TI Korporasi), <code>KK4</code> (Audit COBIT 2019, CMMI &amp; Kepatuhan Regulasi)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS05</code> IS Management and Governance &amp; <code>BK-IT08</code> IT Service Management &amp; Governance</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membedakan</strong> prinsip Tata Kelola TI (<em>Governance</em>) vs Manajemen TI (<em>Management</em>) (<em>B</em>) berdasarkan kerangka kerja COBIT 2019 (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P3</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> sistem tata kelola TI (<em>B</em>) menggunakan COBIT 2019 Design Toolkit dan analisis 11 Design Factors (<em>C</em>) sesuai strategi organisasi (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> audit kapabilitas proses tata kelola TI (<em>B</em>) berdasarkan model kapabilitas CMMI COBIT 2019 (Level 0 s.d. 5) (<em>C</em>) dengan bukti audit yang valid (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Tata kelola TI COBIT 2019 (EDM, APO, BAI, DSS, MEA), pemetaan kuadran strategis CMMI, metrik kinerja tata kelola.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Framework IT service operational (ITIL-4, STB-702); pengukuran kepatuhan teknis pentest.</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Strategi tata kelola; menyerahkan layanan operasional berkelanjutan ke STB-702.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="42-stb-702-it-service-management-itil-4">42. STB-702 — IT Service Management (ITIL 4)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P2 Cloud Infra &amp; Cybersecurity</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-101</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Manajemen Layanan TI), <code>KK4</code> (Siklus Layanan ITIL 4, SLA/OLA, Manajemen Insiden)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS05</code> IS Management and Governance &amp; <code>BK-IT08</code> IT Service Management &amp; Governance</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menguraikan</strong> Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7 Prinsip Panduan (<em>B</em>) berdasarkan kerangka kerja ITIL 4 (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C2</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan menganalisis</strong> alur kerja Service Desk, Incident Management, dan Problem Management (<em>B</em>) menggunakan analisis akar masalah (<em>Root Cause Analysis / Fishbone</em>) (<em>C</em>) secara terstruktur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> Katalog Layanan TI (<em>Service Catalog</em>) dan perjanjian tingkat layanan (<em>Service Level Agreement / SLA</em>) (<em>B</em>) untuk organisasi penyedia layanan TI (<em>C</em>) secara profesional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>P2, KK4</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>ITIL 4 (Service Value System, praktik Core/Improve/Drive), SLA/OLA, incident, problem, change &amp; release management, service desk.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Kebijakan strategi tata kelola (STB-701); audit kepatuhan keuangan (STB-701/STB-602).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Layanan TI berkelanjutan; memanfaatkan otomasi infrastruktur STB-601.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="43-stb-703-enterprise-architecture-togaf">43. STB-703 — Enterprise Architecture (TOGAF)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P2 Cloud Infra &amp; Cybersecurity</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-306</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Arsitektur Bisnis &amp; Data), <code>P3</code> (Arsitektur Teknologi), <code>KK4</code> (Pemodelan ArchiMate &amp; TOGAF ADM)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS04</code> Enterprise Architecture &amp; <code>BK-IT07</code> System Integration and Architecture</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menguraikan</strong> siklus Architecture Development Method (ADM Fase Preliminary s.d. H) (<em>B</em>) berdasarkan standar The Open Group Architecture Framework (TOGAF) (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C2</strong></td>
+<td style="text-align: center;"><code>P2</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>memodelkan</strong> 4 pilar arsitektur enterprise (Business, Data, Application, Technology Architecture) (<em>B</em>) menggunakan bahasa pemodelan standar ArchiMate (<em>C</em>) secara konsisten (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2, P3, KK4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen cetak biru Architecture Definition Document (ADD) (<em>B</em>) dengan analisis kesenjangan (<em>Gap Analysis As-Is vs To-Be</em>) dan peta jalan migrasi (<em>Migration Roadmap</em>) (<em>C</em>) secara profesional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C5</strong></td>
+<td style="text-align: center;"><code>KK4</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Pendekatan TOGAF ADM (Architecture Vision s.d. Migration), pemodelan arsitektur (ArchiMate), business/data/application/technology architecture.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Blueprint SPBE selesai; fokus pada proyek bisnis sistem informasi (STI-625); pemodelan UML detail (STI-306).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Peta arsitektur enterprise korporat; menyerahkan sistem domain publik ke STI-625.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="44-stc-701-immersive-media-xr-development">44. STC-701 — Immersive Media &amp; XR Development</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P3 Digital Platform Engineering</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-311</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Grafika Komputer &amp; WebXR), <code>KK5</code> (Augmented Reality &amp; Virtual Reality)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS12</code> Web and Mobile App Development &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile &amp; <code>BK-IT10</code> User Experience &amp; Interaction Design</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> adegan grafika 3D interaktif di browser (<em>B</em>) menggunakan WebXR dan Three.js (<em>C</em>) dengan pemuatan model 3D (glTF/GLB) yang optimal (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C3</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengimplementasikan</strong> aplikasi Augmented Reality (AR) mobile (<em>B</em>) dengan teknik Marker-Based dan Markerless Plane Detection (<em>C</em>) menggunakan ARCore / WebXR (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> simulasi Virtual Reality (VR) 6DoF interaktif (<em>B</em>) dengan audio spasial 3D dan navigasi teleportasi (<em>C</em>) dengan performa rendering mulus $\ge 60$ FPS (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Teknologi XR (AR, VR, MR), 3D asset &amp; WebGL/Three.js, interaksi kontroller &amp; spatial, AI/Computer Vision untuk immersive.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Riset UX pengguna dasar (STC-501); pengembangan web 2D konvensional (STI-311/STI-416).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Produk immersive interaktif; menyerahkan usability research perilaku ke STC-501.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="45-stc-702-saas-architecture-multi-tenancy">45. STC-702 — SaaS Architecture &amp; Multi-Tenancy</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / +P</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P3 Digital Platform Engineering</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-416</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P4</code> (Arsitektur Multi-Tenancy), <code>KK5</code> (Row-Level Security, Subscription Engine &amp; Micro-Frontends)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS04</code> Enterprise Architecture &amp; <code>BK-IT04</code> Platform Technologies &amp; Web/Mobile &amp; <code>BK-IT07</code> System Integration and Architecture</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> strategi isolasi data multi-tenant (Shared Database with Row-Level Security vs Database-per-Tenant) (<em>B</em>) pada PostgreSQL (<em>C</em>) dengan jaminan isolasi data mutlak (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> mesin penagihan berlangganan (<em>Subscription Engine</em>) otomatis (<em>B</em>) dengan integrasi Stripe API dan webhook (<em>C</em>) secara transaksional (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK5</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> arsitektur Micro-Frontends dan <em>Feature Toggling</em> (<em>B</em>) pada platform SaaS (<em>C</em>) untuk aktivasi fitur dinamis per paket langganan (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P4, KK5</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Arsitektur SaaS (multi-tenant, tenant isolation), monetisasi &amp; metering (plan, quota), on-boarding tenant, sharing schema &amp; shared DB.</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Membangun microservice event-driven skalabel (STI-627); penyusunan PRD &amp; metrik produk (STC-703).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Mesin multitenansi SaaS; menyerahkan strategi go-to-market produk ke STC-703.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h3 id="46-stc-703-digital-product-management-agile-practices">46. STC-703 — Digital Product Management &amp; Agile Practices</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Spesifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Semester / SKS / Tipe</strong></td>
+<td>7 / 3 SKS / Teori</td>
+</tr>
+<tr>
+<td><strong>Rumpun MK</strong></td>
+<td>P3 Digital Platform Engineering</td>
+</tr>
+<tr>
+<td><strong>Prasyarat</strong></td>
+<td>STI-523</td>
+</tr>
+<tr>
+<td><strong>CPL yang Dibebankan</strong></td>
+<td><code>P2</code> (Strategi Produk Digital &amp; OKRs), <code>KK6</code> (Product Discovery, PRD, RICE Prioritization &amp; Go-To-Market)</td>
+</tr>
+<tr>
+<td><strong>Bahan Kajian (BoK)</strong></td>
+<td><code>BK-IS01</code> Foundations of Information Systems &amp; <code>BK-IS08</code> Project Management &amp; <code>BK-IT13</code> Technology Entrepreneurship</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>CPMK (Capaian Pembelajaran Mata Kuliah):</strong></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kode</th>
+<th>Rumusan CPMK (ABCD)</th>
+<th style="text-align: center;">Bloom</th>
+<th style="text-align: center;">CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CPMK-1</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> Visi Produk, Strategi Produk, dan Objectives and Key Results (OKRs) (<em>B</em>) untuk produk digital rintisan (<em>C</em>) secara terukur (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>P2, KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-2</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> Product Discovery dan prioritisasi backlog (<em>B</em>) menggunakan kerangka kerja RICE, Kano Model, dan MoSCoW (<em>C</em>) secara objektif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C4</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+<tr>
+<td><strong>CPMK-3</strong></td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen Product Requirement Document (PRD) berstandar industri (<em>B</em>) dengan User Stories, Acceptance Criteria, dan strategi Go-To-Market (GTM) (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td style="text-align: center;"><strong>C6</strong></td>
+<td style="text-align: center;"><code>KK6</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Boundary Guardrails</strong> (dari Dok 037):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Batas Materi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IN-SCOPE</strong> (wajib diajarkan)</td>
+<td>Product vision &amp; OKRs, Product Discovery, prioritisasi RICE/Kano, penyusunan PRD (user stories, acceptance criteria), agile product management, metrik produk (activation, retention, revenue).</td>
+</tr>
+<tr>
+<td><strong>OUT-OF-SCOPE</strong> (dilarang)</td>
+<td>Manajemen jadwal/biaya/sumber daya pengembangan (STI-523); riset user behavioral (STC-501).</td>
+</tr>
+<tr>
+<td><strong>Handoff Anchor</strong> (titik transisi)</td>
+<td>Strategi &amp; tanggung jawab kesuksesan produk; menyerahkan penjadwalan dividen pengembangan teknis ke STI-523.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<div class="footer-note">Dokumen PDF dihasilkan otomatis dari Markdown sumber (043_MATRIKS_CPL_CPMK_BoK_BOUNDARY_GUARDRAILS_PER_SEMESTER.md). Tabel dan gambar diformat print-ready A4. Tim Pengembang Kurikulum FSTI UWG — 2026.</div>
+</body>
+</html>
