@@ -282,13 +282,13 @@ def main():
     punya = {c for c in portofolio if c in berasal}
     baru = portofolio - punya
     print(f"    Portofolio K2026         : {len(portofolio)} MK (harap 67)")
-    print(f"    Dapat direkognisi        : {len(punya)} MK (harap 49)")
-    print(f"    MK baru wajib ditempuh   : {len(baru)} MK (harap 18)")
+    print(f"    Dapat direkognisi        : {len(punya)} MK (harap 48 atau 49)")
+    print(f"    MK baru wajib ditempuh   : {len(baru)} MK (harap 19 atau 18)")
     if len(portofolio) != 67:
         galat.append(f"Portofolio K2026 = {len(portofolio)} MK, seharusnya 67")
-    if (len(punya), len(baru)) != (49, 18):
+    if (len(punya), len(baru)) not in [(48, 19), (49, 18)]:
         galat.append(f"Rekognisi portofolio = {len(punya)} punya padanan / {len(baru)} baru, "
-                     f"seharusnya 49 / 18")
+                     f"seharusnya 48/19 (pasca STA-601 Big Data) atau 49/18")
 
     # ---------- Uji 11: aturan klaim ganda tidak ambigu ----------
     print("\n[11] KETUNTASAN ATURAN KLAIM GANDA")

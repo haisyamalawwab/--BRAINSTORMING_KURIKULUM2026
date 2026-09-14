@@ -279,7 +279,7 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
@@ -327,25 +327,41 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
             <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
         </header>
 
-        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <!-- Reader Toolbar (Interactive UI, Layout, Typography, and Export Controls) -->
         <div class="reader-toolbar no-print">
             <div class="reader-toolbar-left">
-                <span class="reader-tool-label">📑 Bagian:</span>
-                <select id="quickJumpSelect" class="quick-jump-select">
-                    <option value="">Lompat ke bagian...</option>
-                </select>
-                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">📑 Bagian:</span>
+                    <select id="quickJumpSelect" class="quick-jump-select">
+                        <option value="">Lompat ke bagian...</option>
+                    </select>
+                </div>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">↔️ Lebar:</span>
+                    <button type="button" id="btnWidthNarrow" class="reader-tool-btn" title="Mode Baca Nyaman (860px)">📖 Baca</button>
+                    <button type="button" id="btnWidthNormal" class="reader-tool-btn active" title="Mode Standar (1240px)">📄 Standar</button>
+                    <button type="button" id="btnWidthWide" class="reader-tool-btn" title="Mode Lebar Penuh (Tabel & Matriks)">↔️ Lebar Penuh</button>
+                </div>
             </div>
             <div class="reader-toolbar-right">
-                <span class="reader-tool-label">🔠 Font:</span>
-                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
-                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
-                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
-                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
-                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
-                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
-                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
-                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">🔠 Font:</span>
+                    <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                    <button type="button" id="btnFontReset" class="reader-tool-btn active" title="Ukuran Font Standar">A</button>
+                    <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                    <button type="button" id="btnFontToggle" class="reader-tool-btn" title="Ganti Tipografi (Modern Sans / Academic Serif)">🔤 Sans</button>
+                </div>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">🌓 Tema:</span>
+                    <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif A4-Ready)">☀️ Terang</button>
+                    <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata Buku)">📖 Sepia</button>
+                    <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                </div>
+                <div class="reader-toolbar-group">
+                    <span class="reader-tool-label">📤 Ekspor:</span>
+                    <button type="button" id="btnCopyDocument" class="reader-tool-btn btn-export-doc" title="Salin seluruh isi dokumen ke Clipboard berformat Word-ready">📋 Salin ke Word</button>
+                    <button type="button" class="btn-action btn-print" onclick="window.print()" title="Cetak atau Simpan sebagai PDF A4">🖨️ Cetak / PDF</button>
+                </div>
             </div>
         </div>
 
