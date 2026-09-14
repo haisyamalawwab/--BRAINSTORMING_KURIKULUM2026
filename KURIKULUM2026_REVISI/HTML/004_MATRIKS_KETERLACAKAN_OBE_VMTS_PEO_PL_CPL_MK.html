@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- KaTeX for LaTeX Math -->
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
     <!-- Mermaid JS for Flowcharts -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar no-print">
         <div class="container navbar-content">
             <a href="index.html" class="brand">
                 <div class="brand-logo">STI</div>
@@ -35,11 +35,12 @@
             </a>
             
             <select class="doc-select" onchange="window.location.href=this.value">
-                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
 <option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
 <option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
 <option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" selected>004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
-<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
@@ -59,6 +60,7 @@
 <option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
 <option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
 <option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
 <option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
 <option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
 <option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
@@ -70,6 +72,7 @@
 <option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
 <option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
 <option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
 <option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
 <option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
 <option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
@@ -84,6 +87,11 @@
 <option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
 <option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
 <option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -96,16 +104,45 @@
 
             <div class="nav-actions">
                 <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
                 <button class="btn-action" id="themeToggle">🌓 Tema</button>
             </div>
         </div>
     </nav>
 
     <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge-group">
+            <div class="hero-badge-group no-print">
                 <span class="badge badge-primary">Kurikulum OBE 2026</span>
                 <span class="badge badge-accent">Permendikbudristek 53/2023</span>
                 <span class="badge badge-warning">FSTI UWG Malang</span>
@@ -202,12 +239,12 @@ graph LR
 </tbody>
 </table></div>
 <hr />
-<h2 id="3-master-tabel-keterlacakan-14-cpl-timestimes-55-mata-kuliah-paket-146-sks-ditempuh">3. MASTER TABEL KETERLACAKAN 14 CPL <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 55 MATA KULIAH (PAKET 146 SKS DITEMPUH)</h2>
+<h2 id="3-master-tabel-keterlacakan-14-cpl-times-55-mata-kuliah-paket-146-sks-ditempuh">3. MASTER TABEL KETERLACAKAN 14 CPL $\times$ 55 MATA KULIAH (PAKET 146 SKS DITEMPUH)</h2>
 <h3 id="keterangan-simbol-matriks">Keterangan Simbol Matriks:</h3>
 <ul>
-<li><strong><code>I</code>> (Introduce):</strong> Pengenalan konsep dasar keilmuan dan teori dasar (Ranah Bloom C2–C3).</li>
-<li><strong><code>R</code>> (Reinforce):</strong> Penguatan, analisis kasus mendalam, dan penerapan sistematis (Ranah Bloom C3–C4).</li>
-<li><strong><code>M</code>> (Master):</strong> Penguasaan tingkat tinggi, sintesis, perancangan arsitektur, dan evaluasi mandiri (Ranah Bloom C5–C6).</li>
+<li><strong><code>I</code> (Introduce):</strong> Pengenalan konsep dasar keilmuan dan teori dasar (Ranah Bloom C2–C3).</li>
+<li><strong><code>R</code> (Reinforce):</strong> Penguatan, analisis kasus mendalam, dan penerapan sistematis (Ranah Bloom C3–C4).</li>
+<li><strong><code>M</code> (Master):</strong> Penguasaan tingkat tinggi, sintesis, perancangan arsitektur, dan evaluasi mandiri (Ranah Bloom C5–C6).</li>
 </ul>
 <hr />
 <h3 id="tabel-31-matriks-keterlacakan-tahap-fondasi-semester-1-semester-2">TABEL 3.1: MATRIKS KETERLACAKAN TAHAP FONDASI (SEMESTER 1 &amp; SEMESTER 2)</h3>
@@ -240,7 +277,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="code-tag">FST-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-101</span></td>
 <td>Dasar Teknologi Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -263,7 +300,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">FST-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-102</span></td>
 <td>Algoritma &amp; Pemrograman</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -286,7 +323,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span></td>
 <td>Pengantar Sistem &amp; TI</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -309,7 +346,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span></td>
 <td>Kalkulus</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -332,7 +369,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-103</span></td>
 <td>Arsitektur &amp; Org. Sistem TI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -355,7 +392,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span></td>
 <td>Agama I</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"><strong>I</strong></td>
@@ -378,7 +415,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span></td>
 <td>Pancasila</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"><strong>I</strong></td>
@@ -401,7 +438,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">8</td>
-<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span></td>
 <td>Bahasa Indonesia</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -424,7 +461,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">9</td>
-<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span></td>
 <td>Matematika Diskrit &amp; Logika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -447,7 +484,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span></td>
 <td>Aljabar Linear &amp; Matriks</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -470,7 +507,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td style="text-align: center;"><span class="code-tag">FST-203</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-203</span></td>
 <td>Struktur Data &amp; Algoritma</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -493,7 +530,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
-<td style="text-align: center;"><span class="code-tag">FST-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-204</span></td>
 <td>Organisasi &amp; Arsitektur Kom</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -516,7 +553,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: center;"><span class="code-tag">FST-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-205</span></td>
 <td>Pemrograman Lanjut (OOP)</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -539,7 +576,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td style="text-align: center;"><span class="code-tag">FST-206</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-206</span></td>
 <td>Etika Profesi &amp; Hukum Dig.</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"><strong>I</strong></td>
@@ -562,7 +599,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">15</td>
-<td style="text-align: center;"><span class="code-tag">FST-207</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-207</span></td>
 <td>Sistem Basis Data</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -585,7 +622,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">16</td>
-<td style="text-align: center;"><span class="code-tag">MKU-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-204</span></td>
 <td>Kewirausahaan I</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -639,7 +676,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">17</td>
-<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span></td>
 <td>Analisis &amp; Perancangan SI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -662,7 +699,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">18</td>
-<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span></td>
 <td>Sistem Cerdas</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -685,7 +722,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">19</td>
-<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span></td>
 <td>UI/UX Design &amp; Prototyping</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -708,7 +745,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">20</td>
-<td style="text-align: center;"><span class="code-tag">STI-309</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-309</span></td>
 <td>Rekayasa Perangkat Lunak</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -731,7 +768,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">21</td>
-<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span></td>
 <td>Sistem Operasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -754,7 +791,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">22</td>
-<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span></td>
 <td>Web Front End Development</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -777,7 +814,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">23</td>
-<td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-312</span></td>
 <td>Jaringan Komputer</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -800,7 +837,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">24</td>
-<td style="text-align: center;"><span class="code-tag">STI-413</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-413</span></td>
 <td>Machine Learning</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -823,7 +860,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">25</td>
-<td style="text-align: center;"><span class="code-tag">STI-415</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-415</span></td>
 <td>Data Warehouse &amp; BI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -846,7 +883,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">26</td>
-<td style="text-align: center;"><span class="code-tag">STI-416</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-416</span></td>
 <td>Web Back End Development</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -869,7 +906,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">27</td>
-<td style="text-align: center;"><span class="code-tag">STI-417</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-417</span></td>
 <td>Komputasi Awan (Cloud)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -892,7 +929,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">28</td>
-<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span></td>
 <td>Dasar Keamanan Informasi</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -915,7 +952,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">29</td>
-<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-408</span></td>
 <td>Probabilitas &amp; Statistika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -938,7 +975,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">30</td>
-<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span></td>
 <td>Pengantar NLP &amp; IR</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -961,7 +998,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">31</td>
-<td style="text-align: center;"><span class="code-tag">MKU-405</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-405</span></td>
 <td>Kewarganegaraan</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"><strong>I</strong></td>
@@ -984,7 +1021,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">31.B</td>
-<td style="text-align: center;"><span class="code-tag">MKU-406</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-406</span></td>
 <td>Agama II</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;"><strong>I</strong></td>
@@ -1038,7 +1075,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">32</td>
-<td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-519</span></td>
 <td>Keamanan Informasi Lanjut</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1061,7 +1098,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">33</td>
-<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span></td>
 <td>Data Mining &amp; Visualisasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1084,7 +1121,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">34</td>
-<td style="text-align: center;"><span class="code-tag">STI-521</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-521</span></td>
 <td>Internet of Things (IoT)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1107,7 +1144,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">35</td>
-<td style="text-align: center;"><span class="code-tag">STI-522</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-522</span></td>
 <td>Pemrograman Aplikasi Mobile</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1130,7 +1167,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">36</td>
-<td style="text-align: center;"><span class="code-tag">STI-523</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-523</span></td>
 <td>Manajemen Proyek TI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1153,7 +1190,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">37</td>
-<td style="text-align: center;"><span class="code-tag">MKU-507</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-507</span></td>
 <td>KPM (Kuliah Pengabdian Kepada Masyarakat)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><strong>M</strong></td>
@@ -1199,7 +1236,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">38.B</td>
-<td style="text-align: center;"><span class="code-tag">MKU-508</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-508</span></td>
 <td>Kewirausahaan II</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;"></td>
@@ -1222,7 +1259,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">39</td>
-<td style="text-align: center;"><span class="code-tag">STI-624</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-624</span></td>
 <td>Integrasi Layanan Cerdas AI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1245,7 +1282,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">40</td>
-<td style="text-align: center;"><span class="code-tag">STI-625</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-625</span></td>
 <td>Smart City &amp; Pem. Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -1268,7 +1305,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">41</td>
-<td style="text-align: center;"><span class="code-tag">STI-626</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-626</span></td>
 <td>Deep Learning &amp; Neural Net</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1291,7 +1328,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">42</td>
-<td style="text-align: center;"><span class="code-tag">STI-627</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-627</span></td>
 <td>Digital Platform Engineering</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1314,7 +1351,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">43</td>
-<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-611</span></td>
 <td>Metodologi Penelitian</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -1414,7 +1451,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">46</td>
-<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span></td>
 <td>Inovasi &amp; Startup Digital</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"></td>
@@ -1437,7 +1474,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">47</td>
-<td style="text-align: center;"><span class="code-tag">FST-610</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-610</span></td>
 <td>Capstone Project FSTI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><strong>M</strong></td>
@@ -1460,7 +1497,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">48</td>
-<td style="text-align: center;"><span class="code-tag">FST-612</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-612</span></td>
 <td>Praktik Kerja Lapangan(PKL)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;"><strong>M</strong></td>
@@ -1483,7 +1520,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">49</td>
-<td style="text-align: center;"><span class="code-tag">FST-613</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-613</span></td>
 <td>Pra-Skripsi / Sempro</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"></td>
@@ -1575,7 +1612,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">53</td>
-<td style="text-align: center;"><span class="code-tag">FST-714</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-714</span></td>
 <td>Skripsi / Tugas Akhir</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: center;"><strong>M</strong></td>
@@ -1618,7 +1655,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="code-tag">STA-501</span>></td>
+<td style="text-align: center;"><span class="code-tag">STA-501</span></td>
 <td>Decision Support Systems</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1629,18 +1666,18 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STA-601</span>></td>
-<td>Computational Methods and Numerics</td>
+<td style="text-align: center;"><span class="code-tag">STA-601</span></td>
+<td>Rekayasa Big Data dan Komputasi Terdistribusi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
-<td>P1, KK1</td>
+<td>P2, KK2</td>
 <td style="text-align: center;">PL-1</td>
 <td style="text-align: center;">PEO-1, PEO-3</td>
 <td style="text-align: center;"><strong>M</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STA-602</span>></td>
+<td style="text-align: center;"><span class="code-tag">STA-602</span></td>
 <td>Intelligent Agent Systems</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1651,7 +1688,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STA-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STA-701</span></td>
 <td>MLOps and AI Pipeline</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1662,7 +1699,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;"><span class="code-tag">STA-702</span>></td>
+<td style="text-align: center;"><span class="code-tag">STA-702</span></td>
 <td>Conversational AI &amp; Intelligent Assistant</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1673,7 +1710,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;"><span class="code-tag">STA-703</span>></td>
+<td style="text-align: center;"><span class="code-tag">STA-703</span></td>
 <td>Smart Surveillance and IoT Analytics</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1703,7 +1740,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="code-tag">STB-501</span>></td>
+<td style="text-align: center;"><span class="code-tag">STB-501</span></td>
 <td>Network Security &amp; Digital Forensics</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1714,7 +1751,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STB-601</span>></td>
+<td style="text-align: center;"><span class="code-tag">STB-601</span></td>
 <td>Cloud Architecture &amp; DevOps</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1725,7 +1762,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STB-602</span>></td>
+<td style="text-align: center;"><span class="code-tag">STB-602</span></td>
 <td>Cybersecurity Risk Management</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1736,7 +1773,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STB-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STB-701</span></td>
 <td>IT Governance &amp; Compliance (COBIT 2019)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1747,7 +1784,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;"><span class="code-tag">STB-702</span>></td>
+<td style="text-align: center;"><span class="code-tag">STB-702</span></td>
 <td>IT Service Management (ITIL 4)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1758,7 +1795,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;"><span class="code-tag">STB-703</span>></td>
+<td style="text-align: center;"><span class="code-tag">STB-703</span></td>
 <td>Enterprise Architecture (TOGAF)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1788,7 +1825,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="code-tag">STC-501</span>></td>
+<td style="text-align: center;"><span class="code-tag">STC-501</span></td>
 <td>User Experience Research &amp; Design</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">5</td>
@@ -1799,7 +1836,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">STC-601</span>></td>
+<td style="text-align: center;"><span class="code-tag">STC-601</span></td>
 <td>Rekayasa &amp; Otomasi Proses Bisnis (BPA)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1810,7 +1847,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STC-602</span>></td>
+<td style="text-align: center;"><span class="code-tag">STC-602</span></td>
 <td>Rekayasa Aplikasi Industri Vertikal</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">6</td>
@@ -1821,7 +1858,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STC-701</span>></td>
+<td style="text-align: center;"><span class="code-tag">STC-701</span></td>
 <td>Immersive Media &amp; XR Development</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1832,7 +1869,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;"><span class="code-tag">STC-702</span>></td>
+<td style="text-align: center;"><span class="code-tag">STC-702</span></td>
 <td>SaaS Architecture &amp; Multi-Tenancy</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1843,7 +1880,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;"><span class="code-tag">STC-703</span>></td>
+<td style="text-align: center;"><span class="code-tag">STC-703</span></td>
 <td>Digital Product Management &amp; Agile</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">7</td>
@@ -1927,15 +1964,15 @@ graph LR
 <td><strong>Keterampilan Khusus (KK)</strong></td>
 <td style="text-align: center;"><strong>KK1</strong></td>
 <td>Merancang, melatih &amp; mengintegrasikan model Machine Learning/AI</td>
-<td style="text-align: center;">5 MK Inti + 6 MK P1</td>
-<td style="text-align: center;">33 SKS</td>
+<td style="text-align: center;">5 MK Inti + 5 MK P1</td>
+<td style="text-align: center;">30 SKS</td>
 </tr>
 <tr>
 <td></td>
 <td style="text-align: center;"><strong>KK2</strong></td>
 <td>Rekayasa data end-to-end, data mining, DWH/BI &amp; analitik</td>
-<td style="text-align: center;">4 MK Inti + 2 MK P1</td>
-<td style="text-align: center;">18 SKS</td>
+<td style="text-align: center;">4 MK Inti + 3 MK P1</td>
+<td style="text-align: center;">21 SKS</td>
 </tr>
 <tr>
 <td></td>
@@ -1973,8 +2010,8 @@ graph LR
 <p>Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI (IS2020) dan 15 Bahan Kajian Utama Standar APTIKOM TI (IT2017) terhadap mata kuliah pembina:</p>
 <ul>
 <li><strong>Keterangan Notasi:</strong>  </li>
-<li><code>●</code> : <strong>Bahan Kajian Primer (Core BoK)</strong> — Topik utama yang mendominasi <span class="arithmatex"><span class="MathJax_Preview">\ge 60\%</span><script type="math/tex">\ge 60\%</script></span> bahan ajar mata kuliah.  </li>
-<li><code>○</code> : <strong>Bahan Kajian Sekunder (Supporting BoK)</strong> — Topik pendukung yang diintegrasikan dalam proyek/praktikum (<span class="arithmatex"><span class="MathJax_Preview">\pm 20-40\%</span><script type="math/tex">\pm 20-40\%</script></span>).  </li>
+<li><code>●</code> : <strong>Bahan Kajian Primer (Core BoK)</strong> — Topik utama yang mendominasi $≥ 60\%$ bahan ajar mata kuliah.  </li>
+<li><code>○</code> : <strong>Bahan Kajian Sekunder (Supporting BoK)</strong> — Topik pendukung yang diintegrasikan dalam proyek/praktikum ($\pm 20-40\%$).  </li>
 </ul>
 <h3 id="tabel-61-pemetaan-21-bahan-kajian-is2020-aptikom-v20-mata-kuliah">TABEL 6.1: PEMETAAN 21 BAHAN KAJIAN IS2020 (APTIKOM v2.0) ↔ MATA KULIAH</h3>
 <div class="table-wrapper"><table>
@@ -1992,168 +2029,168 @@ graph LR
 <tr>
 <td><strong>BK-IS01</strong></td>
 <td><em>Foundations of Information Systems</em></td>
-<td><span class="code-tag">STI-101</span>>, <span class="code-tag">FST-101</span>></td>
-<td><span class="code-tag">STI-306</span>></td>
+<td><span class="code-tag">STI-101</span>, <span class="code-tag">FST-101</span></td>
+<td><span class="code-tag">STI-306</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS02</strong></td>
 <td><em>Data and Information Management</em></td>
-<td><span class="code-tag">FST-207</span>>, <span class="code-tag">STI-415</span>>, <span class="code-tag">STI-520</span>></td>
-<td><span class="code-tag">STA-501</span>>, <span class="code-tag">STA-701</span>></td>
-<td style="text-align: center;">5 MK</td>
+<td><span class="code-tag">FST-207</span>, <span class="code-tag">STI-415</span>, <span class="code-tag">STI-520</span>, <span class="code-tag">STA-601</span></td>
+<td><span class="code-tag">STA-501</span>, <span class="code-tag">STA-701</span></td>
+<td style="text-align: center;">6 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS03</strong></td>
 <td><em>IT Infrastructure and Networking</em></td>
-<td><span class="code-tag">STI-103</span>>, <span class="code-tag">STI-312</span>>, <span class="code-tag">STI-417</span>>, <span class="code-tag">STI-310</span>></td>
-<td><span class="code-tag">STB-501</span>>, <span class="code-tag">STB-601</span>>, <span class="code-tag">STI-521</span>></td>
+<td><span class="code-tag">STI-103</span>, <span class="code-tag">STI-312</span>, <span class="code-tag">STI-417</span>, <span class="code-tag">STI-310</span></td>
+<td><span class="code-tag">STB-501</span>, <span class="code-tag">STB-601</span>, <span class="code-tag">STI-521</span></td>
 <td style="text-align: center;">7 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS04</strong></td>
 <td><em>Enterprise Architecture</em></td>
-<td><span class="code-tag">STB-703</span>></td>
-<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-627</span>></td>
+<td><span class="code-tag">STB-703</span></td>
+<td><span class="code-tag">STI-306</span>, <span class="code-tag">STI-627</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IS05</strong></td>
 <td><em>IS Management and Governance</em></td>
-<td><span class="code-tag">STB-701</span>>, <span class="code-tag">STB-702</span>></td>
-<td><span class="code-tag">STI-523</span>>, <span class="code-tag">STB-602</span>></td>
+<td><span class="code-tag">STB-701</span>, <span class="code-tag">STB-702</span></td>
+<td><span class="code-tag">STI-523</span>, <span class="code-tag">STB-602</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IS06</strong></td>
 <td><em>Information Security and Risk Management</em></td>
-<td><span class="code-tag">STI-418</span>>, <span class="code-tag">STI-519</span>>, <span class="code-tag">STB-501</span>>, <span class="code-tag">STB-602</span>></td>
-<td><span class="code-tag">FST-206</span>></td>
+<td><span class="code-tag">STI-418</span>, <span class="code-tag">STI-519</span>, <span class="code-tag">STB-501</span>, <span class="code-tag">STB-602</span></td>
+<td><span class="code-tag">FST-206</span></td>
 <td style="text-align: center;">5 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS07</strong></td>
 <td><em>Systems Analysis and Design</em></td>
-<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-309</span>></td>
-<td><span class="code-tag">FST-610</span>>, <span class="code-tag">STC-601</span>></td>
+<td><span class="code-tag">STI-306</span>, <span class="code-tag">STI-309</span></td>
+<td><span class="code-tag">FST-610</span>, <span class="code-tag">STC-601</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS08</strong></td>
 <td><em>Project Management</em></td>
-<td><span class="code-tag">STI-523</span>>, <span class="code-tag">STC-703</span>></td>
-<td><span class="code-tag">FST-610</span>>, <span class="code-tag">FST-612</span>></td>
+<td><span class="code-tag">STI-523</span>, <span class="code-tag">STC-703</span></td>
+<td><span class="code-tag">FST-610</span>, <span class="code-tag">FST-612</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS09</strong></td>
 <td><em>Business Process Management</em></td>
-<td><span class="code-tag">STC-601</span>></td>
-<td><span class="code-tag">STI-306</span>>, <span class="code-tag">STI-625</span>></td>
+<td><span class="code-tag">STC-601</span></td>
+<td><span class="code-tag">STI-306</span>, <span class="code-tag">STI-625</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IS10</strong></td>
 <td><em>Applied Mathematics and Logic</em></td>
-<td><span class="code-tag">STI-102</span>>, <span class="code-tag">STI-204</span>>, <span class="code-tag">STI-205</span>>, <span class="code-tag">FST-408</span>></td>
-<td><span class="code-tag">STA-601</span>></td>
-<td style="text-align: center;">5 MK</td>
+<td><span class="code-tag">STI-102</span>, <span class="code-tag">STI-204</span>, <span class="code-tag">STI-205</span>, <span class="code-tag">FST-408</span></td>
+<td>—</td>
+<td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS11</strong></td>
 <td><em>Programming Fundamentals &amp; OOP</em></td>
-<td><span class="code-tag">FST-102</span>>, <span class="code-tag">FST-203</span>>, <span class="code-tag">FST-205</span>></td>
-<td><span class="code-tag">STI-311</span>>, <span class="code-tag">STI-416</span>></td>
+<td><span class="code-tag">FST-102</span>, <span class="code-tag">FST-203</span>, <span class="code-tag">FST-205</span></td>
+<td><span class="code-tag">STI-311</span>, <span class="code-tag">STI-416</span></td>
 <td style="text-align: center;">5 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS12</strong></td>
 <td><em>Web and Mobile App Development</em></td>
-<td><span class="code-tag">STI-311</span>>, <span class="code-tag">STI-416</span>>, <span class="code-tag">STI-522</span>>, <span class="code-tag">STI-627</span>></td>
-<td><span class="code-tag">STC-602</span>>, <span class="code-tag">STC-702</span>></td>
+<td><span class="code-tag">STI-311</span>, <span class="code-tag">STI-416</span>, <span class="code-tag">STI-522</span>, <span class="code-tag">STI-627</span></td>
+<td><span class="code-tag">STC-602</span>, <span class="code-tag">STC-702</span></td>
 <td style="text-align: center;">6 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS13</strong></td>
 <td><em>Data Analytics and Business Intelligence</em></td>
-<td><span class="code-tag">STI-415</span>>, <span class="code-tag">STI-520</span>>, <span class="code-tag">STA-501</span>></td>
-<td><span class="code-tag">STI-413</span>>, <span class="code-tag">STA-701</span>></td>
+<td><span class="code-tag">STI-415</span>, <span class="code-tag">STI-520</span>, <span class="code-tag">STA-501</span></td>
+<td><span class="code-tag">STI-413</span>, <span class="code-tag">STA-701</span></td>
 <td style="text-align: center;">5 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS14</strong></td>
 <td><em>IT Audit and Compliance</em></td>
-<td><span class="code-tag">STB-701</span>>, <span class="code-tag">STB-602</span>></td>
-<td><span class="code-tag">FST-206</span>>, <span class="code-tag">STB-702</span>></td>
+<td><span class="code-tag">STB-701</span>, <span class="code-tag">STB-602</span></td>
+<td><span class="code-tag">FST-206</span>, <span class="code-tag">STB-702</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IS15</strong></td>
 <td><em>Digital Innovation and Entrepreneurship</em></td>
-<td><span class="code-tag">MKU-204</span>>, <span class="code-tag">STI-728</span>>, <span class="code-tag">FST-610</span>></td>
-<td><span class="code-tag">STC-703</span>></td>
+<td><span class="code-tag">MKU-204</span>, <span class="code-tag">STI-728</span>, <span class="code-tag">FST-610</span></td>
+<td><span class="code-tag">STC-703</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS16</strong></td>
 <td><em>Artificial Intelligence &amp; Intelligent Systems</em></td>
-<td><span class="code-tag">STI-307</span>>, <span class="code-tag">STI-414</span>>, <span class="code-tag">STI-624</span>>, <span class="code-tag">STA-602</span>>, <span class="code-tag">STA-702</span>></td>
-<td><span class="code-tag">STI-413</span>>, <span class="code-tag">STA-703</span>></td>
+<td><span class="code-tag">STI-307</span>, <span class="code-tag">STI-414</span>, <span class="code-tag">STI-624</span>, <span class="code-tag">STA-602</span>, <span class="code-tag">STA-702</span></td>
+<td><span class="code-tag">STI-413</span>, <span class="code-tag">STA-703</span></td>
 <td style="text-align: center;">7 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS17</strong></td>
 <td><em>Human-Computer Interaction &amp; UX</em></td>
-<td><span class="code-tag">STI-308</span>>, <span class="code-tag">STC-501</span>></td>
-<td><span class="code-tag">STI-311</span>>, <span class="code-tag">STI-522</span>></td>
+<td><span class="code-tag">STI-308</span>, <span class="code-tag">STC-501</span></td>
+<td><span class="code-tag">STI-311</span>, <span class="code-tag">STI-522</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS18</strong></td>
 <td><em>Machine Learning and Data Science</em></td>
-<td><span class="code-tag">STI-413</span>>, <span class="code-tag">STI-626</span>>, <span class="code-tag">STA-701</span>></td>
-<td><span class="code-tag">STA-601</span>>, <span class="code-tag">STA-703</span>></td>
+<td><span class="code-tag">STI-413</span>, <span class="code-tag">STI-626</span>, <span class="code-tag">STA-701</span></td>
+<td><span class="code-tag">STA-601</span>, <span class="code-tag">STA-703</span></td>
 <td style="text-align: center;">5 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS19</strong></td>
 <td><em>Cloud Architecture &amp; DevOps</em></td>
-<td><span class="code-tag">STI-417</span>>, <span class="code-tag">STB-601</span>></td>
-<td><span class="code-tag">STI-627</span>>, <span class="code-tag">STC-702</span>></td>
+<td><span class="code-tag">STI-417</span>, <span class="code-tag">STB-601</span></td>
+<td><span class="code-tag">STI-627</span>, <span class="code-tag">STC-702</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IS20</strong></td>
 <td><em>Ethics, Use and Implications for Society</em></td>
-<td><span class="code-tag">FST-206</span>></td>
-<td><span class="code-tag">STI-418</span>>, <span class="code-tag">STI-625</span>>, <span class="code-tag">STB-701</span>></td>
+<td><span class="code-tag">FST-206</span></td>
+<td><span class="code-tag">STI-418</span>, <span class="code-tag">STI-625</span>, <span class="code-tag">STB-701</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IS21</strong></td>
 <td><em>Internship and Professional Practice</em></td>
-<td><span class="code-tag">FST-612</span>></td>
-<td><span class="code-tag">MKU-507</span>>, <span class="code-tag">FST-610</span>></td>
+<td><span class="code-tag">FST-612</span></td>
+<td><span class="code-tag">MKU-507</span>, <span class="code-tag">FST-610</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
@@ -2161,7 +2198,7 @@ graph LR
 </table></div>
 <div class="custom-alert alert-note">
     <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
-    <div class="alert-content">**`BK-IS20` dan `BK-IS21`** merupakan dua Bahan Kajian **kompetensi utama IS2020** yang wajib diadopsi menurut INSTRUKSI Panduan OBE APTIKOM SI v2.0 (`BK09 Ethics, use and implications for society` dan `BK10 Internship`, yang terakhir bersumber **IABEE**). Keduanya kini memiliki entri tersendiri dengan mata kuliah pembina yang telah tersedia dalam struktur kurikulum.</div>
+    <div class="alert-content"><p><strong><code>BK-IS20</code> dan <code>BK-IS21</code></strong> merupakan dua Bahan Kajian <strong>kompetensi utama IS2020</strong> yang wajib diadopsi menurut INSTRUKSI Panduan OBE APTIKOM SI v2.0 (<code>BK09 Ethics, use and implications for society</code> dan <code>BK10 Internship</code>, yang terakhir bersumber <strong>IABEE</strong>). Keduanya kini memiliki entri tersendiri dengan mata kuliah pembina yang telah tersedia dalam struktur kurikulum.</p></div>
 </div>
 
 <hr />
@@ -2181,15 +2218,15 @@ graph LR
 <tr>
 <td><strong>BK-IT01</strong></td>
 <td><em>Information Technology Fundamentals</em></td>
-<td><span class="code-tag">FST-101</span>>, <span class="code-tag">STI-101</span>></td>
-<td><span class="code-tag">FST-204</span>></td>
+<td><span class="code-tag">FST-101</span>, <span class="code-tag">STI-101</span></td>
+<td><span class="code-tag">FST-204</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT02</strong></td>
 <td><em>Applied AI &amp; Intelligent Technologies</em></td>
-<td><span class="code-tag">STI-307</span>>, <span class="code-tag">STI-413</span>>, <span class="code-tag">STI-414</span>>, <span class="code-tag">STI-626</span>>, <span class="code-tag">STI-624</span>></td>
+<td><span class="code-tag">STI-307</span>, <span class="code-tag">STI-413</span>, <span class="code-tag">STI-414</span>, <span class="code-tag">STI-626</span>, <span class="code-tag">STI-624</span></td>
 <td><code>STA-602, STA-701..703</code></td>
 <td style="text-align: center;">9 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
@@ -2197,15 +2234,15 @@ graph LR
 <tr>
 <td><strong>BK-IT03</strong></td>
 <td><em>Networking &amp; Communications</em></td>
-<td><span class="code-tag">STI-312</span>></td>
-<td><span class="code-tag">STI-417</span>>, <span class="code-tag">STI-521</span>>, <span class="code-tag">STB-501</span>></td>
+<td><span class="code-tag">STI-312</span></td>
+<td><span class="code-tag">STI-417</span>, <span class="code-tag">STI-521</span>, <span class="code-tag">STB-501</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT04</strong></td>
 <td><em>Platform Technologies &amp; Web/Mobile</em></td>
-<td><span class="code-tag">STI-311</span>>, <span class="code-tag">STI-416</span>>, <span class="code-tag">STI-522</span>>, <span class="code-tag">STI-627</span>></td>
+<td><span class="code-tag">STI-311</span>, <span class="code-tag">STI-416</span>, <span class="code-tag">STI-522</span>, <span class="code-tag">STI-627</span></td>
 <td><code>STC-602, STC-701..702</code></td>
 <td style="text-align: center;">7 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
@@ -2213,88 +2250,88 @@ graph LR
 <tr>
 <td><strong>BK-IT05</strong></td>
 <td><em>Cloud Computing &amp; Virtualization</em></td>
-<td><span class="code-tag">STI-417</span>>, <span class="code-tag">STB-601</span>></td>
-<td><span class="code-tag">STI-310</span>>, <span class="code-tag">STC-702</span>></td>
+<td><span class="code-tag">STI-417</span>, <span class="code-tag">STB-601</span></td>
+<td><span class="code-tag">STI-310</span>, <span class="code-tag">STC-702</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT06</strong></td>
 <td><em>Cybersecurity Principles &amp; Defense</em></td>
-<td><span class="code-tag">STI-418</span>>, <span class="code-tag">STI-519</span>>, <span class="code-tag">STB-501</span>></td>
-<td><span class="code-tag">STB-602</span>></td>
+<td><span class="code-tag">STI-418</span>, <span class="code-tag">STI-519</span>, <span class="code-tag">STB-501</span></td>
+<td><span class="code-tag">STB-602</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT07</strong></td>
 <td><em>System Integration and Architecture</em></td>
-<td><span class="code-tag">STI-624</span>>, <span class="code-tag">STI-627</span>>, <span class="code-tag">FST-610</span>></td>
-<td><span class="code-tag">STB-703</span>>, <span class="code-tag">STC-601</span>></td>
+<td><span class="code-tag">STI-624</span>, <span class="code-tag">STI-627</span>, <span class="code-tag">FST-610</span></td>
+<td><span class="code-tag">STB-703</span>, <span class="code-tag">STC-601</span></td>
 <td style="text-align: center;">5 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT08</strong></td>
 <td><em>IT Service Management &amp; Governance</em></td>
-<td><span class="code-tag">STB-701</span>>, <span class="code-tag">STB-702</span>></td>
-<td><span class="code-tag">STI-523</span>></td>
+<td><span class="code-tag">STB-701</span>, <span class="code-tag">STB-702</span></td>
+<td><span class="code-tag">STI-523</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IT09</strong></td>
 <td><em>Data Analytics &amp; Information Visualization</em></td>
-<td><span class="code-tag">STI-415</span>>, <span class="code-tag">STI-520</span>></td>
-<td><span class="code-tag">STA-501</span>>, <span class="code-tag">STA-701</span>></td>
+<td><span class="code-tag">STI-415</span>, <span class="code-tag">STI-520</span></td>
+<td><span class="code-tag">STA-501</span>, <span class="code-tag">STA-701</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT10</strong></td>
 <td><em>User Experience &amp; Interaction Design</em></td>
-<td><span class="code-tag">STI-308</span>>, <span class="code-tag">STC-501</span>></td>
-<td><span class="code-tag">STI-311</span>>, <span class="code-tag">STC-701</span>></td>
+<td><span class="code-tag">STI-308</span>, <span class="code-tag">STC-501</span></td>
+<td><span class="code-tag">STI-311</span>, <span class="code-tag">STC-701</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT11</strong></td>
 <td><em>Software Development Practices</em></td>
-<td><span class="code-tag">STI-309</span>>, <span class="code-tag">STI-416</span>>, <span class="code-tag">STI-627</span>></td>
-<td><span class="code-tag">FST-205</span>>, <span class="code-tag">STC-702</span>></td>
+<td><span class="code-tag">STI-309</span>, <span class="code-tag">STI-416</span>, <span class="code-tag">STI-627</span></td>
+<td><span class="code-tag">FST-205</span>, <span class="code-tag">STC-702</span></td>
 <td style="text-align: center;">5 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT12</strong></td>
 <td><em>IT Risk Management and Compliance</em></td>
-<td><span class="code-tag">STB-602</span>>, <span class="code-tag">STB-701</span>></td>
-<td><span class="code-tag">FST-206</span>></td>
+<td><span class="code-tag">STB-602</span>, <span class="code-tag">STB-701</span></td>
+<td><span class="code-tag">FST-206</span></td>
 <td style="text-align: center;">3 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
 <tr>
 <td><strong>BK-IT13</strong></td>
 <td><em>Technology Entrepreneurship</em></td>
-<td><span class="code-tag">MKU-204</span>>, <span class="code-tag">STI-728</span>>, <span class="code-tag">FST-610</span>></td>
-<td><span class="code-tag">STC-703</span>></td>
+<td><span class="code-tag">MKU-204</span>, <span class="code-tag">STI-728</span>, <span class="code-tag">FST-610</span></td>
+<td><span class="code-tag">STC-703</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT14</strong></td>
 <td><em>IoT and Embedded Smart Systems</em></td>
-<td><span class="code-tag">STI-521</span>>, <span class="code-tag">STA-703</span>></td>
-<td><span class="code-tag">STI-310</span>>, <span class="code-tag">STI-312</span>></td>
+<td><span class="code-tag">STI-521</span>, <span class="code-tag">STA-703</span></td>
+<td><span class="code-tag">STI-310</span>, <span class="code-tag">STI-312</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Sangat Kuat</td>
 </tr>
 <tr>
 <td><strong>BK-IT15</strong></td>
 <td><em>Global Professional Practice</em></td>
-<td><span class="code-tag">FST-205</span>>, <span class="code-tag">FST-612</span>></td>
-<td><span class="code-tag">FST-206</span>>, <span class="code-tag">MKU-507</span>></td>
+<td><span class="code-tag">FST-205</span>, <span class="code-tag">FST-612</span></td>
+<td><span class="code-tag">FST-206</span>, <span class="code-tag">MKU-507</span></td>
 <td style="text-align: center;">4 MK</td>
 <td style="text-align: center;">✅ Terpenuhi</td>
 </tr>
@@ -2302,7 +2339,7 @@ graph LR
 </table></div>
 <div class="custom-alert alert-note">
     <div class="alert-header"><span class="alert-icon">ℹ️</span> NOTE</div>
-    <div class="alert-content">**`BK-IT15`** merupakan Bahan Kajian **penciri utama IT2017** yang wajib diadopsi (`BK08 Praktek Profesional Global`). Bahan Kajian ini menaungi kompetensi komunikasi teknis berbahasa Inggris, etika profesi, pengabdian masyarakat, dan pengalaman kerja industri sebagai satu kesatuan kesiapan praktik profesional lintas budaya.</div>
+    <div class="alert-content"><p><strong><code>BK-IT15</code></strong> merupakan Bahan Kajian <strong>penciri utama IT2017</strong> yang wajib diadopsi (<code>BK08 Praktek Profesional Global</code>). Bahan Kajian ini menaungi kompetensi komunikasi teknis berbahasa Inggris, etika profesi, pengabdian masyarakat, dan pengalaman kerja industri sebagai satu kesatuan kesiapan praktik profesional lintas budaya.</p></div>
 </div>
 
 <hr />
@@ -2312,7 +2349,7 @@ graph LR
 <li><strong>CM:</strong> <em>Case Method</em> (Pemecahan Kasus Nyata)  </li>
 <li><strong>PjBL:</strong> <em>Team-Based Project</em> (Proyek Berbasis Kelompok Terintegrasi)  </li>
 <li><strong>DA:</strong> <em>Direct Assessment / Cognitive Exam</em> (Ujian Teori / Kuis Mandiri)  </li>
-<li><strong>Syarat Mutu IKU 7:</strong> Bobot Evaluasi Kolaboratif <span class="arithmatex"><span class="MathJax_Preview">(CM + PjBL) \ge 50\%</span><script type="math/tex">(CM + PjBL) \ge 50\%</script></span>.</li>
+<li><strong>Syarat Mutu IKU 7:</strong> Bobot Evaluasi Kolaboratif $(CM + PjBL) ≥ 50\%$.</li>
 </ul>
 <div class="table-wrapper"><table>
 <thead>
@@ -2331,7 +2368,7 @@ graph LR
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="code-tag">FST-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-101</span></td>
 <td>Dasar Teknologi Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">20%</td>
@@ -2342,7 +2379,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">FST-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-102</span></td>
 <td>Algoritma &amp; Pemrograman</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2353,7 +2390,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span></td>
 <td>Pengantar Sistem &amp; TI</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">30%</td>
@@ -2364,7 +2401,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span></td>
 <td>Kalkulus</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2375,7 +2412,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-103</span></td>
 <td>Arsitektur &amp; Org. Sistem TI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2386,7 +2423,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span></td>
 <td>Agama I</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">20%</td>
@@ -2397,7 +2434,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span></td>
 <td>Pancasila</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">20%</td>
@@ -2408,7 +2445,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">8</td>
-<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span></td>
 <td>Bahasa Indonesia</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">30%</td>
@@ -2419,7 +2456,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">9</td>
-<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span></td>
 <td>Matematika Diskrit &amp; Logika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2430,7 +2467,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span></td>
 <td>Aljabar Linear &amp; Matriks</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2441,7 +2478,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td style="text-align: center;"><span class="code-tag">FST-203</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-203</span></td>
 <td>Struktur Data &amp; Algoritma</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2452,7 +2489,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
-<td style="text-align: center;"><span class="code-tag">FST-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-204</span></td>
 <td>Organisasi &amp; Arsitektur Kom</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">20%</td>
@@ -2463,7 +2500,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: center;"><span class="code-tag">FST-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-205</span></td>
 <td>Pemrograman Lanjut (OOP)</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">20%</td>
@@ -2474,7 +2511,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td style="text-align: center;"><span class="code-tag">FST-206</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-206</span></td>
 <td>Etika Profesi &amp; Hukum Dig.</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">40%</td>
@@ -2485,7 +2522,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">15</td>
-<td style="text-align: center;"><span class="code-tag">FST-207</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-207</span></td>
 <td>Sistem Basis Data</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2496,7 +2533,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">16</td>
-<td style="text-align: center;"><span class="code-tag">MKU-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-204</span></td>
 <td>Kewirausahaan I</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">30%</td>
@@ -2507,7 +2544,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">17</td>
-<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span></td>
 <td>Analisis &amp; Perancangan SI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">30%</td>
@@ -2518,7 +2555,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">18</td>
-<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span></td>
 <td>Sistem Cerdas</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">25%</td>
@@ -2529,7 +2566,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">19</td>
-<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span></td>
 <td>UI/UX Design &amp; Prototyping</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2540,7 +2577,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">20</td>
-<td style="text-align: center;"><span class="code-tag">STI-309</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-309</span></td>
 <td>Rekayasa Perangkat Lunak</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2551,7 +2588,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">21</td>
-<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span></td>
 <td>Sistem Operasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2562,7 +2599,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">22</td>
-<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span></td>
 <td>Web Front End Development</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2573,7 +2610,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">23</td>
-<td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-312</span></td>
 <td>Jaringan Komputer</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2584,7 +2621,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">24</td>
-<td style="text-align: center;"><span class="code-tag">STI-413</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-413</span></td>
 <td>Machine Learning</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2595,7 +2632,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">25</td>
-<td style="text-align: center;"><span class="code-tag">STI-415</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-415</span></td>
 <td>Data Warehouse &amp; BI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">25%</td>
@@ -2606,7 +2643,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">26</td>
-<td style="text-align: center;"><span class="code-tag">STI-416</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-416</span></td>
 <td>Web Back End Development</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2617,7 +2654,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">27</td>
-<td style="text-align: center;"><span class="code-tag">STI-417</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-417</span></td>
 <td>Komputasi Awan (Cloud)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2628,7 +2665,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">28</td>
-<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span></td>
 <td>Dasar Keamanan Informasi</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">25%</td>
@@ -2639,7 +2676,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">29</td>
-<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-408</span></td>
 <td>Probabilitas &amp; Statistika</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2650,7 +2687,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">30</td>
-<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span></td>
 <td>Pengantar NLP &amp; IR</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">20%</td>
@@ -2661,7 +2698,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">31</td>
-<td style="text-align: center;"><span class="code-tag">MKU-405</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-405</span></td>
 <td>Kewarganegaraan</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">30%</td>
@@ -2672,7 +2709,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">32</td>
-<td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-519</span></td>
 <td>Keamanan Informasi Lanjut</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">30%</td>
@@ -2683,7 +2720,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">33</td>
-<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span></td>
 <td>Data Mining &amp; Visualisasi</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2694,7 +2731,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">34</td>
-<td style="text-align: center;"><span class="code-tag">STI-521</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-521</span></td>
 <td>Internet of Things (IoT)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2705,7 +2742,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">35</td>
-<td style="text-align: center;"><span class="code-tag">STI-522</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-522</span></td>
 <td>Pemrograman Mobile</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2716,7 +2753,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">36</td>
-<td style="text-align: center;"><span class="code-tag">STI-523</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-523</span></td>
 <td>Manajemen Proyek TI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">30%</td>
@@ -2727,7 +2764,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">37</td>
-<td style="text-align: center;"><span class="code-tag">MKU-507</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-507</span></td>
 <td>KPM (Kuliah Pengabdian Kepada Masyarakat)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2749,7 +2786,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">38.B</td>
-<td style="text-align: center;"><span class="code-tag">MKU-508</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-508</span></td>
 <td>Kewirausahaan II</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">30%</td>
@@ -2760,7 +2797,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">39</td>
-<td style="text-align: center;"><span class="code-tag">STI-624</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-624</span></td>
 <td>Integrasi Layanan Cerdas AI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2771,7 +2808,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">40</td>
-<td style="text-align: center;"><span class="code-tag">STI-625</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-625</span></td>
 <td>Smart City &amp; Pem. Digital</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">35%</td>
@@ -2782,7 +2819,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">41</td>
-<td style="text-align: center;"><span class="code-tag">STI-626</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-626</span></td>
 <td>Deep Learning &amp; Neural Net</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2793,7 +2830,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">42</td>
-<td style="text-align: center;"><span class="code-tag">STI-627</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-627</span></td>
 <td>Digital Platform Engineering</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2804,7 +2841,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">43</td>
-<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-611</span></td>
 <td>Metodologi Penelitian</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">30%</td>
@@ -2837,7 +2874,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">46</td>
-<td style="text-align: center;"><span class="code-tag">STI-728</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-728</span></td>
 <td>Inovasi &amp; Startup Digital</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">20%</td>
@@ -2848,7 +2885,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">47</td>
-<td style="text-align: center;"><span class="code-tag">FST-610</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-610</span></td>
 <td>Capstone Project FSTI</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">0%</td>
@@ -2859,7 +2896,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">48</td>
-<td style="text-align: center;"><span class="code-tag">FST-612</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-612</span></td>
 <td>Praktik Kerja Lapangan(PKL)</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">0%</td>
@@ -2870,7 +2907,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">49</td>
-<td style="text-align: center;"><span class="code-tag">FST-613</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-613</span></td>
 <td>Pra-Skripsi / Sempro</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">30%</td>
@@ -2914,7 +2951,7 @@ graph LR
 </tr>
 <tr>
 <td style="text-align: center;">53</td>
-<td style="text-align: center;"><span class="code-tag">FST-714</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-714</span></td>
 <td>Skripsi / Tugas Akhir</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: center;">0%</td>
@@ -2927,7 +2964,7 @@ graph LR
 </table></div>
 <blockquote>
 <p><strong>Rekapitulasi Kepatuhan IKU 7 Kurikulum SISTEKIN 2026:</strong><br />
-<em> </em><em>Persentase MK Memenuhi IKU 7 (CM + PjBL <span class="arithmatex"><span class="MathJax_Preview">\ge 50\%</span><script type="math/tex">\ge 50\%</script></span>):</em><em> </em><em>89.1%</em><em> (49 dari 55 MK paket).<br />
+<em> </em><em>Persentase MK Memenuhi IKU 7 (CM + PjBL $≥ 50\%$):</em><em> </em><em>89.1%</em><em> (49 dari 55 MK paket).<br />
 </em> <strong>Rata-rata Bobot Pembelajaran Kolaboratif Kurikulum:</strong> <strong>67.8%</strong> (Jauh melampaui standar minimal 50%).</p>
 </blockquote>
 <h2 id="8-kesimpulan-penjaminan-mutu-kurikulum-obe">8. KESIMPULAN PENJAMINAN MUTU KURIKULUM OBE</h2>
@@ -2939,17 +2976,22 @@ graph LR
 <p><em>Disahkan sebagai Dokumen Resmi 004 — Kurikulum OBE Revisi SISTEKIN 2026.</em><br />
 <strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
 
-            <div class="doc-nav">
+            <div class="doc-nav no-print">
                 <div><a href="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
                 <div><a href="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer no-print">
             <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
     </div>
 
     <!-- Master External Modular Script -->

@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- KaTeX for LaTeX Math -->
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
     <!-- Mermaid JS for Flowcharts -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar no-print">
         <div class="container navbar-content">
             <a href="index.html" class="brand">
                 <div class="brand-logo">STI</div>
@@ -35,11 +35,12 @@
             </a>
             
             <select class="doc-select" onchange="window.location.href=this.value">
-                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
 <option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
 <option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
 <option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
-<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" selected>007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
@@ -59,6 +60,7 @@
 <option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
 <option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
 <option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
 <option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
 <option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
 <option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
@@ -70,6 +72,7 @@
 <option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
 <option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
 <option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
 <option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
 <option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
 <option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
@@ -84,6 +87,11 @@
 <option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
 <option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
 <option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -96,16 +104,45 @@
 
             <div class="nav-actions">
                 <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
                 <button class="btn-action" id="themeToggle">🌓 Tema</button>
             </div>
         </div>
     </nav>
 
     <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge-group">
+            <div class="hero-badge-group no-print">
                 <span class="badge badge-primary">Kurikulum OBE 2026</span>
                 <span class="badge badge-accent">Permendikbudristek 53/2023</span>
                 <span class="badge badge-warning">FSTI UWG Malang</span>
@@ -250,15 +287,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur Sistem), <code>KU1</code>> (Problem Solving Logika)</td>
+<td><span class="code-tag">P2</span> (Arsitektur Sistem), <code>KU1</code> (Problem Solving Logika)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-2</span>>, <span class="code-tag">PL-3</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-2</span>, <span class="code-tag">PL-3</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -277,19 +314,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menjelaskan</strong> konsep representasi data biner, heksadesimal, aljabar boolean, dan arsitektur Von Neumann (<em>B</em>) melalui studi literatur komputasi (<em>C</em>) secara tepat dan komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C2</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> fungsi gerbang logika dasar, tabel kebenaran, dan penyederhanaan Karnaugh Map (<em>B</em>) pada rangkaian logika kombinasional (<em>C</em>) dengan efisiensi gerbang minimum (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU1</code>></td>
+<td style="text-align: center;"><code>KU1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> interaksi antara CPU, hierarki memori, register, dan bus I/O (<em>B</em>) dalam simulasi siklus instruksi komputasi (<em>C</em>) sesuai standar arsitektur komputer modern (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -448,15 +485,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KU1</code>> (Problem Solving Komputasional), <span class="code-tag">P4</span>> (Rekayasa Perangkat Lunak)</td>
+<td><code>KU1</code> (Problem Solving Komputasional), <span class="code-tag">P4</span> (Rekayasa Perangkat Lunak)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-3</span>>, <span class="code-tag">PL-4</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-3</span>, <span class="code-tag">PL-4</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Lifelong Learning)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Lifelong Learning)</td>
 </tr>
 </tbody>
 </table></div>
@@ -475,13 +512,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> alur logika algoritma pemecahan masalah (<em>B</em>) menggunakan flowchart dan pseudocode standar (<em>C</em>) dengan kebenaran logika 100% (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KU1</code>></td>
+<td style="text-align: center;"><code>KU1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> struktur kontrol percabangan, perulangan, dan modularisasi fungsi (<em>B</em>) dalam kode program Python/C++ (<em>C</em>) sesuai standar clean code (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -652,15 +689,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Konsep Sistem Informasi &amp; Transformasi Digital)</td>
+<td><span class="code-tag">P2</span> (Konsep Sistem Informasi &amp; Transformasi Digital)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -679,19 +716,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menguraikan</strong> komponen pembentuk sistem informasi, siklus data-ke-informasi, dan perannya dalam organisasi (<em>B</em>) melalui studi kasus bisnis (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C2</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membandingkan</strong> jenis-jenis sistem informasi enterprise (TPS, MIS, DSS, ERP, CRM, SCM) (<em>B</em>) pada ekosistem industri modern (<em>C</em>) dengan analisis komparasi yang valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> usulan solusi transformasi digital berbasis AI, Cloud, dan IoT (<em>B</em>) terhadap permasalahan proses bisnis konvensional (<em>C</em>) secara etis dan layak bisnis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -850,15 +887,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P1</span>> (Matematika Sains Komputasi &amp; Fondasi AI)</td>
+<td><span class="code-tag">P1</span> (Matematika Sains Komputasi &amp; Fondasi AI)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-2</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-2</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -877,25 +914,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menghitung</strong> limit fungsi aljabar/transenden dan memeriksa kontinuitas (<em>B</em>) menggunakan kaidah kalkulus baku (<em>C</em>) secara teliti dan benar (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> konsep turunan fungsi multivariat dan gradien (<em>B</em>) pada permasalahan laju perubahan dan optimasi ekstremum (<em>C</em>) dengan prosedur matematis standar (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> permasalahan integral tentu dan tak tentu (<em>B</em>) menggunakan teknik substitusi dan integrasi parsial (<em>C</em>) untuk pemodelan fungsi komputasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> aplikasi kalkulus diferensial-integral (<em>B</em>) pada algoritma optimasi penurunan gradien (Gradient Descent) dan luasan data (<em>C</em>) secara matematis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -1054,15 +1091,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P1</span>> (Representasi Data Biner &amp; Logika), <span class="code-tag">P3</span>> (Arsitektur Perangkat Keras, Virtualisasi &amp; Infrastruktur TI), <code>KU1</code>> (Pemikiran Logis Rekayasa Sistem)</td>
+<td><span class="code-tag">P1</span> (Representasi Data Biner &amp; Logika), <span class="code-tag">P3</span> (Arsitektur Perangkat Keras, Virtualisasi &amp; Infrastruktur TI), <code>KU1</code> (Pemikiran Logis Rekayasa Sistem)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS &amp; AI Engineer), <span class="code-tag">PL-2</span>> (Cloud Infrastructure &amp; Cybersecurity Integrator)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS &amp; AI Engineer), <span class="code-tag">PL-2</span> (Cloud Infrastructure &amp; Cybersecurity Integrator)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice &amp; Systems Integration), <span class="code-tag">PEO-3</span>> (Research &amp; Lifelong Learning)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice &amp; Systems Integration), <span class="code-tag">PEO-3</span> (Research &amp; Lifelong Learning)</td>
 </tr>
 </tbody>
 </table></div>
@@ -1258,15 +1295,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Sikap, Spiritualitas, Moralitas &amp; Integritas)</td>
+<td><code>S1</code> (Sikap, Spiritualitas, Moralitas &amp; Integritas)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span>> s.d. <span class="code-tag">PEO-3</span>>)</td>
+<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span> s.d. <span class="code-tag">PEO-3</span>)</td>
 </tr>
 </tbody>
 </table></div>
@@ -1285,13 +1322,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menginternalisasi</strong> nilai-nilai keimanan, ketakwaan, dan moralitas keagamaan (<em>B</em>) dalam kehidupan bermasyarakat yang majemuk (<em>C</em>) dengan sikap toleransi dan moderasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>A3</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> etika kejujuran akademik, anti-plagiasi, dan tanggung jawab sosial (<em>B</em>) pada aktivitas rekayasa teknologi digital (<em>C</em>) berlandaskan ajaran agama (<em>D</em>).</td>
 <td style="text-align: center;"><strong>A3, C3</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -1450,15 +1487,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Sikap Kebangsaan, Etika Publik &amp; Nilai Ideologi)</td>
+<td><code>S1</code> (Sikap Kebangsaan, Etika Publik &amp; Nilai Ideologi)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span>> s.d. <span class="code-tag">PEO-3</span>>)</td>
+<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span> s.d. <span class="code-tag">PEO-3</span>)</td>
 </tr>
 </tbody>
 </table></div>
@@ -1477,13 +1514,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> kedudukan Pancasila sebagai dasar negara, ideologi bangsa, dan sistem filsafat (<em>B</em>) dalam dinamika sejarah Indonesia (<em>C</em>) secara kritis dan objektif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> nilai-nilai Pancasila sebagai etika publik dan dasar nilai pengembangan IPTEK digital (<em>B</em>) pada pemecahan kasus kebangsaan (<em>C</em>) dengan komitmen kebangsaan utuh (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3, A3</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -1642,15 +1679,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KU2</code>> (Komunikasi Ilmiah Efektif &amp; Naskah Teknis)</td>
+<td><code>KU2</code> (Komunikasi Ilmiah Efektif &amp; Naskah Teknis)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span>> s.d. <span class="code-tag">PEO-3</span>>)</td>
+<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span> s.d. <span class="code-tag">PEO-3</span>)</td>
 </tr>
 </tbody>
 </table></div>
@@ -1669,19 +1706,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> kaidah Ejaan Bahasa Indonesia (EYD V), tata istilah bidang IT, dan struktur kalimat efektif (<em>B</em>) pada teks teknis (<em>C</em>) dengan tata bahasa yang baku (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KU2</code>></td>
+<td style="text-align: center;"><code>KU2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> paragraf kohesif dan sintesis rujukan literatur bebas plagiarisme (<em>B</em>) menggunakan aplikasi manajemen referensi (Mendeley/Zotero) (<em>C</em>) secara etis dan presisi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU2</code>></td>
+<td style="text-align: center;"><code>KU2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan menulis</strong> artikel ilmiah serta proposal teknis sistem informasi (<em>B</em>) dengan sistematika IMRAD standar (<em>C</em>) yang siap dipublikasikan (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KU2</code>></td>
+<td style="text-align: center;"><code>KU2</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -1836,19 +1873,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-103</span>> Arsitektur dan Organisasi Sistem Teknologi Informasi</td>
+<td><span class="code-tag">STI-103</span> Arsitektur dan Organisasi Sistem Teknologi Informasi</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P1</span>> (Fondasi Struktur Diskrit, Logika Komputasi &amp; Graf), <code>KU1</code>> (Penalaran Formal Kritis)</td>
+<td><span class="code-tag">P1</span> (Fondasi Struktur Diskrit, Logika Komputasi &amp; Graf), <code>KU1</code> (Penalaran Formal Kritis)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-2</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-2</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research &amp; Lifelong Learning)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research &amp; Lifelong Learning)</td>
 </tr>
 </tbody>
 </table></div>
@@ -1873,7 +1910,7 @@ graph TD
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> konsep relasi ekuivalensi, himpunan terurut parsial (Poset), aljabar Boolean, dan kombinatorika (<em>B</em>) pada pemodelan struktur data dan logika query basis data (<em>C</em>) secara tepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -1885,7 +1922,7 @@ graph TD
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> model otomata berhingga (Finite State Automata / FSA: DFA dan NFA) (<em>B</em>) untuk pengenalan pola bahasa formal dan transisi status sistem komputasi (<em>C</em>) secara akurat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -2040,19 +2077,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-102</span>> Kalkulus</td>
+<td><span class="code-tag">STI-102</span> Kalkulus</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P1</span>> (Aljabar Linear, Ruang Vektor &amp; Dekomposisi Matriks)</td>
+<td><span class="code-tag">P1</span> (Aljabar Linear, Ruang Vektor &amp; Dekomposisi Matriks)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-2</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-2</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -2071,25 +2108,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyelesaikan</strong> Sistem Persamaan Linear (SPL) (<em>B</em>) menggunakan eliminasi Gauss-Jordan dan matriks invers (<em>C</em>) secara tepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> struktur ruang vektor, kombinasi linier, kebebasan linier, basis, dan dimensi (<em>B</em>) pada ruang <span class="arithmatex"><span class="MathJax_Preview">\mathbb{R}^n</span><script type="math/tex">\mathbb{R}^n</script></span> (<em>C</em>) dengan kaidah aljabar formal (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> struktur ruang vektor, kombinasi linier, kebebasan linier, basis, dan dimensi (<em>B</em>) pada ruang $\mathbb{R}^n$ (<em>C</em>) dengan kaidah aljabar formal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menghitung</strong> nilai eigen (Eigenvalues), vektor eigen (Eigenvectors), dan diagonalisasi matriks (<em>B</em>) pada matriks transformasi linier (<em>C</em>) secara presisi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> dekomposisi matriks SVD (Singular Value Decomposition) dan reduksi dimensi PCA (<em>B</em>) menggunakan pustaka Python NumPy (<em>C</em>) untuk pemrosesan data AI (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -2244,19 +2281,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-102</span>> Algoritma dan Pemrograman</td>
+<td><span class="code-tag">FST-102</span> Algoritma dan Pemrograman</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Efisiensi Struktur Memori &amp; Kompleksitas Algoritma)</td>
+<td><span class="code-tag">P4</span> (Efisiensi Struktur Memori &amp; Kompleksitas Algoritma)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-3</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-3</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Lifelong Learning)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Lifelong Learning)</td>
 </tr>
 </tbody>
 </table></div>
@@ -2275,25 +2312,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> efisiensi kompleksitas waktu dan ruang algoritma (<em>B</em>) menggunakan notasi asimptotik Big-O (<em>C</em>) secara matematis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> struktur data linier (Linked List, Stack, Queue) (<em>B</em>) dalam bahasa C++/Python (<em>C</em>) dengan manajemen alokasi pointer memori yang bebas memory leak (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> struktur data non-linier (Binary Search Tree, AVL Tree, Heap) (<em>B</em>) untuk operasi pencarian dan pengurutan data efisien (<em>C</em>) sesuai kaidah pohon biner (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan menguji</strong> algoritma hashing dan penelusuran graf (BFS, DFS, Dijkstra) (<em>B</em>) pada studi kasus pemrosesan data nyata (<em>C</em>) secara optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -2448,19 +2485,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-101</span>> Dasar Teknologi Digital</td>
+<td><span class="code-tag">FST-101</span> Dasar Teknologi Digital</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Arsitektur Perangkat Keras, CPU Pipelining &amp; Cache Memori)</td>
+<td><span class="code-tag">P3</span> (Arsitektur Perangkat Keras, CPU Pipelining &amp; Cache Memori)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cloud Infrastructure &amp; Cybersecurity)</td>
+<td><span class="code-tag">PL-2</span> (Cloud Infrastructure &amp; Cybersecurity)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -2479,19 +2516,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membandingkan</strong> arsitektur set instruksi RISC vs CISC dan mode pengalamatan (<em>B</em>) pada processor modern (<em>C</em>) secara terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> alur eksekusi pipelining CPU dan mitigasi Hazard (Data, Structural, Branch) (<em>B</em>) dalam peningkatan throughput komputasi (<em>C</em>) secara presisi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> performa hierarki cache memory (Direct Mapped vs Set-Associative) dan konfigurasi RAID storage (<em>B</em>) pada server data center (<em>C</em>) dengan analisis metrik hit/miss ratio (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -2646,19 +2683,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-102</span>> Algoritma dan Pemrograman</td>
+<td><span class="code-tag">FST-102</span> Algoritma dan Pemrograman</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Pemrograman Berorientasi Objek &amp; Prinsip SOLID)</td>
+<td><span class="code-tag">P4</span> (Pemrograman Berorientasi Objek &amp; Prinsip SOLID)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-3</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-3</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -2677,25 +2714,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> pilar OOP (Enkapsulasi, Pewarisan, Polimorfisme, Abstraksi) (<em>B</em>) dalam bahasa Java/C#/Python (<em>C</em>) secara terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> hierarki kelas menggunakan Interface dan Abstract Class (<em>B</em>) untuk mendefinisikan kontrak sistem (<em>C</em>) sesuai prinsip rekayasa perangkat lunak (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> prinsip desain SOLID dan Pola Desain (GoF Design Patterns) (<em>B</em>) pada struktur kode aplikasi (<em>C</em>) untuk memastikan skalabilitas dan kemudahan pemeliharaan (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> aplikasi modular berbasis OOP (<em>B</em>) dengan penanganan eksepsi, serialisasi data JSON, dan GUI desktop/web (<em>C</em>) secara mandiri (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -2854,15 +2891,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Etika Profesi), <code>KU3</code>> (Kepatuhan Hukum Siber &amp; Regulasi PDP)</td>
+<td><code>S1</code> (Etika Profesi), <code>KU3</code> (Kepatuhan Hukum Siber &amp; Regulasi PDP)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -2881,19 +2918,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> dilema moral dan pelanggaran etika rekayasa komputasi (<em>B</em>) berdasarkan Kode Etik ACM/IEEE dan sertifikasi profesi (<em>C</em>) secara kritis dan berintegritas (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> aspek perlindungan Hak Kekayaan Intelektual (Hak Cipta Software, Paten, Merek) dan lisensi open source vs proprietary (<em>B</em>) pada produk perangkat lunak (<em>C</em>) secara tepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU3</code>></td>
+<td style="text-align: center;"><code>KU3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> kepatuhan hukum siber (UU ITE, UU PDP No. 27/2022, GDPR) dan pertanggungjawaban etis kecerdasan buatan (<em>B</em>) pada implementasi sistem digital (<em>C</em>) secara legal dan sah (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU3</code>></td>
+<td style="text-align: center;"><code>KU3</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -3052,15 +3089,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur Data Relasional &amp; Transaksi), <span class="code-tag">P4</span>> (Pemrograman Kueri SQL)</td>
+<td><span class="code-tag">P2</span> (Arsitektur Data Relasional &amp; Transaksi), <span class="code-tag">P4</span> (Pemrograman Kueri SQL)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-3</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-3</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -3079,19 +3116,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skema konseptual Entity-Relationship Diagram (ERD &amp; EERD) (<em>B</em>) dari deskripsi proses bisnis nyata (<em>C</em>) dengan kardinalitas yang benar (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menormalisasi</strong> skema tabel relasional (<em>B</em>) dari bentuk unnormalized hingga 3NF/BCNF (<em>C</em>) bebas anomali insersi, update, dan delesi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> kueri SQL kompleks (DDL, DML, Subquery, Multi-Table JOIN, Window Functions) (<em>B</em>) di RDBMS PostgreSQL/MySQL (<em>C</em>) secara optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
@@ -3256,15 +3293,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KK6</code>> (Perancangan Ide Bisnis &amp; Validasi Model Bisnis Digital)</td>
+<td><code>KK6</code> (Perancangan Ide Bisnis &amp; Validasi Model Bisnis Digital)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-4</span>> (Digital Technopreneur)</td>
+<td><span class="code-tag">PL-4</span> (Digital Technopreneur)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -3283,19 +3320,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengidentifikasi</strong> peluang bisnis digital dan merumuskan proposisi nilai (<em>B</em>) menggunakan metodologi Design Thinking (<em>C</em>) secara kreatif dan solutif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan memvalidasi</strong> 9 blok Business Model Canvas (BMC) (<em>B</em>) berdasarkan analisis riset pasar (<em>C</em>) dengan kelayakan komersial yang terukur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> proposal rencana bisnis (Business Plan) rintisan (<em>B</em>) dengan analisis kelayakan finansial dasar (Break-Even Point) (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -3450,19 +3487,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-101</span>> Pengantar Sistem &amp; TI</td>
+<td><span class="code-tag">STI-101</span> Pengantar Sistem &amp; TI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Pemodelan Proses Bisnis &amp; Data), <code>KU1</code>> (Problem Solving Analitik)</td>
+<td><span class="code-tag">P2</span> (Pemodelan Proses Bisnis &amp; Data), <code>KU1</code> (Problem Solving Analitik)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-3</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-3</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -3481,25 +3518,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengelisitasi</strong> kebutuhan fungsional dan non-fungsional perangkat lunak (<em>B</em>) dari pemangku kepentingan industri (<em>C</em>) dalam bentuk dokumen spesifikasi kebutuhan SRS IEEE 830 (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU1</code>></td>
+<td style="text-align: center;"><code>KU1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>memodelkan</strong> alur proses bisnis organisasi (<em>B</em>) menggunakan standar notasi BPMN 2.0 (<em>C</em>) dengan analisis efisiensi proses As-Is vs To-Be (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> pemodelan berorientasi objek (Use Case, Activity, Class, Sequence, State Machine) (<em>B</em>) menggunakan Unified Modeling Language (UML 2.5) (<em>C</em>) secara konsisten (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen arsitektur dan desain perangkat lunak komprehensif (SDD) (<em>B</em>) untuk persiapan implementasi teknis (<em>C</em>) secara profesional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -3654,19 +3691,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-204</span>> Matematika Diskrit dan Logika, <span class="code-tag">FST-204</span>> Pengantar AI &amp; Data</td>
+<td><span class="code-tag">STI-204</span> Matematika Diskrit dan Logika, <span class="code-tag">FST-204</span> Pengantar AI &amp; Data</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Representasi Pengetahuan &amp; Penalaran AI), <code>KK1</code>> (Sistem Cerdas Bisnis)</td>
+<td><span class="code-tag">P2</span> (Representasi Pengetahuan &amp; Penalaran AI), <code>KK1</code> (Sistem Cerdas Bisnis)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -3685,7 +3722,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma pencarian heuristic (A<em>, Greedy Best-First, Minimax) (</em>B<em>) pada permasalahan optimasi ruang status (</em>C<em>) dengan kompleksitas ruang/waktu terukur (</em>D*).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -3697,7 +3734,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> sistem inferensi logika fuzzy (Mamdani dan Sugeno) (<em>B</em>) untuk pengambilan keputusan dalam kondisi ketidakpastian (<em>C</em>) menggunakan Python Scikit-Fuzzy (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -3856,15 +3893,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KK5</code>> (Perancangan Antarmuka Pengguna &amp; Pengalaman Pengguna Digital)</td>
+<td><code>KK5</code> (Perancangan Antarmuka Pengguna &amp; Pengalaman Pengguna Digital)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (UI/UX Designer &amp; Platform Engineer)</td>
+<td><span class="code-tag">PL-3</span> (UI/UX Designer &amp; Platform Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -3883,25 +3920,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> riset pengguna (<em>User Research</em>) melalui wawancara, observasi, dan persona (<em>B</em>) menggunakan metodologi Design Thinking (<em>C</em>) dengan empati mendalam (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> arsitektur informasi, alur pengguna (<em>User Flow</em>), dan <em>Wireframe</em> (<em>B</em>) pada aplikasi web/mobile (<em>C</em>) secara terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> purwarupa interaktif <em>High-Fidelity</em> dan <em>Design System</em> (<em>B</em>) menggunakan perangkat lunak Figma (<em>C</em>) dengan kepatuhan standar aksesibilitas WCAG (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> kegunaan antarmuka (<em>Usability Testing</em>) (<em>B</em>) menggunakan System Usability Scale (SUS) dan Heuristic Evaluation (<em>C</em>) dengan analisis kuantitatif/kualitatif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -4056,19 +4093,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-205</span>> Pemrograman Lanjut</td>
+<td><span class="code-tag">FST-205</span> Pemrograman Lanjut</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur Perangkat Lunak), <code>KK5</code>> (Jaminan Kualitas &amp; Pengujian Software)</td>
+<td><span class="code-tag">P4</span> (Arsitektur Perangkat Lunak), <code>KK5</code> (Jaminan Kualitas &amp; Pengujian Software)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-3</span>></td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-3</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -4087,25 +4124,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>memilih</strong> model proses pengembangan perangkat lunak (Waterfall, V-Model, Scrum, Kanban) (<em>B</em>) yang sesuai dengan karakteristik proyek industri (<em>C</em>) secara terjustifikasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> arsitektur perangkat lunak modular dan prinsip SOLID (<em>B</em>) pada perancangan subsistem software (<em>C</em>) dengan <em>coupling</em> rendah dan <em>cohesion</em> tinggi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skenario pengujian perangkat lunak White-Box (Basis Path, Cyclomatic Complexity) dan Black-Box (BVA, Equivalence Partitioning) (<em>B</em>) berdasarkan spesifikasi sistem (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> kualitas perangkat lunak (<em>B</em>) berdasarkan standar ISO/IEC 25010 dan metrik pengujian otomatis (<em>C</em>) secara objektif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -4260,19 +4297,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-204</span>> Organisasi &amp; Arsitektur Komputer</td>
+<td><span class="code-tag">FST-204</span> Organisasi &amp; Arsitektur Komputer</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Kernel OS, Konkurensi &amp; Manajemen Memori), <code>KK3</code>> (Infrastruktur Sistem)</td>
+<td><span class="code-tag">P3</span> (Kernel OS, Konkurensi &amp; Manajemen Memori), <code>KK3</code> (Infrastruktur Sistem)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cloud &amp; Cyber Specialist)</td>
+<td><span class="code-tag">PL-2</span> (Cloud &amp; Cyber Specialist)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -4291,7 +4328,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> siklus hidup proses, mekanisme thread, dan algoritma penjadwalan CPU (<em>B</em>) pada sistem multi-tasking (<em>C</em>) dengan perhitungan rata-rata waktu tunggu (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -4303,7 +4340,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> kinerja manajemen memori virtual (Paging, Segmentasi, Page Replacement) dan alokasi sistem berkas (<em>B</em>) pada arsitektur sistem operasi modern (<em>C</em>) dengan analisis page fault minimum (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -4458,19 +4495,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-102</span>> Algoritma dan Pemrograman</td>
+<td><span class="code-tag">FST-102</span> Algoritma dan Pemrograman</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Pemrograman Web Modern), <code>KK5</code>> (Single Page Application / SPA)</td>
+<td><span class="code-tag">P4</span> (Pemrograman Web Modern), <code>KK5</code> (Single Page Application / SPA)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (UI/UX Designer &amp; Platform Engineer)</td>
+<td><span class="code-tag">PL-3</span> (UI/UX Designer &amp; Platform Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -4489,25 +4526,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> struktur halaman web responsif multi-device (<em>B</em>) menggunakan HTML5 Semantik, CSS3 Flexbox/Grid, dan Variabel CSS (<em>C</em>) dengan tampilan estetik (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> logika interaktivitas client-side (<em>B</em>) menggunakan JavaScript Modern (ES6+, DOM Manipulation, Async/Await, Fetch API) (<em>C</em>) secara modular (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> aplikasi Single Page Application (SPA) berbasis komponen (<em>B</em>) menggunakan framework React.js (Hooks, Context API, React Router) (<em>C</em>) dengan arsitektur state terpusat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> aplikasi front-end dengan RESTful API eksternal (<em>B</em>) serta <strong>mengoptimalkan</strong> performa loading (<em>C</em>) dengan skor Google Lighthouse <span class="arithmatex"><span class="MathJax_Preview">\ge 85</span><script type="math/tex">\ge 85</script></span> (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> aplikasi front-end dengan RESTful API eksternal (<em>B</em>) serta <strong>mengoptimalkan</strong> performa loading (<em>C</em>) dengan skor Google Lighthouse ≥ 85 SKS (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -4662,19 +4699,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-101</span>> Dasar Teknologi Digital</td>
+<td><span class="code-tag">FST-101</span> Dasar Teknologi Digital</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Protokol Jaringan TCP/IP &amp; Subnetting), <code>KK3</code>> (Konfigurasi Switch/Router Enterprise)</td>
+<td><span class="code-tag">P3</span> (Protokol Jaringan TCP/IP &amp; Subnetting), <code>KK3</code> (Konfigurasi Switch/Router Enterprise)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cloud &amp; Cyber Specialist)</td>
+<td><span class="code-tag">PL-2</span> (Cloud &amp; Cyber Specialist)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -4693,19 +4730,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skema pengalamatan jaringan IPv4 (<em>B</em>) menggunakan teknik Variable Length Subnet Mask (VLSM) dan CIDR (<em>C</em>) dengan efisiensi alokasi IP optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonfigurasi</strong> perangkat Switch dan Router (<em>B</em>) untuk implementasi VLAN, Trunking, dan Inter-VLAN Routing (<em>C</em>) menggunakan Cisco Packet Tracer (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> protokol routing dinamis OSPF (<em>B</em>) pada topologi jaringan multi-router (<em>C</em>) dengan tabel routing konvergen (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
@@ -4866,19 +4903,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-207</span>> Sistem Basis Data &amp; <span class="code-tag">FST-408</span>> Probabilitas</td>
+<td><span class="code-tag">FST-207</span> Sistem Basis Data &amp; <span class="code-tag">FST-408</span> Probabilitas</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur Data &amp; Model AI), <code>KK1</code>> (Pelatihan &amp; Evaluasi Model ML), <code>KK2</code>> (Rekayasa Fitur)</td>
+<td><span class="code-tag">P2</span> (Arsitektur Data &amp; Model AI), <code>KK1</code> (Pelatihan &amp; Evaluasi Model ML), <code>KK2</code> (Rekayasa Fitur)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev / ML Engineer)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev / ML Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -4897,13 +4934,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> alur kerja rekayasa data Machine Learning (EDA, Imputation, Encoding, Scaling) (<em>B</em>) menggunakan Python dan scikit-learn (<em>C</em>) bebas data leakage (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi dan melatih</strong> model pembelajaran terbimbing (Linear Regression, Logistic Regression, Decision Tree, Random Forest, SVM) (<em>B</em>) pada dataset tabular (<em>C</em>) dengan parameter optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -4915,7 +4952,7 @@ graph TD
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> performa model (Confusion Matrix, F1-Score, ROC-AUC) (<em>B</em>) serta <strong>membangun</strong> purwarupa inferensi terintegrasi (<em>C</em>) secara andal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5, C6</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -5070,19 +5107,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-207</span>> Sistem Basis Data</td>
+<td><span class="code-tag">FST-207</span> Sistem Basis Data</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Pemodelan Dimensi &amp; Arsitektur DWH), <code>KK2</code>> (Pipeline ETL &amp; Dashboard BI)</td>
+<td><span class="code-tag">P2</span> (Pemodelan Dimensi &amp; Arsitektur DWH), <code>KK2</code> (Pipeline ETL &amp; Dashboard BI)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev / Data Analyst)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev / Data Analyst)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -5101,25 +5138,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> skema multidimensi Data Warehouse (Star Schema, Snowflake Schema) (<em>B</em>) berdasarkan proses bisnis organisasi (<em>C</em>) dengan penanganan Slowly Changing Dimensions (SCD) yang tepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> pipeline Extract-Transform-Load (ETL) otomatis (<em>B</em>) menggunakan software integrasi data (Pentaho/Airflow) (<em>C</em>) dengan data cleaning yang valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> operasi kubus data OLAP dan kueri analitik tingkat lanjut (<em>B</em>) menggunakan SQL Window Functions (<em>C</em>) secara optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> dashboard Business Intelligence eksekutif interaktif (<em>B</em>) menggunakan Power BI / Tableau (<em>C</em>) dengan visualisasi KPI yang komunikatif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -5274,19 +5311,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-311</span>> Web Front End Development</td>
+<td><span class="code-tag">STI-311</span> Web Front End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur RESTful API &amp; Keamanan Server), <code>KK5</code>> (Backend Engineering &amp; ORM)</td>
+<td><span class="code-tag">P4</span> (Arsitektur RESTful API &amp; Keamanan Server), <code>KK5</code> (Backend Engineering &amp; ORM)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (UI/UX &amp; Platform Engineer)</td>
+<td><span class="code-tag">PL-3</span> (UI/UX &amp; Platform Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -5305,13 +5342,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> RESTful API modular (<em>B</em>) menggunakan Node.js/Express atau Python FastAPI (<em>C</em>) dengan penanganan rute, middleware, dan sanitasi input yang aman (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> backend API dengan database relasional/NoSQL (<em>B</em>) menggunakan Object-Relational Mapping (ORM/ODM) (<em>C</em>) dengan operasi CRUD transaksional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -5323,7 +5360,7 @@ graph TD
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mendokumentasikan</strong> API menggunakan Swagger/OpenAPI serta <strong>mendeploy</strong> backend (<em>B</em>) ke server cloud dengan kontainer Docker (<em>C</em>) secara andal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -5478,19 +5515,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-310</span>> Sistem Operasi &amp; <span class="code-tag">STI-312</span>> Jaringan Komputer</td>
+<td><span class="code-tag">STI-310</span> Sistem Operasi &amp; <span class="code-tag">STI-312</span> Jaringan Komputer</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Arsitektur Cloud &amp; Virtualisasi), <code>KK3</code>> (Orkestrasi Kontainer &amp; Skalabilitas)</td>
+<td><span class="code-tag">P3</span> (Arsitektur Cloud &amp; Virtualisasi), <code>KK3</code> (Orkestrasi Kontainer &amp; Skalabilitas)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cloud &amp; Cyber Specialist)</td>
+<td><span class="code-tag">PL-2</span> (Cloud &amp; Cyber Specialist)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -5509,7 +5546,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membandingkan</strong> model layanan cloud (IaaS, PaaS, SaaS, FaaS) dan model deployment (<em>B</em>) pada penyedia cloud publik (AWS/GCP/Azure) (<em>C</em>) secara kritis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -5521,7 +5558,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonfigurasi</strong> arsitektur jaringan Virtual Private Cloud (VPC), Subnetting, Security Group, dan IAM (<em>B</em>) pada infrastruktur cloud (<em>C</em>) dengan standar keamanan ketat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
@@ -5682,19 +5719,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-312</span>> Jaringan Komputer</td>
+<td><span class="code-tag">STI-312</span> Jaringan Komputer</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Prinsip Keamanan CIA &amp; Kriptografi), <code>KK3</code>> (Mitigasi Kerentanan Sistem)</td>
+<td><span class="code-tag">P3</span> (Prinsip Keamanan CIA &amp; Kriptografi), <code>KK3</code> (Mitigasi Kerentanan Sistem)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cloud Infrastructure &amp; Cybersecurity)</td>
+<td><span class="code-tag">PL-2</span> (Cloud Infrastructure &amp; Cybersecurity)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -5713,13 +5750,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma kriptografi simetris (AES), asimetris (RSA), fungsi hash (SHA-256), dan digital signature (<em>B</em>) pada proteksi data (<em>C</em>) secara matematis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> kerentanan aplikasi web dan sistem (<em>B</em>) berdasarkan metodologi OWASP Top 10 (<em>C</em>) menggunakan alat bantu pemindai kerentanan (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -5880,19 +5917,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-102</span>> Kalkulus</td>
+<td><span class="code-tag">STI-102</span> Kalkulus</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P1</span>> (Teori Peluang, Variabel Acak, Distribusi &amp; Uji Hipotesis)</td>
+<td><span class="code-tag">P1</span> (Teori Peluang, Variabel Acak, Distribusi &amp; Uji Hipotesis)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev / Data Scientist), <span class="code-tag">PL-2</span>></td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev / Data Scientist), <span class="code-tag">PL-2</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -5911,25 +5948,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menghitung</strong> peluang kejadian bersyarat dan mengaplikasikan Teorema Bayes (<em>B</em>) pada pemodelan ketidakpastian data (<em>C</em>) secara matematis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> karakteristik variabel acak diskrit (Binomial, Poisson) dan kontinu (Normal, Eksponensial) (<em>B</em>) dalam simulasi data komputasi (<em>C</em>) secara tepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan dan menguji</strong> hipotesis statistik (Z-test, t-test, Chi-Square, ANOVA) (<em>B</em>) pada sampel dataset empiris (<em>C</em>) menggunakan Python SciPy (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> model regresi linier sederhana/berganda dan korelasi Pearson (<em>B</em>) untuk analisis hubungan antar-variabel data (<em>C</em>) secara valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P1</span></td>
 </tr>
 </tbody>
 </table></div>
@@ -6084,19 +6121,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-307</span>> Sistem Cerdas (Kecerdasan Buatan)</td>
+<td><span class="code-tag">STI-307</span> Sistem Cerdas (Kecerdasan Buatan)</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KK1</code>> (Perancangan Sistem Cerdas berbasis AI/NLP), <span class="code-tag">P2</span>> (Konsep &amp; Rekayasa SI Cerdas)</td>
+<td><code>KK1</code> (Perancangan Sistem Cerdas berbasis AI/NLP), <span class="code-tag">P2</span> (Konsep &amp; Rekayasa SI Cerdas)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Developer &amp; AI Engineer), <span class="code-tag">PL-4</span>> (Digital Technopreneur)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Developer &amp; AI Engineer), <span class="code-tag">PL-4</span> (Digital Technopreneur)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Advanced Study &amp; Lifelong Learning)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Advanced Study &amp; Lifelong Learning)</td>
 </tr>
 </tbody>
 </table></div>
@@ -6292,15 +6329,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Sikap Kewarganegaraan, Kedaulatan Hukum &amp; Wawasan Kebangsaan)</td>
+<td><code>S1</code> (Sikap Kewarganegaraan, Kedaulatan Hukum &amp; Wawasan Kebangsaan)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span>> s.d. <span class="code-tag">PEO-3</span>>)</td>
+<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span> s.d. <span class="code-tag">PEO-3</span>)</td>
 </tr>
 </tbody>
 </table></div>
@@ -6319,13 +6356,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> hak dan kewajiban warga negara, konstitusi UUD 1945, serta dinamika penegakan hukum di Indonesia (<em>B</em>) dalam konteks demokrasi konstitusional (<em>C</em>) secara kritis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> wawasan nusantara, ketahanan nasional, dan bela negara siber (<em>B</em>) pada pencegahan ancaman disintegrasi bangsa (<em>C</em>) dengan komitmen patriotik (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3, A3</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -6480,19 +6517,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-418</span>> Dasar Keamanan Informasi</td>
+<td><span class="code-tag">STI-418</span> Dasar Keamanan Informasi</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Audit Keamanan ISO 27001), <code>KK3</code>> (Manajemen Risiko Siber), <code>KK4</code>> (Uji Penetrasi Sistem)</td>
+<td><span class="code-tag">P3</span> (Audit Keamanan ISO 27001), <code>KK3</code> (Manajemen Risiko Siber), <code>KK4</code> (Uji Penetrasi Sistem)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cybersecurity Specialist &amp; Penetration Tester)</td>
+<td><span class="code-tag">PL-2</span> (Cybersecurity Specialist &amp; Penetration Tester)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -6511,7 +6548,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengeksekusi</strong> tahapan uji penetrasi keamanan (<em>Penetration Testing</em>) (<em>B</em>) sesuai standar PTES dan MITRE ATT&amp;CK (<em>C</em>) dengan etika <em>Red Teaming</em> profesional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -6678,19 +6715,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-415</span>> Data Warehouse &amp; BI</td>
+<td><span class="code-tag">STI-415</span> Data Warehouse &amp; BI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Analitik Pola Bisnis), <code>KK2</code>> (Algoritma Asosiasi, Klastering &amp; Data Storytelling)</td>
+<td><span class="code-tag">P2</span> (Analitik Pola Bisnis), <code>KK2</code> (Algoritma Asosiasi, Klastering &amp; Data Storytelling)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev / Data Analyst)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev / Data Analyst)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -6709,13 +6746,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma penambangan aturan asosiasi (Apriori, FP-Growth) (<em>B</em>) pada data transaksi belanja (<em>C</em>) dengan analisis Support, Confidence, dan Lift Ratio yang valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma klastering tingkat lanjut (DBSCAN, Hierarchical Clustering) (<em>B</em>) pada data spasial/multivariat (<em>C</em>) dengan evaluasi skor Davies-Bouldin (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -6727,7 +6764,7 @@ graph TD
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> visualisasi data interaktif dan narasi wawasan bisnis (<em>Data Storytelling</em>) (<em>B</em>) menggunakan Python Plotly/Seaborn (<em>C</em>) secara estetik dan komunikatif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -6882,19 +6919,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-310</span>> Sistem Operasi &amp; <span class="code-tag">STI-312</span>> Jaringan Komputer</td>
+<td><span class="code-tag">STI-310</span> Sistem Operasi &amp; <span class="code-tag">STI-312</span> Jaringan Komputer</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Protokol Komunikasi IoT &amp; Telemetri), <code>KK3</code>> (Perangkat Keras ESP32, MQTT &amp; Cloud IoT)</td>
+<td><span class="code-tag">P3</span> (Protokol Komunikasi IoT &amp; Telemetri), <code>KK3</code> (Perangkat Keras ESP32, MQTT &amp; Cloud IoT)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Smart Systems Integrator)</td>
+<td><span class="code-tag">PL-2</span> (Smart Systems Integrator)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -6913,7 +6950,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>memprogram</strong> mikrokontroler ESP32 (<em>B</em>) untuk membaca sensor analog/digital dan mengendalikan aktuator (<em>C</em>) menggunakan antarmuka GPIO/I2C/SPI (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -6925,13 +6962,13 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> alur otomasi middleware (<em>B</em>) menggunakan Node-RED (<em>C</em>) untuk pemrosesan logika data sensor secara real-time (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> purwarupa produk IoT cerdas (<em>B</em>) yang terhubung ke dashboard cloud (ThingsBoard/Blynk) dan database time-series (<em>C</em>) secara terintegrasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -7086,19 +7123,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">FST-203</span>> Struktur Data &amp; Algoritma, <span class="code-tag">STI-311</span>> Web Front End Development</td>
+<td><span class="code-tag">FST-203</span> Struktur Data &amp; Algoritma, <span class="code-tag">STI-311</span> Web Front End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur Mobile Multi-Platform), <code>KK5</code>> (State Management BLoC &amp; API Integrasi)</td>
+<td><span class="code-tag">P4</span> (Arsitektur Mobile Multi-Platform), <code>KK5</code> (State Management BLoC &amp; API Integrasi)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (UI/UX Designer &amp; Platform Engineer)</td>
+<td><span class="code-tag">PL-3</span> (UI/UX Designer &amp; Platform Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -7117,25 +7154,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> antarmuka aplikasi mobile responsif multi-device (<em>B</em>) menggunakan framework Flutter dan bahasa Dart (<em>C</em>) dengan prinsip Material Design 3 (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> arsitektur state management yang scalable (<em>B</em>) menggunakan Business Logic Component (BLoC) Pattern (<em>C</em>) secara terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengintegrasikan</strong> persistensi data lokal (SQLite/SharedPreferences) dan sinkronisasi RESTful API (<em>B</em>) pada aplikasi mobile (<em>C</em>) dengan penanganan offline-mode yang andal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun dan merilis</strong> aplikasi mobile (<em>B</em>) dengan integrasi sensor perangkat keras (Kamera, GPS Geolocation) dan push notification Firebase (<em>C</em>) ke dalam paket APK/AAB rilis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -7290,19 +7327,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-306</span>> Analisis &amp; Perancangan SI</td>
+<td><span class="code-tag">STI-306</span> Analisis &amp; Perancangan SI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KK6</code>> (Perencanaan Ruang Lingkup, Penjadwalan &amp; Pengendalian Biaya Proyek TI)</td>
+<td><code>KK6</code> (Perencanaan Ruang Lingkup, Penjadwalan &amp; Pengendalian Biaya Proyek TI)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-4</span>> (IT Project Manager &amp; Technopreneur)</td>
+<td><span class="code-tag">PL-4</span> (IT Project Manager &amp; Technopreneur)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -7321,25 +7358,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> Project Charter, struktur rincian kerja (Work Breakdown Structure / WBS), dan matriks stakeholder (<em>B</em>) berdasarkan standar PMBOK v7 (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> jadwal proyek realistis (<em>B</em>) menggunakan Critical Path Method (CPM) dan estimasi tiga titik PERT (<em>C</em>) dengan alokasi sumber daya optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> metodologi Agile Project Management (<em>B</em>) menggunakan kerangka kerja Scrum dan perangkat lunak Jira (<em>C</em>) untuk pengelolaan sprint tim (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengendalikan</strong> kinerja proyek (<em>B</em>) menggunakan analisis Earned Value Management (EVM: CPI, SPI, EAC) dan mitigasi risiko (<em>C</em>) secara akurat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -7498,15 +7535,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Kepedulian Sosial &amp; Integritas Moral), <code>KU3</code>> (Tanggung Jawab Profesi di Masyarakat)</td>
+<td><code>S1</code> (Kepedulian Sosial &amp; Integritas Moral), <code>KU3</code> (Tanggung Jawab Profesi di Masyarakat)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span>> s.d. <span class="code-tag">PEO-3</span>>)</td>
+<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span> s.d. <span class="code-tag">PEO-3</span>)</td>
 </tr>
 </tbody>
 </table></div>
@@ -7525,13 +7562,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengidentifikasi dan memetakan</strong> permasalahan nyata masyarakat desa/UMKM mitra (<em>B</em>) menggunakan metodologi Participatory Action Research (PAR) (<em>C</em>) secara empatik dan objektif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>S1</code>></td>
+<td style="text-align: center;"><code>S1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengimplementasikan</strong> program kerja intervensi teknologi informasi terapan (<em>B</em>) untuk memecahkan problem masyarakat (<em>C</em>) dengan keterlibatan warga secara aktif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KU3</code>></td>
+<td style="text-align: center;"><code>KU3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -7692,19 +7729,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-413</span>> Machine Learning &amp; <span class="code-tag">STI-416</span>> Web Back End Development</td>
+<td><span class="code-tag">STI-413</span> Machine Learning &amp; <span class="code-tag">STI-416</span> Web Back End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur AI-as-a-Service), <code>KK1</code>> (Model Serving, RAG, &amp; Vektor Database)</td>
+<td><span class="code-tag">P2</span> (Arsitektur AI-as-a-Service), <code>KK1</code> (Model Serving, RAG, &amp; Vektor Database)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent Information Systems Developer)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent Information Systems Developer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -7723,7 +7760,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengoptimalkan dan mengonversi</strong> model deep learning terlatih (<em>B</em>) ke format ONNX dan TensorRT (<em>C</em>) untuk inferensi berlatensi rendah (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -7735,13 +7772,13 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengintegrasikan</strong> sistem Retrieval-Augmented Generation (RAG) (<em>B</em>) menggunakan Vector Database (Milvus/Chroma) dan Large Language Models (LLM API) (<em>C</em>) secara akurat dan minim halusinasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengevaluasi</strong> performa layanan AI (<em>B</em>) dengan pengujian beban (<em>Load Testing</em> Locust), monitoring latensi, dan pertahanan terhadap prompt injection (<em>C</em>) secara kritis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -7896,19 +7933,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-521</span>> Internet of Things (IoT)</td>
+<td><span class="code-tag">STI-521</span> Internet of Things (IoT)</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Infrastruktur Kota Cerdas &amp; Arsitektur SPBE), <code>KK3</code>> (Integrasi GIS &amp; Telemetri Perkotaan)</td>
+<td><span class="code-tag">P3</span> (Infrastruktur Kota Cerdas &amp; Arsitektur SPBE), <code>KK3</code> (Integrasi GIS &amp; Telemetri Perkotaan)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Smart Systems Integrator), <span class="code-tag">PL-4</span>></td>
+<td><span class="code-tag">PL-2</span> (Smart Systems Integrator), <span class="code-tag">PL-4</span></td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -7927,13 +7964,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> arsitektur enterprise Sistem Pemerintahan Berbasis Elektronik (SPBE) (<em>B</em>) berdasarkan regulasi nasional Perpres No. 95/2018 (<em>C</em>) dengan pemetaan 6 domain SPBE (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> peta digital perkotaan interaktif (<em>B</em>) menggunakan Web GIS (Leaflet/Mapbox) dan integrasi sensor telemetri perkotaan (<em>C</em>) secara visual dan fungsional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -8100,19 +8137,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-413</span>> Machine Learning</td>
+<td><span class="code-tag">STI-413</span> Machine Learning</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KK1</code>> (Pemodelan Deep Learning Vision &amp; NLP), <code>KK2</code>> (Rekayasa Dataset Citra &amp; Teks)</td>
+<td><code>KK1</code> (Pemodelan Deep Learning Vision &amp; NLP), <code>KK2</code> (Rekayasa Dataset Citra &amp; Teks)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev / Deep Learning Engineer)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev / Deep Learning Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -8131,7 +8168,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> arsitektur Multi-Layer Perceptron (MLP) dan mengimplementasikan algoritma Backpropagation (<em>B</em>) menggunakan framework PyTorch (<em>C</em>) secara matematis dan modular (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -8143,13 +8180,13 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengonstruksi</strong> model sekuensial (LSTM, GRU, Transformer Self-Attention) (<em>B</em>) untuk pemrosesan bahasa alami atau prediksi runtun waktu (<em>C</em>) dengan konvergensi loss yang stabil (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> aplikasi deep learning terpadu (<em>B</em>) dengan teknik regularisasi (Dropout, Batch Normalization) dan optimasi akselerasi GPU (<em>C</em>) secara andal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -8304,19 +8341,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-416</span>> Web Back End Development</td>
+<td><span class="code-tag">STI-416</span> Web Back End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur Microservices &amp; Event Streaming), <code>KK5</code>> (Platform Engineering &amp; CI/CD Pipeline)</td>
+<td><span class="code-tag">P4</span> (Arsitektur Microservices &amp; Event Streaming), <code>KK5</code> (Platform Engineering &amp; CI/CD Pipeline)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (UI/UX Designer &amp; Digital Platform Engineer)</td>
+<td><span class="code-tag">PL-3</span> (UI/UX Designer &amp; Digital Platform Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -8335,13 +8372,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> arsitektur sistem berbasis layanan mikro (<em>Microservices Architecture</em>) (<em>B</em>) menggunakan prinsip Domain-Driven Design (DDD) (<em>C</em>) dengan batas layanan (<em>Bounded Context</em>) yang tepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> komunikasi antar-layanan asinkron (<em>B</em>) menggunakan message streaming Apache Kafka / RabbitMQ (<em>C</em>) dengan penanganan jaminan pengiriman pesan (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -8353,7 +8390,7 @@ graph TD
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> pipeline Continuous Integration / Continuous Deployment (CI/CD) otomatis (<em>B</em>) menggunakan GitHub Actions dan observability distributed tracing (<em>C</em>) secara terintegrasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -8512,15 +8549,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KU1</code>> (Berpikir Kritis &amp; Problem Formulation), <code>KU2</code>> (Komunikasi Ilmiah &amp; Sitasi Akademik)</td>
+<td><code>KU1</code> (Berpikir Kritis &amp; Problem Formulation), <code>KU2</code> (Komunikasi Ilmiah &amp; Sitasi Akademik)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-3</span>> (Research &amp; Lifelong Learning)</td>
+<td><span class="code-tag">PEO-3</span> (Research &amp; Lifelong Learning)</td>
 </tr>
 </tbody>
 </table></div>
@@ -8539,19 +8576,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> tinjauan literatur sistematis (<em>Systematic Literature Review / SLR</em>) (<em>B</em>) menggunakan database jurnal bereputasi (IEEE, ACM, Scopus, SINTA) (<em>C</em>) untuk menemukan kesenjangan riset (<em>Research Gap</em>) yang orisinal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU1</code>></td>
+<td style="text-align: center;"><code>KU1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> metodologi penelitian komputasi (DSRM, Eksperimental, Kuantitatif) (<em>B</em>) dengan rancangan eksperimen, dataset, dan metrik evaluasi yang valid (<em>C</em>) secara ilmiah (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KU1</code>></td>
+<td style="text-align: center;"><code>KU1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen proposal Tugas Akhir yang lengkap dan bebas plagiasi (<em>B</em>) sesuai format panduan skripsi FSTI (<em>C</em>) dengan tata bahasa ilmiah baku (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KU2</code>></td>
+<td style="text-align: center;"><code>KU2</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -8706,19 +8743,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">MKU-204</span>> Kewirausahaan I</td>
+<td><span class="code-tag">MKU-204</span> Kewirausahaan I</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KK6</code>> (Inovasi Produk Digital, Lean Startup, Validasi MVP &amp; Pitching)</td>
+<td><code>KK6</code> (Inovasi Produk Digital, Lean Startup, Validasi MVP &amp; Pitching)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-4</span>> (Digital Technopreneur &amp; IT Product Innovator)</td>
+<td><span class="code-tag">PL-4</span> (Digital Technopreneur &amp; IT Product Innovator)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-2</span>> (Digital Innovation and Technopreneurship)</td>
+<td><span class="code-tag">PEO-2</span> (Digital Innovation and Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -8737,25 +8774,25 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> validasi problem-solusi (<em>Problem-Solution Fit</em>) (<em>B</em>) menggunakan metodologi Lean Startup dan wawancara pengguna awal (<em>C</em>) secara empiris (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan membangun</strong> Minimum Viable Product (MVP) fungsional (<em>B</em>) berbasis solusi teknologi cerdas (AI/Platform/IoT) (<em>C</em>) dengan siklus Build-Measure-Learn yang cepat (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> metrik pertumbuhan startup (AARRR Pirate Metrics, CAC, LTV, Burn Rate) (<em>B</em>) pada dashboard analitik produk (<em>C</em>) secara kuantitatif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> Investor Pitch Deck 10-slide dan mempresentasikannya (<em>B</em>) di hadapan panel investor/penguji pada ajang Demo Day (<em>C</em>) secara persuasif dan profesional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -8914,15 +8951,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Etika Tim), <code>KU1-KU3</code>> (Manajemen &amp; Komunikasi), <code>P1-P4</code>> (Sains Komputasi), <code>KK1-KK6</code>> (Integrasi Solusi Nyata)</td>
+<td><code>S1</code> (Etika Tim), <code>KU1-KU3</code> (Manajemen &amp; Komunikasi), <code>P1-P4</code> (Sains Komputasi), <code>KK1-KK6</code> (Integrasi Solusi Nyata)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -8947,7 +8984,7 @@ graph TD
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengintegrasikan</strong> solusi sistem digital terpadu (Full-Stack, AI/Cloud/IoT) (<em>B</em>) dalam tim multidisiplin lintas prodi FSTI (<em>C</em>) dengan prinsip arsitektur berstandar industri (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK1-KK6</code>></td>
+<td style="text-align: center;"><code>KK1-KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -9118,15 +9155,15 @@ graph TD
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>> (Etika Profesi), <code>KU1-KU3</code>> (Komunikasi &amp; Adaptabilitas), <code>KK1-KK6</code>> (Penerapan Kompetensi di Industri)</td>
+<td><code>S1</code> (Etika Profesi), <code>KU1-KU3</code> (Komunikasi &amp; Adaptabilitas), <code>KK1-KK6</code> (Penerapan Kompetensi di Industri)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -9157,7 +9194,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> laporan resmi Praktik Kerja Lapangan dan mempresentasikannya (<em>B</em>) dalam seminar pertanggungjawaban akademik (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KU2</code>></td>
+<td style="text-align: center;"><code>KU2</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -9312,19 +9349,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td>Lulus <span class="code-tag">FST-611</span>> Metodologi Penelitian</td>
+<td>Lulus <span class="code-tag">FST-611</span> Metodologi Penelitian</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>KU1</code>> (Sintesis Kritis Masalah Riset), <code>KU2</code>> (Komunikasi Ilmiah &amp; Pertanggungjawaban Akademik)</td>
+<td><code>KU1</code> (Sintesis Kritis Masalah Riset), <code>KU2</code> (Komunikasi Ilmiah &amp; Pertanggungjawaban Akademik)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -9343,13 +9380,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyempurnakan</strong> naskah proposal penelitian Tugas Akhir (Bab 1, 2, 3) (<em>B</em>) berdasarkan telaah literatur mutakhir dan bimbingan intensif (<em>C</em>) dengan metodologi yang valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KU1</code>></td>
+<td style="text-align: center;"><code>KU1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mempresentasikan dan mempertahankan</strong> rancangan proposal penelitian (<em>B</em>) di hadapan tim dosen penguji pada forum Seminar Proposal Terbuka (<em>C</em>) secara argumentatif dan ilmiah (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KU2</code>></td>
+<td style="text-align: center;"><code>KU2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -9510,19 +9547,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td>Lulus <span class="code-tag">FST-613</span>> Pra-Skripsi</td>
+<td>Lulus <span class="code-tag">FST-613</span> Pra-Skripsi</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><code>S1</code>>, <code>KU1-KU3</code>>, <code>P1-P4</code>>, <code>KK1-KK6</code>> (Pemenuhan 14 CPL Menyeluruh)</td>
+<td><code>S1</code>, <code>KU1-KU3</code>, <code>P1-P4</code>, <code>KK1-KK6</code> (Pemenuhan 14 CPL Menyeluruh)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span>> s.d. <span class="code-tag">PL-4</span>>)</td>
+<td>Seluruh Profil Lulusan (<span class="code-tag">PL-1</span> s.d. <span class="code-tag">PL-4</span>)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span>> s.d. <span class="code-tag">PEO-3</span>>)</td>
+<td>Seluruh Jalur PEO (<span class="code-tag">PEO-1</span> s.d. <span class="code-tag">PEO-3</span>)</td>
 </tr>
 </tbody>
 </table></div>
@@ -9714,19 +9751,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-307</span>> Sistem Cerdas</td>
+<td><span class="code-tag">STI-307</span> Sistem Cerdas</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Teori Pengambilan Keputusan), <code>KK1</code>> (Sistem Cerdas Bisnis), <code>KK2</code>> (Analitik Multi-Kriteria)</td>
+<td><span class="code-tag">P2</span> (Teori Pengambilan Keputusan), <code>KK1</code> (Sistem Cerdas Bisnis), <code>KK2</code> (Analitik Multi-Kriteria)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Developer)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Developer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -9743,7 +9780,7 @@ graph TD
 <tbody>
 <tr>
 <td><strong>CPMK-1</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> metode pengambilan keputusan multi-kriteria klasik (SAW, WP, AHP) (<em>B</em>) pada kasus pemilihan alternatif bisnis (<em>C</em>) dengan uji konsistensi rasio <span class="arithmatex"><span class="MathJax_Preview">CR \le 0.1</span><script type="math/tex">CR \le 0.1</script></span> (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> metode pengambilan keputusan multi-kriteria klasik (SAW, WP, AHP) (<em>B</em>) pada kasus pemilihan alternatif bisnis (<em>C</em>) dengan uji konsistensi rasio $CR ≤ 0.1$ (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
 <td style="text-align: center;"><code>P2, KK1</code></td>
 </tr>
@@ -9888,7 +9925,7 @@ graph TD
 </tbody>
 </table></div>
 <hr />
-<h3 id="49-sta-601-computational-methods-and-numerics-computational-methods-and-numerics">49. STA-601 — Computational Methods and Numerics (Computational Methods and Numerics)</h3>
+<h3 id="49-sta-601-rekayasa-big-data-dan-komputasi-terdistribusi-big-data-engineering-distributed-systems">49. STA-601 — Rekayasa Big Data dan Komputasi Terdistribusi (<em>Big Data Engineering &amp; Distributed Systems</em>)</h3>
 <h4 id="tabel-49a-identitas-pemetaan-makro-mata-kuliah">Tabel 49.A: Identitas &amp; Pemetaan Makro Mata Kuliah</h4>
 <div class="table-wrapper"><table>
 <thead>
@@ -9900,7 +9937,7 @@ graph TD
 <tbody>
 <tr>
 <td><strong>Kode &amp; Nama Mata Kuliah</strong></td>
-<td><strong>STA-601 — Computational Methods and Numerics</strong> (<em>Computational Methods and Numerics</em>)</td>
+<td><strong>STA-601 — Rekayasa Big Data dan Komputasi Terdistribusi</strong> (<em>Big Data Engineering &amp; Distributed Systems</em>)</td>
 </tr>
 <tr>
 <td><strong>Bobot SKS / Tipe</strong></td>
@@ -9912,19 +9949,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-102</span>> Kalkulus &amp; <span class="code-tag">STI-205</span>> Aljabar Linear</td>
+<td><span class="code-tag">FST-207</span> Sistem Basis Data &amp; <span class="code-tag">STI-415</span> Data Warehouse &amp; BI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P1</span>> (Analisis Galat &amp; Metode Numerik), <code>KK1</code>> (Algoritma Optimasi Komputasi AI)</td>
+<td><span class="code-tag">P2</span> (Arsitektur Data &amp; Sistem Informasi Cerdas), <code>KK2</code> (Rekayasa Data, ETL/ELT Terdistribusi &amp; MLOps)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent IS Dev / ML Engineer)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent IS Dev / Data-AI Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -9941,27 +9978,27 @@ graph TD
 <tbody>
 <tr>
 <td><strong>CPMK-1</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> galat pemotongan (<em>Truncation Error</em>) dan pembulatan (<em>Round-off Error</em>) (<em>B</em>) pada representasi floating-point komputasi (<em>C</em>) secara matematis (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> arsitektur komputasi terdistribusi Master-Worker, HDFS dan object storage S3/MinIO (<em>B</em>) pada klaster data skala besar (<em>C</em>) secara tepat dan fault-tolerant (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> metode numerik untuk akar persamaan non-linier (Newton-Raphson, Secant) dan interpolasi Spline (<em>B</em>) menggunakan Python (<em>C</em>) dengan konvergensi cepat (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> pemrosesan data terdistribusi menggunakan Apache Spark &amp; PySpark DataFrame API (<em>B</em>) pada dataset masif batch (<em>C</em>) dengan throughput optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P1</span>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> algoritma integrasi numerik (Romberg, Gauss-Legendre) dan solusi Persamaan Diferensial Biasa (Runge-Kutta RK4) (<em>B</em>) pada simulasi sistem fisis (<em>C</em>) secara akurat (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> arsitektur Data Lakehouse (Delta Lake/Parquet) dan ingesti streaming Apache Kafka (<em>B</em>) pada pipeline real-time (<em>C</em>) secara andal dan tepat waktu (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>P1, KK1</code></td>
+<td style="text-align: center;"><code>P2, KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> algoritma optimasi numerik tak-terkendala dan Stochastic Gradient Descent (<em>B</em>) untuk pencarian minimum fungsi loss model AI (<em>C</em>) secara optimal (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> pipeline analitik terdistribusi end-to-end dengan Spark SQL dan Spark MLlib (<em>B</em>) untuk memasok model AI produksi (<em>C</em>) secara terdokumentasi dan reproducible (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -9979,113 +10016,113 @@ graph TD
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td>Mampu menganalisis sumber galat pemotongan, pembulatan, dan propagasi (C4)</td>
-<td>Pengantar Komputasi Numerik, Analisis Galat, Floating Point Arithmetic</td>
+<td>Mampu menjelaskan arsitektur Big Data &amp; komputasi terdistribusi (C2)</td>
+<td>Pengantar Big Data Engineering, Master-Worker, HDFS vs Object Storage</td>
 <td>Kuliah (100m) + Lab Setup (170m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td>Mampu menyelesaikan akar persamaan via Metode Bisection &amp; Regula Falsi (C3)</td>
-<td>Solusi Persamaan Non-Linier: Metode Pengurung (Bisection &amp; False Position)</td>
-<td>Problem-Solving Class (270m)</td>
+<td>Mampu menganalisis HDFS &amp; object storage S3/MinIO (C4)</td>
+<td>Distributed File Systems: HDFS, S3/MinIO, Partisi &amp; Replikasi</td>
+<td>Kuliah + Lab Hands-on (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td>Mampu menerapkan Metode Newton-Raphson &amp; Secant serta uji konvergensi (C3)</td>
-<td>Metode Terbuka: Newton-Raphson, Secant, Analisis Konvergensi Kuadratik</td>
+<td>Mampu mengoperasikan NoSQL document &amp; wide-column stores (C3)</td>
+<td>NoSQL Lanjut: Document &amp; Wide-Column Stores untuk Data Semi-Terstruktur</td>
 <td>Case Method + Lab Coding (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
-<td><strong>Mampu menyelesaikan SPL numerik via Iterasi Jacobi &amp; Gauss-Seidel (C3)</strong></td>
-<td><strong>Solusi SPL Numerik: Metode Iterasi Jacobi &amp; Gauss-Seidel, Relaksasi</strong></td>
+<td><strong>Mampu mengimplementasikan PySpark DataFrame dasar (C3)</strong></td>
+<td><strong>Apache Spark &amp; PySpark: DataFrame API, Catalyst Optimizer</strong></td>
 <td><strong>Problem-Solving Class (270m)</strong></td>
 <td><strong>Tugas 1: Milestone Proyek 1 / Modul Lab (Bobot: 20%)</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td>Mampu mengimplementasikan Interpolasi Polinom Lagrange &amp; Newton (C3)</td>
-<td>Interpolasi Polinomial: Polinom Lagrange &amp; Newton Divided Difference</td>
+<td>Mampu mengimplementasikan transformasi &amp; aksi Spark lanjutan (C3)</td>
+<td>Pemrosesan Terdistribusi: Transformasi, Aksi, Partisi &amp; Caching</td>
 <td>Kuliah + Lab Hands-on (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td>Mampu mengimplementasikan Interpolasi Natural Cubic Spline (C4)</td>
-<td>Interpolasi Spline: Natural Cubic Spline &amp; Penghalusan Kurva Data</td>
+<td>Mampu menerapkan format kolom Parquet &amp; transaksi ACID (C4)</td>
+<td>Modern Data Lakehouse: Delta Lake, Apache Iceberg, Parquet</td>
 <td>Case Method + Lab Coding (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td>Mampu menghitung turunan numerik beda maju, mundur, dan pusat orde tinggi (C3)</td>
-<td>Diferensiasi Numerik: Finite Difference Approximations &amp; Ekstrapolasi</td>
+<td>Mampu menerapkan ingesti batch &amp; orkestrasi pipeline (C3)</td>
+<td>Ingesti &amp; Orkestrasi Data Pipeline Terdistribusi Batch</td>
 <td>Problem-Solving Class (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>8</strong></td>
 <td><strong>EVALUASI TENGAH SEMESTER (UTS)</strong></td>
-<td><strong>Ujian Koding Terjadwal Akar Non-Linier, Interpolasi Spline, &amp; Iterasi SPL</strong></td>
+<td><strong>Ujian Praktik: Klaster Spark, PySpark Batch &amp; Lakehouse</strong></td>
 <td><strong>Live Coding Lab Test (170m)</strong></td>
-<td><strong>UTS: Evaluasi Proyek Awal 50% / Ujian Praktik (Bobot: 25%)</strong></td>
+<td><strong>UTS: Evaluasi Proyek Awal / Ujian Praktik (Bobot: 25%)</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;">9</td>
-<td>Mampu mengimplementasikan Integrasi Numerik Trapezoidal &amp; Simpson 1/3, 3/8 (C3)</td>
-<td>Integrasi Numerik: Kaidah Trapesium, Simpson 1/3, Simpson 3/8</td>
+<td>Mampu mengimplementasikan topik Kafka &amp; partisi (C3)</td>
+<td>Event Streaming: Apache Kafka, Topik, Partisi &amp; Fault Tolerance</td>
 <td>Kuliah + Lab Hands-on (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td>Mampu menerapkan Integrasi Romberg dan Kuadratur Gauss-Legendre (C4)</td>
-<td>Integrasi Numerik Lanjut: Romberg Integration &amp; Gauss Quadrature</td>
+<td>Mampu menerapkan Structured Streaming Spark-Kafka (C4)</td>
+<td>Stream Processing: Spark Structured Streaming + Kafka</td>
 <td>Case Method + Lab Coding (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td>Mampu menyelesaikan PDB orde satu menggunakan Metode Euler dan Heun (C3)</td>
-<td>Persamaan Diferensial Biasa (PDB): Metode Euler &amp; Metode Heun</td>
+<td>Mampu menjalankan kueri analitik Spark SQL masif (C3)</td>
+<td>Integrasi Analitik: Spark SQL Terdistribusi Skala Besar</td>
 <td>Problem-Solving Class (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>12</strong></td>
-<td><strong>Mampu mengimplementasikan Metode Runge-Kutta Orde 4 (RK4) (C4)</strong></td>
-<td><strong>Simulasi Dinamika Sistem: Algoritma Runge-Kutta 4th Order (RK4)</strong></td>
+<td><strong>Mampu menjalankan ML terdistribusi Spark MLlib (C4)</strong></td>
+<td><strong>Machine Learning Terdistribusi: Spark MLlib di atas Cluster</strong></td>
 <td><strong>Case Method + Lab Coding (270m)</strong></td>
 <td><strong>Tugas 2: Milestone Proyek 2 / Integrasi Sistem (Bobot: 25%)</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td>Mampu menerapkan optimasi 1D: Golden Section Search &amp; Newton 1D (C3)</td>
-<td>Optimasi Numerik 1D: Pencarian Golden Section &amp; Metode Newton Raphson 1D</td>
+<td>Mampu mengintegrasikan pipeline batch+stream ke fitur AI (C4)</td>
+<td>Pipeline Terpadu: Batch + Streaming untuk Fitur Model AI</td>
 <td>Kuliah + Lab Hands-on (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td>Mampu menerapkan Gradient Descent &amp; Stochastic Gradient Descent (SGD) (C4)</td>
-<td>Multivariate Optimization: Gradient Descent, Momentum, SGD Algorithm</td>
+<td>Mampu mengevaluasi latensi, throughput &amp; toleransi gagal (C4)</td>
+<td>Evaluasi Kinerja: Latensi, Throughput, Skalabilitas &amp; Monitoring</td>
 <td>Case Method Workshop (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;">15</td>
-<td>Mampu memodelkan simulasi komputasi numerik fisis via SciPy (C6)</td>
-<td>PjBL Komputasi Numerik: Pemodelan Sistem Nyata &amp; Visualisasi Konvergensi</td>
+<td>Mampu membangun pipeline Big Data end-to-end (C6)</td>
+<td>PjBL Big Data Studio: Pipeline Lakehouse + Streaming + MLlib</td>
 <td>PjBL Studio (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>16</strong></td>
 <td><strong>EVALUASI AKHIR SEMESTER (UAS)</strong></td>
-<td><strong>Sidang Demonstrasi Program Komputasi Numerik Terpadu &amp; Ujian Portofolio</strong></td>
+<td><strong>Sidang Demonstrasi Pipeline Big Data Terpadu &amp; Portofolio</strong></td>
 <td><strong>Demo Day &amp; Defense (170m)</strong></td>
 <td><strong>UAS: Evaluasi Proyek Akhir / Demo Day &amp; Portofolio (Bobot: 30%)</strong></td>
 </tr>
@@ -10116,19 +10153,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-307</span>> Sistem Cerdas</td>
+<td><span class="code-tag">STI-307</span> Sistem Cerdas</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur BDI &amp; Multi-Agent), <code>KK1</code>> (Reinforcement Learning &amp; Agen Otonom)</td>
+<td><span class="code-tag">P2</span> (Arsitektur BDI &amp; Multi-Agent), <code>KK1</code> (Reinforcement Learning &amp; Agen Otonom)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (Intelligent Information Systems Developer)</td>
+<td><span class="code-tag">PL-1</span> (Intelligent Information Systems Developer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -10147,7 +10184,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> agen otonom berbasis arsitektur Belief-Desire-Intention (BDI) (<em>B</em>) untuk pengambilan keputusan proaktif (<em>C</em>) secara rasional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -10159,13 +10196,13 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma Reinforcement Learning (Q-Learning, Deep Q-Networks / DQN) (<em>B</em>) pada lingkungan simulasi Gymnasium (<em>C</em>) dengan kebijakan optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melatih</strong> agen otonom menggunakan algoritma Policy Gradient (PPO) (<em>B</em>) pada skenario multi-agen kompetitif/kooperatif (<em>C</em>) secara stabil (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -10320,19 +10357,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-413</span>> Machine Learning &amp; <span class="code-tag">STI-624</span>> Integrasi AI</td>
+<td><span class="code-tag">STI-413</span> Machine Learning &amp; <span class="code-tag">STI-624</span> Integrasi AI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Pipeline Otomasi ML), <code>KK1</code>> (Continuous Training &amp; Model Registry), <code>KK2</code>> (Pelacakan Data)</td>
+<td><span class="code-tag">P4</span> (Pipeline Otomasi ML), <code>KK1</code> (Continuous Training &amp; Model Registry), <code>KK2</code> (Pelacakan Data)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (MLOps Engineer / Data Architect)</td>
+<td><span class="code-tag">PL-1</span> (MLOps Engineer / Data Architect)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -10351,7 +10388,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengelola</strong> pelacakan versi data dan eksperimen model (<em>B</em>) menggunakan Data Version Control (DVC) dan MLflow Tracking (<em>C</em>) secara terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK2</code>></td>
+<td style="text-align: center;"><code>KK2</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -10363,7 +10400,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mendeploy dan memantau</strong> model AI produksi (<em>B</em>) dengan strategi Canary/Shadow Deployment serta deteksi Data/Concept Drift (<em>C</em>) menggunakan Evidently AI dan Prometheus (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -10518,19 +10555,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-413</span>> Machine Learning &amp; <span class="code-tag">STI-416</span>> Web Back End Development</td>
+<td><span class="code-tag">STI-413</span> Machine Learning &amp; <span class="code-tag">STI-416</span> Web Back End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur Bahasa Alami Modern), <code>KK1</code>> (Prompt Engineering, RAG &amp; LLM Agents)</td>
+<td><span class="code-tag">P2</span> (Arsitektur Bahasa Alami Modern), <code>KK1</code> (Prompt Engineering, RAG &amp; LLM Agents)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>> (AI Engineer / Conversational Designer)</td>
+<td><span class="code-tag">PL-1</span> (AI Engineer / Conversational Designer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -10549,7 +10586,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menerapkan</strong> teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Thought, ReAct) (<em>B</em>) menggunakan framework LangChain (<em>C</em>) dengan output terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -10561,13 +10598,13 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> Fine-Tuning model LLM open-source (<em>B</em>) menggunakan teknik Parameter-Efficient Fine-Tuning (QLoRA) (<em>C</em>) pada domain khusus (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-4</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> asisten virtual cerdas berbasis agen otonom (Tool Calling) (<em>B</em>) dengan integrasi multi-channel (WhatsApp API / Web Widget) (<em>C</em>) secara terpadu (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -10722,19 +10759,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-626</span>> Deep Learning &amp; <span class="code-tag">STI-521</span>> IoT</td>
+<td><span class="code-tag">STI-626</span> Deep Learning &amp; <span class="code-tag">STI-521</span> IoT</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Edge AI &amp; Video Analytics), <code>KK1</code>> (Computer Vision Real-Time), <code>KK3</code>> (Integrasi Sensor &amp; CCTV)</td>
+<td><span class="code-tag">P3</span> (Edge AI &amp; Video Analytics), <code>KK1</code> (Computer Vision Real-Time), <code>KK3</code> (Integrasi Sensor &amp; CCTV)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-1</span>>, <span class="code-tag">PL-2</span>> (Smart Systems Integrator)</td>
+<td><span class="code-tag">PL-1</span>, <span class="code-tag">PL-2</span> (Smart Systems Integrator)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -10751,15 +10788,15 @@ graph TD
 <tbody>
 <tr>
 <td><strong>CPMK-1</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>melatih dan mengoptimalkan</strong> model deteksi objek modern (YOLOv8/YOLOv10) (<em>B</em>) pada dataset CCTV kustom (<em>C</em>) dengan mAP <span class="arithmatex"><span class="MathJax_Preview">\ge 0.80</span><script type="math/tex">\ge 0.80</script></span> (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>melatih dan mengoptimalkan</strong> model deteksi objek modern (YOLOv8/YOLOv10) (<em>B</em>) pada dataset CCTV kustom (<em>C</em>) dengan mAP $≥ 0.80$ (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan wajah biometrik (<em>B</em>) pada stream video RTSP real-time (<em>C</em>) dengan frame rate stabil <span class="arithmatex"><span class="MathJax_Preview">\ge 25</span><script type="math/tex">\ge 25</script></span> FPS (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan wajah biometrik (<em>B</em>) pada stream video RTSP real-time (<em>C</em>) dengan frame rate stabil ≥ 25 SKS FPS (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK1</code>></td>
+<td style="text-align: center;"><code>KK1</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -10926,19 +10963,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-312</span>> Jaringan Komputer &amp; <span class="code-tag">STI-418</span>> Keamanan</td>
+<td><span class="code-tag">STI-312</span> Jaringan Komputer &amp; <span class="code-tag">STI-418</span> Keamanan</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Pertahanan Jaringan &amp; IDS/IPS), <code>KK3</code>> (Hardening Sistem), <code>KK4</code>> (Forensik Digital &amp; Bukti Siber)</td>
+<td><span class="code-tag">P3</span> (Pertahanan Jaringan &amp; IDS/IPS), <code>KK3</code> (Hardening Sistem), <code>KK4</code> (Forensik Digital &amp; Bukti Siber)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cybersecurity Specialist &amp; SOC Analyst)</td>
+<td><span class="code-tag">PL-2</span> (Cybersecurity Specialist &amp; SOC Analyst)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -10963,13 +11000,13 @@ graph TD
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> bukti transfer data mencurigakan dan jejak eksfiltrasi (<em>B</em>) melalui analisis lalu lintas paket jaringan (PCAP) menggunakan Wireshark/Zeek (<em>C</em>) secara kritis (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> akuisisi bukti digital (<em>Bit-Stream Image</em>) dan analisis forensik memori/disk (<em>B</em>) menggunakan Autopsy dan Volatility (<em>C</em>) sesuai prinsip Chain of Custody (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -11124,19 +11161,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-417</span>> Komputasi Awan (Cloud Computing)</td>
+<td><span class="code-tag">STI-417</span> Komputasi Awan (Cloud Computing)</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Infrastruktur Cloud Native), <span class="code-tag">P4</span>> (Automasi CI/CD &amp; IaC), <code>KK3</code>> (Orkestrasi Kubernetes &amp; GitOps)</td>
+<td><span class="code-tag">P3</span> (Infrastruktur Cloud Native), <span class="code-tag">P4</span> (Automasi CI/CD &amp; IaC), <code>KK3</code> (Orkestrasi Kubernetes &amp; GitOps)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cloud Solutions Architect / DevOps Engineer)</td>
+<td><span class="code-tag">PL-2</span> (Cloud Solutions Architect / DevOps Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -11161,7 +11198,7 @@ graph TD
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengorkestrasikan</strong> aplikasi multi-kontainer (<em>B</em>) pada klaster Kubernetes (Deployments, StatefulSets, Ingress, PersistentVolumes) (<em>C</em>) dengan konfigurasi <em>high availability</em> (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK3</code>></td>
+<td style="text-align: center;"><code>KK3</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -11322,19 +11359,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-418</span>> Dasar Keamanan Informasi</td>
+<td><span class="code-tag">STI-418</span> Dasar Keamanan Informasi</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Kerangka Kerja Risiko NIST &amp; ISO 27005), <code>KK4</code>> (Penilaian Risiko Kuantitatif &amp; BCP/DRP)</td>
+<td><span class="code-tag">P3</span> (Kerangka Kerja Risiko NIST &amp; ISO 27005), <code>KK4</code> (Penilaian Risiko Kuantitatif &amp; BCP/DRP)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>> (Cybersecurity Specialist / Information Security Officer)</td>
+<td><span class="code-tag">PL-2</span> (Cybersecurity Specialist / Information Security Officer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice)</td>
 </tr>
 </tbody>
 </table></div>
@@ -11359,13 +11396,13 @@ graph TD
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merumuskan</strong> strategi penanganan risiko (Risk Treatment Plan) dan Business Impact Analysis (BIA) (<em>B</em>) pada proses bisnis kritis organisasi (<em>C</em>) dengan pemilihan kontrol keamanan terjustifikasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen rencana keberlanjutan bisnis (<em>Business Continuity Plan / BCP</em>) dan rencana pemulihan bencana (<em>Disaster Recovery Plan / DRP</em>) (<em>B</em>) dengan target metrik RTO dan RPO realistis (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -11520,19 +11557,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-101</span>> Pengantar Sistem &amp; TI</td>
+<td><span class="code-tag">STI-101</span> Pengantar Sistem &amp; TI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P3</span>> (Tata Kelola TI Korporasi), <code>KK4</code>> (Audit COBIT 2019, CMMI &amp; Kepatuhan Regulasi)</td>
+<td><span class="code-tag">P3</span> (Tata Kelola TI Korporasi), <code>KK4</code> (Audit COBIT 2019, CMMI &amp; Kepatuhan Regulasi)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>>, <span class="code-tag">PL-4</span>> (IT Governance Consultant &amp; Auditor)</td>
+<td><span class="code-tag">PL-2</span>, <span class="code-tag">PL-4</span> (IT Governance Consultant &amp; Auditor)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -11551,19 +11588,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membedakan</strong> prinsip Tata Kelola TI (<em>Governance</em>) vs Manajemen TI (<em>Management</em>) (<em>B</em>) berdasarkan kerangka kerja COBIT 2019 (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P3</span>></td>
+<td style="text-align: center;"><span class="code-tag">P3</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> sistem tata kelola TI (<em>B</em>) menggunakan COBIT 2019 Design Toolkit dan analisis 11 Design Factors (<em>C</em>) sesuai strategi organisasi (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> audit kapabilitas proses tata kelola TI (<em>B</em>) berdasarkan model kapabilitas CMMI COBIT 2019 (Level 0 s.d. 5) (<em>C</em>) dengan bukti audit yang valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -11718,19 +11755,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-101</span>> Pengantar Sistem &amp; TI</td>
+<td><span class="code-tag">STI-101</span> Pengantar Sistem &amp; TI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Manajemen Layanan TI), <code>KK4</code>> (Siklus Layanan ITIL 4, SLA/OLA, Manajemen Insiden)</td>
+<td><span class="code-tag">P2</span> (Manajemen Layanan TI), <code>KK4</code> (Siklus Layanan ITIL 4, SLA/OLA, Manajemen Insiden)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>>, <span class="code-tag">PL-4</span>> (IT Service Manager &amp; IT Operations Lead)</td>
+<td><span class="code-tag">PL-2</span>, <span class="code-tag">PL-4</span> (IT Service Manager &amp; IT Operations Lead)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -11749,13 +11786,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menguraikan</strong> Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7 Prinsip Panduan (<em>B</em>) berdasarkan kerangka kerja ITIL 4 (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C2</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan menganalisis</strong> alur kerja Service Desk, Incident Management, dan Problem Management (<em>B</em>) menggunakan analisis akar masalah (<em>Root Cause Analysis / Fishbone</em>) (<em>C</em>) secara terstruktur (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -11916,19 +11953,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-306</span>> Analisis &amp; Perancangan SI</td>
+<td><span class="code-tag">STI-306</span> Analisis &amp; Perancangan SI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Arsitektur Bisnis &amp; Data), <span class="code-tag">P3</span>> (Arsitektur Teknologi), <code>KK4</code>> (Pemodelan ArchiMate &amp; TOGAF ADM)</td>
+<td><span class="code-tag">P2</span> (Arsitektur Bisnis &amp; Data), <span class="code-tag">P3</span> (Arsitektur Teknologi), <code>KK4</code> (Pemodelan ArchiMate &amp; TOGAF ADM)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-2</span>>, <span class="code-tag">PL-4</span>> (Enterprise Architect &amp; Solution Architect)</td>
+<td><span class="code-tag">PL-2</span>, <span class="code-tag">PL-4</span> (Enterprise Architect &amp; Solution Architect)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -11947,7 +11984,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menguraikan</strong> siklus Architecture Development Method (ADM Fase Preliminary s.d. H) (<em>B</em>) berdasarkan standar The Open Group Architecture Framework (TOGAF) (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C2</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -11959,7 +11996,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen cetak biru Architecture Definition Document (ADD) (<em>B</em>) dengan analisis kesenjangan (<em>Gap Analysis As-Is vs To-Be</em>) dan peta jalan migrasi (<em>Migration Roadmap</em>) (<em>C</em>) secara profesional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C5</strong></td>
-<td style="text-align: center;"><code>KK4</code>></td>
+<td style="text-align: center;"><code>KK4</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -12114,19 +12151,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-308</span>> UI/UX Design &amp; Prototyping</td>
+<td><span class="code-tag">STI-308</span> UI/UX Design &amp; Prototyping</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur Informasi &amp; Aksesibilitas), <code>KK5</code>> (Riset UX Kuantitatif/Kualitatif &amp; A/B Testing)</td>
+<td><span class="code-tag">P4</span> (Arsitektur Informasi &amp; Aksesibilitas), <code>KK5</code> (Riset UX Kuantitatif/Kualitatif &amp; A/B Testing)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (UI/UX Researcher &amp; Product Designer)</td>
+<td><span class="code-tag">PL-3</span> (UI/UX Researcher &amp; Product Designer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -12145,13 +12182,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengeksekusi</strong> metode riset pengguna kuantitatif dan kualitatif (Card Sorting, Tree Testing, Contextual Inquiry, Eye-Tracking Simulation) (<em>B</em>) pada produk digital (<em>C</em>) secara ilmiah (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengimplementasikan</strong> eksperimen A/B Testing (<em>B</em>) dengan penetapan hipotesis, ukuran sampel statistik, dan analisis signifikansi konversi (<em>C</em>) secara valid (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -12312,19 +12349,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-306</span>> Analisis &amp; Perancangan SI</td>
+<td><span class="code-tag">STI-306</span> Analisis &amp; Perancangan SI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Pemodelan Proses Bisnis Lanjut), <span class="code-tag">P4</span>> (Otomasi REST &amp; Orkestrasi), <code>KK5</code>> (Camunda Workflow Engine &amp; Bot RPA)</td>
+<td><span class="code-tag">P2</span> (Pemodelan Proses Bisnis Lanjut), <span class="code-tag">P4</span> (Otomasi REST &amp; Orkestrasi), <code>KK5</code> (Camunda Workflow Engine &amp; Bot RPA)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (Digital Platform Engineer / BPA Specialist)</td>
+<td><span class="code-tag">PL-3</span> (Digital Platform Engineer / BPA Specialist)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -12343,7 +12380,7 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menganalisis</strong> performa proses bisnis dan mendeteksi kesenjangan (<em>Conformance Checking</em>) (<em>B</em>) menggunakan teknik Process Mining (<em>C</em>) secara empiris (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P2</span>></td>
+<td style="text-align: center;"><span class="code-tag">P2</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
@@ -12355,7 +12392,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>mengembangkan</strong> bot Robotic Process Automation (RPA) (<em>B</em>) menggunakan Python RPA / UiPath (<em>C</em>) untuk otomasi tugas repetitif dan ekstraksi dokumen OCR (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -12510,19 +12547,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-416</span>> Web Back End Development</td>
+<td><span class="code-tag">STI-416</span> Web Back End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur Spesifik Domain), <code>KK5</code>> (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI)</td>
+<td><span class="code-tag">P4</span> (Arsitektur Spesifik Domain), <code>KK5</code> (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (Digital Platform Engineer / Vertical Domain Architect)</td>
+<td><span class="code-tag">PL-3</span> (Digital Platform Engineer / Vertical Domain Architect)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -12553,7 +12590,7 @@ graph TD
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> platform aplikasi industri vertikal terpadu (<em>B</em>) dengan penanganan transaksi idempotensi (<em>Idempotency Key</em>) dan kepatuhan regulasi industri (<em>C</em>) secara andal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -12708,19 +12745,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-311</span>> Web Front End Development</td>
+<td><span class="code-tag">STI-311</span> Web Front End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Grafika Komputer &amp; WebXR), <code>KK5</code>> (Augmented Reality &amp; Virtual Reality)</td>
+<td><span class="code-tag">P4</span> (Grafika Komputer &amp; WebXR), <code>KK5</code> (Augmented Reality &amp; Virtual Reality)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (XR Developer &amp; Spatial Computing Engineer)</td>
+<td><span class="code-tag">PL-3</span> (XR Developer &amp; Spatial Computing Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-3</span>> (Research)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-3</span> (Research)</td>
 </tr>
 </tbody>
 </table></div>
@@ -12739,19 +12776,19 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> adegan grafika 3D interaktif di browser (<em>B</em>) menggunakan WebXR dan Three.js (<em>C</em>) dengan pemuatan model 3D (glTF/GLB) yang optimal (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C3</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang dan mengimplementasikan</strong> aplikasi Augmented Reality (AR) mobile (<em>B</em>) dengan teknik Marker-Based dan Markerless Plane Detection (<em>C</em>) menggunakan ARCore / WebXR (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
-<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> simulasi Virtual Reality (VR) 6DoF interaktif (<em>B</em>) dengan audio spasial 3D dan navigasi teleportasi (<em>C</em>) dengan performa rendering mulus <span class="arithmatex"><span class="MathJax_Preview">\ge 60</span><script type="math/tex">\ge 60</script></span> FPS (<em>D</em>).</td>
+<td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> simulasi Virtual Reality (VR) 6DoF interaktif (<em>B</em>) dengan audio spasial 3D dan navigasi teleportasi (<em>C</em>) dengan performa rendering mulus ≥ 60 SKS FPS (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -12860,7 +12897,7 @@ graph TD
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td>Mampu mengoptimalkan performa rendering grafika XR target <span class="arithmatex"><span class="MathJax_Preview">\ge 60</span><script type="math/tex">\ge 60</script></span> FPS (C5)</td>
+<td>Mampu mengoptimalkan performa rendering grafika XR target ≥ 60 SKS FPS (C5)</td>
 <td>XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD)</td>
 <td>Problem-Solving Workshop (270m)</td>
 <td>Praktikum Formatif (Non-Graded)</td>
@@ -12906,19 +12943,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-416</span>> Web Back End Development</td>
+<td><span class="code-tag">STI-416</span> Web Back End Development</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P4</span>> (Arsitektur Multi-Tenancy), <code>KK5</code>> (Row-Level Security, Subscription Engine &amp; Micro-Frontends)</td>
+<td><span class="code-tag">P4</span> (Arsitektur Multi-Tenancy), <code>KK5</code> (Row-Level Security, Subscription Engine &amp; Micro-Frontends)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>> (SaaS Solution Architect / Lead Platform Engineer)</td>
+<td><span class="code-tag">PL-3</span> (SaaS Solution Architect / Lead Platform Engineer)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -12937,13 +12974,13 @@ graph TD
 <td><strong>CPMK-1</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>merancang</strong> strategi isolasi data multi-tenant (Shared Database with Row-Level Security vs Database-per-Tenant) (<em>B</em>) pada PostgreSQL (<em>C</em>) dengan jaminan isolasi data mutlak (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><span class="code-tag">P4</span>></td>
+<td style="text-align: center;"><span class="code-tag">P4</span></td>
 </tr>
 <tr>
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>membangun</strong> mesin penagihan berlangganan (<em>Subscription Engine</em>) otomatis (<em>B</em>) dengan integrasi Stripe API dan webhook (<em>C</em>) secara transaksional (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK5</code>></td>
+<td style="text-align: center;"><code>KK5</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
@@ -13104,19 +13141,19 @@ graph TD
 </tr>
 <tr>
 <td><strong>Prasyarat Akademik</strong></td>
-<td><span class="code-tag">STI-523</span>> Manajemen Proyek TI</td>
+<td><span class="code-tag">STI-523</span> Manajemen Proyek TI</td>
 </tr>
 <tr>
 <td><strong>CPL yang Dibebankan</strong></td>
-<td><span class="code-tag">P2</span>> (Strategi Produk Digital &amp; OKRs), <code>KK6</code>> (Product Discovery, PRD, RICE Prioritization &amp; Go-To-Market)</td>
+<td><span class="code-tag">P2</span> (Strategi Produk Digital &amp; OKRs), <code>KK6</code> (Product Discovery, PRD, RICE Prioritization &amp; Go-To-Market)</td>
 </tr>
 <tr>
 <td><strong>Profil Lulusan (PL)</strong></td>
-<td><span class="code-tag">PL-3</span>>, <span class="code-tag">PL-4</span>> (Digital Product Manager &amp; CPO)</td>
+<td><span class="code-tag">PL-3</span>, <span class="code-tag">PL-4</span> (Digital Product Manager &amp; CPO)</td>
 </tr>
 <tr>
 <td><strong>Target PEO</strong></td>
-<td><span class="code-tag">PEO-1</span>> (Professional Practice), <span class="code-tag">PEO-2</span>> (Technopreneurship)</td>
+<td><span class="code-tag">PEO-1</span> (Professional Practice), <span class="code-tag">PEO-2</span> (Technopreneurship)</td>
 </tr>
 </tbody>
 </table></div>
@@ -13141,13 +13178,13 @@ graph TD
 <td><strong>CPMK-2</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>melakukan</strong> Product Discovery dan prioritisasi backlog (<em>B</em>) menggunakan kerangka kerja RICE, Kano Model, dan MoSCoW (<em>C</em>) secara objektif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C4</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 <tr>
 <td><strong>CPMK-3</strong></td>
 <td>Mahasiswa (<em>A</em>) mampu <strong>menyusun</strong> dokumen Product Requirement Document (PRD) berstandar industri (<em>B</em>) dengan User Stories, Acceptance Criteria, dan strategi Go-To-Market (GTM) (<em>C</em>) secara komprehensif (<em>D</em>).</td>
 <td style="text-align: center;"><strong>C6</strong></td>
-<td style="text-align: center;"><code>KK6</code>></td>
+<td style="text-align: center;"><code>KK6</code></td>
 </tr>
 </tbody>
 </table></div>
@@ -13279,17 +13316,22 @@ graph TD
 </table></div>
 <hr />
 
-            <div class="doc-nav">
+            <div class="doc-nav no-print">
                 <div><a href="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
                 <div><a href="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer no-print">
             <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
     </div>
 
     <!-- Master External Modular Script -->

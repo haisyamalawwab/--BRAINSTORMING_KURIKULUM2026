@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- KaTeX for LaTeX Math -->
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
     <!-- Mermaid JS for Flowcharts -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar no-print">
         <div class="container navbar-content">
             <a href="index.html" class="brand">
                 <div class="brand-logo">STI</div>
@@ -35,11 +35,12 @@
             </a>
             
             <select class="doc-select" onchange="window.location.href=this.value">
-                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
 <option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
 <option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
 <option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
-<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
@@ -59,6 +60,7 @@
 <option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
 <option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
 <option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
 <option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
 <option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
 <option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
@@ -70,6 +72,7 @@
 <option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
 <option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
 <option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" selected>030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
 <option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
 <option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
 <option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
@@ -84,6 +87,11 @@
 <option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
 <option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
 <option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -96,16 +104,45 @@
 
             <div class="nav-actions">
                 <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
                 <button class="btn-action" id="themeToggle">🌓 Tema</button>
             </div>
         </div>
     </nav>
 
     <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge-group">
+            <div class="hero-badge-group no-print">
                 <span class="badge badge-primary">Kurikulum OBE 2026</span>
                 <span class="badge badge-accent">Permendikbudristek 53/2023</span>
                 <span class="badge badge-warning">FSTI UWG Malang</span>
@@ -118,6 +155,14 @@
         <main class="content">
             <h1 id="030-justifikasi-akademis-dan-audit-bok-penetapan-sta-601-computational-methods-numerics-sebagai-mata-kuliah-pilihan-peminatan-integrated-smart-systems">030 — JUSTIFIKASI AKADEMIS DAN AUDIT BoK: PENETAPAN STA-601 COMPUTATIONAL METHODS &amp; NUMERICS SEBAGAI MATA KULIAH PILIHAN PEMINATAN INTEGRATED SMART SYSTEMS</h1>
 <h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<div class="custom-alert alert-warning">
+    <div class="alert-header"><span class="alert-icon">⚠️</span> WARNING</div>
+    <div class="alert-content"><p><strong>STATUS: DIARSIPKAN (SUPERSEDED) oleh Dok 047 + Dok 048.</strong>
+Isi historis di bawah dipertahankan apa adanya sebagai jejak audit.
+Keputusan berlaku: <span class="code-tag">STA-601</span> = <strong>Rekayasa Big Data dan Komputasi Terdistribusi</strong> (3 SKS +P, Sem 6, prasyarat <span class="code-tag">FST-207</span> + <span class="code-tag">STI-415</span>, CPL <span class="code-tag">P2</span>/<code>KK2</code>), bukan Computational Methods &amp; Numerics.
+Konsekuensi: padanan E2 <span class="code-tag">STI-317</span> → <span class="code-tag">STA-601</span> pada Dok 024 <strong>gugur menjadi E5</strong>; <span class="code-tag">STA-601</span> menjadi MK baru (B).</p></div>
+</div>
+
 <hr />
 <h3 id="informasi-dokumen">Informasi Dokumen</h3>
 <ul>
@@ -133,9 +178,9 @@
 <hr />
 <h2 id="1-latar-belakang-rumusan-persoalan">1. LATAR BELAKANG &amp; RUMUSAN PERSOALAN</h2>
 <p>Pada Kurikulum 2025 (K2025), Program Studi SISTEKIN memiliki mata kuliah:
-* <strong><span class="code-tag">STI-317</span>> Metode Komputasi dan Numerik</strong> (2 SKS, Semester 3, Berstatus <strong>Wajib</strong>).</p>
+* <strong><span class="code-tag">STI-317</span> Metode Komputasi dan Numerik</strong> (2 SKS, Semester 3, Berstatus <strong>Wajib</strong>).</p>
 <p>Sedangkan pada Kurikulum 2026 (K2026 Revisi Definitif), mata kuliah ini bertransformasi menjadi:
-* <strong><span class="code-tag">STA-601</span>> Computational Methods and Numerics (+P)</strong> (3 SKS, Semester 6, Berstatus <strong>Elektif / Mata Kuliah Pilihan Peminatan 1: Integrated Smart Systems</strong>).</p>
+* <strong><span class="code-tag">STA-601</span> Computational Methods and Numerics (+P)</strong> (3 SKS, Semester 6, Berstatus <strong>Elektif / Mata Kuliah Pilihan Peminatan 1: Integrated Smart Systems</strong>).</p>
 <p>Muncul pertanyaan kritis akademik dalam peninjauan kurikulum:</p>
 <blockquote>
 <p><em>"Mengapa mata kuliah komputasi numerik yang semula wajib di Semester 3 dialihkan menjadi mata kuliah pilihan di Semester 6? Apakah perpindahan ini sah secara Body of Knowledge (BoK) APTIKOM rumpun Sistem Informasi dan Teknologi Informasi? Bagaimana justifikasi pedagogis dan distribusi beban SKS-nya?"</em></p>
@@ -149,8 +194,8 @@
    - Termaktub dalam <strong><code>BK11: Mathematics and statistics</code></strong> (atau <code>BK-IS10: Applied Mathematics and Logic</code>).
    - Deskripsi kompetensi resmi: <em>"Membangun dasar pengetahuan matematika dan statistik yang diperlukan untuk analisis data, pemodelan sistem informasi, dan pengambilan keputusan organisasi."</em>
 2. <strong>Daftar Mata Kuliah Matematika yang Diturunkan di Rumpun SI:</strong>
-   - <code>MK28</code>>: <em>Computational Thinking</em> (Status: MK Pendukung)
-   - <code>MK30</code>>: <em>Matematika Diskrit</em> (Status: MK Pendukung)
+   - <code>MK28</code>: <em>Computational Thinking</em> (Status: MK Pendukung)
+   - <code>MK30</code>: <em>Matematika Diskrit</em> (Status: MK Pendukung)
    - <em>Statistika &amp; Probabilitas</em> (Status: MK Wajib Pendukung)
 3. <strong>Temuan Audit Forensik SI:</strong>
    - <strong>Metode Numerik / Komputasi Numerik TIDAK PERNAH menjadi Mata Kuliah Wajib Inti (Core Course)</strong> pada kurikulum standar Sistem Informasi ACM/IEEE IS2020 maupun APTIKOM SI v2.0.
@@ -177,7 +222,7 @@
    - Pada Kurikulum 2025, seluruh <strong>56 mata kuliah (146 SKS) berstatus Wajib</strong>. Prodi SISTEKIN saat itu belum merumuskan jalur peminatan/elektif (kolom pilihan = 0 SKS).
    - Akibatnya, mata kuliah warisan dari prodi informatika/komputer dimasukkan begitu saja dengan label "Wajib" tanpa asesmen kecukupan beban dan keselarasan profil lulusan.</li>
 <li><strong>Kelemahan Pedagogis K2025:</strong>
-   - <span class="code-tag">STI-317</span>> di K2025 hanya berbobot <strong>2 SKS Teori murni</strong> tanpa praktikum lab komputasi nyata (+P).
+   - <span class="code-tag">STI-317</span> di K2025 hanya berbobot <strong>2 SKS Teori murni</strong> tanpa praktikum lab komputasi nyata (+P).
    - Materi diajarkan secara manual di atas kertas (hitung tangan metode Bisection, Gauss, dll.), sehingga terputus dari implementasi koding AI/Machine Learning modern.</li>
 </ol>
 <hr />
@@ -198,34 +243,34 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>Sem 1</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span></td>
 <td>Kalkulus</td>
 <td style="text-align: center;">2 SKS</td>
-<td style="text-align: center;">Core STI</td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
 <td>Limit, turunan, integral dasar, laju perubahan</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>Sem 2</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span></td>
 <td>Matematika Diskrit dan Logika</td>
 <td style="text-align: center;">3 SKS</td>
-<td style="text-align: center;">Core STI</td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
 <td>Logika proposisi, himpunan, relasi, teori graf, aljabar boolean</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>Sem 2</strong></td>
-<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span></td>
 <td>Aljabar Linear Terapan &amp; Matriks</td>
 <td style="text-align: center;">2 SKS</td>
-<td style="text-align: center;">Core STI</td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
 <td>Operasi vektor, transformasi matriks, ruang vektor, eigen</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>Sem 4</strong></td>
-<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-408</span></td>
 <td>Statistika &amp; Probabilitas</td>
 <td style="text-align: center;">3 SKS</td>
-<td style="text-align: center;">FSTI</td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
 <td>Distribusi probabilitas, inferensi statistik, estimasi parameter</td>
 </tr>
 <tr>
@@ -242,11 +287,11 @@
 <h3 id="42-relevansi-profil-lulusan-yang-tepat-sasaran-targeted-learning">4.2 Relevansi Profil Lulusan yang Tepat Sasaran (<em>Targeted Learning</em>)</h3>
 <p>SISTEKIN 2026 membagi spesialisasi mahasiswa ke dalam 3 Jalur Peminatan (@ 18 SKS):</p>
 <ol>
-<li><strong>Jalur P2: Cloud Infrastructure &amp; Cybersecurity (<span class="code-tag">PL-2</span>>):</strong>
-   - Mahasiswa di jalur ini memerlukan pendalaman pada Keamanan Jaringan (<span class="code-tag">STB-501</span>>), Cloud DevOps (<span class="code-tag">STB-601</span>>), Cyber Risk (<span class="code-tag">STB-602</span>>), dan IT Governance (<span class="code-tag">STB-702</span>>).
+<li><strong>Jalur P2: Cloud Infrastructure &amp; Cybersecurity (<span class="code-tag">PL-2</span>):</strong>
+   - Mahasiswa di jalur ini memerlukan pendalaman pada Keamanan Jaringan (<span class="code-tag">STB-501</span>), Cloud DevOps (<span class="code-tag">STB-601</span>), Cyber Risk (<span class="code-tag">STB-602</span>), dan IT Governance (<span class="code-tag">STB-702</span>).
    - Memaksa mahasiswa jalur ini menempuh <em>Solusi PDB Runge-Kutta Orde 4, Kuadratur Gauss-Legendre, atau Interpolasi Spline</em> adalah beban kurikulum yang tidak relevan dengan profil insinyur Cloud &amp; Keamanan Siber.</li>
-<li><strong>Jalur P3: Digital Platform Engineering (<span class="code-tag">PL-3</span>>):</strong>
-   - Mahasiswa fokus pada UX Research (<span class="code-tag">STC-501</span>>), Otomasi Proses Bisnis (<span class="code-tag">STC-601</span>>), Aplikasi Vertikal (<span class="code-tag">STC-602</span>>), SaaS Architecture (<span class="code-tag">STC-702</span>>), dan Agile Product (<span class="code-tag">STC-703</span>>).
+<li><strong>Jalur P3: Digital Platform Engineering (<span class="code-tag">PL-3</span>):</strong>
+   - Mahasiswa fokus pada UX Research (<span class="code-tag">STC-501</span>), Otomasi Proses Bisnis (<span class="code-tag">STC-601</span>), Aplikasi Vertikal (<span class="code-tag">STC-602</span>), SaaS Architecture (<span class="code-tag">STC-702</span>), dan Agile Product (<span class="code-tag">STC-703</span>).
    - Tidak ada kebutuhan langsung terhadap analisis galat pemotongan floating-point numerik.</li>
 <li><strong>Jalur P1: Integrated Smart Systems (<code>PL-1: Intelligent IS &amp; Data/AI Engineer</code>):</strong>
    - Calon Data/AI Engineer <strong>mutlak membutuhkan metode numerik terapan</strong> untuk:<ul>
@@ -258,19 +303,19 @@
 </ol>
 <p><em>Maka, menempatkan metode komputasi numerik secara eksklusif pada Peminatan P1 adalah implementasi constructive alignment yang adil dan berdaya guna tinggi.</em></p>
 <h3 id="43-peningkatan-kualitas-pedagogis-dari-2-sks-teori-menjadi-3-sks-praktikum">4.3 Peningkatan Kualitas Pedagogis: Dari 2 SKS Teori Menjadi 3 SKS (+Praktikum)</h3>
-<p>Transformasi dari <span class="code-tag">STI-317</span>> (K2025) ke <span class="code-tag">STA-601</span>> (K2026) bukan sekadar pengalihan status, melainkan <strong>eskalasi mutu pembelajaran</strong>:
+<p>Transformasi dari <span class="code-tag">STI-317</span> (K2025) ke <span class="code-tag">STA-601</span> (K2026) bukan sekadar pengalihan status, melainkan <strong>eskalasi mutu pembelajaran</strong>:
 - <strong>Peningkatan Bobot:</strong> Dari 2 SKS Teori → <strong>3 SKS (+P: 100m Teori + 170m Laboratorium Praktikum Komputasi)</strong>.
 - <strong>Teknologi Komputasi:</strong> Seluruh algoritma (Newton-Raphson, Spline, Runge-Kutta RK4, SGD) diimplementasikan secara langsung menggunakan bahasa pemrograman modern (<strong>Python, NumPy, SciPy</strong>).
-- <strong>Penempatan Semester:</strong> Dipindahkan dari Sem 3 ke <strong>Semester 6</strong>. Mahasiswa yang mengambil MK ini telah menuntaskan <span class="code-tag">STI-102</span>> Kalkulus, <span class="code-tag">STI-205</span>> Aljabar Linear, serta <span class="code-tag">STI-413</span>> Machine Learning, sehingga materi numerik dapat langsung diaplikasikan ke optimasi model AI.</p>
+- <strong>Penempatan Semester:</strong> Dipindahkan dari Sem 3 ke <strong>Semester 6</strong>. Mahasiswa yang mengambil MK ini telah menuntaskan <span class="code-tag">STI-102</span> Kalkulus, <span class="code-tag">STI-205</span> Aljabar Linear, serta <span class="code-tag">STI-413</span> Machine Learning, sehingga materi numerik dapat langsung diaplikasikan ke optimasi model AI.</p>
 <h3 id="44-keselarasan-cpl-dan-indikator-kinerja-obe">4.4 Keselarasan CPL dan Indikator Kinerja OBE</h3>
 <p>Pada Dokumen 004 dan Dokumen 007:
 - <strong>CPL yang Dibebankan:</strong> 
-  - <span class="code-tag">P1</span>>: Menguasai konsep teoretis sains komputasi, analisis galat, dan logika matematika.
-  - <code>KK1</code>>: Mampu merancang dan mengembangkan sistem informasi cerdas terintegrasi AI melalui penerapan algoritma optimasi komputasi cerdas.
-- <strong>Sifat CPL KK1:</strong> <code>KK1</code>> adalah <strong>CPL Keterampilan Khusus Peminatan P1</strong>, bukan CPL umum seluruh program studi. Oleh karena itu, mata kuliah yang menjadi pengampu utama pembentukan CPL KK1 secara struktural <strong>wajib berstatus mata kuliah peminatan</strong>.</p>
+  - <span class="code-tag">P1</span>: Menguasai konsep teoretis sains komputasi, analisis galat, dan logika matematika.
+  - <code>KK1</code>: Mampu merancang dan mengembangkan sistem informasi cerdas terintegrasi AI melalui penerapan algoritma optimasi komputasi cerdas.
+- <strong>Sifat CPL KK1:</strong> <code>KK1</code> adalah <strong>CPL Keterampilan Khusus Peminatan P1</strong>, bukan CPL umum seluruh program studi. Oleh karena itu, mata kuliah yang menjadi pengampu utama pembentukan CPL KK1 secara struktural <strong>wajib berstatus mata kuliah peminatan</strong>.</p>
 <hr />
 <h2 id="5-rekapitulasi-atribut-kurikuler-sta-601">5. REKAPITULASI ATRIBUT KURIKULER STA-601</h2>
-<div class="highlight"><pre><span></span><code>========================================================================================
+<pre><code>========================================================================================
 MATA KULIAH       : STA-601 Computational Methods and Numerics (+P)
 STATUS            : Mata Kuliah Pilihan (Peminatan 1: Integrated Smart Systems)
 BOBOT             : 3 SKS (+Praktikum: 100 menit Teori + 170 menit Lab + 180 menit Mandiri)
@@ -281,36 +326,41 @@ CPL DIDUKUNG      : P1 (Analisis Galat &amp; Model Numerik) | KK1 (Optimasi Komp
 PROFIL LULUSAN    : PL-1 (Intelligent IS Developer &amp; Data/AI Engineer)
 TARGET PEO        : PEO-1 (Professional Practice &amp; Systems Integration), PEO-3 (Lifelong Learning &amp; Research)
 ========================================================================================
-</code></pre></div>
+</code></pre>
 <hr />
 <h2 id="6-implikasi-ekivalensi-mahasiswa-transisi-kurikulum-2025">6. IMPLIKASI EKIVALENSI MAHASISWA TRANSISI KURIKULUM 2025</h2>
 <p>Berdasarkan Dokumen 024 (<em>Matriks Ekivalensi Kurikulum 2025 ke 2026</em>):
-1. Mahasiswa K2025 yang telah lulus <span class="code-tag">STI-317</span>> Metode Komputasi dan Numerik (2 SKS, Nilai <span class="arithmatex"><span class="MathJax_Preview">\ge</span><script type="math/tex">\ge</script></span> C):
-   - <strong>Jika Memilih Peminatan P1:</strong> Diakui sebagai <span class="code-tag">STA-601</span>> (3 SKS) melalui skema <strong>E2 (Diakui Bersyarat)</strong> dengan menempuh penugasan uji penyetaraan modul praktikum koding laboratorium (+P).
-   - <strong>Jika Memilih Peminatan P2 atau P3:</strong> Nilai <span class="code-tag">STI-317</span>> (2 SKS) tetap sah diakui di transkrip akademik sebagai <strong>Kredit Bebas Pilihan / Suplemen Sains Komputasi</strong> sehingga mahasiswa tidak kehilangan hak kredit SKS yang telah ditempuh.
+1. Mahasiswa K2025 yang telah lulus <span class="code-tag">STI-317</span> Metode Komputasi dan Numerik (2 SKS, Nilai ≥ C):
+   - <strong>Jika Memilih Peminatan P1:</strong> Diakui sebagai <span class="code-tag">STA-601</span> (3 SKS) melalui skema <strong>E2 (Diakui Bersyarat)</strong> dengan menempuh penugasan uji penyetaraan modul praktikum koding laboratorium (+P).
+   - <strong>Jika Memilih Peminatan P2 atau P3:</strong> Nilai <span class="code-tag">STI-317</span> (2 SKS) tetap sah diakui di transkrip akademik sebagai <strong>Kredit Bebas Pilihan / Suplemen Sains Komputasi</strong> sehingga mahasiswa tidak kehilangan hak kredit SKS yang telah ditempuh.
 2. Aturan ini adil, menjamin hak mahasiswa transisi, dan mematuhi Permendikbudristek No. 53 Tahun 2023 Pasal 24.</p>
 <hr />
 <h2 id="7-kesimpulan-rekomendasi-tim-kurikulum">7. KESIMPULAN &amp; REKOMENDASI TIM KURIKULUM</h2>
 <ol>
-<li><strong>Sah dan Selaras Standar Asosiasi:</strong> Penetapan <span class="code-tag">STA-601</span>> sebagai mata kuliah pilihan peminatan P1 <strong>100% konsisten dan tidak melanggar standar APTIKOM SI v2.0 maupun TI 2023</strong>, karena kedua standar asosiasi tersebut memang tidak mewajibkan analisis numerik pada rumpun mata kuliah inti.</li>
-<li><strong>Kebutuhan Matematika Terpenuhi:</strong> Seluruh lulusan SISTEKIN telah dibekali <strong>10 SKS matematika wajib</strong> yang kokoh (<span class="code-tag">STI-102</span>>, <span class="code-tag">STI-204</span>>, <span class="code-tag">STI-205</span>>, <span class="code-tag">FST-408</span>>).</li>
+<li><strong>Sah dan Selaras Standar Asosiasi:</strong> Penetapan <span class="code-tag">STA-601</span> sebagai mata kuliah pilihan peminatan P1 <strong>100% konsisten dan tidak melanggar standar APTIKOM SI v2.0 maupun TI 2023</strong>, karena kedua standar asosiasi tersebut memang tidak mewajibkan analisis numerik pada rumpun mata kuliah inti.</li>
+<li><strong>Kebutuhan Matematika Terpenuhi:</strong> Seluruh lulusan SISTEKIN telah dibekali <strong>10 SKS matematika wajib</strong> yang kokoh (<span class="code-tag">STI-102</span>, <span class="code-tag">STI-204</span>, <span class="code-tag">STI-205</span>, <span class="code-tag">FST-408</span>).</li>
 <li><strong>Efisiensi Kurikulum Nasional:</strong> Menghindarkan mahasiswa peminatan Cloud, Cyber, dan Platform dari beban komputasi numerik diferensial yang tidak relevan dengan profil karier mereka, sekaligus memberi ruang MBKM hingga 20 SKS di Semester 6 dan 7.</li>
 <li><strong>Keputusan Final:</strong> Status <code>STA-601 Computational Methods and Numerics (+P)</code> <strong>tetap dipertahankan sebagai Mata Kuliah Pilihan Peminatan 1 (Integrated Smart Systems) berbobot 3 SKS (+P) pada Semester 6</strong>.</li>
 </ol>
 <hr />
 <p><em>Dokumen ini merupakan bagian integral dari Naskah Buku Kurikulum OBE SISTEKIN 2026 FSTI Universitas Widyagama Malang.</em></p>
 
-            <div class="doc-nav">
+            <div class="doc-nav no-print">
                 <div><a href="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
-                <div><a href="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" class="nav-btn">Selanjutnya →</a></div>
+                <div><a href="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer no-print">
             <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
     </div>
 
     <!-- Master External Modular Script -->

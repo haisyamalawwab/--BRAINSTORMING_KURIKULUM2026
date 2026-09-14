@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- KaTeX for LaTeX Math -->
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
     <!-- Mermaid JS for Flowcharts -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar no-print">
         <div class="container navbar-content">
             <a href="index.html" class="brand">
                 <div class="brand-logo">STI</div>
@@ -35,11 +35,12 @@
             </a>
             
             <select class="doc-select" onchange="window.location.href=this.value">
-                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
 <option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
 <option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
 <option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
-<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
@@ -59,6 +60,7 @@
 <option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
 <option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
 <option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
 <option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
 <option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
 <option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
@@ -70,6 +72,7 @@
 <option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
 <option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
 <option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
 <option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
 <option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
 <option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
@@ -84,6 +87,11 @@
 <option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
 <option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
 <option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -96,16 +104,45 @@
 
             <div class="nav-actions">
                 <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
                 <button class="btn-action" id="themeToggle">🌓 Tema</button>
             </div>
         </div>
     </nav>
 
     <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge-group">
+            <div class="hero-badge-group no-print">
                 <span class="badge badge-primary">Kurikulum OBE 2026</span>
                 <span class="badge badge-accent">Permendikbudristek 53/2023</span>
                 <span class="badge badge-warning">FSTI UWG Malang</span>
@@ -119,7 +156,7 @@
             <h1 id="040-lampiran-rakit-buku-kpt-sistekin-2026">040 — LAMPIRAN RAKIT (🟡) BUKU KPT SISTEKIN 2026</h1>
 <h2 id="4-lampiran-berstatus-rakit-dirangkai-dari-dokumen-existing">4 Lampiran Berstatus "RAKIT" — Dirangkai dari Dokumen Existing</h2>
 <p><strong>Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</strong>
-<strong>Rujukan Struktur:</strong> Lampiran Buku KPT sesuai <code>Template_KPT_2024.docx</code>> (38 butir lampiran)
+<strong>Rujukan Struktur:</strong> Lampiran Buku KPT sesuai <code>Template_KPT_2024.docx</code> (38 butir lampiran)
 <strong>Status:</strong> 🟡 <strong>RAKIT</strong> — konten dirangkai/meringkas dari beberapa dokumen existing (008, 009, 010, 017, 018) menjadi satu lampiran utuh.</p>
 <h2 id="daftar-isi-4-lampiran-rakit">DAFTAR ISI 4 LAMPIRAN RAKIT</h2>
 <div class="table-wrapper"><table>
@@ -159,7 +196,7 @@
 <p>Sumber yang dirangkai: Dok 008 (Sistem Asesmen OBE &amp; Formula CPL) dan Dok 018 (Panduan Master Rubrik OBE Dosen).</p>
 </blockquote>
 <h2 id="251-prinsip-instrumen-penilaian-cpl">25.1 Prinsip Instrumen Penilaian CPL</h2>
-<p>SISTEKIN menilai ketercapaian CPL secara <strong>terstruktur melalui 4 titik asesmen baku</strong> yang dipetakan 1-ke-1 terhadap CPMK. Instrumen dibangun dari Matriks CPL–MK (Lampiran 17) sehingga setiap CPL dibebankan dan diases pada mata kuliah pembina (MK yang bertanda <code>V</code>> pada matriks).</p>
+<p>SISTEKIN menilai ketercapaian CPL secara <strong>terstruktur melalui 4 titik asesmen baku</strong> yang dipetakan 1-ke-1 terhadap CPMK. Instrumen dibangun dari Matriks CPL–MK (Lampiran 17) sehingga setiap CPL dibebankan dan diases pada mata kuliah pembina (MK yang bertanda <code>V</code> pada matriks).</p>
 <h2 id="252-skema-baku-4-titik-asesmen">25.2 Skema Baku 4 Titik Asesmen</h2>
 <div class="table-wrapper"><table>
 <thead>
@@ -227,20 +264,17 @@ flowchart LR
 <p>Diagram menunjukkan <strong>alur agregasi penilaian</strong>: 4 titik asesmen → CPMK → Nilai Akhir MK → ketercapaian CPL mahasiswa → ketercapaian CPL kohor (basis akreditasi LAM INFOKOM Kriteria 9). Setiap panah mengikuti formula pada §25.3.</p>
 </blockquote>
 <h2 id="253-formula-matematis-ketercapaian-cpl-cpl-attainment">25.3 Formula Matematis Ketercapaian CPL (CPL Attainment)</h2>
-<h3 id="31-ketercapaian-cpmk-pada-mata-kuliah-score_cpmk_jscore_cpmk_j">3.1 Ketercapaian CPMK pada Mata Kuliah (<span class="arithmatex"><span class="MathJax_Preview">Score_{CPMK_j}</span><script type="math/tex">Score_{CPMK_j}</script></span>)</h3>
-<p>$<span class="arithmatex"><span class="MathJax_Preview">Score_{CPMK_j,k}(i) = \sum_{m=1}^{M} \left( W_{jm} \times Score_m(i) \right)</span><script type="math/tex">Score_{CPMK_j,k}(i) = \sum_{m=1}^{M} \left( W_{jm} \times Score_m(i) \right)</script></span>$
-- <span class="arithmatex"><span class="MathJax_Preview">Score_m(i)</span><script type="math/tex">Score_m(i)</script></span> = nilai instrumen asesmen ke-<span class="arithmatex"><span class="MathJax_Preview">m</span><script type="math/tex">m</script></span> (skala 0–100).
-- <span class="arithmatex"><span class="MathJax_Preview">W_{jm}</span><script type="math/tex">W_{jm}</script></span> = bobot instrumen <span class="arithmatex"><span class="MathJax_Preview">m</span><script type="math/tex">m</script></span> terhadap <span class="arithmatex"><span class="MathJax_Preview">CPMK_j</span><script type="math/tex">CPMK_j</script></span> (dengan <span class="arithmatex"><span class="MathJax_Preview">\sum W_{jm} = 1.0</span><script type="math/tex">\sum W_{jm} = 1.0</script></span>).</p>
-<h3 id="32-nilai-akhir-mata-kuliah-na_kna_k">3.2 Nilai Akhir Mata Kuliah (<span class="arithmatex"><span class="MathJax_Preview">NA_k</span><script type="math/tex">NA_k</script></span>)</h3>
-<div class="arithmatex">
-<div class="MathJax_Preview">NA_k(i) = \sum_{j=1}^{J} \left( W_{CPMK_j,k} \times Score_{CPMK_j,k}(i) \right)</div>
-<script type="math/tex; mode=display">NA_k(i) = \sum_{j=1}^{J} \left( W_{CPMK_j,k} \times Score_{CPMK_j,k}(i) \right)</script>
-</div>
-<h3 id="33-ketercapaian-cpl-mahasiswa-individu-attainment_cpl_xiattainment_cpl_xi">3.3 Ketercapaian CPL Mahasiswa Individu (<span class="arithmatex"><span class="MathJax_Preview">Attainment_{CPL_x}(i)</span><script type="math/tex">Attainment_{CPL_x}(i)</script></span>)</h3>
-<p>$<span class="arithmatex"><span class="MathJax_Preview">Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k,CPL_x} \times NA_k(i) \right)}{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k,CPL_x} \right)}</span><script type="math/tex">Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k,CPL_x} \times NA_k(i) \right)}{\sum_{k \in MK(CPL_x)} \left( SKS_k \times Weight_{k,CPL_x} \right)}</script></span>$
+<h3 id="31-ketercapaian-cpmk-pada-mata-kuliah-score_cpmk_j">3.1 Ketercapaian CPMK pada Mata Kuliah ($Score_{CPMK_j}$)</h3>
+<p>$$Score_{CPMK_j,k}(i) = \sum_{m=1}^{M} ≤ft( W_{jm} \times Score_m(i) \right)$$
+- $Score_m(i)$ = nilai instrumen asesmen ke-$m$ (skala 0–100).
+- $W_{jm}$ = bobot instrumen $m$ terhadap $CPMK_j$ (dengan $\sum W_{jm} = 1.0$).</p>
+<h3 id="32-nilai-akhir-mata-kuliah-na_k">3.2 Nilai Akhir Mata Kuliah ($NA_k$)</h3>
+<p>$$NA_k(i) = \sum_{j=1}^{J} ≤ft( W_{CPMK_j,k} \times Score_{CPMK_j,k}(i) \right)$$</p>
+<h3 id="33-ketercapaian-cpl-mahasiswa-individu-attainment_cpl_xi">3.3 Ketercapaian CPL Mahasiswa Individu ($Attainment_{CPL_x}(i)$)</h3>
+<p>$$Attainment_{CPL_x}(i) = \frac{\sum_{k \in MK(CPL_x)} ≤ft( SKS_k \times Weight_{k,CPL_x} \times NA_k(i) \right)}{\sum_{k \in MK(CPL_x)} ≤ft( SKS_k \times Weight_{k,CPL_x} \right)}$$
 <strong>Ambang batas kelulusan CPL minimum: 65,0</strong> (Kategori B / Memuaskan).</p>
-<h3 id="34-ketercapaian-cpl-program-studi-cohort_attainment_cpl_xcohort_attainment_cpl_x">3.4 Ketercapaian CPL Program Studi (<span class="arithmatex"><span class="MathJax_Preview">Cohort\_Attainment_{CPL_x}</span><script type="math/tex">Cohort\_Attainment_{CPL_x}</script></span>)</h3>
-<p>$<span class="arithmatex"><span class="MathJax_Preview">\% Cohort\_Attainment_{CPL_x} = \frac{\text{Jumlah Mahasiswa dgn } Attainment_{CPL_x} \ge 65.0}{\text{Total Mahasiswa Angkatan}} \times 100\%</span><script type="math/tex">\% Cohort\_Attainment_{CPL_x} = \frac{\text{Jumlah Mahasiswa dgn } Attainment_{CPL_x} \ge 65.0}{\text{Total Mahasiswa Angkatan}} \times 100\%</script></span>$
+<h3 id="34-ketercapaian-cpl-program-studi-cohort_attainment_cpl_x">3.4 Ketercapaian CPL Program Studi ($Cohort_Attainment_{CPL_x}$)</h3>
+<p>$$\% Cohort_Attainment_{CPL_x} = \frac{\text{Jumlah Mahasiswa dgn } Attainment_{CPL_x} ≥ 65.0}{\text{Total Mahasiswa Angkatan}} \times 100\%$$
 <strong>Target standar mutu Prodi: minimal 80% mahasiswa mencapai threshold CPL ≥ 65,0.</strong></p>
 <h2 id="254-lembar-instrumen-ringkas">25.4 Lembar Instrumen (Ringkas)</h2>
 <p>Instrumen penilaian CPL diwujudkan dalam:
@@ -365,13 +399,13 @@ flowchart LR
 <tr>
 <td style="text-align: center;">4</td>
 <td>Konversi hubungan CPMK</td>
-<td>Menghitung <code>Score_CPMK</code>> dengan formula §3.1</td>
+<td>Menghitung <code>Score_CPMK</code> dengan formula §3.1</td>
 <td>Skor CPMK</td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
 <td>Perhitungan NA</td>
-<td>Menghitung nilai akhir MK <code>NA_k</code>> per formula §3.2</td>
+<td>Menghitung nilai akhir MK <code>NA_k</code> per formula §3.2</td>
 <td>Nilai akhir MK</td>
 </tr>
 <tr>
@@ -411,7 +445,7 @@ flowchart TD
 <p>Sumber yang dirangkai: Dok 009 (Pedoman Capstone Project &amp; Opsi Tugas Akhir Non-Skripsi). Dasar: Permendikbudristek No. 53/2023 Pasal 19.</p>
 </blockquote>
 <h2 id="331-tujuan-dasar">33.1 Tujuan &amp; Dasar</h2>
-<p>SOP menetapkan mekanisme penyelenggaraan <strong>Tugas Akhir (TA)</strong> yang setara berbobot <strong>6 SKS</strong> (mata kuliah <span class="code-tag">FST-714</span>> Sem 8) dan <strong>Capstone Project</strong> (<span class="code-tag">FST-610</span>>, 3 SKS, Sem 7). Prodi menyediakan 4 jalur kelulusan TA yang setara sesuai fleksibilitas tugas akhir.</p>
+<p>SOP menetapkan mekanisme penyelenggaraan <strong>Tugas Akhir (TA)</strong> yang setara berbobot <strong>6 SKS</strong> (mata kuliah <span class="code-tag">FST-714</span> Sem 8) dan <strong>Capstone Project</strong> (<span class="code-tag">FST-610</span>, 3 SKS, Sem 7). Prodi menyediakan 4 jalur kelulusan TA yang setara sesuai fleksibilitas tugas akhir.</p>
 <h2 id="332-empat-jalur-tugas-akhir-setara-6-sks">33.2 Empat Jalur Tugas Akhir Setara (6 SKS)</h2>
 <div class="table-wrapper"><table>
 <thead>
@@ -451,8 +485,8 @@ flowchart TD
 </table></div>
 <h2 id="333-syarat-akademik-tahapan">33.3 Syarat Akademik &amp; Tahapan</h2>
 <p><strong>Syarat:</strong>
-1. Lulus mata kuliah prasyarat (minimal <span class="code-tag">STI-523</span>> Manajemen Proyek TI) dan telah menempuh ≥ 100 SKS (khusus Capstone, Dok 009 §1.1).
-2. Lulus mata kuliah pendukung: <span class="code-tag">FST-611</span>> Metodologi Penelitian, <span class="code-tag">FST-612</span>> PKL, <span class="code-tag">FST-613</span>> Pra-Skripsi.</p>
+1. Lulus mata kuliah prasyarat (minimal <span class="code-tag">STI-523</span> Manajemen Proyek TI) dan telah menempuh ≥ 100 SKS (khusus Capstone, Dok 009 §1.1).
+2. Lulus mata kuliah pendukung: <span class="code-tag">FST-611</span> Metodologi Penelitian, <span class="code-tag">FST-612</span> PKL, <span class="code-tag">FST-613</span> Pra-Skripsi.</p>
 <p><strong>Tahapan umum:</strong>
 1. <strong>Pendaftaran &amp; pengajuan proposal</strong> oleh mahasiswa (sesuai jalur yang dipilih).
 2. <strong>Persetujuan topik &amp; penunjukan pembimbing</strong> oleh Koordinator TA/Prodi.
@@ -480,7 +514,7 @@ flowchart TD
 <blockquote>
 <p>Diagram merepresentasikan <strong>alur Tugas Akhir 6 SKS</strong> dengan 4 jalur setara (tabel §33.2) dan tahapan umum (daftar §33.3). Semua jalur bermuara pada sidang/uji kelayakan dan pelaporan ke PDDikti.</p>
 </blockquote>
-<h2 id="334-ketentuan-capstone-project-fst-610">33.4 Ketentuan Capstone Project (<span class="code-tag">FST-610</span>>)</h2>
+<h2 id="334-ketentuan-capstone-project-fst-610">33.4 Ketentuan Capstone Project (<span class="code-tag">FST-610</span>)</h2>
 <ul>
 <li><strong>Tim berkelompok 3–6 orang</strong> (Dok 009 §1.1); pembentukan tim pada Minggu 1–3.</li>
 <li>Proposal layak bila memenuhi <strong>minimal 4 dari 7 atribut</strong> <em>Complex Computing Problem</em>, dengan atribut (1) integrasi pengetahuan dan (2) kerja kelompok sebagai <strong>wajib mutlak</strong>.</li>
@@ -495,17 +529,22 @@ flowchart TD
 <p>Keempat lampiran 🟡 RAKIT di atas (25, 31, 32, 33) dirangkai dari dokumen existing (Dok 008, 009, 010, 017, 018). Sebelum disalinkan ke Buku KPT final, angka dan formulanya diverifikasi terhadap sumber asal (lihat bagian Verifikasi).</p>
 <hr />
 
-            <div class="doc-nav">
+            <div class="doc-nav no-print">
                 <div><a href="039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
                 <div><a href="041_LAMPIRAN_BARU_BUKU_KPT.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer no-print">
             <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
     </div>
 
     <!-- Master External Modular Script -->
