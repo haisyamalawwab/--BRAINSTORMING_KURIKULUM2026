@@ -1,177 +1,82 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti | Kurikulum OBE SISTEKIN 2026</title>
-    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
-
-    <!-- Mermaid JS for Flowcharts -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-
-    <!-- Master External Modular Stylesheet (Zero-Token Redundancy) -->
-    <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>045 Draft Buku KPT SISTEKIN 2026 — Template Master KPT FSTI</title>
+<style>*{box-sizing:border-box}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:Calibri,'Segoe UI',Arial,sans-serif;color:#262626;background:#8a8f98;margin:0;font-size:11pt;line-height:1.5}
+a{color:#244061}
+.kpt-toolbar{max-width:210mm;margin:14px auto 0;padding:0 10px;display:flex;gap:8px;align-items:center;justify-content:space-between;font-size:10pt}
+.kpt-toolbar a,.kpt-toolbar button{font-family:inherit;font-size:10pt;padding:6px 12px;border:1px solid #cbd5e1;background:#fff;border-radius:6px;cursor:pointer;color:#244061;text-decoration:none}
+.kpt-sheet{background:#fff;max-width:210mm;margin:12px auto 28px;box-shadow:0 2px 18px rgba(0,0,0,.25)}
+.kpt-page{padding:20mm 20mm 16mm 20mm}
+.kpt-running{text-align:right;font-size:9pt;font-style:italic;color:#808080;margin:0 0 10pt 0}
+.kpt-cover{text-align:center;margin:26mm 0 8mm 0}
+.kpt-cover .t1{font-size:17pt;font-weight:700;color:#244061;letter-spacing:.5px;margin:0}
+.kpt-cover .t2{font-size:16pt;font-weight:700;color:#244061;margin:2pt 0 10pt 0}
+.kpt-cover .t3{font-size:13pt;font-weight:700;color:#333;margin:0}
+.kpt-cover .t4{font-size:13pt;font-weight:700;color:#333;margin:0 0 14pt 0}
+.kpt-cover table{margin:0 auto;width:88%}
+.kpt-cover .fac{margin-top:22mm;font-weight:700;font-size:12pt;line-height:1.6}
+h1.bab{font-size:13pt;color:#244061;text-transform:uppercase;margin:20pt 0 6pt 0;line-height:1.35;page-break-after:avoid}
+h2.sub{font-size:12pt;color:#244061;margin:14pt 0 4pt 0;line-height:1.35;page-break-after:avoid}
+h3.sub3{font-size:11pt;color:#2E75B6;margin:10pt 0 3pt 0}
+p{margin:0 0 6pt 0;text-align:justify}
+ul,ol{margin:4pt 0 8pt 0;padding-left:22px}li{margin:0 0 3pt 0;text-align:justify}
+hr{border:none;border-top:1px solid #b9c2cc;margin:12pt 0}
+table{width:100%;border-collapse:collapse;margin:8pt 0 12pt 0;font-size:9.5pt;line-height:1.4}
+.kpt-cap{font-weight:700;font-size:10pt;color:#244061;text-align:left;margin:10pt 0 2pt 0}
+th{background:#244061;color:#fff;text-align:left;padding:6px 8px;border:1px solid #244061;font-weight:700}
+td{padding:5px 8px;border:1px solid #000;vertical-align:top}
+tbody tr:nth-child(even) td{background:#F2F5F9}
+table.cover-ident td:first-child{background:#D9E1F2;font-weight:700;width:32%}
+.kpt-quote{border-left:4px solid #244061;background:#EEF4FB;padding:8px 12px;margin:8pt 0;font-style:italic;color:#1F3864;font-size:10pt}
+.kpt-quote p{margin:0;text-align:left}
+.kpt-tag{display:inline-block;font-size:8.5pt;font-weight:700;border:1px solid #94a3b8;color:#475569;border-radius:4px;padding:1px 6px;vertical-align:middle;letter-spacing:.3px}
+.kpt-tag.upps{border-color:#b45309;color:#92400e}
+.kpt-toc{list-style:none;padding:0;margin:6pt 0} .kpt-toc li{font-size:10.5pt;margin:0 0 2pt 0;text-transform:uppercase}
+.kpt-fig{border:1px solid #94a3b8;background:#F8FAFC;margin:10pt 0;padding:10px 14px;page-break-inside:avoid}
+.kpt-fig .fig-title{font-weight:700;color:#244061;font-size:10.5pt;margin:0 0 4pt 0}
+.kpt-fig .fig-desc{font-size:10pt;margin:0 0 4pt 0;text-align:justify}
+.kpt-fig details{font-size:9pt}
+.kpt-fig summary{cursor:pointer;color:#244061;font-weight:700}
+.kpt-fig pre{background:#0f172a;color:#dbeafe;font-size:8pt;overflow:auto;max-height:220px;padding:8px;white-space:pre-wrap}
+pre.kpt-code{background:#F1F5F9;border:1px solid #cbd5e1;font-size:9pt;overflow:auto;padding:8px;white-space:pre-wrap}
+.kpt-pagenum{text-align:center;font-size:10pt;margin:16pt 0 0 0;color:#000}
+code{font-family:Consolas,monospace;font-size:9.5pt;color:#7a2828}
+.sig{display:flex;gap:24px;margin:10pt 0} .sig>div{flex:1;text-align:center} .sig .nm{margin-top:26pt}
+@page{size:A4;margin:25mm 20mm 20mm 20mm;@top-right{content:"Template Master KPT FSTI - Universitas Widya Gama Malang";font-family:Calibri,Arial,sans-serif;font-size:9pt;font-style:italic;color:#808080}@bottom-center{content:"Halaman " counter(page);font-family:Calibri,Arial,sans-serif;font-size:10pt;color:#000}}
+@media print{.kpt-toolbar{display:none}body{background:#fff}.kpt-sheet{box-shadow:none;max-width:none;margin:0}.kpt-page{padding:0}thead{display:table-header-group}tr{page-break-inside:avoid}h1.bab,h2.sub{page-break-after:avoid}.kpt-fig{break-inside:avoid}}
+</style>
 </head>
 <body>
-
-    <!-- Navbar -->
-    <nav class="navbar no-print">
-        <div class="container navbar-content">
-            <a href="index.html" class="brand">
-                <div class="brand-logo">STI</div>
-                <div class="brand-text">
-                    <h1>SISTEKIN — FSTI UWG</h1>
-                    <p>Buku Kurikulum OBE 2026</p>
-                </div>
-            </a>
-            
-            <select class="doc-select" onchange="window.location.href=this.value">
-                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
-<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
-<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
-<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
-<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
-<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
-<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
-<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
-<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
-<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
-<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
-<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
-<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
-<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
-<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
-<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
-<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
-<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
-<option value="012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.html" >012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</option>
-<option value="013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.html" >013 — Rekomendasi Solusi & Mitigasi Kelemahan Kurikulum</option>
-<option value="014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.html" >014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5</option>
-<option value="015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.html" >015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)</option>
-<option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
-<option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
-<option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
-<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
-<option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
-<option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
-<option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
-<option value="023_BUKU_KPT_SISTEKIN_2026_STRUKTUR_KPT2024.html" >023 — 📘 BUKU KPT SISTEKIN 2026 (Struktur 12 Bab KPT 2024)</option>
-<option value="024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.html" >024 — Matriks Ekivalensi MK Kurikulum 2025 → 2026</option>
-<option value="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" >025 — Rekomendasi Pool MK Peminatan & Cross-Track 2027</option>
-<option value="026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.html" >026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</option>
-<option value="027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.html" >027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu</option>
-<option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
-<option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
-<option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
-<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
-<option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
-<option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
-<option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
-<option value="034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.html" >034 — Sembilan Bentuk MBKM & Skema Rekognisi SKS</option>
-<option value="035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.html" >035 — Restrukturisasi Kode MK Peminatan (STA, STB, STC) Berbasis Semester</option>
-<option value="036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.html" >036 — Dev Report & Dev Log Restrukturisasi Kode MK Peminatan</option>
-<option value="037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.html" >037 — Boundary of Topics & Matriks Anti-Overlap Kurikulum</option>
-<option value="038_RENCANA_KONTEN_LAMPIRAN_BUKU_KPT.html" >038 — Rencana Konten Lampiran Buku KPT SISTEKIN 2026</option>
-<option value="039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.html" >039 — Lampiran Siap Buku KPT SISTEKIN 2026</option>
-<option value="040_LAMPIRAN_RAKIT_BUKU_KPT.html" >040 — Lampiran Rakit Buku KPT SISTEKIN 2026</option>
-<option value="041_LAMPIRAN_BARU_BUKU_KPT.html" >041 — Lampiran Baru Buku KPT SISTEKIN 2026</option>
-<option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
-<option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
-<option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
-<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" selected>045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
-<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
-<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
-<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
-<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
-<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
-            </select>
-
-            
-    <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
-    </div>
-    
-
-            <div class="nav-actions">
-                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
-                <button class="btn-action" id="themeToggle">🌓 Tema</button>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container">
-        <!-- Print Official Header (Visible ONLY on print) -->
-        <header class="print-header">
-            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
-            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
-            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
-        </header>
-
-        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
-        <div class="reader-toolbar no-print">
-            <div class="reader-toolbar-left">
-                <span class="reader-tool-label">📑 Bagian:</span>
-                <select id="quickJumpSelect" class="quick-jump-select">
-                    <option value="">Lompat ke bagian...</option>
-                </select>
-                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
-            </div>
-            <div class="reader-toolbar-right">
-                <span class="reader-tool-label">🔠 Font:</span>
-                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
-                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
-                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
-                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
-                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
-                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
-                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
-                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
-            </div>
-        </div>
-
-        <!-- Hero Section -->
-        <header class="hero">
-            <div class="hero-badge-group no-print">
-                <span class="badge badge-primary">Kurikulum OBE 2026</span>
-                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
-                <span class="badge badge-warning">FSTI UWG Malang</span>
-            </div>
-            <h1 class="hero-title">045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</h1>
-            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
-        </header>
-
-        <!-- Main Content -->
-        <main class="content">
-            <p>﻿# DOKUMEN KURIKULUM PENDIDIKAN TINGGI (KPT) 2026 — PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI (SISTEKIN)</p>
-<p><strong>Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang</strong>
-<strong>Program Sarjana (S1) — KKNI Level 6 — Tahun 2026</strong></p>
-<blockquote>
-<p><strong>STATUS DRAFT — HARAP DIBACA</strong>
-Draft markdown ini mengikuti <strong>format dan urutan <code>Template_KPT_2024.docx</code> (BAB I–XIV + Lampiran, 35 tabel)</strong> dan diisi dengan bahan definitif dari folder <code>KURIKULUM2026_REVISI/</code> (Dok. 001–023, konsensus <code>AGENTS.md</code>).
-Tanda: <strong>[TERISI]</strong> = konten definitif SISTEKIN verbatim dari dokumen sumber · <strong>[PERLU DATA UPPS]</strong> = wajib data resmi, tidak boleh dikarang. Seluruh tabel di bawah berisi konten asli verbatim.
-Ground truth: paket ditempuh <strong>146 SKS / 55 MK</strong> (8 MKWU 13 + 13 FSTI 36 + 28 Core STI 79 + 6 Elektif 18); portofolio <strong>182 SKS / 67 MK</strong>; <strong>14 CPL, 4 PL, 3 PEO</strong>; 3 peminatan <strong>STA/STB/STC-501, 601-602, 701-703</strong>.</p>
-</blockquote>
-<hr />
-<h2 id="halaman-sampul-terisi">HALAMAN SAMPUL <strong>[TERISI]</strong></h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<div class="kpt-toolbar no-print"><a href="index.html">&#8592; Kembali ke Portal</a><span>Dokumen formal mengikuti Template Master KPT FSTI (A4 siap cetak)</span><button onclick="window.print()">Cetak / Simpan PDF</button></div>
+<div class="kpt-sheet"><div class="kpt-page">
+<p class="kpt-running">Template Master KPT FSTI - Universitas Widya Gama Malang</p>
+<div class="kpt-cover">
+<p class="t1">TEMPLATE MASTER</p>
+<p class="t2">DOKUMEN KURIKULUM PENDIDIKAN TINGGI</p>
+<p class="t3">FAKULTAS SAINS, TEKNOLOGI, DAN INFORMATIKA</p>
+<p class="t4">UNIVERSITAS WIDYA GAMA MALANG</p>
+<table class="cover-ident"><tbody>
+<tr><td>Program Studi</td><td>Sistem dan Teknologi Informasi (SISTEKIN)</td></tr>
+<tr><td>Jenjang</td><td>Sarjana/S1</td></tr>
+<tr><td>Tahun Kurikulum</td><td>2026</td></tr>
+<tr><td>Status Dokumen</td><td>Draf Buku KPT SISTEKIN 2026 Mengikuti Template Master KPT FSTI</td></tr>
+</tbody></table>
+<p class="fac">FAKULTAS SAINS, TEKNOLOGI, DAN INFORMATIKA<br/>UNIVERSITAS WIDYA GAMA MALANG<br/>2026</p>
+</div>
+<p>﻿# DOKUMEN KURIKULUM PENDIDIKAN TINGGI (KPT) 2026 — PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI (SISTEKIN)</p>
+<p><strong>Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang</strong> <strong>Program Sarjana (S1) — KKNI Level 6 — Tahun 2026</strong></p>
+<div class="kpt-quote"><p><strong>STATUS DRAFT — HARAP DIBACA</strong> Draft markdown ini mengikuti <strong>format dan urutan <code>Template_KPT_2024.docx</code> (BAB I–XIV + Lampiran, 35 tabel)</strong> dan diisi dengan bahan definitif dari folder <code>KURIKULUM2026_REVISI/</code> (Dok. 001–023, konsensus <code>AGENTS.md</code>). Tanda: <strong><span class="kpt-tag">TERISI</span></strong> = konten definitif SISTEKIN verbatim dari dokumen sumber · <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong> = wajib data resmi, tidak boleh dikarang. Seluruh tabel di bawah berisi konten asli verbatim. Ground truth: paket ditempuh <strong>146 SKS / 55 MK</strong> (8 MKWU 13 + 13 FSTI 36 + 28 Core STI 79 + 6 Elektif 18); portofolio <strong>182 SKS / 67 MK</strong>; <strong>14 CPL, 4 PL, 3 PEO</strong>; 3 peminatan <strong>STA/STB/STC-501, 601-602, 701-703</strong>.</p></div>
+<hr/>
+<h2 class="sub">HALAMAN SAMPUL <strong><span class="kpt-tag">TERISI</span></strong></h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Komponen</th>
 <th>Uraian</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>Program Studi</td>
 <td>Sistem dan Teknologi Informasi (SISTEKIN)</td>
@@ -192,18 +97,13 @@ Ground truth: paket ditempuh <strong>146 SKS / 55 MK</strong> (8 MKWU 13 + 13 FS
 <td>Tahun Kurikulum</td>
 <td>2026</td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="lembar-pengesahan-perlu-data-upps">LEMBAR PENGESAHAN <strong>[PERLU DATA UPPS]</strong></h2>
+</tbody></table></div>
+<h2 class="sub">LEMBAR PENGESAHAN <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></h2>
 <p>Dokumen Kurikulum Pendidikan Tinggi Program Studi Sistem dan Teknologi Informasi FSTI Universitas Widyagama Malang ini disusun sebagai pedoman penyelenggaraan pendidikan.</p>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<div class="table-wrap"><table><thead><tr>
 <th>Disusun oleh, Ketua Program Studi SISTEKIN</th>
 <th>Mengetahui, Dekan FSTI</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>[Nama Kaprodi — PERLU DATA UPPS]</td>
 <td>[Nama Dekan — PERLU DATA UPPS]</td>
@@ -212,33 +112,27 @@ Ground truth: paket ditempuh <strong>146 SKS / 55 MK</strong> (8 MKWU 13 + 13 FS
 <td>Malang, [Tanggal Bulan Tahun — PERLU DATA UPPS]</td>
 <td>Malang, [Tanggal Bulan Tahun — PERLU DATA UPPS]</td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="kata-pengantar-terisi">KATA PENGANTAR <strong>[TERISI]</strong></h2>
+</tbody></table></div>
+<h2 class="sub">KATA PENGANTAR <strong><span class="kpt-tag">TERISI</span></strong></h2>
 <p>Puji syukur ke hadirat Tuhan Yang Maha Esa atas tersusunnya Dokumen Kurikulum Pendidikan Tinggi Program Studi Sistem dan Teknologi Informasi. Dokumen ini disusun berorientasi pada capaian pembelajaran lulusan, kebutuhan masyarakat, perkembangan IPTEKS, serta regulasi Permendikbudristek No. 53/2023 dan Panduan KPT 2024 Edisi V. Penyusunan melibatkan pimpinan fakultas/prodi, dosen, mahasiswa, mitra DUDI, alumni, dan pengguna lulusan. Sumber isi: Dok. 001–023 folder <code>KURIKULUM2026_REVISI/</code>.</p>
-<p>Malang, [Tanggal Bulan Tahun — PERLU DATA UPPS]
-Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
-<h2 id="daftar-isi-terisi">DAFTAR ISI <strong>[TERISI]</strong></h2>
-<p>HALAMAN SAMPUL · LEMBAR PENGESAHAN · KATA PENGANTAR · DAFTAR ISI · DAFTAR TABEL · DAFTAR GAMBAR · DAFTAR SINGKATAN · BAB I IDENTITAS · BAB II EVALUASI DAN ANALISIS KEBUTUHAN · BAB III LANDASAN · BAB IV VISI MISI TUJUAN STRATEGI NILAI · BAB V PL PEO CPL · BAB VI BK DAN BoK · BAB VII MK DAN SKS · BAB VIII MATRIKS PETA MASA TEMPUH · BAB IX MODALITAS DAN RPS · BAB X MBKM · BAB XI PENILAIAN DAN CPL · BAB XII MANAJEMEN · BAB XIII PENERIMAAN MAHASISWA · BAB XIV PENUTUP · LAMPIRAN · DAFTAR PUSTAKA</p>
-<h2 id="daftar-tabel-sumber-template-35-tabel-terisi-sistekin">DAFTAR TABEL — sumber Template 35 tabel, terisi SISTEKIN</h2>
-<p>T0 Identitas · T1 Pengesahan · T2 Singkatan · T4 Evaluasi 11x4 · T5 Stakeholder 7x3 · T6 Benchmarking 3x4 · T7 Tujuan-Strategi-Indikator · T8 PEO · T9 PL · T10 CPL 14 · T11 PL-CPL · T12 CPL-KKNI · T13 BK · T14 CPL-BK · T15 Kedalaman-Keluasan · T16 MK Lama · T17 Pembentukan MK · T18 Daftar MK 55 · T19 Rekap Kelompok · T20-T27 Struktur per Semester · T28 Rekap SKS · T29 MK-CPL · T30 Konsentrasi · T31 RPS · T32 MBKM · T33 Rekognisi · T34 Penilaian CPL. Rincian penuh: Dok. 004, 005, 007, 011.</p>
-<h2 id="daftar-gambar-sumber-dok-001-005-012-016-010">DAFTAR GAMBAR — sumber Dok. 001, 005, 012, 016, 010</h2>
-<p>G1 Mindmap VMTS 2045 (Dok. 001) · G2 Journey 8 Semester (Dok. 005) · G3 Tree Prasyarat (Dok. 012) · G4 Pipeline AI 5 tahap (Dok. 016) · G5 Siklus PPEPP (Dok. 010). File gambar menyusul saat konversi DOCX/PDF.</p>
-<h2 id="daftar-singkatan-terisi">DAFTAR SINGKATAN <strong>[TERISI]</strong></h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<p>Malang, [Tanggal Bulan Tahun — PERLU DATA UPPS] Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
+<h2 class="sub">DAFTAR ISI <strong><span class="kpt-tag">TERISI</span></strong></h2>
+<ul class="kpt-toc"><li>HALAMAN SAMPUL</li><li>LEMBAR PENGESAHAN</li><li>KATA PENGANTAR</li><li>DAFTAR ISI</li><li>DAFTAR TABEL</li><li>DAFTAR GAMBAR</li><li>DAFTAR SINGKATAN</li><li>BAB I IDENTITAS</li><li>BAB II EVALUASI DAN ANALISIS KEBUTUHAN</li><li>BAB III LANDASAN</li><li>BAB IV VISI MISI TUJUAN STRATEGI NILAI</li><li>BAB V PL PEO CPL</li><li>BAB VI BK DAN BoK</li><li>BAB VII MK DAN SKS</li><li>BAB VIII MATRIKS PETA MASA TEMPUH</li><li>BAB IX MODALITAS DAN RPS</li><li>BAB X MBKM</li><li>BAB XI PENILAIAN DAN CPL</li><li>BAB XII MANAJEMEN</li><li>BAB XIII PENERIMAAN MAHASISWA</li><li>BAB XIV PENUTUP</li><li>LAMPIRAN</li><li>DAFTAR PUSTAKA</li></ul>
+<h2 class="sub">DAFTAR TABEL — sumber Template 35 tabel, terisi SISTEKIN</h2>
+<ul class=""><li>T0 Identitas</li><li>T1 Pengesahan</li><li>T2 Singkatan</li><li>T4 Evaluasi 11x4</li><li>T5 Stakeholder 7x3</li><li>T6 Benchmarking 3x4</li><li>T7 Tujuan-Strategi-Indikator</li><li>T8 PEO</li><li>T9 PL</li><li>T10 CPL 14</li><li>T11 PL-CPL</li><li>T12 CPL-KKNI</li><li>T13 BK</li><li>T14 CPL-BK</li><li>T15 Kedalaman-Keluasan</li><li>T16 MK Lama</li><li>T17 Pembentukan MK</li><li>T18 Daftar MK 55</li><li>T19 Rekap Kelompok</li><li>T20-T27 Struktur per Semester</li><li>T28 Rekap SKS</li><li>T29 MK-CPL</li><li>T30 Konsentrasi</li><li>T31 RPS</li><li>T32 MBKM</li><li>T33 Rekognisi</li><li>T34 Penilaian CPL. Rincian penuh: Dok. 004, 005, 007, 011.</li></ul>
+<h2 class="sub">DAFTAR GAMBAR — sumber Dok. 001, 005, 012, 016, 010</h2>
+<ul class=""><li>G1 Mindmap VMTS 2045 (Dok. 001)</li><li>G2 Journey 8 Semester (Dok. 005)</li><li>G3 Tree Prasyarat (Dok. 012)</li><li>G4 Pipeline AI 5 tahap (Dok. 016)</li><li>G5 Siklus PPEPP (Dok. 010). File gambar menyusul saat konversi DOCX/PDF.</li></ul>
+<h2 class="sub">DAFTAR SINGKATAN <strong><span class="kpt-tag">TERISI</span></strong></h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Singkatan</th>
 <th>Kepanjangan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>SISTEKIN</td>
 <td>Sistem dan Teknologi Informasi</td>
 </tr>
 <tr>
-<td><span class="cat-badge cat-fsti">FSTI</span></td>
+<td>FSTI</td>
 <td>Fakultas Sains dan Teknologi Informasi</td>
 </tr>
 <tr>
@@ -309,20 +203,15 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>LAM INFOKOM</td>
 <td>Lembaga Akreditasi Mandiri Informatika dan Komputer</td>
 </tr>
-</tbody>
-</table></div>
-<hr />
-<h1 id="bab-i-identitas-program-studi-terisi-sebagian">BAB I — IDENTITAS PROGRAM STUDI <strong>[TERISI SEBAGIAN]</strong></h1>
-<h2 id="11-identitas-program-studi">1.1 Identitas Program Studi</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<hr/>
+<h1 class="bab">BAB I — IDENTITAS PROGRAM STUDI <strong><span class="kpt-tag">TERISI SEBAGIAN</span></strong></h1>
+<h2 class="sub">1.1 Identitas Program Studi</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>No</th>
 <th>Butir</th>
 <th>Isian</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>1</td>
 <td>Nama Perguruan Tinggi</td>
@@ -341,7 +230,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <tr>
 <td>4</td>
 <td>Peringkat Akreditasi</td>
-<td><strong>[PERLU DATA UPPS]</strong> — nomor SK LAM INFOKOM/BAN-PT</td>
+<td><strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong> — nomor SK LAM INFOKOM/BAN-PT</td>
 </tr>
 <tr>
 <td>5</td>
@@ -351,7 +240,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <tr>
 <td>6</td>
 <td>Gelar Lulusan</td>
-<td><strong>[PERLU DATA UPPS]</strong> — sesuai SK izin pembukaan prodi</td>
+<td><strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong> — sesuai SK izin pembukaan prodi</td>
 </tr>
 <tr>
 <td>7</td>
@@ -361,38 +250,31 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <tr>
 <td>8</td>
 <td>Website / Email</td>
-<td><strong>[PERLU DATA UPPS]</strong></td>
+<td><strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></td>
 </tr>
 <tr>
 <td>9</td>
 <td>SK Izin / Tahun Pertama</td>
-<td><strong>[PERLU DATA UPPS]</strong></td>
+<td><strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="12-sejarah-singkat-program-studi-sumber-dok-001">1.2 Sejarah Singkat Program Studi — sumber Dok. 001</h2>
+</tbody></table></div>
+<h2 class="sub">1.2 Sejarah Singkat Program Studi — sumber Dok. 001</h2>
 <p>Prodi SISTEKIN dikembangkan di lingkungan FSTI UWG untuk menjawab kebutuhan transformasi digital, integrasi AI ke sistem nyata, dan technopreneurship. Berbeda dari TI (riset algoritma murni) dan Bisnis Digital (model bisnis), SISTEKIN berperan sebagai <strong>integrator AI ke sistem dan platform nyata</strong>. Detail historis pendirian menunggu data UPPS.</p>
-<h2 id="13-rasional-pengembangan-kurikulum-terisi-sumber-dok-001-019">1.3 Rasional Pengembangan Kurikulum <strong>[TERISI — sumber Dok. 001, 019]</strong></h2>
+<h2 class="sub">1.3 Rasional Pengembangan Kurikulum <strong><span class="kpt-tag">TERISI — sumber Dok. 001, 019</span></strong></h2>
 <p>Respons terhadap Permendikbudristek 53/2023, CC2020/IS2020/IT2017, dan hasil evaluasi K2025 (56 MK/146 SKS SIAKAD). Pendekatan OBE menempatkan 14 CPL sebagai dasar BK, MK, metode, dan asesmen. KPM (3 SKS) dan Kewirausahaan II (0 SKS) dipertahankan sebagai kebijakan UWG.</p>
-<hr />
-<h1 id="bab-ii-evaluasi-kurikulum-dan-analisis-kebutuhan-terisi-sebagian">BAB II — EVALUASI KURIKULUM DAN ANALISIS KEBUTUHAN <strong>[TERISI SEBAGIAN]</strong></h1>
-<h2 id="21-latar-belakang-evaluasi-kurikulum">2.1 Latar Belakang Evaluasi Kurikulum</h2>
+<hr/>
+<h1 class="bab">BAB II — EVALUASI KURIKULUM DAN ANALISIS KEBUTUHAN <strong><span class="kpt-tag">TERISI SEBAGIAN</span></strong></h1>
+<h2 class="sub">2.1 Latar Belakang Evaluasi Kurikulum</h2>
 <p>Evaluasi memastikan relevansi terhadap IPTEKS, DUDI, dan SN-Dikti. SISTEKIN belum memiliki kohor lulusan sehingga tracer alumni belum dapat dijalankan; evaluasi bertumpu pada market signal, benchmarking, standar APTIKOM, dan audit internal (Dok. 017, 019). Instrumen tracer sudah siap (Dok. 010).</p>
-<h2 id="22-mekanisme-evaluasi-kurikulum">2.2 Mekanisme Evaluasi Kurikulum</h2>
-<ol>
-<li>Peninjauan dokumen berjalan. 2. Evaluasi ketercapaian CPL. 3. Evaluasi struktur MK-SKS. 4. Evaluasi RPS. 5. Analisis bidang ilmu. 6. Analisis DUDI. 7. Masukan dosen/mhs/alumni/pengguna. 8. Benchmarking sejenis. 9. FGD stakeholder. 10. Rekomendasi pengembangan.</li>
-</ol>
-<h2 id="23-hasil-evaluasi-kurikulum-berjalan-sumber-dok-019-dok-024">2.3 Hasil Evaluasi Kurikulum Berjalan — sumber Dok. 019, Dok. 024</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">2.2 Mekanisme Evaluasi Kurikulum</h2>
+<ol><li>Peninjauan dokumen berjalan. 2. Evaluasi ketercapaian CPL. 3. Evaluasi struktur MK-SKS. 4. Evaluasi RPS. 5. Analisis bidang ilmu. 6. Analisis DUDI. 7. Masukan dosen/mhs/alumni/pengguna. 8. Benchmarking sejenis. 9. FGD stakeholder. 10. Rekomendasi pengembangan.</li></ol>
+<h2 class="sub">2.3 Hasil Evaluasi Kurikulum Berjalan — sumber Dok. 019, Dok. 024</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Aspek yang Dievaluasi</th>
 <th>Kondisi Saat Ini</th>
 <th>Permasalahan</th>
 <th>Rekomendasi Perbaikan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>Kebutuhan</td>
 <td>Tren AI, cloud, cyber, platform</td>
@@ -413,7 +295,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 </tr>
 <tr>
 <td>Sumber daya</td>
-<td>[PERLU DATA UPPS]</td>
+<td><span class="kpt-tag upps">PERLU DATA UPPS</span></td>
 <td>[isi]</td>
 <td>[isi]</td>
 </tr>
@@ -429,21 +311,16 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Tidak terukur</td>
 <td>Formula CPL (Dok. 008)</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Rincian Tabel B 6 tahap x 5 kolom menunggu data riil; kerangka di Dok. 022.</p>
-<h2 id="24-analisis-kebutuhan-pemangku-kepentingan">2.4 Analisis Kebutuhan Pemangku Kepentingan</h2>
+<h2 class="sub">2.4 Analisis Kebutuhan Pemangku Kepentingan</h2>
 <p>Melibatkan pimpinan, dosen, mahasiswa, DUDI, alumni, pengguna lulusan, APTIKOM/IEEE/ACM.</p>
-<h2 id="25-hasil-masukan-stakeholder-sumber-dok-001-dok-010">2.5 Hasil Masukan Stakeholder — sumber Dok. 001, Dok. 010</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">2.5 Hasil Masukan Stakeholder — sumber Dok. 001, Dok. 010</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Stakeholder</th>
 <th>Masukan</th>
 <th>Implikasi terhadap Kurikulum</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>DUDI/Industri</td>
 <td>Butuh integrator AI, cloud, cyber, platform + etika</td>
@@ -464,21 +341,16 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Transformasi digital tepat guna</td>
 <td>KPM 3 SKS, Smart City 2 SKS</td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="26-tracer-study">2.6 Tracer Study</h2>
+</tbody></table></div>
+<h2 class="sub">2.6 Tracer Study</h2>
 <p>Belum ada lulusan. Bagian ini diisi analisis kebutuhan pengguna prospektif, FGD, benchmarking, dan proyeksi kompetensi (sesuai catatan template). Instrumen lengkap Dok. 010 akan dijalankan setelah kohor pertama lulus.</p>
-<h2 id="27-benchmarking-kurikulum-sumber-survey_pemetaan2026-dok-003">2.7 Benchmarking Kurikulum — sumber SURVEY_PEMETAAN2026/, Dok. 003</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">2.7 Benchmarking Kurikulum — sumber SURVEY_PEMETAAN2026/, Dok. 003</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>PT/Prodi Pembanding</th>
 <th>Aspek Dibandingkan</th>
 <th>Hasil</th>
 <th>Implikasi</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>SI APTIKOM v2.0 / IS2020</td>
 <td>CPL, BK 01-19</td>
@@ -497,44 +369,35 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Batas 20 SKS Sem 1-2</td>
 <td>Sem1 19, Sem2 20</td>
 </tr>
-</tbody>
-</table></div>
-<hr />
-<h1 id="bab-iii-landasan-perancangan-dan-pengembangan-kurikulum-terisi">BAB III — LANDASAN PERANCANGAN DAN PENGEMBANGAN KURIKULUM <strong>[TERISI]</strong></h1>
-<h2 id="31-landasan-filosofis">3.1 Landasan Filosofis</h2>
+</tbody></table></div>
+<hr/>
+<h1 class="bab">BAB III — LANDASAN PERANCANGAN DAN PENGEMBANGAN KURIKULUM <strong><span class="kpt-tag">TERISI</span></strong></h1>
+<h2 class="sub">3.1 Landasan Filosofis</h2>
 <p>Pendidikan tinggi membentuk insan berilmu, profesional, etis, adaptif, dan technopreneur; OBE Spady menempatkan outcome terukur sebagai pusat desain.</p>
-<h2 id="32-landasan-sosiologis">3.2 Landasan Sosiologis</h2>
+<h2 class="sub">3.2 Landasan Sosiologis</h2>
 <p>Transformasi digital, kebutuhan DUDI, UMKM, smart society; prodi berperan mengintegrasikan AI/cloud/cyber/platform ke proses bisnis.</p>
-<h2 id="33-landasan-psikologis">3.3 Landasan Psikologis</h2>
+<h2 class="sub">3.3 Landasan Psikologis</h2>
 <p>Mahasiswa sebagai pembelajar dewasa aktif-mandiri-kolaboratif dengan gaya visual-auditorial-kinestetik; SCL, blended, Case Method/PjBL.</p>
-<h2 id="34-landasan-historis">3.4 Landasan Historis</h2>
+<h2 class="sub">3.4 Landasan Historis</h2>
 <p>Pengalaman K2025 (56 MK wajib) menjadi pijakan; peleburan 4 klaster (G-1 s.d. G-4, efisiensi -7 SKS) dan 18 MK baru K2026 (Dok. 024).</p>
-<h2 id="35-landasan-yuridis">3.5 Landasan Yuridis</h2>
-<ol>
-<li>UU 12/2012. 2. Perpres 8/2012 KKNI. 3. Permendikbud 73/2013. 4. Permendikbudristek 53/2023. 5. Panduan KPT 2024 Edisi V. 6. Panduan MBKM 2024. 7. Statuta UWG <strong>[PERLU DATA UPPS]</strong>. 8. Renstra UWG <strong>[PERLU DATA UPPS]</strong>. 9. Renstra FSTI <strong>[PERLU DATA UPPS]</strong>. 10. Peraturan Akademik UWG <strong>[PERLU DATA UPPS]</strong>. 11. SPMI UWG <strong>[PERLU DATA UPPS]</strong>.</li>
-</ol>
-<hr />
-<h1 id="bab-iv-visi-misi-tujuan-strategi-dan-nilai-dasar-terisi">BAB IV — VISI, MISI, TUJUAN, STRATEGI, DAN NILAI DASAR <strong>[TERISI]</strong></h1>
-<h2 id="41-visi-universitas-widyagama-malang-perlu-data-upps">4.1 Visi Universitas Widyagama Malang — <strong>[PERLU DATA UPPS]</strong></h2>
-<h2 id="42-misi-universitas-widyagama-malang-perlu-data-upps">4.2 Misi Universitas Widyagama Malang — <strong>[PERLU DATA UPPS]</strong></h2>
-<h2 id="43-visi-fakultas-sains-teknologi-dan-informatika-perlu-data-upps">4.3 Visi Fakultas Sains, Teknologi, dan Informatika — <strong>[PERLU DATA UPPS]</strong></h2>
-<h2 id="44-misi-fakultas-sains-teknologi-dan-informatika-perlu-data-upps">4.4 Misi Fakultas Sains, Teknologi, dan Informatika — <strong>[PERLU DATA UPPS]</strong></h2>
-<h2 id="45-visi-keilmuan-program-studi">4.5 Visi Keilmuan Program Studi</h2>
+<h2 class="sub">3.5 Landasan Yuridis</h2>
+<ol><li>UU 12/2012. 2. Perpres 8/2012 KKNI. 3. Permendikbud 73/2013. 4. Permendikbudristek 53/2023. 5. Panduan KPT 2024 Edisi V. 6. Panduan MBKM 2024. 7. Statuta UWG <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong>. 8. Renstra UWG <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong>. 9. Renstra FSTI <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong>. 10. Peraturan Akademik UWG <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong>. 11. SPMI UWG <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong>.</li></ol>
+<hr/>
+<h1 class="bab">BAB IV — VISI, MISI, TUJUAN, STRATEGI, DAN NILAI DASAR <strong><span class="kpt-tag">TERISI</span></strong></h1>
+<h2 class="sub">4.1 Visi Universitas Widyagama Malang — <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></h2>
+<h2 class="sub">4.2 Misi Universitas Widyagama Malang — <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></h2>
+<h2 class="sub">4.3 Visi Fakultas Sains, Teknologi, dan Informatika — <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></h2>
+<h2 class="sub">4.4 Misi Fakultas Sains, Teknologi, dan Informatika — <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></h2>
+<h2 class="sub">4.5 Visi Keilmuan Program Studi</h2>
 <p>Menjadi Program Studi Sistem dan Teknologi Informasi yang bermutu, mandiri, bermartabat, dan berwawasan global, serta unggul dalam pengembangan sistem dan teknologi informasi cerdas terintegrasi kecerdasan artifisial, serta technopreneurship berbasis kebutuhan masyarakat dan industri pada tahun 2045.</p>
-<h2 id="46-misi-program-studi">4.6 Misi Program Studi</h2>
-<ol>
-<li>Pendidikan berstandar OBE bidang AI &amp; Smart Systems dan technopreneurship. 2. Riset terapan transformatif (AI, cloud, cyber, platform). 3. PkM tepat guna untuk UMKM dan transformasi digital. 4. Kemitraan industri global, open-source, startup + Good University Governance.</li>
-</ol>
-<h2 id="47-tujuan-program-studi">4.7 Tujuan Program Studi</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">4.6 Misi Program Studi</h2>
+<ol><li>Pendidikan berstandar OBE bidang AI &amp; Smart Systems dan technopreneurship. 2. Riset terapan transformatif (AI, cloud, cyber, platform). 3. PkM tepat guna untuk UMKM dan transformasi digital. 4. Kemitraan industri global, open-source, startup + Good University Governance.</li></ol>
+<h2 class="sub">4.7 Tujuan Program Studi</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Tujuan Program Studi</th>
 <th>Strategi Pencapaian</th>
 <th>Indikator Keberhasilan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>Lulusan kompeten SI+TI+AI aplikatif berdaya saing global</td>
 <td>146/55 OBE, PjBL, praktikum 43,2%</td>
@@ -555,22 +418,17 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>MBKM, PKL, APTIKOM/IEEE/ACM</td>
 <td>MoU, MBKM 20 SKS</td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="48-strategi-pencapaian-tujuan-program-studi">4.8 Strategi Pencapaian Tujuan Program Studi</h2>
+</tbody></table></div>
+<h2 class="sub">4.8 Strategi Pencapaian Tujuan Program Studi</h2>
 <p>Tahap Fondasi Sem 1-2 (max 20 SKS), Inti Sem 3-4 (OS/Jaringan Sem 3; ML/Cloud Sem 4), Spesialisasi Sem 5-7 (peminatan + IoT + Platform + Smart City), Penyelesaian Sem 8 (skripsi/4 opsi non-skripsi).</p>
-<h2 id="49-nilai-dasar">4.9 Nilai Dasar</h2>
-<p>Bermutu, mandiri, bermartabat, global, etis, inovatif, technopreneur; selaras University Value UWG <strong>[PERLU DATA UPPS]</strong>.</p>
-<h1 id="bab-v-profil-lulusan-peo-dan-capaian-pembelajaran-lulusan-terisi">BAB V — PROFIL LULUSAN, PEO, DAN CAPAIAN PEMBELAJARAN LULUSAN <strong>[TERISI]</strong></h1>
-<h2 id="51-program-educational-objectives-peo-35-tahun-pasca-lulus-sumber-verbatim-dok-002-3-dok-010-2">5.1 Program Educational Objectives (PEO — 3–5 tahun pasca-lulus) — sumber verbatim Dok. 002 §3, Dok. 010 §2</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">4.9 Nilai Dasar</h2>
+<p>Bermutu, mandiri, bermartabat, global, etis, inovatif, technopreneur; selaras University Value UWG <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong>.</p>
+<h1 class="bab">BAB V — PROFIL LULUSAN, PEO, DAN CAPAIAN PEMBELAJARAN LULUSAN <strong><span class="kpt-tag">TERISI</span></strong></h1>
+<h2 class="sub">5.1 Program Educational Objectives (PEO — 3–5 tahun pasca-lulus) — sumber verbatim Dok. 002 §3, Dok. 010 §2</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode PEO</th>
 <th>Pernyataan Formal Objektif Pendidikan (3–5 Tahun Pasca Kelulusan)</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td><strong>PEO-1</strong></td>
 <td><strong>Professional Practice and Systems Integration</strong> — "Dalam 3–5 tahun setelah lulus, alumni mampu berkarier secara profesional dalam menganalisis, merancang, mengembangkan, mengintegrasikan, mengamankan, atau mengelola sistem dan teknologi informasi cerdas sesuai kebutuhan organisasi, industri, dan masyarakat."</td>
@@ -583,20 +441,15 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td><strong>PEO-3</strong></td>
 <td><strong>Advanced Study, Research, and Lifelong Learning</strong> — "Dalam 3–5 tahun setelah lulus, alumni mampu mengembangkan kompetensi melalui studi lanjut (S2/S3), penelitian terapan, sertifikasi profesional, komunitas keilmuan, atau pembelajaran sepanjang hayat serta menunjukkan kepemimpinan sesuai konteksnya."</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Kepemimpinan (leadership) melekat lintas-PEO, bukan PEO terpisah: PEO-1 memimpin tim teknis/arsitektur/transformasi digital; PEO-2 memimpin startup/tim lintas fungsi; PEO-3 memimpin kajian riset/laboratorium/publikasi. Matriks VMTS×PEO dan PEO×PL lengkap Dok. 010 §3.</p>
-<h2 id="52-profil-lulusan-4-pl-role-based-sumber-verbatim-dok-002-2">5.2 Profil Lulusan (4 PL Role-Based) — sumber verbatim Dok. 002 §2</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">5.2 Profil Lulusan (4 PL Role-Based) — sumber verbatim Dok. 002 §2</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode</th>
 <th>Profil Lulusan</th>
 <th>Basis Peminatan</th>
 <th>CPL Khusus Utama</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>PL-1</td>
 <td>Intelligent Information Systems &amp; Data/AI Engineer</td>
@@ -621,22 +474,17 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Lintas Peminatan / Capstone Ecosystem</td>
 <td>KK6 (Techno &amp; Agile), S1, KU1, KU2, KU3</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Rincian deskripsi dan profesi tiap profil:</p>
 <p><strong>PL-1: Intelligent Information Systems &amp; Data/AI Engineer.</strong> Menganalisis kebutuhan organisasi, merancang arsitektur SI cerdas terintegrasi, merekayasa pipeline data skala besar (Data Engineering), mengembangkan model ML/DL, serta menerapkan MLOps ke aplikasi enterprise nyata. Profesi: AI Software Developer, Data Engineer, Machine Learning Engineer, Business Intelligence Specialist, Intelligent System Analyst.</p>
 <p><strong>PL-2: Cloud Infrastructure, Cybersecurity &amp; Smart Systems Integrator.</strong> Merancang, mengimplementasikan, dan mengelola infrastruktur cloud native/DevOps, mengintegrasikan IoT dan sistem cerdas (Smart City/Smart Campus), mengamankan aset informasi (Vulnerability Assessment), serta menegakkan tata kelola dan audit TI (COBIT/ITIL/ISO 27001). Profesi: Cloud Architect/DevOps Engineer, Cybersecurity Analyst, Smart Systems/IoT Integrator, IT Infrastructure Engineer, IT Governance &amp; Audit Specialist.</p>
 <p><strong>PL-3: UI/UX Designer &amp; Digital Platform Engineer.</strong> Merancang arsitektur interaksi dan pengalaman pengguna berbasis riset (UI/UX Design), merekayasa antarmuka modern (Web &amp; Mobile Frontend), membangun layanan mikro (Microservices), serta mengintegrasikan platform digital terdistribusi skala besar. Profesi: UI/UX Designer, Frontend/Fullstack Platform Engineer, Mobile Application Engineer, Digital Experience Specialist, Solution Architect.</p>
 <p><strong>PL-4: Digital Technopreneur &amp; IT Product Innovator.</strong> Mengidentifikasi celah pasar (Market Validation), merancang model bisnis inovatif (Lean Startup), membangun MVP, mengelola proyek TI Agile/Scrum, serta mendirikan dan memimpin tech startup berbasis sistem cerdas. Profesi: Tech Startup Founder, IT Product Manager, Agile Project Manager, Digital Transformation Consultant, Technology Business Specialist.</p>
-<h2 id="53-rumusan-capaian-pembelajaran-lulusan-14-cpl-sumber-verbatim-dok-003-2-dok-009a009e">5.3 Rumusan Capaian Pembelajaran Lulusan (14 CPL) — sumber verbatim Dok. 003 §2, Dok. 009A–009E</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">5.3 Rumusan Capaian Pembelajaran Lulusan (14 CPL) — sumber verbatim Dok. 003 §2, Dok. 009A–009E</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode CPL</th>
 <th>Rumusan CPL SISTEKIN 2026</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td><strong>S1</strong></td>
 <td>Bertakwa kepada Tuhan Yang Maha Esa, menginternalisasi nilai, norma, etika digital dan hukum profesi, menjunjung tinggi kejujuran dan integritas, mampu bekerja sama secara produktif dalam tim lintas disiplin, serta menunjukkan sikap tanggung jawab atas pekerjaan di bidang keahliannya secara mandiri.</td>
@@ -693,117 +541,107 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td><strong>KK6</strong></td>
 <td>Mampu merancang, memvalidasi model bisnis (Lean Startup/MVP), mengelola proyek agile, serta mendirikan usaha rintisan teknologi (technopreneurship) mandiri berbasis kebutuhan pasar.</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Genealogi: S1 dari SN-Dikti Sikap + CPL-S01–S08; KU1–KU3 dari SN-Dikti KU + CPL-KU01–KU08; P1–P4 dari CPL-P01–P17 + IT2017 P1–P2; KK1–KK6 dari CPL-K01–K17 + IT2017 KK1–KK3 (Dok. 003 §2). Indikator kinerja dan target Bloom: S1 A3; KU1 C4; KU2–KU3 C5; P1 C3; P2–P4 C4; KK1–KK3 C6; KK4 C5; KK5–KK6 C6 (Dok. 003 §3). Total tepat 14 CPL.</p>
-<h2 id="54-matriks-hubungan-profil-lulusan-dengan-cpl-sumber-verbatim-dok-003-6">5.4 Matriks Hubungan Profil Lulusan dengan CPL — sumber verbatim Dok. 003 §6</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">5.4 Matriks Hubungan Profil Lulusan dengan CPL — sumber verbatim Dok. 003 §6</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Profil Lulusan SISTEKIN 2026</th>
-<th style="text-align: center;">Peminatan Terkait</th>
-<th style="text-align: center;">S1</th>
-<th style="text-align: center;">KU1</th>
-<th style="text-align: center;">KU2</th>
-<th style="text-align: center;">KU3</th>
-<th style="text-align: center;">P1</th>
-<th style="text-align: center;">P2</th>
-<th style="text-align: center;">P3</th>
-<th style="text-align: center;">P4</th>
-<th style="text-align: center;">KK1</th>
-<th style="text-align: center;">KK2</th>
-<th style="text-align: center;">KK3</th>
-<th style="text-align: center;">KK4</th>
-<th style="text-align: center;">KK5</th>
-<th style="text-align: center;">KK6</th>
-</tr>
-</thead>
-<tbody>
+<th>Peminatan Terkait</th>
+<th>S1</th>
+<th>KU1</th>
+<th>KU2</th>
+<th>KU3</th>
+<th>P1</th>
+<th>P2</th>
+<th>P3</th>
+<th>P4</th>
+<th>KK1</th>
+<th>KK2</th>
+<th>KK3</th>
+<th>KK4</th>
+<th>KK5</th>
+<th>KK6</th>
+</tr></thead><tbody>
 <tr>
 <td><strong>PL-1: Intelligent IS Developer &amp; AI Engineer</strong></td>
-<td style="text-align: center;">P1</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐⭐⭐</td>
-<td style="text-align: center;">⭐⭐⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
+<td>P1</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td></td>
+<td>★</td>
+<td>★★★</td>
+<td>★★★</td>
+<td></td>
+<td></td>
+<td>★</td>
+<td></td>
 </tr>
 <tr>
 <td><strong>PL-2: Cloud &amp; Cybersecurity Specialist</strong></td>
-<td style="text-align: center;">P2</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐⭐⭐</td>
-<td style="text-align: center;">⭐⭐⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>P2</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td></td>
+<td>★</td>
+<td></td>
+<td></td>
+<td></td>
+<td>★★★</td>
+<td>★★★</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td><strong>PL-3: UI/UX &amp; Digital Platform Engineer</strong></td>
-<td style="text-align: center;">P3</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐⭐⭐</td>
-<td style="text-align: center;">⭐⭐</td>
+<td>P3</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td></td>
+<td>★</td>
+<td></td>
+<td>★</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>★★★</td>
+<td>★★</td>
 </tr>
 <tr>
 <td><strong>PL-4: IT Project Manager &amp; Technopreneur</strong></td>
-<td style="text-align: center;">P3 / P1 / P2</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;">⭐</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">⭐⭐</td>
-<td style="text-align: center;">⭐⭐⭐</td>
+<td>P3 / P1 / P2</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td></td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td>★</td>
+<td></td>
+<td></td>
+<td></td>
+<td>★★</td>
+<td>★★★</td>
 </tr>
-</tbody>
-</table></div>
-<p>⭐⭐⭐ Major Competency; ⭐⭐ Supporting; ⭐ Foundational. Matriks PEO×CPL: PEO-1 = S1,KU1-3,P1-P4,KK1-KK5; PEO-2 = S1,KU1-3,P2-P4,KK5,KK6,KK1; PEO-3 = seluruh 14 CPL (Dok. 003 §7, Dok. 010 §3.3).</p>
-<h2 id="55-matriks-cpl-dengan-kkni-dan-sn-dikti-sumber-dok-003-2">5.5 Matriks CPL dengan KKNI dan SN-Dikti — sumber Dok. 003 §2</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<p>★★★ Major Competency; ★★ Supporting; ★ Foundational. Matriks PEO×CPL: PEO-1 = S1,KU1-3,P1-P4,KK1-KK5; PEO-2 = S1,KU1-3,P2-P4,KK5,KK6,KK1; PEO-3 = seluruh 14 CPL (Dok. 003 §7, Dok. 010 §3.3).</p>
+<h2 class="sub">5.5 Matriks CPL dengan KKNI dan SN-Dikti — sumber Dok. 003 §2</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode CPL</th>
 <th>Unsur KKNI/SN-Dikti</th>
 <th>Keterangan Kesesuaian</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>S1</td>
 <td>SN-Dikti Sikap Butir 1–10 + CPL-S01–S08</td>
@@ -849,21 +687,16 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>KKNI Keterampilan Khusus + CPL-K01–K17 + IT2017 KK1–KK3, @2 per peminatan</td>
 <td>Sesuai peminatan P1/P2/P3</td>
 </tr>
-</tbody>
-</table></div>
-<hr />
-<h1 id="bab-vi-bahan-kajian-dan-body-of-knowledge-terisi">BAB VI — BAHAN KAJIAN DAN BODY OF KNOWLEDGE <strong>[TERISI]</strong></h1>
-<h2 id="61-dasar-penetapan-bahan-kajian">6.1 Dasar Penetapan Bahan Kajian</h2>
+</tbody></table></div>
+<hr/>
+<h1 class="bab">BAB VI — BAHAN KAJIAN DAN BODY OF KNOWLEDGE <strong><span class="kpt-tag">TERISI</span></strong></h1>
+<h2 class="sub">6.1 Dasar Penetapan Bahan Kajian</h2>
 <p>BK diturunkan dari 14 CPL dan BoK APTIKOM SI v2.0 (IS2020) + TI 2023 (IT2017/CC2020). STI-103 (Arsitektur, Sem 1) dan STI-204 (Diskrit-Logika, Sem 2) terpadu bebas redundansi.</p>
-<h2 id="62-body-of-knowledge-program-studi-sumber-verbatim-dok-003-45-21-bok-is2020-15-bok-it2017">6.2 Body of Knowledge Program Studi — sumber verbatim Dok. 003 §4–§5 (21 BoK IS2020 + 15 BoK IT2017)</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">6.2 Body of Knowledge Program Studi — sumber verbatim Dok. 003 §4–§5 (21 BoK IS2020 + 15 BoK IT2017)</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode BoK IS2020</th>
 <th>Nomenklatur Bahan Kajian IS2020</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>BK-IS01</td>
 <td>Foundations of Information Systems</td>
@@ -948,16 +781,11 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>BK-IS21</td>
 <td>Internship and Professional Practice</td>
 </tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode BoK IT2017</th>
 <th>Nomenklatur Bahan Kajian Utama IT2017</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>BK-IT01</td>
 <td>Information Technology Fundamentals</td>
@@ -1018,719 +846,704 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>BK-IT15</td>
 <td>Global Professional Practice</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Jangkar kurikulum: BK-IS03/BK-IT05 diampu STI-103 Arsitektur dan Organisasi STI (Sem 1, 3 SKS); BK-IS10 diampu STI-204 Matematika Diskrit dan Logika (Sem 2, 3 SKS).</p>
-<h2 id="63-matriks-cpl-dengan-bahan-kajian-sumber-verbatim-dok-003-45">6.3 Matriks CPL dengan Bahan Kajian — sumber verbatim Dok. 003 §4–§5</h2>
+<h2 class="sub">6.3 Matriks CPL dengan Bahan Kajian — sumber verbatim Dok. 003 §4–§5</h2>
 <p>Matriks CPL↔21 BoK IS2020:</p>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode BoK</th>
 <th>Nomenklatur</th>
-<th style="text-align: center;">S1</th>
-<th style="text-align: center;">KU1</th>
-<th style="text-align: center;">KU2</th>
-<th style="text-align: center;">KU3</th>
-<th style="text-align: center;">P1</th>
-<th style="text-align: center;">P2</th>
-<th style="text-align: center;">P3</th>
-<th style="text-align: center;">P4</th>
-<th style="text-align: center;">KK1</th>
-<th style="text-align: center;">KK2</th>
-<th style="text-align: center;">KK3</th>
-<th style="text-align: center;">KK4</th>
-<th style="text-align: center;">KK5</th>
-<th style="text-align: center;">KK6</th>
-</tr>
-</thead>
-<tbody>
+<th>S1</th>
+<th>KU1</th>
+<th>KU2</th>
+<th>KU3</th>
+<th>P1</th>
+<th>P2</th>
+<th>P3</th>
+<th>P4</th>
+<th>KK1</th>
+<th>KK2</th>
+<th>KK3</th>
+<th>KK4</th>
+<th>KK5</th>
+<th>KK6</th>
+</tr></thead><tbody>
 <tr>
 <td>BK-IS01</td>
 <td>Foundations of IS</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS02</td>
 <td>Data and Information Management</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS03</td>
 <td>IT Infrastructure and Networking</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS04</td>
 <td>Enterprise Architecture</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS05</td>
 <td>IS Management and Governance</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS06</td>
 <td>Security and Risk Management</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS07</td>
 <td>Systems Analysis and Design</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS08</td>
 <td>Project Management</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
 </tr>
 <tr>
 <td>BK-IS09</td>
 <td>Business Process Management</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS10</td>
 <td>Applied Mathematics and Logic</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS11</td>
 <td>Programming Fundamentals &amp; OO</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS12</td>
 <td>Web and Mobile Development</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS13</td>
 <td>Data Analytics and BI</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS14</td>
 <td>IT Audit and Compliance</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS15</td>
 <td>Digital Innovation and Entrepreneurship</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
 </tr>
 <tr>
 <td>BK-IS16</td>
 <td>AI &amp; Intelligent Systems</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS17</td>
 <td>HCI &amp; UX</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS18</td>
 <td>ML and Data Science</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS19</td>
 <td>Cloud Architecture &amp; DevOps</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS20</td>
 <td>Ethics, Use and Implications</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IS21</td>
 <td>Internship and Professional Practice</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Matriks CPL↔15 BoK IT2017:</p>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode BoK</th>
 <th>Nomenklatur</th>
-<th style="text-align: center;">S1</th>
-<th style="text-align: center;">KU1</th>
-<th style="text-align: center;">KU2</th>
-<th style="text-align: center;">KU3</th>
-<th style="text-align: center;">P1</th>
-<th style="text-align: center;">P2</th>
-<th style="text-align: center;">P3</th>
-<th style="text-align: center;">P4</th>
-<th style="text-align: center;">KK1</th>
-<th style="text-align: center;">KK2</th>
-<th style="text-align: center;">KK3</th>
-<th style="text-align: center;">KK4</th>
-<th style="text-align: center;">KK5</th>
-<th style="text-align: center;">KK6</th>
-</tr>
-</thead>
-<tbody>
+<th>S1</th>
+<th>KU1</th>
+<th>KU2</th>
+<th>KU3</th>
+<th>P1</th>
+<th>P2</th>
+<th>P3</th>
+<th>P4</th>
+<th>KK1</th>
+<th>KK2</th>
+<th>KK3</th>
+<th>KK4</th>
+<th>KK5</th>
+<th>KK6</th>
+</tr></thead><tbody>
 <tr>
 <td>BK-IT01</td>
 <td>IT Fundamentals</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT02</td>
 <td>Applied AI &amp; Intelligent Tech</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT03</td>
 <td>Networking &amp; Communications</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT04</td>
 <td>Platform Tech &amp; Web/Mobile</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT05</td>
 <td>Cloud Computing &amp; Virtualization</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT06</td>
 <td>Cybersecurity Principles &amp; Defense</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT07</td>
 <td>System Integration and Architecture</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT08</td>
 <td>IT Service Management &amp; Governance</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT09</td>
 <td>Data Analytics &amp; Visualization</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT10</td>
 <td>UX &amp; Interaction Design</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT11</td>
 <td>Software Development Practices</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT12</td>
 <td>IT Risk Management and Compliance</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT13</td>
 <td>Technology Entrepreneurship</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
 </tr>
 <tr>
 <td>BK-IT14</td>
 <td>IoT and Embedded Smart Systems</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BK-IT15</td>
 <td>Global Professional Practice</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;">✅</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="64-kedalaman-dan-keluasan-bahan-kajian-sumber-dok-003-dok-016-5-stage-ai-pipeline">6.4 Kedalaman dan Keluasan Bahan Kajian — sumber Dok. 003, Dok. 016 (5-stage AI pipeline)</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<h2 class="sub">6.4 Kedalaman dan Keluasan Bahan Kajian — sumber Dok. 003, Dok. 016 (5-stage AI pipeline)</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Bahan Kajian</th>
 <th>Tingkat Kedalaman</th>
 <th>Tingkat Keluasan</th>
 <th>Implikasi pada Mata Kuliah</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>Fondasi sains-komputasi (P1)</td>
 <td>C3 Apply</td>
@@ -1761,26 +1574,106 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Pipeline 5 tahap Dok. 016: data → model → integrasi → MLOps → smart service</td>
 <td>STI-307/413/414/624/626, STI-415/520, STA-501–703</td>
 </tr>
-</tbody>
-</table></div>
-<hr />
-<h1 id="bab-vii-pembentukan-mata-kuliah-dan-penentuan-bobot-sks-terisi">BAB VII — PEMBENTUKAN MATA KULIAH DAN PENENTUAN BOBOT SKS <strong>[TERISI]</strong></h1>
-<h2 id="71-prinsip-pembentukan-mata-kuliah">7.1 Prinsip Pembentukan Mata Kuliah</h2>
+</tbody></table></div>
+<hr/>
+<h1 class="bab">BAB VII — PEMBENTUKAN MATA KULIAH DAN PENENTUAN BOBOT SKS <strong><span class="kpt-tag">TERISI</span></strong></h1>
+<h2 class="sub">7.1 Prinsip Pembentukan Mata Kuliah</h2>
 <p>Dua jalur KPT: evaluasi MK berjalan (Tabel 5 KPT) dan pembentukan baru dari CPL (Tabel 6 KPT). Proporsi seimbang, 20 MK (63 SKS/43,2%) +P praktikum, Case Method/PjBL untuk IKU 7. Kolisi kode K2025↔K2026: STI-102 (Algoritma→Kalkulus), STI-103 (Logika→Arsitektur), STI-101 (3→2 SKS) — selalu sebut tahun.</p>
-<h2 id="72-evaluasi-mata-kuliah-kurikulum-berjalan-sumber-dok-024-56-mk-k2025-k2026">7.2 Evaluasi Mata Kuliah Kurikulum Berjalan — sumber Dok. 024 (56 MK K2025 → K2026)</h2>
+<h2 class="sub">7.2 Evaluasi Mata Kuliah Kurikulum Berjalan — sumber Dok. 024 (56 MK K2025 → K2026)</h2>
 <p>Ground truth K2025 dari Laporan SIAKAD: 56 MK / 146 SKS, sebaran 18-18-20-20-21-21-20-8, seluruhnya Wajib, nilai min C. Kategori ekivalensi: E1 Penuh 34 MK (alih nilai langsung), E2 Bersyarat 11 MK (uji penyetaraan), E3 Gabungan 8 MK (4 klaster peleburan G-1 s.d. G-4, efisiensi -7 SKS), E4 Pecah 1 MK, E5 Tanpa Padanan 2 MK (STI-423 Game Design &amp; Gamifikasi Sosial, STI-638 Intelligent Signal Processing — status E5 dipertahankan, penghapusan sah, Dok. 026). Simulasi pengakuan: P1/P2 = 120 SKS, P3 = 117 SKS. Arah balik K2026←K2025: 114 dari 128 SKS wajib diakui (89,1%), defisit 14 SKS pada 5 MK baru; titik kritis Sem 1 (STI-103) dan Sem 3 (STI-312) sebagai prasyarat berantai. Tabel entri SIAKAD 57 baris konversi Dok. 024 §9.</p>
-<h2 id="73-pembentukan-mata-kuliah-baru-sumber-dok-004-dok-005">7.3 Pembentukan Mata Kuliah Baru — sumber Dok. 004, Dok. 005</h2>
+<div class="kpt-cap">Tabel 7.2a — Ringkasan kategori ekivalensi K2025 → K2026 (sumber Dok. 024)</div>
+<table><thead><tr>
+<th>Kategori</th>
+<th>Jumlah MK</th>
+<th>Perlakuan</th>
+<th>Keterangan</th>
+</tr></thead><tbody>
+<tr>
+<td>E1 Penuh</td>
+<td>34 MK</td>
+<td>Alih nilai langsung</td>
+<td>Diakui penuh</td>
+</tr>
+<tr>
+<td>E2 Bersyarat</td>
+<td>11 MK</td>
+<td>Uji penyetaraan</td>
+<td>Diakui bersyarat</td>
+</tr>
+<tr>
+<td>E3 Gabungan</td>
+<td>8 MK</td>
+<td>Peleburan 4 klaster G-1 s.d. G-4</td>
+<td>Efisiensi −7 SKS</td>
+</tr>
+<tr>
+<td>E4 Pecah</td>
+<td>1 MK</td>
+<td>Dipecah menjadi beberapa MK</td>
+<td>Diakui per bagian</td>
+</tr>
+<tr>
+<td>E5 Tanpa Padanan</td>
+<td>2 MK</td>
+<td>Wajib tempuh baru</td>
+<td>STI-423, STI-638 — status dipertahankan (Dok. 026)</td>
+</tr>
+</tbody></table>
+<h2 class="sub">7.3 Pembentukan Mata Kuliah Baru — sumber Dok. 004, Dok. 005</h2>
 <p>18 MK baru K2026 (5 wajib/14 SKS + 13 elektif): STI-103 Arsitektur dan Organisasi STI (Sem 1, 3 SKS, ganti Logika lama); STI-204 Matematika Diskrit dan Logika (Sem 2, 3 SKS, terpadu proposisi &amp; boolean); STI-312 Jaringan Komputer (Sem 3, 3 SKS, fondasi IoT/Cloud/Security); STI-418 Dasar Keamanan Informasi (Sem 4, 2 SKS); STI-625 Smart City &amp; Pemerintahan Digital (Sem 6, 2 SKS); plus 13 elektif peminatan STA/STB/STC. Mekanisme: CPL dibebankan + BK → MK → SKS proporsional; 20 MK +P praktikum; Case Method/PjBL untuk IKU 7.</p>
-<h2 id="74-daftar-mata-kuliah-sumber-verbatim-dok-005-1-55-ditempuh-67-ditawarkan">7.4 Daftar Mata Kuliah — sumber verbatim Dok. 005 §1 (55 ditempuh / 67 ditawarkan)</h2>
+<div class="kpt-cap">Tabel 7.3a — Lima MK wajib baru K2026 (sumber Dok. 004–005)</div>
+<table><thead><tr>
+<th>Kode MK</th>
+<th>Nama Mata Kuliah</th>
+<th>SKS</th>
+<th>Semester</th>
+<th>Peran</th>
+</tr></thead><tbody>
+<tr>
+<td>STI-103</td>
+<td>Arsitektur dan Organisasi STI</td>
+<td>3</td>
+<td>1</td>
+<td>Menggantikan Logika Informatika lama; prasyarat berantai</td>
+</tr>
+<tr>
+<td>STI-204</td>
+<td>Matematika Diskrit dan Logika</td>
+<td>3</td>
+<td>2</td>
+<td>Terpadu proposisi &amp; aljabar boolean</td>
+</tr>
+<tr>
+<td>STI-312</td>
+<td>Jaringan Komputer</td>
+<td>3</td>
+<td>3</td>
+<td>Fondasi IoT / Cloud / Security</td>
+</tr>
+<tr>
+<td>STI-418</td>
+<td>Dasar Keamanan Informasi</td>
+<td>2</td>
+<td>4</td>
+<td>Baseline keamanan siber</td>
+</tr>
+<tr>
+<td>STI-625</td>
+<td>Smart City &amp; Pemerintahan Digital</td>
+<td>2</td>
+<td>6</td>
+<td>Sistem cerdas terapan</td>
+</tr>
+</tbody></table>
+<h2 class="sub">7.4 Daftar Mata Kuliah — sumber verbatim Dok. 005 §1 (55 ditempuh / 67 ditawarkan)</h2>
 <p>Kelompok MKWU (8 MK / 13 SKS): MKU-101 Agama I (2, Sem 1); MKU-102 Pancasila (2, Sem 1); MKU-103 Bahasa Indonesia (2, Sem 1); MKU-204 Kewirausahaan I (2, Sem 2); MKU-405 Kewarganegaraan (2, Sem 4); MKU-406 Agama II (0, Sem 4, kebijakan UWG); MKU-507 KPM (3 +Praktik, Sem 5, syarat ≥80 SKS); MKU-508 Kewirausahaan II (0, Sem 5, kebijakan UWG).</p>
 <p>Kelompok FSTI (13 MK / 36 SKS): FST-101 Dasar Teknologi Digital (2, Sem 1); FST-102 Algoritma dan Pemrograman (3 +P, Sem 1); FST-203 Struktur Data dan Algoritma (3 +P, Sem 2, prasyarat FST-102); FST-204 Pengantar Kecerdasan Artifisial &amp; Data (2, Sem 2, FST-101); FST-205 Basic English for IT (2, Sem 2); FST-206 Etika Profesi &amp; Hukum Digital (2, Sem 2); FST-207 Sistem Basis Data (3 +P, Sem 2, FST-102); FST-408 Probabilitas dan Statistika (3, Sem 4, STI-102); FST-611 Metodologi Penelitian (2, Sem 6, ≥76 SKS); FST-610 Capstone Project FSTI (3 Proyek, Sem 7, STI-523 + ≥100 SKS); FST-612 PKL (3 Magang, Sem 7, ≥100 SKS); FST-613 Pra-Skripsi/Seminar Proposal (2 Seminar, Sem 7, FST-611 + ≥100 SKS); FST-714 Skripsi/Tugas Akhir (6 Mandiri, Sem 8, FST-613 + ≥120 SKS).</p>
 <p>Kelompok Core STI (28 MK / 79 SKS): STI-101 Pengantar Sistem dan TI (2, Sem 1); STI-102 Kalkulus (3, Sem 1); STI-103 Arsitektur dan Organisasi STI (3, Sem 1); STI-204 Matematika Diskrit dan Logika (3, Sem 2, STI-103); STI-205 Aljabar Linear dan Matriks (3, Sem 2, STI-102); STI-306 Analisis dan Perancangan SI (3, Sem 3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, Sem 3, STI-204 + FST-204); STI-308 UI/UX Design &amp; Prototyping (3 +P, Sem 3, FST-101); STI-309 Rekayasa Perangkat Lunak (3, Sem 3, FST-203); STI-310 Sistem Operasi (3, Sem 3, STI-103); STI-311 Web Front End Development (3 +P, Sem 3, FST-102); STI-312 Jaringan Komputer (3 +P, Sem 3, STI-103); STI-413 Machine Learning (3 +P, Sem 4, STI-205 + STI-307); STI-414 Pengantar NLP &amp; Information Retrieval (2 +P, Sem 4, STI-307); STI-415 Data Warehouse &amp; BI (3 +P, Sem 4, FST-207); STI-416 Web Back End Development (3 +P, Sem 4, FST-207 + STI-311); STI-417 Komputasi Awan (3, Sem 4, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, Sem 4, STI-312); STI-519 Keamanan Informasi Lanjut (3, Sem 5, STI-418); STI-520 Data Mining &amp; Visualisasi Data (3 +P, Sem 5, STI-413 + STI-415); STI-521 Internet of Things (3 +P, Sem 5, STI-312 + STI-310); STI-522 Pemrograman Aplikasi Mobile (3 +P, Sem 5, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, Sem 5, STI-306 + STI-309); STI-624 Integrasi Layanan Cerdas Berbasis AI (3 +P, Sem 6, STI-413 + STI-416); STI-625 Smart City &amp; Pemerintahan Digital (2, Sem 6, STI-521); STI-626 Deep Learning &amp; Neural Networks (3 +P, Sem 6, STI-413); STI-627 Digital Platform Engineering (3 +P, Sem 6, STI-416); STI-728 Inovasi Teknologi dan Startup Digital (3 +P, Sem 7, STI-627 + MKU-204).</p>
 <p>Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Rekayasa Big Data dan Komputasi Terdistribusi (3 +P, Sem 6, FST-207 + STI-415); STA-602 Intelligent Agent Systems (3 +P, Sem 6, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture &amp; DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 6, STI-418); STB-701 IT Governance &amp; Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research &amp; Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa &amp; Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech &amp; EdTech (3 +P, Sem 6, STI-416); STC-701 Immersive Media &amp; XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture &amp; Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management &amp; Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7).</p>
 <p>18 MK baru K2026 (5 wajib/14 SKS + 13 elektif). Penuh Dok. 004–005.</p>
-<h2 id="74-daftar-mata-kuliah-55-ditempuh-67-ditawarkan-sumber-verbatim-dok-005-1">7.4 Daftar Mata Kuliah (55 ditempuh / 67 ditawarkan) — sumber verbatim Dok. 005 §1</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">7.4 Daftar Mata Kuliah (55 ditempuh / 67 ditawarkan) — sumber verbatim Dok. 005 §1</h2>
+<div class="kpt-cap">Tabel 7.4a — Contoh entri daftar MK (Semester 1, 8 MK; daftar 55 baris penuh lihat Dok. 005)</div>
+<div class="table-wrap"><table><thead><tr>
 <th>No</th>
 <th>Kode MK</th>
 <th>Nama Mata Kuliah</th>
@@ -1788,16 +1681,14 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <th>Semester</th>
 <th>Jenis MK</th>
 <th>Prasyarat</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>1</td>
 <td>MKU-101</td>
 <td>Agama I</td>
 <td>2</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1806,7 +1697,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Pancasila</td>
 <td>2</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1815,7 +1706,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Bahasa Indonesia</td>
 <td>2</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1824,7 +1715,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Dasar Teknologi Digital</td>
 <td>2</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1833,7 +1724,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Algoritma dan Pemrograman</td>
 <td>3</td>
 <td>1</td>
-<td><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td>+P</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1842,7 +1733,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Pengantar Sistem dan TI</td>
 <td>2</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1851,7 +1742,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Kalkulus (K2026)</td>
 <td>3</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1860,7 +1751,7 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Arsitektur dan Organisasi STI (K2026)</td>
 <td>3</td>
 <td>1</td>
-<td><span class="badge-type badge-type-teori">Teori</span></td>
+<td>Teori</td>
 <td>—</td>
 </tr>
 <tr>
@@ -1932,34 +1823,29 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>Skripsi / 4 Opsi Non-Skripsi</td>
 <td>6</td>
 <td>8</td>
-<td><span class="badge-type badge-type-mandiri">Mandiri</span></td>
+<td>Mandiri</td>
 <td>FST-613, ≥120 SKS</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Daftar 55 baris penuh dan 18 elektif (ambil 6) lihat Dok. 005 §1–3.</p>
-<h2 id="75-rekapitulasi-mata-kuliah">7.5 Rekapitulasi Mata Kuliah</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">7.5 Rekapitulasi Mata Kuliah</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Kelompok Mata Kuliah</th>
 <th>Jumlah MK</th>
 <th>Total SKS</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
-<td><span class="cat-badge cat-mkwu">MKWU</span></td>
+<td>MKWU</td>
 <td>8</td>
 <td>13</td>
 </tr>
 <tr>
-<td><span class="cat-badge cat-fsti">FSTI</span></td>
+<td>FSTI</td>
 <td>13</td>
 <td>36</td>
 </tr>
 <tr>
-<td><span class="cat-badge cat-sti">Core STI</span></td>
+<td>Core STI</td>
 <td>28</td>
 <td>79</td>
 </tr>
@@ -1978,38 +1864,593 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>67</td>
 <td>182</td>
 </tr>
-</tbody>
-</table></div>
-<hr />
-<h1 id="bab-viii-matriks-kurikulum-peta-kurikulum-dan-masa-tempuh-terisi">BAB VIII — MATRIKS KURIKULUM, PETA KURIKULUM, DAN MASA TEMPUH <strong>[TERISI]</strong></h1>
-<h2 id="81-masa-tempuh-kurikulum">8.1 Masa Tempuh Kurikulum</h2>
+</tbody></table></div>
+<hr/>
+<h1 class="bab">BAB VIII — MATRIKS KURIKULUM, PETA KURIKULUM, DAN MASA TEMPUH <strong><span class="kpt-tag">TERISI</span></strong></h1>
+<h2 class="sub">8.1 Masa Tempuh Kurikulum</h2>
 <p>Reguler 8 semester (146 SKS). Akselerasi 7 semester/3,5 tahun dimungkinkan (Dok. 015). MBKM hingga 20 SKS Sem 6-7 dikonversi ke peminatan/Capstone/PKL.</p>
-<h2 id="82-struktur-kurikulum-per-semester-sumber-verbatim-dok-005-3-t20t27-template">8.2 Struktur Kurikulum per Semester — sumber verbatim Dok. 005 §3 (T20–T27 Template)</h2>
-<h3 id="semester-1-19-sks-8-mk">Semester 1 — 19 SKS (8 MK)</h3>
-<p>FST-101 Dasar Teknologi Digital (2 Teori); FST-102 Algoritma dan Pemrograman (3 +P); STI-101 Pengantar Sistem dan TI (2); STI-102 Kalkulus (3); STI-103 Arsitektur dan Organisasi STI (3); MKU-101 Agama I (2); MKU-102 Pancasila (2); MKU-103 Bahasa Indonesia (2). Kumulatif 19 SKS.</p>
-<h3 id="semester-2-20-sks-8-mk">Semester 2 — 20 SKS (8 MK)</h3>
-<p>STI-204 Matematika Diskrit dan Logika (3, prasyarat STI-103); STI-205 Aljabar Linear dan Matriks (3, STI-102); FST-203 Struktur Data dan Algoritma (3 +P, FST-102); FST-204 Pengantar Kecerdasan Artifisial &amp; Data (2, FST-101); FST-205 Basic English for IT (2); FST-206 Etika Profesi &amp; Hukum Digital (2); FST-207 Sistem Basis Data (3 +P, FST-102); MKU-204 Kewirausahaan I (2). Kumulatif 39 SKS.</p>
-<h3 id="semester-3-20-sks-7-mk">Semester 3 — 20 SKS (7 MK)</h3>
-<p>STI-306 Analisis dan Perancangan SI (3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, STI-204 + FST-204); STI-308 UI/UX Design &amp; Prototyping (3 +P, FST-101); STI-309 Rekayasa Perangkat Lunak (3, FST-203); STI-310 Sistem Operasi (3, STI-103); STI-311 Web Front End Development (3 +P, FST-102); STI-312 Jaringan Komputer (3 +P, STI-103). Kumulatif 59 SKS.</p>
-<h3 id="semester-4-21-sks-8-mk-1-mk-0-sks">Semester 4 — 21 SKS (8 MK + 1 MK 0 SKS)</h3>
-<p>STI-413 Machine Learning (3 +P, STI-205 + STI-307); STI-414 Pengantar NLP &amp; IR (2 +P, STI-307); STI-415 Data Warehouse &amp; BI (3 +P, FST-207); STI-416 Web Back End Development (3 +P, FST-207 + STI-311); STI-417 Komputasi Awan (3, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, STI-312); FST-408 Probabilitas dan Statistika (3, STI-102); MKU-405 Kewarganegaraan (2); MKU-406 Agama II (0, kebijakan UWG). Kumulatif 80 SKS.</p>
-<h3 id="semester-5-21-sks-7-mk-1-mk-0-sks">Semester 5 — 21 SKS (7 MK + 1 MK 0 SKS)</h3>
-<p>STI-519 Keamanan Informasi Lanjut (3, STI-418); STI-520 Data Mining &amp; Visualisasi (3 +P, STI-413 + STI-415); STI-521 Internet of Things (3 +P, STI-312 + STI-310); STI-522 Pemrograman Mobile (3 +P, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, STI-306 + STI-309); MKU-507 KPM (3 Praktik, ≥80 SKS); MK Pilihan Peminatan-1 (3 Elektif: STA-501 / STB-501 / STC-501); MKU-508 Kewirausahaan II (0, kebijakan UWG). Kumulatif 101 SKS.</p>
-<h3 id="semester-6-19-sks-7-mk">Semester 6 — 19 SKS (7 MK)</h3>
-<p>STI-624 Integrasi Layanan Cerdas AI (3 +P, STI-413 + STI-416); STI-625 Smart City &amp; Pemerintahan Digital (2, STI-521); STI-626 Deep Learning (3 +P, STI-413); STI-627 Digital Platform Engineering (3 +P, STI-416); FST-611 Metodologi Penelitian (2, ≥76 SKS); Peminatan-2 (3: STA-601 / STB-601 / STC-601); Peminatan-3 (3: STA-602 / STB-602 / STC-602). Kumulatif 120 SKS.</p>
-<h3 id="semester-7-20-sks-7-mk">Semester 7 — 20 SKS (7 MK)</h3>
-<p>STI-728 Inovasi Teknologi dan Startup Digital (3 +P, STI-627 + MKU-204); FST-610 Capstone Project FSTI (3 Proyek, STI-523 + ≥100 SKS); FST-612 PKL (3 Magang, ≥100 SKS); FST-613 Pra-Skripsi (2 Seminar, FST-611 + ≥100 SKS); Peminatan-4/5/6 (9 SKS: STA-701/702/703 atau STB-701/702/703 atau STC-701/702/703). Kumulatif 140 SKS.</p>
-<h3 id="semester-8-6-sks-1-mk">Semester 8 — 6 SKS (1 MK)</h3>
-<p>FST-714 Skripsi / Tugas Akhir (6 Mandiri, FST-613 + ≥120 SKS; atau 4 opsi non-skripsi Dok. 009). Kumulatif 146 SKS.</p>
-<h2 id="83-rekapitulasi-sks-per-semester">8.3 Rekapitulasi SKS per Semester</h2>
-<div class="table-wrapper"><table>
-<thead>
+<h2 class="sub">8.2 Struktur Kurikulum per Semester — sumber verbatim Dok. 005 §3 (T20–T27 Template)</h2>
+<h3 class="sub3">Semester 1 — 19 SKS (8 MK)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
 <tr>
+<td>1</td>
+<td>FST-101</td>
+<td>Dasar Teknologi Digital</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>FST-102</td>
+<td>Algoritma dan Pemrograman</td>
+<td>3</td>
+<td>+P</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>STI-101</td>
+<td>Pengantar Sistem dan TI</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>STI-102</td>
+<td>Kalkulus (K2026)</td>
+<td>3</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>STI-103</td>
+<td>Arsitektur dan Organisasi STI (K2026)</td>
+<td>3</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>MKU-101</td>
+<td>Agama I</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>7</td>
+<td>MKU-102</td>
+<td>Pancasila</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>8</td>
+<td>MKU-103</td>
+<td>Bahasa Indonesia</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 1</strong></td>
+<td></td>
+<td><strong>19</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 19 SKS (batas maks 20 SKS terpenuhi).</p>
+<h3 class="sub3">Semester 2 — 20 SKS (8 MK)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>STI-204</td>
+<td>Matematika Diskrit dan Logika (K2026)</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-103</td>
+</tr>
+<tr>
+<td>2</td>
+<td>STI-205</td>
+<td>Aljabar Linear dan Matriks</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-102</td>
+</tr>
+<tr>
+<td>3</td>
+<td>FST-203</td>
+<td>Struktur Data dan Algoritma</td>
+<td>3</td>
+<td>+P</td>
+<td>FST-102</td>
+</tr>
+<tr>
+<td>4</td>
+<td>FST-204</td>
+<td>Pengantar Kecerdasan Artifisial &amp; Data</td>
+<td>2</td>
+<td>Teori</td>
+<td>FST-101</td>
+</tr>
+<tr>
+<td>5</td>
+<td>FST-205</td>
+<td>Basic English for IT</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>FST-206</td>
+<td>Etika Profesi &amp; Hukum Digital</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>7</td>
+<td>FST-207</td>
+<td>Sistem Basis Data</td>
+<td>3</td>
+<td>+P</td>
+<td>FST-102</td>
+</tr>
+<tr>
+<td>8</td>
+<td>MKU-204</td>
+<td>Kewirausahaan I</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 2</strong></td>
+<td></td>
+<td><strong>20</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 39 SKS.</p>
+<h3 class="sub3">Semester 3 — 20 SKS (7 MK)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>STI-306</td>
+<td>Analisis dan Perancangan SI</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-101, FST-207</td>
+</tr>
+<tr>
+<td>2</td>
+<td>STI-307</td>
+<td>Sistem Cerdas</td>
+<td>2</td>
+<td>Teori</td>
+<td>STI-204, FST-204</td>
+</tr>
+<tr>
+<td>3</td>
+<td>STI-308</td>
+<td>UI/UX Design &amp; Prototyping</td>
+<td>3</td>
+<td>+P</td>
+<td>FST-101</td>
+</tr>
+<tr>
+<td>4</td>
+<td>STI-309</td>
+<td>Rekayasa Perangkat Lunak</td>
+<td>3</td>
+<td>Teori</td>
+<td>FST-203</td>
+</tr>
+<tr>
+<td>5</td>
+<td>STI-310</td>
+<td>Sistem Operasi</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-103</td>
+</tr>
+<tr>
+<td>6</td>
+<td>STI-311</td>
+<td>Web Front End Development</td>
+<td>3</td>
+<td>+P</td>
+<td>FST-102</td>
+</tr>
+<tr>
+<td>7</td>
+<td>STI-312</td>
+<td>Jaringan Komputer (K2026)</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-103</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 3</strong></td>
+<td></td>
+<td><strong>20</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 59 SKS.</p>
+<h3 class="sub3">Semester 4 — 21 SKS (8 MK + 1 MK 0 SKS)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>STI-413</td>
+<td>Machine Learning</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-205, STI-307</td>
+</tr>
+<tr>
+<td>2</td>
+<td>STI-414</td>
+<td>Pengantar NLP &amp; Information Retrieval</td>
+<td>2</td>
+<td>+P</td>
+<td>STI-307</td>
+</tr>
+<tr>
+<td>3</td>
+<td>STI-415</td>
+<td>Data Warehouse &amp; Business Intelligence</td>
+<td>3</td>
+<td>+P</td>
+<td>FST-207</td>
+</tr>
+<tr>
+<td>4</td>
+<td>STI-416</td>
+<td>Web Back End Development</td>
+<td>3</td>
+<td>+P</td>
+<td>FST-207, STI-311</td>
+</tr>
+<tr>
+<td>5</td>
+<td>STI-417</td>
+<td>Komputasi Awan</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-312, STI-310</td>
+</tr>
+<tr>
+<td>6</td>
+<td>STI-418</td>
+<td>Dasar Keamanan Informasi (K2026)</td>
+<td>2</td>
+<td>Teori</td>
+<td>STI-312</td>
+</tr>
+<tr>
+<td>7</td>
+<td>FST-408</td>
+<td>Probabilitas dan Statistika</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-102</td>
+</tr>
+<tr>
+<td>8</td>
+<td>MKU-405</td>
+<td>Kewarganegaraan</td>
+<td>2</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>MKU-406</td>
+<td>Agama II (kebijakan UWG)</td>
+<td>0</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 4</strong></td>
+<td></td>
+<td><strong>21</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 80 SKS.</p>
+<h3 class="sub3">Semester 5 — 21 SKS (7 MK + 1 MK 0 SKS)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>STI-519</td>
+<td>Keamanan Informasi Lanjut</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-418</td>
+</tr>
+<tr>
+<td>2</td>
+<td>STI-520</td>
+<td>Data Mining &amp; Visualisasi Data</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-413, STI-415</td>
+</tr>
+<tr>
+<td>3</td>
+<td>STI-521</td>
+<td>Internet of Things</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-312, STI-310</td>
+</tr>
+<tr>
+<td>4</td>
+<td>STI-522</td>
+<td>Pemrograman Aplikasi Mobile</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-311, STI-416</td>
+</tr>
+<tr>
+<td>5</td>
+<td>STI-523</td>
+<td>Manajemen Proyek TI</td>
+<td>3</td>
+<td>Teori</td>
+<td>STI-306, STI-309</td>
+</tr>
+<tr>
+<td>6</td>
+<td>MKU-507</td>
+<td>Kuliah Pengabdian Masyarakat (KPM)</td>
+<td>3</td>
+<td>Praktik</td>
+<td>≥80 SKS</td>
+</tr>
+<tr>
+<td>7</td>
+<td>STA-501 / STB-501 / STC-501</td>
+<td>MK Pilihan Peminatan-1 (satu jalur)</td>
+<td>3</td>
+<td>Elektif</td>
+<td>Lihat prasyarat jalur</td>
+</tr>
+<tr>
+<td>8</td>
+<td>MKU-508</td>
+<td>Kewirausahaan II (kebijakan UWG)</td>
+<td>0</td>
+<td>Teori</td>
+<td>—</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 5</strong></td>
+<td></td>
+<td><strong>21</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 101 SKS.</p>
+<h3 class="sub3">Semester 6 — 19 SKS (7 MK)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>STI-624</td>
+<td>Integrasi Layanan Cerdas Berbasis AI</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-413, STI-416</td>
+</tr>
+<tr>
+<td>2</td>
+<td>STI-625</td>
+<td>Smart City &amp; Pemerintahan Digital (K2026)</td>
+<td>2</td>
+<td>Teori</td>
+<td>STI-521</td>
+</tr>
+<tr>
+<td>3</td>
+<td>STI-626</td>
+<td>Deep Learning &amp; Neural Networks</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-413</td>
+</tr>
+<tr>
+<td>4</td>
+<td>STI-627</td>
+<td>Digital Platform Engineering</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-416</td>
+</tr>
+<tr>
+<td>5</td>
+<td>FST-611</td>
+<td>Metodologi Penelitian</td>
+<td>2</td>
+<td>Teori</td>
+<td>≥76 SKS</td>
+</tr>
+<tr>
+<td>6</td>
+<td>STA-601 / STB-601 / STC-601</td>
+<td>MK Pilihan Peminatan-2 (satu jalur)</td>
+<td>3</td>
+<td>Elektif</td>
+<td>Lihat prasyarat jalur</td>
+</tr>
+<tr>
+<td>7</td>
+<td>STA-602 / STB-602 / STC-602</td>
+<td>MK Pilihan Peminatan-3 (satu jalur)</td>
+<td>3</td>
+<td>Elektif</td>
+<td>Lihat prasyarat jalur</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 6</strong></td>
+<td></td>
+<td><strong>19</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 120 SKS.</p>
+<h3 class="sub3">Semester 7 — 20 SKS (7 MK)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>STI-728</td>
+<td>Inovasi Teknologi dan Startup Digital</td>
+<td>3</td>
+<td>+P</td>
+<td>STI-627, MKU-204</td>
+</tr>
+<tr>
+<td>2</td>
+<td>FST-610</td>
+<td>Capstone Project FSTI</td>
+<td>3</td>
+<td>Proyek</td>
+<td>STI-523, ≥100 SKS</td>
+</tr>
+<tr>
+<td>3</td>
+<td>FST-612</td>
+<td>Praktik Kerja Lapangan (PKL)</td>
+<td>3</td>
+<td>Magang</td>
+<td>≥100 SKS</td>
+</tr>
+<tr>
+<td>4</td>
+<td>FST-613</td>
+<td>Pra-Skripsi / Seminar Proposal</td>
+<td>2</td>
+<td>Seminar</td>
+<td>FST-611, ≥100 SKS</td>
+</tr>
+<tr>
+<td>5–7</td>
+<td>STA-701/702/703 atau STB-701/702/703 atau STC-701/702/703</td>
+<td>MK Pilihan Peminatan-4/5/6 (satu jalur)</td>
+<td>9</td>
+<td>Elektif</td>
+<td>Lihat prasyarat jalur</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 7</strong></td>
+<td></td>
+<td><strong>20</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 140 SKS.</p>
+<h3 class="sub3">Semester 8 — 6 SKS (1 MK)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Jenis MK</th>
+<th>Prasyarat</th>
+</tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>FST-714</td>
+<td>Skripsi / Tugas Akhir (atau 4 opsi non-skripsi Dok. 009)</td>
+<td>6</td>
+<td>Mandiri</td>
+<td>FST-613, ≥120 SKS</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total Semester 8</strong></td>
+<td></td>
+<td><strong>6</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>Kumulatif 146 SKS.</p>
+<h2 class="sub">8.3 Rekapitulasi SKS per Semester</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Semester</th>
 <th>Total SKS</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>1</td>
 <td>19</td>
@@ -2046,21 +2487,16 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td><strong>Total</strong></td>
 <td><strong>146</strong></td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="84-matriks-cpl-dengan-mata-kuliah-sumber-dok-004-34-t29-template-matriks-penuh-55x14-di-lampiran-1-pola-per-tahap-di-bawah-verbatim">8.4 Matriks CPL dengan Mata Kuliah — sumber Dok. 004 §3–§4, T29 Template (matriks penuh 55x14 di Lampiran 1; pola per tahap di bawah verbatim)</h2>
+</tbody></table></div>
+<h2 class="sub">8.4 Matriks CPL dengan Mata Kuliah — sumber Dok. 004 §3–§4, T29 Template (matriks penuh 55x14 di Lampiran 1; pola per tahap di bawah verbatim)</h2>
 <p>Matriks penuh 55×14 tersedia di Lampiran 1. Pola pemetaan CPL per tahap perkembangan kurikulum disajikan pada tabel di bawah ini:</p>
-<h3 id="tahap-i-fondasi-sem-12-introduce">Tahap I — Fondasi Sem 1–2 (Introduce)</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h3 class="sub3">Tahap I — Fondasi Sem 1–2 (Introduce)</h3>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode MK</th>
 <th>Nama Mata Kuliah</th>
 <th>CPL yang Dibebankan</th>
 <th>Keterangan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>STI-101</td>
 <td>Pengantar Sistem dan TI</td>
@@ -2139,19 +2575,14 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>CPL utama: <strong>S1, KU1–KU3, P1, P3, P4</strong></td>
 <td></td>
 </tr>
-</tbody>
-</table></div>
-<h3 id="tahap-ii-inti-sem-34-reinforce">Tahap II — Inti Sem 3–4 (Reinforce)</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<h3 class="sub3">Tahap II — Inti Sem 3–4 (Reinforce)</h3>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode MK</th>
 <th>Nama Mata Kuliah</th>
 <th>CPL yang Dibebankan</th>
 <th>Keterangan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>STI-306</td>
 <td>Analisis dan Perancangan SI</td>
@@ -2224,19 +2655,14 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>CPL utama: <strong>P1–P4, KK1–KK3, KK5</strong></td>
 <td></td>
 </tr>
-</tbody>
-</table></div>
-<h3 id="tahap-iii-spesialisasi-mastery-sem-58">Tahap III — Spesialisasi &amp; Mastery Sem 5–8</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<h3 class="sub3">Tahap III — Spesialisasi &amp; Mastery Sem 5–8</h3>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode MK</th>
 <th>Nama Mata Kuliah</th>
 <th>CPL yang Dibebankan</th>
 <th>Keterangan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>STI-519</td>
 <td>Keamanan Informasi Lanjut</td>
@@ -2333,38 +2759,30 @@ Ketua Program Studi SISTEKIN — [Nama — PERLU DATA UPPS]</p>
 <td>CPL utama: <strong>S1, KU1–3, KK1–KK6</strong> (semua 14 CPL terpenuhi)</td>
 <td></td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="85-peta-kurikulum">8.5 Peta Kurikulum</h2>
-<blockquote>
-<p><strong>Tiga Level Perkembangan Kompetensi (Outcome-Based Education):</strong><br />
-● <strong>Level I — Introduce (Sem 1–2 / 39 SKS):</strong> Membangun fondasi sains komputasi, matematika diskrit, aljabar linear, basis data, logika sistem, dan etika profesional.<br />
-● <strong>Level R — Reinforce (Sem 3–4 / 42 SKS):</strong> Penguatan rekayasa perangkat lunak, sistem cerdas &amp; machine learning, komputasi awan, jaringan komputer, dan keamanan siber.<br />
-● <strong>Level M — Mastery (Sem 5–8 / 65 SKS):</strong> Spesialisasi 3 jalur peminatan (P1/P2/P3 @ 18 SKS), integrasi layanan AI, rekayasa platform digital, Capstone Project lintas disiplin, PKL, dan Tugas Akhir / Skripsi 6 SKS.  </p>
-<p><em>Rujukan Komprehensif: Tree Prasyarat Lengkap → Dok. 012 · Demarkasi Boundary Silabus &amp; 5 Golden Rules Anti-Overlap → Dok. 037.</em></p>
-</blockquote>
-<h3 id="gambar-81-diagram-alir-prasyarat-mata-kuliah-prerequisite-flowchart-bt">Gambar 8.1 — Diagram Alir Prasyarat Mata Kuliah (Prerequisite Flowchart BT)</h3>
-<p><em>Peta ketergantungan sekuensial mata kuliah berantai (Bottom-to-Top) dari fondasi sains/komputasi Semester 1 hingga kulminasi Tugas Akhir Semester 8.</em></p>
-<div class="mermaid-card"><div class="mermaid">
-flowchart BT
+</tbody></table></div>
+<h2 class="sub">8.5 Peta Kurikulum</h2>
+<div class="kpt-quote"><p><strong>Tiga Level Perkembangan Kompetensi (Outcome-Based Education):</strong> ● <strong>Level I — Introduce (Sem 1–2 / 39 SKS):</strong> Membangun fondasi sains komputasi, matematika diskrit, aljabar linear, basis data, logika sistem, dan etika profesional. ● <strong>Level R — Reinforce (Sem 3–4 / 42 SKS):</strong> Penguatan rekayasa perangkat lunak, sistem cerdas &amp; machine learning, komputasi awan, jaringan komputer, dan keamanan siber. ● <strong>Level M — Mastery (Sem 5–8 / 65 SKS):</strong> Spesialisasi 3 jalur peminatan (P1/P2/P3 @ 18 SKS), integrasi layanan AI, rekayasa platform digital, Capstone Project lintas disiplin, PKL, dan Tugas Akhir / Skripsi 6 SKS.  *Rujukan Komprehensif: Tree Prasyarat Lengkap → Dok. 012 · Demarkasi Boundary Silabus &amp; 5 Golden Rules Anti-Overlap → Dok. 037.*</p></div>
+<h3 class="sub3">Gambar 8.1 — Diagram Alir Prasyarat Mata Kuliah (Prerequisite Flowchart BT)</h3>
+<p>*Peta ketergantungan sekuensial mata kuliah berantai (Bottom-to-Top) dari fondasi sains/komputasi Semester 1 hingga kulminasi Tugas Akhir Semester 8.*</p>
+<figure class="kpt-fig"><p class="fig-title">Gambar 8.1 — Diagram Alir Prasyarat Mata Kuliah (Prerequisite Flowchart BT)</p><p class="fig-desc">Diagram ini dimodelkan sebagai bagan alir prasyarat / progresi kurikulum (51 simpul, 61 relasi). Pada dokumen cetak formal, bagan ditampilkan sebagai gambar statis; versi interaktif (diperbesar, pencarian) tersedia pada portal HTML. Rujukan penuh: Dok. 005 (struktur), Dok. 012 (tree prasyarat).</p><details><summary>Kode sumber diagram (arsip, 156 baris)</summary><pre>flowchart BT
     %% LEVEL I: INTRODUCE (SEMESTER 1 &amp; 2)
-    subgraph S1 [&quot;Semester 1: Fondasi Awal Sains &amp; Komputasi&quot;]
-        STI101[&quot;STI-101&lt;br/&gt;Pengantar STI (2)&quot;]
-        STI102[&quot;STI-102&lt;br/&gt;Kalkulus (3)&quot;]
-        STI103[&quot;STI-103&lt;br/&gt;Arsitektur &amp; Org STI (3)&quot;]
-        FST102[&quot;FST-102&lt;br/&gt;Algoritma &amp; Pemrog (3)&quot;]
-        FST101[&quot;FST-101&lt;br/&gt;Dasar Tek. Digital (2)&quot;]
+    subgraph S1 ["Semester 1: Fondasi Awal Sains &amp; Komputasi"]
+        STI101["STI-101&lt;br/&gt;Pengantar STI (2)"]
+        STI102["STI-102&lt;br/&gt;Kalkulus (3)"]
+        STI103["STI-103&lt;br/&gt;Arsitektur &amp; Org STI (3)"]
+        FST102["FST-102&lt;br/&gt;Algoritma &amp; Pemrog (3)"]
+        FST101["FST-101&lt;br/&gt;Dasar Tek. Digital (2)"]
     end
 
-    subgraph S2 [&quot;Semester 2: Fondasi Lanjut &amp; Rekayasa Data&quot;]
-        STI204[&quot;STI-204&lt;br/&gt;Matdis &amp; Logika (3)&quot;]
-        STI205[&quot;STI-205&lt;br/&gt;Aljabar Linear (3)&quot;]
-        FST203[&quot;FST-203&lt;br/&gt;Struktur Data (3)&quot;]
-        FST204[&quot;FST-204&lt;br/&gt;Pengantar AI &amp; Data (2)&quot;]
-        FST205[&quot;FST-205&lt;br/&gt;Pemrog. Berorientasi Objek (3)&quot;]
-        FST206[&quot;FST-206&lt;br/&gt;Etika &amp; Hukum Digital (2)&quot;]
-        FST207[&quot;FST-207&lt;br/&gt;Sistem Basis Data (2)&quot;]
-        MKU204[&quot;MKU-204&lt;br/&gt;Kewirausahaan I (2)&quot;]
+    subgraph S2 ["Semester 2: Fondasi Lanjut &amp; Rekayasa Data"]
+        STI204["STI-204&lt;br/&gt;Matdis &amp; Logika (3)"]
+        STI205["STI-205&lt;br/&gt;Aljabar Linear (3)"]
+        FST203["FST-203&lt;br/&gt;Struktur Data (3)"]
+        FST204["FST-204&lt;br/&gt;Pengantar AI &amp; Data (2)"]
+        FST205["FST-205&lt;br/&gt;Pemrog. Berorientasi Objek (3)"]
+        FST206["FST-206&lt;br/&gt;Etika &amp; Hukum Digital (2)"]
+        FST207["FST-207&lt;br/&gt;Sistem Basis Data (2)"]
+        MKU204["MKU-204&lt;br/&gt;Kewirausahaan I (2)"]
     end
 
     STI102 --&gt; STI205
@@ -2375,14 +2793,14 @@ flowchart BT
     FST101 --&gt; FST206
 
     %% LEVEL II: REINFORCE (SEMESTER 3 &amp; 4)
-    subgraph S3 [&quot;Semester 3: Inti Rekayasa Sistem &amp; Infrastruktur&quot;]
-        STI306[&quot;STI-306&lt;br/&gt;Analisis &amp; Desain SI (3)&quot;]
-        STI307[&quot;STI-307&lt;br/&gt;Sistem Cerdas (3)&quot;]
-        STI308[&quot;STI-308&lt;br/&gt;UI/UX Design (3)&quot;]
-        STI309[&quot;STI-309&lt;br/&gt;Rekayasa PL (3)&quot;]
-        STI310[&quot;STI-310&lt;br/&gt;Sistem Operasi (3)&quot;]
-        STI311[&quot;STI-311&lt;br/&gt;Web Front-End (3)&quot;]
-        STI312[&quot;STI-312&lt;br/&gt;Jaringan Komputer (3)&quot;]
+    subgraph S3 ["Semester 3: Inti Rekayasa Sistem &amp; Infrastruktur"]
+        STI306["STI-306&lt;br/&gt;Analisis &amp; Desain SI (3)"]
+        STI307["STI-307&lt;br/&gt;Sistem Cerdas (3)"]
+        STI308["STI-308&lt;br/&gt;UI/UX Design (3)"]
+        STI309["STI-309&lt;br/&gt;Rekayasa PL (3)"]
+        STI310["STI-310&lt;br/&gt;Sistem Operasi (3)"]
+        STI311["STI-311&lt;br/&gt;Web Front-End (3)"]
+        STI312["STI-312&lt;br/&gt;Jaringan Komputer (3)"]
     end
 
     STI103 --&gt; STI310
@@ -2394,14 +2812,14 @@ flowchart BT
     FST205 --&gt; STI309
     FST207 --&gt; STI306
 
-    subgraph S4 [&quot;Semester 4: Analitik, Cloud &amp; Cyber Security Baseline&quot;]
-        STI413[&quot;STI-413&lt;br/&gt;Machine Learning (3)&quot;]
-        STI414[&quot;STI-414&lt;br/&gt;Pengantar NLP &amp; IR (3)&quot;]
-        STI415[&quot;STI-415&lt;br/&gt;Data Warehouse &amp; BI (3)&quot;]
-        STI416[&quot;STI-416&lt;br/&gt;Web Back-End (3)&quot;]
-        STI417[&quot;STI-417&lt;br/&gt;Komputasi Awan (3)&quot;]
-        STI418[&quot;STI-418&lt;br/&gt;Dasar Keamanan Info (2)&quot;]
-        FST408[&quot;FST-408&lt;br/&gt;Probabilitas &amp; Stat (2)&quot;]
+    subgraph S4 ["Semester 4: Analitik, Cloud &amp; Cyber Security Baseline"]
+        STI413["STI-413&lt;br/&gt;Machine Learning (3)"]
+        STI414["STI-414&lt;br/&gt;Pengantar NLP &amp; IR (3)"]
+        STI415["STI-415&lt;br/&gt;Data Warehouse &amp; BI (3)"]
+        STI416["STI-416&lt;br/&gt;Web Back-End (3)"]
+        STI417["STI-417&lt;br/&gt;Komputasi Awan (3)"]
+        STI418["STI-418&lt;br/&gt;Dasar Keamanan Info (2)"]
+        FST408["FST-408&lt;br/&gt;Probabilitas &amp; Stat (2)"]
     end
 
     STI310 --&gt; STI417
@@ -2415,15 +2833,15 @@ flowchart BT
     FST207 --&gt; STI416
 
     %% LEVEL III: MASTERY (SEMESTER 5, 6, 7, 8)
-    subgraph S5 [&quot;Semester 5: Integrasi Sistem &amp; Pemilihan Jalur Peminatan&quot;]
-        STI519[&quot;STI-519&lt;br/&gt;Keamanan Info Lanjut (3)&quot;]
-        STI520[&quot;STI-520&lt;br/&gt;Data Mining &amp; Visualisasi (3)&quot;]
-        STI521[&quot;STI-521&lt;br/&gt;Internet of Things (3)&quot;]
-        STI522[&quot;STI-522&lt;br/&gt;Pemrog. Mobile (3)&quot;]
-        STI523[&quot;STI-523&lt;br/&gt;Manajemen Proyek TI (3)&quot;]
-        STA501[&quot;STA-501 (P1)&lt;br/&gt;Decision Support Sys (3)&quot;]
-        STB501[&quot;STB-501 (P2)&lt;br/&gt;Keamanan Jarkom (3)&quot;]
-        STC501[&quot;STC-501 (P3)&lt;br/&gt;Adv UX &amp; Des System (3)&quot;]
+    subgraph S5 ["Semester 5: Integrasi Sistem &amp; Pemilihan Jalur Peminatan"]
+        STI519["STI-519&lt;br/&gt;Keamanan Info Lanjut (3)"]
+        STI520["STI-520&lt;br/&gt;Data Mining &amp; Visualisasi (3)"]
+        STI521["STI-521&lt;br/&gt;Internet of Things (3)"]
+        STI522["STI-522&lt;br/&gt;Pemrog. Mobile (3)"]
+        STI523["STI-523&lt;br/&gt;Manajemen Proyek TI (3)"]
+        STA501["STA-501 (P1)&lt;br/&gt;Decision Support Sys (3)"]
+        STB501["STB-501 (P2)&lt;br/&gt;Keamanan Jarkom (3)"]
+        STC501["STC-501 (P3)&lt;br/&gt;Adv UX &amp; Des System (3)"]
     end
 
     STI418 --&gt; STI519
@@ -2439,15 +2857,15 @@ flowchart BT
     STI418 --&gt; STB501
     STI308 --&gt; STC501
 
-    subgraph S6 [&quot;Semester 6: Spesialisasi Lanjut &amp; Metodologi Riset&quot;]
-        STI624[&quot;STI-624&lt;br/&gt;Integrasi Layanan AI (3)&quot;]
-        STI625[&quot;STI-625&lt;br/&gt;Smart City &amp; Pem Dig (2)&quot;]
-        STI626[&quot;STI-626&lt;br/&gt;Deep Learning &amp; NN (3)&quot;]
-        STI627[&quot;STI-627&lt;br/&gt;Platform Engineering (3)&quot;]
-        FST611[&quot;FST-611&lt;br/&gt;Metodologi Penelitian (2)&quot;]
-        STA601[&quot;STA-601/602 (P1)&lt;br/&gt;Big Data / Agen (6)&quot;]
-        STB601[&quot;STB-601/602 (P2)&lt;br/&gt;DevOps / Pentest (6)&quot;]
-        STC601[&quot;STC-601/602 (P3)&lt;br/&gt;BPMN / Vertikal (6)&quot;]
+    subgraph S6 ["Semester 6: Spesialisasi Lanjut &amp; Metodologi Riset"]
+        STI624["STI-624&lt;br/&gt;Integrasi Layanan AI (3)"]
+        STI625["STI-625&lt;br/&gt;Smart City &amp; Pem Dig (2)"]
+        STI626["STI-626&lt;br/&gt;Deep Learning &amp; NN (3)"]
+        STI627["STI-627&lt;br/&gt;Platform Engineering (3)"]
+        FST611["FST-611&lt;br/&gt;Metodologi Penelitian (2)"]
+        STA601["STA-601/602 (P1)&lt;br/&gt;Big Data / Agen (6)"]
+        STB601["STB-601/602 (P2)&lt;br/&gt;DevOps / Pentest (6)"]
+        STC601["STC-601/602 (P3)&lt;br/&gt;BPMN / Vertikal (6)"]
     end
 
     STI413 --&gt; STI624
@@ -2463,14 +2881,14 @@ flowchart BT
     STI306 --&gt; STC601
     STI522 --&gt; STC602
 
-    subgraph S7 [&quot;Semester 7: Sintesis Capstone, Magang PKL &amp; Pra-Skripsi&quot;]
-        STI728[&quot;STI-728&lt;br/&gt;Inovasi &amp; Startup (3)&quot;]
-        FST610[&quot;FST-610&lt;br/&gt;Capstone Project FSTI (3)&quot;]
-        FST612[&quot;FST-612&lt;br/&gt;Praktik Kerja Lapangan (3)&quot;]
-        FST613[&quot;FST-613&lt;br/&gt;Pra-Skripsi / Sempro (2)&quot;]
-        STA701[&quot;STA-701/702/703 (P1)&lt;br/&gt;MLOps / LLM / Edge AI (9)&quot;]
-        STB701[&quot;STB-701/702/703 (P2)&lt;br/&gt;GRC / CloudSec / SRE (9)&quot;]
-        STC701[&quot;STC-701/702/703 (P3)&lt;br/&gt;XR / SaaS / Prod Mgmt (9)&quot;]
+    subgraph S7 ["Semester 7: Sintesis Capstone, Magang PKL &amp; Pra-Skripsi"]
+        STI728["STI-728&lt;br/&gt;Inovasi &amp; Startup (3)"]
+        FST610["FST-610&lt;br/&gt;Capstone Project FSTI (3)"]
+        FST612["FST-612&lt;br/&gt;Praktik Kerja Lapangan (3)"]
+        FST613["FST-613&lt;br/&gt;Pra-Skripsi / Sempro (2)"]
+        STA701["STA-701/702/703 (P1)&lt;br/&gt;MLOps / LLM / Edge AI (9)"]
+        STB701["STB-701/702/703 (P2)&lt;br/&gt;GRC / CloudSec / SRE (9)"]
+        STC701["STC-701/702/703 (P3)&lt;br/&gt;XR / SaaS / Prod Mgmt (9)"]
     end
 
     STI627 --&gt; STI728
@@ -2485,8 +2903,8 @@ flowchart BT
     STI627 --&gt; STC702
     STI728 --&gt; STC703
 
-    subgraph S8 [&quot;Semester 8: Kulminasi Kelulusan&quot;]
-        FST714[&quot;FST-714 SKRIPSI / TUGAS AKHIR (6 SKS)&lt;br/&gt;(Skripsi Murni / Proyek Startup / Prototipe Industri / Jurnal)&quot;]
+    subgraph S8 ["Semester 8: Kulminasi Kelulusan"]
+        FST714["FST-714 SKRIPSI / TUGAS AKHIR (6 SKS)&lt;br/&gt;(Skripsi Murni / Proyek Startup / Prototipe Industri / Jurnal)"]
     end
 
     FST613 --&gt; FST714
@@ -2501,27 +2919,24 @@ flowchart BT
     class STI101,STI102,STI103,FST102,FST101,STI204,STI205,FST203,FST204,FST205,FST206,FST207,MKU204 fondasi;
     class STI306,STI307,STI308,STI309,STI310,STI311,STI312,STI413,STI414,STI415,STI416,STI417,STI418,FST408 inti;
     class STI519,STI520,STI521,STI522,STI523,STA501,STB501,STC501,STI624,STI625,STI626,STI627,FST611,STA601,STB601,STB602,STC601,STC602,STI728,STA701,STB701,STC701,STC702,STC703 spesialisasi;
-    class FST610,FST612,FST613,FST714 puncak;
-</div></div>
-
-<h3 id="gambar-82-peta-perkembangan-kurikulum-3-jalur-peminatan-curriculum-progression-flowchart-bt">Gambar 8.2 — Peta Perkembangan Kurikulum &amp; 3 Jalur Peminatan (Curriculum Progression Flowchart BT)</h3>
-<p><em>Pemetaan alur kurikulum berjenjang dari Fondasi (Introduce) menuju Penguatan Inti (Reinforce), Spesialisasi (Mastery) dengan 3 Peminatan, dan Kulminasi Gelar Sarjana Komputer (S.Kom).</em></p>
-<div class="mermaid-card"><div class="mermaid">
-flowchart BT
+    class FST610,FST612,FST613,FST714 puncak;</pre></details></figure>
+<h3 class="sub3">Gambar 8.2 — Peta Perkembangan Kurikulum &amp; 3 Jalur Peminatan (Curriculum Progression Flowchart BT)</h3>
+<p>*Pemetaan alur kurikulum berjenjang dari Fondasi (Introduce) menuju Penguatan Inti (Reinforce), Spesialisasi (Mastery) dengan 3 Peminatan, dan Kulminasi Gelar Sarjana Komputer (S.Kom).*</p>
+<figure class="kpt-fig"><p class="fig-title">Gambar 8.2 — Peta Perkembangan Kurikulum &amp; 3 Jalur Peminatan (Curriculum Progression Flowchart BT)</p><p class="fig-desc">Diagram ini dimodelkan sebagai bagan alir prasyarat / progresi kurikulum (16 simpul, 19 relasi). Pada dokumen cetak formal, bagan ditampilkan sebagai gambar statis; versi interaktif (diperbesar, pencarian) tersedia pada portal HTML. Rujukan penuh: Dok. 005 (struktur), Dok. 012 (tree prasyarat).</p><details><summary>Kode sumber diagram (arsip, 85 baris)</summary><pre>flowchart BT
     %% LEVEL PUNCAK
-    subgraph PUNCAK [&quot;TAHAP KULMINASI &amp; GELAR (SEMESTER 8 — 8 SKS)&quot;]
-        GRAD[&quot;SARJANA KOMPUTER (S.Kom)&lt;br/&gt;Paket Ditempuh: 146 SKS / 55 MK&lt;br/&gt;14 CPL (SN-Dikti &amp; APTIKOM)&quot;]
-        TA[&quot;FST-714 Skripsi / Tugas Akhir (6 SKS)&lt;br/&gt;• Skripsi Riset Murni&lt;br/&gt;• Proyek Startup Digital&lt;br/&gt;• Prototipe Sistem Industri&lt;br/&gt;• Publikasi Ilmiah Bereputasi&quot;]
-        AGM2[&quot;MKU-808 Agama II (2 SKS)&quot;]
+    subgraph PUNCAK ["TAHAP KULMINASI &amp; GELAR (SEMESTER 8 — 8 SKS)"]
+        GRAD["SARJANA KOMPUTER (S.Kom)&lt;br/&gt;Paket Ditempuh: 146 SKS / 55 MK&lt;br/&gt;14 CPL (SN-Dikti &amp; APTIKOM)"]
+        TA["FST-714 Skripsi / Tugas Akhir (6 SKS)&lt;br/&gt;• Skripsi Riset Murni&lt;br/&gt;• Proyek Startup Digital&lt;br/&gt;• Prototipe Sistem Industri&lt;br/&gt;• Publikasi Ilmiah Bereputasi"]
+        AGM2["MKU-808 Agama II (2 SKS)"]
         TA --&gt; GRAD
     end
 
     %% LEVEL MASTERY - SINTESIS SEM 7
-    subgraph MASTERY_SYN [&quot;TAHAP MASTERY: SINTESIS &amp; CAPSTONE (SEMESTER 7 — 18 SKS)&quot;]
-        CAP[&quot;FST-610 Capstone Project FSTI (3 SKS)&lt;br/&gt;Kolaborasi Lintas Peminatan&quot;]
-        PKL[&quot;FST-612 Praktik Kerja Lapangan / PKL (3 SKS)&lt;br/&gt;Magang Industri Mitra&quot;]
-        SEMPRO[&quot;FST-613 Pra-Skripsi / Sempro (2 SKS)&quot;]
-        STARTUP[&quot;STI-728 Inovasi &amp; Startup Digital (3 SKS)&quot;]
+    subgraph MASTERY_SYN ["TAHAP MASTERY: SINTESIS &amp; CAPSTONE (SEMESTER 7 — 18 SKS)"]
+        CAP["FST-610 Capstone Project FSTI (3 SKS)&lt;br/&gt;Kolaborasi Lintas Peminatan"]
+        PKL["FST-612 Praktik Kerja Lapangan / PKL (3 SKS)&lt;br/&gt;Magang Industri Mitra"]
+        SEMPRO["FST-613 Pra-Skripsi / Sempro (2 SKS)"]
+        STARTUP["STI-728 Inovasi &amp; Startup Digital (3 SKS)"]
     end
 
     CAP --&gt; TA
@@ -2529,17 +2944,17 @@ flowchart BT
     PKL -.-&gt; TA
 
     %% 3 TRACK PEMINATAN
-    subgraph TRACKS [&quot;3 JALUR PEMINATAN BERBASIS PROFIL LULUSAN (SEMESTER 5–7: @ 18 SKS)&quot;]
-        subgraph P1 [&quot;P1: Integrated Smart Systems (PL-1)&quot;]
-            STA_ALL[&quot;STA-501 Decision Support Systems (3)&lt;br/&gt;STA-601 Big Data Engineering &amp; Terdistribusi (3)&lt;br/&gt;STA-602 Sistem Agen Cerdas &amp; Multi-Agent (3)&lt;br/&gt;STA-701 MLOps &amp; AI Deployment (3)&lt;br/&gt;STA-702 Conversational AI &amp; LLM (3)&lt;br/&gt;STA-703 Smart Surveillance &amp; Edge AI (3)&quot;]
+    subgraph TRACKS ["3 JALUR PEMINATAN BERBASIS PROFIL LULUSAN (SEMESTER 5–7: @ 18 SKS)"]
+        subgraph P1 ["P1: Integrated Smart Systems (PL-1)"]
+            STA_ALL["STA-501 Decision Support Systems (3)&lt;br/&gt;STA-601 Big Data Engineering &amp; Terdistribusi (3)&lt;br/&gt;STA-602 Sistem Agen Cerdas &amp; Multi-Agent (3)&lt;br/&gt;STA-701 MLOps &amp; AI Deployment (3)&lt;br/&gt;STA-702 Conversational AI &amp; LLM (3)&lt;br/&gt;STA-703 Smart Surveillance &amp; Edge AI (3)"]
         end
 
-        subgraph P2 [&quot;P2: Cloud Infra &amp; Cybersecurity (PL-2)&quot;]
-            STB_ALL[&quot;STB-501 Keamanan Jaringan &amp; Forensik (3)&lt;br/&gt;STB-601 Cloud Arch &amp; DevOps CI/CD (3)&lt;br/&gt;STB-602 Penetration Testing &amp; Red Team (3)&lt;br/&gt;STB-701 IT Governance COBIT 2019 (3)&lt;br/&gt;STB-702 Keamanan Cloud &amp; Kriptografi (3)&lt;br/&gt;STB-703 Rekayasa Ketahanan SRE (3)&quot;]
+        subgraph P2 ["P2: Cloud Infra &amp; Cybersecurity (PL-2)"]
+            STB_ALL["STB-501 Keamanan Jaringan &amp; Forensik (3)&lt;br/&gt;STB-601 Cloud Arch &amp; DevOps CI/CD (3)&lt;br/&gt;STB-602 Penetration Testing &amp; Red Team (3)&lt;br/&gt;STB-701 IT Governance COBIT 2019 (3)&lt;br/&gt;STB-702 Keamanan Cloud &amp; Kriptografi (3)&lt;br/&gt;STB-703 Rekayasa Ketahanan SRE (3)"]
         end
 
-        subgraph P3 [&quot;P3: Digital Platform Engineering (PL-3 &amp; PL-4)&quot;]
-            STC_ALL[&quot;STC-501 Advanced UX Research (3)&lt;br/&gt;STC-601 Otomasi Bisnis BPMN (3)&lt;br/&gt;STC-602 Aplikasi Vertikal Industri (3)&lt;br/&gt;STC-701 Spatial Computing &amp; XR (3)&lt;br/&gt;STC-702 Arsitektur SaaS Enterprise (3)&lt;br/&gt;STC-703 Manajemen Produk Digital (3)&quot;]
+        subgraph P3 ["P3: Digital Platform Engineering (PL-3 &amp; PL-4)"]
+            STC_ALL["STC-501 Advanced UX Research (3)&lt;br/&gt;STC-601 Otomasi Bisnis BPMN (3)&lt;br/&gt;STC-602 Aplikasi Vertikal Industri (3)&lt;br/&gt;STC-701 Spatial Computing &amp; XR (3)&lt;br/&gt;STC-702 Arsitektur SaaS Enterprise (3)&lt;br/&gt;STC-703 Manajemen Produk Digital (3)"]
         end
     end
 
@@ -2552,9 +2967,9 @@ flowchart BT
     STC_ALL --&gt; STARTUP
 
     %% LEVEL MASTERY - SEMESTER 5 &amp; 6 CORE
-    subgraph MASTERY_CORE [&quot;TAHAP MASTERY: CORE LANJUTAN (SEMESTER 5 &amp; 6 — 39 SKS)&quot;]
-        S5_CORE[&quot;Semester 5 Core:&lt;br/&gt;• STI-519 Keamanan Info Lanjut (3)&lt;br/&gt;• STI-520 Data Mining &amp; Vis (3)&lt;br/&gt;• STI-521 Internet of Things (3)&lt;br/&gt;• STI-522 Pemrograman Mobile (3)&lt;br/&gt;• STI-523 Manajemen Proyek TI (3)&lt;br/&gt;• MKU-507 KPM MBKM (3) • MKU-506 Bhs Inggris (2)&quot;]
-        S6_CORE[&quot;Semester 6 Core:&lt;br/&gt;• STI-624 Integrasi Layanan Cerdas AI (3)&lt;br/&gt;• STI-625 Smart City &amp; Pem. Digital (2)&lt;br/&gt;• STI-626 Deep Learning &amp; NN (3)&lt;br/&gt;• STI-627 Digital Platform Eng. (3)&lt;br/&gt;• FST-611 Metodologi Penelitian (2)&quot;]
+    subgraph MASTERY_CORE ["TAHAP MASTERY: CORE LANJUTAN (SEMESTER 5 &amp; 6 — 39 SKS)"]
+        S5_CORE["Semester 5 Core:&lt;br/&gt;• STI-519 Keamanan Info Lanjut (3)&lt;br/&gt;• STI-520 Data Mining &amp; Vis (3)&lt;br/&gt;• STI-521 Internet of Things (3)&lt;br/&gt;• STI-522 Pemrograman Mobile (3)&lt;br/&gt;• STI-523 Manajemen Proyek TI (3)&lt;br/&gt;• MKU-507 KPM MBKM (3) • MKU-506 Bhs Inggris (2)"]
+        S6_CORE["Semester 6 Core:&lt;br/&gt;• STI-624 Integrasi Layanan Cerdas AI (3)&lt;br/&gt;• STI-625 Smart City &amp; Pem. Digital (2)&lt;br/&gt;• STI-626 Deep Learning &amp; NN (3)&lt;br/&gt;• STI-627 Digital Platform Eng. (3)&lt;br/&gt;• FST-611 Metodologi Penelitian (2)"]
     end
 
     S5_CORE --&gt; S6_CORE
@@ -2562,9 +2977,9 @@ flowchart BT
     S6_CORE --&gt; SEMPRO
 
     %% LEVEL REINFORCE - SEMESTER 3 &amp; 4
-    subgraph REINFORCE [&quot;TAHAP REINFORCE: PENGUATAN INTI TEKNOLOGI (SEMESTER 3 &amp; 4 — 42 SKS)&quot;]
-        S3_ALL[&quot;Semester 3 (21 SKS):&lt;br/&gt;• STI-306 APSI (3) • STI-307 Sistem Cerdas (3)&lt;br/&gt;• STI-308 UI/UX (3) • STI-309 RPL (3)&lt;br/&gt;• STI-310 Sistem Operasi (3)&lt;br/&gt;• STI-311 Web Front-End (3)&lt;br/&gt;• STI-312 Jaringan Komputer (3)&quot;]
-        S4_ALL[&quot;Semester 4 (21 SKS):&lt;br/&gt;• STI-413 Machine Learning (3)&lt;br/&gt;• STI-414 NLP &amp; IR (3) • STI-415 Data Warehouse (3)&lt;br/&gt;• STI-416 Web Back-End (3)&lt;br/&gt;• STI-417 Komputasi Awan (3)&lt;br/&gt;• STI-418 Dasar Keamanan Info (2)&lt;br/&gt;• FST-408 Probstat (2) • MKU-405 KWN (2)&quot;]
+    subgraph REINFORCE ["TAHAP REINFORCE: PENGUATAN INTI TEKNOLOGI (SEMESTER 3 &amp; 4 — 42 SKS)"]
+        S3_ALL["Semester 3 (21 SKS):&lt;br/&gt;• STI-306 APSI (3) • STI-307 Sistem Cerdas (3)&lt;br/&gt;• STI-308 UI/UX (3) • STI-309 RPL (3)&lt;br/&gt;• STI-310 Sistem Operasi (3)&lt;br/&gt;• STI-311 Web Front-End (3)&lt;br/&gt;• STI-312 Jaringan Komputer (3)"]
+        S4_ALL["Semester 4 (21 SKS):&lt;br/&gt;• STI-413 Machine Learning (3)&lt;br/&gt;• STI-414 NLP &amp; IR (3) • STI-415 Data Warehouse (3)&lt;br/&gt;• STI-416 Web Back-End (3)&lt;br/&gt;• STI-417 Komputasi Awan (3)&lt;br/&gt;• STI-418 Dasar Keamanan Info (2)&lt;br/&gt;• FST-408 Probstat (2) • MKU-405 KWN (2)"]
     end
 
     S3_ALL --&gt; S4_ALL
@@ -2572,9 +2987,9 @@ flowchart BT
     S4_ALL --&gt; TRACKS
 
     %% LEVEL INTRODUCE - SEMESTER 1 &amp; 2
-    subgraph INTRODUCE [&quot;TAHAP INTRODUCE: FONDASI SAINS, MATEMATIKA &amp; KOMPUTASI (SEMESTER 1 &amp; 2 — 39 SKS)&quot;]
-        S1_ALL[&quot;Semester 1 (19 SKS):&lt;br/&gt;• STI-101 Pengantar STI (2) • STI-102 Kalkulus (3)&lt;br/&gt;• STI-103 Arsitektur &amp; Org. STI (3)&lt;br/&gt;• FST-101 Dasar Tek. Digital (2)&lt;br/&gt;• FST-102 Algoritma &amp; Pemrograman (3)&lt;br/&gt;• MKWU: Agama I, Pancasila, Bhs. Indonesia (6)&quot;]
-        S2_ALL[&quot;Semester 2 (20 SKS):&lt;br/&gt;• STI-204 Matematika Diskrit &amp; Logika (3)&lt;br/&gt;• STI-205 Aljabar Linear &amp; Matriks (3)&lt;br/&gt;• FST-203 Struktur Data &amp; Algo (3)&lt;br/&gt;• FST-204 Pengantar AI &amp; Data (2)&lt;br/&gt;• FST-205 PBO (3) • FST-206 Etika Digital (2)&lt;br/&gt;• FST-207 Basis Data (2) • MKU-204 KWU I (2)&quot;]
+    subgraph INTRODUCE ["TAHAP INTRODUCE: FONDASI SAINS, MATEMATIKA &amp; KOMPUTASI (SEMESTER 1 &amp; 2 — 39 SKS)"]
+        S1_ALL["Semester 1 (19 SKS):&lt;br/&gt;• STI-101 Pengantar STI (2) • STI-102 Kalkulus (3)&lt;br/&gt;• STI-103 Arsitektur &amp; Org. STI (3)&lt;br/&gt;• FST-101 Dasar Tek. Digital (2)&lt;br/&gt;• FST-102 Algoritma &amp; Pemrograman (3)&lt;br/&gt;• MKWU: Agama I, Pancasila, Bhs. Indonesia (6)"]
+        S2_ALL["Semester 2 (20 SKS):&lt;br/&gt;• STI-204 Matematika Diskrit &amp; Logika (3)&lt;br/&gt;• STI-205 Aljabar Linear &amp; Matriks (3)&lt;br/&gt;• FST-203 Struktur Data &amp; Algo (3)&lt;br/&gt;• FST-204 Pengantar AI &amp; Data (2)&lt;br/&gt;• FST-205 PBO (3) • FST-206 Etika Digital (2)&lt;br/&gt;• FST-207 Basis Data (2) • MKU-204 KWU I (2)"]
     end
 
     S1_ALL --&gt; S2_ALL
@@ -2591,20 +3006,14 @@ flowchart BT
     class S3_ALL,S4_ALL cReinf;
     class S5_CORE,S6_CORE,CAP,PKL,SEMPRO,STARTUP cMast;
     class STA_ALL,STB_ALL,STC_ALL cTrack;
-    class TA,GRAD cApex;
-</div></div>
-
-<h2 id="86-mata-kuliah-pilihankonsentrasi">8.6 Mata Kuliah Pilihan/Konsentrasi</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+    class TA,GRAD cApex;</pre></details></figure>
+<h2 class="sub">8.6 Mata Kuliah Pilihan/Konsentrasi</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>Konsentrasi/Peminatan</th>
 <th>Mata Kuliah</th>
 <th>SKS</th>
 <th>Semester</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>P1 Integrated Smart Systems</td>
 <td>STA-501, 601, 602, 701, 702, 703</td>
@@ -2623,38 +3032,87 @@ flowchart BT
 <td>18</td>
 <td>5,6,6,7,7,7</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Tempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7). Ekspansi 502-503/603-604/704-705 disiapkan Dok. 025, 035-036.</p>
-<h1 id="bab-ix-modalitas-pembelajaran-dan-rencana-pembelajaran-semester-sumber-dok-007-dok-008-dok-018">BAB IX — MODALITAS PEMBELAJARAN DAN RENCANA PEMBELAJARAN SEMESTER — sumber Dok. 007, Dok. 008, Dok. 018</h1>
-<h2 id="91-prinsip-pembelajaran">9.1 Prinsip Pembelajaran</h2>
+<h1 class="bab">BAB IX — MODALITAS PEMBELAJARAN DAN RENCANA PEMBELAJARAN SEMESTER — sumber Dok. 007, Dok. 008, Dok. 018</h1>
+<h2 class="sub">9.1 Prinsip Pembelajaran</h2>
 <p>Student-centered (SCL), konstruktif, lifelong learning; selaras CPL-CPMK-SubCPMK. Setiap MK merumuskan 3–4 CPMK (Bloom C2–C6, format ABCD) dan Sub-CPMK mingguan (Dok. 007 Tabel A–C per MK, 67 MK portofolio).</p>
-<h2 id="92-bentuk-pembelajaran">9.2 Bentuk Pembelajaran</h2>
+<h2 class="sub">9.2 Bentuk Pembelajaran</h2>
 <p>Kuliah, responsi/tutorial, praktikum/lab, seminar, studio/proyek, magang/PKL, KPM, penelitian, pengabdian. 20 MK +Praktikum (63 SKS/43,2%) hands-on (Dok. 005).</p>
-<h2 id="93-metode-pembelajaran">9.3 Metode Pembelajaran</h2>
+<h2 class="sub">9.3 Metode Pembelajaran</h2>
 <p>Case Method dan Team-Based Project (PjBL) sebagai default untuk memenuhi IKU 7 minimal 50% bobot evaluasi partisipatif-kolaboratif (Dok. 008 §1). Didukung PBL/CBL, diskusi, simulasi, flipped/blended. MK PjBL ditandai di Dok. 005.</p>
-<h2 id="94-modalitas-pembelajaran">9.4 Modalitas Pembelajaran</h2>
+<h2 class="sub">9.4 Modalitas Pembelajaran</h2>
 <p>Luring (tatap muka), daring sinkron/asinkron, blended. Memperhatikan gaya belajar visual-auditorial-kinestetik. Estimasi waktu mengikuti Permendikbudristek 53/2023 Pasal 15 (1 SKS = 45 jam/semester) dirinci per komponen tatap muka/terstruktur/mandiri pada matriks RPS — kolom estimasi per komponen disusun bertahap untuk 67 MK.</p>
-<h2 id="95-format-rencana-pembelajaran-semester-sumber-dok-007-silabus-3-tabel-per-mk">9.5 Format Rencana Pembelajaran Semester — sumber Dok. 007 (silabus 3-tabel per MK)</h2>
-<p>Sampul RPS wajib memuat: identitas MK (kode, BK, bobot T/P, semester, tanggal penyusunan); pengesahan (Dosen Pengembang RPS, Koordinator BK, Ka Prodi); CPL-Prodi yang dibebankan; CPMK (ABCD, Bloom); Sub-CPMK; korelasi CPMK↔Sub-CPMK; deskripsi singkat MK; bahan kajian/materi; pustaka utama &amp; pendukung; dosen pengampu; MK prasyarat.</p>
-<p>Matriks mingguan 7 kolom RPS: (1) Pekan | (2) Sub-CPMK | (3) Topik Pembelajaran Terkait | (4) Kompetensi / Keterangan (ABCD) | (5) Metode | (6) Jumlah Jam (1 SKS = 50') | (7) Asesmen. Tugas 1 (Pekan 4) dan Tugas 2 (Pekan 12) terintegrasi dalam baris Sub-CPMK untuk mengevaluasi 2-3 pertemuan sebelumnya, bersifat fleksibel dan kondisional. UTS Pekan 8, UAS Pekan 16. Dok. 043 memuat RPS lengkap 46 MK (28 Core + 18 Peminatan) dengan format ini. Contoh RPS lengkap 1 MK penciri menjadi Lampiran 5.</p>
-<h2 id="96-perangkat-pembelajaran">9.6 Perangkat Pembelajaran</h2>
-<p>RPS 67 MK, Rencana Tugas, Bahan Ajar, rubrik/portofolio (Dok. 008, 018). Analisis Pembelajaran dengan 4 struktur tahapan Sub-CPMK (hirarki, prosedural, cluster, kombinasi) dan diagram + garis entry behavior per MK disusun mulai MK penciri (KPT Pasal 12 ayat 3c).</p>
-<hr />
-<h1 id="bab-x-implementasi-mbkm-dan-hak-belajar-di-luar-program-studi-sumber-dok-006-dok-009">BAB X — IMPLEMENTASI MBKM DAN HAK BELAJAR DI LUAR PROGRAM STUDI — sumber Dok. 006, Dok. 009</h1>
-<h2 id="101-kebijakan-mbkm-program-studi">10.1 Kebijakan MBKM Program Studi</h2>
-<p>Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Dikonversi ke paket MK peminatan, Capstone Project FSTI, dan PKL. Skema ekuivalensi Dok. 006: Magang MSIB Sem 6 mengonversi Peminatan 2 (3) + Peminatan 3 (3) + STI-624 (3) + STI-627 (3) + STI-625 (2) + STI-626 (3) + FST-611 (2) = 20 SKS (catatan: total paket Sem 6 adalah 19 SKS; konversi 20 SKS mencakup lintas-komponen yang disetarakan). Magang/Studi Independen/Wirausaha Sem 7 mengonversi Peminatan 4-6 (9) + STI-728 (3) + FST-610 (3) + FST-612 (3) + FST-613 (2) = 20 SKS.</p>
-<h2 id="102-bentuk-kegiatan-pembelajaran-mbkm-9-bkp-wajib-kpt">10.2 Bentuk Kegiatan Pembelajaran MBKM (9 BKP wajib KPT)</h2>
-<div class="table-wrapper"><table>
-<thead>
+<h2 class="sub">9.5 Format Rencana Pembelajaran Semester — sumber Dok. 007 (silabus 3-tabel per MK)</h2>
+<p>Sampul RPS wajib memuat:</p><div class="kpt-cap">Tabel 9.5a — Komponen sampul RPS (sumber Dok. 007)</div>
+<table><thead><tr>
+<th>Komponen Sampul RPS</th>
+</tr></thead><tbody>
 <tr>
+<td>identitas MK (kode, BK, bobot T/P, semester, tanggal penyusunan)</td>
+</tr>
+<tr>
+<td>pengesahan (Dosen Pengembang RPS, Koordinator BK, Ka Prodi)</td>
+</tr>
+<tr>
+<td>CPL-Prodi yang dibebankan</td>
+</tr>
+<tr>
+<td>CPMK (ABCD, Bloom)</td>
+</tr>
+<tr>
+<td>Sub-CPMK</td>
+</tr>
+<tr>
+<td>korelasi CPMK↔Sub-CPMK</td>
+</tr>
+<tr>
+<td>deskripsi singkat MK</td>
+</tr>
+<tr>
+<td>bahan kajian/materi</td>
+</tr>
+<tr>
+<td>pustaka utama &amp; pendukung</td>
+</tr>
+<tr>
+<td>dosen pengampu</td>
+</tr>
+<tr>
+<td>MK prasyarat</td>
+</tr>
+</tbody></table>
+<p>Matriks mingguan 7 kolom RPS: (1) Pekan | (2) Sub-CPMK | (3) Topik Pembelajaran Terkait | (4) Kompetensi / Keterangan (ABCD) | (5) Metode | (6) Jumlah Jam (1 SKS = 50') | (7) Asesmen. Tugas 1 (Pekan 4) dan Tugas 2 (Pekan 12) terintegrasi dalam baris Sub-CPMK untuk mengevaluasi 2-3 pertemuan sebelumnya, bersifat fleksibel dan kondisional. UTS Pekan 8, UAS Pekan 16. Dok. 043 memuat RPS lengkap 46 MK (28 Core + 18 Peminatan) dengan format ini. Contoh RPS lengkap 1 MK penciri menjadi Lampiran 5.</p>
+<h2 class="sub">9.6 Perangkat Pembelajaran</h2>
+<p>RPS 67 MK, Rencana Tugas, Bahan Ajar, rubrik/portofolio (Dok. 008, 018). Analisis Pembelajaran dengan 4 struktur tahapan Sub-CPMK (hirarki, prosedural, cluster, kombinasi) dan diagram + garis entry behavior per MK disusun mulai MK penciri (KPT Pasal 12 ayat 3c).</p>
+<hr/>
+<h1 class="bab">BAB X — IMPLEMENTASI MBKM DAN HAK BELAJAR DI LUAR PROGRAM STUDI — sumber Dok. 006, Dok. 009</h1>
+<h2 class="sub">10.1 Kebijakan MBKM Program Studi</h2>
+<p>Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Dikonversi ke paket MK peminatan, Capstone Project FSTI, dan PKL. Skema ekuivalensi Dok. 006: Magang MSIB Sem 6 mengonversi Peminatan 2 (3) + Peminatan 3 (3) + STI-624 (3) + STI-627 (3) + STI-625 (2) + STI-626 (3) + FST-611 (2) = 20 SKS (catatan: total paket Sem 6 adalah 19 SKS; konversi 20 SKS mencakup lintas-komponen yang disetarakan). Magang/Studi Independen/Wirausaha Sem 7 mengonversi Peminatan 4-6 (9) + STI-728 (3) + FST-610 (3) + FST-612 (3) + FST-613 (2) = 20 SKS.</p>
+<div class="kpt-cap">Tabel 10.1a — Skema konversi MBKM per semester (sumber Dok. 006)</div>
+<table><thead><tr>
+<th>Semester</th>
+<th>Paket Konversi</th>
+<th>Setara SKS</th>
+</tr></thead><tbody>
+<tr>
+<td>6</td>
+<td>Peminatan-2 + Peminatan-3 + STI-624 + STI-627 + STI-625 + STI-626 + FST-611 (Magang MSIB)</td>
+<td>20 SKS</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Peminatan-4/5/6 + STI-728 + FST-610 + FST-612 + FST-613 (Magang / Studi Independen / Wirausaha)</td>
+<td>20 SKS</td>
+</tr>
+</tbody></table>
+<h2 class="sub">10.2 Bentuk Kegiatan Pembelajaran MBKM (9 BKP wajib KPT)</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>No</th>
 <th>Bentuk BKP MBKM</th>
 <th>Status SISTEKIN</th>
 <th>Konversi</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>1</td>
 <td>Magang/Praktik Kerja</td>
@@ -2709,22 +3167,17 @@ flowchart BT
 <td>Belum dirinci — disusun bertahap</td>
 <td>Rekognisi MKWU</td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="103-penempatan-mbkm-dalam-struktur-kurikulum">10.3 Penempatan MBKM dalam Struktur Kurikulum</h2>
+</tbody></table></div>
+<h2 class="sub">10.3 Penempatan MBKM dalam Struktur Kurikulum</h2>
 <p>Semester 6 (Deep Learning, Smart AI, Smart City 2 SKS, Platform Eng, Metopel, Peminatan 601-602) dan Semester 7 (Startup, Capstone 3, PKL 3, Pra-Skripsi 2, Peminatan 701-703) dapat diganti paket MBKM setara atas persetujuan Ka Prodi dan pembimbing akademik.</p>
-<h2 id="104-mekanisme-rekognisi-kredit-mbkm-sumber-dok-006-dok-024">10.4 Mekanisme Rekognisi Kredit MBKM — sumber Dok. 006, Dok. 024</h2>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<h2 class="sub">10.4 Mekanisme Rekognisi Kredit MBKM — sumber Dok. 006, Dok. 024</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>BKP MBKM</th>
 <th>Bentuk Rekognisi</th>
 <th>Mata Kuliah yang Direkognisi</th>
 <th>SKS</th>
 <th>Bukti Kegiatan</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>Magang MSIB/industri</td>
 <td>Alih nilai langsung</td>
@@ -2753,37 +3206,211 @@ flowchart BT
 <td>3</td>
 <td>Produk TRL≥5, expo/demo day</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Rekognisi dicatat dalam transkrip dan SKPI sesuai KPT Bagian D.3–D.4 (rinci operasional menyusul bersama UPPS).</p>
-<h2 id="105-alur-pelaksanaan-mbkm">10.5 Alur Pelaksanaan MBKM</h2>
-<p>Pengajuan → persetujuan PA/Ka Prodi → kontrak mitra → pelaksanaan → monitoring → laporan → asesmen mitra + dosen → rekognisi SIAKAD → pencatatan transkrip/SKPI.</p>
-<h2 id="106-dokumen-pendukung-mbkm-dan-tugas-akhir">10.6 Dokumen Pendukung MBKM dan Tugas Akhir</h2>
-<p>Panduan konversi Dok. 006; pedoman Capstone FST-610 (tim 3–6 orang lintas peminatan, mitra nyata dengan surat kesediaan, minimal 4 dari 7 atribut complex computing problem dengan 2 wajib: multi-stakeholder dan ill-defined requirements, luaran produk TRL≥5 atau desain SRS/SDD/ADR, 135 jam/semester) dan 4 opsi TA FST-714 6 SKS Sem 8 — sumber verbatim Dok. 009: (1) Skripsi Riset Eksperimental (naskah + kode teruji + uji statistik; PL-1/PEO-3); (2) Proyek Inovasi Produk Industri (sistem teruji mitra TRL≥6 + laporan teknis + HKI/paten; PL-2/PL-3); (3) Tech Startup Mandiri (MVP tervalidasi + pitch deck + traksi pasar; PL-4/PEO-2); (4) Publikasi Jurnal Bereputasi (accepted/terbit SINTA 1-2 atau Scopus/WoS Q1-Q4; seluruh PL/PEO-3). Tahapan capstone Minggu 1–3 proposal, 4–6 analisis-desain, 7–11 sprint, 12–13 pengujian, 14–16 expo-laporan (Dok. 009 §1–§2).</p>
-<hr />
-<h1 id="bab-xi-penilaian-evaluasi-pembelajaran-dan-ketercapaian-cpl-sumber-verbatim-dok-008-dok-018">BAB XI — PENILAIAN, EVALUASI PEMBELAJARAN, DAN KETERCAPAIAN CPL — sumber verbatim Dok. 008, Dok. 018</h1>
-<h2 id="111-prinsip-penilaian">11.1 Prinsip Penilaian</h2>
-<p>Constructive alignment CPL-CPMK-asesmen; transparan-akuntabel; formatif (active learning non-graded di luar 4 titik) + sumatif; memenuhi IKU 7 minimal 50% bobot via Case Method atau Team-Based Project.</p>
-<h2 id="112-teknik-penilaian-per-ranah-kpt-tabel-17">11.2 Teknik Penilaian (per ranah, KPT Tabel 17)</h2>
-<p>Sikap: observasi, penilaian diri, penilaian antarmahasiswa. Pengetahuan: tes tulis &amp; tes lisan (langsung/tidak langsung). Keterampilan Umum &amp; Khusus: observasi, partisipasi, unjuk kerja, tes tulis, tes lisan, angket. Instrumen: rubrik untuk proses; portofolio/karya desain untuk hasil. Tiga jenis rubrik: holistik, analitik, skala persepsi (Dok. 008 §4, Dok. 018; holistik &amp; persepsi dilengkapi bertahap).</p>
-<h2 id="113-instrumen-penilaian-4-rubrik-master-verbatim-dok-008-4">11.3 Instrumen Penilaian — 4 Rubrik Master (verbatim Dok. 008 §4)</h2>
-<p>Rubrik 1 Proyek Rekayasa &amp; Coding (PjBL, praktikum, platform, AI, Capstone): Arsitektur &amp; Struktur Kode 25% (Sangat Baik 81-100: modular SOLID clean code terdokumentasi; Baik 70-80: cukup modular standar industri; Cukup 56-69: kurang teratur duplikasi; Kurang &lt;56: monolitik sulit dipelihara); Fungsionalitas 35% (100% SRS zero fatal bug / 80-99% minor / 60-79% error fungsional / gagal-crash); UI/UX 20% (intuitif estetik multi-device / baik responsif / standar kaku / buruk); Pengujian &amp; Dokumentasi 20% (otomatis komprehensif + README/API / memadai / minimal / tidak ada).</p>
-<p>Rubrik 2 Presentasi Lisan &amp; Komunikasi Ilmiah (seminar, sidang, expo): Penguasaan Materi 40% (penuh + jawab kritis ilmiah / baik logis / cukup ragu / tidak kuasai); Media Visual 30% (profesional infografis / rapi terbaca / text-heavy / buruk typo); Artikulasi &amp; Waktu 30% (lugas percaya diri tepat waktu / jelas pas / monoton overtime / pasif).</p>
-<p>Rubrik 3 Karya Tulis &amp; Laporan Rekayasa (praktikum, kasus, skripsi): Kedalaman Analisis 40% (kritis sintesis mutakhir orisinal / baik terstruktur / deskriptif / dangkal); Metodologi 30% (tepat sistematis valid / tepat / kurang lengkap / keliru); Tata Tulis &amp; Sitasi 30% (IEEE/APA sempurna Mendeley plagiasi &lt;20% / rapi rendah / inkonsisten / plagiasi).</p>
-<p>Rubrik 4 (Dok. 018): 4 klaster rubrik dosen per jenis MK (teori, praktikum, proyek, seminar/magang) — rujuk Dok. 018 §3.</p>
-<p>Skema baku 4 titik = 100% (1-to-1 ke 4 CPMK): Tugas 1 Pekan 4/5 CPMK-1 20% (teori &amp; +P: milestone/modul 1); UTS Pekan 8 CPMK-2 30% teori / 25% +P (praktik/proyek 50%); Tugas 2 Pekan 12/13 CPMK-3 20% teori (paper/kasus) / 25% +P (milestone 2/integrasi); UAS Pekan 16 CPMK-4 30% (komprehensif / demo day portofolio).</p>
-<h2 id="114-matriks-penilaian-cpl-sumber-dok-008-23">11.4 Matriks Penilaian CPL — sumber Dok. 008 §2–§3</h2>
-<div class="table-wrapper"><table>
-<thead>
+<h2 class="sub">10.5 Alur Pelaksanaan MBKM</h2>
+<ol><li>Pengajuan</li><li>persetujuan PA/Ka Prodi</li><li>kontrak mitra</li><li>pelaksanaan</li><li>monitoring</li><li>laporan</li><li>asesmen mitra + dosen</li><li>rekognisi SIAKAD</li><li>pencatatan transkrip/SKPI.</li></ol>
+<h2 class="sub">10.6 Dokumen Pendukung MBKM dan Tugas Akhir</h2>
+<p>Panduan konversi Dok. 006; pedoman Capstone FST-610 (tim 3–6 orang lintas peminatan, mitra nyata dengan surat kesediaan, minimal 4 dari 7 atribut complex computing problem dengan 2 wajib: multi-stakeholder dan ill-defined requirements, luaran produk TRL≥5 atau desain SRS/SDD/ADR, 135 jam/semester) dan 4 opsi TA FST-714 6 SKS Sem 8 — sumber verbatim Dok. 009:</p><div class="kpt-cap">Tabel 10.6a — Empat opsi Tugas Akhir FST-714 (sumber Dok. 009)</div>
+<table><thead><tr>
+<th>Opsi</th>
+<th>Bentuk Tugas Akhir</th>
+<th>Luaran &amp; Kaitan PL/PEO</th>
+</tr></thead><tbody>
 <tr>
+<td>Opsi 1</td>
+<td>Skripsi Riset Eksperimental</td>
+<td>naskah + kode teruji + uji statistik; PL-1/PEO-3</td>
+</tr>
+<tr>
+<td>Opsi 2</td>
+<td>Proyek Inovasi Produk Industri</td>
+<td>sistem teruji mitra TRL≥6 + laporan teknis + HKI/paten; PL-2/PL-3</td>
+</tr>
+<tr>
+<td>Opsi 3</td>
+<td>Tech Startup Mandiri</td>
+<td>MVP tervalidasi + pitch deck + traksi pasar; PL-4/PEO-2</td>
+</tr>
+<tr>
+<td>Opsi 4</td>
+<td>Publikasi Jurnal Bereputasi</td>
+<td>accepted/terbit SINTA 1-2 atau Scopus/WoS Q1-Q4; seluruh PL/PEO-3. Tahapan capstone Minggu 1–3 proposal, 4–6 analisis-desain, 7–11 sprint, 12–13 pengujian, 14–16 expo-laporan (Dok. 009 §1–§2).</td>
+</tr>
+</tbody></table>
+<hr/>
+<h1 class="bab">BAB XI — PENILAIAN, EVALUASI PEMBELAJARAN, DAN KETERCAPAIAN CPL — sumber verbatim Dok. 008, Dok. 018</h1>
+<h2 class="sub">11.1 Prinsip Penilaian</h2>
+<p>Constructive alignment CPL-CPMK-asesmen; transparan-akuntabel; formatif (active learning non-graded di luar 4 titik) + sumatif; memenuhi IKU 7 minimal 50% bobot via Case Method atau Team-Based Project.</p>
+<h2 class="sub">11.2 Teknik Penilaian (per ranah, KPT Tabel 17)</h2>
+<div class="kpt-cap">Tabel 11.2a — Teknik penilaian per ranah</div>
+<table><thead><tr>
+<th>Ranah</th>
+<th>Teknik &amp; Instrumen</th>
+</tr></thead><tbody>
+<tr>
+<td>Sikap</td>
+<td>observasi, penilaian diri, penilaian antarmahasiswa</td>
+</tr>
+<tr>
+<td>Pengetahuan</td>
+<td>tes tulis &amp; tes lisan (langsung/tidak langsung)</td>
+</tr>
+<tr>
+<td>Keterampilan Umum &amp; Khusus</td>
+<td>observasi, partisipasi, unjuk kerja, tes tulis, tes lisan, angket</td>
+</tr>
+<tr>
+<td>Instrumen</td>
+<td>rubrik untuk proses; portofolio/karya desain untuk hasil</td>
+</tr>
+<tr>
+<td>Tiga jenis rubrik</td>
+<td>holistik, analitik, skala persepsi (Dok</td>
+</tr>
+</tbody></table>
+<h2 class="sub">11.3 Instrumen Penilaian — 4 Rubrik Master (verbatim Dok. 008 §4)</h2>
+<p><strong>Rubrik 1 Proyek Rekayasa &amp; Coding (PjBL, praktikum, platform, AI, Capstone)</strong></p><div class="kpt-cap">Tabel — Rubrik 1 Proyek Rekayasa &amp; Coding (PjBL, praktikum, platform, AI, Capstone) (sumber Dok. 008 §4)</div>
+<table><thead><tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Sangat Baik</th>
+<th>Baik</th>
+<th>Cukup</th>
+<th>Kurang</th>
+</tr></thead><tbody>
+<tr>
+<td>Arsitektur &amp; Struktur Kode</td>
+<td>25%</td>
+<td>Sangat Baik 81-100: modular SOLID clean code terdokumentasi</td>
+<td>Baik 70-80: cukup modular standar industri</td>
+<td>Cukup 56-69: kurang teratur duplikasi</td>
+<td>Kurang &lt;56: monolitik sulit dipelihara</td>
+</tr>
+<tr>
+<td>Fungsionalitas</td>
+<td>35%</td>
+<td>100% SRS zero fatal bug / 80-99% minor / 60-79% error fungsional / gagal-crash</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>UI/UX</td>
+<td>20%</td>
+<td>intuitif estetik multi-device / baik responsif / standar kaku / buruk</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Pengujian &amp; Dokumentasi</td>
+<td>20%</td>
+<td>otomatis komprehensif + README/API / memadai / minimal / tidak ada</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<p><strong>Rubrik 2 Presentasi Lisan &amp; Komunikasi Ilmiah (seminar, sidang, expo)</strong></p><div class="kpt-cap">Tabel — Rubrik 2 Presentasi Lisan &amp; Komunikasi Ilmiah (seminar, sidang, expo) (sumber Dok. 008 §4)</div>
+<table><thead><tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Sangat Baik</th>
+<th>Baik</th>
+<th>Cukup</th>
+<th>Kurang</th>
+</tr></thead><tbody>
+<tr>
+<td>Penguasaan Materi</td>
+<td>40%</td>
+<td>penuh + jawab kritis ilmiah / baik logis / cukup ragu / tidak kuasai</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Media Visual</td>
+<td>30%</td>
+<td>profesional infografis / rapi terbaca / text-heavy / buruk typo</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Artikulasi &amp; Waktu</td>
+<td>30%</td>
+<td>lugas percaya diri tepat waktu / jelas pas / monoton overtime / pasif</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<p><strong>Rubrik 3 Karya Tulis &amp; Laporan Rekayasa (praktikum, kasus, skripsi)</strong></p><div class="kpt-cap">Tabel — Rubrik 3 Karya Tulis &amp; Laporan Rekayasa (praktikum, kasus, skripsi) (sumber Dok. 008 §4)</div>
+<table><thead><tr>
+<th>Aspek</th>
+<th>Bobot</th>
+<th>Sangat Baik</th>
+<th>Baik</th>
+<th>Cukup</th>
+<th>Kurang</th>
+</tr></thead><tbody>
+<tr>
+<td>Kedalaman Analisis</td>
+<td>40%</td>
+<td>kritis sintesis mutakhir orisinal / baik terstruktur / deskriptif / dangkal</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Metodologi</td>
+<td>30%</td>
+<td>tepat sistematis valid / tepat / kurang lengkap / keliru</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Tata Tulis &amp; Sitasi</td>
+<td>30%</td>
+<td>IEEE/APA sempurna Mendeley plagiasi &lt;20% / rapi rendah / inkonsisten / plagiasi</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<p>Rubrik 4 (Dok. 018): 4 klaster rubrik dosen per jenis MK (teori, praktikum, proyek, seminar/magang) — rujuk Dok. 018 §3.</p>
+<p>Skema baku 4 titik = 100% (1-to-1 ke 4 CPMK):</p><div class="kpt-cap">Tabel 11.3a — Skema baku 4 titik asesmen (= 100%)</div>
+<table><thead><tr>
+<th>Titik Asesmen (= 1 CPMK)</th>
+<th>Ketentuan</th>
+</tr></thead><tbody>
+<tr>
+<td>Tugas 1 Pekan 4/5 CPMK-1 20%</td>
+<td>(teori &amp; +P: milestone/modul 1)</td>
+</tr>
+<tr>
+<td>UTS Pekan 8 CPMK-2 30% teori / 25% +P</td>
+<td>(praktik/proyek 50%)</td>
+</tr>
+<tr>
+<td>Tugas 2 Pekan 12/13 CPMK-3 20% teori</td>
+<td>(paper/kasus) / 25% +P (milestone 2/integrasi)</td>
+</tr>
+<tr>
+<td>UAS Pekan 16 CPMK-4 30%</td>
+<td>(komprehensif / demo day portofolio).</td>
+</tr>
+</tbody></table>
+<h2 class="sub">11.4 Matriks Penilaian CPL — sumber Dok. 008 §2–§3</h2>
+<div class="table-wrap"><table><thead><tr>
 <th>CPL</th>
 <th>Mata Kuliah Pendukung</th>
 <th>Instrumen Penilaian</th>
 <th>Target Capaian</th>
 <th>Waktu Evaluasi</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>S1</td>
 <td>MKWU, KPM, Capstone, PKL, FST-206</td>
@@ -2812,55 +3439,50 @@ flowchart BT
 <td>≥65; ≥80% kohor</td>
 <td>Tugas 1-2, UAS</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Formula: Score_CPMK(j,k,i) = Σ(W(jm)×Score(m,i)); NA(k,i) = Σ(W(CPMKj,k)×Score(CPMKj,k,i)); Attainment_CPL(x,i) = Σ(SKS(k)×Weight(k,CPLx)×NA(k,i)) / Σ(SKS(k)×Weight(k,CPLx)); ambang lulus CPL 65,0 (B/Memuaskan); kohor = % mahasiswa ≥65 per angkatan, target ≥80% (LAM INFOKOM Kriteria 9). Integrasi ke SKPI Dok. 008 §5.</p>
-<h2 id="115-evaluasi-pembelajaran">11.5 Evaluasi Pembelajaran</h2>
+<h2 class="sub">11.5 Evaluasi Pembelajaran</h2>
 <p>Formatif per semester via CPMK; sumatif 4–5 tahun melibatkan pakar/industri/asosiasi. Model Evaluasi Diskrepansi Provus (KPT Gbr 22–23, Tabel 25): kinerja mutu vs standar → diskrepansi → tindak lanjut → evaluasi ulang; matriks pembobotan kontribusi MK terhadap CPL (Tabel 27 KPT) diadopsi bertahap.</p>
-<h2 id="116-continuous-improvement">11.6 Continuous Improvement</h2>
+<h2 class="sub">11.6 Continuous Improvement</h2>
 <p>Siklus PPEPP/CQI (Dok. 008 §6, Dok. 010 §9): Penetapan kurikulum 4–5 tahun oleh pimpinan PT; Pelaksanaan mengacu RPS; Evaluasi formatif/semester + sumatif; Pengendalian tiap semester via CPL; Peningkatan berbasis hasil.</p>
-<hr />
-<h1 id="bab-xii-manajemen-dan-mekanisme-pelaksanaan-kurikulum-sumber-dok-008-6-dok-010-9-dok-013-4">BAB XII — MANAJEMEN DAN MEKANISME PELAKSANAAN KURIKULUM — sumber Dok. 008 §6, Dok. 010 §9, Dok. 013 §4</h1>
-<h2 id="121-organisasi-pelaksana-kurikulum">12.1 Organisasi Pelaksana Kurikulum</h2>
+<hr/>
+<h1 class="bab">BAB XII — MANAJEMEN DAN MEKANISME PELAKSANAAN KURIKULUM — sumber Dok. 008 §6, Dok. 010 §9, Dok. 013 §4</h1>
+<h2 class="sub">12.1 Organisasi Pelaksana Kurikulum</h2>
 <p>Ketua Program Studi, Koordinator Bidang Bahan Kajian, dosen pengampu, Gugus Penjaminan Mutu (GPM), UPPS/Fakultas. Penetapan kurikulum tiap 4–5 tahun oleh pimpinan PT. SK Penetapan dan SK Buku Kurikulum menunggu nomor resmi UPPS.</p>
-<h2 id="122-perencanaan-kurikulum">12.2 Perencanaan Kurikulum</h2>
-<p>Tabel Manajemen 7 kolom (Penetapan: Standar-Kegiatan-Bukti Fisik; Pelaksanaan; Evaluasi; Pengendalian; Peningkatan Keberlanjutan): Standar mengacu SN-Dikti + KKNI + APTIKOM; Kegiatan = penyusunan/penetapan Buku KPT; Bukti = SK Rektor Standar Kurikulum, SK Buku Kurikulum; Pelaksanaan = pembelajaran mengacu RPS + Berita Acara Pembelajaran; Evaluasi = formatif/semester (CPMK) + sumatif/4–5 tahun + Berita Acara Asesmen + Portofolio MK + Laporan Pencapaian CPL; Pengendalian = pengukuran CPL tiap semester; Peningkatan = revisi silabus/metode/PL berbasis hasil.</p>
-<h2 id="123-pelaksanaan-kurikulum">12.3 Pelaksanaan Kurikulum</h2>
+<h2 class="sub">12.2 Perencanaan Kurikulum</h2>
+<p>Tabel Manajemen 7 kolom (Penetapan:</p><ul><li>Standar-Kegiatan-Bukti Fisik</li><li>Pelaksanaan</li><li>Evaluasi</li><li>Pengendalian</li><li>Peningkatan Keberlanjutan): Standar mengacu SN-Dikti + KKNI + APTIKOM</li><li>Kegiatan = penyusunan/penetapan Buku KPT</li><li>Bukti = SK Rektor Standar Kurikulum, SK Buku Kurikulum</li><li>Pelaksanaan = pembelajaran mengacu RPS + Berita Acara Pembelajaran</li><li>Evaluasi = formatif/semester (CPMK) + sumatif/4–5 tahun + Berita Acara Asesmen + Portofolio MK + Laporan Pencapaian CPL</li><li>Pengendalian = pengukuran CPL tiap semester</li><li>Peningkatan = revisi silabus/metode/PL berbasis hasil</li></ul>
+<h2 class="sub">12.3 Pelaksanaan Kurikulum</h2>
 <p>Seluruh pembelajaran mengacu RPS 67 MK; praktikum 43,2%; Case Method/PjBL; MBKM Sem 6–7; Capstone/PKL/Pra-Skripsi Sem 7; Skripsi/TA Sem 8.</p>
-<h2 id="124-monitoring-dan-evaluasi-kurikulum">12.4 Monitoring dan Evaluasi Kurikulum</h2>
+<h2 class="sub">12.4 Monitoring dan Evaluasi Kurikulum</h2>
 <p>Pengendalian tiap semester via ketercapaian CPL (ambang 65, target kohor 80%); evaluasi sumatif berkala dengan pakar/industri/asosiasi; rencana aksi monitoring Dok. 013 §4.</p>
-<h2 id="125-penjaminan-mutu-kurikulum">12.5 Penjaminan Mutu Kurikulum</h2>
+<h2 class="sub">12.5 Penjaminan Mutu Kurikulum</h2>
 <p>SPMI siklus PPEPP. Bukti fisik wajib: SK Rektor Standar Kurikulum, SK Buku Kurikulum, Berita Acara Pembelajaran, Berita Acara Asesmen, Portofolio Mata Kuliah, Laporan Pencapaian CPL Prodi. Enumerasi nomor/dokumen final menunggu UPPS.</p>
-<h2 id="126-keterlibatan-stakeholder">12.6 Keterlibatan Stakeholder</h2>
+<h2 class="sub">12.6 Keterlibatan Stakeholder</h2>
 <p>DUDI, alumni, pengguna lulusan, APTIKOM/IEEE/ACM, pemerintah, masyarakat melalui FGD, survei, tracer study (instrumen Dok. 010 §5–§6), dan review kurikulum berkala.</p>
-<hr />
-<h1 id="bab-xiii-syarat-kualifikasi-dan-tata-cara-penerimaan-mahasiswa-kerangka-perlu-data-upps">BAB XIII — SYARAT, KUALIFIKASI, DAN TATA CARA PENERIMAAN MAHASISWA <strong>[KERANGKA — PERLU DATA UPPS]</strong></h1>
+<hr/>
+<h1 class="bab">BAB XIII — SYARAT, KUALIFIKASI, DAN TATA CARA PENERIMAAN MAHASISWA <strong><span class="kpt-tag upps">KERANGKA — PERLU DATA UPPS</span></strong></h1>
 <p>Wajib Permendikbudristek 53/2023 Pasal 44 huruf h. Tidak ada padanan APTIKOM A-L.</p>
-<h2 id="131-syarat-calon-mahasiswa">13.1 Syarat Calon Mahasiswa</h2>
+<h2 class="sub">13.1 Syarat Calon Mahasiswa</h2>
 <p>Latar SMA/MA/SMK; kompetensi awal matematika-logika (fondasi STI-103/204) dan Inggris dasar (rujukan IS2020/IT2017); inklusivitas kebutuhan khusus.</p>
-<h2 id="132-jalur-penerimaan-mahasiswa-perlu-data-upps-pmb-uwg">13.2 Jalur Penerimaan Mahasiswa — <strong>[PERLU DATA UPPS PMB UWG]</strong></h2>
-<h2 id="133-mekanisme-penerimaan-mahasiswa-baru-perlu-data-upps">13.3 Mekanisme Penerimaan Mahasiswa Baru — <strong>[PERLU DATA UPPS]</strong></h2>
+<h2 class="sub">13.2 Jalur Penerimaan Mahasiswa — <strong><span class="kpt-tag upps">PERLU DATA UPPS PMB UWG</span></strong></h2>
+<h2 class="sub">13.3 Mekanisme Penerimaan Mahasiswa Baru — <strong><span class="kpt-tag upps">PERLU DATA UPPS</span></strong></h2>
 <p>Jalur, instrumen, kriteria, daya tampung.</p>
-<h2 id="134-penerimaan-mahasiswa-transferpindahan">13.4 Penerimaan Mahasiswa Transfer/Pindahan</h2>
+<h2 class="sub">13.4 Penerimaan Mahasiswa Transfer/Pindahan</h2>
 <p>RPL, konversi MK, batas SKS diakui — <strong>[PERLU KEPUTUSAN PRODI + UPPS]</strong>.</p>
-<h2 id="135-matrikulasi">13.5 Matrikulasi</h2>
+<h2 class="sub">13.5 Matrikulasi</h2>
 <p>Penguatan logika/matematika/Inggris pra-Sem 1 bila diperlukan — <strong>[PERLU KEPUTUSAN PRODI]</strong>.</p>
 <p>Tahapan kurikulum sebagai titik masuk: Fondasi 1-2 (maba), Inti 3-4 (transfer/RPL), Spesialisasi 5-7 (pilih peminatan, bukan masuk baru; syarat pindah peminatan perlu SK), Penyelesaian 8 (syarat skripsi ≥120 SKS + FST-613).</p>
-<hr />
-<h1 id="bab-xiv-penutup-terisi">BAB XIV — PENUTUP <strong>[TERISI]</strong></h1>
+<hr/>
+<h1 class="bab">BAB XIV — PENUTUP <strong><span class="kpt-tag">TERISI</span></strong></h1>
 <p>Kurikulum SISTEKIN 2026 menetapkan arah AI/Smart Systems + Technopreneurship dengan 14 CPL, 146 SKS/55 MK, 3 peminatan seimbang, dan asesmen OBE 4 titik. Naskah ini menjadi pedoman penyelenggaraan pendidikan; hal administratif (SK, akreditasi, PMB) mengikuti dokumen resmi UPPS. Evaluasi berkala PPEPP menjamin relevansi dan peningkatan berkelanjutan. Rincian operasional: Dok. 001–044 dan lampiran berikut.</p>
-<hr />
-<h1 id="lampiran-sumber-dokumen-asli-terintegrasi-penuh">LAMPIRAN — sumber dokumen asli terintegrasi penuh</h1>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+<hr/>
+<h1 class="bab">LAMPIRAN — sumber dokumen asli terintegrasi penuh</h1>
+<div class="table-wrap"><table><thead><tr>
 <th>Lampiran</th>
 <th>Isi</th>
 <th>Sumber verbatim</th>
 <th>Status</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>1</td>
 <td>Master Matriks Keterlacakan OBE I-R-M 14 CPL x 55 MK</td>
@@ -2921,18 +3543,13 @@ flowchart BT
 <td>Dok. 037 + Dok. 042–044</td>
 <td>✅ terintegrasi</td>
 </tr>
-</tbody>
-</table></div>
-<h2 id="lampiran-5-model-penuh-1-mk-verbatim-dok-007-5-sti-103-arsitektur-dan-organisasi-sistem-ti-3-sks-sem-1">Lampiran 5 — Model Penuh 1 MK (verbatim Dok. 007 §5: STI-103 Arsitektur dan Organisasi Sistem TI, 3 SKS, Sem 1)</h2>
-<h3 id="tabel-5a-identitas-pemetaan-makro-mata-kuliah">Tabel 5.A — Identitas &amp; Pemetaan Makro Mata Kuliah</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<h2 class="sub">Lampiran 5 — Model Penuh 1 MK (verbatim Dok. 007 §5: STI-103 Arsitektur dan Organisasi Sistem TI, 3 SKS, Sem 1)</h2>
+<h3 class="sub3">Tabel 5.A — Identitas &amp; Pemetaan Makro Mata Kuliah</h3>
+<div class="table-wrap"><table><thead><tr>
 <th>Atribut Kurikulum</th>
 <th>Spesifikasi &amp; Rujukan OBE</th>
-</tr>
-</thead>
-<tbody>
+</tr></thead><tbody>
 <tr>
 <td>Kode &amp; Nama Mata Kuliah</td>
 <td>STI-103 Arsitektur dan Organisasi Sistem Teknologi Informasi</td>
@@ -2961,275 +3578,242 @@ flowchart BT
 <td>Target PEO</td>
 <td>PEO-1 (Professional Practice &amp; Systems Integration), PEO-3 (Research &amp; Lifelong Learning)</td>
 </tr>
-</tbody>
-</table></div>
-<h3 id="tabel-5b-formulasi-cpmk-format-abcd-level-bloom">Tabel 5.B — Formulasi CPMK (Format ABCD &amp; Level Bloom)</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
+</tbody></table></div>
+<h3 class="sub3">Tabel 5.B — Formulasi CPMK (Format ABCD &amp; Level Bloom)</h3>
+<div class="table-wrap"><table><thead><tr>
 <th>Kode CPMK</th>
 <th>Rumusan CPMK</th>
-<th style="text-align: center;">Bloom</th>
-<th style="text-align: center;">CPL</th>
-</tr>
-</thead>
-<tbody>
+<th>Bloom</th>
+<th>CPL</th>
+</tr></thead><tbody>
 <tr>
 <td>CPMK-1</td>
 <td>Mahasiswa mampu menerapkan representasi data biner, heksadesimal, floating point IEEE 754, dan siklus eksekusi instruksi Von Neumann pada arsitektur prosesor secara tepat dan akurat.</td>
-<td style="text-align: center;">C3</td>
-<td style="text-align: center;">P1, P3</td>
+<td>C3</td>
+<td>P1, P3</td>
 </tr>
 <tr>
 <td>CPMK-2</td>
 <td>Mahasiswa mampu menganalisis rancangan rangkaian logika kombinasional dan sekuensial menggunakan gerbang logika biner dan flip-flop sebagai dasar operasi ALU.</td>
-<td style="text-align: center;">C4</td>
-<td style="text-align: center;">P1, KU1</td>
+<td>C4</td>
+<td>P1, KU1</td>
 </tr>
 <tr>
 <td>CPMK-3</td>
 <td>Mahasiswa mampu membandingkan karakteristik arsitektur prosesor CISC (x86_64) vs RISC (ARM64/RISC-V), hirarki memori cache L1/L2/L3, dan akselerator GPU/NPU dalam skenario beban kerja nyata secara kritis.</td>
-<td style="text-align: center;">C4</td>
-<td style="text-align: center;">P3, KU1</td>
+<td>C4</td>
+<td>P3, KU1</td>
 </tr>
 <tr>
 <td>CPMK-4</td>
 <td>Mahasiswa mampu mengevaluasi mekanisme bus sistem, interupsi I/O, abstraksi virtualisasi hardware (hypervisor), dan organisasi server data center untuk infrastruktur cloud modern secara komprehensif.</td>
-<td style="text-align: center;">C5</td>
-<td style="text-align: center;">P3, KU1</td>
+<td>C5</td>
+<td>P3, KU1</td>
 </tr>
-</tbody>
-</table></div>
-<h3 id="tabel-5c-matriks-rencana-pembelajaran-16-pekan-format-7-kolom">Tabel 5.C — Matriks Rencana Pembelajaran 16 Pekan (Format 7 Kolom)</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th style="text-align: center;">Pekan</th>
-<th style="text-align: center;">Sub-CPMK</th>
+</tbody></table></div>
+<h3 class="sub3">Tabel 5.C — Matriks Rencana Pembelajaran 16 Pekan (Format 7 Kolom)</h3>
+<div class="table-wrap"><table><thead><tr>
+<th>Pekan</th>
+<th>Sub-CPMK</th>
 <th>Topik Pembelajaran Terkait</th>
 <th>Kompetensi / Keterangan (ABCD)</th>
 <th>Metode</th>
-<th style="text-align: center;">Jumlah Jam</th>
-<th style="text-align: center;">Asesmen</th>
-</tr>
-</thead>
-<tbody>
+<th>Jumlah Jam</th>
+<th>Asesmen</th>
+</tr></thead><tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">—</td>
+<td>1</td>
+<td>—</td>
 <td>Pengantar MK, Kontrak Belajar &amp; Orientasi</td>
-<td>Mahasiswa (<em>A</em>) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (<em>B</em>) melalui penjelasan dosen (<em>C</em>) secara jelas (<em>D</em>).</td>
+<td>Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*).</td>
 <td>Kuliah Interaktif</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">Sub-1.1</td>
+<td>2</td>
+<td>Sub-1.1</td>
 <td>Mengonversi representasi bilangan biner</td>
-<td>Mahasiswa (<em>A</em>) mampu mengonversi representasi bilangan biner, heksadesimal, dan floating point IEEE 754 (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-1.</td>
+<td>Mahasiswa (*A*) mampu mengonversi representasi bilangan biner, heksadesimal, dan floating point IEEE 754 (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">Sub-1.2</td>
+<td>3</td>
+<td>Sub-1.2</td>
 <td>Menjelaskan siklus eksekusi instruksi Fetch-Decode-Execute</td>
-<td>Mahasiswa (<em>A</em>) mampu menjelaskan siklus eksekusi instruksi Fetch-Decode-Execute pada arsitektur Von Neumann (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-1.</td>
+<td>Mahasiswa (*A*) mampu menjelaskan siklus eksekusi instruksi Fetch-Decode-Execute pada arsitektur Von Neumann (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">Sub-2.1</td>
+<td>4</td>
+<td>Sub-2.1</td>
 <td>Menganalisis gerbang logika biner dan rangkaian kombinasional sebagai dasar ALU</td>
-<td>Mahasiswa (<em>A</em>) mampu menganalisis gerbang logika biner dan rangkaian kombinasional sebagai dasar ALU (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-2.</td>
+<td>Mahasiswa (*A*) mampu menganalisis gerbang logika biner dan rangkaian kombinasional sebagai dasar ALU (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;"><strong>Tugas 1</strong> (20%) — evaluasi Sub-CPMK Pekan 2–3</td>
+<td>150'</td>
+<td><strong>Tugas 1</strong> (20%) — evaluasi Sub-CPMK Pekan 2–3</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">Sub-2.2</td>
+<td>5</td>
+<td>Sub-2.2</td>
 <td>Menganalisis flip-flop dan rangkaian logika sekuensial dasar</td>
-<td>Mahasiswa (<em>A</em>) mampu menganalisis flip-flop dan rangkaian logika sekuensial dasar (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-2.</td>
+<td>Mahasiswa (*A*) mampu menganalisis flip-flop dan rangkaian logika sekuensial dasar (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">Sub-3.1</td>
+<td>6</td>
+<td>Sub-3.1</td>
 <td>Membandingkan karakteristik arsitektur prosesor CISC (x86_64) dan RISC (ARM64/RISC-V)</td>
-<td>Mahasiswa (<em>A</em>) mampu membandingkan karakteristik arsitektur prosesor CISC (x86_64) dan RISC (ARM64/RISC-V) (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-3.</td>
+<td>Mahasiswa (*A*) mampu membandingkan karakteristik arsitektur prosesor CISC (x86_64) dan RISC (ARM64/RISC-V) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">Sub-3.2</td>
+<td>7</td>
+<td>Sub-3.2</td>
 <td>Menganalisis hierarki memori dan cache (L1/L2/L3) serta akselerator GPU/NPU</td>
-<td>Mahasiswa (<em>A</em>) mampu menganalisis hierarki memori dan cache (L1/L2/L3) serta akselerator GPU/NPU (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-3.</td>
+<td>Mahasiswa (*A*) mampu menganalisis hierarki memori dan cache (L1/L2/L3) serta akselerator GPU/NPU (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">CPMK-1 s.d. 3</td>
+<td>8</td>
+<td>CPMK-1 s.d. 3</td>
 <td><strong>Ujian Tengah Semester (UTS)</strong></td>
-<td>Mahasiswa (<em>A</em>) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (<em>B</em>) melalui ujian tertulis/praktikum (<em>C</em>) dengan kriteria ketuntasan minimal (<em>D</em>).</td>
+<td>Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*).</td>
 <td>Ujian</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;"><strong>UTS</strong> (30%)</td>
+<td>150'</td>
+<td><strong>UTS</strong> (30%)</td>
 </tr>
 <tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">Sub-4.1</td>
+<td>9</td>
+<td>Sub-4.1</td>
 <td>Mengevaluasi mekanisme bus sistem dan interupsi I/O</td>
-<td>Mahasiswa (<em>A</em>) mampu mengevaluasi mekanisme bus sistem dan interupsi I/O (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-4.</td>
+<td>Mahasiswa (*A*) mampu mengevaluasi mekanisme bus sistem dan interupsi I/O (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">Sub-4.2</td>
+<td>10</td>
+<td>Sub-4.2</td>
 <td>Mengevaluasi abstraksi virtualisasi hardware (Hypervisor) dan organisasi server data center</td>
-<td>Mahasiswa (<em>A</em>) mampu mengevaluasi abstraksi virtualisasi hardware (Hypervisor) dan organisasi server data center untuk cloud (<em>B</em>) melalui pembelajaran terstruktur (<em>C</em>) secara tepat dan terukur (<em>D</em>). Selaras CPMK-4.</td>
+<td>Mahasiswa (*A*) mampu mengevaluasi abstraksi virtualisasi hardware (Hypervisor) dan organisasi server data center untuk cloud (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4.</td>
 <td>Kuliah / Diskusi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">CPMK-3, CPMK-4</td>
+<td>11</td>
+<td>CPMK-3, CPMK-4</td>
 <td>Studi Kasus / Proyek Terapan</td>
-<td>Mahasiswa (<em>A</em>) menerapkan CPMK-3 dan CPMK-4 (<em>B</em>) pada studi kasus/proyek nyata (<em>C</em>) secara kolaboratif dan terukur (<em>D</em>).</td>
+<td>Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*).</td>
 <td>PjBL / Case Method</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">12</td>
-<td style="text-align: center;">CPMK-4</td>
+<td>12</td>
+<td>CPMK-4</td>
 <td>Proyek Terapan Lanjut &amp; Presentasi Antara</td>
-<td>Mahasiswa (<em>A</em>) menyajikan progres proyek/tugas akhir (<em>B</em>) dalam forum kelas (<em>C</em>) dengan argumen yang valid (<em>D</em>).</td>
+<td>Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*).</td>
 <td>PjBL / Presentasi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;"><strong>Tugas 2</strong> (20%) — evaluasi Sub-CPMK Pekan 9–11</td>
+<td>150'</td>
+<td><strong>Tugas 2</strong> (20%) — evaluasi Sub-CPMK Pekan 9–11</td>
 </tr>
 <tr>
-<td style="text-align: center;">13</td>
-<td style="text-align: center;">Seluruh CPMK</td>
+<td>13</td>
+<td>Seluruh CPMK</td>
 <td>Penyempurnaan Proyek / Tugas Akhir</td>
-<td>Mahasiswa (<em>A</em>) menyempurnakan hasil proyek/tugas akhir (<em>B</em>) berdasarkan umpan balik (<em>C</em>) secara mandiri dan berkualitas (<em>D</em>).</td>
+<td>Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*).</td>
 <td>PjBL / Konsultasi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">14</td>
-<td style="text-align: center;">Seluruh CPMK</td>
+<td>14</td>
+<td>Seluruh CPMK</td>
 <td>Review &amp; Konsultasi UAS</td>
-<td>Mahasiswa (<em>A</em>) mengonsolidasikan seluruh capaian pembelajaran (<em>B</em>) melalui review dan konsultasi (<em>C</em>) secara komprehensif (<em>D</em>).</td>
+<td>Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*).</td>
 <td>Diskusi / Konsultasi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">Seluruh CPMK</td>
+<td>15</td>
+<td>Seluruh CPMK</td>
 <td>Presentasi Final / Demonstrasi</td>
-<td>Mahasiswa (<em>A</em>) mempresentasikan hasil akhir proyek/tugas (<em>B</em>) di hadapan dosen dan rekan (<em>C</em>) secara profesional (<em>D</em>).</td>
+<td>Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*).</td>
 <td>Presentasi</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;">—</td>
+<td>150'</td>
+<td>—</td>
 </tr>
 <tr>
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">Seluruh CPMK</td>
+<td>16</td>
+<td>Seluruh CPMK</td>
 <td><strong>UAS / Tugas Akhir / Proyek</strong></td>
-<td>Mahasiswa (<em>A</em>) mendemonstrasikan penguasaan seluruh CPMK (<em>B</em>) melalui ujian/proyek akhir (<em>C</em>) dengan kriteria ketuntasan minimal (<em>D</em>).</td>
+<td>Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*).</td>
 <td>Ujian / Proyek Akhir</td>
-<td style="text-align: center;">150'</td>
-<td style="text-align: center;"><strong>UAS</strong> (30%)</td>
+<td>150'</td>
+<td><strong>UAS</strong> (30%)</td>
 </tr>
-</tbody>
-</table></div>
+</tbody></table></div>
 <p>Pola 3-tabel identik ini berlaku penuh untuk seluruh 46 MK di Dok. 043 (28 Core STI + 18 Peminatan): identitas + 4 CPMK ABCD + Sub-CPMK + 16 pekan dengan 4 titik Tugas 1 (20%) / UTS (25-30%) / Tugas 2 (20-25%) / UAS (30%). Tugas 1 dan Tugas 2 terintegrasi dalam baris Sub-CPMK untuk mengevaluasi 2-3 pertemuan sebelumnya, bersifat fleksibel dan kondisional.</p>
-<h1 id="daftar-pustaka">DAFTAR PUSTAKA</h1>
-<ol>
-<li>Dit. Belmawa. (2024). Panduan Penyusunan KPT Mendukung MBKM Menuju Indonesia Emas Edisi V. 2. Permendikbudristek 53/2023. 3. Perpres 8/2012 KKNI. 4. UU 12/2012 Dikti. 5. APTIKOM SI v2.0 (2024). 6. APTIKOM TI (2023). 7. ACM-AIS IS2020. 8. ACM-IEEE IT2017. 9. ACM CC2020. 10. LAM INFOKOM Instrumen Akreditasi. 11. Dok. 001–045 KURIKULUM2026_REVISI/ (bahan SISTEKIN). 12. Template_KPT_2024.docx (format acuan BAB I–XIV).</li>
-</ol>
-<hr />
-<p><em>045 — Draft markdown mengikuti format Template_KPT_2024.docx (BAB I–XIV, 35 tabel) dengan isi SISTEKIN dari KURIKULUM2026_REVISI/. Pengganti struktur A-L pada 023 untuk keperluan kesetaraan format DOCX. Lanjut: lengkapi 15 titik UPPS, Tabel B riil, sampul RPS 67 MK, 6 BKP, transkrip/SKPI, Tabel N final, lalu konversi ke DOCX via convert_md_to_docx.py.</em></p>
-<p>```mermaid
-flowchart BT
+<h1 class="bab">DAFTAR PUSTAKA</h1>
+<ol><li>Dit. Belmawa. (2024). Panduan Penyusunan KPT Mendukung MBKM Menuju Indonesia Emas Edisi V. 2. Permendikbudristek 53/2023. 3. Perpres 8/2012 KKNI. 4. UU 12/2012 Dikti. 5. APTIKOM SI v2.0 (2024). 6. APTIKOM TI (2023). 7. ACM-AIS IS2020. 8. ACM-IEEE IT2017. 9. ACM CC2020. 10. LAM INFOKOM Instrumen Akreditasi. 11. Dok. 001–045 KURIKULUM2026_REVISI/ (bahan SISTEKIN). 12. Template_KPT_2024.docx (format acuan BAB I–XIV).</li></ol>
+<hr/>
+<p>*045 — Draft markdown mengikuti format Template_KPT_2024.docx (BAB I–XIV, 35 tabel) dengan isi SISTEKIN dari KURIKULUM2026_REVISI/. Pengganti struktur A-L pada 023 untuk keperluan kesetaraan format DOCX. Lanjut: lengkapi 15 titik UPPS, Tabel B riil, sampul RPS 67 MK, 6 BKP, transkrip/SKPI, Tabel N final, lalu konversi ke DOCX via convert_md_to_docx.py.*</p>
+<figure class="kpt-fig"><p class="fig-title">Arsip — Draf diagram prasyarat (tidak termasuk naskah formal)</p><p class="fig-desc">Blok diagram mentah peninggalan draf (13 simpul, 15 relasi) dengan penamaan MK era lama; diarsipkan di sini dan tidak menjadi bagian naskah buku. Acuan resmi: Gambar 8.1–8.2 dan Dok. 012.</p><details><summary>Kode sumber diagram (arsip, 42 baris)</summary><pre>flowchart BT
     %% Definisi Warna (Classes)
     classDef pink fill:#f9d0c4,stroke:#333,stroke-width:1px,color:black;
     classDef white fill:#ffffff,stroke:#333,stroke-width:1px,color:black;
-    classDef tosca fill:#cbf3f0,stroke:#333,stroke-width:1px,color:black;</p>
-<pre><code>%% --- SEMESTER 3 ---
-subgraph Semester 3
-    S3_1["Struktur Data&lt;br&gt;PP | 1 | 4"]:::pink
-    S3_2["Kecerdasan Buatan&lt;br&gt;KK | 2 | 3"]:::tosca
-    S3_3["Sistem Manajemen Basis Data&lt;br&gt;KK | 2 | 3"]:::tosca
-end
+    classDef tosca fill:#cbf3f0,stroke:#333,stroke-width:1px,color:black;
+    
+    %% --- SEMESTER 3 ---
+    subgraph Semester 3
+        S3_1["Struktur Data&lt;br&gt;PP | 1 | 4"]:::pink
+        S3_2["Kecerdasan Buatan&lt;br&gt;KK | 2 | 3"]:::tosca
+        S3_3["Sistem Manajemen Basis Data&lt;br&gt;KK | 2 | 3"]:::tosca
+    end
 
-%% --- SEMESTER 2 ---
-subgraph Semester 2
-    S2_1["Matematika Diskrit&lt;br&gt;PP | 1 | 3"]:::pink
-    S2_2["Organisasi dan Arsitektur Komputer&lt;br&gt;PP | 2 | 3"]:::pink
-    S2_3["Algoritma Pemrograman&lt;br&gt;PP | 1 | 4"]:::pink
-    S2_4["Teori Peluang dan Implementasi&lt;br&gt;KK | 2 | 3"]:::white
-    S2_5["Perancangan &amp; Implementasi Basdat&lt;br&gt;KK | 1 | 3"]:::white
-end
+    %% --- SEMESTER 2 ---
+    subgraph Semester 2
+        S2_1["Matematika Diskrit&lt;br&gt;PP | 1 | 3"]:::pink
+        S2_2["Organisasi dan Arsitektur Komputer&lt;br&gt;PP | 2 | 3"]:::pink
+        S2_3["Algoritma Pemrograman&lt;br&gt;PP | 1 | 4"]:::pink
+        S2_4["Teori Peluang dan Implementasi&lt;br&gt;KK | 2 | 3"]:::white
+        S2_5["Perancangan &amp; Implementasi Basdat&lt;br&gt;KK | 1 | 3"]:::white
+    end
 
-%% --- SEMESTER 1 ---
-subgraph Semester 1
-    S1_1["Kalkulus&lt;br&gt;PP | 1 | 3"]:::pink
-    S1_2["Logika Matematika&lt;br&gt;PP | 1 | 3"]:::pink
-    S1_3["Pengenalan Pemrograman&lt;br&gt;PP | 1 | 3"]:::pink
-    S1_4["Statistika&lt;br&gt;PP | 1 | 2"]:::pink
-    S1_5["Pendidikan Pancasila&lt;br&gt;S | 1 | 2"]:::white
-end
+    %% --- SEMESTER 1 ---
+    subgraph Semester 1
+        S1_1["Kalkulus&lt;br&gt;PP | 1 | 3"]:::pink
+        S1_2["Logika Matematika&lt;br&gt;PP | 1 | 3"]:::pink
+        S1_3["Pengenalan Pemrograman&lt;br&gt;PP | 1 | 3"]:::pink
+        S1_4["Statistika&lt;br&gt;PP | 1 | 2"]:::pink
+        S1_5["Pendidikan Pancasila&lt;br&gt;S | 1 | 2"]:::white
+    end
 
-%% --- RELASI PRASYARAT (Panah Merah) ---
-%% Format: NodeA --&gt; NodeB
-linkStyle default stroke:red,stroke-width:2px;
+    %% --- RELASI PRASYARAT (Panah Merah) ---
+    %% Format: NodeA --&gt; NodeB
+    linkStyle default stroke:red,stroke-width:2px;
 
-S1_1 --&gt; S2_1
-S1_2 --&gt; S2_2
-S1_3 --&gt; S2_3
-S1_4 --&gt; S2_4
-
-S2_3 --&gt; S3_1
-S2_5 --&gt; S3_3
-</code></pre>
-
-            <div class="doc-nav no-print">
-                <div><a href="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" class="nav-btn">← Sebelumnya</a></div>
-                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
-                <div><a href="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" class="nav-btn">Selanjutnya →</a></div>
-            </div>
-        </main>
-
-        <footer class="footer no-print">
-            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
-            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
-        </footer>
-
-        <!-- Print Footer Note -->
-        <div class="print-footer-note">
-            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
-        </div>
-    </div>
-
-    <!-- Master External Modular Script -->
-    <script defer src="assets/js/app.js"></script>
+    S1_1 --&gt; S2_1
+    S1_2 --&gt; S2_2
+    S1_3 --&gt; S2_3
+    S1_4 --&gt; S2_4
+    
+    S2_3 --&gt; S3_1
+    S2_5 --&gt; S3_3</pre></details></figure>
+<p class="kpt-pagenum">Halaman</p>
+</div></div>
 </body>
 </html>

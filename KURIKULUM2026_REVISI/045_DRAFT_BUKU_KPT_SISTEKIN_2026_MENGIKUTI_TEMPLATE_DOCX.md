@@ -463,28 +463,121 @@ Reguler 8 semester (146 SKS). Akselerasi 7 semester/3,5 tahun dimungkinkan (Dok.
 ## 8.2 Struktur Kurikulum per Semester — sumber verbatim Dok. 005 §3 (T20–T27 Template)
 
 ### Semester 1 — 19 SKS (8 MK)
-FST-101 Dasar Teknologi Digital (2 Teori); FST-102 Algoritma dan Pemrograman (3 +P); STI-101 Pengantar Sistem dan TI (2); STI-102 Kalkulus (3); STI-103 Arsitektur dan Organisasi STI (3); MKU-101 Agama I (2); MKU-102 Pancasila (2); MKU-103 Bahasa Indonesia (2). Kumulatif 19 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | FST-101 | Dasar Teknologi Digital | 2 | Teori | — |
+| 2 | FST-102 | Algoritma dan Pemrograman | 3 | +P | — |
+| 3 | STI-101 | Pengantar Sistem dan TI | 2 | Teori | — |
+| 4 | STI-102 | Kalkulus (K2026) | 3 | Teori | — |
+| 5 | STI-103 | Arsitektur dan Organisasi STI (K2026) | 3 | Teori | — |
+| 6 | MKU-101 | Agama I | 2 | Teori | — |
+| 7 | MKU-102 | Pancasila | 2 | Teori | — |
+| 8 | MKU-103 | Bahasa Indonesia | 2 | Teori | — |
+| | **Total Semester 1** | | **19** | | |
+
+Kumulatif 19 SKS (batas maks 20 SKS terpenuhi).
 
 ### Semester 2 — 20 SKS (8 MK)
-STI-204 Matematika Diskrit dan Logika (3, prasyarat STI-103); STI-205 Aljabar Linear dan Matriks (3, STI-102); FST-203 Struktur Data dan Algoritma (3 +P, FST-102); FST-204 Pengantar Kecerdasan Artifisial & Data (2, FST-101); FST-205 Basic English for IT (2); FST-206 Etika Profesi & Hukum Digital (2); FST-207 Sistem Basis Data (3 +P, FST-102); MKU-204 Kewirausahaan I (2). Kumulatif 39 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | STI-204 | Matematika Diskrit dan Logika (K2026) | 3 | Teori | STI-103 |
+| 2 | STI-205 | Aljabar Linear dan Matriks | 3 | Teori | STI-102 |
+| 3 | FST-203 | Struktur Data dan Algoritma | 3 | +P | FST-102 |
+| 4 | FST-204 | Pengantar Kecerdasan Artifisial & Data | 2 | Teori | FST-101 |
+| 5 | FST-205 | Basic English for IT | 2 | Teori | — |
+| 6 | FST-206 | Etika Profesi & Hukum Digital | 2 | Teori | — |
+| 7 | FST-207 | Sistem Basis Data | 3 | +P | FST-102 |
+| 8 | MKU-204 | Kewirausahaan I | 2 | Teori | — |
+| | **Total Semester 2** | | **20** | | |
+
+Kumulatif 39 SKS.
 
 ### Semester 3 — 20 SKS (7 MK)
-STI-306 Analisis dan Perancangan SI (3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, STI-204 + FST-204); STI-308 UI/UX Design & Prototyping (3 +P, FST-101); STI-309 Rekayasa Perangkat Lunak (3, FST-203); STI-310 Sistem Operasi (3, STI-103); STI-311 Web Front End Development (3 +P, FST-102); STI-312 Jaringan Komputer (3 +P, STI-103). Kumulatif 59 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | STI-306 | Analisis dan Perancangan SI | 3 | Teori | STI-101, FST-207 |
+| 2 | STI-307 | Sistem Cerdas | 2 | Teori | STI-204, FST-204 |
+| 3 | STI-308 | UI/UX Design & Prototyping | 3 | +P | FST-101 |
+| 4 | STI-309 | Rekayasa Perangkat Lunak | 3 | Teori | FST-203 |
+| 5 | STI-310 | Sistem Operasi | 3 | Teori | STI-103 |
+| 6 | STI-311 | Web Front End Development | 3 | +P | FST-102 |
+| 7 | STI-312 | Jaringan Komputer (K2026) | 3 | +P | STI-103 |
+| | **Total Semester 3** | | **20** | | |
+
+Kumulatif 59 SKS.
 
 ### Semester 4 — 21 SKS (8 MK + 1 MK 0 SKS)
-STI-413 Machine Learning (3 +P, STI-205 + STI-307); STI-414 Pengantar NLP & IR (2 +P, STI-307); STI-415 Data Warehouse & BI (3 +P, FST-207); STI-416 Web Back End Development (3 +P, FST-207 + STI-311); STI-417 Komputasi Awan (3, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, STI-312); FST-408 Probabilitas dan Statistika (3, STI-102); MKU-405 Kewarganegaraan (2); MKU-406 Agama II (0, kebijakan UWG). Kumulatif 80 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | STI-413 | Machine Learning | 3 | +P | STI-205, STI-307 |
+| 2 | STI-414 | Pengantar NLP & Information Retrieval | 2 | +P | STI-307 |
+| 3 | STI-415 | Data Warehouse & Business Intelligence | 3 | +P | FST-207 |
+| 4 | STI-416 | Web Back End Development | 3 | +P | FST-207, STI-311 |
+| 5 | STI-417 | Komputasi Awan | 3 | Teori | STI-312, STI-310 |
+| 6 | STI-418 | Dasar Keamanan Informasi (K2026) | 2 | Teori | STI-312 |
+| 7 | FST-408 | Probabilitas dan Statistika | 3 | Teori | STI-102 |
+| 8 | MKU-405 | Kewarganegaraan | 2 | Teori | — |
+| 9 | MKU-406 | Agama II (kebijakan UWG) | 0 | Teori | — |
+| | **Total Semester 4** | | **21** | | |
+
+Kumulatif 80 SKS.
 
 ### Semester 5 — 21 SKS (7 MK + 1 MK 0 SKS)
-STI-519 Keamanan Informasi Lanjut (3, STI-418); STI-520 Data Mining & Visualisasi (3 +P, STI-413 + STI-415); STI-521 Internet of Things (3 +P, STI-312 + STI-310); STI-522 Pemrograman Mobile (3 +P, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, STI-306 + STI-309); MKU-507 KPM (3 Praktik, ≥80 SKS); MK Pilihan Peminatan-1 (3 Elektif: STA-501 / STB-501 / STC-501); MKU-508 Kewirausahaan II (0, kebijakan UWG). Kumulatif 101 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | STI-519 | Keamanan Informasi Lanjut | 3 | Teori | STI-418 |
+| 2 | STI-520 | Data Mining & Visualisasi Data | 3 | +P | STI-413, STI-415 |
+| 3 | STI-521 | Internet of Things | 3 | +P | STI-312, STI-310 |
+| 4 | STI-522 | Pemrograman Aplikasi Mobile | 3 | +P | STI-311, STI-416 |
+| 5 | STI-523 | Manajemen Proyek TI | 3 | Teori | STI-306, STI-309 |
+| 6 | MKU-507 | Kuliah Pengabdian Masyarakat (KPM) | 3 | Praktik | ≥80 SKS |
+| 7 | STA-501 / STB-501 / STC-501 | MK Pilihan Peminatan-1 (satu jalur) | 3 | Elektif | Lihat prasyarat jalur |
+| 8 | MKU-508 | Kewirausahaan II (kebijakan UWG) | 0 | Teori | — |
+| | **Total Semester 5** | | **21** | | |
+
+Kumulatif 101 SKS.
 
 ### Semester 6 — 19 SKS (7 MK)
-STI-624 Integrasi Layanan Cerdas AI (3 +P, STI-413 + STI-416); STI-625 Smart City & Pemerintahan Digital (2, STI-521); STI-626 Deep Learning (3 +P, STI-413); STI-627 Digital Platform Engineering (3 +P, STI-416); FST-611 Metodologi Penelitian (2, ≥76 SKS); Peminatan-2 (3: STA-601 / STB-601 / STC-601); Peminatan-3 (3: STA-602 / STB-602 / STC-602). Kumulatif 120 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | STI-413, STI-416 |
+| 2 | STI-625 | Smart City & Pemerintahan Digital (K2026) | 2 | Teori | STI-521 |
+| 3 | STI-626 | Deep Learning & Neural Networks | 3 | +P | STI-413 |
+| 4 | STI-627 | Digital Platform Engineering | 3 | +P | STI-416 |
+| 5 | FST-611 | Metodologi Penelitian | 2 | Teori | ≥76 SKS |
+| 6 | STA-601 / STB-601 / STC-601 | MK Pilihan Peminatan-2 (satu jalur) | 3 | Elektif | Lihat prasyarat jalur |
+| 7 | STA-602 / STB-602 / STC-602 | MK Pilihan Peminatan-3 (satu jalur) | 3 | Elektif | Lihat prasyarat jalur |
+| | **Total Semester 6** | | **19** | | |
+
+Kumulatif 120 SKS.
 
 ### Semester 7 — 20 SKS (7 MK)
-STI-728 Inovasi Teknologi dan Startup Digital (3 +P, STI-627 + MKU-204); FST-610 Capstone Project FSTI (3 Proyek, STI-523 + ≥100 SKS); FST-612 PKL (3 Magang, ≥100 SKS); FST-613 Pra-Skripsi (2 Seminar, FST-611 + ≥100 SKS); Peminatan-4/5/6 (9 SKS: STA-701/702/703 atau STB-701/702/703 atau STC-701/702/703). Kumulatif 140 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 | +P | STI-627, MKU-204 |
+| 2 | FST-610 | Capstone Project FSTI | 3 | Proyek | STI-523, ≥100 SKS |
+| 3 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | Magang | ≥100 SKS |
+| 4 | FST-613 | Pra-Skripsi / Seminar Proposal | 2 | Seminar | FST-611, ≥100 SKS |
+| 5–7 | STA-701/702/703 atau STB-701/702/703 atau STC-701/702/703 | MK Pilihan Peminatan-4/5/6 (satu jalur) | 9 | Elektif | Lihat prasyarat jalur |
+| | **Total Semester 7** | | **20** | | |
+
+Kumulatif 140 SKS.
 
 ### Semester 8 — 6 SKS (1 MK)
-FST-714 Skripsi / Tugas Akhir (6 Mandiri, FST-613 + ≥120 SKS; atau 4 opsi non-skripsi Dok. 009). Kumulatif 146 SKS.
+
+| No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
+|---|---|---|---|---|---|
+| 1 | FST-714 | Skripsi / Tugas Akhir (atau 4 opsi non-skripsi Dok. 009) | 6 | Mandiri | FST-613, ≥120 SKS |
+| | **Total Semester 8** | | **6** | | |
+
+Kumulatif 146 SKS.
 
 ## 8.3 Rekapitulasi SKS per Semester
 
