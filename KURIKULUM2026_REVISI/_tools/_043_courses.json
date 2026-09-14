@@ -1,0 +1,1446 @@
+[
+ {
+  "num": "1",
+  "code": "STI-101",
+  "name": "Pengantar Sistem dan Teknologi Informasi",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menguraikan** komponen pembentuk sistem informasi, siklus data-ke-informasi, dan perannya dalam organisasi (*B*) melalui studi kasus bisnis (*C*) secara komprehensif (*D*).",
+    "bloom": "C2",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membandingkan** jenis-jenis sistem informasi enterprise (TPS, MIS, DSS, ERP, CRM, SCM) (*B*) pada ekosistem industri modern (*C*) dengan analisis komparasi yang valid (*D*).",
+    "bloom": "C4",
+    "cpl": "P2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merumuskan** usulan solusi transformasi digital berbasis AI, Cloud, dan IoT (*B*) terhadap permasalahan proses bisnis konvensional (*C*) secara etis dan layak bisnis (*D*).",
+    "bloom": "C5",
+    "cpl": "P2"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Memberi konteks bisnis & peta TI; menyerahkan pengembangan sistem ke FST-102/STI-306 dan fondasi infrastruktur ke STI-103."
+ },
+ {
+  "num": "2",
+  "code": "STI-102",
+  "name": "Kalkulus",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menghitung** limit fungsi aljabar/transenden dan memeriksa kontinuitas (*B*) menggunakan kaidah kalkulus baku (*C*) secara teliti dan benar (*D*).",
+    "bloom": "C3",
+    "cpl": "P1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** konsep turunan fungsi multivariat dan gradien (*B*) pada permasalahan laju perubahan dan optimasi ekstremum (*C*) dengan prosedur matematis standar (*D*).",
+    "bloom": "C3",
+    "cpl": "P1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** permasalahan integral tentu dan tak tentu (*B*) menggunakan teknik substitusi dan integrasi parsial (*C*) untuk pemodelan fungsi komputasi (*D*).",
+    "bloom": "C4",
+    "cpl": "P1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **merumuskan** aplikasi kalkulus diferensial-integral (*B*) pada algoritma optimasi penurunan gradien (Gradient Descent) dan luasan data (*C*) secara matematis (*D*).",
+    "bloom": "C4",
+    "cpl": "P1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Turunan/integral kontinu jadi dasar STI-205 (aljabar linear) dan STI-413 (ML); komputasi aproksimasi diserahkan ke STA-601."
+ },
+ {
+  "num": "3",
+  "code": "STI-103",
+  "name": "Arsitektur dan Organisasi Sistem Teknologi Informasi",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** representasi data biner, heksadesimal, floating point IEEE 754, dan siklus eksekusi instruksi Von Neumann (*B*) pada arsitektur prosesor (*C*) secara tepat dan akurat (*D*).",
+    "bloom": "C3",
+    "cpl": "P1, P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** rancangan rangkaian logika kombinasional dan sekuensial (*B*) menggunakan gerbang logika biner dan flip-flop (*C*) sebagai dasar operasi Arithmetic Logic Unit (ALU) (*D*).",
+    "bloom": "C4",
+    "cpl": "P1, KU1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membandingkan** karakteristik arsitektur prosesor CISC (x86_64) vs RISC (ARM64 / RISC-V), hirarki memori cache L1/L2/L3, dan akselerator komputasi GPU/NPU (*B*) dalam skenario beban kerja komputasi nyata (*C*) secara kritis (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KU1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** mekanisme bus sistem, interupsi I/O, abstraksi virtualisasi hardware (Hypervisor), dan organisasi server data center (*B*) untuk mendukung infrastruktur cloud modern (*C*) secara komprehensif (*D*).",
+    "bloom": "C5",
+    "cpl": "P3, KU1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Memahami mesin fisik; menyerahkan manajemen perangkat lunak sistem ke STI-310 dan komunikasi data ke STI-312."
+ },
+ {
+  "num": "4",
+  "code": "STI-204",
+  "name": "Matematika Diskrit dan Logika",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membuktikan** validitas argumen inferensi logika proposisi/predikat dan kebenaran algoritma (*B*) menggunakan tabel kebenaran, hukum aljabar logika, dan metode induksi matematika (*C*) secara runtut dan valid (*D*).",
+    "bloom": "C3",
+    "cpl": "P1, KU1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** konsep relasi ekuivalensi, himpunan terurut parsial (Poset), aljabar Boolean, dan kombinatorika (*B*) pada pemodelan struktur data dan logika query basis data (*C*) secara tepat (*D*).",
+    "bloom": "C3",
+    "cpl": "P1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** struktur Graf dan Pohon (Tree) (*B*) menggunakan matriks representasi (Adjacency Matrix) dan algoritma penelusuran lintasan (*C*) untuk optimasi jaringan data/komputer (*D*).",
+    "bloom": "C4",
+    "cpl": "P1, KU1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengonstruksi** model otomata berhingga (Finite State Automata / FSA: DFA dan NFA) (*B*) untuk pengenalan pola bahasa formal dan transisi status sistem komputasi (*C*) secara akurat (*D*).",
+    "bloom": "C4",
+    "cpl": "P1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Logika formal & struktur diskrit jadi fondasi STI-307 (Sistem Cerdas) dan STI-413."
+ },
+ {
+  "num": "5",
+  "code": "STI-205",
+  "name": "Aljabar Linear dan Matriks",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menyelesaikan** Sistem Persamaan Linear (SPL) (*B*) menggunakan eliminasi Gauss-Jordan dan matriks invers (*C*) secara tepat (*D*).",
+    "bloom": "C3",
+    "cpl": "P1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** struktur ruang vektor, kombinasi linier, kebebasan linier, basis, dan dimensi (*B*) pada ruang $\\mathbb{R}^n$ (*C*) dengan kaidah aljabar formal (*D*).",
+    "bloom": "C4",
+    "cpl": "P1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menghitung** nilai eigen (Eigenvalues), vektor eigen (Eigenvectors), dan diagonalisasi matriks (*B*) pada matriks transformasi linier (*C*) secara presisi (*D*).",
+    "bloom": "C3",
+    "cpl": "P1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **merumuskan** dekomposisi matriks SVD (Singular Value Decomposition) dan reduksi dimensi PCA (*B*) menggunakan pustaka Python NumPy (*C*) untuk pemrosesan data AI (*D*).",
+    "bloom": "C4",
+    "cpl": "P1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Matriks linear menjadi prasyarat STI-413 (ML) dan fondasi STA-601."
+ },
+ {
+  "num": "6",
+  "code": "STI-306",
+  "name": "Analisis dan Perancangan Sistem Informasi",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **mengelisitasi** kebutuhan fungsional dan non-fungsional perangkat lunak (*B*) dari pemangku kepentingan industri (*C*) dalam bentuk dokumen spesifikasi kebutuhan SRS IEEE 830 (*D*).",
+    "bloom": "C4",
+    "cpl": "KU1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **memodelkan** alur proses bisnis organisasi (*B*) menggunakan standar notasi BPMN 2.0 (*C*) dengan analisis efisiensi proses As-Is vs To-Be (*D*).",
+    "bloom": "C4",
+    "cpl": "P2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merancang** pemodelan berorientasi objek (Use Case, Activity, Class, Sequence, State Machine) (*B*) menggunakan Unified Modeling Language (UML 2.5) (*C*) secara konsisten (*D*).",
+    "bloom": "C4",
+    "cpl": "P2"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** dokumen arsitektur dan desain perangkat lunak komprehensif (SDD) (*B*) untuk persiapan implementasi teknis (*C*) secara profesional (*D*).",
+    "bloom": "C5",
+    "cpl": "P2"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Cetak biru kebutuhan; menyerahkan konstruksi & pengujian ke STI-309, manajemen ke STI-523."
+ },
+ {
+  "num": "7",
+  "code": "STI-307",
+  "name": "Sistem Cerdas",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** algoritma pencarian heuristic (A*, Greedy Best-First, Minimax) (*B*) pada permasalahan optimasi ruang status (*C*) dengan kompleksitas ruang/waktu terukur (*D*).",
+    "bloom": "C3",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang** sistem pakar (*Expert System*) dengan metode penalaran Forward Chaining dan Backward Chaining (*B*) berbasis basis aturan (*C*) secara logis dan konsisten (*D*).",
+    "bloom": "C4",
+    "cpl": "P2, KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** sistem inferensi logika fuzzy (Mamdani dan Sugeno) (*B*) untuk pengambilan keputusan dalam kondisi ketidakpastian (*C*) menggunakan Python Scikit-Fuzzy (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Inferensi simbolik deterministik; menyerahkan ML probabilistik ke STI-413 dan NLP ke STI-414."
+ },
+ {
+  "num": "8",
+  "code": "STI-308",
+  "name": "UI/UX Design & Prototyping",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** riset pengguna (*User Research*) melalui wawancara, observasi, dan persona (*B*) menggunakan metodologi Design Thinking (*C*) dengan empati mendalam (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang** arsitektur informasi, alur pengguna (*User Flow*), dan *Wireframe* (*B*) pada aplikasi web/mobile (*C*) secara terstruktur (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** purwarupa interaktif *High-Fidelity* dan *Design System* (*B*) menggunakan perangkat lunak Figma (*C*) dengan kepatuhan standar aksesibilitas WCAG (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** kegunaan antarmuka (*Usability Testing*) (*B*) menggunakan System Usability Scale (SUS) dan Heuristic Evaluation (*C*) dengan analisis kuantitatif/kualitatif (*D*).",
+    "bloom": "C5",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Purwarupa interaktif; menyerahkan riset ilmiah pengguna ke STC-501 dan frontend ke STI-311."
+ },
+ {
+  "num": "9",
+  "code": "STI-309",
+  "name": "Rekayasa Perangkat Lunak",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **memilih** model proses pengembangan perangkat lunak (Waterfall, V-Model, Scrum, Kanban) (*B*) yang sesuai dengan karakteristik proyek industri (*C*) secara terjustifikasi (*D*).",
+    "bloom": "C4",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** arsitektur perangkat lunak modular dan prinsip SOLID (*B*) pada perancangan subsistem software (*C*) dengan *coupling* rendah dan *cohesion* tinggi (*D*).",
+    "bloom": "C3",
+    "cpl": "P4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merancang** skenario pengujian perangkat lunak White-Box (Basis Path, Cyclomatic Complexity) dan Black-Box (BVA, Equivalence Partitioning) (*B*) berdasarkan spesifikasi sistem (*C*) secara komprehensif (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** kualitas perangkat lunak (*B*) berdasarkan standar ISO/IEC 25010 dan metrik pengujian otomatis (*C*) secara objektif (*D*).",
+    "bloom": "C5",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Menjamin kualitas kode; menyerahkan tata kelola jadwal/biaya ke STI-523."
+ },
+ {
+  "num": "10",
+  "code": "STI-310",
+  "name": "Sistem Operasi",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** siklus hidup proses, mekanisme thread, dan algoritma penjadwalan CPU (*B*) pada sistem multi-tasking (*C*) dengan perhitungan rata-rata waktu tunggu (*D*).",
+    "bloom": "C4",
+    "cpl": "P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menyelesaikan** permasalahan sinkronisasi proses (Race Condition, Deadlock) (*B*) menggunakan Semaphore, Mutex, dan Algoritma Banker (*C*) secara matematis (*D*).",
+    "bloom": "C3",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** kinerja manajemen memori virtual (Paging, Segmentasi, Page Replacement) dan alokasi sistem berkas (*B*) pada arsitektur sistem operasi modern (*C*) dengan analisis page fault minimum (*D*).",
+    "bloom": "C5",
+    "cpl": "P3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Manajemen resource mesin lokal; menyerahkan interkoneksi antar-mesin ke STI-312."
+ },
+ {
+  "num": "11",
+  "code": "STI-311",
+  "name": "Web Front End Development",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membangun** struktur halaman web responsif multi-device (*B*) menggunakan HTML5 Semantik, CSS3 Flexbox/Grid, dan Variabel CSS (*C*) dengan tampilan estetik (*D*).",
+    "bloom": "C3",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** logika interaktivitas client-side (*B*) menggunakan JavaScript Modern (ES6+, DOM Manipulation, Async/Await, Fetch API) (*C*) secara modular (*D*).",
+    "bloom": "C3",
+    "cpl": "P4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** aplikasi Single Page Application (SPA) berbasis komponen (*B*) menggunakan framework React.js (Hooks, Context API, React Router) (*C*) dengan arsitektur state terpusat (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengintegrasikan** aplikasi front-end dengan RESTful API eksternal (*B*) serta **mengoptimalkan** performa loading (*C*) dengan skor Google Lighthouse $\\ge 85$ (*D*).",
+    "bloom": "C5",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Antarmuka web interaktif; menyerahkan penyediaan data server-side ke STI-416."
+ },
+ {
+  "num": "12",
+  "code": "STI-312",
+  "name": "Jaringan Komputer",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang** skema pengalamatan jaringan IPv4 (*B*) menggunakan teknik Variable Length Subnet Mask (VLSM) dan CIDR (*C*) dengan efisiensi alokasi IP optimal (*D*).",
+    "bloom": "C4",
+    "cpl": "P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengonfigurasi** perangkat Switch dan Router (*B*) untuk implementasi VLAN, Trunking, dan Inter-VLAN Routing (*C*) menggunakan Cisco Packet Tracer (*D*).",
+    "bloom": "C3",
+    "cpl": "KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** protokol routing dinamis OSPF (*B*) pada topologi jaringan multi-router (*C*) dengan tabel routing konvergen (*D*).",
+    "bloom": "C3",
+    "cpl": "KK3"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** lalu lintas protokol lapisan aplikasi (HTTP, DNS, DHCP) dan keamanan Access Control List (ACL) (*B*) menggunakan Wireshark (*C*) secara kritis (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Komunikasi data jaringan; menyerahkan komputasi cloud ke STI-417 dan keamanan ke STI-418."
+ },
+ {
+  "num": "13",
+  "code": "STI-413",
+  "name": "Machine Learning",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** alur kerja rekayasa data Machine Learning (EDA, Imputation, Encoding, Scaling) (*B*) menggunakan Python dan scikit-learn (*C*) bebas data leakage (*D*).",
+    "bloom": "C3",
+    "cpl": "KK2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengonstruksi dan melatih** model pembelajaran terbimbing (Linear Regression, Logistic Regression, Decision Tree, Random Forest, SVM) (*B*) pada dataset tabular (*C*) dengan parameter optimal (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengonstruksi** model pembelajaran tak-terbimbing (K-Means, Hierarchical, PCA) (*B*) untuk segmentasi data dan reduksi dimensi (*C*) dengan validasi siluet yang valid (*D*).",
+    "bloom": "C5",
+    "cpl": "P2, KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Pemodelan data tabular klasik; menyerahkan data tak terstruktur (citra/sekuensial) ke STI-626."
+ },
+ {
+  "num": "14",
+  "code": "STI-414",
+  "name": "Pengantar NLP & Information Retrieval",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan tahapan pemrosesan awal teks** (*Text Preprocessing: tokenisasi, normalisasi, stopword removal, stemming/lemmatisasi*) (*B*) pada korpus teks bahasa alami (*C*) secara akurat (*D*).",
+    "bloom": "C3",
+    "cpl": "KK1, P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis dan membangun model representasi teks serta sistem temu balik informasi** (*Information Retrieval: TF-IDF, Vector Space Model, BM25, Inverted Index*) (*B*) untuk pencarian dokumen relevan (*C*) dengan presisi dan recall terukur (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1, P2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengembangkan model klasifikasi teks dan analisis sentimen** (*B*) menggunakan teknik machine learning dan word embedding (*Word2Vec, FastText*) (*C*) dengan metrik F1-score optimal (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1, P2"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **merancang purwarupa aplikasi pemrosesan bahasa alami atau mesin pencari cerdas** (*B*) dengan mengintegrasikan API/library NLP modern (*HuggingFace / spaCy / NLTK*) (*C*) sebagai solusi cerdas kebutuhan pengguna (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1, P2"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Representasi matematis teks & pencarian dokumen; menyerahkan bahasa generatif ke STA-702."
+ },
+ {
+  "num": "15",
+  "code": "STI-415",
+  "name": "Data Warehouse & Business Intelligence",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang** skema multidimensi Data Warehouse (Star Schema, Snowflake Schema) (*B*) berdasarkan proses bisnis organisasi (*C*) dengan penanganan Slowly Changing Dimensions (SCD) yang tepat (*D*).",
+    "bloom": "C4",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membangun** pipeline Extract-Transform-Load (ETL) otomatis (*B*) menggunakan software integrasi data (Pentaho/Airflow) (*C*) dengan data cleaning yang valid (*D*).",
+    "bloom": "C6",
+    "cpl": "KK2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** operasi kubus data OLAP dan kueri analitik tingkat lanjut (*B*) menggunakan SQL Window Functions (*C*) secara optimal (*D*).",
+    "bloom": "C3",
+    "cpl": "P2"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun** dashboard Business Intelligence eksekutif interaktif (*B*) menggunakan Power BI / Tableau (*C*) dengan visualisasi KPI yang komunikatif (*D*).",
+    "bloom": "C6",
+    "cpl": "KK2"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Data multidimensional & KPI; menyerahkan penemuan pola tersembunyi ke STI-520."
+ },
+ {
+  "num": "16",
+  "code": "STI-416",
+  "name": "Web Back End Development",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membangun** RESTful API modular (*B*) menggunakan Node.js/Express atau Python FastAPI (*C*) dengan penanganan rute, middleware, dan sanitasi input yang aman (*D*).",
+    "bloom": "C3",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengintegrasikan** backend API dengan database relasional/NoSQL (*B*) menggunakan Object-Relational Mapping (ORM/ODM) (*C*) dengan operasi CRUD transaksional (*D*).",
+    "bloom": "C3",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** sistem autentikasi dan otorisasi (*B*) berbasis JSON Web Token (JWT) dan Role-Based Access Control (RBAC) (*C*) dengan enkripsi password Bcrypt (*D*).",
+    "bloom": "C4",
+    "cpl": "P4, KK5"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mendokumentasikan** API menggunakan Swagger/OpenAPI serta **mendeploy** backend (*B*) ke server cloud dengan kontainer Docker (*C*) secara andal (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Layanan backend modular; menyerahkan aksesibilitas mobile ke STI-522 dan skalabilitas terdistribusi ke STI-627."
+ },
+ {
+  "num": "17",
+  "code": "STI-417",
+  "name": "Komputasi Awan (Cloud Computing)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membandingkan** model layanan cloud (IaaS, PaaS, SaaS, FaaS) dan model deployment (*B*) pada penyedia cloud publik (AWS/GCP/Azure) (*C*) secara kritis (*D*).",
+    "bloom": "C4",
+    "cpl": "P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengemas** aplikasi ke dalam kontainer (*B*) menggunakan Dockerfile dan Docker Compose (*C*) dengan *layer caching* yang efisien (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengonfigurasi** arsitektur jaringan Virtual Private Cloud (VPC), Subnetting, Security Group, dan IAM (*B*) pada infrastruktur cloud (*C*) dengan standar keamanan ketat (*D*).",
+    "bloom": "C3",
+    "cpl": "KK3"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** arsitektur sistem cloud berskala besar (*B*) dengan Load Balancing, Auto-Scaling, dan toleransi bencana (*High Availability*) (*C*) secara terstruktur (*D*).",
+    "bloom": "C5",
+    "cpl": "P3, KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Fondasi provisi cloud; menyerahkan automasi & orkestrasi skala besar ke STB-601."
+ },
+ {
+  "num": "18",
+  "code": "STI-418",
+  "name": "Dasar Keamanan Informasi",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** algoritma kriptografi simetris (AES), asimetris (RSA), fungsi hash (SHA-256), dan digital signature (*B*) pada proteksi data (*C*) secara matematis (*D*).",
+    "bloom": "C3",
+    "cpl": "P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** kerentanan aplikasi web dan sistem (*B*) berdasarkan metodologi OWASP Top 10 (*C*) menggunakan alat bantu pemindai kerentanan (*D*).",
+    "bloom": "C4",
+    "cpl": "KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** insiden keamanan siber (*B*) menggunakan kerangka kerja NIST Cybersecurity Framework dan ISO/IEC 27001 (*C*) dengan rencana mitigasi yang tepat (*D*).",
+    "bloom": "C5",
+    "cpl": "P3, KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Prinsip keamanan; menyerahkan pertahanan jaringan ke STB-501 dan keamanan aplikasi/pentest ke STI-519."
+ },
+ {
+  "num": "19",
+  "code": "STI-519",
+  "name": "Keamanan Informasi Lanjut",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengeksekusi** tahapan uji penetrasi keamanan (*Penetration Testing*) (*B*) sesuai standar PTES dan MITRE ATT&CK (*C*) dengan etika *Red Teaming* profesional (*D*).",
+    "bloom": "C4",
+    "cpl": "KK4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** audit sistem manajemen keamanan informasi (*B*) berdasarkan klausul dan kontrol keamanan ISO/IEC 27001:2022 (*C*) dalam bentuk dokumen Statement of Applicability (SoA) (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** rencana tanggap insiden (*Incident Response Plan*) dan melakukan analisis forensik digital dasar (*B*) pada kasus insiden kebocoran data (*C*) secara terstruktur (*D*).",
+    "bloom": "C5",
+    "cpl": "KK3, KK4"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Menjamin perangkat lunak prodi bebas celah keamanan kritikal; fokus layer aplikasi (Layer 7)."
+ },
+ {
+  "num": "20",
+  "code": "STI-520",
+  "name": "Data Mining & Visualisasi Data",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** algoritma penambangan aturan asosiasi (Apriori, FP-Growth) (*B*) pada data transaksi belanja (*C*) dengan analisis Support, Confidence, dan Lift Ratio yang valid (*D*).",
+    "bloom": "C3",
+    "cpl": "KK2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** algoritma klastering tingkat lanjut (DBSCAN, Hierarchical Clustering) (*B*) pada data spasial/multivariat (*C*) dengan evaluasi skor Davies-Bouldin (*D*).",
+    "bloom": "C4",
+    "cpl": "KK2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mendeteksi** anomali dan pencilan (*Outliers*) (*B*) menggunakan algoritma Isolation Forest dan Local Outlier Factor (*C*) secara akurat (*D*).",
+    "bloom": "C4",
+    "cpl": "P2, KK2"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **merancang** visualisasi data interaktif dan narasi wawasan bisnis (*Data Storytelling*) (*B*) menggunakan Python Plotly/Seaborn (*C*) secara estetik dan komunikatif (*D*).",
+    "bloom": "C6",
+    "cpl": "KK2"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Menemukan pola dari data historis yang sudah diorganisasi di FST-207/STI-415."
+ },
+ {
+  "num": "21",
+  "code": "STI-521",
+  "name": "Internet of Things (IoT)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **memprogram** mikrokontroler ESP32 (*B*) untuk membaca sensor analog/digital dan mengendalikan aktuator (*C*) menggunakan antarmuka GPIO/I2C/SPI (*D*).",
+    "bloom": "C3",
+    "cpl": "KK3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** protokol telemetri IoT berkecepatan tinggi (MQTT) (*B*) menggunakan broker Mosquitto (*C*) dengan QoS dan enkripsi payload yang andal (*D*).",
+    "bloom": "C3",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merancang** alur otomasi middleware (*B*) menggunakan Node-RED (*C*) untuk pemrosesan logika data sensor secara real-time (*D*).",
+    "bloom": "C4",
+    "cpl": "KK3"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun** purwarupa produk IoT cerdas (*B*) yang terhubung ke dashboard cloud (ThingsBoard/Blynk) dan database time-series (*C*) secara terintegrasi (*D*).",
+    "bloom": "C6",
+    "cpl": "KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Dasar pengumpulan & transmisi data sensor; menyerahkan AI vision edge ke STA-703."
+ },
+ {
+  "num": "22",
+  "code": "STI-522",
+  "name": "Pemrograman Aplikasi Mobile",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membangun** antarmuka aplikasi mobile responsif multi-device (*B*) menggunakan framework Flutter dan bahasa Dart (*C*) dengan prinsip Material Design 3 (*D*).",
+    "bloom": "C3",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** arsitektur state management yang scalable (*B*) menggunakan Business Logic Component (BLoC) Pattern (*C*) secara terstruktur (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengintegrasikan** persistensi data lokal (SQLite/SharedPreferences) dan sinkronisasi RESTful API (*B*) pada aplikasi mobile (*C*) dengan penanganan offline-mode yang andal (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun dan merilis** aplikasi mobile (*B*) dengan integrasi sensor perangkat keras (Kamera, GPS Geolocation) dan push notification Firebase (*C*) ke dalam paket APK/AAB rilis (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Aplikasi mobile siap rilis; mengkonsumsi API backend yang disediakan STI-416."
+ },
+ {
+  "num": "23",
+  "code": "STI-523",
+  "name": "Manajemen Proyek TI",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merumuskan** Project Charter, struktur rincian kerja (Work Breakdown Structure / WBS), dan matriks stakeholder (*B*) berdasarkan standar PMBOK v7 (*C*) secara komprehensif (*D*).",
+    "bloom": "C4",
+    "cpl": "KK6"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** jadwal proyek realistis (*B*) menggunakan Critical Path Method (CPM) dan estimasi tiga titik PERT (*C*) dengan alokasi sumber daya optimal (*D*).",
+    "bloom": "C4",
+    "cpl": "KK6"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** metodologi Agile Project Management (*B*) menggunakan kerangka kerja Scrum dan perangkat lunak Jira (*C*) untuk pengelolaan sprint tim (*D*).",
+    "bloom": "C3",
+    "cpl": "KK6"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengendalikan** kinerja proyek (*B*) menggunakan analisis Earned Value Management (EVM: CPI, SPI, EAC) dan mitigasi risiko (*C*) secara akurat (*D*).",
+    "bloom": "C5",
+    "cpl": "KK6"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Tata kelola jadwal/biaya/sumber daya; menyerahkan kesuksesan pasar produk ke STC-703."
+ },
+ {
+  "num": "24",
+  "code": "STI-624",
+  "name": "Integrasi Layanan Cerdas Berbasis AI",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **mengoptimalkan dan mengonversi** model deep learning terlatih (*B*) ke format ONNX dan TensorRT (*C*) untuk inferensi berlatensi rendah (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membangun** RESTful / gRPC Inference Service asinkron (*B*) menggunakan framework FastAPI dan kontainer Docker (*C*) dengan throughput tinggi (*D*).",
+    "bloom": "C6",
+    "cpl": "P2, KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengintegrasikan** sistem Retrieval-Augmented Generation (RAG) (*B*) menggunakan Vector Database (Milvus/Chroma) dan Large Language Models (LLM API) (*C*) secara akurat dan minim halusinasi (*D*).",
+    "bloom": "C6",
+    "cpl": "KK1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **mengevaluasi** performa layanan AI (*B*) dengan pengujian beban (*Load Testing* Locust), monitoring latensi, dan pertahanan terhadap prompt injection (*C*) secara kritis (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Mengoperasikan layanan AI; menyerahkan otomasi lifecycle & monitoring drift produksi ke STA-701."
+ },
+ {
+  "num": "25",
+  "code": "STI-625",
+  "name": "Smart City & Pemerintahan Digital",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** arsitektur enterprise Sistem Pemerintahan Berbasis Elektronik (SPBE) (*B*) berdasarkan regulasi nasional Perpres No. 95/2018 (*C*) dengan pemetaan 6 domain SPBE (*D*).",
+    "bloom": "C4",
+    "cpl": "P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membangun** peta digital perkotaan interaktif (*B*) menggunakan Web GIS (Leaflet/Mapbox) dan integrasi sensor telemetri perkotaan (*C*) secara visual dan fungsional (*D*).",
+    "bloom": "C6",
+    "cpl": "KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merancang** skema interoperabilitas data publik (*B*) berdasarkan prinsip Satu Data Indonesia dan RESTful API SPBE (*C*) dengan keamanan terstandar (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** masterplan dan purwarupa sistem layanan publik cerdas (*B*) pada salah satu pilar Smart City (*C*) secara komprehensif (*D*).",
+    "bloom": "C6",
+    "cpl": "P3, KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Domain pemerintahan publik; menyerahkan arsitektur enterprise korporat ke STB-703."
+ },
+ {
+  "num": "26",
+  "code": "STI-626",
+  "name": "Deep Learning & Neural Networks",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **mengonstruksi** arsitektur Multi-Layer Perceptron (MLP) dan mengimplementasikan algoritma Backpropagation (*B*) menggunakan framework PyTorch (*C*) secara matematis dan modular (*D*).",
+    "bloom": "C3",
+    "cpl": "KK1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang, melatih, dan mengevaluasi** model Convolutional Neural Networks (CNN) dan arsitektur transfer learning (ResNet, VGG) (*B*) untuk klasifikasi citra medis/industri (*C*) dengan akurasi terukur (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1, KK2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengonstruksi** model sekuensial (LSTM, GRU, Transformer Self-Attention) (*B*) untuk pemrosesan bahasa alami atau prediksi runtun waktu (*C*) dengan konvergensi loss yang stabil (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun** aplikasi deep learning terpadu (*B*) dengan teknik regularisasi (Dropout, Batch Normalization) dan optimasi akselerasi GPU (*C*) secara andal (*D*).",
+    "bloom": "C6",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Menghasilkan bobot model teroptimasi; menyerahkan otomasi lifecycle & deployment ke STA-701."
+ },
+ {
+  "num": "27",
+  "code": "STI-627",
+  "name": "Digital Platform Engineering",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang** arsitektur sistem berbasis layanan mikro (*Microservices Architecture*) (*B*) menggunakan prinsip Domain-Driven Design (DDD) (*C*) dengan batas layanan (*Bounded Context*) yang tepat (*D*).",
+    "bloom": "C4",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** komunikasi antar-layanan asinkron (*B*) menggunakan message streaming Apache Kafka / RabbitMQ (*C*) dengan penanganan jaminan pengiriman pesan (*D*).",
+    "bloom": "C3",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengonfigurasi** API Gateway, Service Discovery, dan pola ketahanan sistem (Circuit Breaker, Saga Pattern) (*B*) pada klaster platform (*C*) untuk skalabilitas tinggi (*D*).",
+    "bloom": "C4",
+    "cpl": "P4, KK5"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun** pipeline Continuous Integration / Continuous Deployment (CI/CD) otomatis (*B*) menggunakan GitHub Actions dan observability distributed tracing (*C*) secara terintegrasi (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Platform digital terdistribusi; menyerahkan multitenansi & monetisasi SaaS ke STC-702."
+ },
+ {
+  "num": "28",
+  "code": "STI-728",
+  "name": "Inovasi Teknologi dan Startup Digital",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** validasi problem-solusi (*Problem-Solution Fit*) (*B*) menggunakan metodologi Lean Startup dan wawancara pengguna awal (*C*) secara empiris (*D*).",
+    "bloom": "C4",
+    "cpl": "KK6"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan membangun** Minimum Viable Product (MVP) fungsional (*B*) berbasis solusi teknologi cerdas (AI/Platform/IoT) (*C*) dengan siklus Build-Measure-Learn yang cepat (*D*).",
+    "bloom": "C6",
+    "cpl": "KK6"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** metrik pertumbuhan startup (AARRR Pirate Metrics, CAC, LTV, Burn Rate) (*B*) pada dashboard analitik produk (*C*) secara kuantitatif (*D*).",
+    "bloom": "C4",
+    "cpl": "KK6"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** Investor Pitch Deck 10-slide dan mempresentasikannya (*B*) di hadapan panel investor/penguji pada ajang Demo Day (*C*) secara persuasif dan profesional (*D*).",
+    "bloom": "C6",
+    "cpl": "KK6"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Memvalidasi kejelasan pasar bisnis & pitching; startup yang dibina menjadi wadah penerapan capstone/PKL (Capstone FSTI, PKL)."
+ },
+ {
+  "num": "29",
+  "code": "STA-501",
+  "name": "Decision Support Systems",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** metode pengambilan keputusan multi-kriteria klasik (SAW, WP, AHP) (*B*) pada kasus pemilihan alternatif bisnis (*C*) dengan uji konsistensi rasio $CR \\le 0.1$ (*D*).",
+    "bloom": "C3",
+    "cpl": "P2, KK1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** metode perankingan tingkat lanjut (TOPSIS, PROMETHEE, Fuzzy AHP) (*B*) dalam kode program Python (*C*) secara tepat (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1, KK2"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** aplikasi berbasis web Decision Support Systems interaktif (*B*) dengan visualisasi perbandingan alternatif dan analisis sensitivitas (*C*) secara terintegrasi (*D*).",
+    "bloom": "C6",
+    "cpl": "KK1, KK2"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Menyerahkan perangkingan alternatif keputusan bisnis; tidak mempelajari desain ML (STI-413)."
+ },
+ {
+  "num": "30",
+  "code": "STB-501",
+  "name": "Network Security and Digital Forensics",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **mengonfigurasi dan menyusun aturan** (*Rules*) Intrusion Detection / Prevention Systems (Snort / Suricata) (*B*) untuk mendeteksi serangan port scan, DoS, dan eksploitasi jaringan (*C*) secara akurat (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** bukti transfer data mencurigakan dan jejak eksfiltrasi (*B*) melalui analisis lalu lintas paket jaringan (PCAP) menggunakan Wireshark/Zeek (*C*) secara kritis (*D*).",
+    "bloom": "C4",
+    "cpl": "KK4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** akuisisi bukti digital (*Bit-Stream Image*) dan analisis forensik memori/disk (*B*) menggunakan Autopsy dan Volatility (*C*) sesuai prinsip Chain of Custody (*D*).",
+    "bloom": "C5",
+    "cpl": "KK4"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Pertahanan & investigasi jaringan; menyerahkan insiden aplikasi aplikatif ke STI-519."
+ },
+ {
+  "num": "31",
+  "code": "STC-501",
+  "name": "User Experience Research & Design",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengeksekusi** metode riset pengguna kuantitatif dan kualitatif (Card Sorting, Tree Testing, Contextual Inquiry, Eye-Tracking Simulation) (*B*) pada produk digital (*C*) secara ilmiah (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** eksperimen A/B Testing (*B*) dengan penetapan hipotesis, ukuran sampel statistik, dan analisis signifikansi konversi (*C*) secara valid (*D*).",
+    "bloom": "C4",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** sistem desain tingkat lanjut (*Advanced Design Tokens*) dan dokumentasi komponen Storybook (*B*) dengan kepatuhan aksesibilitas WCAG 2.1 Level AAA (*C*) secara profesional (*D*).",
+    "bloom": "C6",
+    "cpl": "P4, KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Validasi data empiris perilaku pengguna; menyerahkan eksekusi prototipe visual ke STI-308."
+ },
+ {
+  "num": "32",
+  "code": "STA-601",
+  "name": "Computational Methods and Numerics",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** galat pemotongan (*Truncation Error*) dan pembulatan (*Round-off Error*) (*B*) pada representasi floating-point komputasi (*C*) secara matematis (*D*).",
+    "bloom": "C4",
+    "cpl": "P1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** metode numerik untuk akar persamaan non-linier (Newton-Raphson, Secant) dan interpolasi Spline (*B*) menggunakan Python (*C*) dengan konvergensi cepat (*D*).",
+    "bloom": "C3",
+    "cpl": "P1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** algoritma integrasi numerik (Romberg, Gauss-Legendre) dan solusi Persamaan Diferensial Biasa (Runge-Kutta RK4) (*B*) pada simulasi sistem fisis (*C*) secara akurat (*D*).",
+    "bloom": "C4",
+    "cpl": "P1, KK1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **merancang** algoritma optimasi numerik tak-terkendala dan Stochastic Gradient Descent (*B*) untuk pencarian minimum fungsi loss model AI (*C*) secara optimal (*D*).",
+    "bloom": "C6",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Algoritma aproksimasi & optimasi numerik; menyerahkan pemodelan deep learning ke STI-626."
+ },
+ {
+  "num": "33",
+  "code": "STA-602",
+  "name": "Intelligent Agent Systems",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang** agen otonom berbasis arsitektur Belief-Desire-Intention (BDI) (*B*) untuk pengambilan keputusan proaktif (*C*) secara rasional (*D*).",
+    "bloom": "C4",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membangun** simulasi Multi-Agent Systems (MAS) (*B*) menggunakan protokol komunikasi FIPA-ACL dan framework Python Mesa/JADE (*C*) dengan koordinasi terpadu (*D*).",
+    "bloom": "C6",
+    "cpl": "P2, KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** algoritma Reinforcement Learning (Q-Learning, Deep Q-Networks / DQN) (*B*) pada lingkungan simulasi Gymnasium (*C*) dengan kebijakan optimal (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **melatih** agen otonom menggunakan algoritma Policy Gradient (PPO) (*B*) pada skenario multi-agen kompetitif/kooperatif (*C*) secara stabil (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Agen otonom terdistribusi; menyerahkan NN besar ke STI-626 dan pengambilan keputusan tunggal ke STI-307."
+ },
+ {
+  "num": "34",
+  "code": "STB-601",
+  "name": "Cloud Architecture & DevOps",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **memprovisi** infrastruktur cloud otomatis (*B*) menggunakan Infrastructure as Code (Terraform) (*C*) dengan modul deklaratif terstandar (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengorkestrasikan** aplikasi multi-kontainer (*B*) pada klaster Kubernetes (Deployments, StatefulSets, Ingress, PersistentVolumes) (*C*) dengan konfigurasi *high availability* (*D*).",
+    "bloom": "C4",
+    "cpl": "KK3"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** pipeline Continuous Delivery berbasis GitOps (*B*) menggunakan ArgoCD dan Helm Charts (*C*) secara otomatis dan bebas *configuration drift* (*D*).",
+    "bloom": "C6",
+    "cpl": "P4, KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Automasi & orkestrasi infrastruktur; menyerahkan desain aplikasi microservices ke STI-627."
+ },
+ {
+  "num": "35",
+  "code": "STB-602",
+  "name": "Cybersecurity Risk Management",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** penilaian risiko keamanan siber kualitatif dan kuantitatif (SLE, ARO, ALE) (*B*) berdasarkan standar ISO/IEC 27005 dan NIST SP 800-30 (*C*) secara presisi (*D*).",
+    "bloom": "C4",
+    "cpl": "P3, KK4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merumuskan** strategi penanganan risiko (Risk Treatment Plan) dan Business Impact Analysis (BIA) (*B*) pada proses bisnis kritis organisasi (*C*) dengan pemilihan kontrol keamanan terjustifikasi (*D*).",
+    "bloom": "C4",
+    "cpl": "KK4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** dokumen rencana keberlanjutan bisnis (*Business Continuity Plan / BCP*) dan rencana pemulihan bencana (*Disaster Recovery Plan / DRP*) (*B*) dengan target metrik RTO dan RPO realistis (*C*) secara komprehensif (*D*).",
+    "bloom": "C5",
+    "cpl": "KK4"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Tata kelola risiko & keberlanjutan bisnis; menyerahkan deteksi exploit teknis ke STI-519."
+ },
+ {
+  "num": "36",
+  "code": "STC-601",
+  "name": "Rekayasa & Otomasi Proses Bisnis (BPA)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** performa proses bisnis dan mendeteksi kesenjangan (*Conformance Checking*) (*B*) menggunakan teknik Process Mining (*C*) secara empiris (*D*).",
+    "bloom": "C4",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengeksekusi** alur kerja otomatis (*B*) menggunakan Workflow Engine (Camunda BPMN 8 / Temporal) dan Decision Model and Notation (DMN) (*C*) secara terstandarisasi (*D*).",
+    "bloom": "C6",
+    "cpl": "P2, P4, KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengembangkan** bot Robotic Process Automation (RPA) (*B*) menggunakan Python RPA / UiPath (*C*) untuk otomasi tugas repetitif dan ekstraksi dokumen OCR (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Orkestrasi proses & integrasi sistem lama; menyerahkan pengembangan aplikasi baru ke STI-309."
+ },
+ {
+  "num": "37",
+  "code": "STC-602",
+  "name": "Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** arsitektur sistem pembayaran digital (*B*) dengan integrasi Payment Gateway API (Midtrans/Xendit) dan buku besar akuntansi ganda (*Double-Entry Ledger*) (*C*) secara aman dan konsisten (*D*).",
+    "bloom": "C4",
+    "cpl": "P4, KK5"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** standar interoperabilitas pembelajaran digital (SCORM 1.2/2004 dan xAPI Tin-Can) (*B*) pada Learning Management System (LMS) (*C*) dengan pelacakan aktivitas belajar yang presisi (*D*).",
+    "bloom": "C4",
+    "cpl": "P4, KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** platform aplikasi industri vertikal terpadu (*B*) dengan penanganan transaksi idempotensi (*Idempotency Key*) dan kepatuhan regulasi industri (*C*) secara andal (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Spesialisasi domain vertikal; menyerahkan infrastruktur platform umum ke STI-627/STC-702."
+ },
+ {
+  "num": "38",
+  "code": "STA-701",
+  "name": "MLOps and AI Pipeline",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **mengelola** pelacakan versi data dan eksperimen model (*B*) menggunakan Data Version Control (DVC) dan MLflow Tracking (*C*) secara terstruktur (*D*).",
+    "bloom": "C4",
+    "cpl": "KK2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membangun** pipeline Continuous Training (CT) otomatis (*B*) menggunakan Kubeflow Pipelines / Apache Airflow (*C*) dengan trigger retraining teruji (*D*).",
+    "bloom": "C6",
+    "cpl": "P4, KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mendeploy dan memantau** model AI produksi (*B*) dengan strategi Canary/Shadow Deployment serta deteksi Data/Concept Drift (*C*) menggunakan Evidently AI dan Prometheus (*D*).",
+    "bloom": "C5",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Otomasi & tata kelola model produksi; menyerahkan pembuatan layanan inference ke STI-624."
+ },
+ {
+  "num": "39",
+  "code": "STA-702",
+  "name": "Conversational AI and Intelligent Assistant",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Thought, ReAct) (*B*) menggunakan framework LangChain (*C*) dengan output terstruktur (*D*).",
+    "bloom": "C3",
+    "cpl": "KK1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengoptimalkan** sistem RAG multi-dokumen (*B*) menggunakan teknik Contextual Compression dan Reranking (*C*) dengan skor evaluasi RAGAS yang tinggi (*D*).",
+    "bloom": "C6",
+    "cpl": "P2, KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** Fine-Tuning model LLM open-source (*B*) menggunakan teknik Parameter-Efficient Fine-Tuning (QLoRA) (*C*) pada domain khusus (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun** asisten virtual cerdas berbasis agen otonom (Tool Calling) (*B*) dengan integrasi multi-channel (WhatsApp API / Web Widget) (*C*) secara terpadu (*D*).",
+    "bloom": "C6",
+    "cpl": "KK1"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Bahasa generatif & percakapan; menyerahkan pencarian dokumen klasik ke STI-414."
+ },
+ {
+  "num": "40",
+  "code": "STA-703",
+  "name": "Smart Surveillance and IoT Analytics",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **melatih dan mengoptimalkan** model deteksi objek modern (YOLOv8/YOLOv10) (*B*) pada dataset CCTV kustom (*C*) dengan mAP $\\ge 0.80$ (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan wajah biometrik (*B*) pada stream video RTSP real-time (*C*) dengan frame rate stabil $\\ge 25$ FPS (*D*).",
+    "bloom": "C4",
+    "cpl": "KK1"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengonversi dan mendeploy** model vision cerdas (*B*) pada perangkat komputasi tepi (*Edge AI: NVIDIA Jetson / Raspberry Pi 5*) menggunakan TensorRT/OpenVINO (*C*) secara optimal (*D*).",
+    "bloom": "C6",
+    "cpl": "P3, KK3"
+   },
+   {
+    "n": 4,
+    "rum": "Mahasiswa (*A*) mampu **membangun** sistem pengawasan cerdas terpadu (*B*) dengan trigger alarm otomatis ke broker MQTT dan dasbor monitoring (*C*) secara andal (*D*).",
+    "bloom": "C6",
+    "cpl": "P3, KK1, KK3"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Analitik AI pada video/edge; menyerahkan akuisisi sensor MQTT ke STI-521."
+ },
+ {
+  "num": "41",
+  "code": "STB-701",
+  "name": "IT Governance & Compliance (COBIT 2019)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membedakan** prinsip Tata Kelola TI (*Governance*) vs Manajemen TI (*Management*) (*B*) berdasarkan kerangka kerja COBIT 2019 (*C*) secara komprehensif (*D*).",
+    "bloom": "C4",
+    "cpl": "P3"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang** sistem tata kelola TI (*B*) menggunakan COBIT 2019 Design Toolkit dan analisis 11 Design Factors (*C*) sesuai strategi organisasi (*D*).",
+    "bloom": "C4",
+    "cpl": "KK4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** audit kapabilitas proses tata kelola TI (*B*) berdasarkan model kapabilitas CMMI COBIT 2019 (Level 0 s.d. 5) (*C*) dengan bukti audit yang valid (*D*).",
+    "bloom": "C5",
+    "cpl": "KK4"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Strategi tata kelola; menyerahkan layanan operasional berkelanjutan ke STB-702."
+ },
+ {
+  "num": "42",
+  "code": "STB-702",
+  "name": "IT Service Management (ITIL 4)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menguraikan** Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7 Prinsip Panduan (*B*) berdasarkan kerangka kerja ITIL 4 (*C*) secara komprehensif (*D*).",
+    "bloom": "C2",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan menganalisis** alur kerja Service Desk, Incident Management, dan Problem Management (*B*) menggunakan analisis akar masalah (*Root Cause Analysis / Fishbone*) (*C*) secara terstruktur (*D*).",
+    "bloom": "C4",
+    "cpl": "KK4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **merancang** Katalog Layanan TI (*Service Catalog*) dan perjanjian tingkat layanan (*Service Level Agreement / SLA*) (*B*) untuk organisasi penyedia layanan TI (*C*) secara profesional (*D*).",
+    "bloom": "C5",
+    "cpl": "P2, KK4"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Layanan TI berkelanjutan; memanfaatkan otomasi infrastruktur STB-601."
+ },
+ {
+  "num": "43",
+  "code": "STB-703",
+  "name": "Enterprise Architecture (TOGAF)",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **menguraikan** siklus Architecture Development Method (ADM Fase Preliminary s.d. H) (*B*) berdasarkan standar The Open Group Architecture Framework (TOGAF) (*C*) secara komprehensif (*D*).",
+    "bloom": "C2",
+    "cpl": "P2"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **memodelkan** 4 pilar arsitektur enterprise (Business, Data, Application, Technology Architecture) (*B*) menggunakan bahasa pemodelan standar ArchiMate (*C*) secara konsisten (*D*).",
+    "bloom": "C4",
+    "cpl": "P2, P3, KK4"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** dokumen cetak biru Architecture Definition Document (ADD) (*B*) dengan analisis kesenjangan (*Gap Analysis As-Is vs To-Be*) dan peta jalan migrasi (*Migration Roadmap*) (*C*) secara profesional (*D*).",
+    "bloom": "C5",
+    "cpl": "KK4"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Peta arsitektur enterprise korporat; menyerahkan sistem domain publik ke STI-625."
+ },
+ {
+  "num": "44",
+  "code": "STC-701",
+  "name": "Immersive Media & XR Development",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **membangun** adegan grafika 3D interaktif di browser (*B*) menggunakan WebXR dan Three.js (*C*) dengan pemuatan model 3D (glTF/GLB) yang optimal (*D*).",
+    "bloom": "C3",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **merancang dan mengimplementasikan** aplikasi Augmented Reality (AR) mobile (*B*) dengan teknik Marker-Based dan Markerless Plane Detection (*C*) menggunakan ARCore / WebXR (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **membangun** simulasi Virtual Reality (VR) 6DoF interaktif (*B*) dengan audio spasial 3D dan navigasi teleportasi (*C*) dengan performa rendering mulus $\\ge 60$ FPS (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Produk immersive interaktif; menyerahkan usability research perilaku ke STC-501."
+ },
+ {
+  "num": "45",
+  "code": "STC-702",
+  "name": "SaaS Architecture & Multi-Tenancy",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merancang** strategi isolasi data multi-tenant (Shared Database with Row-Level Security vs Database-per-Tenant) (*B*) pada PostgreSQL (*C*) dengan jaminan isolasi data mutlak (*D*).",
+    "bloom": "C4",
+    "cpl": "P4"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **membangun** mesin penagihan berlangganan (*Subscription Engine*) otomatis (*B*) dengan integrasi Stripe API dan webhook (*C*) secara transaksional (*D*).",
+    "bloom": "C6",
+    "cpl": "KK5"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** arsitektur Micro-Frontends dan *Feature Toggling* (*B*) pada platform SaaS (*C*) untuk aktivasi fitur dinamis per paket langganan (*D*).",
+    "bloom": "C4",
+    "cpl": "P4, KK5"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Mesin multitenansi SaaS; menyerahkan strategi go-to-market produk ke STC-703."
+ },
+ {
+  "num": "46",
+  "code": "STC-703",
+  "name": "Digital Product Management & Agile Practices",
+  "cpmk": [
+   {
+    "n": 1,
+    "rum": "Mahasiswa (*A*) mampu **merumuskan** Visi Produk, Strategi Produk, dan Objectives and Key Results (OKRs) (*B*) untuk produk digital rintisan (*C*) secara terukur (*D*).",
+    "bloom": "C4",
+    "cpl": "P2, KK6"
+   },
+   {
+    "n": 2,
+    "rum": "Mahasiswa (*A*) mampu **melakukan** Product Discovery dan prioritisasi backlog (*B*) menggunakan kerangka kerja RICE, Kano Model, dan MoSCoW (*C*) secara objektif (*D*).",
+    "bloom": "C4",
+    "cpl": "KK6"
+   },
+   {
+    "n": 3,
+    "rum": "Mahasiswa (*A*) mampu **menyusun** dokumen Product Requirement Document (PRD) berstandar industri (*B*) dengan User Stories, Acceptance Criteria, dan strategi Go-To-Market (GTM) (*C*) secara komprehensif (*D*).",
+    "bloom": "C6",
+    "cpl": "KK6"
+   }
+  ],
+  "ins": "",
+  "oos": "",
+  "hand": "Strategi & tanggung jawab kesuksesan produk; menyerahkan penjadwalan dividen pengembangan teknis ke STI-523."
+ }
+]

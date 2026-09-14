@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" data-theme="dark">
+<html lang="id" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +10,13 @@
 <body>
     <div class="container">
         <header class="navbar">
-            <div class="nav-brand">
-                <span class="nav-brand-logo">🎓</span>
-                <span class="nav-brand-text">SISTEKIN 2026 PORTAL</span>
+            <div class="nav-brand" style="display: flex; align-items: center; gap: 10px;">
+                <span class="nav-brand-logo" style="font-size: 1.5rem;">🎓</span>
+                <span class="nav-brand-text" style="font-weight: 800; font-size: 1.1rem; color: var(--text-primary);">SISTEKIN 2026 PORTAL</span>
             </div>
             <div class="nav-actions">
-                <button type="button" class="theme-toggle-btn" id="themeToggle" title="Ganti Mode Gelap/Terang" aria-label="Ganti Tema">
+                <button type="button" class="btn-action btn-print" onclick="window.print()">🖨️ Cetak</button>
+                <button type="button" class="theme-toggle-btn btn-action" id="themeToggle" title="Ganti Tema" aria-label="Ganti Tema">
                     🌓 Mode Tema
                 </button>
             </div>
@@ -27,7 +28,7 @@
                 <span class="badge badge-accent">AKREDITASI & LAM INFOKOM READY</span>
             </div>
             <h1 class="hero-title" style="margin-bottom: 12px;">Buku Kurikulum KPT-OBE SISTEKIN 2026</h1>
-            <p class="hero-subtitle" style="margin: 0 auto 24px auto;">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</p>
+            <p class="hero-subtitle" style="margin: 0 auto 24px auto; color: var(--text-secondary);">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</p>
             
             <div class="search-box" style="max-width: 520px; margin: 0 auto;">
                 <span class="search-icon">🔍</span>
@@ -37,6 +38,15 @@
 
         <main class="portal-grid">
             
+        <div class="portal-card" onclick="window.location.href='000_CHANGELOG_ALIGNMENT_FINAL.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">000</div>
+            <h3>000 — Changelog Alignment Final</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
         <div class="portal-card" onclick="window.location.href='001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html'">
             <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">001</div>
             <h3>001 — Analisis VMTS & Positioning Strategis</h3>
@@ -75,7 +85,7 @@
 
         <div class="portal-card" onclick="window.location.href='005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html'">
             <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">005</div>
-            <h3>005 — Struktur Kurikulum 8 Semester & Peminatan</h3>
+            <h3>005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</h3>
             <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
             <div class="portal-card-footer">
                 <span class="portal-card-link">Buka Dokumen →</span>
@@ -253,6 +263,15 @@
             </div>
         </div>
 
+        <div class="portal-card" onclick="window.location.href='019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">019</div>
+            <h3>019 — Audit Kritis Keselarasan Dokumen Kurikulum</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
         <div class="portal-card" onclick="window.location.href='020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html'">
             <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">020</div>
             <h3>020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</h3>
@@ -346,6 +365,15 @@
         <div class="portal-card" onclick="window.location.href='030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html'">
             <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">030</div>
             <h3>030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
+        <div class="portal-card" onclick="window.location.href='031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">031</div>
+            <h3>031 — Peta Keselarasan KPT 2024 & Status Dokumen</h3>
             <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
             <div class="portal-card-footer">
                 <span class="portal-card-link">Buka Dokumen →</span>
@@ -472,6 +500,51 @@
         <div class="portal-card" onclick="window.location.href='044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html'">
             <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">044</div>
             <h3>044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
+        <div class="portal-card" onclick="window.location.href='045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">045</div>
+            <h3>045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
+        <div class="portal-card" onclick="window.location.href='046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">046</div>
+            <h3>046 — Rencana Sub-CPMK & 16 Pertemuan</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
+        <div class="portal-card" onclick="window.location.href='047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">047</div>
+            <h3>047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
+        <div class="portal-card" onclick="window.location.href='048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">048</div>
+            <h3>048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</h3>
+            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+            <div class="portal-card-footer">
+                <span class="portal-card-link">Buka Dokumen →</span>
+            </div>
+        </div>
+
+        <div class="portal-card" onclick="window.location.href='049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html'">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">049</div>
+            <h3>049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</h3>
             <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
             <div class="portal-card-footer">
                 <span class="portal-card-link">Buka Dokumen →</span>

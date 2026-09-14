@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering | Kurikulum OBE SISTEKIN 2026</title>
+    <meta name="description" content="Dokumen Resmi Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) FSTI UWG Malang.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+
+    <!-- Mermaid JS for Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+    <!-- Master External Modular Stylesheet (Zero-Token Redundancy) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar no-print">
+        <div class="container navbar-content">
+            <a href="index.html" class="brand">
+                <div class="brand-logo">STI</div>
+                <div class="brand-text">
+                    <h1>SISTEKIN — FSTI UWG</h1>
+                    <p>Buku Kurikulum OBE 2026</p>
+                </div>
+            </a>
+            
+            <select class="doc-select" onchange="window.location.href=this.value">
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+<option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
+<option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
+<option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
+<option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
+<option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
+<option value="009_LANGKAH2_CPL_FORMAL.html" >009 — Ringkasan Langkah 2: CPL Formal</option>
+<option value="009A_CPL_SIKAP_SISTEKIN.html" >009A — Detail CPL Sikap (S1)</option>
+<option value="009B_CPL_KETERAMPILAN_UMUM_SISTEKIN.html" >009B — Detail CPL Keterampilan Umum (KU1-3)</option>
+<option value="009C_CPL_PENGETAHUAN_SISTEKIN.html" >009C — Detail CPL Pengetahuan (P1-4)</option>
+<option value="009D_CPL_KETERAMPILAN_KHUSUS_SISTEKIN.html" >009D — Detail CPL Keterampilan Khusus (KK1-6)</option>
+<option value="009E_RINGKASAN_CPL_LENGKAP_PEMETAAN_BoK.html" >009E — Master Matriks Kompilasi 14 CPL & BoK</option>
+<option value="009_PEDOMAN_CAPSTONE_PROJECT_DAN_TUGAS_AKHIR_NON_SKRIPSI.html" >009 — Pedoman Capstone & 4 Opsi TA Non-Skripsi</option>
+<option value="010_INSTRUMEN_TRACER_STUDY_DAN_EVALUASI_PEO_PPEPP.html" >010 — Instrumen Tracer Study & Evaluasi PEO</option>
+<option value="011_IMPLEMENTASI_OBE_SISTEKIN2026_TABLES.html" >011 — 14 Sheet Matriks Implementasi OBE</option>
+<option value="012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.html" >012 — Analisis Kritis Jalur Pondasi & Tree View Prasyarat</option>
+<option value="013_REKOMENDASI_SOLUSI_DAN_MITIGASI_KELEMAHAN_KURIKULUM.html" >013 — Rekomendasi Solusi & Mitigasi Kelemahan Kurikulum</option>
+<option value="014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.html" >014 — Analisis Kritis Pemangkasan SKS Teori Sem 4 & 5</option>
+<option value="015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.html" >015 — Panduan & Simulasi Akselerasi 7 Semester (Fast-Track)</option>
+<option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
+<option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
+<option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
+<option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
+<option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
+<option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
+<option value="023_BUKU_KPT_SISTEKIN_2026_STRUKTUR_KPT2024.html" >023 — 📘 BUKU KPT SISTEKIN 2026 (Struktur 12 Bab KPT 2024)</option>
+<option value="024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.html" >024 — Matriks Ekivalensi MK Kurikulum 2025 → 2026</option>
+<option value="025_REKOMENDASI_PENGEMBANGAN_MK_PEMINATAN_DAN_CROSS_TRACK_2027.html" >025 — Rekomendasi Pool MK Peminatan & Cross-Track 2027</option>
+<option value="026_ANALISIS_KRITIS_MK_DIHAPUS_DAN_REKOMENDASI_PENGGANTI.html" >026 — Analisis Kritis MK Dihapus & Rekomendasi Pengganti</option>
+<option value="027_RENCANA_RESTRUKTURISASI_KODE_MK_CORE_STI_KONTINU.html" >027 — Rencana Aksi Restrukturisasi Kode Core STI Kontinu</option>
+<option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
+<option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
+<option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
+<option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
+<option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
+<option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
+<option value="034_SEMBILAN_BENTUK_MBKM_DAN_REKOGNISI.html" >034 — Sembilan Bentuk MBKM & Skema Rekognisi SKS</option>
+<option value="035_RESTRUKTURISASI_KODE_MK_PEMINATAN_STA_STB_STC.html" >035 — Restrukturisasi Kode MK Peminatan (STA, STB, STC) Berbasis Semester</option>
+<option value="036_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_PEMINATAN.html" >036 — Dev Report & Dev Log Restrukturisasi Kode MK Peminatan</option>
+<option value="037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.html" >037 — Boundary of Topics & Matriks Anti-Overlap Kurikulum</option>
+<option value="038_RENCANA_KONTEN_LAMPIRAN_BUKU_KPT.html" >038 — Rencana Konten Lampiran Buku KPT SISTEKIN 2026</option>
+<option value="039_LAMPIRAN_SIAP_BUKU_KPT_SISTEKIN_2026.html" >039 — Lampiran Siap Buku KPT SISTEKIN 2026</option>
+<option value="040_LAMPIRAN_RAKIT_BUKU_KPT.html" >040 — Lampiran Rakit Buku KPT SISTEKIN 2026</option>
+<option value="041_LAMPIRAN_BARU_BUKU_KPT.html" >041 — Lampiran Baru Buku KPT SISTEKIN 2026</option>
+<option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
+<option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
+<option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" selected>048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
+<option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
+            </select>
+
+            
+    <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalTableSearch" class="search-input" placeholder="Cari dalam dokumen (kode, MK, istilah, tabel)...">
+    </div>
+    
+
+            <div class="nav-actions">
+                <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action" id="themeToggle">🌓 Tema</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-group no-print">
+                <span class="badge badge-primary">Kurikulum OBE 2026</span>
+                <span class="badge badge-accent">Permendikbudristek 53/2023</span>
+                <span class="badge badge-warning">FSTI UWG Malang</span>
+            </div>
+            <h1 class="hero-title">048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</h1>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Dokumen Kurikulum OBE Definitif Program Studi Sistem dan Teknologi Informasi (S1)</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="048-keputusan-penggantian-sta-601-computational-methods-numerics-rekayasa-big-data-dan-komputasi-terdistribusi">048 — KEPUTUSAN PENGGANTIAN STA-601: COMPUTATIONAL METHODS &amp; NUMERICS → REKAYASA BIG DATA DAN KOMPUTASI TERDISTRIBUSI</h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang</h2>
+<h3 id="informasi-dokumen">Informasi Dokumen</h3>
+<ul>
+<li><strong>Nomor:</strong> 048/KUR-SISTEKIN/2026</li>
+<li><strong>Status:</strong> Definitif — menggantikan status Dok 030 (diarsipkan), mengeksekusi Rekomendasi 1 Dok 047</li>
+<li><strong>Rujukan bukti:</strong> Dok 005:147,283,341,352; Dok 004:147,217,225; Dok 007:2108-2147; Dok 043:1212-1214,1880-1933; Dok 009D (KK2 PySpark); Dok 024:127,392,404,428,513; Dok 025:66,68; Dok 030 (arsip); Dok 047:170,289-317</li>
+</ul>
+<h3 id="1-keputusan">1. Keputusan</h3>
+<ol>
+<li><span class="code-tag">STA-601</span> (3 SKS +P, Sem 6, P1) diganti dari <strong>Computational Methods and Numerics</strong> menjadi <strong>Rekayasa Big Data dan Komputasi Terdistribusi</strong> (<em>Big Data Engineering &amp; Distributed Systems</em>).</li>
+<li>Atribut baku baru: prasyarat <span class="code-tag">FST-207</span> + <span class="code-tag">STI-415</span>; CPL <span class="code-tag">P2</span> + <code>KK2</code>; BoK <code>BK-IS02</code> (+ <code>BK-IS18</code> sekunder Spark MLlib); stack Spark/PySpark, Kafka, Delta Lake/Parquet, S3/MinIO, Spark SQL/MLlib; proporsi 70% engineering + 30% analytical integration (Dok 047:265-274).</li>
+<li>SKS/semester/tipe tidak berubah: tetap 3 SKS +P Sem 6. Neraca paket 146 SKS / 55 MK dan portofolio 182 SKS / 67 MK tidak berubah.</li>
+<li>Dok 030 diarsipkan (superseded). Materi numerik klasik tidak diwajibkan di Core (Dok 047:60-61, sah APTIKOM SI v2.0 &amp; TI 2023).</li>
+<li>Riset Operasi tidak dibuang; masuk pool usulan 2027 sebagai <span class="code-tag">STA-603</span> (Dok 047 Rekomendasi 3; Dok 025 direvisi).</li>
+</ol>
+<h3 id="2-konsekuensi-ekivalensi-dok-024">2. Konsekuensi ekivalensi (Dok 024)</h3>
+<ul>
+<li><span class="code-tag">STI-317</span> (2 SKS) E2 → <strong>E5</strong> (tanpa padanan, kredit bebas). Alasan: overlap &lt;10%, tidak memenuhi ambang E2 60-85%.</li>
+<li>Neraca K2025: E1 34 / E2 10 / E3 8 / E4 1 / E5 3 = 56 MK / 146 SKS (tetap Zero Orphan).</li>
+<li>Portofolio: 48 direkognisi (126 SKS) + 19 baru (56 SKS) = 67 MK / 182 SKS.</li>
+<li>Simulasi lulusan penuh: <strong>P2 = 120 SKS; P1/P3 = 117 SKS</strong> (P1 turun 3 SKS karena <span class="code-tag">STA-601</span> menjadi wajib tempuh).</li>
+</ul>
+<h3 id="3-penyelarasan-dieksekusi">3. Penyelarasan dieksekusi</h3>
+<ul>
+<li>004 (CPL P2/KK2, BK-IS02 +6 MK, BK-IS10 4 MK, KK1 30/KK2 21 SKS), 005 (nama+prasyarat+BoK), 007 + BUKU_FINAL §49 (4 CPMK ABCD C3-C6 + 16 pertemuan 4x asesmen 20/25/25/30), 043 utama + varian Per-Semester (CPMK/Sub-CPMK/guardrails + handoff <span class="code-tag">STI-520</span> → <span class="code-tag">STA-601</span>), 037 (baris STA + baseline), 011 (P2+KK2), 012 (tree+prasyarat), 025 (<span class="code-tag">STA-601</span> eksis + <span class="code-tag">STA-603</span> OR), 042, 044, 045 (nama+edge <span class="code-tag">STI-415</span>→<span class="code-tag">STA-601</span>), 024 (di atas), 030 (arsip).</li>
+<li>Berkas <code>*-BACKUP.md</code> tidak diubah (arsip).</li>
+</ul>
+<h3 id="4-verifikasi">4. Verifikasi</h3>
+<ul>
+<li>Wajib lolos: <code>python _tools/verify_all_mk_aligned_with_005.py</code> dan <code>verify_zero_discrepancy.py</code>; <code>verify_k2025_ground_truth.py</code> perlu penyesuaian ekspektasi E2/E5 bila skrip mengunci angka lama — bila gagal, laporkan sebagai perbedaan keputusan (bukan galat SIAKAD).</li>
+<li>Klaim di atas hanya sejauh baris yang diubah; tidak mengklaim lulus verifikasi sebelum skrip dijalankan.</li>
+</ul>
+
+            <div class="doc-nav no-print">
+                <div><a href="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" class="nav-btn">← Sebelumnya</a></div>
+                <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
+                <div><a href="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" class="nav-btn">Selanjutnya →</a></div>
+            </div>
+        </main>
+
+        <footer class="footer no-print">
+            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
+        </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
+    </div>
+
+    <!-- Master External Modular Script -->
+    <script defer src="assets/js/app.js"></script>
+</body>
+</html>

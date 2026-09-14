@@ -1,0 +1,232 @@
+{
+ "STI-101": {
+  "sem": 1,
+  "sks": 2,
+  "tipe": "Teori"
+ },
+ "STI-102": {
+  "sem": 1,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-103": {
+  "sem": 1,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-204": {
+  "sem": 2,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-205": {
+  "sem": 2,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-306": {
+  "sem": 3,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-307": {
+  "sem": 3,
+  "sks": 2,
+  "tipe": "Teori"
+ },
+ "STI-308": {
+  "sem": 3,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-309": {
+  "sem": 3,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-310": {
+  "sem": 3,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-311": {
+  "sem": 3,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-312": {
+  "sem": 3,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-413": {
+  "sem": 4,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-414": {
+  "sem": 4,
+  "sks": 2,
+  "tipe": "+P"
+ },
+ "STI-415": {
+  "sem": 4,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-416": {
+  "sem": 4,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-417": {
+  "sem": 4,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-418": {
+  "sem": 4,
+  "sks": 2,
+  "tipe": "Teori"
+ },
+ "STI-519": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-520": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-521": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-522": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-523": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STI-624": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-625": {
+  "sem": 6,
+  "sks": 2,
+  "tipe": "Teori"
+ },
+ "STI-626": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-627": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STI-728": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STA-501": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STB-501": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STC-501": {
+  "sem": 5,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STA-601": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STA-602": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STB-601": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STB-602": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STC-601": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STC-602": {
+  "sem": 6,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STA-701": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STA-702": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STA-703": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STB-701": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STB-702": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STB-703": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "Teori"
+ },
+ "STC-701": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STC-702": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "+P"
+ },
+ "STC-703": {
+  "sem": 7,
+  "sks": 3,
+  "tipe": "Teori"
+ }
+}
