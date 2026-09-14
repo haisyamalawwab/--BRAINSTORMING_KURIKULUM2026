@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- KaTeX for LaTeX Math -->
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
     <!-- Mermaid JS for Flowcharts -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar no-print">
         <div class="container navbar-content">
             <a href="index.html" class="brand">
                 <div class="brand-logo">STI</div>
@@ -35,11 +35,12 @@
             </a>
             
             <select class="doc-select" onchange="window.location.href=this.value">
-                <option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
+                <option value="000_CHANGELOG_ALIGNMENT_FINAL.html" >000 — Changelog Alignment Final</option>
+<option value="001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.html" >001 — Analisis VMTS & Positioning Strategis</option>
 <option value="002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.html" >002 — Formulasi 3 PEO & 4 Profil Lulusan</option>
 <option value="003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.html" >003 — Standar 14 CPL & Pemetaan BoK APTIKOM</option>
 <option value="004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.html" >004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK</option>
-<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — Struktur Kurikulum 8 Semester & Peminatan</option>
+<option value="005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.html" >005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan</option>
 <option value="006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.html" >006 — Distribusi MK Peminatan & Panduan MBKM</option>
 <option value="007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.html" >007 — Silabus 3-Tabel & CPMK 67 MK Portofolio</option>
 <option value="008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.html" >008 — Sistem Asesmen OBE & Attainment CPL</option>
@@ -59,6 +60,7 @@
 <option value="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" >016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI</option>
 <option value="017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.html" >017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain</option>
 <option value="018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.html" >018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen</option>
+<option value="019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.html" >019 — Audit Kritis Keselarasan Dokumen Kurikulum</option>
 <option value="020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.html" >020 — Template Buku Kurikulum KPT-OBE & Analisis Gap</option>
 <option value="021_PANDUAN_KPT2024_DIKTI_FULLTEXT.html" >021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)</option>
 <option value="022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.html" >022 — Audit Kelengkapan Komponen vs Template KPT-OBE</option>
@@ -70,6 +72,7 @@
 <option value="028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.html" >028 — Dev Report & Dev Log Restrukturisasi Kode Core STI</option>
 <option value="029_TABEL_VERIFIKASI_KODE_MK_BARU.html" >029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)</option>
 <option value="030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.html" >030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan</option>
+<option value="031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.html" >031 — Peta Keselarasan KPT 2024 & Status Dokumen</option>
 <option value="031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.html" >031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L</option>
 <option value="032_MODALITAS_PEMBELAJARAN_KPT2024.html" >032 — Modalitas Pembelajaran KPT 2024</option>
 <option value="033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.html" >033 — Rubrik Holistik & Skala Persepsi Asesmen</option>
@@ -84,6 +87,11 @@
 <option value="042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.html" >042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005</option>
 <option value="043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.html" >043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)</option>
 <option value="044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.html" >044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails</option>
+<option value="045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.html" >045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti</option>
+<option value="046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.html" >046 — Rencana Sub-CPMK & 16 Pertemuan</option>
+<option value="047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.html" >047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)</option>
+<option value="048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.html" >048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering</option>
+<option value="049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.html" >049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering</option>
 <option value="BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.html" >📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)</option>
             </select>
 
@@ -96,16 +104,45 @@
 
             <div class="nav-actions">
                 <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
                 <button class="btn-action" id="themeToggle">🌓 Tema</button>
             </div>
         </div>
     </nav>
 
     <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge-group">
+            <div class="hero-badge-group no-print">
                 <span class="badge badge-primary">Kurikulum OBE 2026</span>
                 <span class="badge badge-accent">Permendikbudristek 53/2023</span>
                 <span class="badge badge-warning">FSTI UWG Malang</span>
@@ -124,7 +161,7 @@
 <h2 id="1-landasan-hukum-prinsip-program-akselerasi-fast-track">1. LANDASAN HUKUM &amp; PRINSIP PROGRAM AKSELERASI (FAST-TRACK)</h2>
 <p>Sesuai dengan <strong>Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pendidikan Tinggi</strong>:
 1. <strong>Pasal 18 Ayat (1) &amp; (2):</strong> Beban belajar mahasiswa pada semester 1 dan semester 2 paling banyak 20 SKS per semester.
-2. <strong>Pasal 18 Ayat (3):</strong> Mahasiswa yang memiliki prestasi akademik tinggi (<span class="arithmatex"><span class="MathJax_Preview">\text{Indeks Prestasi Semester / IPS} \ge 3{,}00</span><script type="math/tex">\text{Indeks Prestasi Semester / IPS} \ge 3{,}00</script></span>) dapat mengambil beban belajar hingga <strong>maksimal 24 SKS per semester</strong> pada semester-semester berikutnya (Semester 3, 4, 5, dan 6).
+2. <strong>Pasal 18 Ayat (3):</strong> Mahasiswa yang memiliki prestasi akademik tinggi ($\text{Indeks Prestasi Semester / IPS} ≥ 3{,}00$) dapat mengambil beban belajar hingga <strong>maksimal 24 SKS per semester</strong> pada semester-semester berikutnya (Semester 3, 4, 5, dan 6).
 3. <strong>Masa Studi Efektif:</strong> Kurikulum Program Studi Sarjana (S1) dirancang fleksibel sehingga mahasiswa berprestasi dapat menyelesaikan beban studi minimal 144 SKS dalam waktu <strong>paling cepat 7 semester (3,5 tahun)</strong>.</p>
 <hr />
 <h2 id="2-roadmap-makro-akselerasi-7-semester-146-sks-55-mk">2. ROADMAP MAKRO AKSELERASI 7 SEMESTER (146 SKS / 55 MK)</h2>
@@ -172,74 +209,74 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="code-tag">FST-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-101</span></td>
 <td>Dasar Teknologi Digital</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">FSTI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="code-tag">FST-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-102</span></td>
 <td>Algoritma dan Pemrograman</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">FSTI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;"><span class="code-tag">STI-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-101</span></td>
 <td>Pengantar Sistem dan Teknologi Informasi</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: center;"><span class="code-tag">STI-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-102</span></td>
 <td>Kalkulus</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: center;"><span class="code-tag">STI-103</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-103</span></td>
 <td>Arsitektur dan Organisasi Sistem Teknologi Informasi</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: center;"><span class="code-tag">MKU-101</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-101</span></td>
 <td>Agama I</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: center;"><span class="code-tag">MKU-102</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-102</span></td>
 <td>Pancasila</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">8</td>
-<td style="text-align: center;"><span class="code-tag">MKU-103</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-103</span></td>
 <td>Bahasa Indonesia</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>—</td>
 </tr>
 <tr>
@@ -254,7 +291,7 @@
 </tbody>
 </table></div>
 <blockquote>
-<p>🎯 <strong>Target Kinerja Akademik:</strong> Mahasiswa wajib meraih <span class="arithmatex"><span class="MathJax_Preview">\text{IPS} \ge 3{,}00</span><script type="math/tex">\text{IPS} \ge 3{,}00</script></span> (disarankan <span class="arithmatex"><span class="MathJax_Preview">\ge 3{,}50</span><script type="math/tex">\ge 3{,}50</script></span>) agar secara otomatis memperoleh hak pengambilan 24 SKS pada Kartu Rencana Studi (KRS) Semester 3.</p>
+<p>🎯 <strong>Target Kinerja Akademik:</strong> Mahasiswa wajib meraih $\text{IPS} ≥ 3{,}00$ (disarankan $≥ 3{,}50$) agar secara otomatis memperoleh hak pengambilan 24 SKS pada Kartu Rencana Studi (KRS) Semester 3.</p>
 </blockquote>
 <hr />
 <h3 id="semester-2-20-sks-paket-wajib-fondasi-lanjut">🔹 SEMESTER 2 (20 SKS — Paket Wajib Fondasi Lanjut)</h3>
@@ -274,74 +311,74 @@
 <tbody>
 <tr>
 <td style="text-align: center;">9</td>
-<td style="text-align: center;"><span class="code-tag">STI-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-204</span></td>
 <td>Matematika Diskrit dan Logika</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-103</span>> Arsitektur &amp; Organisasi STI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-103</span> Arsitektur &amp; Organisasi STI</td>
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: center;"><span class="code-tag">STI-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-205</span></td>
 <td>Aljabar Linear dan Matriks</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-102</span>> Kalkulus</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-102</span> Kalkulus</td>
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td style="text-align: center;"><span class="code-tag">FST-203</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-203</span></td>
 <td>Struktur Data dan Algoritma</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">FSTI</td>
-<td><span class="code-tag">FST-102</span>> Algoritma</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td><span class="code-tag">FST-102</span> Algoritma</td>
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
-<td style="text-align: center;"><span class="code-tag">FST-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-204</span></td>
 <td>Pengantar AI &amp; Sains Data</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">FSTI</td>
-<td><span class="code-tag">FST-101</span>> Teknologi Digital</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td><span class="code-tag">FST-101</span> Teknologi Digital</td>
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: center;"><span class="code-tag">FST-205</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-205</span></td>
 <td>Basic English for IT</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">FSTI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td style="text-align: center;"><span class="code-tag">FST-206</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-206</span></td>
 <td>Etika Profesi &amp; Hukum Digital</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">FSTI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">15</td>
-<td style="text-align: center;"><span class="code-tag">FST-207</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-207</span></td>
 <td>Sistem Basis Data</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">FSTI</td>
-<td><span class="code-tag">FST-102</span>> Algoritma</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td><span class="code-tag">FST-102</span> Algoritma</td>
 </tr>
 <tr>
 <td style="text-align: center;">16</td>
-<td style="text-align: center;"><span class="code-tag">MKU-204</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-204</span></td>
 <td>Kewirausahaan I</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>—</td>
 </tr>
 <tr>
@@ -373,70 +410,70 @@
 <tbody>
 <tr>
 <td style="text-align: center;">17</td>
-<td style="text-align: center;"><span class="code-tag">STI-306</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-306</span></td>
 <td>Analisis &amp; Perancangan SI</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-207</span>> Basis Data</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-207</span> Basis Data</td>
 </tr>
 <tr>
 <td style="text-align: center;">18</td>
-<td style="text-align: center;"><span class="code-tag">STI-307</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-307</span></td>
 <td>Sistem Cerdas</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-204</span>> AI Dasar, <span class="code-tag">STI-204</span>> Matdis</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-204</span> AI Dasar, <span class="code-tag">STI-204</span> Matdis</td>
 </tr>
 <tr>
 <td style="text-align: center;">19</td>
-<td style="text-align: center;"><span class="code-tag">STI-308</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-308</span></td>
 <td>UI/UX Design &amp; Prototyping</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-101</span>> Teknologi Digital</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-101</span> Teknologi Digital</td>
 </tr>
 <tr>
 <td style="text-align: center;">20</td>
-<td style="text-align: center;"><span class="code-tag">STI-309</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-309</span></td>
 <td>Rekayasa Perangkat Lunak</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-205</span>> Basic English / OOP</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-205</span> Basic English / OOP</td>
 </tr>
 <tr>
 <td style="text-align: center;">21</td>
-<td style="text-align: center;"><span class="code-tag">STI-310</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-310</span></td>
 <td>Sistem Operasi</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-203</span>> Struktur Data</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-203</span> Struktur Data</td>
 </tr>
 <tr>
 <td style="text-align: center;">22</td>
-<td style="text-align: center;"><span class="code-tag">STI-311</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-311</span></td>
 <td>Web Front End Development</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-102</span>> Algoritma</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-102</span> Algoritma</td>
 </tr>
 <tr>
 <td style="text-align: center;">23</td>
-<td style="text-align: center;"><span class="code-tag">STI-312</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-312</span></td>
 <td>Jaringan Komputer</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-101</span>> Teknologi Digital</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-101</span> Teknologi Digital</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>24</strong></td>
-<td style="text-align: center;"><strong><span class="code-tag">STI-523</span>></strong></td>
+<td style="text-align: center;"><strong><span class="code-tag">STI-523</span></strong></td>
 <td><strong>Manajemen Proyek TI (Maju dari Sem 5)</strong></td>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: center;"><strong>Teori</strong></td>
@@ -472,88 +509,88 @@
 <tbody>
 <tr>
 <td style="text-align: center;">25</td>
-<td style="text-align: center;"><span class="code-tag">STI-413</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-413</span></td>
 <td>Machine Learning</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-205</span>> Aljabar, <span class="code-tag">STI-307</span>> Sistem Cerdas</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-205</span> Aljabar, <span class="code-tag">STI-307</span> Sistem Cerdas</td>
 </tr>
 <tr>
 <td style="text-align: center;">26</td>
-<td style="text-align: center;"><span class="code-tag">STI-414</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-414</span></td>
 <td>Pengantar NLP &amp; Information Retrieval</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-307</span>> Sistem Cerdas</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-307</span> Sistem Cerdas</td>
 </tr>
 <tr>
 <td style="text-align: center;">27</td>
-<td style="text-align: center;"><span class="code-tag">STI-415</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-415</span></td>
 <td>Data Warehouse &amp; Business Intelligence</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-207</span>> Basis Data</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-207</span> Basis Data</td>
 </tr>
 <tr>
 <td style="text-align: center;">28</td>
-<td style="text-align: center;"><span class="code-tag">STI-416</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-416</span></td>
 <td>Web Back End Development</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">FST-207</span>> Basis Data, <span class="code-tag">STI-311</span>> Front End</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">FST-207</span> Basis Data, <span class="code-tag">STI-311</span> Front End</td>
 </tr>
 <tr>
 <td style="text-align: center;">29</td>
-<td style="text-align: center;"><span class="code-tag">STI-417</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-417</span></td>
 <td>Komputasi Awan (Cloud Computing)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-312</span>> Jarkom, <span class="code-tag">STI-310</span>> OS</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-312</span> Jarkom, <span class="code-tag">STI-310</span> OS</td>
 </tr>
 <tr>
 <td style="text-align: center;">30</td>
-<td style="text-align: center;"><span class="code-tag">STI-418</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-418</span></td>
 <td>Dasar Keamanan Informasi</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-312</span>> Jaringan Komputer</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-312</span> Jaringan Komputer</td>
 </tr>
 <tr>
 <td style="text-align: center;">31</td>
-<td style="text-align: center;"><span class="code-tag">FST-408</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-408</span></td>
 <td>Probabilitas dan Statistika</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">FSTI</td>
-<td><span class="code-tag">STI-102</span>> Kalkulus</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td><span class="code-tag">STI-102</span> Kalkulus</td>
 </tr>
 <tr>
 <td style="text-align: center;">32</td>
-<td style="text-align: center;"><span class="code-tag">MKU-405</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-405</span></td>
 <td>Kewarganegaraan</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>—</td>
 </tr>
 <tr>
 <td style="text-align: center;">32.B</td>
-<td style="text-align: center;"><span class="code-tag">MKU-406</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-406</span></td>
 <td>Agama II</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>— (Kebijakan UWG, Sem 4)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>33</strong></td>
-<td style="text-align: center;"><strong><span class="code-tag">STI-625</span>></strong></td>
+<td style="text-align: center;"><strong><span class="code-tag">STI-625</span></strong></td>
 <td><strong>Smart City &amp; Pem. Digital (Maju dari Sem 6)</strong></td>
 <td style="text-align: center;"><strong>2</strong></td>
 <td style="text-align: center;"><strong>Teori</strong></td>
@@ -572,7 +609,7 @@
 </tbody>
 </table></div>
 <blockquote>
-<p>📌 <strong>Milestone Penting:</strong> Di akhir Semester 4, mahasiswa telah mengumpulkan <strong>85 SKS</strong>, sehingga secara sah melampaui syarat minimal pendaftaran KPM (<span class="arithmatex"><span class="MathJax_Preview">\ge 80\text{ SKS}</span><script type="math/tex">\ge 80\text{ SKS}</script></span>).</p>
+<p>📌 <strong>Milestone Penting:</strong> Di akhir Semester 4, mahasiswa telah mengumpulkan <strong>85 SKS</strong>, sehingga secara sah melampaui syarat minimal pendaftaran KPM (≥ 80 SKS).</p>
 </blockquote>
 <hr />
 <h3 id="semester-5-24-sks-spesialisasi-kpm-akselerasi-pkl-startup-digital">🔹 SEMESTER 5 (24 SKS — Spesialisasi, KPM &amp; Akselerasi PKL / Startup Digital)</h3>
@@ -592,70 +629,70 @@
 <tbody>
 <tr>
 <td style="text-align: center;">34</td>
-<td style="text-align: center;"><span class="code-tag">STI-519</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-519</span></td>
 <td>Deep Learning &amp; Neural Networks</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-413</span>> Machine Learning</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-413</span> Machine Learning</td>
 </tr>
 <tr>
 <td style="text-align: center;">35</td>
-<td style="text-align: center;"><span class="code-tag">STI-520</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-520</span></td>
 <td>Data Mining &amp; Visualisasi Data</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-413</span>> ML, <span class="code-tag">STI-415</span>> DW/BI</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-413</span> ML, <span class="code-tag">STI-415</span> DW/BI</td>
 </tr>
 <tr>
 <td style="text-align: center;">36</td>
-<td style="text-align: center;"><span class="code-tag">STI-521</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-521</span></td>
 <td>Internet of Things (IoT)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-312</span>> Jarkom, <span class="code-tag">STI-310</span>> OS</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-312</span> Jarkom, <span class="code-tag">STI-310</span> OS</td>
 </tr>
 <tr>
 <td style="text-align: center;">37</td>
-<td style="text-align: center;"><span class="code-tag">STI-522</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-522</span></td>
 <td>Pemrograman Aplikasi Mobile</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-311</span>> Front, <span class="code-tag">STI-416</span>> Back End</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-311</span> Front, <span class="code-tag">STI-416</span> Back End</td>
 </tr>
 <tr>
 <td style="text-align: center;">38</td>
 <td style="text-align: center;"><code>STA/B/C</code></td>
 <td><strong>MK Pilihan Peminatan 1</strong></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Elektif</td>
-<td style="text-align: center;">Peminatan</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Peminatan</span></td>
 <td>Pilihan Paket Peminatan 1 (P1/P2/P3)</td>
 </tr>
 <tr>
 <td style="text-align: center;">39</td>
-<td style="text-align: center;"><span class="code-tag">MKU-507</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-507</span></td>
 <td>Kuliah Pengabdian Masyarakat (KPM)</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Praktik</td>
-<td style="text-align: center;">MKWU</td>
-<td>Syarat <span class="arithmatex"><span class="MathJax_Preview">\ge 80\text{ SKS}</span><script type="math/tex">\ge 80\text{ SKS}</script></span> (Sudah 85 SKS ✅)</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">Praktik</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
+<td>Syarat ≥ 80 SKS (Sudah 85 SKS ✅)</td>
 </tr>
 <tr>
 <td style="text-align: center;">39.B</td>
-<td style="text-align: center;"><span class="code-tag">MKU-508</span>></td>
+<td style="text-align: center;"><span class="code-tag">MKU-508</span></td>
 <td>Kewirausahaan II</td>
 <td style="text-align: center;">0</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">MKWU</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-mkwu">MKWU</span></td>
 <td>— (Kebijakan UWG, Sem 5)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>40</strong></td>
-<td style="text-align: center;"><strong><span class="code-tag">STI-728</span>></strong></td>
+<td style="text-align: center;"><strong><span class="code-tag">STI-728</span></strong></td>
 <td><strong>Inovasi Startup Digital (Maju dari Sem 7)</strong></td>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: center;"><strong>+P</strong></td>
@@ -664,12 +701,12 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>41</strong></td>
-<td style="text-align: center;"><strong><span class="code-tag">FST-612</span>></strong></td>
+<td style="text-align: center;"><strong><span class="code-tag">FST-612</span></strong></td>
 <td><strong>Praktik Kerja Lapangan (Maju dari Sem 7)</strong></td>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: center;"><strong>Magang</strong></td>
 <td style="text-align: center;"><strong>FSTI</strong></td>
-<td><strong>Akselerasi: Menempuh Magang Libur Semester / Reguler (<span class="arithmatex"><span class="MathJax_Preview">\ge 80\text{ SKS}</span><script type="math/tex">\ge 80\text{ SKS}</script></span>) ✅</strong></td>
+<td><strong>Akselerasi: Menempuh Magang Libur Semester / Reguler (≥ 80 SKS) ✅</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>SUBTOTAL</strong></td>
@@ -683,7 +720,7 @@
 </tbody>
 </table></div>
 <blockquote>
-<p>📌 <strong>Milestone Penting:</strong> Di akhir Semester 5, mahasiswa telah mengumpulkan <strong>109 SKS</strong>, sehingga secara sah melampaui syarat pendaftaran Capstone Project dan Pra-Skripsi (<span class="arithmatex"><span class="MathJax_Preview">\ge 100\text{ SKS}</span><script type="math/tex">\ge 100\text{ SKS}</script></span>).</p>
+<p>📌 <strong>Milestone Penting:</strong> Di akhir Semester 5, mahasiswa telah mengumpulkan <strong>109 SKS</strong>, sehingga secara sah melampaui syarat pendaftaran Capstone Project dan Pra-Skripsi (≥ 100 SKS).</p>
 </blockquote>
 <hr />
 <h3 id="semester-6-22-sks-penyelesaian-core-maju-capstone-pra-skripsi">🔹 SEMESTER 6 (22 SKS — Penyelesaian Core, Maju Capstone &amp; Pra-Skripsi)</h3>
@@ -703,47 +740,47 @@
 <tbody>
 <tr>
 <td style="text-align: center;">42</td>
-<td style="text-align: center;"><span class="code-tag">STI-624</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-624</span></td>
 <td>Integrasi Layanan Cerdas AI</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-626</span>> Deep Learning, <span class="code-tag">STI-416</span>> Back End</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-626</span> Deep Learning, <span class="code-tag">STI-416</span> Back End</td>
 </tr>
 <tr>
 <td style="text-align: center;">43</td>
-<td style="text-align: center;"><span class="code-tag">STI-626</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-626</span></td>
 <td>Keamanan Informasi Lanjut</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-418</span>> Dasar Keamanan Informasi</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-418</span> Dasar Keamanan Informasi</td>
 </tr>
 <tr>
 <td style="text-align: center;">44</td>
-<td style="text-align: center;"><span class="code-tag">STI-627</span>></td>
+<td style="text-align: center;"><span class="code-tag">STI-627</span></td>
 <td>Digital Platform Engineering</td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">+P</td>
-<td style="text-align: center;">Core STI</td>
-<td><span class="code-tag">STI-416</span>> Web Back End Development</td>
+<td style="text-align: center;"><span class="badge-type badge-type-praktikum">+P (Praktikum)</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-sti">Core STI</span></td>
+<td><span class="code-tag">STI-416</span> Web Back End Development</td>
 </tr>
 <tr>
 <td style="text-align: center;">45</td>
-<td style="text-align: center;"><span class="code-tag">FST-611</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-611</span></td>
 <td>Metodologi Penelitian</td>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Teori</td>
-<td style="text-align: center;">FSTI</td>
-<td>Syarat <span class="arithmatex"><span class="MathJax_Preview">\ge 76\text{ SKS}</span><script type="math/tex">\ge 76\text{ SKS}</script></span> (Sudah 109 SKS ✅)</td>
+<td style="text-align: center;"><span class="badge-type badge-type-teori">Teori</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-fsti">FSTI</span></td>
+<td>Syarat ≥ 76 SKS (Sudah 109 SKS ✅)</td>
 </tr>
 <tr>
 <td style="text-align: center;">46</td>
 <td style="text-align: center;"><code>STA/B/C</code></td>
 <td><strong>MK Pilihan Peminatan 2</strong></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Elektif</td>
-<td style="text-align: center;">Peminatan</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Peminatan</span></td>
 <td>Pilihan Paket Peminatan 2 (P1/P2/P3)</td>
 </tr>
 <tr>
@@ -751,27 +788,27 @@
 <td style="text-align: center;"><code>STA/B/C</code></td>
 <td><strong>MK Pilihan Peminatan 3</strong></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Elektif</td>
-<td style="text-align: center;">Peminatan</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Peminatan</span></td>
 <td>Pilihan Paket Peminatan 3 (P1/P2/P3)</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>48</strong></td>
-<td style="text-align: center;"><strong><span class="code-tag">FST-610</span>></strong></td>
+<td style="text-align: center;"><strong><span class="code-tag">FST-610</span></strong></td>
 <td><strong>Capstone Project FSTI (Maju dari Sem 7)</strong></td>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: center;"><strong>Proyek</strong></td>
 <td style="text-align: center;"><strong>FSTI</strong></td>
-<td><strong>Akselerasi: STI-523 Manpro Selesai, Syarat <span class="arithmatex"><span class="MathJax_Preview">\ge 100\text{ SKS}</span><script type="math/tex">\ge 100\text{ SKS}</script></span> Terpenuhi ✅</strong></td>
+<td><strong>Akselerasi: STI-523 Manpro Selesai, Syarat ≥ 100 SKS Terpenuhi ✅</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>49</strong></td>
-<td style="text-align: center;"><strong><span class="code-tag">FST-613</span>></strong></td>
+<td style="text-align: center;"><strong><span class="code-tag">FST-613</span></strong></td>
 <td><strong>Pra-Skripsi / Sempro (Maju dari Sem 7)</strong></td>
 <td style="text-align: center;"><strong>2</strong></td>
 <td style="text-align: center;"><strong>Seminar</strong></td>
 <td style="text-align: center;"><strong>FSTI</strong></td>
-<td><strong>Akselerasi: Paralel Metpen, Syarat <span class="arithmatex"><span class="MathJax_Preview">\ge 100\text{ SKS}</span><script type="math/tex">\ge 100\text{ SKS}</script></span> Terpenuhi ✅</strong></td>
+<td><strong>Akselerasi: Paralel Metpen, Syarat ≥ 100 SKS Terpenuhi ✅</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>SUBTOTAL</strong></td>
@@ -785,7 +822,7 @@
 </tbody>
 </table></div>
 <blockquote>
-<p>📌 <strong>Milestone Penting:</strong> Di akhir Semester 6, proposal Skripsi mahasiswa telah <strong>LULUS SEMINAR PROPOSAL (SEMPRO)</strong> dan akumulasi SKS mencapai <strong>131 SKS</strong>, memenuhi syarat pendaftaran Skripsi (<span class="arithmatex"><span class="MathJax_Preview">\ge 120\text{ SKS}</span><script type="math/tex">\ge 120\text{ SKS}</script></span>).</p>
+<p>📌 <strong>Milestone Penting:</strong> Di akhir Semester 6, proposal Skripsi mahasiswa telah <strong>LULUS SEMINAR PROPOSAL (SEMPRO)</strong> dan akumulasi SKS mencapai <strong>131 SKS</strong>, memenuhi syarat pendaftaran Skripsi (≥ 120 SKS).</p>
 </blockquote>
 <hr />
 <h3 id="semester-7-15-sks-semester-kelulusan-yudisium-fast-track">🔹 SEMESTER 7 (15 SKS — SEMESTER KELULUSAN &amp; YUDISIUM FAST-TRACK)</h3>
@@ -808,8 +845,8 @@
 <td style="text-align: center;"><code>STA/B/C</code></td>
 <td><strong>MK Pilihan Peminatan 4</strong></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Elektif</td>
-<td style="text-align: center;">Peminatan</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Peminatan</span></td>
 <td>Prasyarat Paket Peminatan</td>
 </tr>
 <tr>
@@ -817,8 +854,8 @@
 <td style="text-align: center;"><code>STA/B/C</code></td>
 <td><strong>MK Pilihan Peminatan 5</strong></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Elektif</td>
-<td style="text-align: center;">Peminatan</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Peminatan</span></td>
 <td>Prasyarat Paket Peminatan</td>
 </tr>
 <tr>
@@ -826,18 +863,18 @@
 <td style="text-align: center;"><code>STA/B/C</code></td>
 <td><strong>MK Pilihan Peminatan 6</strong></td>
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Elektif</td>
-<td style="text-align: center;">Peminatan</td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Elektif</span></td>
+<td style="text-align: center;"><span class="cat-badge cat-elektif">Peminatan</span></td>
 <td>Prasyarat Paket Peminatan</td>
 </tr>
 <tr>
 <td style="text-align: center;">53</td>
-<td style="text-align: center;"><span class="code-tag">FST-714</span>></td>
+<td style="text-align: center;"><span class="code-tag">FST-714</span></td>
 <td><strong>Skripsi / Tugas Akhir (6 SKS)</strong></td>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: center;"><strong>Mandiri</strong></td>
 <td style="text-align: center;"><strong>FSTI</strong></td>
-<td><strong><span class="code-tag">FST-613</span>> Pra-Skripsi Lulus, Syarat <span class="arithmatex"><span class="MathJax_Preview">\ge 120\text{ SKS}</span><script type="math/tex">\ge 120\text{ SKS}</script></span> Terpenuhi (Sudah 131 SKS ✅)</strong></td>
+<td><strong><span class="code-tag">FST-613</span> Pra-Skripsi Lulus, Syarat ≥ 120 SKS Terpenuhi (Sudah 131 SKS ✅)</strong></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>SUBTOTAL</strong></td>
@@ -850,11 +887,11 @@
 </tr>
 </tbody>
 </table></div>
-<div class="highlight"><pre><span></span><code>====================================================================================================
+<pre><code>====================================================================================================
   🎯 STATUS AKHIR: MAHASISWA DINYATAKAN LULUS SARJANA SISTEM DAN TEKNOLOGI INFORMASI (S.Kom.)
                    PADA AKHIR SEMESTER 7 DENGAN MASA STUDI TEPAT 3,5 TAHUN (146 SKS)
 ====================================================================================================
-</code></pre></div>
+</code></pre>
 <hr />
 <h2 id="4-matriks-audit-kepatuhan-prasyarat-formal-validation-checklist">4. MATRIKS AUDIT KEPATUHAN PRASYARAT FORMAL (VALIDATION CHECKLIST)</h2>
 <div class="table-wrapper">
@@ -878,7 +915,7 @@
 <hr />
 <h2 id="5-rekomendasi-tata-kelola-pembimbingan-akademik-dpa-fast-track">5. REKOMENDASI TATA KELOLA PEMBIMBINGAN AKADEMIK (DPA FAST-TRACK)</h2>
 <ol>
-<li><strong>Skrining di Akhir Semester 2:</strong> Dosen Penasihat Akademik (DPA) mengidentifikasi mahasiswa dengan <span class="arithmatex"><span class="MathJax_Preview">\text{IPK} \ge 3{,}50</span><script type="math/tex">\text{IPK} \ge 3{,}50</script></span> dan tidak memiliki nilai D/E untuk ditawarkan masuk <em>Jalur Akselerasi 3,5 Tahun</em>.</li>
+<li><strong>Skrining di Akhir Semester 2:</strong> Dosen Penasihat Akademik (DPA) mengidentifikasi mahasiswa dengan $\text{IPK} ≥ 3{,}50$ dan tidak memiliki nilai D/E untuk ditawarkan masuk <em>Jalur Akselerasi 3,5 Tahun</em>.</li>
 <li><strong>KRS Approval:</strong> Pengambilan 23–24 SKS di Semester 3 s.d. 6 dipandu DPA dengan memastikan jadwal kuliah tidak bentrok antar-angkatan (misal melalui kelas paralel atau penugasan asinkron).</li>
 <li><strong>Fokus Total di Semester 7:</strong> Karena Capstone dan PKL sudah tuntas di Semester 6, Semester 7 hanya membebani 15 SKS, memberikan peluang besar bagi mahasiswa meraih nilai Skripsi <strong>A</strong> dan mempublikasikan paper jurnal internasional terindeks Scopus / SINTA 2.</li>
 </ol>
@@ -886,17 +923,22 @@
 <p><em>Disahkan sebagai Dokumen Resmi 015 — Panduan &amp; Simulasi Akselerasi 7 Semester Kurikulum SISTEKIN 2026.</em><br />
 <strong>Tim Pengembang Kurikulum Program Studi Sistem dan Teknologi Informasi — FSTI Universitas Widyagama Malang</strong></p>
 
-            <div class="doc-nav">
+            <div class="doc-nav no-print">
                 <div><a href="014_ANALISIS_KRITIS_PEMANGKASAN_SKS_TEORI_SEM4_SEM5.html" class="nav-btn">← Sebelumnya</a></div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
                 <div><a href="016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.html" class="nav-btn">Selanjutnya →</a></div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer no-print">
             <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
     </div>
 
     <!-- Master External Modular Script -->
