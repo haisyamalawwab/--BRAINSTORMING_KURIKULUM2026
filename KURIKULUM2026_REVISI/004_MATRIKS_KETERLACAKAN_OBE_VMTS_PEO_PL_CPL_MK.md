@@ -144,7 +144,7 @@ graph LR
 | No | Kode MK | Nama Mata Kuliah Pilihan P1 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
 | 1 | `STA-501` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
-| 2 | `STA-601` | Computational Methods and Numerics | 3 | 6 | P1, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
+| 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | P2, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
 | 3 | `STA-602` | Intelligent Agent Systems | 3 | 6 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
 | 4 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
 | 5 | `STA-702` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
@@ -190,8 +190,8 @@ graph LR
 | | **P2** | Konsep sistem informasi cerdas, arsitektur data & tata kelola | 12 MK Wajib + Elektif | 34 SKS |
 | | **P3** | Infrastruktur komputasi awan, jaringan, IoT & keamanan siber | 10 MK Wajib + Elektif | 28 SKS |
 | | **P4** | Rekayasa perangkat lunak, algoritma pemrograman & platform | 11 MK Wajib + Elektif | 32 SKS |
-| **Keterampilan Khusus (KK)** | **KK1** | Merancang, melatih & mengintegrasikan model Machine Learning/AI | 5 MK Inti + 6 MK P1 | 33 SKS |
-| | **KK2** | Rekayasa data end-to-end, data mining, DWH/BI & analitik | 4 MK Inti + 2 MK P1 | 18 SKS |
+| **Keterampilan Khusus (KK)** | **KK1** | Merancang, melatih & mengintegrasikan model Machine Learning/AI | 5 MK Inti + 5 MK P1 | 30 SKS |
+| | **KK2** | Rekayasa data end-to-end, data mining, DWH/BI & analitik | 4 MK Inti + 3 MK P1 | 21 SKS |
 | | **KK3** | Mengonfigurasi cloud infra, arsitektur jaringan & telemetri IoT | 7 MK Inti + 3 MK P2 | 30 SKS |
 | | **KK4** | Menganalisis risiko keamanan siber, pentest & tata kelola TI | 3 MK Inti + 5 MK P2 | 24 SKS |
 | | **KK5** | Membangun web/mobile multi-platform, UI/UX & microservices | 7 MK Inti + 5 MK P3 | 36 SKS |
@@ -214,7 +214,7 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | Kode BoK IS | Nomenklatur Bahan Kajian IS2020 | Mata Kuliah Pembina Primer (●) | Mata Kuliah Pembina Sekunder (○) | Total MK | Status Cakupan |
 |---|---|---|---|:---:|:---:|
 | **BK-IS01** | *Foundations of Information Systems* | `STI-101`, `FST-101` | `STI-306` | 3 MK | ✅ Sangat Kuat |
-| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520` | `STA-501`, `STA-701` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS02** | *Data and Information Management* | `FST-207`, `STI-415`, `STI-520`, `STA-601` | `STA-501`, `STA-701` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS03** | *IT Infrastructure and Networking* | `STI-103`, `STI-312`, `STI-417`, `STI-310` | `STB-501`, `STB-601`, `STI-521` | 7 MK | ✅ Sangat Kuat |
 | **BK-IS04** | *Enterprise Architecture* | `STB-703` | `STI-306`, `STI-627` | 3 MK | ✅ Terpenuhi |
 | **BK-IS05** | *IS Management and Governance* | `STB-701`, `STB-702` | `STI-523`, `STB-602` | 4 MK | ✅ Terpenuhi |
@@ -222,7 +222,7 @@ Matriks ini memetakan relasi langsung antara 21 Bahan Kajian Standar APTIKOM SI 
 | **BK-IS07** | *Systems Analysis and Design* | `STI-306`, `STI-309` | `FST-610`, `STC-601` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS08** | *Project Management* | `STI-523`, `STC-703` | `FST-610`, `FST-612` | 4 MK | ✅ Sangat Kuat |
 | **BK-IS09** | *Business Process Management* | `STC-601` | `STI-306`, `STI-625` | 3 MK | ✅ Terpenuhi |
-| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | `STA-601` | 5 MK | ✅ Sangat Kuat |
+| **BK-IS10** | *Applied Mathematics and Logic* | `STI-102`, `STI-204`, `STI-205`, `FST-408` | — | 4 MK | ✅ Sangat Kuat |
 | **BK-IS11** | *Programming Fundamentals & OOP* | `FST-102`, `FST-203`, `FST-205` | `STI-311`, `STI-416` | 5 MK | ✅ Sangat Kuat |
 | **BK-IS12** | *Web and Mobile App Development* | `STI-311`, `STI-416`, `STI-522`, `STI-627` | `STC-602`, `STC-702` | 6 MK | ✅ Sangat Kuat |
 | **BK-IS13** | *Data Analytics and Business Intelligence* | `STI-415`, `STI-520`, `STA-501` | `STI-413`, `STA-701` | 5 MK | ✅ Sangat Kuat |

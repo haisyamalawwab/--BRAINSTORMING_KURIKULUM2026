@@ -307,7 +307,7 @@ Sebagai program studi baru yang sedang bertumbuh, SISTEKIN menerapkan evaluasi P
 
 > [!NOTE]
 > **Daftar Pilihan Mata Kuliah Peminatan 2 & 3 (Semester 6 — Ambil 2 MK / 6 SKS sesuai jalur):**
-> * **Peminatan 1 (Smart Systems):** `STA-601` Computational Methods and Numerics (+P, 3 SKS) & `STA-602` Intelligent Agent Systems (+P, 3 SKS)
+> * **Peminatan 1 (Smart Systems):** `STA-601` Rekayasa Big Data dan Komputasi Terdistribusi (+P, 3 SKS) & `STA-602` Intelligent Agent Systems (+P, 3 SKS)
 > * **Peminatan 2 (Cloud & Cyber):** `STB-601` Cloud Architecture & DevOps (+P, 3 SKS) & `STB-602` Cybersecurity Risk Management (Teori, 3 SKS)
 > * **Peminatan 3 (Platform Eng):** `STC-601` Rekayasa & Otomasi Proses Bisnis (+P, 3 SKS) & `STC-602` Rekayasa Aplikasi Industri Vertikal (+P, 3 SKS)
 
@@ -362,7 +362,7 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 | Peminatan | Basis Profil (PL) | Mata Kuliah Pilihan (@ 3 SKS) |
 | --- | --- | --- |
 | P1: Integrated Smart | PL-1: Intelligent IS | 1. STA-501 Decision Support Systems (+P, Sem 5) |
-| Systems | & Data/AI Eng | 2. STA-601 Computational Methods & Numerics(+P, S6) |
+| Systems | & Data/AI Eng | 2. STA-601 Rekayasa Big Data & Terdistribusi(+P, S6) |
 | (Flagship) |  | 3. STA-602 Intelligent Agent Systems (+P, Sem 6) |
 |  |  | 4. STA-701 MLOps and AI Pipeline (+P, Sem 7) |
 |  |  | 5. STA-702 Conversational AI & Assistant (+P, Sem 7) |

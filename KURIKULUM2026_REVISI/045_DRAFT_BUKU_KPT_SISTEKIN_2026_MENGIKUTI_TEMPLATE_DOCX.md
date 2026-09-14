@@ -415,7 +415,7 @@ Kelompok FSTI (13 MK / 36 SKS): FST-101 Dasar Teknologi Digital (2, Sem 1); FST-
 
 Kelompok Core STI (28 MK / 79 SKS): STI-101 Pengantar Sistem dan TI (2, Sem 1); STI-102 Kalkulus (3, Sem 1); STI-103 Arsitektur dan Organisasi STI (3, Sem 1); STI-204 Matematika Diskrit dan Logika (3, Sem 2, STI-103); STI-205 Aljabar Linear dan Matriks (3, Sem 2, STI-102); STI-306 Analisis dan Perancangan SI (3, Sem 3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, Sem 3, STI-204 + FST-204); STI-308 UI/UX Design & Prototyping (3 +P, Sem 3, FST-101); STI-309 Rekayasa Perangkat Lunak (3, Sem 3, FST-203); STI-310 Sistem Operasi (3, Sem 3, STI-103); STI-311 Web Front End Development (3 +P, Sem 3, FST-102); STI-312 Jaringan Komputer (3 +P, Sem 3, STI-103); STI-413 Machine Learning (3 +P, Sem 4, STI-205 + STI-307); STI-414 Pengantar NLP & Information Retrieval (2 +P, Sem 4, STI-307); STI-415 Data Warehouse & BI (3 +P, Sem 4, FST-207); STI-416 Web Back End Development (3 +P, Sem 4, FST-207 + STI-311); STI-417 Komputasi Awan (3, Sem 4, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, Sem 4, STI-312); STI-519 Keamanan Informasi Lanjut (3, Sem 5, STI-418); STI-520 Data Mining & Visualisasi Data (3 +P, Sem 5, STI-413 + STI-415); STI-521 Internet of Things (3 +P, Sem 5, STI-312 + STI-310); STI-522 Pemrograman Aplikasi Mobile (3 +P, Sem 5, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, Sem 5, STI-306 + STI-309); STI-624 Integrasi Layanan Cerdas Berbasis AI (3 +P, Sem 6, STI-413 + STI-416); STI-625 Smart City & Pemerintahan Digital (2, Sem 6, STI-521); STI-626 Deep Learning & Neural Networks (3 +P, Sem 6, STI-413); STI-627 Digital Platform Engineering (3 +P, Sem 6, STI-416); STI-728 Inovasi Teknologi dan Startup Digital (3 +P, Sem 7, STI-627 + MKU-204).
 
-Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Computational Methods and Numerics (3 +P, Sem 6, STI-102 + STI-205); STA-602 Intelligent Agent Systems (3 +P, Sem 6, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture & DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 6, STI-418); STB-701 IT Governance & Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research & Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa & Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech & EdTech (3 +P, Sem 6, STI-416); STC-701 Immersive Media & XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture & Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management & Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7).
+Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Rekayasa Big Data dan Komputasi Terdistribusi (3 +P, Sem 6, FST-207 + STI-415); STA-602 Intelligent Agent Systems (3 +P, Sem 6, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture & DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 6, STI-418); STB-701 IT Governance & Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research & Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa & Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech & EdTech (3 +P, Sem 6, STI-416); STC-701 Immersive Media & XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture & Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management & Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7).
 
 18 MK baru K2026 (5 wajib/14 SKS + 13 elektif). Penuh Dok. 004–005.
 
@@ -672,7 +672,7 @@ flowchart BT
         STI626["STI-626<br/>Deep Learning & NN (3)"]
         STI627["STI-627<br/>Platform Engineering (3)"]
         FST611["FST-611<br/>Metodologi Penelitian (2)"]
-        STA601["STA-601/602 (P1)<br/>Komputasi / Agen (6)"]
+        STA601["STA-601/602 (P1)<br/>Big Data / Agen (6)"]
         STB601["STB-601/602 (P2)<br/>DevOps / Pentest (6)"]
         STC601["STC-601/602 (P3)<br/>BPMN / Vertikal (6)"]
     end
@@ -684,7 +684,7 @@ flowchart BT
     STI416 --> STI627
     STI417 --> STI627
     FST408 --> FST611
-    STI413 --> STA601
+    STI415 --> STA601
     STI417 --> STB601
     STI418 --> STB602
     STI306 --> STC601
@@ -759,7 +759,7 @@ flowchart BT
     %% 3 TRACK PEMINATAN
     subgraph TRACKS ["3 JALUR PEMINATAN BERBASIS PROFIL LULUSAN (SEMESTER 5–7: @ 18 SKS)"]
         subgraph P1 ["P1: Integrated Smart Systems (PL-1)"]
-            STA_ALL["STA-501 Decision Support Systems (3)<br/>STA-601 Komputasi Numerik Terapan (3)<br/>STA-602 Sistem Agen Cerdas & Multi-Agent (3)<br/>STA-701 MLOps & AI Deployment (3)<br/>STA-702 Conversational AI & LLM (3)<br/>STA-703 Smart Surveillance & Edge AI (3)"]
+            STA_ALL["STA-501 Decision Support Systems (3)<br/>STA-601 Big Data Engineering & Terdistribusi (3)<br/>STA-602 Sistem Agen Cerdas & Multi-Agent (3)<br/>STA-701 MLOps & AI Deployment (3)<br/>STA-702 Conversational AI & LLM (3)<br/>STA-703 Smart Surveillance & Edge AI (3)"]
         end
 
         subgraph P2 ["P2: Cloud Infra & Cybersecurity (PL-2)"]
