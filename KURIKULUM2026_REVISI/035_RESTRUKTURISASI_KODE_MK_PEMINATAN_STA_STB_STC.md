@@ -26,7 +26,7 @@ $$\mathbf{ST[A/B/C]\text{-}[Semester][Nomor\ Urut\ dalam\ Semester\ (2\ Digit)]}
 | **5** | P1: Integrated Smart Systems | Decision Support Systems | 3 | +P | `STA-01` | **`STA-501`** | `STI-307` Sistem Cerdas |
 | **5** | P2: Cloud Infra & Cyber | Network Security and Digital Forensics | 3 | +P | `STB-01` | **`STB-501`** | `STI-312` Jaringan Komputer, `STI-418` Dasar Keamanan Info |
 | **5** | P3: Digital Platform Eng | User Experience Research & Design | 3 | +P | `STC-01` | **`STC-501`** | `STI-308` UI/UX Design & Prototyping |
-| **6** | P1: Integrated Smart Systems | Computational Methods and Numerics | 3 | +P | `STA-02` | **`STA-601`** | `STI-102` Kalkulus, `STI-205` Aljabar Linear |
+| **6** | P1: Integrated Smart Systems | Rekayasa Big Data dan Komputasi Terdistribusi (semula Computational Methods and Numerics → Dok 048) | 3 | +P | `STA-02` | **`STA-601`** | `FST-207` Basis Data, `STI-415` DW/BI |
 | **6** | P1: Integrated Smart Systems | Intelligent Agent Systems | 3 | +P | `STA-03` | **`STA-602`** | `STI-307` Sistem Cerdas |
 | **6** | P2: Cloud Infra & Cyber | Cloud Architecture & DevOps | 3 | +P | `STB-02` | **`STB-601`** | `STI-417` Komputasi Awan |
 | **6** | P2: Cloud Infra & Cyber | Cybersecurity Risk Management | 3 | Teori | `STB-03` | **`STB-602`** | `STI-418` Dasar Keamanan Informasi |
