@@ -7,11 +7,12 @@ from markdown.extensions.toc import TocExtension
 
 # List of all curriculum documents in sequence
 DOC_FILES = [
+    ("000_CHANGELOG_ALIGNMENT_FINAL.md", "000 — Changelog Alignment Final"),
     ("001_ANALISIS_VMTS_DAN_POSITIONING_STRATEGIS_SISTEKIN.md", "001 — Analisis VMTS & Positioning Strategis"),
     ("002_FORMULASI_3_PEO_DAN_4_PROFIL_LULUSAN_SISTEKIN.md", "002 — Formulasi 3 PEO & 4 Profil Lulusan"),
     ("003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md", "003 — Standar 14 CPL & Pemetaan BoK APTIKOM"),
     ("004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md", "004 — Matriks Keterlacakan OBE VMTS-PEO-PL-CPL-MK"),
-    ("005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md", "005 — Struktur Kurikulum 8 Semester & Peminatan"),
+    ("005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md", "005 — 🏛️ Struktur Kurikulum 8 Semester & Peminatan"),
     ("006_DISTRIBUSI_DAN_PANDUAN_MK_PEMINATAN_MBKM.md", "006 — Distribusi MK Peminatan & Panduan MBKM"),
     ("007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md", "007 — Silabus 3-Tabel & CPMK 67 MK Portofolio"),
     ("008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md", "008 — Sistem Asesmen OBE & Attainment CPL"),
@@ -31,6 +32,7 @@ DOC_FILES = [
     ("016_ANALISIS_BoK_APTIKOM_REDUNDANSI_DAN_PIPELINE_AI.md", "016 — Analisis BoK APTIKOM, Audit Redundansi & Pipeline AI"),
     ("017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md", "017 — Audit Forensik Zero Redundancy & Zero Gap 5 Domain"),
     ("018_PANDUAN_RUBRIK_KLASTER_DAN_MODEL_ASESMEN_OBE_DOSEN.md", "018 — Panduan Master Rubrik Klaster & Model Asesmen Dosen"),
+    ("019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.md", "019 — Audit Kritis Keselarasan Dokumen Kurikulum"),
     ("020_TEMPLATE_BUKU_KURIKULUM_KPT_OBE_APTIKOM.md", "020 — Template Buku Kurikulum KPT-OBE & Analisis Gap"),
     ("021_PANDUAN_KPT2024_DIKTI_FULLTEXT.md", "021 — Panduan KPT 2024 Belmawa Dikti (Teks Lengkap)"),
     ("022_AUDIT_KELENGKAPAN_KOMPONEN_VS_TEMPLATE_KPT_OBE.md", "022 — Audit Kelengkapan Komponen vs Template KPT-OBE"),
@@ -42,6 +44,7 @@ DOC_FILES = [
     ("028_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_CORE_STI.md", "028 — Dev Report & Dev Log Restrukturisasi Kode Core STI"),
     ("029_TABEL_VERIFIKASI_KODE_MK_BARU.md", "029 — Tabel Verifikasi Kode MK Baru (Core STI Sem 1 & 3)"),
     ("030_JUSTIFIKASI_AKADEMIS_DAN_BoK_STA02_COMPUTATIONAL_METHODS_SEBAGAI_MK_PILIHAN.md", "030 — Justifikasi Akademis & Audit BoK STA-601 Komputasi Numerik sebagai MK Pilihan"),
+    ("031_PETA_KESELARASAN_KPT2024_STATUS_DOKUMEN.md", "031 — Peta Keselarasan KPT 2024 & Status Dokumen"),
     ("031_RENCANA_PENYUSUNAN_BUKU_KPT_APTIKOM_A-L.md", "031 — Rencana Penyusunan Buku KPT APTIKOM Bab A-L"),
     ("032_MODALITAS_PEMBELAJARAN_KPT2024.md", "032 — Modalitas Pembelajaran KPT 2024"),
     ("033_RUBRIK_HOLISTIK_DAN_SKALA_PERSEPSI.md", "033 — Rubrik Holistik & Skala Persepsi Asesmen"),
@@ -56,6 +59,11 @@ DOC_FILES = [
     ("042_LAPORAN_AUDIT_KESELARASAN_KURIKULUM_DAN_BOUNDARY_OF_TOPICS.md", "042 — Laporan Audit Mutu & Keselarasan Kurikulum vs Dokumen 005"),
     ("043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md", "043 — Matriks CPL, CPMK, BoK, dan Boundary Guardrails (Core & Peminatan)"),
     ("044_DEV_REPORT_DAN_LOG_PENYUSUNAN_MATRIKS_CPL_CPMK_BoK_GUARDRAILS.md", "044 — Dev Report & Log Penyusunan Matriks CPL, CPMK, BoK, dan Boundary Guardrails"),
+    ("045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.md", "045 — 📘 Draft Buku KPT SISTEKIN 2026 Sesuai Template Dikti"),
+    ("046_RENCANA_SUBCPMK_DAN_16_PERTEMUAN_SWI_13092026_2300.md", "046 — Rencana Sub-CPMK & 16 Pertemuan"),
+    ("047_ANALISIS_KURIKULER_METODE_NUMERIK_VS_RISET_OPERASI_VS_BIG_DATA_STA601.md", "047 — Analisis Kurikuler: Metode Numerik vs. Riset Operasi vs. Big Data (STA-601)"),
+    ("048_KEPUTUSAN_PENGGANTIAN_STA601_NUMERIK_MENJADI_BIG_DATA_ENGINEERING.md", "048 — Keputusan Penggantian STA-601 Menjadi Big Data Engineering"),
+    ("049_LAPORAN_EVALUASI_DAN_REVISI_KURIKULUM_STA601_BIG_DATA_ENGINEERING.md", "049 — Laporan Resmi Evaluasi & Revisi Kurikulum STA-601 Big Data Engineering"),
     ("BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md", "📖 BUKU KURIKULUM OBE SISTEKIN 2026 (FINAL UTUH)")
 ]
 
@@ -99,9 +107,10 @@ def process_alerts(md_text):
                 i += 1
                 
             alert_body = '\n'.join(content_lines)
+            alert_body_html = markdown.markdown(alert_body, extensions=['extra', 'tables'])
             alert_html = f'''<div class="custom-alert {cls}">
     <div class="alert-header"><span class="alert-icon">{icon}</span> {label}</div>
-    <div class="alert-content">{alert_body}</div>
+    <div class="alert-content">{alert_body_html}</div>
 </div>'''
             new_lines.append(alert_html)
         else:
@@ -204,15 +213,42 @@ def post_process_html(html_text):
             return f'<span class="code-tag">{code}</span>'
         return f'<code>{code}</code>'
     
-    html_text = re.sub(r'<code>([A-Za-z0-9_\-\.]+?)</code', code_repl, html_text)
+    # Fix regex bug (must match full closing code tag)
+    html_text = re.sub(r'<code>([A-Za-z0-9_\-\.]+?)</code>', code_repl, html_text)
     
-    # Category badges
-    html_text = html_text.replace('<td>MKWU</td>', '<td><span class="cat-badge cat-mkwu">MKWU</span></td>')
-    html_text = html_text.replace('<td>FSTI</td>', '<td><span class="cat-badge cat-fsti">FSTI</span></td>')
-    html_text = html_text.replace('<td>Core STI</td>', '<td><span class="cat-badge cat-sti">Core STI</span></td>')
-    html_text = html_text.replace('<td>Peminatan</td>', '<td><span class="cat-badge cat-elektif">Peminatan</span></td>')
-    html_text = html_text.replace('<td>Elektif</td>', '<td><span class="cat-badge cat-elektif">Elektif</span></td>')
+    # Category badges (matches whether centered or styled)
+    cat_map = {
+        'MKWU': 'cat-mkwu',
+        'FSTI': 'cat-fsti',
+        'Core STI': 'cat-sti',
+        'Peminatan': 'cat-elektif',
+        'Elektif': 'cat-elektif'
+    }
+    def cat_repl(m):
+        attr = m.group(1)
+        val = m.group(2).strip()
+        cls = cat_map.get(val, 'cat-sti')
+        return f'<td{attr}><span class="cat-badge {cls}">{val}</span></td>'
+    html_text = re.sub(r'<td([^>]*)>\s*(MKWU|FSTI|Core STI|Peminatan|Elektif)\s*</td>', cat_repl, html_text)
     
+    # Course type badges (matches whether centered or styled)
+    type_map = {
+        'Teori': 'badge-type-teori',
+        '+P': 'badge-type-praktikum',
+        'Praktik': 'badge-type-praktikum',
+        'Proyek': 'badge-type-proyek',
+        'Magang': 'badge-type-magang',
+        'Seminar': 'badge-type-proyek',
+        'Mandiri': 'badge-type-mandiri'
+    }
+    def type_repl(m):
+        attr = m.group(1)
+        val = m.group(2).strip()
+        cls = type_map.get(val, 'badge-type-teori')
+        label = '+P (Praktikum)' if val == '+P' else val
+        return f'<td{attr}><span class="badge-type {cls}">{label}</span></td>'
+    html_text = re.sub(r'<td([^>]*)>\s*(Teori|\+P|Praktik|Proyek|Magang|Seminar|Mandiri)\s*</td>', type_repl, html_text)
+
     return html_text
 
 def build_full_html(filename, title, content_html, prev_doc, next_doc):
@@ -245,10 +281,10 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- KaTeX for LaTeX Math -->
+    <!-- KaTeX for LaTeX Math (Enhanced with inline single dollar delimiters) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {{delimiters: [{{left: '$$', right: '$$', display: true}}, {{left: '$', right: '$', display: false}}]}});"></script>
 
     <!-- Mermaid JS for Flowcharts -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -259,7 +295,7 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar no-print">
         <div class="container navbar-content">
             <a href="index.html" class="brand">
                 <div class="brand-logo">STI</div>
@@ -277,16 +313,45 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
 
             <div class="nav-actions">
                 <a href="index.html" class="btn-action">🏠 Portal Dokumen</a>
-                <button class="btn-action" onclick="window.print()">🖨️ Cetak PDF</button>
+                <button class="btn-action btn-print" onclick="window.print()">🖨️ Cetak PDF</button>
                 <button class="btn-action" id="themeToggle">🌓 Tema</button>
             </div>
         </div>
     </nav>
 
     <div class="container">
+        <!-- Print Official Header (Visible ONLY on print) -->
+        <header class="print-header">
+            <h2>Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi</h2>
+            <h3>Program Studi Sistem dan Teknologi Informasi (S1)</h3>
+            <p>Dokumen Resmi Kurikulum OBE 2026 • Sesuai Permendikbudristek No. 53/2023 & Standar APTIKOM</p>
+        </header>
+
+        <!-- Reader Toolbar (Interactive UI & Print Controls) -->
+        <div class="reader-toolbar no-print">
+            <div class="reader-toolbar-left">
+                <span class="reader-tool-label">📑 Bagian:</span>
+                <select id="quickJumpSelect" class="quick-jump-select">
+                    <option value="">Lompat ke bagian...</option>
+                </select>
+                <button type="button" id="btnWidthToggle" class="reader-tool-btn" title="Toggle Lebar Layar untuk Tabel Besar">↔️ Lebar Penuh (Tabel)</button>
+            </div>
+            <div class="reader-toolbar-right">
+                <span class="reader-tool-label">🔠 Font:</span>
+                <button type="button" id="btnFontMinus" class="reader-tool-btn" title="Kecilkan Font">A-</button>
+                <button type="button" id="btnFontReset" class="reader-tool-btn" title="Ukuran Font Standar">A</button>
+                <button type="button" id="btnFontPlus" class="reader-tool-btn" title="Perbesar Font">A+</button>
+                <span class="reader-tool-label" style="margin-left: 6px;">🌓 Tema:</span>
+                <button type="button" id="themeBtnLight" class="reader-tool-btn" title="Mode Terang (Eksekutif)">☀️ Terang</button>
+                <button type="button" id="themeBtnSepia" class="reader-tool-btn" title="Mode Sepia (Kenyamanan Mata)">📖 Sepia</button>
+                <button type="button" id="themeBtnDark" class="reader-tool-btn" title="Mode Gelap">🌙 Gelap</button>
+                <button type="button" class="btn-action btn-print" style="margin-left: 8px;" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge-group">
+            <div class="hero-badge-group no-print">
                 <span class="badge badge-primary">Kurikulum OBE 2026</span>
                 <span class="badge badge-accent">Permendikbudristek 53/2023</span>
                 <span class="badge badge-warning">FSTI UWG Malang</span>
@@ -299,17 +364,22 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
         <main class="content">
             {content_html}
 
-            <div class="doc-nav">
+            <div class="doc-nav no-print">
                 <div>{prev_link}</div>
                 <div><a href="index.html" class="nav-btn">🏠 Index Utama</a></div>
                 <div>{next_link}</div>
             </div>
         </main>
 
-        <footer class="footer">
+        <footer class="footer no-print">
             <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
+
+        <!-- Print Footer Note -->
+        <div class="print-footer-note">
+            Buku Kurikulum OBE 2026 Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang
+        </div>
     </div>
 
     <!-- Master External Modular Script -->
@@ -335,7 +405,7 @@ def build_index_html():
     cards_str = '\n'.join(cards_html)
     
     index_html = f'''<!DOCTYPE html>
-<html lang="id" data-theme="dark">
+<html lang="id" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -346,12 +416,13 @@ def build_index_html():
 <body>
     <div class="container">
         <header class="navbar">
-            <div class="nav-brand">
-                <span class="nav-brand-logo">🎓</span>
-                <span class="nav-brand-text">SISTEKIN 2026 PORTAL</span>
+            <div class="nav-brand" style="display: flex; align-items: center; gap: 10px;">
+                <span class="nav-brand-logo" style="font-size: 1.5rem;">🎓</span>
+                <span class="nav-brand-text" style="font-weight: 800; font-size: 1.1rem; color: var(--text-primary);">SISTEKIN 2026 PORTAL</span>
             </div>
             <div class="nav-actions">
-                <button type="button" class="theme-toggle-btn" id="themeToggle" title="Ganti Mode Gelap/Terang" aria-label="Ganti Tema">
+                <button type="button" class="btn-action btn-print" onclick="window.print()">🖨️ Cetak</button>
+                <button type="button" class="theme-toggle-btn btn-action" id="themeToggle" title="Ganti Tema" aria-label="Ganti Tema">
                     🌓 Mode Tema
                 </button>
             </div>
@@ -363,7 +434,7 @@ def build_index_html():
                 <span class="badge badge-accent">AKREDITASI & LAM INFOKOM READY</span>
             </div>
             <h1 class="hero-title" style="margin-bottom: 12px;">Buku Kurikulum KPT-OBE SISTEKIN 2026</h1>
-            <p class="hero-subtitle" style="margin: 0 auto 24px auto;">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</p>
+            <p class="hero-subtitle" style="margin: 0 auto 24px auto; color: var(--text-secondary);">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</p>
             
             <div class="search-box" style="max-width: 520px; margin: 0 auto;">
                 <span class="search-icon">🔍</span>
@@ -394,13 +465,14 @@ def convert_all():
             'tables',
             'fenced_code',
             'toc',
-            'sane_lists',
-            'pymdownx.superfences',
-            'pymdownx.arithmatex'
+            'sane_lists'
         ]
     )
     
-    print("Starting Markdown to HTML Conversion for all documents...")
+    HTML_DIR = os.path.join(WORKDIR, "HTML")
+    os.makedirs(HTML_DIR, exist_ok=True)
+
+    print(f"Starting Markdown to HTML Conversion for all documents into {HTML_DIR}...")
     
     for idx, (filename, title) in enumerate(DOC_FILES):
         filepath = os.path.join(WORKDIR, filename)
@@ -413,10 +485,14 @@ def convert_all():
         with open(filepath, 'r', encoding='utf-8') as f:
             md_text = f.read()
             
-        # Pre-process math arrows
+        # Pre-process math arrows & inequalities cleanly
         md_text = md_text.replace(r'$\leftrightarrow$', '↔').replace(r'\leftrightarrow', '↔')
         md_text = md_text.replace(r'$\rightarrow$', '→').replace(r'\rightarrow', '→')
         md_text = md_text.replace(r'$\leftarrow$', '←').replace(r'\leftarrow', '←')
+        md_text = re.sub(r'\$\\ge\s*([0-9]+)(?:\\text\{\s*SKS\})?\$', r'≥ \1 SKS', md_text)
+        md_text = re.sub(r'\$\\le\s*([0-9]+)(?:\\text\{\s*SKS\})?\$', r'≤ \1 SKS', md_text)
+        md_text = md_text.replace(r'$\ge$', '≥').replace(r'$\le$', '≤')
+        md_text = md_text.replace(r'\ge', '≥').replace(r'\le', '≤')
         
         md_text = process_alerts(md_text)
         md_text = process_mermaid_blocks(md_text)
@@ -435,19 +511,37 @@ def convert_all():
         full_html = build_full_html(filename, title, content_html, prev_doc, next_doc)
         
         out_filename = filename.replace('.md', '.html')
-        out_filepath = os.path.join(WORKDIR, out_filename)
+        out_filepath = os.path.join(HTML_DIR, out_filename)
         
         with open(out_filepath, 'w', encoding='utf-8') as f:
             f.write(full_html)
             
-        print(f"  -> Generated: {out_filename} ({os.path.getsize(out_filepath)} bytes)")
+        print(f"  -> Generated: {out_filename} ({os.path.getsize(out_filepath):,} bytes)")
 
     index_html = build_index_html()
-    index_path = os.path.join(WORKDIR, "index.html")
+    index_path = os.path.join(HTML_DIR, "index.html")
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(index_html)
-    print(f"\n[SUKSES] Generated Index Portal: index.html ({os.path.getsize(index_path)} bytes)")
+    print(f"\n[SUKSES] Generated Index Portal: HTML/index.html ({os.path.getsize(index_path):,} bytes)")
+
+    # Also create root index.html redirect to HTML/index.html for convenience
+    root_index_path = os.path.join(WORKDIR, "index.html")
+    root_redirect = """<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=HTML/index.html">
+    <title>Mengarahkan ke Portal Kurikulum OBE SISTEKIN 2026</title>
+</head>
+<body>
+    <p>Mengarahkan ke <a href="HTML/index.html">Portal Kurikulum OBE SISTEKIN 2026</a>...</p>
+</body>
+</html>"""
+    with open(root_index_path, 'w', encoding='utf-8') as f:
+        f.write(root_redirect)
+
     print("Semua file HTML berhasil di-generate dan diselaraskan!")
 
 if __name__ == '__main__':
     convert_all()
+
