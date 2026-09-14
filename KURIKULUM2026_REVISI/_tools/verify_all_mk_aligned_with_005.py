@@ -10,7 +10,7 @@ import os
 import re
 import glob
 
-base = r"d:\!!MYDOCUMENTS2026\!!!SISTEKIN2026\!!BRAINSTORMING_KURIKULUM2026\KURIKULUM2026_REVISI"
+base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 f005_path = os.path.join(base, "005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md")
 
 with open(f005_path, "r", encoding="utf-8") as f:
