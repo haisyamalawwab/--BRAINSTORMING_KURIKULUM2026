@@ -1,6 +1,12 @@
 # 030 — JUSTIFIKASI AKADEMIS DAN AUDIT BoK: PENETAPAN STA-601 COMPUTATIONAL METHODS & NUMERICS SEBAGAI MATA KULIAH PILIHAN PEMINATAN INTEGRATED SMART SYSTEMS
 ## Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang
 
+> [!WARNING]
+> **STATUS: DIARSIPKAN (SUPERSEDED) oleh Dok 047 + Dok 048.**
+> Isi historis di bawah dipertahankan apa adanya sebagai jejak audit.
+> Keputusan berlaku: `STA-601` = **Rekayasa Big Data dan Komputasi Terdistribusi** (3 SKS +P, Sem 6, prasyarat `FST-207` + `STI-415`, CPL `P2`/`KK2`), bukan Computational Methods & Numerics.
+> Konsekuensi: padanan E2 `STI-317` → `STA-601` pada Dok 024 **gugur menjadi E5**; `STA-601` menjadi MK baru (B).
+
 ---
 
 ### Informasi Dokumen
