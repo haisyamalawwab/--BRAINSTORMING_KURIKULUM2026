@@ -63,9 +63,9 @@ Seluruh usulan mata kuliah pilihan tambahan dirancang **bebas redundansi** (*Zer
 | **5** | `STA-501` | Decision Support Systems | 3 | +P | `STI-413` Machine Learning | BK-IS13 / BK-IT09 | Eksis 2026 |
 | **5** | `STA-502` | Computer Vision & Citra Digital | 3 | +P | `STI-413` Machine Learning | BK-IT10 (Perception & CV) | **Usulan 2027** |
 | **5** | `STA-503` | Analisis Time Series & Prediktif | 3 | +P | `STI-413` Machine Learning | BK-IS13 (Predictive Analytics) | **Usulan 2027** |
-| **6** | `STA-601` | Computational Methods & Numerics | 3 | +P | `STI-205` Aljabar Linear | BK-IS10 (Mathematical Found.) | Eksis 2026 |
+| **6** | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | `FST-207` Basis Data, `STI-415` DW/BI | BK-IS02 (Data Mgmt) / BK-IS18 | Eksis 2026 — pengganti Numerik per Dok 047/048 |
 | **6** | `STA-602` | Intelligent Agent Systems | 3 | +P | `STI-307` Sistem Cerdas | BK-IS15 / BK-IT10 (AI Systems) | Eksis 2026 |
-| **6** | `STA-603` | Big Data Engineering & Stream Analytics | 3 | +P | `STI-415` DW/BI, `STI-520` | BK-IS02 / BK-IT09 (Big Data) | **Usulan 2027** |
+| **6** | `STA-603` | Riset Operasi dan Optimasi Sistem | 3 | +P | `STI-415` DW/BI, `STA-501` | BK-IS13 (Decision/OR) | **Usulan 2027 pengganti** — slot Big Data sudah diampu `STA-601` per Dok 047/048; OR masuk pool cross-track |
 | **6** | `STA-604` | Edge AI & Embedded Machine Learning | 3 | +P | `STI-521` IoT, `STI-626` DL | BK-IT06 / BK-IT10 (Edge AI) | **Usulan 2027** |
 | **7** | `STA-701` | MLOps and AI Pipeline | 3 | +P | `STI-626` DL, `STI-417` Cloud | BK-IT07 / BK-IT10 (MLOps) | Eksis 2026 |
 | **7** | `STA-702` | Conversational AI & Intelligent Assistant | 3 | +P | `STI-414` NLP, `STI-626` DL | BK-IS15 / BK-IT10 (NLP/GenAI) | Eksis 2026 |

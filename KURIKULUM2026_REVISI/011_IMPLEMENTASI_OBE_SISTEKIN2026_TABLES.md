@@ -152,7 +152,7 @@
 | 49 | STI-728 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
 | D. MK PILIHAN P1: INTEGRATED SMART SYSTEMS (6 MK / 18 SKS) | | | | | | | | | | | | | | | | | | | |
 | 50 | STA-501 | Decision Support Systems (+P) | 5-7 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 51 | STA-601 | Computational Methods & Numerics (+P) | 5-7 | 3 |  |  |  |  | V |  |  |  |  | V |  |  |  |  | 2 |
+| 51 | STA-601 | Rekayasa Big Data & Komputasi Terdistribusi (+P) | 5-7 | 3 |  |  |  |  |  | V |  |  |  | V |  |  |  |  | 2 |
 | 52 | STA-602 | Intelligent Agent Systems (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  |  |  |  |  | 1 |
 | 53 | STA-701 | MLOps and AI Pipeline (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
 | 54 | STA-702 | Conversational AI & Intelligent Assistant (+P) | 5-7 | 3 |  |  |  |  |  |  |  |  | V |  |  |  |  |  | 1 |

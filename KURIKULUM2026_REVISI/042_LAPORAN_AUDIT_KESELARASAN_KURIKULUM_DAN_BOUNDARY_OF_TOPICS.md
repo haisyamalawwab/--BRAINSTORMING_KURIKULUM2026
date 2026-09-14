@@ -60,7 +60,7 @@ $$\mathbf{ST[A/B/C]\text{-}[Semester][Nomor\ Urut\ dalam\ Semester\ (2\ Digit)]}
 │ SEM │ KODE BARU │ NAMA MATA KULIAH                                │ SKS │ TIPE │ PRASYARAT       │
 ├─────┼───────────┼─────────────────────────────────────────────────┼─────┼──────┼─────────────────┤
 │  5  │  STA-501  │ Decision Support Systems                        │  3  │  +P  │ STI-307         │
-│  6  │  STA-601  │ Computational Methods and Numerics              │  3  │  +P  │ STI-102, STI-205│
+│  6  │  STA-601  │ Rekayasa Big Data & Komp. Terdistribusi         │  3  │  +P  │ FST-207, STI-415│
 │  6  │  STA-602  │ Intelligent Agent Systems                       │  3  │  +P  │ STI-307         │
 │  7  │  STA-701  │ MLOps and AI Pipeline                           │  3  │  +P  │ STI-413, STI-624│
 │  7  │  STA-702  │ Conversational AI and Intelligent Assistant     │  3  │  +P  │ STI-413, STI-416│

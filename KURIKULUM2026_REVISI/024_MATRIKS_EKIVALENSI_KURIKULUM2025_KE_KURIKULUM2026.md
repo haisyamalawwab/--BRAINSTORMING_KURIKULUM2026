@@ -26,14 +26,14 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | Indikator Pemetaan | Jumlah MK | Jumlah SKS | Keterangan |
 |---|:---:|:---:|---|
 | MK K2025 ekuivalen penuh (E1) | 34 MK | 89 SKS | Konten identik / substantif sama, SKS baru ≤ SKS lama |
-| MK K2025 ekuivalen bersyarat (E2) | 11 MK | 29 SKS | Overlap 60–85%, defisit SKS, atau penambahan praktikum → wajib uji penyetaraan |
+| MK K2025 ekuivalen bersyarat (E2) | 10 MK | 27 SKS | Overlap 60–85%, defisit SKS, atau penambahan praktikum → wajib uji penyetaraan |
 | MK K2025 ekuivalen gabungan (E3) | 8 MK | 19 SKS | 4 klaster peleburan: 2 MK lama → 1 MK baru (menghasilkan 4 MK baru / 12 SKS) |
 | MK K2025 ekuivalen pecah (E4) | 1 MK | 3 SKS | `STI-101` (3 SKS) dipecah menjadi `STI-101` (2) + `FST-101` (2) |
-| MK K2025 tanpa padanan (E5) | 2 MK | 6 SKS | `STI-423` Game Design & Gamifikasi, `STI-638` Intelligent Signal Processing |
+| MK K2025 tanpa padanan (E5) | 3 MK | 8 SKS | `STI-317` Metode Komputasi dan Numerik, `STI-423` Game Design & Gamifikasi, `STI-638` Intelligent Signal Processing |
 | **TOTAL MK KURIKULUM 2025** | **56 MK** | **146 SKS** | **Seluruh MK lama terpetakan (Zero Orphan)** |
 | MK K2026 memiliki padanan K2025 | 49 MK | — | 73,1% dari 67 MK portofolio (rincian per semester: Bagian 3A) |
-| MK K2026 **BARU** tanpa padanan | 18 MK | — | 5 MK wajib paket (14 SKS) + 13 MK elektif peminatan |
-| **SKS diakui bagi lulusan penuh K2025** | — | **117–120 SKS** | Bergantung peminatan: P1/P2 = 120 SKS, P3 = 117 SKS |
+| MK K2026 **BARU** tanpa padanan | 19 MK | — | 5 MK wajib paket (14 SKS) + 14 MK elektif peminatan (termasuk `STA-601` baru) |
+| **SKS diakui bagi lulusan penuh K2025** | — | **117–120 SKS** | Bergantung peminatan: P2 = 120 SKS, P1/P3 = 117 SKS |
 | **Defisit yang wajib ditempuh** | — | **26–29 SKS** | 14 SKS MK wajib baru + 12–15 SKS elektif peminatan |
 
 ### STRUKTUR DOKUMEN INI (PETA NAVIGASI)
@@ -124,7 +124,7 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | 19 | `STI-314` | Interaksi Manusia dan Komputer | 3 | `STI-308` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-635` Desain & Evaluasi Antarmuka Pengguna — lihat klaster G-3 |
 | 20 | `STI-315` | Etika dan Hukum TI | 2 | `FST-206` | Etika Profesi & Hukum Digital | 2 | 2 | **E1** | Cakupan diperluas ke etika AI & pelindungan data pribadi; SKS setara |
 | 21 | `STI-316` | Multimedia Interaktif | 2 | `STC-701` | Immersive Media & XR Development (+P) | 3 | 7 | **E3** | Dilebur bersama `STI-531` Augmented Reality dan Virtual Reality — lihat klaster G-4. Padanan berada pada **MK elektif Peminatan P3 (Sem 7)**, bukan MK wajib: diakui hanya bila mahasiswa memilih Peminatan P3, jika tidak dihitung sebagai kredit bebas |
-| 22 | `STI-317` | Metode Komputasi dan Numerik | 2 | `STA-601` | Computational Methods & Numerics (+P) | 3 | 6 | **E2** | Padanan berada pada **MK elektif Peminatan P1 (Sem 6)**. Diakui hanya bila mahasiswa memilih Peminatan P1; jika tidak, dihitung sebagai kredit bebas. Defisit 1 SKS + komponen praktikum → uji penyetaraan |
+| 22 | `STI-317` | Metode Komputasi dan Numerik | 2 | — | *Tidak ada padanan* | — | — | **E5** | **`STA-601` berubah menjadi Rekayasa Big Data (Dok 047/048, overlap <10%) sehingga padanan E2 gugur.** Diakui sebagai kredit bebas 2 SKS |
 
 ### 3.4 EKIVALENSI MK SEMESTER 4 KURIKULUM 2025 (20 SKS)
 
