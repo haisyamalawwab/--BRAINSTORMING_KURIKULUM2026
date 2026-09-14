@@ -452,7 +452,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | No | Kode MK | Nama MK | SKS | Jenis | Sem | Prasyarat |
 |:--:|:---:|---|:--:|:--:|:--:|---|
 | 1 | STA-501 | Decision Support Systems | 3 | +P | 5 | STI-307 |
-| 2 | STA-601 | Computational Methods and Numerics | 3 | +P | 6 | STI-102, STI-205 |
+| 2 | STA-601 | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | 6 | FST-207, STI-415 |
 | 3 | STA-602 | Intelligent Agent Systems | 3 | +P | 6 | STI-307 |
 | 4 | STA-701 | MLOps and AI Pipeline | 3 | +P | 7 | STI-413, STI-624 |
 | 5 | STA-702 | Conversational AI & Intelligent Assistant | 3 | +P | 7 | STI-413, STI-416 |

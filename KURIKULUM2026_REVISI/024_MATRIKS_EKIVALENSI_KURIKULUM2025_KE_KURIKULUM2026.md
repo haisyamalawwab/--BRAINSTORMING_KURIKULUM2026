@@ -31,7 +31,7 @@ Kurikulum 2025 (K2025) memuat **56 Mata Kuliah / 146 SKS** yang seluruhnya berst
 | MK K2025 ekuivalen pecah (E4) | 1 MK | 3 SKS | `STI-101` (3 SKS) dipecah menjadi `STI-101` (2) + `FST-101` (2) |
 | MK K2025 tanpa padanan (E5) | 3 MK | 8 SKS | `STI-317` Metode Komputasi dan Numerik, `STI-423` Game Design & Gamifikasi, `STI-638` Intelligent Signal Processing |
 | **TOTAL MK KURIKULUM 2025** | **56 MK** | **146 SKS** | **Seluruh MK lama terpetakan (Zero Orphan)** |
-| MK K2026 memiliki padanan K2025 | 49 MK | — | 73,1% dari 67 MK portofolio (rincian per semester: Bagian 3A) |
+| MK K2026 memiliki padanan K2025 | 48 MK | — | 71,6% dari 67 MK portofolio (rincian per semester: Bagian 3A) |
 | MK K2026 **BARU** tanpa padanan | 19 MK | — | 5 MK wajib paket (14 SKS) + 14 MK elektif peminatan (termasuk `STA-601` baru) |
 | **SKS diakui bagi lulusan penuh K2025** | — | **117–120 SKS** | Bergantung peminatan: P2 = 120 SKS, P1/P3 = 117 SKS |
 | **Defisit yang wajib ditempuh** | — | **26–29 SKS** | 14 SKS MK wajib baru + 12–15 SKS elektif peminatan |
@@ -190,10 +190,10 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | Kategori | Jumlah MK K2025 | Total SKS K2025 | Status Verifikasi |
 |:---:|:---:|:---:|---|
 | E1 — Ekuivalen Penuh | 34 MK | 89 SKS | ✅ |
-| E2 — Ekuivalen Bersyarat | 11 MK | 29 SKS | ✅ |
+| E2 — Ekuivalen Bersyarat | 10 MK | 27 SKS | ✅ |
 | E3 — Ekuivalen Gabungan | 8 MK | 19 SKS | ✅ |
 | E4 — Ekuivalen Pecah | 1 MK | 3 SKS | ✅ |
-| E5 — Tanpa Padanan | 2 MK | 6 SKS | ✅ |
+| E5 — Tanpa Padanan | 3 MK | 8 SKS | ✅ |
 | **TOTAL** | **56 MK** | **146 SKS** | ✅ **Cocok dengan Laporan SIAKAD K2025** |
 
 ---
@@ -206,11 +206,11 @@ Bagian 3 memetakan **dari** Kurikulum 2025 (perspektif MK lama: "ke mana MK saya
 
 | Status Rekognisi | Jumlah MK | Total SKS | Persentase Portofolio |
 |---|:---:|:---:|:---:|
-| MK K2026 dapat direkognisi dari K2025 | 49 MK | 129 SKS | 70,9% |
-| MK K2026 **baru** — wajib ditempuh (tidak dapat direkognisi) | 18 MK | 53 SKS | 29,1% |
+| MK K2026 dapat direkognisi dari K2025 | 48 MK | 126 SKS | 69,2% |
+| MK K2026 **baru** — wajib ditempuh (tidak dapat direkognisi) | 19 MK | 56 SKS | 30,8% |
 | **TOTAL PORTOFOLIO KURIKULUM 2026** | **67 MK** | **182 SKS** | **100,0%** |
 
-Dari 49 MK yang dapat direkognisi, **43 MK** memiliki satu MK asal tunggal dan **6 MK** memiliki dua MK asal (4 klaster peleburan E3 ditambah 2 kasus klaim ganda).
+Dari 48 MK yang dapat direkognisi, **42 MK** memiliki satu MK asal tunggal dan **6 MK** memiliki dua MK asal (4 klaster peleburan E3 ditambah 2 kasus klaim ganda).
 
 ### 3A.2 MATRIKS REKOGNISI PAKET WAJIB PER SEMESTER (49 MK / 128 SKS)
 
@@ -389,10 +389,10 @@ Terdapat **4 kode mata kuliah** yang dipakai untuk MK berbeda pada K2025 dan K20
 
 | Peminatan | MK Elektif Baru (Tanpa Padanan K2025) | Jml | MK Elektif dengan Padanan K2025 |
 |---|---|:---:|---|
-| **P1: Integrated Smart Systems** | `STA-602` Intelligent Agent Systems, `STA-701` MLOps and AI Pipeline, `STA-702` Conversational AI & Intelligent Assistant, `STA-703` Smart Surveillance & IoT Analytics | 4 | `STA-501` ← `STI-633` SPK; `STA-601` ← `STI-317` Metode Komputasi (E2) |
+| **P1: Integrated Smart Systems** | `STA-601` Rekayasa Big Data & Terdistribusi, `STA-602` Intelligent Agent Systems, `STA-701` MLOps and AI Pipeline, `STA-702` Conversational AI & Intelligent Assistant, `STA-703` Smart Surveillance & IoT Analytics | 5 | `STA-501` ← `STI-633` SPK |
 | **P2: Cloud Infrastructure & Cybersecurity** | `STB-601` Cloud Architecture & DevOps, `STB-602` Cybersecurity Risk Management, `STB-702` IT Service Management ITIL 4, `STB-703` Enterprise Architecture TOGAF | 4 | `STB-501` ← `STI-529` Keamanan Jaringan; `STB-701` ← `STI-743` Audit & Tata Kelola SI |
 | **P3: Digital Platform Engineering** | `STC-501` UX Research & Design, `STC-601` Rekayasa & Otomasi Proses Bisnis, `STC-602` Rekayasa Aplikasi Industri Vertikal, `STC-702` SaaS Architecture & Multi-Tenancy, `STC-703` Digital Product Management & Agile | 5 | `STC-701` ← `STI-316` + `STI-531` (klaster G-4) |
-| **TOTAL** | — | **13** | **5 MK elektif memiliki padanan** |
+| **TOTAL** | — | **14** | **4 MK elektif memiliki padanan** |
 
 ### 6.3 EKIVALENSI MK PEMINATAN MENURUT SEMESTER DEFINITIF (SEM 5–6–7)
 
@@ -401,13 +401,13 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 | Smt | P1 — Integrated Smart Systems | Asal K2025 | P2 — Cloud Infra & Cybersecurity | Asal K2025 | P3 — Digital Platform Engineering | Asal K2025 |
 |:---:|---|---|---|---|---|---|
 | **5** | `STA-501` Decision Support Systems | `STI-633` SPK (**E1**) | `STB-501` Network Security & Digital Forensics | `STI-529` Keamanan Jaringan (**E1**) | `STC-501` UX Research & Design | — (**B**) |
-| **6** | `STA-601` Computational Methods & Numerics | `STI-317` Metode Komputasi (**E2**) | `STB-601` Cloud Architecture & DevOps | — (**B**) | `STC-601` Rekayasa & Otomasi Proses Bisnis | — (**B**) |
+| **6** | `STA-601` Rekayasa Big Data & Terdistribusi | — (**B**, baru) | `STB-601` Cloud Architecture & DevOps | — (**B**) | `STC-601` Rekayasa & Otomasi Proses Bisnis | — (**B**) |
 | **6** | `STA-602` Intelligent Agent Systems | — (**B**) | `STB-602` Cybersecurity Risk Management | — (**B**) | `STC-602` Rekayasa Aplikasi Industri Vertikal | — (**B**) |
 | **7** | `STA-701` MLOps and AI Pipeline | — (**B**) | `STB-701` IT Governance & Compliance COBIT 2019 | `STI-743` Audit & Tata Kelola SI (**E1**) | `STC-701` Immersive Media & XR Development | `STI-316` + `STI-531` (**E3**/G-4) |
 | **7** | `STA-702` Conversational AI & Assistant | — (**B**) | `STB-702` IT Service Management ITIL 4 | — (**B**) | `STC-702` SaaS Architecture & Multi-Tenancy | — (**B**) |
 | **7** | `STA-703` Smart Surveillance & IoT Analytics | — (**B**) | `STB-703` Enterprise Architecture TOGAF | — (**B**) | `STC-703` Digital Product Management & Agile | — (**B**) |
-| **SKS diakui** | **6 SKS** (1 E1 + 1 E2) | — | **6 SKS** (2 E1) | — | **3 SKS** (1 E3) | — |
-| **SKS defisit** | **12 SKS** (4 MK baru) | — | **12 SKS** (4 MK baru) | — | **15 SKS** (5 MK baru) | — |
+| **SKS diakui** | **3 SKS** (1 E1) | — | **6 SKS** (2 E1) | — | **3 SKS** (1 E3) | — |
+| **SKS defisit** | **15 SKS** (5 MK baru) | — | **12 SKS** (4 MK baru) | — | **15 SKS** (5 MK baru) | — |
 
 > [!IMPORTANT]
 > **Konsekuensi bagi mahasiswa transisi:** pengakuan MK elektif **bergantung pada peminatan yang dipilih**. MK K2025 yang berpadanan ke elektif di luar peminatan terpilih otomatis menjadi kredit bebas. Contoh: mahasiswa yang telah lulus `STI-633` SPK namun memilih Peminatan P2 tidak dapat mengklaim `STA-501`; 3 SKS tersebut dicatat sebagai kredit bebas.
@@ -425,24 +425,24 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 | MKWU (8 MK) | 13 | **13** | 0 | — |
 | MK Wajib FSTI (13 MK) | 36 | **31** | 5 | `FST-204` (2), `FST-610` (3) |
 | MK Inti Core STI (28 MK) | 79 | **70** | 9 | `STI-103` (3), `STI-312` (3), `STI-519` (3) |
-| MK Elektif Peminatan P1 (6 MK) | 18 | **6** | 12 | `STA-602`, `STA-701`, `STA-702`, `STA-703` |
+| MK Elektif Peminatan P1 (6 MK) | 18 | **3** | 15 | `STA-601`, `STA-602`, `STA-701`, `STA-702`, `STA-703` |
 | MK Elektif Peminatan P2 (6 MK) | 18 | **6** | 12 | `STB-601`, `STB-602`, `STB-702`, `STB-703` |
 | MK Elektif Peminatan P3 (6 MK) | 18 | **3** | 15 | `STC-501`, `STC-601`, `STC-602`, `STC-702`, `STC-703` |
-| **TOTAL (jalur P1 atau P2)** | **146** | **120** | **26** | Setara **1 semester penuh** |
-| **TOTAL (jalur P3)** | **146** | **117** | **29** | Setara **1 semester penuh (21 SKS) + 8 SKS** |
+| **TOTAL (jalur P2)** | **146** | **120** | **26** | Setara **1 semester penuh** |
+| **TOTAL (jalur P1 atau P3)** | **146** | **117** | **29** | Setara **1 semester penuh (21 SKS) + 8 SKS** |
 
 > [!NOTE]
-> **Rincian status pengakuan (jalur P1/P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-626`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. Pada jalur P1 terdapat tambahan 3 SKS bersyarat (`STA-601`), sedangkan `FST-101` (2 SKS) bersyarat melalui skema E4.
+> **Rincian status pengakuan (jalur P2):** Dari 114 SKS MK wajib yang diakui, **24 SKS berstatus bersyarat (E2)** dan mensyaratkan uji penyetaraan, yaitu `FST-203`, `STI-311`, `STI-417`, `STI-626`, `STI-523`, `STI-624`, `STI-627`, dan `STI-728`. `STA-601` baru wajib ditempuh seluruh jalur P1; `FST-101` (2 SKS) bersyarat melalui skema E4.
 
 ### 7.1.1 NERACA SKS KURIKULUM 2025 SETELAH KONVERSI (146 SKS)
 
 | Komponen Neraca | Jalur P1 | Jalur P2 | Jalur P3 | Uraian |
 |---|:---:|:---:|:---:|---|
-| SKS lama terpakai untuk konversi | 125 SKS | 126 SKS | 124 SKS | Total SKS MK K2025 yang berhasil diklaim ke MK K2026 |
-| SKS lama menjadi **kredit bebas** | 21 SKS | 20 SKS | 22 SKS | MK K2025 tanpa klaim: E5 (6 SKS) + klaim ganda (5 SKS) + MK elektif di luar peminatan terpilih (9–11 SKS) |
+| SKS lama terpakai untuk konversi | 123 SKS | 126 SKS | 124 SKS | Total SKS MK K2025 yang berhasil diklaim ke MK K2026 |
+| SKS lama menjadi **kredit bebas** | 23 SKS | 20 SKS | 22 SKS | MK K2025 tanpa klaim: E5 (8 SKS) + klaim ganda (5 SKS) + MK elektif di luar peminatan terpilih (9–11 SKS) |
 | **TOTAL SKS KURIKULUM 2025** | **146** | **146** | **146** | Seluruh SKS lama terserap (Zero Orphan) |
-| SKS K2026 diakui dari konversi | 120 SKS | 120 SKS | 117 SKS | Penyusutan 4–7 SKS akibat rasionalisasi SKS dan peleburan MK |
-| SKS K2026 wajib ditempuh (defisit) | 26 SKS | 26 SKS | 29 SKS | Lihat tabel 7.1 |
+| SKS K2026 diakui dari konversi | 117 SKS | 120 SKS | 117 SKS | Penyusutan 4–7 SKS akibat rasionalisasi SKS dan peleburan MK |
+| SKS K2026 wajib ditempuh (defisit) | 29 SKS | 26 SKS | 29 SKS | Lihat tabel 7.1 |
 | **TOTAL PAKET KURIKULUM 2026** | **146** | **146** | **146** | Ambang lulus minimum nasional 144 SKS terpenuhi |
 
 ### 7.2 SKENARIO B — MAHASISWA AKTIF PER TAHAP STUDI
@@ -510,7 +510,7 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 | `STI-315` | 2 | `FST-206` | 2 | E1 | C | Tidak |
 | `STI-316` | 2 | `STC-701` | 3 | E3/G-4 | C | Bersyarat |
 | `STI-531` | 2 | `STC-701` | 3 | E3/G-4 | C | Bersyarat |
-| `STI-317` | 2 | `STA-601` | 3 | E2 | C | **Ya** |
+| `STI-317` | 2 | — | — | E5 | — | Kredit Bebas |
 | `STI-418` | 2 | `STI-307` | 2 | E1 | C | Tidak |
 | `STI-419` | 3 | `STI-522` | 3 | E1 | C | Tidak |
 | `STI-420` | 2 | `STI-414` | 2 | E2 | C | **Ya** |
@@ -552,12 +552,11 @@ Format satu baris per pasangan konversi, siap diimpor ke tabel `mk_ekivalensi` S
 > Konsekuensi: setiap mahasiswa kehilangan **5 SKS** dari 146 SKS lamanya akibat klaim ganda (2 SKS dari `STI-420` + 3 SKS dari `STI-422`), yang tercatat sebagai kredit bebas pada transkrip.
 
 > [!WARNING]
-> **Enam baris konversi bermuara ke MK elektif peminatan** (`STA-501`, `STA-601`, `STB-501`, `STB-701`, `STC-701`), sehingga **tidak dapat dikonversi otomatis** oleh SIAKAD. Baris-baris ini wajib diberi flag `butuh_peminatan = TRUE` dan hanya dieksekusi setelah mahasiswa menetapkan pilihan peminatan pada Semester 5.
+> **Lima baris konversi bermuara ke MK elektif peminatan** (`STA-501`, `STB-501`, `STB-701`, `STC-701`), sehingga **tidak dapat dikonversi otomatis** oleh SIAKAD. Baris-baris ini wajib diberi flag `butuh_peminatan = TRUE` dan hanya dieksekusi setelah mahasiswa menetapkan pilihan peminatan pada Semester 5.
 
 | Kode Lama | SKS Lama | Kode Baru | SKS Baru | Smt Baru | Peminatan | Kat | Syarat Eksekusi |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|---|
 | `STI-633` | 3 | `STA-501` | 3 | 5 | **P1** | E1 | Hanya bila mahasiswa memilih P1 |
-| `STI-317` | 2 | `STA-601` | 3 | 6 | **P1** | E2 | Hanya bila memilih P1 + uji penyetaraan |
 | `STI-529` | 3 | `STB-501` | 3 | 5 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
 | `STI-743` | 3 | `STB-701` | 3 | 7 | **P2** | E1 | Hanya bila mahasiswa memilih P2 |
 | `STI-316` | 2 | `STC-701` | 3 | 7 | **P3** | E3/G-4 | Hanya bila memilih P3 (klaster G-4) |
@@ -581,12 +580,12 @@ Verifikasi dijalankan secara terprogram oleh `_tools/verify_k2025_ground_truth.p
 | 8 | Seluruh 56 MK K2025 terpetakan (Zero Orphan) | Bagian 8 vs PDF | ✅ **0 MK terlantar** |
 | 9 | Tidak ada kode K2025 fiktif | Bagian 8 vs PDF | ✅ **0 kode fiktif** |
 | 10 | SKS lama tiap baris konversi = PDF | Bagian 8 vs PDF | ✅ **0 ketidakcocokan** |
-| 11 | Neraca kategori E1–E5 = 34/11/8/1/2 MK = 146 SKS | Bagian 8 vs Bagian 1 & 3.9 | ✅ Konsisten |
-| 12 | Seluruh 49 kode target K2026 valid | Bagian 8 vs Dok 005 & 007 | ✅ **0 kode target fiktif** |
-| 13 | Simulasi pengakuan SKS: P1 = P2 = 120, P3 = 117 | Rekalkulasi dari Bagian 8 | ✅ Cocok dengan Bagian 7.1 |
+| 11 | Neraca kategori E1–E5 = 34/10/8/1/3 MK = 146 SKS | Bagian 8 vs Bagian 1 & 3.9 | ✅ Konsisten |
+| 12 | Seluruh 48 kode target K2026 valid | Bagian 8 vs Dok 005 & 007 | ✅ **0 kode target fiktif** |
+| 13 | Simulasi pengakuan SKS: P2 = 120, P1/P3 = 117 | Rekalkulasi dari Bagian 8 | ✅ Cocok dengan Bagian 7.1 |
 | 14 | Semester MK elektif = semester definitif Dok 005 | Bagian 3 & 6.3 vs Dok 005 §4 | ✅ **0 tidak presisi** |
 | 15 | Neraca rekognisi arah balik = 114 diakui / 14 defisit SKS | Bagian 3A.3 vs Dok 005 & Bagian 8 | ✅ Cocok, 8/8 semester |
-| 16 | Portofolio 67 MK: 49 dapat direkognisi, 18 baru | Bagian 3A.1 vs Dok 005 & 007 | ✅ **67 = 49 + 18** |
+| 16 | Portofolio 67 MK: 48 dapat direkognisi, 19 baru | Bagian 3A.1 vs Dok 005 & 007 | ✅ **67 = 48 + 19** |
 | 17 | Aturan klaim ganda tuntas (tidak ambigu) | Bagian 8 vs kaidah berjenjang | ✅ 2/2 kasus terselesaikan |
 
 ### 9.1 CATATAN KOLISI KODE PADA AUDIT OTOMATIS
@@ -608,9 +607,9 @@ Matriks ini menyediakan dua perspektif atas satu himpunan pemetaan yang sama. Ke
 
 | Perspektif | Bagian | Titik Tolak | Neraca |
 |---|:---:|---|---|
-| **Maju** (K2025 → K2026) | Bagian 3 & 8 | 56 MK / 146 SKS Kurikulum 2025 | Seluruh 56 MK terpetakan: 34 E1 + 11 E2 + 8 E3 + 1 E4 + 2 E5 |
-| **Balik** (K2026 ← K2025) | Bagian 3A | 67 MK / 182 SKS portofolio Kurikulum 2026 | 49 MK dapat direkognisi + 18 MK baru wajib ditempuh |
-| **Titik temu** | Bagian 7 | Paket 146 SKS Kurikulum 2026 | 120 SKS diakui (P1/P2) atau 117 SKS (P3); defisit 26 atau 29 SKS |
+| **Maju** (K2025 → K2026) | Bagian 3 & 8 | 56 MK / 146 SKS Kurikulum 2025 | Seluruh 56 MK terpetakan: 34 E1 + 10 E2 + 8 E3 + 1 E4 + 3 E5 |
+| **Balik** (K2026 ← K2025) | Bagian 3A | 67 MK / 182 SKS portofolio Kurikulum 2026 | 48 MK dapat direkognisi + 19 MK baru wajib ditempuh |
+| **Titik temu** | Bagian 7 | Paket 146 SKS Kurikulum 2026 | 120 SKS diakui (P2) atau 117 SKS (P1/P3); defisit 26 atau 29 SKS |
 
 Ketiga baris di atas telah diverifikasi saling konsisten secara terprogram (butir 11, 13, 15, dan 16 pada tabel 9). Perbedaan angka antar perspektif bukan inkonsistensi, melainkan konsekuensi dari tiga mekanisme yang sudah terdokumentasi: rasionalisasi SKS (Kalkulus 4→3, Aljabar Linear 4→3, Smart City 3→2), peleburan empat klaster E3 (−7 SKS), dan aturan klaim ganda (−5 SKS).
 
