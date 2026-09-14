@@ -36,7 +36,7 @@ graph TD
         S5_DL --> S6_AI_Int["Sem 6: Integrasi Layanan Cerdas AI (+P)"]
         S4_NLP --> S6_AI_Int
         S3_AI --> S6_STA03["Sem 6 (P1): Sistem Agen Cerdas (+P)"]
-        S2_Math --> S6_STA02["Sem 6 (P1): Komputasi Numerik (+P)"]
+        S4_DW --> S6_STA02["Sem 6 (P1): Big Data Engineering (+P)"]
         S5_DL --> S7_STA04["Sem 7 (P1): MLOps & AI Pipeline (+P)"]
         S4_NLP --> S7_STA05["Sem 7 (P1): Conversational AI & LLM (+P)"]
         S5_DL --> S7_STA06["Sem 7 (P1): Smart Surveillance & Edge AI (+P)"]
@@ -111,7 +111,7 @@ graph TD
          │                                                     │
 [SEM 6]  ├── STI-624 Integrasi Layanan Cerdas AI (+P) ─────────┤
          ├── STA-602 Sistem Agen Cerdas & Multi-Agent (+P) ─────┤
-         ├── STA-601 Metode Komputasi Numerik Terapan (+P) ─────┤
+         ├── STA-601 Big Data Engineering & Terdistribusi (+P) ─┤
          │                                                     │
 [SEM 6]  ├── STI-626 Deep Learning & Neural Networks (+P) ─────┴── STI-413 Machine Learning (+P) [SEM 4]
          │                                                           │
@@ -249,7 +249,7 @@ Tabel berikut membuktikan bahwa **100% mata kuliah pilihan dan wajib di Semester
 | **6** | `STI-626` | Deep Learning & Neural Networks | 3 | +P | `STI-413` Machine Learning | `STI-205` Aljabar Linear, `FST-408` Probstat | 🟢 **Sangat Kuat** |
 | **6** | `STI-627` | Digital Platform Engineering | 3 | +P | `STI-416` Web Back End | `STI-417` Cloud, `STI-309` RPL | 🟢 **Sangat Kuat** |
 | **6** | `FST-611` | Metodologi Penelitian | 2 | Teori | $\ge 76\text{ SKS}$ Selesai | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
-| **6** | `STA-601` | Computational Numerics *(P1)* | 3 | +P | `STI-205` Aljabar, `STI-102` Kalkulus | `FST-408` Probabilitas & Statistika | 🟢 **Sangat Kuat** |
+| **6** | `STA-601` | Big Data Engineering *(P1)* | 3 | +P | `FST-207` Basis Data, `STI-415` DW/BI | `STI-520` Data Mining | 🟢 **Sangat Kuat** |
 | **6** | `STA-602` | Intelligent Agent Systems *(P1)* | 3 | +P | `STI-307` AI, `STI-413` ML | `STI-204` Matdis (Graph & Logic) | 🟢 **Sangat Kuat** |
 | **6** | `STB-601` | Cloud Architecture & DevOps *(P2)* | 3 | +P | `STI-417` Cloud Computing | `STI-310` OS, `STI-416` Web Back End | 🟢 **Sangat Kuat** |
 | **6** | `STB-602` | Penetration Testing *(P2)* | 3 | +P | `STI-418` Dasar Keamanan | `STI-312` Jarkom, `STB-501` NetSec | 🟢 **Sangat Kuat** |

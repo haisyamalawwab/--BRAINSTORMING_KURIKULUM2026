@@ -154,8 +154,8 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 **Boundary Guardrails:**
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Fungsi, limit kontinu, turunan diferensial simbolik analitis, integral tentu/tak tentu, deret Taylor/Maclaurin, optimasi gradien analitik.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang koding numerik Python/MATLAB, perhitungan galat aproksimasi komputasi numerik, penerapan matriks vektor multidimensi.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai kalkulus analitis murni; menyerahkan aproksimasi algoritma numerik ke `STA-601` dan matematika diskrit ke `STI-204`.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang komputasi klaster terdistribusi Spark/Kafka, perhitungan galat aproksimasi numerik klasik, penerapan matriks vektor multidimensi.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai kalkulus analitis murni; menyerahkan komputasi terdistribusi skala besar ke `STA-601` dan matematika diskrit ke `STI-204`.
 
 ---
 
@@ -1210,8 +1210,8 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 **Boundary Guardrails:**
 
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Eksplorasi Data Lanjut (EDA), Association Rule Mining (Apriori, FP-Growth), Advanced Clustering (DBSCAN), Anomaly Detection, Prinsip Visualisasi Informasi Kognitif, Storytelling with Data.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang arsitektur cluster Big Data Hadoop/Spark, training neural networks computer vision, deployment pipeline data streaming.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai penemuan wawasan data; menyerahkan sistem pendukung keputusan eksekutif ke `STA-501`.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang arsitektur cluster Big Data terdistribusi (itu ranah `STA-601`); deployment streaming event-driven platform skala enterprise (itu ranah `STA-601` + `STA-701`); training neural networks computer vision.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai analisis data tabular lokal; menyerahkan pemrosesan data skala besar dan pipeline terdistribusi ke `STA-601` (Big Data Engineering); menyerahkan sistem pendukung keputusan eksekutif ke `STA-501`.
 
 ---
 
@@ -1870,39 +1870,39 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 #### Tabel Rekapitulasi Peminatan Semester 6
 | Kode MK | Jalur | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Spesialisasi (In-Scope) |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
-| `STA-601` | P1 | Computational Methods and Numerics | 3 | `STI-102`, `STI-205` Aljabar Linear | `P1` , `KK1` | `BK-IS10` *Applied Mathematics and Logic* | Aproksimasi numerik, analisis galat komputasi, akar persamaa... |
+| `STA-601` | P1 | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | `FST-207`, `STI-415` Data Warehouse & BI | `P2` , `KK2` | `BK-IS02` *Data and Information Management* | Arsitektur terdistribusi, PySpark, lakehouse, Kafka stream... |
 | `STA-602` | P1 | Intelligent Agent Systems | 3 | `STI-307` Sistem Cerdas | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur Agen Cerdas, Agen Otonom (BDI - Belief-Desire-Int... |
 | `STB-601` | P2 | Cloud Architecture & DevOps | 3 | `STI-417` Komputasi Awan | `P3` , `P4` , `KK3` | `BK-IS19` *Cloud Architecture* | Arsitektur Cloud Tingkat Lanjut, Infrastructure as Code (Ter... |
 | `STB-602` | P2 | Cybersecurity Risk Management | 3 | `STI-418` Dasar Keamanan Informasi | `P3` , `KK4` | `BK-IS06` *Information Security* | Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penil... |
 | `STC-601` | P3 | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | `STI-306` Analisis & Perancangan SI | `P2` , `P4` , `KK5` | `BK-IS09` *Business Process Management* | Rekayasa Proses Bisnis Enterprise, Simulasi Alur Kerja Bisni... |
 | `STC-602` | P3 | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | `STI-416` Web Back End Development | `P4` , `KK5` | `BK-IS12` *Web & Mobile* | Arsitektur Sistem Industri Vertikal, Layanan FinTech (Sistem... |
 
-#### STA-601 — Computational Methods and Numerics (Peminatan 1: Integrated Smart Systems)
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-102`, `STI-205` Aljabar Linear
-* **CPL yang Dibebankan:** `P1` (Analisis Galat & Metode Numerik), `KK1` (Algoritma Optimasi Komputasi AI)
-* **Body of Knowledge (BoK):** `BK-IS10` *Applied Mathematics and Logic*, `BK-IT01` *IT Fundamentals*
+#### STA-601 — Rekayasa Big Data dan Komputasi Terdistribusi (Peminatan 1: Integrated Smart Systems)
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `FST-207`, `STI-415` Data Warehouse & BI
+* **CPL yang Dibebankan:** `P2` (Arsitektur Data & Sistem Informasi Cerdas), `KK2` (Rekayasa Data, ETL/ELT Terdistribusi & MLOps)
+* **Body of Knowledge (BoK):** `BK-IS02` *Data and Information Management*, `BK-IS18` *Machine Learning and Data Science* (sekunder: Spark MLlib)
 
 **Formulasi CPMK (Format ABCD & Level Bloom):**
 
 | Kode | Rumusan CPMK | Bloom | CPL |
 |:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **menganalisis** galat pemotongan (*Truncation Error*) dan pembulatan (*Round-off Error*) (*B*) pada representasi floating-point komputasi (*C*) secara matematis (*D*). | **C4** | `P1` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **mengimplementasikan** metode numerik untuk akar persamaan non-linier (Newton-Raphson, Secant) dan interpolasi Spline (*B*) menggunakan Python (*C*) dengan konvergensi cepat (*D*). | **C3** | `P1` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **menerapkan** algoritma integrasi numerik (Romberg, Gauss-Legendre) dan solusi Persamaan Diferensial Biasa (Runge-Kutta RK4) (*B*) pada simulasi sistem fisis (*C*) secara akurat (*D*). | **C4** | `P1, KK1` |
-| `CPMK-4` | Mahasiswa (*A*) mampu **merancang** algoritma optimasi numerik tak-terkendala dan Stochastic Gradient Descent (*B*) untuk pencarian minimum fungsi loss model AI (*C*) secara optimal (*D*). | **C6** | `KK1` |
+| `CPMK-1` | Mahasiswa (*A*) mampu **menganalisis** arsitektur komputasi terdistribusi Master-Worker, HDFS dan object storage S3/MinIO (*B*) pada klaster data skala besar (*C*) secara tepat dan fault-tolerant (*D*). | **C4** | `P2` |
+| `CPMK-2` | Mahasiswa (*A*) mampu **mengimplementasikan** pemrosesan data terdistribusi menggunakan Apache Spark & PySpark DataFrame API (*B*) pada dataset masif batch (*C*) dengan throughput optimal (*D*). | **C3** | `KK2` |
+| `CPMK-3` | Mahasiswa (*A*) mampu **menerapkan** arsitektur Data Lakehouse (Delta Lake/Parquet) dan ingesti streaming Apache Kafka (*B*) pada pipeline real-time (*C*) secara andal dan tepat waktu (*D*). | **C4** | `P2, KK2` |
+| `CPMK-4` | Mahasiswa (*A*) mampu **merancang** pipeline analitik terdistribusi end-to-end dengan Spark SQL dan Spark MLlib (*B*) untuk memasok model AI produksi (*C*) secara terdokumentasi dan reproducible (*D*). | **C6** | `KK2` |
 
 **Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
 
 | Kode | Kompetensi Spesifik | CPMK | Bloom |
 |---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Menganalisis representasi floating-point IEEE 754 dan sumber galat numerik. | CPMK-1 | **C4** |
-| **Sub-CPMK-1.2** | Mengevaluasi kestabilan dan konvergensi perhitungan numerik. | CPMK-1 | **C4** |
-| **Sub-CPMK-2.1** | Mengimplementasikan metode pencarian akar non-linier Newton-Raphson dan Secant. | CPMK-2 | **C3** |
-| **Sub-CPMK-2.2** | Menerapkan interpolasi Spline dan solusi numerik SPL. | CPMK-2 | **C3** |
-| **Sub-CPMK-3.1** | Mengimplementasikan integrasi numerik Romberg/Gauss-Legendre. | CPMK-3 | **C4** |
-| **Sub-CPMK-3.2** | Menerapkan metode numerik PDB (RK4) untuk masalah komputasi. | CPMK-3 | **C4** |
-| **Sub-CPMK-4.1** | Menerapkan optimasi SGD/Gradient Descent pada masalah komputasi numerik. | CPMK-4 | **C6** |
-| **Sub-CPMK-4.2** | Membangun solusi komputasi numerik end-to-end dengan Python/NumPy. | CPMK-4 | **C6** |
+| **Sub-CPMK-1.1** | Menganalisis arsitektur Master-Worker, HDFS dan object storage S3/MinIO. | CPMK-1 | **C4** |
+| **Sub-CPMK-1.2** | Mengevaluasi partisi, replikasi dan fault tolerance klaster terdistribusi. | CPMK-1 | **C4** |
+| **Sub-CPMK-2.1** | Mengimplementasikan PySpark DataFrame API dan Catalyst Optimizer. | CPMK-2 | **C3** |
+| **Sub-CPMK-2.2** | Menerapkan NoSQL document & wide-column stores untuk data semi-terstruktur. | CPMK-2 | **C3** |
+| **Sub-CPMK-3.1** | Menerapkan Data Lakehouse Delta Lake/Parquet dan transaksi ACID. | CPMK-3 | **C4** |
+| **Sub-CPMK-3.2** | Menerapkan ingesti streaming Apache Kafka dan Spark Structured Streaming. | CPMK-3 | **C4** |
+| **Sub-CPMK-4.1** | Menjalankan analitik Spark SQL masif dan ML terdistribusi Spark MLlib. | CPMK-4 | **C6** |
+| **Sub-CPMK-4.2** | Membangun pipeline Big Data end-to-end batch+streaming untuk suplai model AI. | CPMK-4 | **C6** |
 
 
 **Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
@@ -1910,15 +1910,15 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 | Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
 |:---:|:---:|---|---|---|:---:|:---:|
 | 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
-| 2 | Sub-1.1 | Menganalisis representasi floating-point IEEE 754 dan sumber galat numerik | Mahasiswa (*A*) mampu menganalisis representasi floating-point IEEE 754 dan sumber galat numerik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 3 | Sub-1.2 | Mengevaluasi kestabilan dan konvergensi perhitungan numerik | Mahasiswa (*A*) mampu mengevaluasi kestabilan dan konvergensi perhitungan numerik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 4 | Sub-2.1 | Mengimplementasikan metode pencarian akar non-linier Newton-Raphson dan Secant | Mahasiswa (*A*) mampu mengimplementasikan metode pencarian akar non-linier Newton-Raphson dan Secant (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Menerapkan interpolasi Spline dan solusi numerik SPL | Mahasiswa (*A*) mampu menerapkan interpolasi Spline dan solusi numerik SPL (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
-| 6 | Sub-3.1 | Mengimplementasikan integrasi numerik Romberg/Gauss-Legendre | Mahasiswa (*A*) mampu mengimplementasikan integrasi numerik Romberg/Gauss-Legendre (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 7 | Sub-3.2 | Menerapkan metode numerik PDB (RK4) | Mahasiswa (*A*) mampu menerapkan metode numerik PDB (RK4) untuk masalah komputasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 2 | Sub-1.1 | Menganalisis arsitektur Master-Worker, HDFS dan S3/MinIO | Mahasiswa (*A*) mampu menganalisis arsitektur Master-Worker, HDFS dan S3/MinIO (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Mengevaluasi partisi, replikasi dan fault tolerance | Mahasiswa (*A*) mampu mengevaluasi partisi, replikasi dan fault tolerance (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengimplementasikan PySpark DataFrame API | Mahasiswa (*A*) mampu mengimplementasikan PySpark DataFrame API (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menerapkan NoSQL document & wide-column stores | Mahasiswa (*A*) mampu menerapkan NoSQL document & wide-column stores (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Menerapkan Data Lakehouse Delta Lake/Parquet | Mahasiswa (*A*) mampu menerapkan Data Lakehouse Delta Lake/Parquet (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Menerapkan streaming Kafka dan Spark Structured Streaming | Mahasiswa (*A*) mampu menerapkan streaming Kafka dan Spark Structured Streaming (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
 | 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
-| 9 | Sub-4.1 | Menerapkan optimasi SGD/Gradient Descent | Mahasiswa (*A*) mampu menerapkan optimasi SGD/Gradient Descent pada masalah komputasi numerik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 10 | Sub-4.2 | Membangun solusi komputasi numerik end-to-end | Mahasiswa (*A*) mampu membangun solusi komputasi numerik end-to-end dengan Python/NumPy (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 9 | Sub-4.1 | Menjalankan Spark SQL dan Spark MLlib | Mahasiswa (*A*) mampu menjalankan Spark SQL dan Spark MLlib (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 10 | Sub-4.2 | Membangun pipeline Big Data end-to-end | Mahasiswa (*A*) mampu membangun pipeline Big Data end-to-end (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
 | 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
 | 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
 | 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
@@ -1928,9 +1928,9 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 
 **Boundary Guardrails:**
 
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Aproksimasi numerik, analisis galat komputasi, akar persamaan non-linier (Newton-Raphson), interpolasi (Lagrange, Spline), integrasi & diferensiasi numerik (Runge-Kutta), optimasi konveks.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang pembuktian teorema kalkulus analitis murni, koding aplikasi web bisnis, training model deep learning.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai fondasi komputasi saintifik numerik; menyerahkan model visi dan analitik IoT ke `STA-703`.
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur terdistribusi Master-Worker, HDFS/S3/MinIO, PySpark DataFrame API, NoSQL document & wide-column, Data Lakehouse Delta Lake/Parquet, Kafka + Structured Streaming, Spark SQL & Spark MLlib, orkestrasi pipeline terdistribusi.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang metode numerik klasik (Bisection, Newton-Raphson, Spline, Romberg, RK4); dilarang training CNN/RNN deep learning penuh (itu ranah `STI-626`); dilarang dashboard BI relasional semata (itu ranah `STI-415`).
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai pipeline data masif batch+streaming; menyerahkan deployment model produksi ke `STA-701` MLOps and AI Pipeline.
 
 ---
 

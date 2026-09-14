@@ -97,7 +97,7 @@ Kelompok Peminatan berjumlah **18 Mata Kuliah (54 SKS Portofolio Ditawarkan)**, 
 | Semester | Jalur P1: Integrated Smart Systems (STA) | Jalur P2: Cloud Infra & Cybersecurity (STB) | Jalur P3: Digital Platform Engineering (STC) | Beban SKS |
 |:---:|---|---|---|:---:|
 | **Semester 5**<br>*(Ambil 1 MK)* | `STA-501` Decision Support Systems | `STB-501` Network Security & Digital Forensics | `STC-501` User Experience Research & Design | 3 SKS |
-| **Semester 6**<br>*(Ambil 2 MK)* | `STA-601` Computational Methods & Numerics<br>`STA-602` Intelligent Agent Systems | `STB-601` Cloud Architecture & DevOps<br>`STB-602` Cybersecurity Risk Management | `STC-601` Rekayasa & Otomasi Proses Bisnis<br>`STC-602` Rekayasa Aplikasi Vertikal | 6 SKS |
+| **Semester 6**<br>*(Ambil 2 MK)* | `STA-601` Rekayasa Big Data dan Komputasi Terdistribusi<br>`STA-602` Intelligent Agent Systems | `STB-601` Cloud Architecture & DevOps<br>`STB-602` Cybersecurity Risk Management | `STC-601` Rekayasa & Otomasi Proses Bisnis<br>`STC-602` Rekayasa Aplikasi Vertikal | 6 SKS |
 | **Semester 7**<br>*(Ambil 3 MK)* | `STA-701` MLOps and AI Pipeline<br>`STA-702` Conversational AI & Assistant<br>`STA-703` Smart Surveillance & IoT Analytics | `STB-701` IT Governance (COBIT 2019)<br>`STB-702` IT Service Mgmt (ITIL 4)<br>`STB-703` Enterprise Architecture (TOGAF) | `STC-701` Immersive Media & XR Dev<br>`STC-702` SaaS Architecture & Multi-Tenancy<br>`STC-703` Digital Product Management | 9 SKS |
 | **TOTAL** | **6 MK / 18 SKS Ditawarkan** | **6 MK / 18 SKS Ditawarkan** | **6 MK / 18 SKS Ditawarkan** | **Paket: 18 SKS** |
 
@@ -138,7 +138,7 @@ Berikut adalah status audit kelengkapan 4 elemen (*CPL, CPMK ABCD, BoK APTIKOM, 
 | 27 | `STI-627` | Digital Platform Engineering | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 28 | `STI-728` | Inovasi Startup Digital | 3 | 7 | Lengkap | Lengkap (C4-C6) | `BK-IS15, BK-IT13` | Lengkap (3 Pagar) | **LULUS** |
 | 29 | `STA-501` | Decision Support Systems | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS01, BK-IS13` | Lengkap (3 Pagar) | **LULUS** |
-| 30 | `STA-601` | Computational Methods & Numerics | 3 | 6 | Lengkap | Lengkap (C3-C4) | `BK-IS10, BK-IT01` | Lengkap (3 Pagar) | **LULUS** |
+| 30 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | Lengkap | Lengkap (C3-C6) | `BK-IS02, BK-IS18` | Lengkap (3 Pagar) | **LULUS** |
 | 31 | `STA-602` | Intelligent Agent Systems | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
 | 32 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS18, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 33 | `STA-702` | Conversational AI & Assistant | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |

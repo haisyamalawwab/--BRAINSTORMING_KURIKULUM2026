@@ -2105,46 +2105,46 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 
 ---
 
-### 49. STA-601 — Computational Methods and Numerics (Computational Methods and Numerics)
+### 49. STA-601 — Rekayasa Big Data dan Komputasi Terdistribusi (*Big Data Engineering & Distributed Systems*)
 
 #### Tabel 49.A: Identitas & Pemetaan Makro Mata Kuliah
 | Atribut Kurikulum | Spesifikasi & Rujukan OBE |
 |---|---|
-| **Kode & Nama Mata Kuliah** | **STA-601 — Computational Methods and Numerics** (*Computational Methods and Numerics*) |
+| **Kode & Nama Mata Kuliah** | **STA-601 — Rekayasa Big Data dan Komputasi Terdistribusi** (*Big Data Engineering & Distributed Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
 | **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
-| **Prasyarat Akademik** | `STI-102` Kalkulus & `STI-205` Aljabar Linear |
-| **CPL yang Dibebankan** | `P1` (Analisis Galat & Metode Numerik), `KK1` (Algoritma Optimasi Komputasi AI) |
-| **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / ML Engineer) |
+| **Prasyarat Akademik** | `FST-207` Sistem Basis Data & `STI-415` Data Warehouse & BI |
+| **CPL yang Dibebankan** | `P2` (Arsitektur Data & Sistem Informasi Cerdas), `KK2` (Rekayasa Data, ETL/ELT Terdistribusi & MLOps) |
+| **Profil Lulusan (PL)** | `PL-1` (Intelligent IS Dev / Data-AI Engineer) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
 
 #### Tabel 49.B: Formulasi CPMK (Format ABCD & Level Bloom)
 | Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD Eksplisit) | Level Bloom | CPL Didukung |
 |---|---|:---:|:---:|
-| **CPMK-1** | Mahasiswa (*A*) mampu **menganalisis** galat pemotongan (*Truncation Error*) dan pembulatan (*Round-off Error*) (*B*) pada representasi floating-point komputasi (*C*) secara matematis (*D*). | **C4** | `P1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **mengimplementasikan** metode numerik untuk akar persamaan non-linier (Newton-Raphson, Secant) dan interpolasi Spline (*B*) menggunakan Python (*C*) dengan konvergensi cepat (*D*). | **C3** | `P1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menerapkan** algoritma integrasi numerik (Romberg, Gauss-Legendre) dan solusi Persamaan Diferensial Biasa (Runge-Kutta RK4) (*B*) pada simulasi sistem fisis (*C*) secara akurat (*D*). | **C4** | `P1, KK1` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **merancang** algoritma optimasi numerik tak-terkendala dan Stochastic Gradient Descent (*B*) untuk pencarian minimum fungsi loss model AI (*C*) secara optimal (*D*). | **C6** | `KK1` |
+| **CPMK-1** | Mahasiswa (*A*) mampu **menganalisis** arsitektur komputasi terdistribusi Master-Worker, HDFS dan object storage S3/MinIO (*B*) pada klaster data skala besar (*C*) secara tepat dan fault-tolerant (*D*). | **C4** | `P2` |
+| **CPMK-2** | Mahasiswa (*A*) mampu **mengimplementasikan** pemrosesan data terdistribusi menggunakan Apache Spark & PySpark DataFrame API (*B*) pada dataset masif batch (*C*) dengan throughput optimal (*D*). | **C3** | `KK2` |
+| **CPMK-3** | Mahasiswa (*A*) mampu **menerapkan** arsitektur Data Lakehouse (Delta Lake/Parquet) dan ingesti streaming Apache Kafka (*B*) pada pipeline real-time (*C*) secara andal dan tepat waktu (*D*). | **C4** | `P2, KK2` |
+| **CPMK-4** | Mahasiswa (*A*) mampu **merancang** pipeline analitik terdistribusi end-to-end dengan Spark SQL dan Spark MLlib (*B*) untuk memasok model AI produksi (*C*) secara terdokumentasi dan reproducible (*D*). | **C6** | `KK2` |
 
 #### Tabel 49.C: Matriks Rencana Pembelajaran 16 Pertemuan (Sub-CPMK, Materi, Metode, Asesmen)
 | Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan (Bahan Kajian) | Bentuk & Metode Pembelajaran | Bentuk Asesmen & Bobot (%) |
 |:--:|---|---|---|---|
-| 1 | Mampu menganalisis sumber galat pemotongan, pembulatan, dan propagasi (C4) | Pengantar Komputasi Numerik, Analisis Galat, Floating Point Arithmetic | Kuliah (100m) + Lab Setup (170m) | Praktikum Formatif (Non-Graded) |
-| 2 | Mampu menyelesaikan akar persamaan via Metode Bisection & Regula Falsi (C3) | Solusi Persamaan Non-Linier: Metode Pengurung (Bisection & False Position) | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
-| 3 | Mampu menerapkan Metode Newton-Raphson & Secant serta uji konvergensi (C3) | Metode Terbuka: Newton-Raphson, Secant, Analisis Konvergensi Kuadratik | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| **4** | **Mampu menyelesaikan SPL numerik via Iterasi Jacobi & Gauss-Seidel (C3)** | **Solusi SPL Numerik: Metode Iterasi Jacobi & Gauss-Seidel, Relaksasi** | **Problem-Solving Class (270m)** | **Tugas 1: Milestone Proyek 1 / Modul Lab (Bobot: 20%)** |
-| 5 | Mampu mengimplementasikan Interpolasi Polinom Lagrange & Newton (C3) | Interpolasi Polinomial: Polinom Lagrange & Newton Divided Difference | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
-| 6 | Mampu mengimplementasikan Interpolasi Natural Cubic Spline (C4) | Interpolasi Spline: Natural Cubic Spline & Penghalusan Kurva Data | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| 7 | Mampu menghitung turunan numerik beda maju, mundur, dan pusat orde tinggi (C3) | Diferensiasi Numerik: Finite Difference Approximations & Ekstrapolasi | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
-| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Koding Terjadwal Akar Non-Linier, Interpolasi Spline, & Iterasi SPL** | **Live Coding Lab Test (170m)** | **UTS: Evaluasi Proyek Awal 50% / Ujian Praktik (Bobot: 25%)** |
-| 9 | Mampu mengimplementasikan Integrasi Numerik Trapezoidal & Simpson 1/3, 3/8 (C3) | Integrasi Numerik: Kaidah Trapesium, Simpson 1/3, Simpson 3/8 | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
-| 10 | Mampu menerapkan Integrasi Romberg dan Kuadratur Gauss-Legendre (C4) | Integrasi Numerik Lanjut: Romberg Integration & Gauss Quadrature | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
-| 11 | Mampu menyelesaikan PDB orde satu menggunakan Metode Euler dan Heun (C3) | Persamaan Diferensial Biasa (PDB): Metode Euler & Metode Heun | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
-| **12** | **Mampu mengimplementasikan Metode Runge-Kutta Orde 4 (RK4) (C4)** | **Simulasi Dinamika Sistem: Algoritma Runge-Kutta 4th Order (RK4)** | **Case Method + Lab Coding (270m)** | **Tugas 2: Milestone Proyek 2 / Integrasi Sistem (Bobot: 25%)** |
-| 13 | Mampu menerapkan optimasi 1D: Golden Section Search & Newton 1D (C3) | Optimasi Numerik 1D: Pencarian Golden Section & Metode Newton Raphson 1D | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
-| 14 | Mampu menerapkan Gradient Descent & Stochastic Gradient Descent (SGD) (C4) | Multivariate Optimization: Gradient Descent, Momentum, SGD Algorithm | Case Method Workshop (270m) | Praktikum Formatif (Non-Graded) |
-| 15 | Mampu memodelkan simulasi komputasi numerik fisis via SciPy (C6) | PjBL Komputasi Numerik: Pemodelan Sistem Nyata & Visualisasi Konvergensi | PjBL Studio (270m) | Praktikum Formatif (Non-Graded) |
-| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Sidang Demonstrasi Program Komputasi Numerik Terpadu & Ujian Portofolio** | **Demo Day & Defense (170m)** | **UAS: Evaluasi Proyek Akhir / Demo Day & Portofolio (Bobot: 30%)** |
+| 1 | Mampu menjelaskan arsitektur Big Data & komputasi terdistribusi (C2) | Pengantar Big Data Engineering, Master-Worker, HDFS vs Object Storage | Kuliah (100m) + Lab Setup (170m) | Praktikum Formatif (Non-Graded) |
+| 2 | Mampu menganalisis HDFS & object storage S3/MinIO (C4) | Distributed File Systems: HDFS, S3/MinIO, Partisi & Replikasi | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
+| 3 | Mampu mengoperasikan NoSQL document & wide-column stores (C3) | NoSQL Lanjut: Document & Wide-Column Stores untuk Data Semi-Terstruktur | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| **4** | **Mampu mengimplementasikan PySpark DataFrame dasar (C3)** | **Apache Spark & PySpark: DataFrame API, Catalyst Optimizer** | **Problem-Solving Class (270m)** | **Tugas 1: Milestone Proyek 1 / Modul Lab (Bobot: 20%)** |
+| 5 | Mampu mengimplementasikan transformasi & aksi Spark lanjutan (C3) | Pemrosesan Terdistribusi: Transformasi, Aksi, Partisi & Caching | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
+| 6 | Mampu menerapkan format kolom Parquet & transaksi ACID (C4) | Modern Data Lakehouse: Delta Lake, Apache Iceberg, Parquet | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| 7 | Mampu menerapkan ingesti batch & orkestrasi pipeline (C3) | Ingesti & Orkestrasi Data Pipeline Terdistribusi Batch | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | **Ujian Praktik: Klaster Spark, PySpark Batch & Lakehouse** | **Live Coding Lab Test (170m)** | **UTS: Evaluasi Proyek Awal / Ujian Praktik (Bobot: 25%)** |
+| 9 | Mampu mengimplementasikan topik Kafka & partisi (C3) | Event Streaming: Apache Kafka, Topik, Partisi & Fault Tolerance | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
+| 10 | Mampu menerapkan Structured Streaming Spark-Kafka (C4) | Stream Processing: Spark Structured Streaming + Kafka | Case Method + Lab Coding (270m) | Praktikum Formatif (Non-Graded) |
+| 11 | Mampu menjalankan kueri analitik Spark SQL masif (C3) | Integrasi Analitik: Spark SQL Terdistribusi Skala Besar | Problem-Solving Class (270m) | Praktikum Formatif (Non-Graded) |
+| **12** | **Mampu menjalankan ML terdistribusi Spark MLlib (C4)** | **Machine Learning Terdistribusi: Spark MLlib di atas Cluster** | **Case Method + Lab Coding (270m)** | **Tugas 2: Milestone Proyek 2 / Integrasi Sistem (Bobot: 25%)** |
+| 13 | Mampu mengintegrasikan pipeline batch+stream ke fitur AI (C4) | Pipeline Terpadu: Batch + Streaming untuk Fitur Model AI | Kuliah + Lab Hands-on (270m) | Praktikum Formatif (Non-Graded) |
+| 14 | Mampu mengevaluasi latensi, throughput & toleransi gagal (C4) | Evaluasi Kinerja: Latensi, Throughput, Skalabilitas & Monitoring | Case Method Workshop (270m) | Praktikum Formatif (Non-Graded) |
+| 15 | Mampu membangun pipeline Big Data end-to-end (C6) | PjBL Big Data Studio: Pipeline Lakehouse + Streaming + MLlib | PjBL Studio (270m) | Praktikum Formatif (Non-Graded) |
+| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | **Sidang Demonstrasi Pipeline Big Data Terpadu & Portofolio** | **Demo Day & Defense (170m)** | **UAS: Evaluasi Proyek Akhir / Demo Day & Portofolio (Bobot: 30%)** |
 
 ---
 

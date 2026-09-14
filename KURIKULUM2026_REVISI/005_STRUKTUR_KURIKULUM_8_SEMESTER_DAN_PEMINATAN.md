@@ -144,7 +144,7 @@ Mata kuliah keahlian spesialisasi yang ditawarkan dalam 3 jalur peminatan (*Inte
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat | Jalur Peminatan |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
 | 1 | `STA-501` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` | P1: Integrated Smart Systems |
-| 2 | `STA-601` | Computational Methods and Numerics | 3 | +P | Sem 6 | `STI-102`, `STI-205` | P1: Integrated Smart Systems |
+| 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | Sem 6 | `FST-207`, `STI-415` | P1: Integrated Smart Systems |
 | 3 | `STA-602` | Intelligent Agent Systems | 3 | +P | Sem 6 | `STI-307` | P1: Integrated Smart Systems |
 | 4 | `STA-701` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` | P1: Integrated Smart Systems |
 | 5 | `STA-702` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` | P1: Integrated Smart Systems |
@@ -280,7 +280,7 @@ Mata kuliah keahlian spesialisasi yang ditawarkan dalam 3 jalur peminatan (*Inte
 
 > [!NOTE]
 > **Daftar Pilihan Mata Kuliah Peminatan 2 & 3 (Semester 6 — Ambil 2 MK / 6 SKS sesuai jalur):**
-> * **Peminatan 1 (Smart Systems):** `STA-601` Computational Methods and Numerics (+P, 3 SKS) & `STA-602` Intelligent Agent Systems (+P, 3 SKS)
+> * **Peminatan 1 (Smart Systems):** `STA-601` Rekayasa Big Data dan Komputasi Terdistribusi (+P, 3 SKS) & `STA-602` Intelligent Agent Systems (+P, 3 SKS)
 > * **Peminatan 2 (Cloud & Cyber):** `STB-601` Cloud Architecture & DevOps (+P, 3 SKS) & `STB-602` Cybersecurity Risk Management (Teori, 3 SKS)
 > * **Peminatan 3 (Platform Eng):** `STC-601` Rekayasa & Otomasi Proses Bisnis (+P, 3 SKS) & `STC-602` Rekayasa Aplikasi Industri Vertikal (+P, 3 SKS)
 
@@ -338,7 +338,7 @@ Mahasiswa memilih 1 paket peminatan penuh (ditempuh 1 MK di Sem 5, 2 MK di Sem 6
 
 | Peminatan | Basis Profil (PL) | Mata Kuliah Pilihan (@ 3 SKS) |
 |---|---|---|
-| **P1: Integrated Smart Systems** *(Flagship)* | **PL-1:** Intelligent IS & Data/AI Engineer | 1. `STA-501` Decision Support Systems (+P, Sem 5)<br>2. `STA-601` Computational Methods & Numerics (+P, Sem 6)<br>3. `STA-602` Intelligent Agent Systems (+P, Sem 6)<br>4. `STA-701` MLOps and AI Pipeline (+P, Sem 7)<br>5. `STA-702` Conversational AI & Assistant (+P, Sem 7)<br>6. `STA-703` Smart Surveillance & IoT Analytics (+P, Sem 7) |
+| **P1: Integrated Smart Systems** *(Flagship)* | **PL-1:** Intelligent IS & Data/AI Engineer | 1. `STA-501` Decision Support Systems (+P, Sem 5)<br>2. `STA-601` Rekayasa Big Data dan Komputasi Terdistribusi (+P, Sem 6)<br>3. `STA-602` Intelligent Agent Systems (+P, Sem 6)<br>4. `STA-701` MLOps and AI Pipeline (+P, Sem 7)<br>5. `STA-702` Conversational AI & Assistant (+P, Sem 7)<br>6. `STA-703` Smart Surveillance & IoT Analytics (+P, Sem 7) |
 | **P2: Cloud Infrastructure & Cybersecurity** *(Volume)* | **PL-2:** Cloud, Cyber & Smart Systems Integrator | 1. `STB-501` Network Security & Digital Forensics (+P, Sem 5)<br>2. `STB-601` Cloud Architecture & DevOps (+P, Sem 6)<br>3. `STB-602` Cybersecurity Risk Management (Teori, Sem 6)<br>4. `STB-701` IT Governance & Compliance COBIT 2019 (Teori, Sem 7)<br>5. `STB-702` IT Service Management ITIL 4 (Teori, Sem 7)<br>6. `STB-703` Enterprise Architecture TOGAF (Teori, Sem 7) |
 | **P3: Digital Platform Engineering** *(Niche & Techno)* | **PL-3:** UI/UX Designer & Platform Engineer | 1. `STC-501` UX Research & Design (+P, Sem 5)<br>2. `STC-601` Rekayasa & Otomasi Proses Bisnis (+P, Sem 6)<br>3. `STC-602` Rekayasa Aplikasi Industri Vertikal (+P, Sem 6)<br>4. `STC-701` Immersive Media & XR Development (+P, Sem 7)<br>5. `STC-702` SaaS Architecture & Multi-Tenancy (+P, Sem 7)<br>6. `STC-703` Digital Product Management (Teori, Sem 7) |
 
@@ -349,7 +349,7 @@ Fokus keahlian: Rekayasa sistem berbasis AI, machine learning pipelines, deep le
 | No | Kode MK | Nama Mata Kuliah | SKS | Tipe | Semester | Prasyarat Akademik | Bahan Kajian Utama |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
 | 1 | `STA-501` | Decision Support Systems | 3 | +P | Sem 5 | `STI-307` Sistem Cerdas | BK-IS17 Business Analytics, AHP/TOPSIS |
-| 2 | `STA-601` | Computational Methods and Numerics | 3 | +P | Sem 6 | `STI-102`, `STI-205` Aljabar Linear | BK-IS10 / BK-IT01 Komputasi Saintifik |
+| 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | Sem 6 | `FST-207`, `STI-415` Data Warehouse & BI | BK-IS02 Data & Information Mgmt / BK-IS18 ML & Data Science |
 | 3 | `STA-602` | Intelligent Agent Systems | 3 | +P | Sem 6 | `STI-307` Sistem Cerdas | BK-IT02 Multi-Agent Systems, Reinforcement |
 | 4 | `STA-701` | MLOps and AI Pipeline | 3 | +P | Sem 7 | `STI-413`, `STI-624` Integrasi AI | BK-IS18 Machine Learning Engineering |
 | 5 | `STA-702` | Conversational AI and Intelligent Assistant | 3 | +P | Sem 7 | `STI-413`, `STI-416` Web Back End | BK-IT02 LLM, RAG Architecture, Prompt Eng |

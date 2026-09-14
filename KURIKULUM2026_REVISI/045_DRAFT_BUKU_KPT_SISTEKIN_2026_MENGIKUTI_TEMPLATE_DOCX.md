@@ -415,7 +415,7 @@ Kelompok FSTI (13 MK / 36 SKS): FST-101 Dasar Teknologi Digital (2, Sem 1); FST-
 
 Kelompok Core STI (28 MK / 79 SKS): STI-101 Pengantar Sistem dan TI (2, Sem 1); STI-102 Kalkulus (3, Sem 1); STI-103 Arsitektur dan Organisasi STI (3, Sem 1); STI-204 Matematika Diskrit dan Logika (3, Sem 2, STI-103); STI-205 Aljabar Linear dan Matriks (3, Sem 2, STI-102); STI-306 Analisis dan Perancangan SI (3, Sem 3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, Sem 3, STI-204 + FST-204); STI-308 UI/UX Design & Prototyping (3 +P, Sem 3, FST-101); STI-309 Rekayasa Perangkat Lunak (3, Sem 3, FST-203); STI-310 Sistem Operasi (3, Sem 3, STI-103); STI-311 Web Front End Development (3 +P, Sem 3, FST-102); STI-312 Jaringan Komputer (3 +P, Sem 3, STI-103); STI-413 Machine Learning (3 +P, Sem 4, STI-205 + STI-307); STI-414 Pengantar NLP & Information Retrieval (2 +P, Sem 4, STI-307); STI-415 Data Warehouse & BI (3 +P, Sem 4, FST-207); STI-416 Web Back End Development (3 +P, Sem 4, FST-207 + STI-311); STI-417 Komputasi Awan (3, Sem 4, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, Sem 4, STI-312); STI-519 Keamanan Informasi Lanjut (3, Sem 5, STI-418); STI-520 Data Mining & Visualisasi Data (3 +P, Sem 5, STI-413 + STI-415); STI-521 Internet of Things (3 +P, Sem 5, STI-312 + STI-310); STI-522 Pemrograman Aplikasi Mobile (3 +P, Sem 5, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, Sem 5, STI-306 + STI-309); STI-624 Integrasi Layanan Cerdas Berbasis AI (3 +P, Sem 6, STI-413 + STI-416); STI-625 Smart City & Pemerintahan Digital (2, Sem 6, STI-521); STI-626 Deep Learning & Neural Networks (3 +P, Sem 6, STI-413); STI-627 Digital Platform Engineering (3 +P, Sem 6, STI-416); STI-728 Inovasi Teknologi dan Startup Digital (3 +P, Sem 7, STI-627 + MKU-204).
 
-Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Computational Methods and Numerics (3 +P, Sem 6, STI-102 + STI-205); STA-602 Intelligent Agent Systems (3 +P, Sem 6, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture & DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 6, STI-418); STB-701 IT Governance & Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research & Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa & Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech & EdTech (3 +P, Sem 6, STI-416); STC-701 Immersive Media & XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture & Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management & Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7).
+Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Rekayasa Big Data dan Komputasi Terdistribusi (3 +P, Sem 6, FST-207 + STI-415); STA-602 Intelligent Agent Systems (3 +P, Sem 6, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture & DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 6, STI-418); STB-701 IT Governance & Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research & Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa & Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech & EdTech (3 +P, Sem 6, STI-416); STC-701 Immersive Media & XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture & Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management & Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7).
 
 18 MK baru K2026 (5 wajib/14 SKS + 13 elektif). Penuh Dok. 004–005.
 
@@ -672,7 +672,7 @@ flowchart BT
         STI626["STI-626<br/>Deep Learning & NN (3)"]
         STI627["STI-627<br/>Platform Engineering (3)"]
         FST611["FST-611<br/>Metodologi Penelitian (2)"]
-        STA601["STA-601/602 (P1)<br/>Komputasi / Agen (6)"]
+        STA601["STA-601/602 (P1)<br/>Big Data / Agen (6)"]
         STB601["STB-601/602 (P2)<br/>DevOps / Pentest (6)"]
         STC601["STC-601/602 (P3)<br/>BPMN / Vertikal (6)"]
     end
@@ -684,7 +684,7 @@ flowchart BT
     STI416 --> STI627
     STI417 --> STI627
     FST408 --> FST611
-    STI413 --> STA601
+    STI415 --> STA601
     STI417 --> STB601
     STI418 --> STB602
     STI306 --> STC601
@@ -759,7 +759,7 @@ flowchart BT
     %% 3 TRACK PEMINATAN
     subgraph TRACKS ["3 JALUR PEMINATAN BERBASIS PROFIL LULUSAN (SEMESTER 5–7: @ 18 SKS)"]
         subgraph P1 ["P1: Integrated Smart Systems (PL-1)"]
-            STA_ALL["STA-501 Decision Support Systems (3)<br/>STA-601 Komputasi Numerik Terapan (3)<br/>STA-602 Sistem Agen Cerdas & Multi-Agent (3)<br/>STA-701 MLOps & AI Deployment (3)<br/>STA-702 Conversational AI & LLM (3)<br/>STA-703 Smart Surveillance & Edge AI (3)"]
+            STA_ALL["STA-501 Decision Support Systems (3)<br/>STA-601 Big Data Engineering & Terdistribusi (3)<br/>STA-602 Sistem Agen Cerdas & Multi-Agent (3)<br/>STA-701 MLOps & AI Deployment (3)<br/>STA-702 Conversational AI & LLM (3)<br/>STA-703 Smart Surveillance & Edge AI (3)"]
         end
 
         subgraph P2 ["P2: Cloud Infra & Cybersecurity (PL-2)"]
@@ -854,7 +854,7 @@ Luring (tatap muka), daring sinkron/asinkron, blended. Memperhatikan gaya belaja
 
 Sampul RPS wajib memuat: identitas MK (kode, BK, bobot T/P, semester, tanggal penyusunan); pengesahan (Dosen Pengembang RPS, Koordinator BK, Ka Prodi); CPL-Prodi yang dibebankan; CPMK (ABCD, Bloom); Sub-CPMK; korelasi CPMK↔Sub-CPMK; deskripsi singkat MK; bahan kajian/materi; pustaka utama & pendukung; dosen pengampu; MK prasyarat.
 
-Matriks mingguan 8 kolom wajib KPT: (1) Minggu ke- | (2) Sub-CPMK | (3) Indikator | (4) Kriteria & Teknik Penilaian | (5) Bentuk/Metode/Penugasan Luring | (6) Daring | (7) Materi Pembelajaran [Pustaka] | (8) Bobot Penilaian (%). Pekan 8 = UTS, pekan 16 = UAS. Dok. 007 saat ini memuat 3-tabel (identitas, CPMK, matriks 16 pekan) untuk 67 MK; kolom Indikator dan Kriteria-Teknik serta pemisahan Luring/Daring dilengkapi bertahap. Contoh RPS lengkap 1 MK penciri menjadi Lampiran 5.
+Matriks mingguan 7 kolom RPS: (1) Pekan | (2) Sub-CPMK | (3) Topik Pembelajaran Terkait | (4) Kompetensi / Keterangan (ABCD) | (5) Metode | (6) Jumlah Jam (1 SKS = 50') | (7) Asesmen. Tugas 1 (Pekan 4) dan Tugas 2 (Pekan 12) terintegrasi dalam baris Sub-CPMK untuk mengevaluasi 2-3 pertemuan sebelumnya, bersifat fleksibel dan kondisional. UTS Pekan 8, UAS Pekan 16. Dok. 043 memuat RPS lengkap 46 MK (28 Core + 18 Peminatan) dengan format ini. Contoh RPS lengkap 1 MK penciri menjadi Lampiran 5.
 
 ## 9.6 Perangkat Pembelajaran
 
@@ -1012,7 +1012,7 @@ Kurikulum SISTEKIN 2026 menetapkan arah AI/Smart Systems + Technopreneurship den
 | 2 | Portofolio Silabus 3-Tabel 67 MK (Identitas, CPMK ABCD-Bloom C2–C6, Matriks 16 Pekan, 4x Asesmen) | Dok. 007 (2824 baris) | ✅ terintegrasi penuh — 1 contoh MK model di bawah verbatim; 66 MK sisanya berlaku penuh dari Dok. 007 tanpa perubahan |
 | 3 | Instrumen Tracer Study Alumni & Survei Pengguna Lulusan + PEO Measurement Plan | Dok. 010 §5–§6, §3 | ✅ terintegrasi |
 | 4 | Rubrik Master Asesmen OBE 4 klaster | Dok. 008 §4 + Dok. 018 §3 | ✅ 3 rubrik verbatim BAB XI §11.3; holistik & skala persepsi dilengkapi bertahap |
-| 5 | Contoh RPS Lengkap 8 kolom KPT 2024 (model 1 MK penciri) | STI-103 di bawah (verbatim Dok. 007 §5) | ✅ model penuh di bawah |
+| 5 | Contoh RPS Lengkap 7 kolom (model 1 MK penciri) | STI-103 di bawah (verbatim Dok. 043) | ✅ model penuh di bawah |
 | 6 | Diagram Analisis Pembelajaran + garis entry behavior | Menyusul per MK penciri (KPT Pasal 12 ayat 3c) | ❌ belum ada di sumber — ditulis bertahap |
 | 7 | Panduan Capstone Project FST-610 & 4 Opsi TA Non-Skripsi FST-714 | Dok. 009 §1–§2 verbatim BAB X §10.6 | ✅ terintegrasi |
 | 8 | Panduan & Simulasi Akselerasi 7 Semester / 3,5 Tahun | Dok. 015 (146 SKS ditempuh) | ✅ terintegrasi — BAB VIII §8.1 |
@@ -1042,32 +1042,32 @@ Kurikulum SISTEKIN 2026 menetapkan arah AI/Smart Systems + Technopreneurship den
 | CPMK-3 | Mahasiswa mampu membandingkan karakteristik arsitektur prosesor CISC (x86_64) vs RISC (ARM64/RISC-V), hirarki memori cache L1/L2/L3, dan akselerator GPU/NPU dalam skenario beban kerja nyata secara kritis. | C4 | P3, KU1 |
 | CPMK-4 | Mahasiswa mampu mengevaluasi mekanisme bus sistem, interupsi I/O, abstraksi virtualisasi hardware (hypervisor), dan organisasi server data center untuk infrastruktur cloud modern secara komprehensif. | C5 | P3, KU1 |
 
-### Tabel 5.C — Matriks Rencana Pembelajaran 16 Pekan
+### Tabel 5.C — Matriks Rencana Pembelajaran 16 Pekan (Format 7 Kolom)
 
-| Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan | Metode | Asesmen & Bobot |
-|---|---|---|---|---|
-| 1 | Menguraikan model Von Neumann dan evolusi arsitektur komputer (C2) | Arsitektur komputer modern, model Von Neumann, komponen utama | Kuliah & diskusi | Formatif |
-| 2 | Mengonversi bilangan biner, oktal, heksadesimal, komplemen dua (C3) | Representasi data: integer biner, two's complement | Problem-solving | Formatif |
-| 3 | Menghitung representasi floating point IEEE 754 (C3) | Format IEEE 754 single & double precision | Case-based learning | Formatif |
-| **4** | **Merancang rangkaian logika kombinasional ALU dasar (C4)** | **Gerbang logika, adder, multiplexer, decoder** | **Problem-based** | **Tugas 1: kuis & problem solving (20%)** |
-| 5 | Menganalisis rangkaian sekuensial, flip-flop, register (C4) | RS, D, JK flip-flop, register, counter | Kuliah & latihan | Formatif |
-| 6 | Menguraikan struktur internal CPU: ALU, CU, register (C2) | Datapath, control unit, register bank | Problem-solving | Formatif |
-| 7 | Menganalisis siklus fetch-decode-execute & addressing (C4) | Siklus instruksi, mode pengalamatan | Case workshop | Formatif |
-| **8** | **Evaluasi Tengah Semester** | **Biner, logika digital, datapath CPU** | **Ujian tertulis** | **UTS (30%)** |
-| 9 | Membedakan CISC (x86) vs RISC (ARM64/RISC-V) (C4) | Set instruksi CISC vs RISC | Kuliah interaktif | Formatif |
-| 10 | Menganalisis pipelining instruksi dan hazard (C4) | Pipelining, data/control hazard, branch prediction | Problem-solving | Formatif |
-| 11 | Mengevaluasi hirarki memori dan cache L1/L2/L3 (C4) | Cache mapping, hit/miss ratio | Case-based learning | Formatif |
-| **12** | **Menganalisis akselerator paralel GPU & NPU untuk AI (C4)** | **CPU multicore vs GPU tensor cores vs NPU** | **Kuliah & analisis kasus** | **Tugas 2: studi kasus hardware AI & server (20%)** |
-| 13 | Menganalisis memori utama dan virtual memory (C4) | RAM DDR4/DDR5, paging, MMU | Problem-solving | Formatif |
-| 14 | Menguraikan sistem I/O, bus, dan interrupt handling (C3) | PCIe, NVMe, programmed I/O, DMA | Case method | Formatif |
-| 15 | Mengevaluasi virtualisasi hardware & server data center (C5) | Hypervisor type 1/2, arsitektur server cloud | Demo & studi kasus | Formatif |
-| **16** | **Evaluasi Akhir Semester** | **Prosesor, cache, GPU AI, virtualisasi** | **Ujian tertulis** | **UAS (30%)** |
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Mengonversi representasi bilangan biner | Mahasiswa (*A*) mampu mengonversi representasi bilangan biner, heksadesimal, dan floating point IEEE 754 (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 3 | Sub-1.2 | Menjelaskan siklus eksekusi instruksi Fetch-Decode-Execute | Mahasiswa (*A*) mampu menjelaskan siklus eksekusi instruksi Fetch-Decode-Execute pada arsitektur Von Neumann (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 4 | Sub-2.1 | Menganalisis gerbang logika biner dan rangkaian kombinasional sebagai dasar ALU | Mahasiswa (*A*) mampu menganalisis gerbang logika biner dan rangkaian kombinasional sebagai dasar ALU (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menganalisis flip-flop dan rangkaian logika sekuensial dasar | Mahasiswa (*A*) mampu menganalisis flip-flop dan rangkaian logika sekuensial dasar (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
+| 6 | Sub-3.1 | Membandingkan karakteristik arsitektur prosesor CISC (x86_64) dan RISC (ARM64/RISC-V) | Mahasiswa (*A*) mampu membandingkan karakteristik arsitektur prosesor CISC (x86_64) dan RISC (ARM64/RISC-V) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 7 | Sub-3.2 | Menganalisis hierarki memori dan cache (L1/L2/L3) serta akselerator GPU/NPU | Mahasiswa (*A*) mampu menganalisis hierarki memori dan cache (L1/L2/L3) serta akselerator GPU/NPU (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
+| 9 | Sub-4.1 | Mengevaluasi mekanisme bus sistem dan interupsi I/O | Mahasiswa (*A*) mampu mengevaluasi mekanisme bus sistem dan interupsi I/O (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Kuliah / Diskusi | 150' | — |
+| 10 | Sub-4.2 | Mengevaluasi abstraksi virtualisasi hardware (Hypervisor) dan organisasi server data center | Mahasiswa (*A*) mampu mengevaluasi abstraksi virtualisasi hardware (Hypervisor) dan organisasi server data center untuk cloud (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Kuliah / Diskusi | 150' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
 
-Pola 3-tabel identik ini berlaku penuh untuk seluruh 66 MK sisanya di Dok. 007 (MKWU 8, FSTI 13, Core 27 sisanya, Elektif 18): identitas + 4 CPMK ABCD + 16 pekan dengan 4 titik Tugas 1 (20%) / UTS (25-30%) / Tugas 2 (20-25%) / UAS (30%).
+Pola 3-tabel identik ini berlaku penuh untuk seluruh 46 MK di Dok. 043 (28 Core STI + 18 Peminatan): identitas + 4 CPMK ABCD + Sub-CPMK + 16 pekan dengan 4 titik Tugas 1 (20%) / UTS (25-30%) / Tugas 2 (20-25%) / UAS (30%). Tugas 1 dan Tugas 2 terintegrasi dalam baris Sub-CPMK untuk mengevaluasi 2-3 pertemuan sebelumnya, bersifat fleksibel dan kondisional.
 
 # DAFTAR PUSTAKA
 
-1. Dit. Belmawa. (2024). Panduan Penyusunan KPT Mendukung MBKM Menuju Indonesia Emas Edisi V. 2. Permendikbudristek 53/2023. 3. Perpres 8/2012 KKNI. 4. UU 12/2012 Dikti. 5. APTIKOM SI v2.0 (2024). 6. APTIKOM TI (2023). 7. ACM-AIS IS2020. 8. ACM-IEEE IT2017. 9. ACM CC2020. 10. LAM INFOKOM Instrumen Akreditasi. 11. Dok. 001–044 KURIKULUM2026_REVISI/ (bahan SISTEKIN). 12. Template_KPT_2024.docx (format acuan BAB I–XIV).
+1. Dit. Belmawa. (2024). Panduan Penyusunan KPT Mendukung MBKM Menuju Indonesia Emas Edisi V. 2. Permendikbudristek 53/2023. 3. Perpres 8/2012 KKNI. 4. UU 12/2012 Dikti. 5. APTIKOM SI v2.0 (2024). 6. APTIKOM TI (2023). 7. ACM-AIS IS2020. 8. ACM-IEEE IT2017. 9. ACM CC2020. 10. LAM INFOKOM Instrumen Akreditasi. 11. Dok. 001–045 KURIKULUM2026_REVISI/ (bahan SISTEKIN). 12. Template_KPT_2024.docx (format acuan BAB I–XIV).
 
 ---
 *045 — Draft markdown mengikuti format Template_KPT_2024.docx (BAB I–XIV, 35 tabel) dengan isi SISTEKIN dari KURIKULUM2026_REVISI/. Pengganti struktur A-L pada 023 untuk keperluan kesetaraan format DOCX. Lanjut: lengkapi 15 titik UPPS, Tabel B riil, sampul RPS 67 MK, 6 BKP, transkrip/SKPI, Tabel N final, lalu konversi ke DOCX via convert_md_to_docx.py.*
