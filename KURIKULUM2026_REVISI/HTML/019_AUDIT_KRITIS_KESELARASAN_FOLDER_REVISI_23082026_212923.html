@@ -1,0 +1,3784 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>019 — AUDIT KRITIS KESELARASAN FOLDER `KURIKULUM2026_REVISI/`</title>
+<style>
+@page { size: A4; margin: 15mm 12mm 16mm 12mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Calibri, Arial, sans-serif; font-size: 10pt; line-height: 1.5; color: #1a1a1a; margin: 0; }
+h1 { font-size: 18pt; color: #1F3864; border-bottom: 3px solid #2E75B6; padding-bottom: 6px; page-break-after: avoid; }
+h2 { font-size: 14pt; color: #1F3864; border-bottom: 1px solid #BDD7EE; padding-bottom: 4px; page-break-after: avoid; margin-top: 18px; }
+h3 { font-size: 11.5pt; color: #2E75B6; page-break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+code { font-family: 'Consolas', 'Fira Code', monospace; font-size: 8.5pt; background: #f2f5f9; padding: 1px 4px; border-radius: 3px; word-break: break-word; }
+pre { background: #f2f5f9; border: 1px solid #d3d3d3; border-radius: 6px; padding: 10px 12px; white-space: pre-wrap; word-break: break-word; page-break-inside: avoid; }
+pre code { background: transparent; padding: 0; }
+blockquote { border-left: 4px solid #2E75B6; background: #eef4fb; margin: 12px 0; padding: 8px 14px; border-radius: 0 6px 6px 0; page-break-inside: avoid; }
+img { max-width: 100%; height: auto; display: block; margin: 10px auto; page-break-inside: avoid; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0 14px 0; font-size: 8.2pt; line-height: 1.4; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }
+th { background: #1F3864; color: #ffffff; font-weight: 700; text-align: left; }
+th, td { border: 1px solid #8a8a8a; padding: 4px 5px; vertical-align: top; word-break: break-word; }
+tbody tr:nth-child(even) td { background: #f2f5f9; }
+.table-wrapper { width: 100%; overflow: visible; }
+.cover { text-align: center; margin: 0 0 18px 0; padding: 18px; background: #1F3864; color: #fff; border-radius: 10px; }
+.cover h1 { color: #fff; border: none; margin: 0; }
+.cover p { color: #dce8f7; margin: 4px 0 0 0; }
+.footer-note { margin-top: 22px; font-size: 8pt; color: #595959; border-top: 1px solid #ccc; padding-top: 8px; }
+</style>
+</head>
+<body>
+<div class="cover"><h1>019 — AUDIT KRITIS KESELARASAN FOLDER `KURIKULUM2026_REVISI/`</h1><p>Program Studi Sistem dan Teknologi Informasi (S1) — FSTI Universitas Widyagama Malang — Kurikulum OBE 2026</p></div>
+<h1 id="019-audit-kritis-keselarasan-folder-kurikulum2026_revisi">019 — AUDIT KRITIS KESELARASAN FOLDER <code>KURIKULUM2026_REVISI/</code></h1>
+<h2 id="program-studi-sistem-dan-teknologi-informasi-s1-fakultas-sains-dan-teknologi-informasi-fsti-universitas-widyagama-malang">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</h2>
+<p><strong>Jenis Dokumen:</strong> Laporan Audit Forensik Keselarasan Lintas-Dokumen (Cross-Document Alignment Audit)
+<strong>Tanggal Audit:</strong> 23 Agustus 2026, 21:29:23 WIB
+<strong>Cakupan:</strong> 26 file Markdown dalam folder <code>KURIKULUM2026_REVISI/</code>
+<strong>Standar Rujukan Pemeriksaan:</strong> Permendikbudristek No. 53 Tahun 2023, Panduan Kurikulum OBE APTIKOM SI v2.0 (IS2020), Panduan Kurikulum OBE TI 2023 (CC2020/IT2017), Standar LAM INFOKOM &amp; IABEE
+<strong>Status Dokumen:</strong> Laporan Temuan — <strong>belum ada perbaikan yang diterapkan</strong></p>
+<hr />
+<h2 id="ringkasan-eksekutif">RINGKASAN EKSEKUTIF</h2>
+<p>Folder <code>KURIKULUM2026_REVISI/</code> <strong>belum selaras</strong>. Audit ini menemukan 3 temuan prioritas nol (P0), 5 temuan prioritas satu (P1), dan 9 temuan prioritas dua (P2).</p>
+<p><strong>Temuan tentang alat verifikasi:</strong> Skrip <code>_tools/verify_zero_discrepancy.py</code> melaporkan <code>[SUCCESS] 100% PERFECT ALIGNMENT</code>, namun pembacaan kode pada <code>_tools/verify_zero_discrepancy.py:22-35</code> menunjukkan skrip tersebut <strong>hanya memeriksa dua pola string</strong>, yaitu (a) apakah <code>STI-103</code> masih bernama "Logika Informatika" dan (b) apakah <code>STI-204</code> menyebut kata "Logika". Skrip ini <strong>tidak memverifikasi</strong> jumlah SKS, jumlah MK, komposisi rumpun, jumlah CPL, rantai prasyarat, maupun struktur bab. Klaim "zero discrepancy" dan "100% tuntas dan terverifikasi" pada <code>AGENTS.md</code> karena itu <strong>tidak memiliki dasar verifikasi yang memadai</strong>.</p>
+<p><strong>Temuan tentang dokumen sumber:</strong> Dokumen <code>005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md</code> <strong>terverifikasi bersih</strong>. Hasil hitung ulang 55 baris mata kuliah menghasilkan tepat 146 SKS, dengan subtotal dan kumulatif per semester yang seluruhnya benar secara aritmetika. Persoalan justru berada pada dokumen turunan (<code>004</code>, <code>007</code>, dan <code>BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md</code>) yang <strong>mengalami regresi</strong> dari dokumen 005 yang sudah benar.</p>
+<h3 id="tabel-rekapitulasi-status-audit">Tabel Rekapitulasi Status Audit</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Aspek yang Diaudit</th>
+<th style="text-align: center;">Status</th>
+<th style="text-align: center;">Prioritas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Tabrakan kode MK aktif <code>FST-204</code> &amp; <code>FST-205</code></td>
+<td style="text-align: center;">❌ Bermasalah</td>
+<td style="text-align: center;"><strong>P0</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Kelengkapan Bab I–VIII Buku Kurikulum Final</td>
+<td style="text-align: center;">❌ Bab I, III, V tidak ada</td>
+<td style="text-align: center;"><strong>P0</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Akurasi angka komposisi rumpun &amp; sebaran SKS di Buku Final</td>
+<td style="text-align: center;">❌ 3 kelompok angka salah</td>
+<td style="text-align: center;"><strong>P0</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Pemetaan 1-to-1 empat asesmen ke empat CPMK</td>
+<td style="text-align: center;">❌ Gagal pada 31 dari 65 MK</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Sinkronisasi rantai prasyarat 007 vs 005</td>
+<td style="text-align: center;">❌ Menyimpang pada 19 MK</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>Reproduktibilitas rekapitulasi SKS pembina CPL (004 §5)</td>
+<td style="text-align: center;">❌ 12 dari 14 baris tak cocok</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>Keseragaman rumusan tekstual 14 CPL antar file</td>
+<td style="text-align: center;">❌ 4 CPL berbeda substantif</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>Ketunggalan matriks CPL↔PL dan PEO↔CPL</td>
+<td style="text-align: center;">❌ 3 versi &amp; 2 versi</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>Kepatuhan pola I→R→M per CPL</td>
+<td style="text-align: center;">❌ KK4 tanpa I dan R</td>
+<td style="text-align: center;"><strong>P1</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>Konsistensi SKS <code>STI-625</code> Smart City</td>
+<td style="text-align: center;">❌ 3 SKS vs 2 SKS</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>Kelengkapan silabus 67 MK portofolio</td>
+<td style="text-align: center;">❌ Hanya 65 MK</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>Validitas sintaks tabel Markdown untuk ekspor</td>
+<td style="text-align: center;">❌ 4 separator rusak</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>Akurasi sel rekapitulasi dokumen 011</td>
+<td style="text-align: center;">❌ 34 sel salah</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>Konsistensi angka proporsi praktikum</td>
+<td style="text-align: center;">❌ 3 versi berbeda</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td>Keseragaman jumlah kolom tabel matriks 004</td>
+<td style="text-align: center;">❌ 1 baris 22 kolom</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td>Akurasi rekapitulasi IKU 7 di Buku Final</td>
+<td style="text-align: center;">❌ 2 angka salah</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td>Kemutakhiran indeks dokumen <code>009_LANGKAH2</code></td>
+<td style="text-align: center;">❌ Berhenti di Dok. 011</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td>Kebersihan artefak sementara di folder</td>
+<td style="text-align: center;">❌ 1 file sisa</td>
+<td style="text-align: center;"><strong>P2</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td>Ketiadaan kode MK usang (<code>STI-104</code>, <code>STI-205</code>, dll.)</td>
+<td style="text-align: center;">✅ Bersih</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td>Jumlah 14 CPL, 3 PEO, 4 PL</td>
+<td style="text-align: center;">✅ Bersih</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td>Jumlah BoK (19 IS2020 / 14 IT2017)</td>
+<td style="text-align: center;">✅ Bersih</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">22</td>
+<td>Konsistensi Target Bloom 14 CPL</td>
+<td style="text-align: center;">✅ Bersih</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td>Bobot skema 4x asesmen (total 100%)</td>
+<td style="text-align: center;">✅ Bersih 65/65 MK</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">24</td>
+<td>Kelengkapan matriks 16 pertemuan</td>
+<td style="text-align: center;">✅ Bersih 65/65 MK</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">25</td>
+<td>Ketiadaan CPL orphan dan MK orphan</td>
+<td style="text-align: center;">✅ Bersih</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: center;">26</td>
+<td>Aritmetika dokumen 005 (146 SKS / 55 MK)</td>
+<td style="text-align: center;">✅ Bersih</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="0-metodologi-dan-basis-bukti-audit">0. METODOLOGI DAN BASIS BUKTI AUDIT</h2>
+<p>Audit dilakukan dengan kombinasi tiga teknik agar temuan dapat direproduksi oleh pihak lain:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Teknik</th>
+<th>Penerapan</th>
+<th>Cakupan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Rekalkulasi aritmetika</strong></td>
+<td>Parsing baris tabel Markdown lalu menjumlahkan ulang kolom SKS, bukan membaca label subtotal</td>
+<td>005, 004, 011, Buku Final</td>
+</tr>
+<tr>
+<td><strong>Diff lintas-dokumen</strong></td>
+<td>Membandingkan nilai atribut yang sama (nama MK, SKS, semester, prasyarat, rumusan CPL) antar file</td>
+<td>001–018 + Buku Final</td>
+</tr>
+<tr>
+<td><strong>Validasi sintaksis</strong></td>
+<td>Memeriksa jumlah kolom header vs separator vs baris data pada tabel yang diekspor ke Excel/HTML/DOCX</td>
+<td>004, 011</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Prinsip pembuktian:</strong> setiap temuan disertai nomor baris file agar dapat diperiksa langsung. Angka "seharusnya" selalu berasal dari hasil hitung ulang terhadap baris data, bukan dari label rekapitulasi — karena justru label rekapitulasi yang banyak ditemukan salah.</p>
+<p><strong>Batas audit (dinyatakan eksplisit):</strong> audit ini memeriksa <strong>konsistensi numerik, kelengkapan struktural, dan keterlacakan referensi silang</strong>. Audit ini <strong>tidak menilai</strong> ketepatan pedagogis rumusan CPMK, kelayakan level Bloom yang dipilih, maupun kesesuaian substansi materi 16 pertemuan terhadap standar industri.</p>
+<hr />
+<h1 id="bagian-i-temuan-prioritas-nol-p0">BAGIAN I — TEMUAN PRIORITAS NOL (P0)</h1>
+<p>Temuan P0 adalah temuan yang <strong>memblokir kelayakan naskah</strong> untuk diajukan ke LAM INFOKOM, karena merusak keterlacakan OBE secara struktural atau menampilkan angka yang saling bertentangan dalam satu dokumen resmi.</p>
+<hr />
+<h2 id="p0-1-tabrakan-kode-mata-kuliah-aktif-fst-204-dan-fst-205">P0-1. TABRAKAN KODE MATA KULIAH AKTIF: <code>FST-204</code> DAN <code>FST-205</code></h2>
+<h3 id="deskripsi-temuan">Deskripsi Temuan</h3>
+<p>Dua kode mata kuliah aktif digunakan untuk <strong>dua mata kuliah yang berbeda secara substansi</strong> pada dokumen yang berbeda. Ini bukan kasus kode usang (yang dicari lewat pola <code>STI-104</code>, <code>STI-205</code>, dsb.), melainkan <strong>tabrakan identitas pada kode yang masih aktif</strong> — kelas kesalahan yang lebih berbahaya justru karena lolos dari pencarian kode usang.</p>
+<h3 id="tabel-bukti-tabrakan-identitas">Tabel Bukti Tabrakan Identitas</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode</th>
+<th>Identitas menurut <code>005</code> + Buku Final (dokumen struktur)</th>
+<th>Identitas menurut <code>004</code> + <code>007</code> (dokumen matriks &amp; silabus)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><code>FST-204</code></strong></td>
+<td><strong>Pengantar Kecerdasan Artifisial &amp; Data</strong> (2 SKS, Teori, Sem 2)</td>
+<td><strong>Organisasi dan Arsitektur Komputer</strong> (<em>Computer Org &amp; Arch</em>)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>FST-205</code></strong></td>
+<td><strong>Basic English for IT</strong> (2 SKS, Teori, Sem 2)</td>
+<td><strong>Pemrograman Lanjut</strong> (<em>Advanced Object-Oriented Programming</em>)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="lokasi-bukti-per-file">Lokasi Bukti per File</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th style="text-align: center;">Baris</th>
+<th>Kutipan Verbatim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>005_STRUKTUR...md</code></td>
+<td style="text-align: center;">102</td>
+<td><code>\| 12 \|</code>FST-204<code>\| Pengantar Kecerdasan Artifisial &amp; Data \| 2 \| Teori \| FSTI \|</code>FST-101<code>\|</code></td>
+</tr>
+<tr>
+<td><code>005_STRUKTUR...md</code></td>
+<td style="text-align: center;">103</td>
+<td><code>\| 13 \|</code>FST-205<code>\| Basic English for IT \| 2 \| Teori \| FSTI \| — \|</code></td>
+</tr>
+<tr>
+<td><code>007_FORMULASI...md</code></td>
+<td style="text-align: center;">531</td>
+<td><code>### 12. FST-204 — Organisasi dan Arsitektur Komputer (Computer Org &amp; Arch)</code></td>
+</tr>
+<tr>
+<td><code>007_FORMULASI...md</code></td>
+<td style="text-align: center;">573</td>
+<td><code>### 13. FST-205 — Pemrograman Lanjut (Advanced Object-Oriented Programming)</code></td>
+</tr>
+<tr>
+<td><code>004_MATRIKS...md</code></td>
+<td style="text-align: center;">72</td>
+<td><code>\| 12 \|</code>FST-204<code>\| Organisasi &amp; Arsitektur Kom \| 2 \| ... \| PL-2 \| PEO-1 \| **I** \|</code></td>
+</tr>
+<tr>
+<td><code>004_MATRIKS...md</code></td>
+<td style="text-align: center;">73</td>
+<td><code>\| 13 \|</code>FST-205<code>\| Pemrograman Lanjut (OOP) \| 2 \| ... \| PL-1, PL-3 \| PEO-1 \| **I** \|</code></td>
+</tr>
+<tr>
+<td><code>BUKU...FINAL.md</code></td>
+<td style="text-align: center;">244–245</td>
+<td>Tabel struktur Sem 2 memakai nama versi <code>005</code></td>
+</tr>
+<tr>
+<td><code>BUKU...FINAL.md</code></td>
+<td style="text-align: center;">854–855, 946–947, 1153–1154</td>
+<td>Tabel ekuivalensi, matriks I-R-M, dan tabel IKU 7 memakai nama versi <code>004</code>/<code>007</code></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="inkonsistensi-internal-di-dalam-dokumen-007">Inkonsistensi Internal di Dalam Dokumen 007</h3>
+<p>Dokumen <code>007</code> <strong>bertentangan dengan dirinya sendiri</strong>. Satu kode dipakai dengan dua makna berbeda dalam satu file:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris 007</th>
+<th>Konteks</th>
+<th><code>FST-204</code> dimaknai sebagai</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">531</td>
+<td>Judul blok silabus MK ke-12</td>
+<td>Organisasi dan Arsitektur Komputer</td>
+</tr>
+<tr>
+<td style="text-align: center;">794</td>
+<td>Prasyarat <code>STI-307</code> Sistem Cerdas</td>
+<td><strong>Pengantar AI &amp; Data</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">922</td>
+<td>Prasyarat <code>STI-310</code> Sistem Operasi</td>
+<td><strong>Organisasi &amp; Arsitektur Komputer</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Pola yang sama terjadi pada Buku Final: baris 2011 (prasyarat <code>STI-307</code>) memakai "Pengantar Kecerdasan Artifisial &amp; Data", sementara baris 2139 (prasyarat <code>STI-310</code>) memakai "Organisasi &amp; Arsitektur Komputer".</p>
+<h3 id="analisis-konsekuensi">Analisis Konsekuensi</h3>
+<p>Konsekuensi tabrakan ini berlapis dan seluruhnya berdampak akreditasi:</p>
+<ol>
+<li><strong>Dua mata kuliah kehilangan silabus.</strong> <code>Basic English for IT</code> dan <code>Pengantar Kecerdasan Artifisial &amp; Data</code> ada di struktur 8 semester tetapi <strong>tidak memiliki silabus 3-tabel</strong> di dokumen 007 maupun di Lampiran 2 Buku Final.</li>
+<li><strong>Dua mata kuliah kehilangan slot semester.</strong> Sebaliknya, <code>Organisasi dan Arsitektur Komputer</code> dan <code>Pemrograman Lanjut (OOP)</code> memiliki silabus lengkap 16 pertemuan tetapi <strong>tidak ada dalam struktur 8 semester</strong>. Semester 2 pada dokumen 005 sudah terisi penuh 8 MK / 20 SKS (batas maksimal Pasal 18 Permendikbudristek No. 53/2023), sehingga kedua MK ini secara faktual tidak dapat ditempatkan tanpa menggeser MK lain.</li>
+<li><strong>Potensi pelanggaran Zero Redundancy.</strong> Mata kuliah <code>Organisasi dan Arsitektur Komputer</code> beririsan substansial dengan konsensus final <strong><code>STI-103 Arsitektur dan Organisasi Sistem Teknologi Informasi</code></strong> (3 SKS, Sem 1). Ini persis jenis redundansi yang seharusnya sudah ditutup oleh Dokumen 017 (Audit Forensik Zero Redundancy) — artinya audit 017 melewatkannya.</li>
+<li><strong>Pemetaan CPL menjadi ambigu.</strong> Dokumen 004 memetakan <code>FST-204 → P3</code> dan <code>FST-205 → P4</code> (benar untuk Organisasi Komputer dan OOP), sedangkan dokumen 011 memetakan <code>FST-204 → KK1</code> dan <code>FST-205 → KU2</code> (benar untuk Pengantar AI dan Basic English). <strong>Kedua pemetaan benar untuk mata kuliahnya masing-masing</strong> — masalahnya adalah dua mata kuliah berbeda menyandang kode yang sama.</li>
+<li><strong>Rantai prasyarat menjadi tidak dapat divalidasi.</strong> <code>STI-310 Sistem Operasi</code> mensyaratkan "FST-204 Organisasi &amp; Arsitektur Komputer", yaitu mata kuliah yang menurut tabel struktur resmi tidak ada.</li>
+</ol>
+<h3 id="status-penyelesaian">Status Penyelesaian</h3>
+<p>Temuan ini <strong>memerlukan keputusan Tim Pengembang Kurikulum</strong>, bukan koreksi teknis oleh agent. Dua pertanyaan yang harus dijawab:</p>
+<ol>
+<li>Mata kuliah mana yang benar mengisi Semester 2: pasangan (Pengantar KA &amp; Data + Basic English for IT) atau pasangan (Organisasi &amp; Arsitektur Komputer + Pemrograman Lanjut OOP)?</li>
+<li>Bila keempatnya diperlukan, kode mana untuk masing-masing, dan MK mana yang digeser keluar dari Semester 2 agar batas 20 SKS tetap terpenuhi?</li>
+</ol>
+<p>Sebelum keputusan ini diamb, <strong>koreksi pada dokumen 004, 005, 007, dan Buku Final tidak dapat dilakukan secara konsisten</strong>, karena keempat dokumen harus dikoreksi ke arah yang sama.</p>
+<hr />
+<h2 id="p0-2-buku-kurikulum-final-kehilangan-bab-i-bab-iii-dan-bab-v">P0-2. BUKU KURIKULUM FINAL KEHILANGAN BAB I, BAB III, DAN BAB V</h2>
+<h3 id="deskripsi-temuan_1">Deskripsi Temuan</h3>
+<p><code>AGENTS.md</code> menyatakan bahwa "Naskah utuh komprehensif Bab 1 s.d. Bab 8 (<code>BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md</code>, 445 KB) telah selesai dan 100% selaras". Pemeriksaan heading level-1 pada file tersebut (4.044 baris) menunjukkan klaim ini <strong>tidak sesuai isi file</strong>.</p>
+<h3 id="tabel-bukti-heading-bab-yang-ada">Tabel Bukti Heading Bab yang Ada</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris</th>
+<th>Heading Bab yang Ditemukan</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">—</td>
+<td><em>(Bab I — tidak ada)</em></td>
+<td style="text-align: center;">❌ <strong>Hilang</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td><code># BAB II: VISI, MISI, TUJUAN, DAN POSITIONING STRATEGIS</code></td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+<tr>
+<td style="text-align: center;">—</td>
+<td><em>(Bab III — tidak ada)</em></td>
+<td style="text-align: center;">❌ <strong>Hilang</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">161</td>
+<td><code># BAB IV: CAPAIAN PEMBELAJARAN LULUSAN (CPL) DAN BODY OF KNOWLEDGE (BoK)</code></td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+<tr>
+<td style="text-align: center;">—</td>
+<td><em>(Bab V — tidak ada)</em></td>
+<td style="text-align: center;">❌ <strong>Hilang</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">408</td>
+<td><code># BAB VI: PROGRAM MBKM, CAPSTONE PROJECT, DAN TUGAS AKHIR NON-SKRIPSI</code></td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+<tr>
+<td style="text-align: center;">492</td>
+<td><code># BAB VII: SISTEM ASESMEN OBE, FORMULA CPL, DAN PENJAMINAN MUTU PPEPP</code></td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+<tr>
+<td style="text-align: center;">813</td>
+<td><code># BAB VIII: TATA KELOLA, SUMBER DAYA LABORATORIUM, DAN ATURAN PERALIHAN</code></td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+</tbody>
+</table></div>
+<p>Pola penomoran yang melompat (II → IV → VI) mengindikasikan bab-bab tersebut <strong>direncanakan ada</strong> namun hilang pada proses penggabungan naskah, bukan sengaja tidak dibuat.</p>
+<h3 id="materi-bab-yang-hilang-tersisip-di-bab-lain">Materi Bab yang Hilang Tersisip di Bab Lain</h3>
+<p>Konten sebagian besar tersedia, tetapi <strong>berada di bab yang salah</strong>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Bab yang Hilang</th>
+<th>Materi Semestinya</th>
+<th>Lokasi Aktual Materi Tersebut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Bab I</strong></td>
+<td>Pendahuluan, Landasan Hukum, Latar Belakang</td>
+<td>Tidak ditemukan di manapun</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Bab III</strong></td>
+<td>3 PEO &amp; 4 Profil Lulusan</td>
+<td>Tersisip di dalam <strong>Bab II</strong> (baris 52 dst.) dan terduplikasi di <strong>Bab VII</strong> (baris 635)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Bab V</strong></td>
+<td>Struktur Kurikulum 8 Semester &amp; Peminatan</td>
+<td>Tersisip di dalam <strong>Bab IV</strong> (baris 205–365)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="bab-ii-tidak-memuat-rumusan-vmts-padahal-itu-judulnya">Bab II Tidak Memuat Rumusan VMTS — Padahal Itu Judulnya</h3>
+<p>Bab II berjudul "VISI, MISI, TUJUAN, DAN POSITIONING STRATEGIS", namun penomoran bagiannya melompat: tidak ada <code>## 1.</code>, langsung ke <code>## 2. FORMULASI DEFINITIF 4 PROFIL LULUSAN</code> (baris 52).</p>
+<p>Verifikasi tegas melalui pencarian frasa kanonik:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Frasa yang Dicari</th>
+<th>Sumber Frasa</th>
+<th style="text-align: center;">Hasil di Buku Final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"unggul dalam pengembangan sistem dan teknologi informasi cerdas"</td>
+<td>Visi 2045 (<code>001:56</code>)</td>
+<td style="text-align: center;"><strong>0 hasil</strong></td>
+</tr>
+<tr>
+<td>"bermartabat"</td>
+<td>Visi 2045</td>
+<td style="text-align: center;"><strong>0 hasil</strong></td>
+</tr>
+<tr>
+<td>"Kekuatan (Strengths)"</td>
+<td>Analisis SWOT (<code>001</code> §3)</td>
+<td style="text-align: center;"><strong>0 hasil</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Kesimpulan:</strong> Bab tentang Visi–Misi–Tujuan <strong>tidak memuat pernyataan Visi 2045 maupun analisis SWOT</strong>. Yang tersisa dari dokumen 001 hanyalah tabel rekonsiliasi profil lulusan (baris 33–50). Padahal pernyataan Visi 2045 adalah <strong>ground truth paling fundamental</strong> dalam <code>AGENTS.md</code>, dan Kriteria 1 LAM INFOKOM secara eksplisit menuntut VMTS terdokumentasi.</p>
+<h3 id="bab-iv-tidak-memuat-rumusan-14-cpl-padahal-itu-judulnya">Bab IV Tidak Memuat Rumusan 14 CPL — Padahal Itu Judulnya</h3>
+<p>Bab IV berjudul "CAPAIAN PEMBELAJARAN LULUSAN (CPL) DAN BODY OF KNOWLEDGE (BoK)", namun:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Elemen yang Semestinya Ada</th>
+<th>Sumber</th>
+<th style="text-align: center;">Hasil Pencarian di Buku Final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rumusan tekstual 14 CPL</td>
+<td><code>003</code>, <code>009A</code>–<code>009D</code></td>
+<td style="text-align: center;"><strong>0 hasil</strong> untuk frasa kanonik "Menguasai konsep dasar sains, matematika terapan"</td>
+</tr>
+<tr>
+<td>Rumusan CPL Sikap S1</td>
+<td><code>009A:12</code></td>
+<td style="text-align: center;"><strong>0 hasil</strong> untuk "Bertakwa kepada Tuhan"</td>
+</tr>
+<tr>
+<td>Rumusan CPL KK1</td>
+<td><code>009D</code></td>
+<td style="text-align: center;"><strong>0 hasil</strong> untuk "Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas"</td>
+</tr>
+<tr>
+<td>Genealogi sumber IS2020</td>
+<td><code>003</code></td>
+<td style="text-align: center;"><strong>0 hasil</strong> untuk "CPL-P01"</td>
+</tr>
+<tr>
+<td>Matriks silang CPL</td>
+<td><code>003</code></td>
+<td style="text-align: center;"><strong>0 hasil</strong> untuk "MATRIKS SILANG CPL"</td>
+</tr>
+<tr>
+<td>Indikator Kinerja CPL (<em>Performance Indicator</em>)</td>
+<td><code>009A</code>–<code>009D</code></td>
+<td style="text-align: center;">Hanya 2 kemunculan "Indikator Kinerja", keduanya dalam konteks "Indikator Kinerja Utama (IKU)"</td>
+</tr>
+</tbody>
+</table></div>
+<p>Yang tersedia di Bab IV hanyalah <strong>kode CPL dan deskripsi ringkas satu baris</strong> pada tabel rekapitulasi (baris 1057–1070). Sebaliknya, Bab IV justru memuat seluruh struktur 8 semester (baris 205–365) yang seharusnya menjadi Bab V.</p>
+<p>Ini temuan berdampak akreditasi tertinggi pada Buku Final: <strong>buku kurikulum yang tidak memuat rumusan CPL secara tekstual tidak dapat dinilai oleh asesor</strong>, karena CPL adalah objek utama penilaian OBE.</p>
+<h3 id="pola-sistematis-bagian-1-hilang-pada-enam-dokumen-sisipan">Pola Sistematis: Bagian <code>## 1.</code> Hilang pada Enam Dokumen Sisipan</h3>
+<p>Kehilangan bagian pertama terjadi berulang, mengindikasikan cacat pada proses generasi/penggabungan otomatis:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Dokumen Sisipan</th>
+<th>Bagian <code>## 1.</code> di File Sumber</th>
+<th style="text-align: center;">Status di Buku Final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>001</code> (menjadi Bab II)</td>
+<td>§ 1. VISI, MISI, TUJUAN (VMTS)</td>
+<td style="text-align: center;">❌ Hilang</td>
+</tr>
+<tr>
+<td><code>003</code> (menjadi Bab IV)</td>
+<td>§ 1. LANDASAN DAN PRINSIP PERUMUSAN CPL</td>
+<td style="text-align: center;">❌ Hilang</td>
+</tr>
+<tr>
+<td><code>005</code> (tersisip di Bab IV)</td>
+<td>§ 1. REKAPITULASI DAN DISTRIBUSI BEBAN STUDI</td>
+<td style="text-align: center;">⚠️ Judul hilang, tabel terbawa</td>
+</tr>
+<tr>
+<td><code>009</code> (menjadi Bab VI)</td>
+<td>§ 1. Capstone Project</td>
+<td style="text-align: center;">❌ Hilang, mulai dari § 2</td>
+</tr>
+<tr>
+<td><code>008</code> (menjadi Bab VII)</td>
+<td>§ 1.</td>
+<td style="text-align: center;">❌ Hilang, mulai dari § 2</td>
+</tr>
+<tr>
+<td><code>010</code> (tersisip di Bab VII)</td>
+<td>§ 1.</td>
+<td style="text-align: center;">❌ Hilang, mulai dari § 2</td>
+</tr>
+<tr>
+<td><code>004</code> (menjadi Lampiran 1)</td>
+<td>§ 1. MATRIKS KESELARASAN</td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+<tr>
+<td><code>007</code> (menjadi Lampiran 2)</td>
+<td>§ 1. PANDUAN 3 TABEL</td>
+<td style="text-align: center;">✅ Ada</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="dokumen-010-tersisip-tanpa-pembatas-bab-dan-menabrak-bab-vii">Dokumen 010 Tersisip Tanpa Pembatas Bab dan Menabrak Bab VII</h3>
+<p>Pada baris 610–632, Bab VII (isi dokumen <code>008</code>) berakhir dengan <code>## 5. INTEGRASI CAPAIAN CPL KE DALAM SKPI</code>. Kemudian <strong>tanpa pembatas bab apa pun</strong>, penomoran bagian me-<em>reset</em> ke <code>## 2. FORMULASI 3 PEO &amp; KEPEMIMPINAN</code> pada baris 633 — yang merupakan awal dokumen <code>010</code>.</p>
+<p>Akibatnya Bab VII memuat <strong>dua rangkaian <code>## 2.</code>–<code>## 5.</code></strong> dengan topik yang berbeda. Pembaca akan melihat urutan janggal: "§5 Integrasi SKPI" langsung diikuti "§2 Formulasi PEO". Secara logis, materi PEO/Tracer Study ini adalah milik Bab III yang hilang.</p>
+<h3 id="heading-duplikat">Heading Duplikat</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Heading</th>
+<th style="text-align: center;">Jumlah Kemunculan</th>
+<th>Baris</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>3 PROGRAM EDUCATIONAL OBJECTIVES (PEO) SISTEKIN</code></td>
+<td style="text-align: center;"><strong>2x</strong></td>
+<td>91 dan 635</td>
+</tr>
+<tr>
+<td><code>Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains...</code></td>
+<td style="text-align: center;"><strong>6x</strong></td>
+<td>24, 164, 373, 411, 495, 876</td>
+</tr>
+</tbody>
+</table></div>
+<p>Tabel PEO lengkap dimuat dua kali dengan format berbeda (di Bab II dan di sisipan dokumen 010). Enam sub-judul boilerplate identik akan menghasilkan enam entri duplikat bila daftar isi digenerasi otomatis.</p>
+<h3 id="konten-visual-yang-hilang">Konten Visual yang Hilang</h3>
+<p>Pencarian penanda placeholder (<code>TBD</code>, <code>TODO</code>, <code>XXX</code>, <code>[isi]</code>, <code>PLACEHOLDER</code>, <code>TBA</code>, <code>LOREM</code>) menghasilkan <strong>0 hasil</strong> — tidak ada placeholder eksplisit. ✅</p>
+<p>Namun ditemukan <strong>5 heading visualisasi yang sama sekali kosong</strong> (diikuti langsung heading lain tanpa konten):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris</th>
+<th>Heading Kosong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">31</td>
+<td><code>### PETA PIKIRAN (MINDMAP) VMTS 2045 &amp; POSITIONING PRODI</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">172</td>
+<td><code>### VISUALISASI SILSILAH GENEALOGI 14 CPL &amp; BOK APTIKOM</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">380</td>
+<td><code>### VISUALISASI 3 PEMINATAN &amp; JALUR MBKM 20 SKS</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">418</td>
+<td><code>### VISUALISASI ALUR CAPSTONE &amp; 4 OPSI TA NON-SKRIPSI</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">503</td>
+<td><code>### VISUALISASI ALUR HINGGA ASESMEN OBE &amp; SIKLUS PPEPP</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Sebagai pembanding, dua heading visualisasi lain (baris 883 dan 1229) <strong>berisi diagram Mermaid utuh</strong> — membuktikan bahwa kelima diagram di atas benar-benar hilang, bukan sengaja dikosongkan.</p>
+<p>Ditemukan pula dua lubang konten:
+- <strong>Baris 180–185:</strong> enam baris kosong berurutan tepat sebelum <code>### REKAPITULASI KOMPOSISI KURIKULUM 2026</code>. Pada dokumen <code>005</code> lokasi ini berisi diagram Mermaid struktur &amp; alur prasyarat.
+- <strong>Baris 611–615:</strong> lima baris kosong di dalam <code>## 5. INTEGRASI CPL KE SKPI</code>. Konten yang hilang adalah <strong>ASCII-art Radar Chart CPL</strong>, yang masih utuh di <code>008_...md</code> baris 123 dst. Akibatnya Bab VII menjanjikan "Portofolio Capaian OBE (Radar Chart CPL)" lalu tidak menampilkannya.</p>
+<h3 id="tidak-ada-daftar-isi">Tidak Ada Daftar Isi</h3>
+<p>Pencarian "Daftar Isi" / "DAFTAR ISI" menghasilkan <strong>0 hasil</strong>. Untuk naskah buku kurikulum yang akan diserahkan ke LAM INFOKOM, absennya daftar isi — bersama halaman pengesahan, kata pengantar, serta daftar tabel dan gambar — merupakan kekurangan formal.</p>
+<p>Konsekuensi tambahan: bila daftar isi digenerasi dari heading yang ada sekarang, hasilnya menampilkan urutan bab yang janggal (II → IV → VI → VII → VIII) beserta enam baris boilerplate identik dan dua entri "3 PROGRAM EDUCATIONAL OBJECTIVES".</p>
+<hr />
+<h2 id="p0-3-angka-komposisi-dan-sebaran-sks-di-buku-final-salah-regresi-dari-dokumen-005">P0-3. ANGKA KOMPOSISI DAN SEBARAN SKS DI BUKU FINAL SALAH (REGRESI DARI DOKUMEN 005)</h2>
+<h3 id="deskripsi-temuan_2">Deskripsi Temuan</h3>
+<p>Buku Kurikulum Final memuat tiga kelompok angka yang bertentangan dengan hasil hitung ulang tabel di dalam buku itu sendiri, <strong>dan</strong> bertentangan dengan dokumen sumber <code>005</code> yang sudah benar. Ini adalah <strong>regresi</strong>: dokumen turunan lebih buruk daripada sumbernya.</p>
+<h3 id="p0-3a-komposisi-rumpun-mata-kuliah-salah-di-dua-tabel">P0-3a. Komposisi Rumpun Mata Kuliah Salah di Dua Tabel</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Lokasi</th>
+<th>Tertulis di Buku Final</th>
+<th>Seharusnya (hasil hitung ulang)</th>
+<th style="text-align: center;">Selisih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BUKU:191</code></td>
+<td>Mata Kuliah Wajib Fakultas (FSTI) — <strong>14 MK / 38 SKS / 25,9%</strong></td>
+<td><strong>13 MK / 36 SKS / 24,7%</strong></td>
+<td style="text-align: center;">−1 MK, −2 SKS</td>
+</tr>
+<tr>
+<td><code>BUKU:192</code></td>
+<td>Mata Kuliah Inti Program Studi (Core STI) — <strong>27 MK / 77 SKS / 53,1%</strong></td>
+<td><strong>28 MK / 79 SKS / 54,1%</strong></td>
+<td style="text-align: center;">+1 MK, +2 SKS</td>
+</tr>
+<tr>
+<td><code>BUKU:1270</code></td>
+<td>Mata Kuliah Dasar Fakultas (FSTI) — <strong>14 MK / 38 SKS</strong></td>
+<td><strong>13 MK / 36 SKS</strong></td>
+<td style="text-align: center;">−1 MK, −2 SKS</td>
+</tr>
+<tr>
+<td><code>BUKU:1271</code></td>
+<td>Mata Kuliah Inti Program Studi (STI) — <strong>27 MK / 77 SKS</strong></td>
+<td><strong>28 MK / 79 SKS</strong></td>
+<td style="text-align: center;">+1 MK, +2 SKS</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Verifikasi hitung ulang.</strong> Parsing kolom Kategori pada 55 baris MK di tabel struktur 8 semester dokumen <code>005</code> menghasilkan:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kategori</th>
+<th style="text-align: center;">Jumlah MK</th>
+<th style="text-align: center;">Total SKS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MKWU</td>
+<td style="text-align: center;">8 MK</td>
+<td style="text-align: center;">13 SKS</td>
+</tr>
+<tr>
+<td>FSTI</td>
+<td style="text-align: center;"><strong>13 MK</strong></td>
+<td style="text-align: center;"><strong>36 SKS</strong></td>
+</tr>
+<tr>
+<td>Core STI</td>
+<td style="text-align: center;"><strong>28 MK</strong></td>
+<td style="text-align: center;"><strong>79 SKS</strong></td>
+</tr>
+<tr>
+<td>Peminatan (Elektif)</td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;">18 SKS</td>
+</tr>
+<tr>
+<td><strong>TOTAL</strong></td>
+<td style="text-align: center;"><strong>55 MK</strong></td>
+<td style="text-align: center;"><strong>146 SKS</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Hasil ini <strong>identik</strong> dengan <code>005:46-50</code>, membuktikan dokumen 005 benar dan Buku Final yang salah.</p>
+<p><strong>Mengapa kesalahan ini lolos selama ini.</strong> Kesalahan bersifat "berimbang" — satu MK dan 2 SKS dipindahkan dari Core STI ke FSTI:</p>
+<pre><code>Klaim Buku Final : 14 MK + 27 MK = 41 MK ; 38 SKS + 77 SKS = 115 SKS
+**✅ RESOLVED (Sep 2026):** Dokumen 005 ditetapkan sebagai ground truth. Angka final: FSTI = 13 MK / 36 SKS, Core STI = 28 MK / 79 SKS. Semua dokumen lain telah diselaraskan.
+Nilai sebenarnya : 13 MK + 28 MK = 41 MK ; 36 SKS + 79 SKS = 115 SKS
+</code></pre>
+<p>Karena subtotal gabungan dan total keseluruhan (55 MK / 146 SKS) tetap benar, kesalahan ini <strong>tidak terdeteksi oleh pemeriksaan total</strong> — dan tidak terdeteksi oleh <code>verify_zero_discrepancy.py</code> yang bahkan tidak memeriksa SKS sama sekali.</p>
+<h3 id="p0-3b-sebaran-sks-semester-6-dan-kumulatif-semester-67-salah">P0-3b. Sebaran SKS Semester 6 dan Kumulatif Semester 6–7 Salah</h3>
+<p><strong>Rekalkulasi lengkap 8 semester</strong> (dihitung dari baris MK di dalam Buku Final, bukan dari label subtotalnya):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Semester</th>
+<th style="text-align: center;">Jml MK Dihitung</th>
+<th style="text-align: center;">SKS Dihitung</th>
+<th style="text-align: center;">Kumulatif Dihitung</th>
+<th>Klaim di Buku Final</th>
+<th style="text-align: center;">Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Sem 1</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">19</td>
+<td>8 MK / 19 SKS / 19 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 2</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">39</td>
+<td>8 MK / 20 SKS / 39 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 3</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">59</td>
+<td>7 MK / 20 SKS / 59 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 4</td>
+<td style="text-align: center;">8 (+1 MK 0 SKS)</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">80</td>
+<td>8 MK+1 / 21 SKS / 80 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 5</td>
+<td style="text-align: center;">7 (+1 MK 0 SKS)</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">101</td>
+<td>7 MK+1 / 21 SKS / 101 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Sem 6</strong></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><strong>19</strong></td>
+<td style="text-align: center;"><strong>120</strong></td>
+<td>7 MK / <strong>20 SKS</strong> / <strong>121 SKS</strong></td>
+<td style="text-align: center;">❌</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Sem 7</strong></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;"><strong>140</strong></td>
+<td>7 MK / 20 SKS / <strong>141 SKS</strong></td>
+<td style="text-align: center;">❌</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sem 8</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><strong>146</strong></td>
+<td>1 MK / 6 SKS / 146 SKS</td>
+<td style="text-align: center;">⚠️</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>TOTAL</strong></td>
+<td style="text-align: center;"><strong>55</strong></td>
+<td style="text-align: center;"><strong>146</strong></td>
+<td style="text-align: center;"><strong>146</strong></td>
+<td>55 MK / 146 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rincian baris Semester 6 di Buku Final</strong> (baris 293–299): <code>3 + 2 + 3 + 3 + 2 + 3 + 3 = 19 SKS</code>, bukan 20.</p>
+<p><strong>Anomali aritmetika yang paling jelas terlihat asesor:</strong> Buku Final menyatakan kumulatif Semester 7 = 141 SKS (<code>BUKU:312</code>) dan SKS Semester 8 = 6, namun kemudian menyatakan kumulatif Semester 8 = 146 SKS (<code>BUKU:318</code>). Padahal <code>141 + 6 = 147</code>. <strong>Tabel tersebut tidak konsisten dengan dirinya sendiri.</strong></p>
+<h3 id="tabel-baris-yang-perlu-dikoreksi">Tabel Baris yang Perlu Dikoreksi</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris</th>
+<th>Tertulis</th>
+<th>Seharusnya</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>BUKU:216</code></td>
+<td><code>\| Sem 6 \| AI Integrasi &amp; Plat. \| 7 MK \| 20 SKS \|</code></td>
+<td><code>19 SKS</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BUKU:290</code></td>
+<td><code>### SEMESTER 6 (20 SKS)</code></td>
+<td><code>### SEMESTER 6 (19 SKS)</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BUKU:300</code></td>
+<td><code>**Total SKS Semester 6 (7 MK)** \| **20** \| ... \| **Kumulatif: 121 SKS**</code></td>
+<td><code>**19**</code> ... <code>**Kumulatif: 120 SKS**</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BUKU:312</code></td>
+<td><code>**Total SKS Semester 7 (7 MK)** \| **20** \| ... \| **Kumulatif: 141 SKS**</code></td>
+<td>SKS 20 benar; <code>**Kumulatif: 140 SKS**</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BUKU:331</code></td>
+<td><code>\| Sem 6 \| 7 MK \| 20 SKS \| 121 SKS \| 13,6% \|</code></td>
+<td><code>19 SKS \| 120 SKS \| 13,0%</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BUKU:332</code></td>
+<td><code>\| Sem 7 \| 7 MK \| 20 SKS \| 141 SKS \| 13,6% \|</code></td>
+<td><code>20 SKS \| 140 SKS \| 13,7%</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Pembanding sumber.</strong> <code>005:72</code> (<code>\| Sem 6 \| ... \| 7 MK \| 19 SKS \|</code>), <code>005:156</code> (<code>### SEMESTER 6 (19 SKS)</code>), <code>005:166</code> (<code>Kumulatif: 120 SKS</code>), dan <code>005:180</code> (<code>Kumulatif: 140 SKS</code>) <strong>seluruhnya sudah benar</strong>. Ini mengonfirmasi bahwa temuan ini adalah regresi murni pada proses pembuatan Buku Final.</p>
+<h3 id="p0-3c-akar-penyebab-sti-625-smart-city-tercatat-3-sks">P0-3c. Akar Penyebab: <code>STI-625</code> Smart City Tercatat 3 SKS</h3>
+<p>Sumber kesalahan Semester 6 dapat ditelusuri ke inkonsistensi SKS <code>STI-625</code>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th style="text-align: center;">Baris</th>
+<th>Tertulis</th>
+<th>Seharusnya</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>007_FORMULASI...md</code></td>
+<td style="text-align: center;">1689</td>
+<td><code>\| **Bobot SKS / Tipe** \| **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) \|</code></td>
+<td><strong>2 SKS / Teori</strong></td>
+</tr>
+<tr>
+<td><code>BUKU...FINAL.md</code></td>
+<td style="text-align: center;">2906</td>
+<td><code>\| **Bobot SKS / Tipe** \| **3 SKS** / Tipe: **+P** ... \|</code></td>
+<td><strong>2 SKS / Teori</strong></td>
+</tr>
+<tr>
+<td><code>BUKU...FINAL.md</code></td>
+<td style="text-align: center;">294</td>
+<td><code>\| 40 \| STI-625 \| Smart City &amp; Pemerintahan Digital \| 2 \| **+P** \|</code></td>
+<td>SKS 2 benar; tipe <strong>Teori</strong></td>
+</tr>
+<tr>
+<td><code>006_DISTRIBUSI...md</code></td>
+<td style="text-align: center;">19</td>
+<td><code>• STI-625 Smart City (3)</code></td>
+<td><code>(2)</code></td>
+</tr>
+<tr>
+<td><code>005_STRUKTUR...md</code></td>
+<td style="text-align: center;">160</td>
+<td><code>\| 40 \|</code>STI-625<code>\| Smart City &amp; Pemerintahan Digital \| 2 \| Teori \|</code></td>
+<td>✅ <strong>Benar</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Ground truth <code>AGENTS.md</code> menegaskan: <em>"Sem 6 (19 SKS, Smart City &amp; Pem. Digital 2 SKS)"</em>. Dokumen <code>005</code> mematuhinya; <code>006</code>, <code>007</code>, dan Buku Final tidak.</p>
+<p><strong>Dampak kuantitatif pada dokumen 007:</strong> total SKS 65 blok silabus di <code>007</code> = <strong>183 SKS</strong>, sedangkan portofolio seharusnya <strong>182 SKS</strong>. Kelebihan +1 SKS bersumber tunggal dari <code>STI-625</code>. Semester 6 di <code>007</code> terhitung 32 SKS untuk 11 MK, seharusnya 31 SKS.</p>
+<hr />
+<h1 id="bagian-ii-temuan-prioritas-satu-p1">BAGIAN II — TEMUAN PRIORITAS SATU (P1)</h1>
+<p>Temuan P1 adalah temuan yang <strong>merusak keterlacakan OBE</strong> (<em>constructive alignment</em>) dan hampir pasti dipersoalkan asesor, tetapi tidak menghalangi naskah untuk dibaca.</p>
+<hr />
+<h2 id="p1-1-skema-4-asesmen-memetakan-1-to-1-ke-4-cpmk-gagal-pada-31-dari-65-mata-kuliah">P1-1. SKEMA "4 ASESMEN MEMETAKAN 1-TO-1 KE 4 CPMK" GAGAL PADA 31 DARI 65 MATA KULIAH</h2>
+<h3 id="deskripsi-temuan_3">Deskripsi Temuan</h3>
+<p><code>AGENTS.md</code> menetapkan konsensus final: <em>"Memetakan secara langsung 1-to-1 ke 4 CPMK dan memenuhi IKU 7 ≥ 50%"</em>. Buku Final baris 523–527 juga memetakan empat titik asesmen ke CPMK-1 sampai CPMK-4 secara satu-satu.</p>
+<p>Namun hanya <strong>34 dari 65 MK</strong> yang benar-benar memiliki 4 CPMK. Pada <strong>31 MK (47,7%)</strong>, pemetaan 1-to-1 secara aritmetis <strong>mustahil terpenuhi</strong>.</p>
+<h3 id="tabel-distribusi-jumlah-cpmk-per-mata-kuliah">Tabel Distribusi Jumlah CPMK per Mata Kuliah</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Jumlah CPMK</th>
+<th style="text-align: center;">Jumlah MK</th>
+<th style="text-align: center;">Persentase</th>
+<th style="text-align: center;">Status Pemetaan 1-to-1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">4 CPMK</td>
+<td style="text-align: center;">34 MK</td>
+<td style="text-align: center;">52,3%</td>
+<td style="text-align: center;">✅ Terpenuhi</td>
+</tr>
+<tr>
+<td style="text-align: center;">3 CPMK</td>
+<td style="text-align: center;">28 MK</td>
+<td style="text-align: center;">43,1%</td>
+<td style="text-align: center;">❌ Mustahil</td>
+</tr>
+<tr>
+<td style="text-align: center;">2 CPMK</td>
+<td style="text-align: center;">3 MK</td>
+<td style="text-align: center;">4,6%</td>
+<td style="text-align: center;">❌ Mustahil</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Total</strong></td>
+<td style="text-align: center;"><strong>65 MK</strong></td>
+<td style="text-align: center;"><strong>100%</strong></td>
+<td style="text-align: center;"><strong>31 MK gagal</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="daftar-mata-kuliah-dengan-2-cpmk-3-mk">Daftar Mata Kuliah dengan 2 CPMK (3 MK)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">Baris di 007</th>
+<th style="text-align: center;">Baris di Buku Final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>MKU-101</code></td>
+<td>Agama I</td>
+<td style="text-align: center;">278</td>
+<td style="text-align: center;">1495</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>MKU-102</code></td>
+<td>Pancasila</td>
+<td style="text-align: center;">319</td>
+<td style="text-align: center;">1536</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>MKU-405</code></td>
+<td>Kewarganegaraan</td>
+<td style="text-align: center;">1342</td>
+<td style="text-align: center;">2559</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="daftar-mata-kuliah-dengan-3-cpmk-28-mk">Daftar Mata Kuliah dengan 3 CPMK (28 MK)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode</th>
+<th style="text-align: center;">Baris di 007</th>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Kode</th>
+<th style="text-align: center;">Baris di 007</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><code>FST-101</code></td>
+<td style="text-align: center;">65</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;"><code>STA-501</code></td>
+<td style="text-align: center;">2066</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><code>STI-101</code></td>
+<td style="text-align: center;">150</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;"><code>STA-701</code></td>
+<td style="text-align: center;">2194</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><code>MKU-103</code></td>
+<td style="text-align: center;">360</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;"><code>STB-501</code></td>
+<td style="text-align: center;">2322</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><code>FST-204</code></td>
+<td style="text-align: center;">531</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;"><code>STB-601</code></td>
+<td style="text-align: center;">2364</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><code>FST-206</code></td>
+<td style="text-align: center;">616</td>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;"><code>STB-602</code></td>
+<td style="text-align: center;">2406</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><code>MKU-204</code></td>
+<td style="text-align: center;">701</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;"><code>STB-701</code></td>
+<td style="text-align: center;">2448</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><code>STI-307</code></td>
+<td style="text-align: center;">786</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;"><code>STB-702</code></td>
+<td style="text-align: center;">2490</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"><code>STI-310</code></td>
+<td style="text-align: center;">914</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;"><code>STB-703</code></td>
+<td style="text-align: center;">2532</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><code>STI-418</code></td>
+<td style="text-align: center;">1214</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;"><code>STC-501</code></td>
+<td style="text-align: center;">2574</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"><code>MKU-507</code></td>
+<td style="text-align: center;">1598</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;"><code>STC-601</code></td>
+<td style="text-align: center;">2616</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;"><code>STI-626</code></td>
+<td style="text-align: center;">1726</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;"><code>STC-602</code></td>
+<td style="text-align: center;">2658</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><code>FST-611</code></td>
+<td style="text-align: center;">1811</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;"><code>STC-701</code></td>
+<td style="text-align: center;">2700</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;"><code>FST-612</code></td>
+<td style="text-align: center;">1939</td>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;"><code>STC-702</code></td>
+<td style="text-align: center;">2742</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;"><code>FST-613</code></td>
+<td style="text-align: center;">1981</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;"><code>STC-703</code></td>
+<td style="text-align: center;">2784</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="pola-temuan-yang-perlu-diperhatikan">Pola Temuan yang Perlu Diperhatikan</h3>
+<p><strong>Seluruh 6 MK peminatan P2 (<code>STB-501</code> s.d. <code>STB-703</code>) dan seluruh 6 MK peminatan P3 (<code>STC-501</code> s.d. <code>STC-703</code>) hanya memiliki 3 CPMK</strong>, sementara peminatan P1 (<code>STA</code>) memiliki 4 CPMK pada 4 dari 6 MK-nya.</p>
+<p>Ini menciptakan <strong>ketidaksetaraan kedalaman asesmen antar peminatan</strong>, padahal <code>AGENTS.md</code> menegaskan ketiga peminatan harus "seimbang" (masing-masing 6 MK / 18 SKS). Kesetaraan SKS terpenuhi, tetapi kesetaraan granularitas CPMK tidak.</p>
+<h3 id="catatan-penting-bobot-asesmennya-sendiri-bersih-sempurna">Catatan Penting: Bobot Asesmennya Sendiri Bersih Sempurna</h3>
+<p>Perlu ditegaskan bahwa masalahnya <strong>bukan</strong> pada bobot asesmen:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek Asesmen</th>
+<th style="text-align: center;">Hasil Audit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MK dengan tepat 4 titik asesmen berbobot</td>
+<td style="text-align: center;"><strong>65/65</strong> ✅</td>
+</tr>
+<tr>
+<td>MK dengan total bobot tepat 100%</td>
+<td style="text-align: center;"><strong>65/65</strong> ✅</td>
+</tr>
+<tr>
+<td>Pola MK Teori <code>20/30/20/30</code></td>
+<td style="text-align: center;">28 MK ✅</td>
+</tr>
+<tr>
+<td>Pola MK non-Teori <code>20/25/25/30</code></td>
+<td style="text-align: center;">37 MK ✅</td>
+</tr>
+</tbody>
+</table></div>
+<p>Pola sepenuhnya sesuai ground truth (Tugas 1 20%, UTS 25–30%, Tugas 2 20–25%, UAS 30%) tanpa satu pun pengecualian. Tipe non-Teori yang memakai pola praktikum adalah <code>+P</code> (32 MK), <code>Praktik</code> (<code>MKU-507</code>), <code>Proyek</code> (<code>FST-610</code>), <code>Magang</code> (<code>FST-612</code>), <code>Seminar</code> (<code>FST-613</code>), dan <code>Mandiri</code> (<code>FST-714</code>).</p>
+<p>Jadi persoalannya murni di <strong>sisi jumlah CPMK</strong>, bukan di sisi bobot.</p>
+<h3 id="temuan-turunan-keterlacakan-asesmencpmk-bersifat-implisit">Temuan Turunan: Keterlacakan Asesmen→CPMK Bersifat Implisit</h3>
+<p>Pemeriksaan tambahan menunjukkan:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Elemen</th>
+<th style="text-align: center;">Jumlah Baris Diperiksa</th>
+<th style="text-align: center;">Baris yang Mencantumkan Kode CPMK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Baris asesmen berbobot</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;"><strong>0</strong></td>
+</tr>
+<tr>
+<td>Baris matriks 16 pertemuan</td>
+<td style="text-align: center;">1.040</td>
+<td style="text-align: center;"><strong>0</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Kolom asesmen <strong>tidak pernah menyebut kode CPMK secara eksplisit</strong>, demikian pula baris Sub-CPMK pada matriks pertemuan. Keterkaitan asesmen ke CPMK hanya dapat disimpulkan dari urutan pekan (Pekan 4 → CPMK-1, Pekan 8 → CPMK-2, dst.), tidak tertulis. Bagi asesor LAM INFOKOM yang menuntut bukti <em>constructive alignment</em>, keterlacakan implisit ini sulit dipertahankan.</p>
+<h3 id="opsi-penyelesaian">Opsi Penyelesaian</h3>
+<p>Dua jalur yang tersedia, keduanya memerlukan keputusan Tim Pengembang Kurikulum:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Opsi</th>
+<th>Tindakan</th>
+<th style="text-align: center;">Volume Kerja</th>
+<th>Konsekuensi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>A</strong></td>
+<td>Tambahkan CPMK ke-4 pada 31 MK, dan CPMK ke-3 + ke-4 pada 3 MK MKWU</td>
+<td style="text-align: center;">31 MK</td>
+<td>Pemetaan 1-to-1 utuh; konsisten dengan <code>AGENTS.md</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>B</strong></td>
+<td>Longgarkan narasi menjadi "Tugas 2 dan UAS dapat memetakan ke CPMK yang sama"</td>
+<td style="text-align: center;">3 dokumen (007, 008, Buku)</td>
+<td>Lebih cepat; tetapi melemahkan klaim 1-to-1 dan perlu revisi <code>AGENTS.md</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rekomendasi:</strong> Opsi A untuk 12 MK peminatan STB/STC (agar setara dengan STA), dan Opsi B untuk 3 MK MKWU (karena MKWU 2 SKS wajar hanya punya 2–3 CPMK).</p>
+<hr />
+<h2 id="p1-2-rantai-prasyarat-dokumen-007-menyimpang-dari-dokumen-005-pada-19-mata-kuliah">P1-2. RANTAI PRASYARAT DOKUMEN 007 MENYIMPANG DARI DOKUMEN 005 PADA 19 MATA KULIAH</h2>
+<h3 id="deskripsi-temuan_4">Deskripsi Temuan</h3>
+<p>Dokumen <code>005</code> adalah <em>single source of truth</em> untuk struktur dan prasyarat. Namun <code>007</code> (silabus) memuat prasyarat yang berbeda pada 19 dari 65 MK. Dokumen <code>012_ANALISIS_KRITIS_JALUR_PONDASI_DAN_TREE_PRASYARAT.md</code> yang seharusnya memvalidasi hal ini tampaknya tidak menangkap penyimpangan tersebut.</p>
+<h3 id="p1-2a-pelanggaran-urutan-semester-prasyarat-tidak-mungkin-terpenuhi">P1-2a. Pelanggaran Urutan Semester — Prasyarat Tidak Mungkin Terpenuhi</h3>
+<p>Ini temuan paling serius pada kelompok prasyarat:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris 007</th>
+<th>Mata Kuliah</th>
+<th>Prasyarat di 007</th>
+<th>Masalah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>1050</strong></td>
+<td><code>STI-413</code> Machine Learning (<strong>Sem 4</strong>)</td>
+<td><code>FST-207</code>, <strong><code>FST-408</code></strong></td>
+<td><strong><code>FST-408</code> Probabilitas &amp; Statistika juga di Semester 4.</strong> Prasyarat sesemester secara akademik tidak dapat dipenuhi — mahasiswa tidak mungkin sudah lulus MK yang baru ditempuh bersamaan.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Prasyarat yang benar menurut <code>005:128</code> adalah <code>STI-205</code> Aljabar Linear (Sem 2) dan <code>STI-307</code> Sistem Cerdas (Sem 3) — keduanya mendahului Semester 4 dan secara substansi lebih tepat sebagai fondasi Machine Learning.</p>
+<h3 id="p1-2b-prasyarat-hilang-atau-berkurang-9-mk-risiko-akademik">P1-2b. Prasyarat Hilang atau Berkurang (9 MK) — Risiko Akademik</h3>
+<p>Mahasiswa dapat mengambil mata kuliah tanpa fondasi yang diperlukan:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris 007</th>
+<th>Mata Kuliah</th>
+<th>Prasyarat di 007</th>
+<th>Seharusnya (005)</th>
+<th>Yang Hilang</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">666</td>
+<td><code>FST-207</code> Sistem Basis Data</td>
+<td><strong>Tidak Ada</strong></td>
+<td><code>FST-102</code></td>
+<td>Algoritma &amp; Pemrograman</td>
+</tr>
+<tr>
+<td style="text-align: center;">836</td>
+<td><code>STI-308</code> UI/UX Design</td>
+<td><strong>Tidak Ada</strong></td>
+<td><code>FST-101</code></td>
+<td>Dasar Teknologi Digital</td>
+</tr>
+<tr>
+<td style="text-align: center;">751</td>
+<td><code>STI-306</code> APSI</td>
+<td><code>STI-101</code></td>
+<td><code>STI-101</code>, <code>FST-207</code></td>
+<td>Sistem Basis Data</td>
+</tr>
+<tr>
+<td style="text-align: center;">1136</td>
+<td><code>STI-416</code> Web Back End</td>
+<td><code>STI-311</code></td>
+<td><code>FST-207</code>, <code>STI-311</code></td>
+<td>Sistem Basis Data</td>
+</tr>
+<tr>
+<td style="text-align: center;">1434</td>
+<td><code>STI-520</code> Data Mining</td>
+<td><code>STI-415</code></td>
+<td><code>STI-413</code>, <code>STI-415</code></td>
+<td>Machine Learning</td>
+</tr>
+<tr>
+<td style="text-align: center;">1563</td>
+<td><code>STI-523</code> Manajemen Proyek TI</td>
+<td><code>STI-306</code></td>
+<td><code>STI-306</code>, <code>STI-309</code></td>
+<td>Rekayasa Perangkat Lunak</td>
+</tr>
+<tr>
+<td style="text-align: center;">1648</td>
+<td><code>STI-624</code> Integrasi Layanan Cerdas AI</td>
+<td><code>STI-519</code></td>
+<td><code>STI-519</code>, <code>STI-416</code></td>
+<td>Web Back End</td>
+</tr>
+<tr>
+<td style="text-align: center;">1861</td>
+<td><code>STI-728</code> Startup Digital</td>
+<td><code>MKU-204</code></td>
+<td><code>STI-627</code>, <code>MKU-204</code></td>
+<td>Digital Platform Engineering</td>
+</tr>
+<tr>
+<td style="text-align: center;">1904</td>
+<td><code>FST-610</code> Capstone Project FSTI</td>
+<td>hanya ambang SKS</td>
+<td><code>STI-523</code>, ≥100 SKS</td>
+<td>Manajemen Proyek TI</td>
+</tr>
+</tbody>
+</table></div>
+<p>Yang paling berisiko: <code>FST-207 Sistem Basis Data</code> tanpa prasyarat <code>FST-102 Algoritma dan Pemrograman</code>, dan <code>STI-416 Web Back End</code> tanpa prasyarat basis data — keduanya membuat mahasiswa dapat masuk MK teknis tanpa kemampuan pemrograman dasar.</p>
+<h3 id="p1-2c-prasyarat-berbeda-total-7-mk">P1-2c. Prasyarat Berbeda Total (7 MK)</h3>
+<p>Bukan sekadar berkurang, tetapi merujuk mata kuliah yang sama sekali lain:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris 007</th>
+<th>Mata Kuliah</th>
+<th>Prasyarat di 007</th>
+<th>Seharusnya (005)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">879</td>
+<td><code>STI-309</code> Rekayasa Perangkat Lunak</td>
+<td><code>FST-205</code></td>
+<td><strong><code>FST-203</code></strong> Struktur Data</td>
+</tr>
+<tr>
+<td style="text-align: center;">922</td>
+<td><code>STI-310</code> Sistem Operasi</td>
+<td><code>FST-204</code></td>
+<td><strong><code>STI-103</code></strong> Arsitektur &amp; Organisasi Sistem TI</td>
+</tr>
+<tr>
+<td style="text-align: center;">1007</td>
+<td><code>STI-312</code> Jaringan Komputer</td>
+<td><code>FST-101</code></td>
+<td><strong><code>STI-103</code></strong> Arsitektur &amp; Organisasi Sistem TI</td>
+</tr>
+<tr>
+<td style="text-align: center;">1050</td>
+<td><code>STI-413</code> Machine Learning</td>
+<td><code>FST-207</code>, <code>FST-408</code></td>
+<td><strong><code>STI-205</code>, <code>STI-307</code></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">1520</td>
+<td><code>STI-522</code> Pemrograman Mobile</td>
+<td><code>FST-203</code>, <code>STI-311</code></td>
+<td><strong><code>STI-311</code>, <code>STI-416</code></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">1691</td>
+<td><code>STI-625</code> Smart City</td>
+<td><code>STI-101</code></td>
+<td><strong><code>STI-521</code></strong> Internet of Things</td>
+</tr>
+<tr>
+<td style="text-align: center;">581</td>
+<td><code>FST-205</code></td>
+<td><code>FST-102</code></td>
+<td>Tanpa prasyarat (konsekuensi P0-1)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Penyimpangan pada <code>STI-310</code> dan <code>STI-312</code> sangat perlu diperhatikan: keduanya seharusnya berfondasi pada <code>STI-103</code>, yang merupakan <strong>konsensus final</strong> dalam <code>AGENTS.md</code> (<em>"Jaringan komputer memerlukan pemahaman datapath, bus biner, dan arsitektur hardware Sem 1"</em>). Penyimpangan ini justru meruntuhkan rasionalisasi keberadaan <code>STI-103</code>.</p>
+<p>Perlu dicatat pula bahwa <code>STI-625 Smart City</code> mengalami <strong>dua kesalahan sekaligus</strong> — SKS salah (P0-3c) dan prasyarat salah.</p>
+<h3 id="p1-2d-ambang-sks-tidak-sinkron-6-mk-semua-lebih-ketat-dari-005">P1-2d. Ambang SKS Tidak Sinkron (6 MK) — Semua Lebih Ketat dari 005</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Mata Kuliah</th>
+<th style="text-align: center;">Baris 007</th>
+<th style="text-align: center;">Ambang di 007</th>
+<th style="text-align: center;">Ambang di 005</th>
+<th style="text-align: center;">Selisih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MKU-507</code> KPM</td>
+<td style="text-align: center;">1606</td>
+<td style="text-align: center;">≥ 90 SKS</td>
+<td style="text-align: center;">≥ 80 SKS</td>
+<td style="text-align: center;">+10 SKS</td>
+</tr>
+<tr>
+<td><code>FST-611</code> Metodologi Penelitian</td>
+<td style="text-align: center;">1819</td>
+<td style="text-align: center;">≥ 100 SKS</td>
+<td style="text-align: center;">≥ 76 SKS</td>
+<td style="text-align: center;"><strong>+24 SKS</strong></td>
+</tr>
+<tr>
+<td><code>FST-610</code> Capstone Project</td>
+<td style="text-align: center;">1904</td>
+<td style="text-align: center;">≥ 110 SKS</td>
+<td style="text-align: center;">≥ 100 SKS + <code>STI-523</code></td>
+<td style="text-align: center;">+10 SKS</td>
+</tr>
+<tr>
+<td><code>FST-612</code> PKL</td>
+<td style="text-align: center;">1947</td>
+<td style="text-align: center;">≥ 100 SKS</td>
+<td style="text-align: center;">≥ 100 SKS</td>
+<td style="text-align: center;">✅ Sesuai</td>
+</tr>
+<tr>
+<td><code>FST-613</code> Pra-Skripsi</td>
+<td style="text-align: center;">1989</td>
+<td style="text-align: center;">hanya lulus <code>FST-611</code></td>
+<td style="text-align: center;"><code>FST-611</code> + ≥ 100 SKS</td>
+<td style="text-align: center;">Ambang hilang</td>
+</tr>
+<tr>
+<td><code>FST-714</code> Skripsi</td>
+<td style="text-align: center;">2031</td>
+<td style="text-align: center;">hanya lulus <code>FST-613</code></td>
+<td style="text-align: center;"><code>FST-613</code> + ≥ 120 SKS</td>
+<td style="text-align: center;">Ambang hilang</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Analisis <code>FST-611</code>:</strong> ambang ≥100 SKS di <code>007</code> masih <em>dapat</em> dipenuhi karena kumulatif akhir Semester 5 adalah 101 SKS. Namun margin-nya hanya 1 SKS — artinya <strong>mahasiswa yang mengulang satu mata kuliah 2 SKS di semester manapun akan terhalang mengambil Metodologi Penelitian di Semester 6</strong>, yang kemudian menunda Pra-Skripsi dan Skripsi secara berantai. Ambang ≥76 SKS pada <code>005</code> jauh lebih aman dan itulah yang menjadi konsensus.</p>
+<p><strong>Analisis <code>FST-613</code> dan <code>FST-714</code>:</strong> hilangnya ambang SKS justru melonggarkan syarat, memungkinkan mahasiswa mendaftar Skripsi hanya dengan lulus Pra-Skripsi tanpa memenuhi 120 SKS. Ini bertentangan dengan praktik penjaminan mutu.</p>
+<h3 id="dampak-terhadap-dokumen-015-simulasi-akselerasi-7-semester">Dampak Terhadap Dokumen 015 (Simulasi Akselerasi 7 Semester)</h3>
+<p>Dokumen <code>015_SIMULASI_AKSELERASI_KELULUSAN_7_SEMESTER.md</code> menyusun simulasi kelulusan 3,5 tahun berdasarkan rantai prasyarat. Karena rantai prasyarat di <code>007</code> berbeda dari <code>005</code> pada 19 MK, <strong>simulasi akselerasi tersebut perlu divalidasi ulang</strong> setelah rantai prasyarat disatukan. Audit ini tidak memeriksa dokumen 015 secara mendalam.</p>
+<hr />
+<h2 id="p1-3-rekapitulasi-sks-pembina-cpl-di-dokumen-004-5-tidak-dapat-direproduksi">P1-3. REKAPITULASI SKS PEMBINA CPL DI DOKUMEN 004 §5 TIDAK DAPAT DIREPRODUKSI</h2>
+<h3 id="deskripsi-temuan_5">Deskripsi Temuan</h3>
+<p>Dokumen <code>004</code> §5 (baris 183–198) menyajikan tabel "Jumlah MK Pembina" dan "Total SKS Pembina Langsung" untuk masing-masing 14 CPL. <strong>12 dari 14 baris tidak dapat direkonstruksi</strong> dari matriks §3.1–3.4 pada dokumen yang sama.</p>
+<h3 id="tabel-perbandingan-klaim-5-vs-hitung-ulang-matriks-3">Tabel Perbandingan Klaim §5 vs Hitung Ulang Matriks §3</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th>Klaim §5 (MK)</th>
+<th style="text-align: center;">Klaim §5 (SKS)</th>
+<th style="text-align: center;">Hitung Ulang §3 (MK)</th>
+<th style="text-align: center;">Hitung Ulang §3 (SKS)</th>
+<th style="text-align: center;">Selisih SKS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">S1</td>
+<td>7 MK + Capstone + TA</td>
+<td style="text-align: center;"><strong>21</strong></td>
+<td style="text-align: center;">9 MK</td>
+<td style="text-align: center;"><strong>23</strong></td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU1</td>
+<td>10 MK + Capstone + TA</td>
+<td style="text-align: center;"><strong>29</strong></td>
+<td style="text-align: center;">10 MK</td>
+<td style="text-align: center;"><strong>30</strong></td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU2</td>
+<td>6 MK + Capstone + TA</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">✅ <strong>0</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KU3</td>
+<td>4 MK + Capstone + TA</td>
+<td style="text-align: center;"><strong>14</strong></td>
+<td style="text-align: center;">5 MK</td>
+<td style="text-align: center;"><strong>17</strong></td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr>
+<td style="text-align: center;">P1</td>
+<td>7 MK</td>
+<td style="text-align: center;"><strong>20</strong></td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;"><strong>21</strong></td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr>
+<td style="text-align: center;">P2</td>
+<td>12 MK</td>
+<td style="text-align: center;"><strong>34</strong></td>
+<td style="text-align: center;">11 MK</td>
+<td style="text-align: center;"><strong>32</strong></td>
+<td style="text-align: center;">−2</td>
+</tr>
+<tr>
+<td style="text-align: center;">P3</td>
+<td>10 MK</td>
+<td style="text-align: center;"><strong>28</strong></td>
+<td style="text-align: center;">10 MK</td>
+<td style="text-align: center;"><strong>30</strong></td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr>
+<td style="text-align: center;">P4</td>
+<td>11 MK</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">10 MK</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">✅ <strong>0</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KK1</td>
+<td>5 MK Inti + 6 MK P1</td>
+<td style="text-align: center;"><strong>33</strong></td>
+<td style="text-align: center;">8 MK</td>
+<td style="text-align: center;"><strong>25</strong></td>
+<td style="text-align: center;"><strong>−8</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KK2</td>
+<td>4 MK + 2 MK P1</td>
+<td style="text-align: center;"><strong>18</strong></td>
+<td style="text-align: center;">6 MK</td>
+<td style="text-align: center;"><strong>21</strong></td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK3</td>
+<td>7 MK + 3 MK P2</td>
+<td style="text-align: center;"><strong>30</strong></td>
+<td style="text-align: center;">10 MK</td>
+<td style="text-align: center;"><strong>31</strong></td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK4</td>
+<td>3 MK + 5 MK P2</td>
+<td style="text-align: center;"><strong>24</strong></td>
+<td style="text-align: center;">4 MK</td>
+<td style="text-align: center;"><strong>15</strong></td>
+<td style="text-align: center;"><strong>−9</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KK5</td>
+<td>7 MK + 5 MK P3</td>
+<td style="text-align: center;"><strong>36</strong></td>
+<td style="text-align: center;">9 MK</td>
+<td style="text-align: center;"><strong>30</strong></td>
+<td style="text-align: center;"><strong>−6</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KK6</td>
+<td>4 MK + 2 MK P3</td>
+<td style="text-align: center;"><strong>21</strong></td>
+<td style="text-align: center;">7 MK</td>
+<td style="text-align: center;"><strong>20</strong></td>
+<td style="text-align: center;">−1</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="analisis-mengapa-angka-ini-tidak-dapat-dipertahankan">Analisis Mengapa Angka Ini Tidak Dapat Dipertahankan</h3>
+<p>Sebagian selisih <strong>dapat</strong> dijelaskan karena §5 memasukkan MK elektif sementara §3 tidak merincinya per-CPL. Namun penjelasan tersebut <strong>tidak konsisten dengan arah selisihnya</strong>:</p>
+<ul>
+<li>Jika §5 memasukkan elektif, maka angka §5 seharusnya <strong>selalu lebih besar</strong> dari §3.</li>
+<li>Kenyataannya: KK1 (33 vs 25, lebih besar) tetapi KK4 (24 vs 15, lebih besar) berdampingan dengan S1 (21 vs 23, lebih kecil) dan KU3 (14 vs 17, lebih kecil).</li>
+<li>Arah selisih yang tidak konsisten membuktikan <strong>tidak ada satu pun formula perhitungan yang dapat menghasilkan seluruh 14 angka tersebut</strong>.</li>
+</ul>
+<p>Konsekuensinya, <code>004</code> §8 baris 335 mengklaim <em>"Seluruh 14 CPL terlayani secara adil dan proporsional dengan alokasi SKS yang solid"</em> — sebuah klaim yang <strong>tidak didukung oleh tabel di atasnya</strong>. Asesor yang melakukan verifikasi silang akan menemukan bahwa dasar klaim tersebut tidak dapat direproduksi.</p>
+<h3 id="temuan-terkait-deskripsi-ringkas-ku3-di-004188-salah-domain">Temuan Terkait: Deskripsi Ringkas KU3 di <code>004:188</code> Salah Domain</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Sumber</th>
+<th>Rumusan / Deskripsi KU3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>004:188</code></strong> (SALAH)</td>
+<td>"<strong>Tanggung jawab etis, kepatuhan regulasi siber &amp; hukum digital</strong>" — 4 MK Wajib + Capstone + TA / 14 SKS</td>
+</tr>
+<tr>
+<td><code>003:63</code> = <code>009B:16</code> = <code>009E:17</code> = <code>011:58</code> (BENAR, keempatnya sepakat)</td>
+<td>"Mampu <strong>mengambil keputusan</strong> yang tepat berdasarkan <strong>analisis data dan informasi</strong>, bertanggung jawab atas pencapaian hasil kerja kelompok, melakukan <strong>evaluasi diri</strong>, serta mengelola <strong>pembelajaran mandiri sepanjang hayat</strong>."</td>
+</tr>
+</tbody>
+</table></div>
+<p>Deskripsi pada <code>004:188</code> menggambarkan konten <strong>CPL S1 (Sikap) atau P3 (Pengetahuan Infrastruktur &amp; Etika)</strong>, sama sekali bukan KU3. Karena <code>004</code> adalah dokumen matriks keterlacakan utama yang dibaca asesor lebih dulu, kesalahan substantif di sini berdampak langsung pada kredibilitas seluruh matriks.</p>
+<h3 id="temuan-terkait-cakupan-cpl-bersih-namun-kk4-rawan">Temuan Terkait: Cakupan CPL Bersih, Namun <code>KK4</code> Rawan</h3>
+<p>Sisi positifnya, <strong>tidak ada CPL orphan</strong>. Hasil parsing 55 baris MK pada Tabel 3.1–3.4 (total terhitung <strong>tepat 146 SKS</strong> ✅):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th style="text-align: center;">Jml MK Pembina</th>
+<th style="text-align: center;">CPL Orphan?</th>
+<th>Catatan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">S1</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU1</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">P1</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">P2</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">P3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">P4</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK1</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK3</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>KK4</strong></td>
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: center;">Tidak</td>
+<td>⚠️ <strong>Paling tipis</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KK5</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK6</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Tidak</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Risiko pada KK4 (Tata Kelola &amp; Audit TI):</strong> hanya dibina 4 MK di jalur wajib — <code>STI-626</code>, <code>FST-610</code>, <code>FST-612</code>, <code>FST-714</code>. Penopang riilnya berada pada 5 MK elektif <code>STB</code> (<code>004:159-164</code>), tetapi <strong>elektif tidak wajib bagi mahasiswa peminatan P1 atau P3</strong>.</p>
+<p>Artinya, mahasiswa jalur P1 (Integrated Smart Systems) atau P3 (Digital Platform Engineering) mencapai KK4 <strong>hanya melalui Keamanan Informasi Lanjut ditambah Capstone/PKL/Skripsi</strong>. Ini titik lemah yang hampir pasti ditanyakan asesor: <em>"Bagaimana Prodi menjamin CPL KK4 tercapai oleh seluruh lulusan, bukan hanya lulusan peminatan P2?"</em></p>
+<h3 id="temuan-format-terkait">Temuan Format Terkait</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Lokasi</th>
+<th>Temuan</th>
+<th>Dampak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>004:76</code> (<code>MKU-204</code> Kewirausahaan I)</td>
+<td>Baris memiliki <strong>22 kolom</strong>, sedangkan header dan 54 baris lainnya <strong>21 kolom</strong> (ada satu pipe berlebih)</td>
+<td>Menggeser seluruh sel satu kolom ke kanan saat dikonversi ke Excel/Word</td>
+</tr>
+<tr>
+<td><code>004</code> §3 baris 50–53</td>
+<td>Legenda hanya mendefinisikan <code>I</code>/<code>R</code>/<code>M</code>; <strong>simbol <code>*</code> tidak didefinisikan</strong></td>
+<td>6 baris <code>STA/B/C</code> (baris 113, 120, 121, 133, 134, 135) memakai <code>*</code> yang bermakna "bergantung paket peminatan" — tanpa legenda, asesor akan membacanya sebagai sel kosong</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="p1-4-rumusan-tekstual-cpl-berbeda-substantif-antar-file">P1-4. RUMUSAN TEKSTUAL CPL BERBEDA SUBSTANTIF ANTAR FILE</h2>
+<h3 id="deskripsi-temuan_6">Deskripsi Temuan</h3>
+<p>Rumusan CPL adalah <strong>objek penilaian utama</strong> asesor LAM INFOKOM. Rumusan yang berbeda antar dokumen resmi membuat asesor tidak dapat menentukan mana yang berlaku. Audit menemukan 4 kelompok penyimpangan substantif.</p>
+<h3 id="p1-4a-kk3-kehilangan-komponen-iot-temuan-paling-berdampak">P1-4a. <code>KK3</code> Kehilangan Komponen IoT — Temuan Paling Berdampak</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Sumber</th>
+<th>Rumusan KK3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>003</code> = <code>009D</code> (identik verbatim)</td>
+<td>"…infrastruktur cloud (Cloud/DevOps), <strong>sistem sensor cerdas (IoT)</strong>, dan ketahanan siber"</td>
+</tr>
+<tr>
+<td><strong><code>011:65</code></strong></td>
+<td>"…cloud, keamanan siber, DevOps (CI/CD, containerization, IaC)" — <strong>komponen IoT hilang</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Yang membuat temuan ini serius: pada baris yang sama, <code>011</code> <strong>tetap menuliskan</strong> kolom Fokus sebagai <em>"Cloud, </em><em>IoT</em><em> &amp; infrastruktur terintegrasi"</em>. Jadi dokumen tersebut menyebut IoT di kolom fokus tetapi menghilangkannya dari rumusan CPL.</p>
+<p>Dampak berantai: IoT adalah <strong>penciri PL-2 (Cloud Infra, Cyber &amp; Smart Sys)</strong> dan dipetakan ke <code>BK-IT14</code>. Karena <code>011</code> adalah dokumen yang diekspor ke Excel dan Word untuk lampiran akreditasi, versi tanpa IoT inilah yang berpotensi terbaca asesor.</p>
+<h3 id="p1-4b-p4-bergeser-domain-dari-rekayasa-perangkat-lunak-ke-pengelolaan-data">P1-4b. <code>P4</code> Bergeser Domain dari Rekayasa Perangkat Lunak ke Pengelolaan Data</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Sumber</th>
+<th>Rumusan P4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>003:71</code> = <code>009C:17</code> (identik verbatim)</td>
+<td>"<strong>Menguasai prinsip rekayasa perangkat lunak modern</strong> (web, mobile, <strong>distributed</strong>), manajemen basis data relasional/NoSQL…"</td>
+</tr>
+<tr>
+<td><strong><code>011:62</code></strong></td>
+<td>"<strong>Memahami konsep pengelolaan data</strong>, basis data, analitik data…"</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ini bukan peringkasan, melainkan <strong>perubahan domain CPL</strong>. Rekayasa perangkat lunak modern (web, mobile, distributed) hilang sepenuhnya, digantikan fokus pada data. Padahal <code>P4</code> adalah CPL yang menopang <code>PL-3 (UI/UX &amp; Digital Platform Eng)</code> dan seluruh jalur Web/Mobile pada struktur kurikulum.</p>
+<h3 id="p1-4c-verba-p1p4-di-dokumen-011-turun-level-bloom">P1-4c. Verba <code>P1</code>–<code>P4</code> di Dokumen 011 Turun Level Bloom</h3>
+<p>Dokumen <code>011</code> Sheet 3 secara sistematis menurunkan level verba dibanding <code>003</code>/<code>009C</code>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th><code>003</code> &amp; <code>009C</code> (identik)</th>
+<th><code>011</code> Sheet 3</th>
+<th>Perubahan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">P1</td>
+<td>"<strong>Menguasai</strong> konsep dasar sains…" (<code>003:68</code> / <code>009C:14</code>)</td>
+<td>"<strong>Mempunyai pengetahuan</strong> dasar sains…" (<code>011:59</code>)</td>
+<td>C4 → C2</td>
+</tr>
+<tr>
+<td style="text-align: center;">P2</td>
+<td>"<strong>Menguasai konsep teoretis</strong> sistem informasi, analisis &amp; perancangan sistem, <strong>arsitektur enterprise</strong>…" (<code>003:69</code>)</td>
+<td>"<strong>Memahami konsep dasar</strong> sistem informasi…" (<code>011:60</code>) — <strong>klausa arsitektur enterprise hilang</strong></td>
+<td>C4 → C2 + kehilangan komponen</td>
+</tr>
+<tr>
+<td style="text-align: center;">P3</td>
+<td>"<strong>Menguasai</strong> prinsip dan konsep infrastruktur TI…" (<code>003:70</code>)</td>
+<td>"<strong>Memahami</strong> konsep infrastruktur TI… <strong>etika digital</strong>…" (<code>011:61</code>) — menambah "etika digital" yang tidak ada di <code>003</code></td>
+<td>C4 → C2 + penambahan</td>
+</tr>
+<tr>
+<td style="text-align: center;">P4</td>
+<td>Lihat P1-4b</td>
+<td>Lihat P1-4b</td>
+<td>C4 → C2 + pergeseran domain</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Mengapa ini dipersoalkan asesor:</strong> kolom "Target Bloom" pada <strong>semua</strong> file (termasuk <code>011</code> itu sendiri) secara konsisten menyatakan <code>P1 = C3</code> dan <code>P2</code>–<code>P4</code> = <code>C4</code>. Verba "memahami" dan "mempunyai pengetahuan" berada pada level <strong>C2 (Understand)</strong>, sehingga <strong>verba rumusan bertentangan dengan level Bloom yang diklaim</strong> dalam dokumen yang sama.</p>
+<h3 id="p1-4d-kk1-dan-kk6-kehilangan-komponen-di-dokumen-011">P1-4d. <code>KK1</code> dan <code>KK6</code> Kehilangan Komponen di Dokumen 011</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th><code>003</code> = <code>009D</code> (identik verbatim)</th>
+<th><code>011</code> Sheet 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">KK1</td>
+<td>"…(AI/ML, <strong>NLP, Computer Vision, Smart Sys, DSS</strong>)"</td>
+<td>"…berbasis <strong>AI/ML</strong>" (<code>011:63</code>) — <strong>4 teknologi penciri hilang</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KK6</td>
+<td>"<strong>merancang, memvalidasi model bisnis (Lean Startup/MVP)</strong>, mengelola proyek agile, serta <strong>mendirikan usaha rintisan</strong>"</td>
+<td>"merancang dan mengelola <strong>proyek startup</strong>… (lean startup, MVP, <strong>scaling</strong>…)" (<code>011:68</code>)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Kehilangan pada <code>KK1</code> melemahkan penciri <strong>peminatan P1 (flagship)</strong>: NLP, Computer Vision, Smart Systems, dan DSS adalah tepat empat domain yang membedakan SISTEKIN dari Prodi TI menurut <em>distinctive positioning</em> dalam <code>AGENTS.md</code>.</p>
+<h3 id="p1-4e-ku2-memiliki-dua-cakupan-pemangku-kepentingan-yang-berbeda">P1-4e. <code>KU2</code> Memiliki Dua Cakupan Pemangku Kepentingan yang Berbeda</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Sumber</th>
+<th>Rumusan KU2 (bagian akhir)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>003:62</code></td>
+<td>"…serta memelihara dan mengembangkan jaringan kerja <strong>kolaboratif dengan pemangku kepentingan industri</strong>."</td>
+</tr>
+<tr>
+<td><code>009B:15</code></td>
+<td>"…serta memelihara dan mengembangkan jaringan kerja <strong>profesional lintas disiplin</strong>."</td>
+</tr>
+<tr>
+<td><code>011:57</code></td>
+<td>"Mampu <strong>mengkomunikasikan gagasan, analisis, dan solusi teknis</strong>… jaringan kerja <strong>profesional</strong>"</td>
+</tr>
+</tbody>
+</table></div>
+<p>"Pemangku kepentingan industri" mempersempit cakupan ke DUDI, sedangkan "lintas disiplin" adalah kompetensi kolaborasi yang lebih luas. Selain itu <code>003</code>/<code>009B</code> menyebut objek komunikasi sebagai <strong>"rancangan arsitektur"</strong> sementara <code>011</code> menyebut <strong>"analisis"</strong>.</p>
+<p>Karena <code>KU2</code> diturunkan dari SN-Dikti KU4 dan KU6, rumusan yang paling dapat dipertahankan secara regulasi adalah <strong>versi <code>009B</code></strong>.</p>
+<h3 id="p1-4f-s1-dokumen-003-menjadi-outlier">P1-4f. <code>S1</code> — Dokumen 003 Menjadi Outlier</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Sumber</th>
+<th>Rumusan S1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>003:56</code></strong> (outlier)</td>
+<td>"…menginternalisasi nilai, norma, <strong>etika digital dan hukum profesi</strong>, menjunjung tinggi kejujuran dan <strong>integritas</strong>, <strong>mampu</strong> bekerja sama…"</td>
+</tr>
+<tr>
+<td><code>009A:12</code> = <code>011:55</code> (identik)</td>
+<td>"…menginternalisasi nilai, norma, <strong>dan etika digital</strong>, menjunjung tinggi kejujuran dan <strong>profesionalisme</strong>, bekerja sama…"</td>
+</tr>
+</tbody>
+</table></div>
+<p>Versi <code>003</code> memuat elemen tambahan ("hukum profesi", "integritas") yang tidak ada pada dua file lain. <strong>Dua dari tiga file sepakat</strong>, sehingga <code>003</code> adalah outlier — meskipun <code>003</code> justru berstatus master dokumen CPL. Arah koreksi perlu ditetapkan eksplisit oleh Tim Pengembang.</p>
+<h3 id="aspek-rumusan-cpl-yang-terverifikasi-bersih">Aspek Rumusan CPL yang Terverifikasi Bersih</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Perbandingan</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>003</code> ↔ <code>009C</code> untuk <code>P1</code>–<code>P4</code></td>
+<td style="text-align: center;">✅ <strong>Identik verbatim</strong></td>
+</tr>
+<tr>
+<td><code>003</code> ↔ <code>009D</code> untuk <code>KK1</code>–<code>KK6</code></td>
+<td style="text-align: center;">✅ <strong>Identik verbatim</strong></td>
+</tr>
+<tr>
+<td>Target Bloom 14 CPL di 6 file (<code>003</code>, <code>009A</code>–<code>009E</code>, <code>009_LANGKAH2</code>)</td>
+<td style="text-align: center;">✅ <strong>Konsisten 100%</strong> (S1=A3; KU1=C4; KU2/KU3=C5; P1=C3; P2–P4=C4; KK1–KK3/KK5/KK6=C6; KK4=C5)</td>
+</tr>
+<tr>
+<td><code>003</code> ↔ <code>009B</code> untuk <code>KU1</code></td>
+<td style="text-align: center;">⚠️ Kosmetik saja ("permasalahan <strong>komputasi</strong>" vs "permasalahan <strong>computing</strong>")</td>
+</tr>
+<tr>
+<td><code>009E</code> sebagai ringkasan</td>
+<td style="text-align: center;">✅ Sah — sudah menandai diri sebagai "Ringkasan Rumusan", bukan rumusan normatif</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="p1-5-matriks-cplpl-memiliki-tiga-versi-dan-peocpl-memiliki-dua-versi">P1-5. MATRIKS <code>CPL↔PL</code> MEMILIKI TIGA VERSI DAN <code>PEO↔CPL</code> MEMILIKI DUA VERSI</h2>
+<h3 id="p1-5a-tiga-versi-matriks-cpl-profil-lulusan">P1-5a. Tiga Versi Matriks CPL ↔ Profil Lulusan</h3>
+<p>Yang paling problematis: <strong>dokumen <code>011</code> bertentangan dengan dirinya sendiri</strong> — Sheet 3 dan Sheet 4 memberikan pemetaan berbeda untuk CPL yang sama.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th><code>011</code> Sheet 3 (kolom "PL Terkait")</th>
+<th><code>011</code> Sheet 4 (matriks ✓)</th>
+<th><code>003</code> §6 = <code>009E</code> §4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">KU1</td>
+<td>PL-1, PL-2</td>
+<td>PL-1, PL-2, PL-3, PL-4</td>
+<td>Seluruh PL</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU2</td>
+<td>PL-3, PL-4</td>
+<td>Seluruh PL</td>
+<td>Seluruh PL</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU3</td>
+<td>PL-3, PL-4</td>
+<td>Seluruh PL</td>
+<td>Seluruh PL</td>
+</tr>
+<tr>
+<td style="text-align: center;">P1</td>
+<td>PL-1, PL-2</td>
+<td>Seluruh PL</td>
+<td>PL-1, PL-2</td>
+</tr>
+<tr>
+<td style="text-align: center;">P4</td>
+<td>PL-1, PL-3</td>
+<td>PL-1, PL-3, PL-4</td>
+<td>PL-1, PL-3, PL-4</td>
+</tr>
+</tbody>
+</table></div>
+<p>Penyimpangan tambahan pada <code>011</code> Sheet 4 terhadap <code>003</code> §6:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Penyimpangan</th>
+<th>Detail</th>
+<th>Baris Pembanding di 003/009E</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>KK5</code> hilang dari PL-1 dan PL-4</td>
+<td>Sheet 4 tidak memetakannya</td>
+<td><code>003:163</code>, <code>003:165</code> / <code>009E:82</code>, <code>009E:84</code></td>
+</tr>
+<tr>
+<td><code>KK6</code> hilang dari PL-3</td>
+<td>Sheet 4 tidak memetakannya</td>
+<td><code>003:166</code> / <code>009E:85</code></td>
+</tr>
+<tr>
+<td><code>P1</code> ditambahkan ke PL-3 dan PL-4</td>
+<td>Tidak ada di <code>003</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>PL-4 kehilangan 4 CPL</strong></td>
+<td><code>P2</code>, <code>P3</code>, <code>KK1</code>, <code>KK5</code></td>
+<td><code>003</code> §6</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Yang bersih:</strong> <code>003</code> §6 dan <code>009E</code> §4 <strong>identik 4/4 baris</strong> ✅. Jadi kedua outlier adalah <code>011</code> Sheet 3 dan <code>011</code> Sheet 4, dan versi <code>003</code>/<code>009E</code> yang harus dipertahankan.</p>
+<h3 id="p1-5b-dua-versi-matriks-peo-cpl">P1-5b. Dua Versi Matriks PEO ↔ CPL</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">PEO</th>
+<th>Hanya ada di <code>003</code> §7</th>
+<th>Hanya ada di <code>004</code> §2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">PEO-1</td>
+<td><code>KU2</code></td>
+<td><code>KK6</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">PEO-2</td>
+<td><code>P3</code>, <code>KK1</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td style="text-align: center;">PEO-3</td>
+<td><code>KU3</code>, <code>KK5</code>, <code>KK6</code></td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>003</code> memetakan PEO-3 ke <strong>seluruh 14 CPL</strong>, sedangkan <code>004</code> hanya ke <strong>11 CPL</strong>. Untuk instrumen IABEE Kriteria 2 dan LAM INFOKOM, matriks PEO↔CPL harus <strong>tunggal dan tidak ambigu</strong>.</p>
+<h3 id="p1-5c-pola-irm-tidak-terpenuhi-untuk-kk4-dan-empat-cpl-lain-tanpa-tahap-i">P1-5c. Pola I→R→M Tidak Terpenuhi untuk <code>KK4</code> (dan Empat CPL Lain Tanpa Tahap I)</h3>
+<p>Hitung ulang matriks I/R/M pada <code>011</code> Sheet 7 (46 baris MK) terhadap baris rekapitulasi <code>011:248-250</code>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th style="text-align: center;">Jumlah <code>I</code> Aktual</th>
+<th style="text-align: center;">Jumlah <code>R</code> Aktual</th>
+<th style="text-align: center;">Jumlah <code>M</code> Aktual</th>
+<th style="text-align: center;">Kepatuhan Pola I→R→M</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>KK4</strong></td>
+<td style="text-align: center;"><strong>0</strong></td>
+<td style="text-align: center;"><strong>0</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">❌ <strong>Langsung ke M</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">KU3</td>
+<td style="text-align: center;"><strong>0</strong></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">❌ Tanpa tahap I</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK2</td>
+<td style="text-align: center;"><strong>0</strong></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">❌ Tanpa tahap I</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK3</td>
+<td style="text-align: center;"><strong>0</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">❌ Tanpa tahap I</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK5</td>
+<td style="text-align: center;"><strong>0</strong></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">❌ Tanpa tahap I</td>
+</tr>
+</tbody>
+</table></div>
+<p>Temuan <code>KK4</code> adalah yang paling sulit dipertahankan: <strong>tidak ada satu pun mata kuliah yang mengintroduksi (<code>I</code>) maupun menguatkan (<code>R</code>) KK4</strong> pada Sheet 7 — CPL tersebut langsung muncul pada tahap Mastery. Ini bertentangan langsung dengan legenda <code>011:198</code> dan dengan visualisasi pada <code>004:19-23</code> yang keduanya mengklaim penerapan pola bertahap I→R→M.</p>
+<p>Temuan ini bertaut dengan risiko <code>KK4</code> pada P1-3 (hanya 4 MK pembina wajib, penopang riil di elektif <code>STB</code> yang tidak wajib). Secara bersama-sama, keduanya menunjukkan <strong><code>KK4</code> adalah CPL terlemah dalam kurikulum ini</strong> dan merupakan titik yang paling rentan dipersoalkan asesor.</p>
+<hr />
+<h1 id="bagian-iii-temuan-prioritas-dua-p2">BAGIAN III — TEMUAN PRIORITAS DUA (P2)</h1>
+<p>Temuan P2 adalah temuan kebersihan teknis: angka rekapitulasi yang salah, sintaks yang berisiko menggagalkan ekspor, dan kelengkapan artefak. Tidak menghalangi substansi, tetapi menurunkan kredibilitas dokumen bila ditemukan asesor.</p>
+<hr />
+<h2 id="p2-1-silabus-hanya-memuat-65-mata-kuliah-bukan-67">P2-1. SILABUS HANYA MEMUAT 65 MATA KULIAH, BUKAN 67</h2>
+<h3 id="bukti">Bukti</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th>Klaim Judul</th>
+<th style="text-align: center;">Jumlah Blok Silabus Aktual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>007_FORMULASI...md</code></td>
+<td>"67 MATA KULIAH" (baris 1, rekap baris 58)</td>
+<td style="text-align: center;"><strong>65</strong> (bernomor 1–65, tanpa gap/duplikat)</td>
+</tr>
+<tr>
+<td><code>BUKU...FINAL.md</code> Lampiran 2</td>
+<td>"67 MATA KULIAH" (baris 1216, 1218, 1279)</td>
+<td style="text-align: center;"><strong>65</strong> (nomor 66 dan 67 tidak ada)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="mata-kuliah-yang-tidak-memiliki-silabus">Mata Kuliah yang Tidak Memiliki Silabus</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode</th>
+<th>Nama Mata Kuliah</th>
+<th style="text-align: center;">SKS</th>
+<th style="text-align: center;">Semester</th>
+<th>Lokasi di Struktur</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>MKU-406</code></td>
+<td>Agama II</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">4</td>
+<td><code>005:136</code>, <code>BUKU:274</code></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>MKU-508</code></td>
+<td>Kewirausahaan II</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">5</td>
+<td><code>005:151</code>, <code>BUKU:287</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Keduanya adalah MK 0 SKS kebijakan UWG. Pencarian string kedua kode di <code>007</code> menghasilkan <strong>0 kemunculan</strong> — bukan sekadar silabusnya kosong, tetapi kodenya tidak disebut sama sekali.</p>
+<h3 id="verifikasi-definisi-67-mk">Verifikasi Definisi "67 MK"</h3>
+<p>Untuk memastikan angka 67 memang benar sebagai ground truth:</p>
+<pre><code>MK non-elektif berkode di struktur (termasuk MKU-406 &amp; MKU-508) = 49 MK
+MK elektif ditawarkan (STA-501..703, STB-501..703, STC-501..703)      = 18 MK
+                                                          Total = 67 MK ✅
+
+Silabus aktual: 47 MK non-elektif + 18 MK elektif               = 65 MK
+Selisih                                                          =  2 MK
+</code></pre>
+<p>Angka 67 pada <code>AGENTS.md</code> <strong>terkonfirmasi benar</strong>; yang kurang adalah dua silabus.</p>
+<h3 id="opsi-penyelesaian_1">Opsi Penyelesaian</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Opsi</th>
+<th>Tindakan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">A</td>
+<td>Tambahkan silabus <code>MKU-406</code> dan <code>MKU-508</code> (meski 0 SKS, keduanya tetap MK wajib lulus)</td>
+</tr>
+<tr>
+<td style="text-align: center;">B</td>
+<td>Ubah seluruh klaim menjadi "65 MK bersilabus + 2 MK 0 SKS tanpa silabus" dengan catatan kaki penjelas</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rekomendasi:</strong> Opsi A. Mata kuliah 0 SKS yang menjadi syarat kelulusan tetap memerlukan CPMK dan rubrik asesmen agar dapat dinyatakan lulus/tidak lulus secara akuntabel.</p>
+<h3 id="catatan-terkait-lampiran-1-buku-final-memuat-53-baris-untuk-klaim-55-mk">Catatan Terkait: Lampiran 1 Buku Final Memuat 53 Baris untuk Klaim 55 MK</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Lokasi</th>
+<th>Klaim</th>
+<th style="text-align: center;">Aktual</th>
+<th>Penjelasan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BUKU:873</code>, <code>:875</code>, <code>:922</code></td>
+<td>"55 MATA KULIAH"</td>
+<td style="text-align: center;">53 baris MK</td>
+<td><code>MKU-406</code> dan <code>MKU-508</code> (0 SKS) tidak dimasukkan</td>
+</tr>
+<tr>
+<td><code>BUKU:931-1011</code> (Tabel 3.1–3.4)</td>
+<td>—</td>
+<td style="text-align: center;">53 baris, total <strong>146 SKS</strong> ✅</td>
+<td>Nomor urut 1–53 lengkap tanpa lompatan</td>
+</tr>
+<tr>
+<td><code>BUKU:1142-1198</code> (Tabel IKU 7)</td>
+<td>—</td>
+<td style="text-align: center;">53 baris, total <strong>146 SKS</strong> ✅</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p>Secara SKS keduanya benar (0 SKS tidak menambah total). Bukan kesalahan aritmetika, tetapi memerlukan catatan kaki agar asesor tidak menghitung selisih 2 MK.</p>
+<hr />
+<h2 id="p2-2-empat-separator-tabel-markdown-rusak-di-dokumen-011">P2-2. EMPAT SEPARATOR TABEL MARKDOWN RUSAK DI DOKUMEN 011</h2>
+<h3 id="bukti_1">Bukti</h3>
+<p>Dokumen <code>011</code> diekspor ke Excel (<code>GENERATE_EXCEL_011.bat</code>), HTML (<code>GENERATE_HTML.bat</code>), dan DOCX (<code>GENERATE_DOCX.bat</code>). Empat tabel memiliki baris separator dengan <strong>pipe ganda</strong> yang melanggar spesifikasi tabel Markdown:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris</th>
+<th>Sheet</th>
+<th style="text-align: center;">Kolom Header</th>
+<th style="text-align: center;">Kolom Separator</th>
+<th style="text-align: center;">Kolom Baris Data</th>
+<th style="text-align: center;">Baris Anomali</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>289</strong></td>
+<td>Sheet 9 (<code>STI-624</code>)</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>24</strong></td>
+<td style="text-align: center;"><strong>13</strong></td>
+<td style="text-align: center;">11 dari 12</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>311</strong></td>
+<td>Sheet 10 (<code>STI-413</code>)</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;"><strong>26</strong></td>
+<td style="text-align: center;"><strong>14</strong></td>
+<td style="text-align: center;">11 dari 12</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>333</strong></td>
+<td>Sheet 11 (<code>STI-308</code>)</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>24</strong></td>
+<td style="text-align: center;"><strong>13</strong></td>
+<td style="text-align: center;">11 dari 12</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>355</strong></td>
+<td>Sheet 12 (<code>STI-626</code>)</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>24</strong></td>
+<td style="text-align: center;"><strong>13</strong></td>
+<td style="text-align: center;">11 dari 12</td>
+</tr>
+</tbody>
+</table></div>
+<p>Kutipan verbatim <code>011:289</code>:</p>
+<pre><code>|---||---||---||---||---||---||---||---||---||---||---||---||
+</code></pre>
+<p>Seharusnya (12 kolom):</p>
+<pre><code>|---|---|---|---|---|---|---|---|---|---|---|---|
+</code></pre>
+<p>Selain itu, baris 300–301, 322–323, 344–345, dan 366–367 (baris "Ringkasan Kelas" dan "% Mahasiswa ≥ 75") juga memakai <code>||</code> sebagai penanda <em>merge cell</em> — bukan sintaks Markdown yang valid.</p>
+<h3 id="analisis-risiko">Analisis Risiko</h3>
+<p>Konverter Python kustom pada <code>_tools/export_all_to_excel.py</code> tampaknya toleran terhadap pipe ganda (file <code>.xlsx</code> yang dihasilkan menampilkan 12/13 kolom dengan benar). Namun:</p>
+<ul>
+<li><strong>Renderer HTML standar dan Pandoc</strong> dapat menolak tabel tersebut atau membuang kolom terakhir.</li>
+<li>Konversi DOCX melalui <code>_tools/convert_md_to_docx.py</code> berisiko sama.</li>
+<li>Bila naskah dibaca di editor Markdown pihak ketiga (GitHub, VS Code preview, Typora), tabel akan tampil rusak.</li>
+</ul>
+<p>Perbaikan bersifat mekanis dan aman: ganti keempat baris separator dengan jumlah kolom yang tepat sama dengan header.</p>
+<h3 id="catatan-tabel-kosong-di-sheet-912-bukan-cacat">Catatan: Tabel Kosong di Sheet 9–12 Bukan Cacat</h3>
+<p>Sheet 9–12 masing-masing memiliki 10 dari 13 baris kosong (hanya kolom No terisi: 1, 2, 3, 4, 5, 10, 15, 20, 25, 30). Ini <strong>disengaja dan wajar</strong> — <code>011:31</code> (Sheet 1) dan <code>011:420</code> (Sheet 14) secara eksplisit menyatakan sheet ini adalah <strong>template yang menunggu data SIAKAD</strong>. Tidak ada tabel yang kosong tanpa penjelasan. ✅</p>
+<hr />
+<h2 id="p2-3-sel-rekapitulasi-dokumen-011-salah-pada-34-sel">P2-3. SEL REKAPITULASI DOKUMEN 011 SALAH PADA 34 SEL</h2>
+<h3 id="p2-3a-sebelas-dari-empat-belas-angka-jumlah-mk-pendukung-salah">P2-3a. Sebelas dari Empat Belas Angka "Jumlah MK Pendukung" Salah</h3>
+<p>Angka yang sama direplikasi di <strong>tiga tempat</strong> dalam satu file (<code>011:174</code> sebagai total Sheet 5, Sheet 13 baris 378–391, dan Sheet 14 baris 400–413), lalu diekspor ke Excel:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">CPL</th>
+<th style="text-align: center;">Tertulis</th>
+<th style="text-align: center;">Hitung Ulang dari 67 Baris Sheet 5</th>
+<th style="text-align: center;">Selisih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">S1</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU1</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>11</strong></td>
+<td style="text-align: center;">−1</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU2</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;"><strong>9</strong></td>
+<td style="text-align: center;">−2</td>
+</tr>
+<tr>
+<td style="text-align: center;">KU3</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;">−1</td>
+</tr>
+<tr>
+<td style="text-align: center;">P1</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;">−2</td>
+</tr>
+<tr>
+<td style="text-align: center;">P2</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;"><strong>12</strong></td>
+<td style="text-align: center;">−3</td>
+</tr>
+<tr>
+<td style="text-align: center;">P3</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>13</strong></td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr>
+<td style="text-align: center;">P4</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>10</strong></td>
+<td style="text-align: center;">−2</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK1</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;"><strong>13</strong></td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK2</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><strong>8</strong></td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK3</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"><strong>14</strong></td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK4</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;"><strong>8</strong></td>
+<td style="text-align: center;">+1</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK5</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td style="text-align: center;">KK6</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="p2-3b-sembilan-belas-sel-rekap-irm-salah-di-011248-250">P2-3b. Sembilan Belas Sel Rekap I/R/M Salah di <code>011:248-250</code></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Baris Rekap</th>
+<th style="text-align: center;">Jumlah Sel Salah</th>
+<th>Detail Selisih (tertulis → aktual)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jumlah <code>I</code> (baris 248)</td>
+<td style="text-align: center;"><strong>1</strong></td>
+<td>P3: <code>0</code> → <strong>1</strong> (<code>STI-103</code> pada <code>011:209</code> memberi I pada P3)</td>
+</tr>
+<tr>
+<td>Jumlah <code>R</code> (baris 249)</td>
+<td style="text-align: center;"><strong>9</strong></td>
+<td>KU2 (2→1), P2 (7→6), <strong>P3 (7→4)</strong>, P4 (7→5), KK2 (3→2), KK3 (5→4), <strong>KK4 (1→0)</strong>, <strong>KK5 (6→4)</strong>, KK6 (2→1)</td>
+</tr>
+<tr>
+<td>Jumlah <code>M</code> (baris 250)</td>
+<td style="text-align: center;"><strong>9</strong></td>
+<td>S1 (3→4), KU1 (4→5), <strong>KU2 (4→6)</strong>, KU3 (4→5), P3 (3→4), <strong>KK3 (3→5)</strong>, KK4 (3→4), KK5 (4→5), KK6 (3→4)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Yang paling penting di antara ini: <strong><code>KK4</code> "Jumlah R" tertulis 1 padahal aktual 0</strong> — inilah yang mengungkap temuan P1-5c (KK4 tanpa tahap I dan R). Angka <code>1</code> yang salah itu selama ini <strong>menutupi</strong> cacat pola I→R→M.</p>
+<h3 id="p2-3c-keempat-angka-jumlah-cpl-per-pl-salah-di-01191">P2-3c. Keempat Angka "Jumlah CPL per PL" Salah di <code>011:91</code></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Lokasi</th>
+<th>Tertulis</th>
+<th>Hitung Ulang dari 14 Baris di Atasnya</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>011:91</code></td>
+<td><code>\| Jumlah CPL per PL \| \| \| 10 \| 9 \| 9 \| 8 \|</code></td>
+<td>PL-1 = <strong>9</strong>, PL-2 = <strong>8</strong>, PL-3 = <strong>8</strong>, PL-4 = <strong>7</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Klaim turunan pada <code>011:23</code> menyatakan <em>"Seluruh PL ditopang min. 8 CPL"</em> — setelah dikoreksi menjadi <strong>min. 7 CPL</strong>. Klaim substantif "min. 3 CPL per PL terpenuhi" tetap valid, sehingga dampak substantifnya rendah; namun keempat angkanya salah dan direplikasi.</p>
+<h3 id="p2-3d-anomali-penanda-dan-hitungan-di-011121">P2-3d. Anomali Penanda dan Hitungan di <code>011:121</code></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Temuan</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Penanda salah</td>
+<td><code>FST-612</code> (PKL) memakai <code>M</code> pada kolom KK4 dan KK5, padahal legenda <code>011:97</code> menyatakan <code>V = CPL dibebankan dan diases pada MK tersebut</code>. <strong>Semua 65 baris lain memakai <code>V</code>.</strong> Ini sisa penyuntingan dari Sheet 7 (yang memang berlegenda I/R/M).</td>
+</tr>
+<tr>
+<td>Hitungan salah</td>
+<td>Baris yang sama menuliskan <code>Jml CPL = 7</code> padahal aktual <strong>6</strong>. Satu-satunya baris di Sheet 5 dengan Jml CPL salah.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="p2-3e-pemetaan-cpl-berbeda-antara-004-dan-011-sheet-5-pada-14-mata-kuliah">P2-3e. Pemetaan CPL Berbeda antara <code>004</code> dan <code>011</code> Sheet 5 pada 14 Mata Kuliah</h3>
+<p>Dari 49 MK yang ada di kedua dokumen, 14 MK memiliki pemetaan CPL berbeda:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Mata Kuliah</th>
+<th>Pemetaan di <code>004</code></th>
+<th>Pemetaan di <code>011</code> Sheet 5</th>
+<th>Sifat Selisih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><code>FST-204</code></strong></td>
+<td><code>P3</code></td>
+<td><code>KK1</code></td>
+<td><strong>Bertentangan total</strong> (konsekuensi P0-1)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>FST-205</code></strong></td>
+<td><code>P4</code></td>
+<td><code>KU2</code></td>
+<td><strong>Bertentangan total</strong> (konsekuensi P0-1)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong><code>FST-612</code></strong> PKL</td>
+<td>10 CPL (S1, KU1–3, KK1–6)</td>
+<td>6 CPL (S1, KU1–3, KK4, KK5)</td>
+<td><code>011</code> kehilangan KK1, KK2, KK3, KK6</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-416</code></td>
+<td>P4, <strong>KK5</strong></td>
+<td>P4, <strong>KU1</strong></td>
+<td>Tukar KK5 ↔ KU1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-206</code></td>
+<td>S1, <strong>KU3</strong></td>
+<td>S1, <strong>KU2</strong></td>
+<td>Tukar KU3 ↔ KU2</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>MKU-507</code> KPM</td>
+<td>S1, <strong>KU3</strong></td>
+<td>S1, <strong>KU2</strong></td>
+<td>Tukar KU3 ↔ KU2</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-101</code></td>
+<td>KU1, P2</td>
+<td>P2</td>
+<td><code>011</code> kehilangan KU1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-203</code></td>
+<td>P4</td>
+<td>P4, KU1</td>
+<td><code>011</code> menambah KU1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-408</code></td>
+<td>P1</td>
+<td>P1, P4</td>
+<td><code>011</code> menambah P4</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-611</code></td>
+<td>KU1, KU2</td>
+<td>KU1, KU2, KU3</td>
+<td><code>011</code> menambah KU3</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-613</code></td>
+<td>KU1, KU2</td>
+<td>KU1, KU2, KU3</td>
+<td><code>011</code> menambah KU3</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-306</code></td>
+<td>KU1, P2</td>
+<td>KU1, P2, KK5</td>
+<td><code>011</code> menambah KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-309</code></td>
+<td>KK5, P4</td>
+<td>KK5, KK6, P4</td>
+<td><code>011</code> menambah KK6</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-413</code></td>
+<td>KK1, P2</td>
+<td>KK1, <strong>KK2</strong>, P2</td>
+<td><code>011</code> menambah KK2</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Yang bersih:</strong> Sheet 5 ↔ Sheet 7 dalam <code>011</code> <strong>konsisten 100%</strong> untuk 46 MK bersama ✅.</p>
+<p><strong>Catatan cakupan Sheet 7:</strong> Sheet 7 hanya memuat 46 MK, tidak mencakup <code>MKU-405</code>, <code>MKU-406</code>, <code>MKU-508</code>, dan seluruh 18 MK elektif <code>STA</code>/<code>STB</code>/<code>STC</code>. Karena itu rekapitulasi I/R/M pada Sheet 7 <strong>tidak merepresentasikan portofolio 67 MK</strong> — perlu catatan eksplisit pada dokumen agar tidak disalahbaca.</p>
+<hr />
+<h2 id="p2-4-angka-proporsi-praktikum-memiliki-tiga-versi-dan-tidak-satu-pun-akurat">P2-4. ANGKA PROPORSI PRAKTIKUM MEMILIKI TIGA VERSI DAN TIDAK SATU PUN AKURAT</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Sumber</th>
+<th>Klaim</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>005:57</code></td>
+<td>"20 Mata Kuliah (<strong>63 SKS</strong> / 43,2%)"</td>
+<td style="text-align: center;">❌ SKS salah</td>
+</tr>
+<tr>
+<td><code>BUKU:201</code></td>
+<td>"<strong>21 Mata Kuliah</strong> (<strong>66 SKS</strong> / 44,9%)"</td>
+<td style="text-align: center;">❌ Keduanya salah</td>
+</tr>
+<tr>
+<td><strong>Hitung ulang dari tabel <code>005</code></strong></td>
+<td><strong>20 MK / 59 SKS</strong> (tipe <code>+P</code>, <code>Praktik</code>, <code>Proyek</code>, <code>Magang</code>)</td>
+<td style="text-align: center;">✅ Terverifikasi</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rincian hitung ulang.</strong> Parsing kolom Tipe pada 55 baris MK dokumen <code>005</code>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Tipe</th>
+<th style="text-align: center;">Jumlah MK</th>
+<th style="text-align: center;">Total SKS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>+P</code> (Teori + Praktikum)</td>
+<td style="text-align: center;">17 MK</td>
+<td style="text-align: center;">50 SKS</td>
+</tr>
+<tr>
+<td><code>Praktik</code> (<code>MKU-507</code> KPM)</td>
+<td style="text-align: center;">1 MK</td>
+<td style="text-align: center;">3 SKS</td>
+</tr>
+<tr>
+<td><code>Proyek</code> (<code>FST-610</code> Capstone)</td>
+<td style="text-align: center;">1 MK</td>
+<td style="text-align: center;">3 SKS</td>
+</tr>
+<tr>
+<td><code>Magang</code> (<code>FST-612</code> PKL)</td>
+<td style="text-align: center;">1 MK</td>
+<td style="text-align: center;">3 SKS</td>
+</tr>
+<tr>
+<td><strong>Total berpraktikum</strong></td>
+<td style="text-align: center;"><strong>20 MK</strong></td>
+<td style="text-align: center;"><strong>59 SKS</strong></td>
+</tr>
+<tr>
+<td>Persentase terhadap 146 SKS</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><strong>40,4%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Angka MK (20) pada <code>005</code> benar; angka SKS-nya (63) yang salah. Buku Final salah pada keduanya. Perlu dicatat bahwa perhitungan ini <strong>belum memasukkan 6 MK elektif</strong> (yang mayoritas bertipe <code>+P</code>) karena tabel struktur menandainya sebagai <code>Elektif</code>, bukan <code>+P</code>. Bila 6 MK elektif dimasukkan, hasilnya menjadi 26 MK / 77 SKS / 52,7% — tetapi angka ini pun tidak cocok dengan klaim manapun.</p>
+<p><strong>Rekomendasi:</strong> tetapkan satu definisi eksplisit ("MK dengan komponen praktikum terjadwal, termasuk/tidak termasuk elektif dan MK lapangan") lalu hitung ulang dan sinkronkan ke <code>005</code>, Buku Final, dan <code>011</code>.</p>
+<hr />
+<h2 id="p2-5-rekapitulasi-iku-7-di-buku-final-salah-hitung">P2-5. REKAPITULASI IKU 7 DI BUKU FINAL SALAH HITUNG</h2>
+<h3 id="bukti_2">Bukti</h3>
+<p>Kutipan <code>BUKU:1200-1201</code>:</p>
+<pre><code>&gt; * **Persentase MK Memenuhi IKU 7 (CM + PjBL ≥ 50%):** **89.1%** (49 dari 55 MK paket).
+&gt; * **Rata-rata Bobot Pembelajaran Kolaboratif Kurikulum:** **67.8%**
+</code></pre>
+<h3 id="hitung-ulang-dari-53-baris-tabel-iku-7">Hitung Ulang dari 53 Baris Tabel IKU 7</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Metrik</th>
+<th style="text-align: center;">Tertulis</th>
+<th style="text-align: center;">Hitung Ulang</th>
+<th style="text-align: center;">Selisih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MK memenuhi CM+PjBL ≥ 50%</td>
+<td style="text-align: center;"><strong>49 MK</strong></td>
+<td style="text-align: center;"><strong>48 MK</strong></td>
+<td style="text-align: center;">−1</td>
+</tr>
+<tr>
+<td>Persentase</td>
+<td style="text-align: center;"><strong>89,1%</strong></td>
+<td style="text-align: center;"><strong>87,3%</strong> (48/55)</td>
+<td style="text-align: center;">−1,8 pp</td>
+</tr>
+<tr>
+<td>Rata-rata bobot kolaboratif</td>
+<td style="text-align: center;"><strong>67,8%</strong></td>
+<td style="text-align: center;"><strong>63,7%</strong></td>
+<td style="text-align: center;">−4,1 pp</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="lima-mata-kuliah-di-bawah-50-wajar-dan-sudah-diberi-keterangan">Lima Mata Kuliah di Bawah 50% (Wajar dan Sudah Diberi Keterangan)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode</th>
+<th>Mata Kuliah</th>
+<th style="text-align: center;">Bobot CM+PjBL</th>
+<th style="text-align: center;">Baris</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>STI-102</code></td>
+<td>Kalkulus</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">1145</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-103</code></td>
+<td>Arsitektur &amp; Organisasi Sistem TI</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">1146</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-204</code></td>
+<td>Matematika Diskrit dan Logika</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">1150</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>STI-205</code></td>
+<td>Aljabar Linear dan Matriks</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">1151</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>FST-408</code></td>
+<td>Probabilitas dan Statistika</td>
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">1170</td>
+</tr>
+</tbody>
+</table></div>
+<p>Perhitungan: <code>53 − 5 = 48 MK</code>, bukan 49. Kelimanya adalah MK matematika/sains dasar, sehingga bobot rendah dapat dipertahankan secara pedagogis.</p>
+<p><strong>Yang bersih:</strong> seluruh komponen persentase per baris (CM + PjBL + DA) berjumlah tepat 100%, dan kolom total CM+PjBL dihitung benar pada setiap baris ✅. Kesalahan hanya pada baris rekapitulasi.</p>
+<hr />
+<h2 id="p2-6-temuan-kebersihan-lainnya">P2-6. TEMUAN KEBERSIHAN LAINNYA</h2>
+<h3 id="p2-6a-ketidakseragaman-kolom-tabel-di-00476">P2-6a. Ketidakseragaman Kolom Tabel di <code>004:76</code></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Lokasi</th>
+<th>Temuan</th>
+<th>Dampak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>004:76</code> (<code>MKU-204</code> Kewirausahaan I)</td>
+<td><strong>22 kolom</strong>, sedangkan header dan 54 baris lain <strong>21 kolom</strong></td>
+<td>Menggeser seluruh sel satu kolom ke kanan saat diekspor ke Excel/Word</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="p2-6b-empat-sel-pemetaan-bok-berbeda-antara-003-dan-009d009e">P2-6b. Empat Sel Pemetaan BoK Berbeda antara <code>003</code> dan <code>009D</code>/<code>009E</code></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Kode BoK</th>
+<th>Nama BoK</th>
+<th><code>003</code></th>
+<th><code>009D</code>/<code>009E</code></th>
+<th>Selisih</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>BK-IS04</code></td>
+<td><em>Enterprise Architecture</em></td>
+<td>P2, KK5 (<code>003:117</code>)</td>
+<td>P2, <strong>KK4</strong>, KK5 (<code>009E:38</code>)</td>
+<td>+KK4</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BK-IS09</code></td>
+<td><em>Business Process Management</em></td>
+<td>P2, KK4 (<code>003:122</code>)</td>
+<td>P2, KK4, <strong>KK5</strong> (<code>009E:43</code>)</td>
+<td>+KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BK-IS11</code></td>
+<td><em>Programming Fundamentals &amp; OOP</em></td>
+<td>P1, P4, KK1 (<code>003:124</code>)</td>
+<td>P1, P4, KK1, <strong>KK5</strong> (<code>009E:45</code>)</td>
+<td>+KK5</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>BK-IT09</code></td>
+<td><em>Data Analytics &amp; Info Visualization</em></td>
+<td>P4, KK2 (<code>003:150</code>)</td>
+<td><strong>KK1</strong>, KK2 (<code>009D:91</code>)</td>
+<td>P4→KK1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Arah koreksi:</strong> versi <code>009D</code>/<code>009E</code> lebih dapat dipertahankan secara logis — <em>Enterprise Architecture</em> memang menopang KK4 (Tata Kelola), sedangkan <em>BPM</em> dan <em>OOP</em> memang menopang KK5 (Platform Engineering). Jadi <strong><code>003</code> sebagai master perlu disinkronkan ke <code>009D</code>/<code>009E</code></strong>, bukan sebaliknya.</p>
+<p>Dampak akreditasi rendah karena tidak mengubah jumlah atau cakupan BoK, tetapi asesor yang membandingkan dua tabel akan menemukannya.</p>
+<h3 id="p2-6c-indeks-dokumen-di-009_langkah2_cpl_formalmd-7-sudah-kedaluwarsa">P2-6c. Indeks Dokumen di <code>009_LANGKAH2_CPL_FORMAL.md</code> §7 Sudah Kedaluwarsa</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Substansi 14 CPL, Target Bloom, jumlah BoK, 55 MK/146 SKS, 67 MK/182 SKS</td>
+<td>✅ <strong>Konsisten</strong> dengan <code>003</code>/<code>009A</code>–<code>009E</code></td>
+</tr>
+<tr>
+<td>§1 (Ringkasan 14 CPL)</td>
+<td>⚠️ Duplikat fungsi <code>009E</code> §1</td>
+</tr>
+<tr>
+<td>§3 (Matriks CPL↔Peminatan)</td>
+<td>⚠️ <strong>Identik verbatim</strong> dengan <code>009E</code> §5 (14/14 baris)</td>
+</tr>
+<tr>
+<td><strong>§7 (Panduan Navigasi, baris 117–129)</strong></td>
+<td>❌ <strong>Kedaluwarsa</strong> — indeks berhenti di Dokumen 011; tidak memuat 012–018 maupun Buku Final</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Penilaian eksplisit:</strong> file ini <strong>konsisten secara substansi, bukan artefak usang yang bertentangan</strong>, tetapi <strong>redundan secara struktural</strong>. Satu-satunya bagian yang benar-benar <em>stale</em> adalah §7.</p>
+<p><strong>Inkonsistensi minor internal:</strong> §3 baris 56–59 menamai profil dengan label ad-hoc yang tidak ada dalam daftar resmi 4 PL — <code>PL-1 (Data Scientist &amp; MLOps Specialist)</code>, <code>PL-2 (Cloud Systems Integrator &amp; IoT Architect)</code>, <code>PL-2 (IT Auditor &amp; Cybersecurity GRC Specialist)</code>, <code>PL-3 (UI/UX Designer &amp; Full-Stack Platform Engineer)</code>. Label ini adalah <strong>peran karier</strong>, bukan nomenklatur PL. Bila dibaca asesor sebagai nomenklatur, akan tampak seolah ada lebih dari 4 PL.</p>
+<p><strong>Rekomendasi:</strong> pertahankan sebagai "Dokumen Pengantar Langkah 2", tetapi (a) perbarui §7 agar memuat 012–018 dan Buku Final, atau hapus §7 dan rujuk ke <code>index.html</code>; (b) ganti label ad-hoc §3 dengan nomenklatur PL resmi.</p>
+<h3 id="p2-6d-ambiguitas-notasi-p1p2p3-dipakai-ganda">P2-6d. Ambiguitas Notasi <code>P1</code>/<code>P2</code>/<code>P3</code> Dipakai Ganda</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Makna</th>
+<th>Contoh Penggunaan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPL Pengetahuan</td>
+<td><code>P1</code>, <code>P2</code>, <code>P3</code>, <code>P4</code> (dari 14 CPL)</td>
+</tr>
+<tr>
+<td>Kode Peminatan</td>
+<td><code>P1: Integrated Smart Systems</code>, <code>P2: Cloud Infrastructure &amp; Cybersecurity</code>, <code>P3: Digital Platform Engineering</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Penggunaan ganda ini <strong>konsisten di semua file</strong> (jadi bukan inkonsistensi), tetapi berpotensi disalahbaca asesor pada <code>009A</code> §5, <code>009B</code> §5, <code>009C</code> §5, dan <code>009E</code> §5 — di mana kedua makna muncul berdekatan.</p>
+<p><strong>Rekomendasi kosmetik:</strong> gunakan <code>PM-1</code>/<code>PM-2</code>/<code>PM-3</code> untuk kode peminatan.</p>
+<h3 id="p2-6e-enam-baris-cpmk-memakai-level-bloom-majemuk-atau-ranah-afektif">P2-6e. Enam Baris CPMK Memakai Level Bloom Majemuk atau Ranah Afektif</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Baris di 007</th>
+<th style="text-align: center;">Level Tertulis</th>
+<th>Penilaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">294</td>
+<td style="text-align: center;"><code>A3</code></td>
+<td>✅ Wajar (MKWU, ranah afektif)</td>
+</tr>
+<tr>
+<td style="text-align: center;">295</td>
+<td style="text-align: center;"><code>A3, C3</code></td>
+<td>⚠️ Majemuk</td>
+</tr>
+<tr>
+<td style="text-align: center;">336</td>
+<td style="text-align: center;"><code>C3, A3</code></td>
+<td>⚠️ Majemuk</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>1061</strong></td>
+<td style="text-align: center;"><strong><code>C5, C6</code></strong></td>
+<td>❌ <strong><code>STI-413</code> CPMK-4 menggabungkan dua level kognitif</strong> — menyulitkan penentuan level asesmen tunggal</td>
+</tr>
+<tr>
+<td style="text-align: center;">1359</td>
+<td style="text-align: center;"><code>C3, A3</code></td>
+<td>⚠️ Majemuk</td>
+</tr>
+<tr>
+<td style="text-align: center;">1955</td>
+<td style="text-align: center;"><code>A3, C3</code></td>
+<td>⚠️ Majemuk</td>
+</tr>
+</tbody>
+</table></div>
+<p>Pemakaian ranah afektif <code>A3</code> pada MKWU dapat dipertahankan. Yang perlu dikoreksi adalah baris 1061 (<code>C5, C6</code>) karena menggabungkan dua level kognitif dalam satu CPMK.</p>
+<h3 id="p2-6f-nomenklatur-kosmetik-dan-duplikasi-nama-inggris">P2-6f. Nomenklatur Kosmetik dan Duplikasi Nama Inggris</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Detail</th>
+<th style="text-align: center;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Perbedaan kosmetik <code>007</code> vs <code>005</code></td>
+<td><code>&amp;</code> vs <code>and</code>, tanda kurung, urutan akronim: <code>MKU-507</code>, <code>STA-601/05/06</code>, <code>STB-501/04/05/06</code>, <code>STC-501</code></td>
+<td style="text-align: center;">9 MK</td>
+</tr>
+<tr>
+<td>Nama Inggris ditulis dua kali di heading</td>
+<td>Contoh <code>007:2448</code>: <code>### 57. STB-701 — IT Governance &amp; Compliance (COBIT 2019) (IT Governance &amp; Compliance (COBIT 2019))</code></td>
+<td style="text-align: center;">10 MK peminatan</td>
+</tr>
+<tr>
+<td>Perlu dicermati</td>
+<td><code>STC-703</code>: <code>007</code> "Digital Product Management <strong>&amp; Agile Practices</strong>" vs <code>005</code> "Digital Product Management" (narasi <code>005</code> memang menyebut Agile, jadi ini pemendekan di <code>005</code>)</td>
+<td style="text-align: center;">1 MK</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="p2-6g-artefak-sementara-di-folder">P2-6g. Artefak Sementara di Folder</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th style="text-align: center;">Ukuran</th>
+<th>Timestamp</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_tmp_audit.py</code></td>
+<td style="text-align: center;">553 byte</td>
+<td>23 Agustus 2026, 20:02</td>
+<td>Skrip sementara sisa pekerjaan sebelumnya (memproses dokumen 004). Aman dibersihkan.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h1 id="bagian-iv-aspek-yang-terverifikasi-bersih">BAGIAN IV — ASPEK YANG TERVERIFIKASI BERSIH</h1>
+<p>Bagian ini dinyatakan eksplisit agar audit ini berimbang dan agar Tim Pengembang tidak mengerjakan ulang hal yang sudah benar.</p>
+<h2 id="41-ketiadaan-kode-mata-kuliah-usang-bersih-total">4.1 Ketiadaan Kode Mata Kuliah Usang — Bersih Total</h2>
+<p>Pencarian pola <code>STI-104</code>, <code>STI-205</code>, <code>FST-208</code>, <code>STI-203</code>, <code>STI-204</code>, <code>STI-208</code>, dan string "Logika Informatika" pada seluruh 26 file Markdown:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>001</code>, <code>002</code>, <code>003</code>, <code>004</code>, <code>009A</code>–<code>009E</code>, <code>009_LANGKAH2</code>, <code>011</code></td>
+<td style="text-align: center;"><strong>0 kemunculan</strong> ✅</td>
+</tr>
+<tr>
+<td><code>007</code> (2.824 baris, dipindai penuh dengan pola <code>(FST\|STI\|MKU\|STA\|STB\|STC)-\d+</code>)</td>
+<td style="text-align: center;"><strong>0 kode di luar daftar ground truth</strong> ✅</td>
+</tr>
+</tbody>
+</table></div>
+<p>Kemunculan kode lama hanya pada 3 file, dan <strong>seluruhnya kontekstual-historis yang sah</strong>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th style="text-align: center;">Baris</th>
+<th>Konteks</th>
+<th style="text-align: center;">Penilaian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>017_AUDIT_FORENSIK...md</code></td>
+<td style="text-align: center;">69, 139–145</td>
+<td>Tabel <strong>log koreksi</strong> yang mendokumentasikan penggantian <code>STI-104</code>/<code>STI-205</code>/<code>FST-208</code></td>
+<td style="text-align: center;">✅ Wajib menyebut kode lama</td>
+</tr>
+<tr>
+<td><code>016_ANALISIS_BoK...md</code></td>
+<td style="text-align: center;">66, 151</td>
+<td>Rasionalisasi peleburan "STI-103 Logika Informatika" ke <code>STI-204</code></td>
+<td style="text-align: center;">✅ Sah</td>
+</tr>
+<tr>
+<td><code>BUKU...FINAL.md</code></td>
+<td style="text-align: center;">850</td>
+<td><strong>Tabel ekuivalensi kurikulum lama→baru</strong> Bab VIII</td>
+<td style="text-align: center;">✅ Wajib menyebut nama MK lama</td>
+</tr>
+</tbody>
+</table></div>
+<p>Kutipan <code>BUKU:850</code>:</p>
+<pre><code>| `STI-103` | Logika Informatika (Lama) | 3 | `STI-103` | Arsitektur &amp; Organisasi Sistem TI | 3 | Ekuivalen / Penyesuaian Topik |
+</code></pre>
+<p><strong>Catatan:</strong> ketujuh temuan yang dilaporkan <code>_tools/deep_cross_audit.py</code> seluruhnya adalah <em>false positive</em> dari kategori ini — skrip tersebut menandai tabel log koreksi di <code>017</code> sebagai pelanggaran, padahal tabel log memang harus menyebut kode lama.</p>
+<h2 id="42-konsensus-sti-103-dan-sti-204-terpasang-konsisten">4.2 Konsensus <code>STI-103</code> dan <code>STI-204</code> — Terpasang Konsisten</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Konsensus</th>
+<th>Verifikasi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>STI-103</code> = "Arsitektur dan Organisasi Sistem Teknologi Informasi", 3 SKS, Sem 1</td>
+<td>✅ <code>004:65</code>, <code>005:88</code>, <code>011:127</code>, <code>BUKU:232</code>, <code>BUKU:1452</code>, <code>BUKU:1458</code></td>
+</tr>
+<tr>
+<td><code>STI-204</code> = "Matematika Diskrit dan Logika", 3 SKS, Sem 2</td>
+<td>✅ <code>004:69</code>, <code>005:99</code>, <code>011:128</code>, <code>BUKU:241</code>, <code>BUKU:1619</code>, <code>BUKU:1625</code></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="43-jumlah-14-cpl-3-peo-dan-4-pl-bersih-total">4.3 Jumlah 14 CPL, 3 PEO, dan 4 PL — Bersih Total</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kode CPL yang dipakai</td>
+<td style="text-align: center;">Tepat <code>S1</code>, <code>KU1</code>–<code>KU3</code>, <code>P1</code>–<code>P4</code>, <code>KK1</code>–<code>KK6</code> = <strong>14 CPL</strong> ✅</td>
+</tr>
+<tr>
+<td>Kode CPL asing (<code>KK7</code>, <code>P5</code>, <code>KU4</code>-sebagai-CPL, <code>S2</code>-sebagai-CPL)</td>
+<td style="text-align: center;"><strong>0 kemunculan</strong> ✅</td>
+</tr>
+<tr>
+<td>Penyebutan "10 CPL", "15 CPL", "17 CPL"</td>
+<td style="text-align: center;"><strong>0 kemunculan</strong> ✅</td>
+</tr>
+<tr>
+<td>Kode PEO</td>
+<td style="text-align: center;">Konsisten <code>PEO-1</code>–<code>PEO-3</code> di <code>002</code>, <code>003</code>, <code>004</code> ✅</td>
+</tr>
+<tr>
+<td>Kode PL</td>
+<td style="text-align: center;">Konsisten <code>PL-1</code>–<code>PL-4</code>; tidak ada PL-5/PL-6 sebagai PL aktif ✅</td>
+</tr>
+</tbody>
+</table></div>
+<p>Dua hal yang tampak seperti anomali tetapi terverifikasi sah:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Temuan</th>
+<th>Lokasi</th>
+<th>Penjelasan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PL-01</code>..<code>PL-06</code></td>
+<td><code>002:15-26</code></td>
+<td>Tabel peleburan <strong>profil lama</strong>, eksplisit berlabel "Profil Lama (6 PL)" ✅</td>
+</tr>
+<tr>
+<td><code>S2</code>..<code>S10</code>, <code>KU4</code>..<code>KU9</code>, <code>CPL-P01</code>..<code>P17</code>, <code>CPL-K01</code>..<code>K17</code>, <code>S01</code>..<code>S08</code>, <code>KU01</code>..<code>KU08</code></td>
+<td><code>003</code>, <code>009A:66-75</code>, <code>009B:27-32</code>, <code>009C</code></td>
+<td>Kode <strong>sumber</strong> SN-Dikti dan APTIKOM/IS2020, bukan CPL prodi ✅</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="44-jumlah-bok-konsisten-100">4.4 Jumlah BoK — Konsisten 100%</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BK-IS01</code>–<code>BK-IS19</code></td>
+<td style="text-align: center;"><strong>19 unik</strong>, lengkap di <code>003</code>, <code>004</code>, <code>009D</code>, <code>009E</code> ✅</td>
+</tr>
+<tr>
+<td><code>BK-IT01</code>–<code>BK-IT14</code></td>
+<td style="text-align: center;"><strong>14 unik</strong>, lengkap di <code>003</code>, <code>004</code>, <code>009D</code>, <code>009E</code> ✅</td>
+</tr>
+<tr>
+<td>Klaim tekstual "19 BoK IS2020 &amp; 14 BoK IT2017"</td>
+<td style="text-align: center;">Konsisten di <code>009E:6</code>, <code>009_LANGKAH2:38/73/85</code>, <code>011:27/419</code>, <code>004:206</code> ✅</td>
+</tr>
+<tr>
+<td>Angka menyimpang ("18 BoK", "20 BoK", "27 BoK" sebagai jumlah dipetakan)</td>
+<td style="text-align: center;"><strong>0 kemunculan</strong> ✅</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>003:24</code> menuliskan "IT2017 (14/27 Bahan Kajian)" — ini <strong>benar</strong>, artinya 14 dari 27 total BoK IT2017 yang dipetakan.</p>
+<h2 id="45-skema-asesmen-4-titik-bersih-sempurna">4.5 Skema Asesmen 4 Titik — Bersih Sempurna</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MK dengan tepat 4 titik asesmen</td>
+<td style="text-align: center;"><strong>65/65</strong> ✅</td>
+</tr>
+<tr>
+<td>MK dengan total bobot tepat 100%</td>
+<td style="text-align: center;"><strong>65/65</strong> ✅</td>
+</tr>
+<tr>
+<td>Pola MK Teori <code>20/30/20/30</code></td>
+<td style="text-align: center;">28 MK ✅</td>
+</tr>
+<tr>
+<td>Pola MK non-Teori <code>20/25/25/30</code></td>
+<td style="text-align: center;">37 MK ✅</td>
+</tr>
+<tr>
+<td>Bobot asesmen Sheet 8 <code>011</code> (6 MK penciri)</td>
+<td style="text-align: center;">6/6 tepat 100% ✅</td>
+</tr>
+<tr>
+<td>Konsistensi skema di Sheet 9–12 <code>011</code></td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="46-matriks-16-pertemuan-bersih-sempurna">4.6 Matriks 16 Pertemuan — Bersih Sempurna</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MK dengan tepat 16 baris pertemuan bernomor 1–16</td>
+<td style="text-align: center;"><strong>65/65</strong> ✅</td>
+</tr>
+<tr>
+<td>Total baris pertemuan</td>
+<td style="text-align: center;">1.040 baris, tanpa duplikat/gap/baris terpotong ✅</td>
+</tr>
+<tr>
+<td>Kelengkapan 7 atribut Tabel A (Identitas)</td>
+<td style="text-align: center;"><strong>65/65</strong> ✅ (Kode &amp; Nama, Bobot SKS/Tipe, Semester/Rumpun, Prasyarat, CPL Dibebankan, Profil Lulusan, Target PEO)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="47-aritmetika-dokumen-005-bersih-sempurna">4.7 Aritmetika Dokumen 005 — Bersih Sempurna</h2>
+<p>Hasil rekalkulasi mandiri (parsing 55 baris MK, bukan membaca label subtotal):</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil Hitung Ulang</th>
+<th style="text-align: center;">Klaim di 005</th>
+<th style="text-align: center;">Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total SKS</td>
+<td style="text-align: center;">146</td>
+<td style="text-align: center;">146</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Total MK</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;">55</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Subtotal per semester</td>
+<td style="text-align: center;">19/20/20/21/21/19/20/6</td>
+<td style="text-align: center;">Sama</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Kumulatif per semester</td>
+<td style="text-align: center;">19/39/59/80/101/120/140/146</td>
+<td style="text-align: center;">Sama</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>MKWU</td>
+<td style="text-align: center;">8 MK / 13 SKS</td>
+<td style="text-align: center;">8 MK / 13 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>FSTI</td>
+<td style="text-align: center;">13 MK / 36 SKS</td>
+<td style="text-align: center;">13 MK / 36 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Core STI</td>
+<td style="text-align: center;">28 MK / 79 SKS</td>
+<td style="text-align: center;">28 MK / 79 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Elektif Peminatan</td>
+<td style="text-align: center;">6 MK / 18 SKS</td>
+<td style="text-align: center;">6 MK / 18 SKS</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Batas Sem 1 &amp; 2 ≤ 20 SKS (Pasal 18 Permendikbudristek 53/2023)</td>
+<td style="text-align: center;">Sem 1 = 19, Sem 2 = 20</td>
+<td style="text-align: center;">Sama</td>
+<td style="text-align: center;">✅ Patuh</td>
+</tr>
+<tr>
+<td>Beban ≥ 144 SKS syarat lulus nasional</td>
+<td style="text-align: center;">146 SKS</td>
+<td style="text-align: center;">146 SKS</td>
+<td style="text-align: center;">✅ Patuh</td>
+</tr>
+</tbody>
+</table></div>
+<p>Satu-satunya cacat pada <code>005</code> adalah angka proporsi praktikum di baris 57 (lihat P2-4).</p>
+<h2 id="48-ketiadaan-cpl-orphan-dan-mk-orphan">4.8 Ketiadaan CPL Orphan dan MK Orphan</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPL orphan di <code>004</code></td>
+<td style="text-align: center;"><strong>0</strong> — setiap dari 14 CPL punya ≥ 4 MK pembina ✅</td>
+</tr>
+<tr>
+<td>CPL orphan di <code>011</code></td>
+<td style="text-align: center;"><strong>0</strong> — setiap CPL punya ≥ 5 MK pendukung ✅</td>
+</tr>
+<tr>
+<td>MK orphan di <code>011</code> Sheet 5</td>
+<td style="text-align: center;"><strong>0 dari 67 MK</strong> ✅</td>
+</tr>
+<tr>
+<td>MK tanpa pemetaan di <code>004</code></td>
+<td style="text-align: center;">6 baris <code>STA/B/C</code> memakai notasi <code>*</code> (bukan sel kosong) — sah, tetapi legendanya belum didefinisikan (lihat P1-3)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="49-kesamaan-rumusan-yang-terverifikasi-identik-verbatim">4.9 Kesamaan Rumusan yang Terverifikasi Identik Verbatim</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Perbandingan</th>
+<th>Cakupan</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>003</code> ↔ <code>009C</code></td>
+<td><code>P1</code>–<code>P4</code></td>
+<td style="text-align: center;">✅ Identik verbatim</td>
+</tr>
+<tr>
+<td><code>003</code> ↔ <code>009D</code></td>
+<td><code>KK1</code>–<code>KK6</code></td>
+<td style="text-align: center;">✅ Identik verbatim</td>
+</tr>
+<tr>
+<td><code>003</code> §6 ↔ <code>009E</code> §4</td>
+<td>Matriks CPL↔PL</td>
+<td style="text-align: center;">✅ Identik 4/4 baris</td>
+</tr>
+<tr>
+<td><code>009_LANGKAH2</code> §3 ↔ <code>009E</code> §5</td>
+<td>Matriks CPL↔Peminatan</td>
+<td style="text-align: center;">✅ Identik 14/14 baris</td>
+</tr>
+<tr>
+<td><code>011</code> Sheet 5 ↔ Sheet 7</td>
+<td>Pemetaan CPL 46 MK bersama</td>
+<td style="text-align: center;">✅ Konsisten 100%</td>
+</tr>
+<tr>
+<td>Target Bloom 14 CPL</td>
+<td>6 file (<code>003</code>, <code>009A</code>–<code>009E</code>, <code>009_LANGKAH2</code>)</td>
+<td style="text-align: center;">✅ Konsisten 100%</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="410-rekapitulasi-portofolio-dan-sebaran-di-dokumen-011-bersih">4.10 Rekapitulasi Portofolio dan Sebaran di Dokumen 011 — Bersih</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total MK Sheet 5</td>
+<td style="text-align: center;"><strong>67</strong> ✅</td>
+</tr>
+<tr>
+<td>Total SKS Sheet 5</td>
+<td style="text-align: center;"><strong>182</strong> ✅</td>
+</tr>
+<tr>
+<td>Subtotal MKWU / FSTI / Core STI</td>
+<td style="text-align: center;">8/13, 13/36, 28/79 — semuanya tepat ✅</td>
+</tr>
+<tr>
+<td>Subtotal elektif P1 / P2 / P3</td>
+<td style="text-align: center;">Masing-masing 6 MK / 18 SKS ✅</td>
+</tr>
+<tr>
+<td>Sheet 6: subtotal SKS per semester</td>
+<td style="text-align: center;">19/20/20/21/21/19/20/6 = <strong>146</strong> ✅</td>
+</tr>
+<tr>
+<td>Sheet 3: jumlah baris CPL</td>
+<td style="text-align: center;">14 baris, tanpa duplikat/kekurangan ✅</td>
+</tr>
+<tr>
+<td>Jumlah sheet</td>
+<td style="text-align: center;">14 heading <code>## Sheet N</code>, sesuai klaim <code>011:7</code>; file <code>.xlsx</code> berisi 15 tab (14 + Cover) ✅</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="411-vmts-2045-di-dokumen-sumber">4.11 VMTS 2045 di Dokumen Sumber</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rumusan Visi 2045 di <code>001:56</code></td>
+<td style="text-align: center;">✅ Sesuai ground truth <code>AGENTS.md</code> <strong>verbatim</strong></td>
+</tr>
+<tr>
+<td>Keselarasan VMTS → CPL</td>
+<td style="text-align: center;">✅ Terdokumentasi di <code>009E</code> §6</td>
+</tr>
+<tr>
+<td>Rumusan Visi di Buku Final</td>
+<td style="text-align: center;">❌ <strong>Tidak ada</strong> (lihat P0-2)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="412-sebaran-semester-mk-elektif">4.12 Sebaran Semester MK Elektif</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18 MK elektif berada di semester yang benar (<code>-01</code>→Sem 5, <code>-02</code>/<code>-03</code>→Sem 6, <code>-04</code>/<code>-05</code>/<code>-06</code>→Sem 7)</td>
+<td style="text-align: center;"><strong>18/18</strong> ✅</td>
+</tr>
+<tr>
+<td>Setiap MK elektif = 3 SKS</td>
+<td style="text-align: center;"><strong>18/18</strong> ✅</td>
+</tr>
+<tr>
+<td>Semester per MK di <code>007</code> (65 blok)</td>
+<td style="text-align: center;"><strong>64/65 benar</strong>; hanya <code>STI-625</code> yang salah SKS (semesternya benar) ✅</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h1 id="bagian-v-temuan-tentang-alat-verifikasi">BAGIAN V — TEMUAN TENTANG ALAT VERIFIKASI</h1>
+<p>Bagian ini penting karena menjelaskan <strong>mengapa</strong> temuan-temuan di atas dapat lolos selama ini.</p>
+<h2 id="51-verify_zero_discrepancypy-hanya-memeriksa-dua-pola-string">5.1 <code>verify_zero_discrepancy.py</code> Hanya Memeriksa Dua Pola String</h2>
+<p>Skrip <code>_tools/verify_zero_discrepancy.py</code> (41 baris) melaporkan:</p>
+<pre><code>Auditing 26 markdown files in KURIKULUM2026_REVISI...
+[SUCCESS] 100% PERFECT ALIGNMENT: Semua file Markdown di KURIKULUM2026_REVISI telah 100% sinkron dan selaras!
+</code></pre>
+<p>Namun pembacaan kode pada baris 22–35 menunjukkan skrip ini <strong>hanya menjalankan dua pemeriksaan</strong>:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Pemeriksaan</th>
+<th style="text-align: center;">Baris</th>
+<th>Logika</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">23–28</td>
+<td>Apakah baris yang memuat <code>STI-103</code> juga memuat "Logika Informatika" tanpa penanda "(Lama)"</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">31–35</td>
+<td>Apakah baris yang memuat <code>STI-204</code> menyebut "Matematika Diskrit" tanpa kata "Logika"</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="yang-tidak-diperiksa-oleh-skrip-ini">Yang Tidak Diperiksa oleh Skrip Ini</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th style="text-align: center;">Diperiksa?</th>
+<th>Temuan yang Lolos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jumlah dan total SKS</td>
+<td style="text-align: center;">❌</td>
+<td>P0-3a, P0-3b, P0-3c</td>
+</tr>
+<tr>
+<td>Jumlah MK per kategori</td>
+<td style="text-align: center;">❌</td>
+<td>P0-3a</td>
+</tr>
+<tr>
+<td>Subtotal &amp; kumulatif per semester</td>
+<td style="text-align: center;">❌</td>
+<td>P0-3b</td>
+</tr>
+<tr>
+<td>Kelengkapan struktur bab</td>
+<td style="text-align: center;">❌</td>
+<td>P0-2</td>
+</tr>
+<tr>
+<td>Tabrakan kode MK aktif</td>
+<td style="text-align: center;">❌</td>
+<td>P0-1</td>
+</tr>
+<tr>
+<td>Rantai prasyarat</td>
+<td style="text-align: center;">❌</td>
+<td>P1-2</td>
+</tr>
+<tr>
+<td>Jumlah CPMK per MK</td>
+<td style="text-align: center;">❌</td>
+<td>P1-1</td>
+</tr>
+<tr>
+<td>Keseragaman rumusan CPL</td>
+<td style="text-align: center;">❌</td>
+<td>P1-4</td>
+</tr>
+<tr>
+<td>Ketunggalan matriks CPL↔PL / PEO↔CPL</td>
+<td style="text-align: center;">❌</td>
+<td>P1-5</td>
+</tr>
+<tr>
+<td>Reproduktibilitas angka rekapitulasi</td>
+<td style="text-align: center;">❌</td>
+<td>P1-3, P2-3, P2-5</td>
+</tr>
+<tr>
+<td>Validitas sintaks tabel Markdown</td>
+<td style="text-align: center;">❌</td>
+<td>P2-2</td>
+</tr>
+<tr>
+<td>Kelengkapan jumlah silabus</td>
+<td style="text-align: center;">❌</td>
+<td>P2-1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Kesimpulan:</strong> klaim "100% PERFECT ALIGNMENT" pada output skrip, dan klaim "100% tuntas dan terverifikasi" pada <code>AGENTS.md</code>, <strong>tidak memiliki dasar verifikasi yang memadai</strong>. Skrip tersebut memvalidasi dua nomenklatur mata kuliah, bukan keselarasan kurikulum.</p>
+<h2 id="52-deep_cross_auditpy-menghasilkan-tujuh-false-positive">5.2 <code>deep_cross_audit.py</code> Menghasilkan Tujuh False Positive</h2>
+<p>Skrip <code>_tools/deep_cross_audit.py</code> melaporkan 7 temuan, seluruhnya pada <code>017_AUDIT_FORENSIK...md</code> baris 139–145. Namun baris-baris tersebut adalah <strong>tabel log koreksi</strong> yang secara fungsional <strong>harus</strong> menyebut kode lama (<code>STI-104</code>, <code>STI-205</code>, <code>FST-208</code>) untuk mendokumentasikan penggantiannya.</p>
+<p>Skrip ini sudah memiliki mekanisme pengecualian (<code>if fname not in [...]</code> pada baris 110) tetapi hanya mengecualikan <code>016_ANALISIS_BoK...md</code>, tidak <code>017</code>. Perbaikan: tambahkan <code>017_AUDIT_FORENSIK_ZERO_REDUNDANCY_DAN_ZERO_GAP.md</code> ke daftar pengecualian, atau lebih baik, kecualikan baris yang berada dalam konteks tabel ekuivalensi/log koreksi.</p>
+<h2 id="53-rekomendasi-penguatan-alat-verifikasi">5.3 Rekomendasi Penguatan Alat Verifikasi</h2>
+<p>Sebelum melakukan koreksi substansi, <strong>prioritaskan penulisan ulang skrip verifikasi</strong>, agar regresi seperti P0-3 tidak lolos lagi. Cakupan minimum yang perlu diverifikasi otomatis:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Pemeriksaan</th>
+<th>Metode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Total SKS = 146 dan total MK = 55</td>
+<td>Parse tabel struktur, jumlahkan kolom SKS, bandingkan dengan label</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Subtotal &amp; kumulatif tiap semester</td>
+<td>Rekalkulasi berantai, bandingkan dengan label subtotal</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Komposisi rumpun (MKWU/FSTI/Core/Elektif)</td>
+<td>Group-by kolom Kategori</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Konsistensi SKS tiap kode MK lintas file</td>
+<td>Bangun kamus <code>kode → SKS</code> per file, diff antar file</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Konsistensi nama tiap kode MK lintas file</td>
+<td>Bangun kamus <code>kode → nama</code> per file, diff antar file (akan menangkap P0-1)</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td>Rantai prasyarat valid (semester prasyarat &lt; semester MK)</td>
+<td>Topological check terhadap kamus semester</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td>Jumlah CPMK per MK = 4</td>
+<td>Hitung baris CPMK per blok</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td>Total bobot asesmen = 100% dan jumlah titik = 4</td>
+<td>Parse kolom persentase</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td>Jumlah baris pertemuan = 16</td>
+<td>Hitung baris matriks per blok</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td>Jumlah kolom header = separator = tiap baris data</td>
+<td>Validasi struktural tiap tabel</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td>Kelengkapan heading Bab I–VIII</td>
+<td>Cek keberadaan pola <code># BAB {I..VIII}</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td>Jumlah blok silabus = 67</td>
+<td>Hitung heading <code>### N. KODE — Nama</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td>Rumusan tiap CPL identik lintas file</td>
+<td>Normalisasi whitespace, diff string</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td>Setiap CPL memiliki minimal satu <code>I</code>, satu <code>R</code>, satu <code>M</code></td>
+<td>Rekalkulasi matriks I/R/M</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h1 id="bagian-vi-rencana-tindak-lanjut">BAGIAN VI — RENCANA TINDAK LANJUT</h1>
+<h2 id="61-urutan-pengerjaan-yang-direkomendasikan">6.1 Urutan Pengerjaan yang Direkomendasikan</h2>
+<p>Urutan ini dirancang agar tidak terjadi kerja ganda — keputusan yang berdampak luas diselesaikan lebih dulu.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">Tahap</th>
+<th>Tindakan</th>
+<th>Alasan Urutan</th>
+<th>Pemilik Keputusan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>0</strong></td>
+<td>Perkuat <code>verify_zero_discrepancy.py</code> sesuai §5.3</td>
+<td>Agar setiap koreksi berikutnya dapat diverifikasi otomatis dan regresi tidak lolos lagi</td>
+<td>Agent (teknis)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td><strong>Putuskan identitas <code>FST-204</code> &amp; <code>FST-205</code></strong> (P0-1)</td>
+<td>Menentukan arah koreksi di <code>004</code>, <code>005</code>, <code>007</code>, dan Buku Final sekaligus. Tanpa ini, keempat dokumen tidak dapat dikoreksi konsisten</td>
+<td><strong>Tim Pengembang Kurikulum</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td>Putuskan penyelesaian jumlah CPMK (P1-1)</td>
+<td>Menentukan volume kerja pada 31 MK di <code>007</code> dan Lampiran 2 Buku Final</td>
+<td><strong>Tim Pengembang Kurikulum</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td>Koreksi angka P0-3 di Buku Final (komposisi rumpun, Sem 6, kumulatif Sem 6–7, <code>STI-625</code>)</td>
+<td>Murni aritmetika, angka benar sudah tersedia di <code>005</code></td>
+<td>Agent (teknis)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td>Satukan rantai prasyarat <code>007</code> → <code>005</code> (P1-2)</td>
+<td>Setelah Tahap 1 selesai, karena <code>FST-204</code>/<code>FST-205</code> muncul sebagai prasyarat</td>
+<td>Agent + validasi Tim</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Rekonstruksi Bab I, III, V Buku Final (P0-2)</td>
+<td>Materi tersedia di <code>001</code>, <code>003</code>, <code>009A</code>–<code>009E</code>; pekerjaan penggabungan</td>
+<td>Agent (teknis)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td>Satukan rumusan 14 CPL (P1-4) dan matriks CPL↔PL / PEO↔CPL (P1-5)</td>
+<td>Perlu keputusan versi mana yang berlaku</td>
+<td><strong>Tim Pengembang</strong> + Agent</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td>Perbaiki angka rekapitulasi <code>004</code> §5 (P1-3) dan <code>011</code> (P2-3, P2-5)</td>
+<td>Setelah pemetaan CPL final, agar tidak dihitung dua kali</td>
+<td>Agent (teknis)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>8</strong></td>
+<td>Selesaikan penguatan <code>KK4</code> (P1-3, P1-5c)</td>
+<td>Memerlukan keputusan kurikuler: MK wajib mana yang menopang KK4 bagi mahasiswa P1/P3</td>
+<td><strong>Tim Pengembang Kurikulum</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>9</strong></td>
+<td>Kebersihan teknis: separator <code>011</code>, kolom <code>004:76</code>, silabus <code>MKU-406</code>/<code>MKU-508</code>, proporsi praktikum, indeks <code>009_LANGKAH2</code>, hapus <code>_tmp_audit.py</code></td>
+<td>Independen, dapat dikerjakan paralel</td>
+<td>Agent (teknis)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Regenerasi seluruh HTML/XLSX/DOCX + jalankan skrip verifikasi baru</td>
+<td>Finalisasi</td>
+<td>Agent (teknis)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="62-keputusan-yang-memerlukan-tim-pengembang-kurikulum">6.2 Keputusan yang Memerlukan Tim Pengembang Kurikulum</h2>
+<p>Empat keputusan berikut <strong>tidak dapat diambil oleh agent</strong> karena menyangkut substansi kurikulum, bukan konsistensi teknis:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th style="text-align: center;">No</th>
+<th>Keputusan</th>
+<th>Pertanyaan Konkret</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td>Identitas <code>FST-204</code> &amp; <code>FST-205</code></td>
+<td>Mata kuliah mana yang benar mengisi Semester 2: (Pengantar KA &amp; Data + Basic English for IT) atau (Organisasi &amp; Arsitektur Komputer + Pemrograman Lanjut OOP)? Bila keempatnya diperlukan, MK mana yang digeser agar Semester 2 tetap ≤ 20 SKS?</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td>Jumlah CPMK</td>
+<td>Tambahkan CPMK ke-4 pada 31 MK (terutama 12 MK peminatan STB/STC), atau longgarkan narasi pemetaan 1-to-1?</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td>Penguatan <code>KK4</code></td>
+<td>Bagaimana menjamin CPL KK4 (Tata Kelola &amp; Audit TI) tercapai oleh mahasiswa peminatan P1 dan P3, yang tidak menempuh elektif STB?</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td>Versi rumusan CPL yang berlaku</td>
+<td>Untuk <code>S1</code> (versi <code>003</code> vs <code>009A</code>/<code>011</code>), <code>KU2</code> (versi <code>003</code> vs <code>009B</code>), <code>KK3</code> (dengan atau tanpa IoT), dan <code>P4</code> (domain RPL vs domain data)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="63-estimasi-volume-koreksi-teknis">6.3 Estimasi Volume Koreksi Teknis</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Kategori</th>
+<th style="text-align: center;">Jumlah Titik Koreksi</th>
+<th>File Terdampak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Angka SKS &amp; komposisi (P0-3)</td>
+<td style="text-align: center;">10 baris</td>
+<td><code>BUKU</code>, <code>006</code>, <code>007</code></td>
+</tr>
+<tr>
+<td>Struktur bab (P0-2)</td>
+<td style="text-align: center;">3 bab + 5 diagram + 6 bagian <code>## 1.</code> + 1 daftar isi</td>
+<td><code>BUKU</code></td>
+</tr>
+<tr>
+<td>Rantai prasyarat (P1-2)</td>
+<td style="text-align: center;">19 MK</td>
+<td><code>007</code></td>
+</tr>
+<tr>
+<td>Jumlah CPMK (P1-1)</td>
+<td style="text-align: center;">31 MK</td>
+<td><code>007</code>, <code>BUKU</code></td>
+</tr>
+<tr>
+<td>Rumusan CPL (P1-4)</td>
+<td style="text-align: center;">6 CPL</td>
+<td><code>003</code>, <code>011</code></td>
+</tr>
+<tr>
+<td>Matriks pemetaan (P1-5, P2-3e)</td>
+<td style="text-align: center;">5 CPL + 14 MK</td>
+<td><code>011</code>, <code>004</code></td>
+</tr>
+<tr>
+<td>Angka rekapitulasi (P1-3, P2-3, P2-5)</td>
+<td style="text-align: center;">12 + 34 + 2 = 48 sel</td>
+<td><code>004</code>, <code>011</code>, <code>BUKU</code></td>
+</tr>
+<tr>
+<td>Sintaks &amp; kebersihan (P2-2, P2-6)</td>
+<td style="text-align: center;">4 separator + 1 baris kolom + 2 silabus + 1 indeks + 1 file</td>
+<td><code>011</code>, <code>004</code>, <code>007</code>, <code>009_LANGKAH2</code></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h1 id="bagian-vii-penutup">BAGIAN VII — PENUTUP</h1>
+<h2 id="71-ringkasan-penilaian">7.1 Ringkasan Penilaian</h2>
+<p>Folder <code>KURIKULUM2026_REVISI/</code> memiliki <strong>fondasi substansi yang kuat</strong> namun <strong>lapisan konsistensi yang belum tuntas</strong>.</p>
+<p>Yang sudah kokoh: seluruh kerangka makro OBE (VMTS → 3 PEO → 4 PL → 14 CPL → 33 BoK) memiliki jumlah dan cakupan yang benar tanpa satu pun kode asing; dokumen <code>005</code> sebagai sumber struktur terverifikasi bersih secara aritmetika; skema 4 titik asesmen dan matriks 16 pertemuan bersih sempurna pada 65 dari 65 mata kuliah; tidak ada kode mata kuliah usang; tidak ada CPL orphan maupun MK orphan.</p>
+<p>Yang belum tuntas terpusat pada tiga hal. Pertama, <strong>tabrakan identitas <code>FST-204</code>/<code>FST-205</code></strong> yang membuat dua mata kuliah kehilangan silabus dan dua mata kuliah lain kehilangan slot semester. Kedua, <strong>Buku Kurikulum Final belum layak diajukan</strong> karena kehilangan Bab I, III, dan V, tidak memuat rumusan Visi 2045 maupun rumusan tekstual 14 CPL, dan memuat angka komposisi serta sebaran SKS yang salah. Ketiga, <strong>angka rekapitulasi di berbagai dokumen tidak dapat direproduksi</strong> dari data yang mendasarinya, sehingga klaim seperti "alokasi SKS yang solid" tidak terdukung.</p>
+<p>Akar persoalan bersifat prosedural: alat verifikasi yang tersedia hanya memeriksa dua pola string, sehingga regresi numerik dan struktural pada dokumen turunan tidak pernah terdeteksi. Karena itu penguatan alat verifikasi diletakkan sebagai Tahap 0 dalam rencana tindak lanjut.</p>
+<h2 id="72-pernyataan-batas-audit">7.2 Pernyataan Batas Audit</h2>
+<p>Audit ini memeriksa konsistensi numerik, kelengkapan struktural, dan keterlacakan referensi silang. Hal-hal berikut <strong>tidak diaudit</strong> dan tidak boleh dianggap tervalidasi oleh laporan ini:</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Aspek</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ketepatan pedagogis rumusan CPMK dan Sub-CPMK</td>
+<td>Tidak diaudit</td>
+</tr>
+<tr>
+<td>Kelayakan level Bloom yang dipilih per CPMK</td>
+<td>Tidak diaudit (kecuali 6 baris level majemuk pada P2-6e)</td>
+</tr>
+<tr>
+<td>Kesesuaian substansi materi 16 pertemuan terhadap standar industri</td>
+<td>Tidak diaudit</td>
+</tr>
+<tr>
+<td>Ketepatan pemetaan BoK terhadap dokumen asli IS2020 dan IT2017</td>
+<td>Tidak diaudit (hanya konsistensi internal antar file)</td>
+</tr>
+<tr>
+<td>Validitas simulasi akselerasi 7 semester (<code>015</code>)</td>
+<td>Tidak diaudit — perlu validasi ulang setelah rantai prasyarat disatukan</td>
+</tr>
+<tr>
+<td>Kelayakan sumber daya laboratorium dan SDM dosen (Bab VIII)</td>
+<td>Tidak diaudit</td>
+</tr>
+<tr>
+<td>Kesesuaian dokumen <code>013</code>, <code>014</code>, <code>018</code></td>
+<td>Tidak diaudit secara mendalam</td>
+</tr>
+<tr>
+<td>Isi file <code>.xlsx</code>, <code>.docx</code>, dan <code>.html</code> hasil ekspor</td>
+<td>Tidak diaudit — audit dilakukan pada file <code>.md</code> sumber</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="73-status-perubahan-file">7.3 Status Perubahan File</h2>
+<p><strong>Tidak ada file yang diubah oleh audit ini.</strong> Laporan ini bersifat diagnostik. Seluruh temuan disertai nomor baris agar dapat diverifikasi ulang secara independen sebelum koreksi diterapkan.</p>
+<hr />
+<h2 id="lampiran-indeks-temuan-berdasarkan-file">LAMPIRAN — INDEKS TEMUAN BERDASARKAN FILE</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>File</th>
+<th>Temuan Terkait</th>
+<th style="text-align: center;">Jumlah</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>003_STANDAR_14_CPL...md</code></td>
+<td>P1-4e (KU2), P1-4f (S1 outlier), P1-5b (PEO↔CPL), P2-6b (4 sel BoK)</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td><code>004_MATRIKS_KETERLACAKAN...md</code></td>
+<td>P0-1 (FST-204/205), P1-3 (rekap §5 + KU3 salah domain + legenda <code>*</code> + kolom <code>:76</code>), P2-3e</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td><code>005_STRUKTUR_KURIKULUM...md</code></td>
+<td>P2-4 (proporsi praktikum)</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><code>006_DISTRIBUSI...MBKM.md</code></td>
+<td>P0-3c (<code>STI-625</code> 3 SKS)</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><code>007_FORMULASI_CPMK...md</code></td>
+<td>P0-1, P0-3c, P1-1 (31 MK), P1-2 (19 MK), P2-1 (65 vs 67), P2-6e, P2-6f</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr>
+<td><code>009_LANGKAH2_CPL_FORMAL.md</code></td>
+<td>P2-6c (indeks stale + label PL ad-hoc)</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><code>011_IMPLEMENTASI_OBE...md</code></td>
+<td>P1-4a–d (rumusan CPL), P1-5a (Sheet 3 vs 4), P1-5c (I→R→M), P2-2 (separator), P2-3 (34 sel)</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td><code>BUKU_KURIKULUM...FINAL.md</code></td>
+<td>P0-1, P0-2 (bab hilang), P0-3 (angka salah), P2-1, P2-5 (IKU 7)</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td><code>_tools/verify_zero_discrepancy.py</code></td>
+<td>§5.1 (cakupan tidak memadai)</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><code>_tools/deep_cross_audit.py</code></td>
+<td>§5.2 (7 false positive)</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><code>_tmp_audit.py</code></td>
+<td>P2-6g (artefak sementara)</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><em>Dokumen 019 — Laporan Audit Kritis Keselarasan Folder <code>KURIKULUM2026_REVISI/</code></em>
+<em>Disusun 23 Agustus 2026, 21:29:23 WIB</em>
+<em>Status: Laporan Temuan Diagnostik — belum ada perbaikan yang diterapkan</em>
+<strong>Tim Pengembang Kurikulum FSTI Universitas Widyagama Malang</strong></p>
+<div class="footer-note">Dokumen PDF dihasilkan otomatis dari Markdown sumber (019_AUDIT_KRITIS_KESELARASAN_FOLDER_REVISI_23082026_212923.md). Tabel dan gambar diformat print-ready A4. Tim Pengembang Kurikulum FSTI UWG — 2026.</div>
+</body>
+</html>

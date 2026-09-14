@@ -502,15 +502,325 @@ FST-714 Skripsi / Tugas Akhir (6 Mandiri, FST-613 + ≥120 SKS; atau 4 opsi non-
 
 ## 8.4 Matriks CPL dengan Mata Kuliah — sumber Dok. 004 §3–§4, T29 Template (matriks penuh 55x14 di Lampiran 1; pola per tahap di bawah verbatim)
 
-Tahap Fondasi Sem 1–2 (Introduce): STI-101→P2,KU1; STI-102→P1; STI-103→P1,P3,KU1; FST-102→P4,KU1; FST-203→P4; FST-207→P4; STI-204→P1,KU1; STI-205→P1; FST-204→P3; FST-206→S1; MKU-101/102/103/204→S1,KU2,KU3.
+Matriks penuh 55×14 tersedia di Lampiran 1. Pola pemetaan CPL per tahap perkembangan kurikulum disajikan pada tabel di bawah ini:
 
-Tahap Inti Sem 3–4 (Reinforce): STI-306→P2,KK5; STI-307→KK1; STI-308→P4,KK5; STI-309→P2; STI-310/312→P3,KK3; STI-311/416→P4,KK5; STI-413/414→KK1,KK2; STI-415/520→KK2; STI-417→P3,KK3; STI-418→P3,KK3; FST-408→P1.
+### Tahap I — Fondasi Sem 1–2 (Introduce)
 
-Tahap Spesialisasi-Mastery Sem 5–8: STI-519→KK3; STI-521→KK3; STI-522→KK5; STI-523→P2,KK6; STI-624/626→KK1; STI-625→KK3; STI-627→KK5; STI-728→KK6; STA-501–703→KK1,KK2 (PL-1); STB-501–703→KK3,KK4 (PL-2); STC-501–703→KK5 plus KK6 pada STC-703 (PL-3/PL-4); MKU-507→S1,KU1-3; FST-610→S1,KU1-3,KK1-6; FST-612→S1,KU1-3; FST-613/714→seluruh CPL sesuai jalur TA.
+| Kode MK | Nama Mata Kuliah | CPL yang Dibebankan | Keterangan |
+|---|---|---|---|
+| STI-101 | Pengantar Sistem dan TI | P2, KU1 | Pengantar konsep SI |
+| STI-102 | Kalkulus | P1 | Fondasi matematis |
+| STI-103 | Arsitektur dan Organisasi STI | P1, P3, KU1 | MK baru K2026; prasyarat berantai |
+| STI-204 | Matematika Diskrit dan Logika | P1, KU1 | MK baru K2026; prasyarat STI-103 |
+| STI-205 | Aljabar Linear dan Matriks | P1 | Fondasi ML/AI |
+| FST-102 | Algoritma dan Pemrograman | P4, KU1 | Fondasi pemrograman |
+| FST-203 | Struktur Data dan Algoritma | P4 | Algoritma lanjut |
+| FST-204 | Pengantar Kecerdasan Artifisial & Data | P3 | Pengantar AI |
+| FST-206 | Etika Profesi & Hukum Digital | S1 | Fondasi sikap profesional |
+| FST-207 | Sistem Basis Data | P4 | Fondasi data & platform |
+| MKU-101/102/103 | Agama I, Pancasila, Bahasa Indonesia | S1, KU2, KU3 | MKWU wajib nasional |
+| MKU-204 | Kewirausahaan I | S1, KU2, KU3 | Fondasi technopreneurship |
+| **Total** | **12 MK Fondasi** | CPL utama: **S1, KU1–KU3, P1, P3, P4** | |
+
+### Tahap II — Inti Sem 3–4 (Reinforce)
+
+| Kode MK | Nama Mata Kuliah | CPL yang Dibebankan | Keterangan |
+|---|---|---|---|
+| STI-306 | Analisis dan Perancangan SI | P2, KK5 | Desain sistem informasi |
+| STI-307 | Sistem Cerdas | KK1 | AI terapan |
+| STI-308 | UI/UX Design & Prototyping | P4, KK5 | Platform & pengalaman pengguna |
+| STI-309 | Rekayasa Perangkat Lunak | P2 | Proses rekayasa |
+| STI-310 & STI-312 | Sistem Operasi & Jaringan Komputer | P3, KK3 | Fondasi infrastruktur |
+| STI-311 & STI-416 | Web Front End & Web Back End Dev. | P4, KK5 | Fondasi platform digital |
+| STI-413 & STI-414 | Machine Learning & Pengantar NLP | KK1, KK2 | AI/ML inti |
+| STI-415 & STI-520 | Data Warehouse & Data Mining | KK2 | Analitik & intelijen data |
+| STI-417 | Komputasi Awan | P3, KK3 | Cloud infrastructure |
+| STI-418 | Dasar Keamanan Informasi | P3, KK3 | MK baru K2026; security baseline |
+| FST-408 | Probabilitas dan Statistika | P1 | Fondasi statistika ML |
+| **Total** | **11 MK Inti** | CPL utama: **P1–P4, KK1–KK3, KK5** | |
+
+### Tahap III — Spesialisasi & Mastery Sem 5–8
+
+| Kode MK | Nama Mata Kuliah | CPL yang Dibebankan | Keterangan |
+|---|---|---|---|
+| STI-519 | Keamanan Informasi Lanjut | KK3 | Security lanjut |
+| STI-521 | Internet of Things | KK3 | Smart systems |
+| STI-522 | Pemrograman Aplikasi Mobile | KK5 | Platform mobile |
+| STI-523 | Manajemen Proyek TI | P2, KK6 | IT project management |
+| STI-624 & STI-626 | Integrasi AI & Deep Learning | KK1 | AI integratif — positioning SISTEKIN |
+| STI-625 | Smart City & Pemerintahan Digital | KK3 | MK baru K2026; smart systems |
+| STI-627 | Digital Platform Engineering | KK5 | Platform engineering |
+| STI-728 | Inovasi Teknologi & Startup Digital | KK6 | Technopreneurship |
+| STA-501–703 | Peminatan P1: Integrated Smart Systems | KK1, KK2 | 6 MK elektif — PL-1 |
+| STB-501–703 | Peminatan P2: Cloud Infra & Cybersecurity | KK3, KK4 | 6 MK elektif — PL-2 |
+| STC-501–703 | Peminatan P3: Digital Platform Eng. | KK5, KK6* | 6 MK elektif — PL-3/PL-4; *KK6 pada STC-703 |
+| MKU-507 | Kuliah Pengabdian Masyarakat (KPM) | S1, KU1–3 | MBKM wajib |
+| FST-610 | Capstone Project FSTI | S1, KU1–3, KK1–6 | Proyek lintas peminatan |
+| FST-612 | Praktik Kerja Lapangan (PKL) | S1, KU1–3 | Magang industri |
+| FST-613 & FST-714 | Pra-Skripsi & Skripsi / Tugas Akhir | Seluruh 14 CPL | Sesuai jalur TA yang dipilih |
+| **Total** | **15 MK Spesialisasi + 18 Elektif** | CPL utama: **S1, KU1–3, KK1–KK6** (semua 14 CPL terpenuhi) | |
 
 ## 8.5 Peta Kurikulum
 
-Level I (Introduce) Sem 1-2, R (Reinforce) Sem 3-4, M (Mastery) Sem 5-8. Tree prasyarat Dok. 012. Boundary anti-overlap 5 Golden Rules Dok. 037.
+> **Tiga Level Perkembangan Kompetensi (Outcome-Based Education):**  
+> ● **Level I — Introduce (Sem 1–2 / 39 SKS):** Membangun fondasi sains komputasi, matematika diskrit, aljabar linear, basis data, logika sistem, dan etika profesional.  
+> ● **Level R — Reinforce (Sem 3–4 / 42 SKS):** Penguatan rekayasa perangkat lunak, sistem cerdas & machine learning, komputasi awan, jaringan komputer, dan keamanan siber.  
+> ● **Level M — Mastery (Sem 5–8 / 65 SKS):** Spesialisasi 3 jalur peminatan (P1/P2/P3 @ 18 SKS), integrasi layanan AI, rekayasa platform digital, Capstone Project lintas disiplin, PKL, dan Tugas Akhir / Skripsi 6 SKS.  
+> 
+> *Rujukan Komprehensif: Tree Prasyarat Lengkap → Dok. 012 · Demarkasi Boundary Silabus & 5 Golden Rules Anti-Overlap → Dok. 037.*
+
+### Gambar 8.1 — Diagram Alir Prasyarat Mata Kuliah (Prerequisite Flowchart BT)
+*Peta ketergantungan sekuensial mata kuliah berantai (Bottom-to-Top) dari fondasi sains/komputasi Semester 1 hingga kulminasi Tugas Akhir Semester 8.*
+
+```mermaid
+flowchart BT
+    %% LEVEL I: INTRODUCE (SEMESTER 1 & 2)
+    subgraph S1 ["Semester 1: Fondasi Awal Sains & Komputasi"]
+        STI101["STI-101<br/>Pengantar STI (2)"]
+        STI102["STI-102<br/>Kalkulus (3)"]
+        STI103["STI-103<br/>Arsitektur & Org STI (3)"]
+        FST102["FST-102<br/>Algoritma & Pemrog (3)"]
+        FST101["FST-101<br/>Dasar Tek. Digital (2)"]
+    end
+
+    subgraph S2 ["Semester 2: Fondasi Lanjut & Rekayasa Data"]
+        STI204["STI-204<br/>Matdis & Logika (3)"]
+        STI205["STI-205<br/>Aljabar Linear (3)"]
+        FST203["FST-203<br/>Struktur Data (3)"]
+        FST204["FST-204<br/>Pengantar AI & Data (2)"]
+        FST205["FST-205<br/>Pemrog. Berorientasi Objek (3)"]
+        FST206["FST-206<br/>Etika & Hukum Digital (2)"]
+        FST207["FST-207<br/>Sistem Basis Data (2)"]
+        MKU204["MKU-204<br/>Kewirausahaan I (2)"]
+    end
+
+    STI102 --> STI205
+    STI103 --> STI204
+    FST102 --> FST203
+    FST102 --> FST205
+    FST102 --> FST207
+    FST101 --> FST206
+
+    %% LEVEL II: REINFORCE (SEMESTER 3 & 4)
+    subgraph S3 ["Semester 3: Inti Rekayasa Sistem & Infrastruktur"]
+        STI306["STI-306<br/>Analisis & Desain SI (3)"]
+        STI307["STI-307<br/>Sistem Cerdas (3)"]
+        STI308["STI-308<br/>UI/UX Design (3)"]
+        STI309["STI-309<br/>Rekayasa PL (3)"]
+        STI310["STI-310<br/>Sistem Operasi (3)"]
+        STI311["STI-311<br/>Web Front-End (3)"]
+        STI312["STI-312<br/>Jaringan Komputer (3)"]
+    end
+
+    STI103 --> STI310
+    STI103 --> STI312
+    FST204 --> STI307
+    STI204 --> STI307
+    FST205 --> STI311
+    STI101 --> STI308
+    FST205 --> STI309
+    FST207 --> STI306
+
+    subgraph S4 ["Semester 4: Analitik, Cloud & Cyber Security Baseline"]
+        STI413["STI-413<br/>Machine Learning (3)"]
+        STI414["STI-414<br/>Pengantar NLP & IR (3)"]
+        STI415["STI-415<br/>Data Warehouse & BI (3)"]
+        STI416["STI-416<br/>Web Back-End (3)"]
+        STI417["STI-417<br/>Komputasi Awan (3)"]
+        STI418["STI-418<br/>Dasar Keamanan Info (2)"]
+        FST408["FST-408<br/>Probabilitas & Stat (2)"]
+    end
+
+    STI310 --> STI417
+    STI312 --> STI417
+    STI312 --> STI418
+    STI307 --> STI413
+    STI205 --> STI413
+    STI307 --> STI414
+    FST207 --> STI415
+    STI311 --> STI416
+    FST207 --> STI416
+
+    %% LEVEL III: MASTERY (SEMESTER 5, 6, 7, 8)
+    subgraph S5 ["Semester 5: Integrasi Sistem & Pemilihan Jalur Peminatan"]
+        STI519["STI-519<br/>Keamanan Info Lanjut (3)"]
+        STI520["STI-520<br/>Data Mining & Visualisasi (3)"]
+        STI521["STI-521<br/>Internet of Things (3)"]
+        STI522["STI-522<br/>Pemrog. Mobile (3)"]
+        STI523["STI-523<br/>Manajemen Proyek TI (3)"]
+        STA501["STA-501 (P1)<br/>Decision Support Sys (3)"]
+        STB501["STB-501 (P2)<br/>Keamanan Jarkom (3)"]
+        STC501["STC-501 (P3)<br/>Adv UX & Des System (3)"]
+    end
+
+    STI418 --> STI519
+    STI413 --> STI520
+    STI415 --> STI520
+    STI312 --> STI521
+    STI310 --> STI521
+    STI311 --> STI522
+    STI416 --> STI522
+    STI306 --> STI523
+    STI309 --> STI523
+    STI413 --> STA501
+    STI418 --> STB501
+    STI308 --> STC501
+
+    subgraph S6 ["Semester 6: Spesialisasi Lanjut & Metodologi Riset"]
+        STI624["STI-624<br/>Integrasi Layanan AI (3)"]
+        STI625["STI-625<br/>Smart City & Pem Dig (2)"]
+        STI626["STI-626<br/>Deep Learning & NN (3)"]
+        STI627["STI-627<br/>Platform Engineering (3)"]
+        FST611["FST-611<br/>Metodologi Penelitian (2)"]
+        STA601["STA-601/602 (P1)<br/>Komputasi / Agen (6)"]
+        STB601["STB-601/602 (P2)<br/>DevOps / Pentest (6)"]
+        STC601["STC-601/602 (P3)<br/>BPMN / Vertikal (6)"]
+    end
+
+    STI413 --> STI624
+    STI416 --> STI624
+    STI521 --> STI625
+    STI413 --> STI626
+    STI416 --> STI627
+    STI417 --> STI627
+    FST408 --> FST611
+    STI413 --> STA601
+    STI417 --> STB601
+    STI418 --> STB602
+    STI306 --> STC601
+    STI522 --> STC602
+
+    subgraph S7 ["Semester 7: Sintesis Capstone, Magang PKL & Pra-Skripsi"]
+        STI728["STI-728<br/>Inovasi & Startup (3)"]
+        FST610["FST-610<br/>Capstone Project FSTI (3)"]
+        FST612["FST-612<br/>Praktik Kerja Lapangan (3)"]
+        FST613["FST-613<br/>Pra-Skripsi / Sempro (2)"]
+        STA701["STA-701/702/703 (P1)<br/>MLOps / LLM / Edge AI (9)"]
+        STB701["STB-701/702/703 (P2)<br/>GRC / CloudSec / SRE (9)"]
+        STC701["STC-701/702/703 (P3)<br/>XR / SaaS / Prod Mgmt (9)"]
+    end
+
+    STI627 --> STI728
+    MKU204 --> STI728
+    STI523 --> FST610
+    FST611 --> FST613
+    STI626 --> STA701
+    STI414 --> STA702
+    STI626 --> STA703
+    STI519 --> STB702
+    STB601 --> STB703
+    STI627 --> STC702
+    STI728 --> STC703
+
+    subgraph S8 ["Semester 8: Kulminasi Kelulusan"]
+        FST714["FST-714 SKRIPSI / TUGAS AKHIR (6 SKS)<br/>(Skripsi Murni / Proyek Startup / Prototipe Industri / Jurnal)"]
+    end
+
+    FST613 --> FST714
+    FST610 -.-> FST714
+    FST612 -.-> FST714
+
+    classDef fondasi fill:#e8f4fd,stroke:#1e3a5f,stroke-width:1.5px,color:#0a2540;
+    classDef inti fill:#e8f8f0,stroke:#1a4d2e,stroke-width:1.5px,color:#0e381f;
+    classDef spesialisasi fill:#f5f0ff,stroke:#5c2d91,stroke-width:1.5px,color:#33145a;
+    classDef puncak fill:#fff3cd,stroke:#b58105,stroke-width:2px,color:#533f03,font-weight:bold;
+
+    class STI101,STI102,STI103,FST102,FST101,STI204,STI205,FST203,FST204,FST205,FST206,FST207,MKU204 fondasi;
+    class STI306,STI307,STI308,STI309,STI310,STI311,STI312,STI413,STI414,STI415,STI416,STI417,STI418,FST408 inti;
+    class STI519,STI520,STI521,STI522,STI523,STA501,STB501,STC501,STI624,STI625,STI626,STI627,FST611,STA601,STB601,STB602,STC601,STC602,STI728,STA701,STB701,STC701,STC702,STC703 spesialisasi;
+    class FST610,FST612,FST613,FST714 puncak;
+```
+
+### Gambar 8.2 — Peta Perkembangan Kurikulum & 3 Jalur Peminatan (Curriculum Progression Flowchart BT)
+*Pemetaan alur kurikulum berjenjang dari Fondasi (Introduce) menuju Penguatan Inti (Reinforce), Spesialisasi (Mastery) dengan 3 Peminatan, dan Kulminasi Gelar Sarjana Komputer (S.Kom).*
+
+```mermaid
+flowchart BT
+    %% LEVEL PUNCAK
+    subgraph PUNCAK ["TAHAP KULMINASI & GELAR (SEMESTER 8 — 8 SKS)"]
+        GRAD["SARJANA KOMPUTER (S.Kom)<br/>Paket Ditempuh: 146 SKS / 55 MK<br/>14 CPL (SN-Dikti & APTIKOM)"]
+        TA["FST-714 Skripsi / Tugas Akhir (6 SKS)<br/>• Skripsi Riset Murni<br/>• Proyek Startup Digital<br/>• Prototipe Sistem Industri<br/>• Publikasi Ilmiah Bereputasi"]
+        AGM2["MKU-808 Agama II (2 SKS)"]
+        TA --> GRAD
+    end
+
+    %% LEVEL MASTERY - SINTESIS SEM 7
+    subgraph MASTERY_SYN ["TAHAP MASTERY: SINTESIS & CAPSTONE (SEMESTER 7 — 18 SKS)"]
+        CAP["FST-610 Capstone Project FSTI (3 SKS)<br/>Kolaborasi Lintas Peminatan"]
+        PKL["FST-612 Praktik Kerja Lapangan / PKL (3 SKS)<br/>Magang Industri Mitra"]
+        SEMPRO["FST-613 Pra-Skripsi / Sempro (2 SKS)"]
+        STARTUP["STI-728 Inovasi & Startup Digital (3 SKS)"]
+    end
+
+    CAP --> TA
+    SEMPRO --> TA
+    PKL -.-> TA
+
+    %% 3 TRACK PEMINATAN
+    subgraph TRACKS ["3 JALUR PEMINATAN BERBASIS PROFIL LULUSAN (SEMESTER 5–7: @ 18 SKS)"]
+        subgraph P1 ["P1: Integrated Smart Systems (PL-1)"]
+            STA_ALL["STA-501 Decision Support Systems (3)<br/>STA-601 Komputasi Numerik Terapan (3)<br/>STA-602 Sistem Agen Cerdas & Multi-Agent (3)<br/>STA-701 MLOps & AI Deployment (3)<br/>STA-702 Conversational AI & LLM (3)<br/>STA-703 Smart Surveillance & Edge AI (3)"]
+        end
+
+        subgraph P2 ["P2: Cloud Infra & Cybersecurity (PL-2)"]
+            STB_ALL["STB-501 Keamanan Jaringan & Forensik (3)<br/>STB-601 Cloud Arch & DevOps CI/CD (3)<br/>STB-602 Penetration Testing & Red Team (3)<br/>STB-701 IT Governance COBIT 2019 (3)<br/>STB-702 Keamanan Cloud & Kriptografi (3)<br/>STB-703 Rekayasa Ketahanan SRE (3)"]
+        end
+
+        subgraph P3 ["P3: Digital Platform Engineering (PL-3 & PL-4)"]
+            STC_ALL["STC-501 Advanced UX Research (3)<br/>STC-601 Otomasi Bisnis BPMN (3)<br/>STC-602 Aplikasi Vertikal Industri (3)<br/>STC-701 Spatial Computing & XR (3)<br/>STC-702 Arsitektur SaaS Enterprise (3)<br/>STC-703 Manajemen Produk Digital (3)"]
+        end
+    end
+
+    STA_ALL --> CAP
+    STB_ALL --> CAP
+    STC_ALL --> CAP
+    STA_ALL --> SEMPRO
+    STB_ALL --> SEMPRO
+    STC_ALL --> SEMPRO
+    STC_ALL --> STARTUP
+
+    %% LEVEL MASTERY - SEMESTER 5 & 6 CORE
+    subgraph MASTERY_CORE ["TAHAP MASTERY: CORE LANJUTAN (SEMESTER 5 & 6 — 39 SKS)"]
+        S5_CORE["Semester 5 Core:<br/>• STI-519 Keamanan Info Lanjut (3)<br/>• STI-520 Data Mining & Vis (3)<br/>• STI-521 Internet of Things (3)<br/>• STI-522 Pemrograman Mobile (3)<br/>• STI-523 Manajemen Proyek TI (3)<br/>• MKU-507 KPM MBKM (3) • MKU-506 Bhs Inggris (2)"]
+        S6_CORE["Semester 6 Core:<br/>• STI-624 Integrasi Layanan Cerdas AI (3)<br/>• STI-625 Smart City & Pem. Digital (2)<br/>• STI-626 Deep Learning & NN (3)<br/>• STI-627 Digital Platform Eng. (3)<br/>• FST-611 Metodologi Penelitian (2)"]
+    end
+
+    S5_CORE --> S6_CORE
+    S6_CORE --> CAP
+    S6_CORE --> SEMPRO
+
+    %% LEVEL REINFORCE - SEMESTER 3 & 4
+    subgraph REINFORCE ["TAHAP REINFORCE: PENGUATAN INTI TEKNOLOGI (SEMESTER 3 & 4 — 42 SKS)"]
+        S3_ALL["Semester 3 (21 SKS):<br/>• STI-306 APSI (3) • STI-307 Sistem Cerdas (3)<br/>• STI-308 UI/UX (3) • STI-309 RPL (3)<br/>• STI-310 Sistem Operasi (3)<br/>• STI-311 Web Front-End (3)<br/>• STI-312 Jaringan Komputer (3)"]
+        S4_ALL["Semester 4 (21 SKS):<br/>• STI-413 Machine Learning (3)<br/>• STI-414 NLP & IR (3) • STI-415 Data Warehouse (3)<br/>• STI-416 Web Back-End (3)<br/>• STI-417 Komputasi Awan (3)<br/>• STI-418 Dasar Keamanan Info (2)<br/>• FST-408 Probstat (2) • MKU-405 KWN (2)"]
+    end
+
+    S3_ALL --> S4_ALL
+    S4_ALL --> S5_CORE
+    S4_ALL --> TRACKS
+
+    %% LEVEL INTRODUCE - SEMESTER 1 & 2
+    subgraph INTRODUCE ["TAHAP INTRODUCE: FONDASI SAINS, MATEMATIKA & KOMPUTASI (SEMESTER 1 & 2 — 39 SKS)"]
+        S1_ALL["Semester 1 (19 SKS):<br/>• STI-101 Pengantar STI (2) • STI-102 Kalkulus (3)<br/>• STI-103 Arsitektur & Org. STI (3)<br/>• FST-101 Dasar Tek. Digital (2)<br/>• FST-102 Algoritma & Pemrograman (3)<br/>• MKWU: Agama I, Pancasila, Bhs. Indonesia (6)"]
+        S2_ALL["Semester 2 (20 SKS):<br/>• STI-204 Matematika Diskrit & Logika (3)<br/>• STI-205 Aljabar Linear & Matriks (3)<br/>• FST-203 Struktur Data & Algo (3)<br/>• FST-204 Pengantar AI & Data (2)<br/>• FST-205 PBO (3) • FST-206 Etika Digital (2)<br/>• FST-207 Basis Data (2) • MKU-204 KWU I (2)"]
+    end
+
+    S1_ALL --> S2_ALL
+    S2_ALL --> S3_ALL
+
+    %% STYLING
+    classDef cIntro fill:#e0f2fe,stroke:#0369a1,stroke-width:1.5px,color:#0c4a6e;
+    classDef cReinf fill:#dcfce7,stroke:#15803d,stroke-width:1.5px,color:#14532d;
+    classDef cMast fill:#f3e8ff,stroke:#7e22ce,stroke-width:1.5px,color:#581c87;
+    classDef cTrack fill:#fef3c7,stroke:#b45309,stroke-width:1.5px,color:#78350f;
+    classDef cApex fill:#fee2e2,stroke:#b91c1c,stroke-width:2px,color:#7f1d1d,font-weight:bold;
+
+    class S1_ALL,S2_ALL cIntro;
+    class S3_ALL,S4_ALL cReinf;
+    class S5_CORE,S6_CORE,CAP,PKL,SEMPRO,STARTUP cMast;
+    class STA_ALL,STB_ALL,STC_ALL cTrack;
+    class TA,GRAD cApex;
+```
 
 ## 8.6 Mata Kuliah Pilihan/Konsentrasi
 
@@ -711,13 +1021,49 @@ Kurikulum SISTEKIN 2026 menetapkan arah AI/Smart Systems + Technopreneurship den
 
 ## Lampiran 5 — Model Penuh 1 MK (verbatim Dok. 007 §5: STI-103 Arsitektur dan Organisasi Sistem TI, 3 SKS, Sem 1)
 
-Tabel 5.A Identitas & Pemetaan Makro: Kode & Nama STI-103 Arsitektur dan Organisasi Sistem Teknologi Informasi; Bobot 3 SKS Teori (150m Kuliah + 180m Mandiri); Semester 1 / Infrastruktur, Sistem & Cloud (Core STI); Prasyarat tidak ada (fondasi pertama); CPL dibebankan P1 (representasi data & logika), P3 (arsitektur hardware, virtualisasi & infra), KU1 (pemikiran logis); PL-1, PL-2; Target PEO-1, PEO-3.
+### Tabel 5.A — Identitas & Pemetaan Makro Mata Kuliah
 
-Tabel 5.B CPMK ABCD & Bloom: CPMK-1 menerapkan representasi biner/heksadesimal/floating IEEE 754 dan siklus Von Neumann pada prosesor secara tepat (C3; P1,P3). CPMK-2 menganalisis rangkaian kombinasional-sekuensial dengan gerbang & flip-flop sebagai dasar ALU (C4; P1,KU1). CPMK-3 membandingkan CISC x86_64 vs RISC ARM64/RISC-V, hirarki cache L1/L2/L3, akselerator GPU/NPU pada beban nyata secara kritis (C4; P3,KU1). CPMK-4 mengevaluasi bus, interupsi I/O, virtualisasi hypervisor, organisasi server data center untuk cloud secara komprehensif (C5; P3,KU1).
+| Atribut Kurikulum | Spesifikasi & Rujukan OBE |
+|---|---|
+| Kode & Nama Mata Kuliah | STI-103 Arsitektur dan Organisasi Sistem Teknologi Informasi |
+| Bobot SKS / Tipe | 3 SKS / Teori (150m Kuliah + 180m Mandiri) |
+| Semester / Rumpun MK | Semester 1 / Infrastruktur, Sistem & Cloud (Core STI) |
+| Prasyarat Akademik | Tidak ada (fondasi sistem tingkat pertama) |
+| CPL yang Dibebankan | P1 (representasi data & logika), P3 (arsitektur hardware, virtualisasi & infra), KU1 (pemikiran logis) |
+| Profil Lulusan (PL) | PL-1 (Intelligent IS & AI Engineer), PL-2 (Cloud Infrastructure & Cybersecurity Integrator) |
+| Target PEO | PEO-1 (Professional Practice & Systems Integration), PEO-3 (Research & Lifelong Learning) |
 
-Tabel 5.C Matriks 16 Pekan: Mg1 Von Neumann & evolusi (C2) kuliah-diskusi formatif; Mg2 konversi biner-oktal-heks-komplemen dua (C3) problem-solving formatif; Mg3 floating IEEE 754 (C3) case-based formatif; Mg4 merancang kombinasional ALU (C4) problem-based — Tugas 1 Kuis Problem Solving 20%; Mg5 sekuensial flip-flop register (C4) formatif; Mg6 struktur CPU ALU/CU/register (C2) formatif; Mg7 fetch-decode-execute & addressing (C4) case workshop formatif; Mg8 UTS tertulis biner-logika-datapath 30%; Mg9 CISC vs RISC ARM64/RISC-V (C4) formatif; Mg10 pipelining & hazard (C4) formatif; Mg11 hirarki memori cache (C4) formatif; Mg12 akselerator GPU/NPU AI (C4) — Tugas 2 Studi Kasus Hardware AI & Server 20%; Mg13 RAM DDR4/5 & virtual memory MMU (C4) formatif; Mg14 I/O PCIe/NVMe/interrupt/DMA (C3) formatif; Mg15 virtualisasi VT-x & server data center (C5) demo-kasus formatif; Mg16 UAS komprehensif prosesor-cache-GPU-virtualisasi 30%.
+### Tabel 5.B — Formulasi CPMK (Format ABCD & Level Bloom)
 
-Pola 3-tabel identik berlaku untuk seluruh 66 MK sisanya di Dok. 007 (MKWU 8, FSTI 13, Core 27 sisanya, Elektif 18): identitas + 4 CPMK ABCD + 16 pekan dengan 4 titik Tugas 1 (20%) / UTS (25-30%) / Tugas 2 (20-25%) / UAS (30%). Seluruh MK tercakup penuh.
+| Kode CPMK | Rumusan CPMK | Bloom | CPL |
+|---|---|:---:|:---:|
+| CPMK-1 | Mahasiswa mampu menerapkan representasi data biner, heksadesimal, floating point IEEE 754, dan siklus eksekusi instruksi Von Neumann pada arsitektur prosesor secara tepat dan akurat. | C3 | P1, P3 |
+| CPMK-2 | Mahasiswa mampu menganalisis rancangan rangkaian logika kombinasional dan sekuensial menggunakan gerbang logika biner dan flip-flop sebagai dasar operasi ALU. | C4 | P1, KU1 |
+| CPMK-3 | Mahasiswa mampu membandingkan karakteristik arsitektur prosesor CISC (x86_64) vs RISC (ARM64/RISC-V), hirarki memori cache L1/L2/L3, dan akselerator GPU/NPU dalam skenario beban kerja nyata secara kritis. | C4 | P3, KU1 |
+| CPMK-4 | Mahasiswa mampu mengevaluasi mekanisme bus sistem, interupsi I/O, abstraksi virtualisasi hardware (hypervisor), dan organisasi server data center untuk infrastruktur cloud modern secara komprehensif. | C5 | P3, KU1 |
+
+### Tabel 5.C — Matriks Rencana Pembelajaran 16 Pekan
+
+| Mg | Sub-CPMK & Kemampuan Akhir | Pokok Bahasan | Metode | Asesmen & Bobot |
+|---|---|---|---|---|
+| 1 | Menguraikan model Von Neumann dan evolusi arsitektur komputer (C2) | Arsitektur komputer modern, model Von Neumann, komponen utama | Kuliah & diskusi | Formatif |
+| 2 | Mengonversi bilangan biner, oktal, heksadesimal, komplemen dua (C3) | Representasi data: integer biner, two's complement | Problem-solving | Formatif |
+| 3 | Menghitung representasi floating point IEEE 754 (C3) | Format IEEE 754 single & double precision | Case-based learning | Formatif |
+| **4** | **Merancang rangkaian logika kombinasional ALU dasar (C4)** | **Gerbang logika, adder, multiplexer, decoder** | **Problem-based** | **Tugas 1: kuis & problem solving (20%)** |
+| 5 | Menganalisis rangkaian sekuensial, flip-flop, register (C4) | RS, D, JK flip-flop, register, counter | Kuliah & latihan | Formatif |
+| 6 | Menguraikan struktur internal CPU: ALU, CU, register (C2) | Datapath, control unit, register bank | Problem-solving | Formatif |
+| 7 | Menganalisis siklus fetch-decode-execute & addressing (C4) | Siklus instruksi, mode pengalamatan | Case workshop | Formatif |
+| **8** | **Evaluasi Tengah Semester** | **Biner, logika digital, datapath CPU** | **Ujian tertulis** | **UTS (30%)** |
+| 9 | Membedakan CISC (x86) vs RISC (ARM64/RISC-V) (C4) | Set instruksi CISC vs RISC | Kuliah interaktif | Formatif |
+| 10 | Menganalisis pipelining instruksi dan hazard (C4) | Pipelining, data/control hazard, branch prediction | Problem-solving | Formatif |
+| 11 | Mengevaluasi hirarki memori dan cache L1/L2/L3 (C4) | Cache mapping, hit/miss ratio | Case-based learning | Formatif |
+| **12** | **Menganalisis akselerator paralel GPU & NPU untuk AI (C4)** | **CPU multicore vs GPU tensor cores vs NPU** | **Kuliah & analisis kasus** | **Tugas 2: studi kasus hardware AI & server (20%)** |
+| 13 | Menganalisis memori utama dan virtual memory (C4) | RAM DDR4/DDR5, paging, MMU | Problem-solving | Formatif |
+| 14 | Menguraikan sistem I/O, bus, dan interrupt handling (C3) | PCIe, NVMe, programmed I/O, DMA | Case method | Formatif |
+| 15 | Mengevaluasi virtualisasi hardware & server data center (C5) | Hypervisor type 1/2, arsitektur server cloud | Demo & studi kasus | Formatif |
+| **16** | **Evaluasi Akhir Semester** | **Prosesor, cache, GPU AI, virtualisasi** | **Ujian tertulis** | **UAS (30%)** |
+
+Pola 3-tabel identik ini berlaku penuh untuk seluruh 66 MK sisanya di Dok. 007 (MKWU 8, FSTI 13, Core 27 sisanya, Elektif 18): identitas + 4 CPMK ABCD + 16 pekan dengan 4 titik Tugas 1 (20%) / UTS (25-30%) / Tugas 2 (20-25%) / UAS (30%).
 
 # DAFTAR PUSTAKA
 
@@ -728,3 +1074,46 @@ Pola 3-tabel identik berlaku untuk seluruh 66 MK sisanya di Dok. 007 (MKWU 8, FS
 
 
 
+```mermaid
+flowchart BT
+    %% Definisi Warna (Classes)
+    classDef pink fill:#f9d0c4,stroke:#333,stroke-width:1px,color:black;
+    classDef white fill:#ffffff,stroke:#333,stroke-width:1px,color:black;
+    classDef tosca fill:#cbf3f0,stroke:#333,stroke-width:1px,color:black;
+    
+    %% --- SEMESTER 3 ---
+    subgraph Semester 3
+        S3_1["Struktur Data<br>PP | 1 | 4"]:::pink
+        S3_2["Kecerdasan Buatan<br>KK | 2 | 3"]:::tosca
+        S3_3["Sistem Manajemen Basis Data<br>KK | 2 | 3"]:::tosca
+    end
+
+    %% --- SEMESTER 2 ---
+    subgraph Semester 2
+        S2_1["Matematika Diskrit<br>PP | 1 | 3"]:::pink
+        S2_2["Organisasi dan Arsitektur Komputer<br>PP | 2 | 3"]:::pink
+        S2_3["Algoritma Pemrograman<br>PP | 1 | 4"]:::pink
+        S2_4["Teori Peluang dan Implementasi<br>KK | 2 | 3"]:::white
+        S2_5["Perancangan & Implementasi Basdat<br>KK | 1 | 3"]:::white
+    end
+
+    %% --- SEMESTER 1 ---
+    subgraph Semester 1
+        S1_1["Kalkulus<br>PP | 1 | 3"]:::pink
+        S1_2["Logika Matematika<br>PP | 1 | 3"]:::pink
+        S1_3["Pengenalan Pemrograman<br>PP | 1 | 3"]:::pink
+        S1_4["Statistika<br>PP | 1 | 2"]:::pink
+        S1_5["Pendidikan Pancasila<br>S | 1 | 2"]:::white
+    end
+
+    %% --- RELASI PRASYARAT (Panah Merah) ---
+    %% Format: NodeA --> NodeB
+    linkStyle default stroke:red,stroke-width:2px;
+
+    S1_1 --> S2_1
+    S1_2 --> S2_2
+    S1_3 --> S2_3
+    S1_4 --> S2_4
+    
+    S2_3 --> S3_1
+    S2_5 --> S3_3
