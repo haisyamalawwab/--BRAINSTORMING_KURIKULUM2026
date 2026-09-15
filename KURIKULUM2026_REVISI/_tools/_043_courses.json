@@ -59,7 +59,7 @@
   ],
   "ins": "",
   "oos": "",
-  "hand": "Turunan/integral kontinu jadi dasar STI-205 (aljabar linear) dan STI-413 (ML); komputasi aproksimasi diserahkan ke STA-601."
+  "hand": "Turunan/integral kontinu jadi dasar STI-205 (aljabar linear) dan STI-413 (ML); komputasi skala besar diserahkan ke STA-601."
  },
  {
   "num": "3",
@@ -161,7 +161,7 @@
   ],
   "ins": "",
   "oos": "",
-  "hand": "Matriks linear menjadi prasyarat STI-413 (ML) dan fondasi STA-601."
+  "hand": "Matriks linear menjadi prasyarat STI-413 (ML) dan bekal fitur untuk pipeline STA-601."
  },
  {
   "num": "6",
@@ -1002,36 +1002,36 @@
  {
   "num": "32",
   "code": "STA-601",
-  "name": "Computational Methods and Numerics",
+  "name": "Rekayasa Big Data dan Komputasi Terdistribusi",
   "cpmk": [
    {
     "n": 1,
-    "rum": "Mahasiswa (*A*) mampu **menganalisis** galat pemotongan (*Truncation Error*) dan pembulatan (*Round-off Error*) (*B*) pada representasi floating-point komputasi (*C*) secara matematis (*D*).",
+    "rum": "Mahasiswa (*A*) mampu **menganalisis** arsitektur komputasi terdistribusi Master-Worker, HDFS dan object storage S3/MinIO (*B*) pada klaster data skala besar (*C*) secara tepat dan fault-tolerant (*D*).",
     "bloom": "C4",
-    "cpl": "P1"
+    "cpl": "P2"
    },
    {
     "n": 2,
-    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** metode numerik untuk akar persamaan non-linier (Newton-Raphson, Secant) dan interpolasi Spline (*B*) menggunakan Python (*C*) dengan konvergensi cepat (*D*).",
+    "rum": "Mahasiswa (*A*) mampu **mengimplementasikan** pemrosesan data terdistribusi menggunakan Apache Spark & PySpark DataFrame API (*B*) pada dataset masif batch (*C*) dengan throughput optimal (*D*).",
     "bloom": "C3",
-    "cpl": "P1"
+    "cpl": "KK2"
    },
    {
     "n": 3,
-    "rum": "Mahasiswa (*A*) mampu **menerapkan** algoritma integrasi numerik (Romberg, Gauss-Legendre) dan solusi Persamaan Diferensial Biasa (Runge-Kutta RK4) (*B*) pada simulasi sistem fisis (*C*) secara akurat (*D*).",
+    "rum": "Mahasiswa (*A*) mampu **menerapkan** arsitektur Data Lakehouse (Delta Lake/Parquet) dan ingesti streaming Apache Kafka (*B*) pada pipeline real-time (*C*) secara andal dan tepat waktu (*D*).",
     "bloom": "C4",
-    "cpl": "P1, KK1"
+    "cpl": "P2, KK2"
    },
    {
     "n": 4,
-    "rum": "Mahasiswa (*A*) mampu **merancang** algoritma optimasi numerik tak-terkendala dan Stochastic Gradient Descent (*B*) untuk pencarian minimum fungsi loss model AI (*C*) secara optimal (*D*).",
+    "rum": "Mahasiswa (*A*) mampu **merancang** pipeline analitik terdistribusi end-to-end dengan Spark SQL dan Spark MLlib (*B*) untuk memasok model AI produksi (*C*) secara terdokumentasi dan reproducible (*D*).",
     "bloom": "C6",
-    "cpl": "KK1"
+    "cpl": "KK2"
    }
   ],
-  "ins": "",
-  "oos": "",
-  "hand": "Algoritma aproksimasi & optimasi numerik; menyerahkan pemodelan deep learning ke STI-626."
+  "ins": "Arsitektur terdistribusi Master-Worker, HDFS/S3/MinIO, PySpark DataFrame API, NoSQL document & wide-column, Data Lakehouse Delta Lake/Parquet, Kafka + Structured Streaming, Spark SQL & Spark MLlib, orkestrasi pipeline terdistribusi.",
+  "oos": "Metode numerik klasik (Bisection, Newton-Raphson, Spline, Romberg, RK4); training CNN/RNN deep learning penuh (STI-626); dashboard BI relasional semata (STI-415).",
+  "hand": "Menguasai pipeline data masif batch+streaming; menyerahkan deployment model produksi ke STA-701 MLOps and AI Pipeline."
  },
  {
   "num": "33",
