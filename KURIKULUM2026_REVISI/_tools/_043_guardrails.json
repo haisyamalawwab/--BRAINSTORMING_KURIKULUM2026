@@ -10,8 +10,8 @@
   "code": "STI-102",
   "name": "Kalkulus",
   "ins": "Limit, kontinuitas, turunan (univariat & multivariat), integral, aplikasi pada optimasi & Gradient Descent.",
-  "oos": "Koding numerik; pembuktian aljabar abstrak; metode numerik diskrit (itu ranah STA-601).",
-  "hand": "Turunan/integral kontinu jadi dasar STI-205 (aljabar linear) dan STI-413 (ML); komputasi aproksimasi diserahkan ke STA-601."
+  "oos": "Komputasi klaster terdistribusi Spark/Kafka; pembuktian aljabar abstrak (itu ranah STA-601 untuk klaster).",
+  "hand": "Turunan/integral kontinu jadi dasar STI-205 (aljabar linear) dan STI-413 (ML); komputasi skala besar diserahkan ke STA-601."
  },
  {
   "code": "STI-103",
@@ -31,8 +31,8 @@
   "code": "STI-205",
   "name": "Aljabar Linear dan Matriks",
   "ins": "SPL, eliminasi Gauss-Jordan, ruang vektor, basis & dimensi, nilai eigen, diagonalisasi, dekomposisi SVD & reduksi PCA (Python/NumPy).",
-  "oos": "Koding numerik penuh untuk fungsi non-linier (STA-601); pemodelan dataset ML.",
-  "hand": "Matriks linear menjadi prasyarat STI-413 (ML) dan fondasi STA-601."
+  "oos": "Pemrosesan klaster terdistribusi Spark/Kafka (STA-601); pemodelan dataset ML.",
+  "hand": "Matriks linear menjadi prasyarat STI-413 (ML) dan bekal fitur untuk pipeline STA-601."
  },
  {
   "code": "STI-306",
@@ -218,10 +218,10 @@
  },
  {
   "code": "STA-601",
-  "name": "Computational Methods and Numerics",
-  "ins": "Representasi floating-point & galat (IEEE 754), akar non-linier (Newton-Raphson, Secant), solusi SPL numerik, interpolasi Spline, integrasi Romberg/Gauss-Legendre, PDB (RK4), optimasi SGD/Gradient Descent.",
-  "oos": "Menghitung limit/turunan murni manual tanpa kode (STI-102); melatih jaringan deep (STI-626).",
-  "hand": "Algoritma aproksimasi & optimasi numerik; menyerahkan pemodelan deep learning ke STI-626."
+  "name": "Rekayasa Big Data dan Komputasi Terdistribusi",
+  "ins": "Arsitektur terdistribusi Master-Worker, HDFS/S3/MinIO, PySpark DataFrame API, NoSQL document & wide-column, Data Lakehouse Delta Lake/Parquet, Kafka + Structured Streaming, Spark SQL & Spark MLlib, orkestrasi pipeline terdistribusi.",
+  "oos": "Metode numerik klasik (Bisection, Newton-Raphson, Spline, Romberg, RK4); training CNN/RNN deep learning penuh (STI-626); dashboard BI relasional semata (STI-415).",
+  "hand": "Menguasai pipeline data masif batch+streaming; menyerahkan deployment model produksi ke STA-701 MLOps and AI Pipeline."
  },
  {
   "code": "STA-602",
