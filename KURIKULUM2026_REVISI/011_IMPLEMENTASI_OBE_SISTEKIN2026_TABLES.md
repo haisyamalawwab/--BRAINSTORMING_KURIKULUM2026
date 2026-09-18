@@ -116,10 +116,10 @@
 | 14 | FST-206 | Etika dan Hukum Digital | 2 | 2 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | 15 | FST-207 | Basis Data (+P) | 2 | 3 |  |  |  |  |  | V |  | V |  |  |  |  |  |  | 2 |
 | 16 | FST-408 | Probabilitas dan Statistika | 4 | 3 |  |  |  |  | V |  |  | V |  |  |  |  |  |  | 2 |
-| 17 | FST-610 | Capstone Project FSTI (+P) | 7 | 3 | V | V | V | V |  |  |  |  | V | V | V | V | V | V | 10 |
+| 17 | FST-610 | Capstone Project FSTI (+P) | 6 | 3 | V | V | V | V |  |  |  |  | V | V | V | V | V | V | 10 |
 | 18 | FST-611 | Metodologi Penelitian | 6 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
-| 19 | FST-612 | Praktik Kerja Lapangan (+P) | 7 | 3 | V | V | V | V |  |  |  |  |  |  |  | M | M |  | 7 |
-| 20 | FST-613 | Pra-Skripsi / Seminar Proposal | 7 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
+| 19 | FST-612 | Praktik Kerja Lapangan (+P) | 6 | 3 | V | V | V | V |  |  |  |  |  |  |  | M | M |  | 7 |
+| 20 | FST-613 | Pra-Skripsi / Seminar Proposal | 6 | 2 |  | V | V | V |  |  |  |  |  |  |  |  |  |  | 3 |
 | 21 | FST-714 | Skripsi / Tugas Akhir (+P) | 8 | 6 | V | V | V | V | V | V | V | V | V | V | V | V | V | V | 14 |
 | C. MK CORE STI - MATA KULIAH INTI PROGRAM STUDI (28 MK / 79 SKS) | | | | | | | | | | | | | | | | | | | |
 | 22 | STI-101 | Pengantar Sistem & Teknologi Informasi | 1 | 2 |  |  |  |  |  | V |  |  |  |  |  |  |  |  | 1 |
@@ -145,8 +145,8 @@
 | 42 | STI-521 | Internet of Things (IoT) (+P) | 5 | 3 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 43 | STI-522 | Pemrograman Aplikasi Mobile (+P) | 5 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 44 | STI-523 | Manajemen Proyek Teknologi Informasi | 5 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
-| 45 | STI-624 | Integrasi Layanan Cerdas Berbasis AI (+P) | 6 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
-| 46 | STI-625 | Smart City & Pemerintahan Digital | 6 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
+| 45 | STI-624 | Integrasi Layanan Cerdas Berbasis AI (+P) | 7 | 3 |  |  |  |  |  | V |  |  | V |  |  |  |  |  | 2 |
+| 46 | STI-625 | Smart City & Pemerintahan Digital | 7 | 2 |  |  |  |  |  |  | V |  |  |  | V |  |  |  | 2 |
 | 47 | STI-626 | Deep Learning & Neural Networks (+P) | 6 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  |  | 2 |
 | 48 | STI-627 | Digital Platform Engineering (+P) | 6 | 3 |  |  |  |  |  |  |  | V |  |  |  |  | V |  | 2 |
 | 49 | STI-728 | Inovasi Teknologi & Startup Digital (+P) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  | V | 1 |
@@ -186,8 +186,8 @@
 | 3 | 7 MK | 20 SKS | 59 SKS | STI-306 APSI (3) / STI-307 Sistem Cerdas (2) / STI-308 UI/UX Design (3) / STI-309 RPL (3) / STI-310 Sistem Operasi (3) / STI-311 Web Front End (3) / STI-312 Jaringan Komputer (3) | P2, P3, P4, KK1, KK3, KK5 | Fondasi sistem, jaringan, OS, dan UI/UX |
 | 4 | 8 MK | 21 SKS | 80 SKS | STI-413 Machine Learning (3) / STI-414 Pengantar NLP & IR (2) / STI-415 DW & BI (3) / STI-417 Cloud (3) / STI-418 Dasar Keamanan (2) / STI-416 Web Back End (3) / FST-408 Statistika (3) / MKU-405 KWN (2) / MKU-406 Agama II (0) | P1, P2, P3, KK1, KK2, KK3, KU1 | STI-418 = 2 SKS Teori. STI-414 = 2 SKS (+P). MKU-406 = 0 SKS kebijakan UWG |
 | 5 | 7 MK + 1x0SKS | 21 SKS | 101 SKS | STI-519 Keamanan Lanjut (3) / STI-520 Data Mining (3) / STI-521 IoT (3) / STI-522 Mobile App (3) / STI-523 Manpro TI (3) / MKU-507 KPM (3) / MK Pilihan 1 (3) / MKU-508 KWU II (0) | KK1, KK2, KK3, KK5, KK6, S1, KU | 6 MK Wajib (18 SKS) + 1 MK Pilihan (3 SKS). MKU-508 = 0 SKS kebijakan UWG |
-| 6 | 7 MK | 19 SKS | 120 SKS | STI-624 Integrasi AI (3) / STI-625 Smart City (2) / STI-626 Deep Learning (3) / STI-627 Digital Platform Eng (3) / FST-611 Metopel (2) / MK Pilihan 2 (3) / MK Pilihan 3 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | STI-625 = 2 SKS Teori Non-Praktikum. MBKM maks. 20 SKS |
-| 7 | 7 MK | 20 SKS | 140 SKS | STI-728 Startup Digital (3) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 4 MK Wajib (11 SKS) + 3 MK Pilihan (9 SKS). MBKM maks. 20 SKS |
+| 6 | 7 MK | 19 SKS | 120 SKS | STI-626 Deep Learning (3) / STI-627 Digital Platform Eng (3) / FST-611 Metopel (2) / FST-610 Capstone (3) / FST-612 PKL (3) / FST-613 Pra-Skripsi (2) / MK Pilihan 2 (3) | P2, P3, KK1, KK3, KK4, KK5, KU1-3 | FST-613 = Pra-Skripsi (2 SKS). Capstone & PKL selesai Sem 6. MBKM maks. 20 SKS |
+| 7 | 7 MK | 20 SKS | 140 SKS | STI-728 Startup Digital (3) / STI-624 Integrasi AI (3) / STI-625 Smart City (2) / MK Pilihan 3 (3) / MK Pilihan 4 (3) / MK Pilihan 5 (3) / MK Pilihan 6 (3) | KK6, KK3, KK4, KU1-3, S1 | 3 MK Wajib (8 SKS) + 4 MK Pilihan (12 SKS). MBKM maks. 20 SKS |
 | 8 | 1 MK | 6 SKS | 146 SKS | FST-714 Skripsi / Tugas Akhir (6) | S1, KU1-3, seluruh P & KK | Skripsi Murni (6 SKS) / 4 Opsi Non-Skripsi ekuivalen 6 SKS |
 | TOTAL | 55 MK | 146 SKS | 146 SKS | 49 MK Wajib (128 SKS) + 6 MK Pilihan Peminatan (18 SKS, Sem 5-7) = 55 MK / 146 SKS |  | Portofolio: 67 MK / 182 SKS. Syarat Lulus Min. 144 SKS (Permendikbud 53/2023) |
 
@@ -235,15 +235,15 @@
 | STI-522 | Pemrograman Aplikasi Mobile | 3 | 5 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | STI-523 | Manajemen Proyek TI | 3 | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
 | MKU-507 | KPM / KKN Digital | 3 | 5 | M |  | M |  |  |  |  |  |  |  |  |  |  |  | 2 |
-| STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
-| STI-625 | Smart City & Pemerintahan Digital | 2 | 6 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | 7 |  |  |  |  |  | M |  |  | M |  |  |  |  |  | 2 |
+| STI-625 | Smart City & Pemerintahan Digital | 2 | 7 |  |  |  |  |  |  | M |  |  |  | M |  |  |  | 2 |
 | STI-626 | Deep Learning & Neural Networks | 3 | 6 |  |  |  |  |  |  |  |  | M | M |  |  |  |  | 2 |
 | STI-627 | Digital Platform Engineering | 3 | 6 |  |  |  |  |  |  |  | M |  |  |  |  | M |  | 2 |
 | FST-611 | Metodologi Penelitian | 2 | 6 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
+| FST-610 | Capstone Project FSTI | 3 | 6 | M | M | M | M |  |  |  |  | M | M | M | M | M | M | 10 |
+| FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 6 | M | M | M | M |  |  |  |  |  |  |  | M | M |  | 7 |
+| FST-613 | Pra-Skripsi / Seminar Proposal | 2 | 6 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
 | STI-728 | Inovasi Teknologi & Startup Digital | 3 | 7 |  |  |  |  |  |  |  |  |  |  |  |  |  | M | 1 |
-| FST-610 | Capstone Project FSTI | 3 | 7 | M | M | M | M |  |  |  |  | M | M | M | M | M | M | 10 |
-| FST-612 | Praktik Kerja Lapangan (PKL) | 3 | 7 | M | M | M | M |  |  |  |  |  |  |  | M | M |  | 7 |
-| FST-613 | Pra-Skripsi / Seminar Proposal | 2 | 7 |  | M | M | M |  |  |  |  |  |  |  |  |  |  | 3 |
 | FST-714 | Skripsi / Tugas Akhir | 6 | 8 | M | M | M | M | M | M | M | M | M | M | M | M | M | M | 14 |
 | Jumlah I |  |  |  | 2 | 2 | 2 | 0 | 2 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 0 | 1 |  |
 | Jumlah R |  |  |  | 1 | 4 | 2 | 0 | 3 | 7 | 7 | 7 | 3 | 3 | 5 | 1 | 6 | 2 |  |
@@ -419,7 +419,7 @@
 | 3 | 21 BK IS2020 + 15 BK IT2017 dipetakan ke CPL dan MK secara penuh (Dok. 003). Termasuk BK-IS20 (Ethics), BK-IS21 (Internship), dan BK-IT15 (Global Professional Practice) sebagai pemenuhan adopsi BK kompetensi utama wajib. Kepatuhan IKU 7 (Case Method + PjBL >= 60%) terverifikasi di Dok. 008. |
 | 4 | Sheet 9-12 adalah template implementasi asesmen. CPL program sah dihitung setelah data nilai aktual semester berjalan terintegrasi ke SIAKAD. |
 | 5 | Sistem asesmen OBE lengkap (Formula CPL Attainment, 4 Rubrik Analitik Master, Siklus PPEPP/CQI, Radar SKPI) tersedia pada Dok. 008 dan 009. |
-| 6 | STI-418 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-625 (Smart City & Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 6). |
+| 6 | STI-418 (Dasar Keamanan Informasi) = 2 SKS Teori (Sem 4). STI-625 (Smart City & Pemerintahan Digital) = 2 SKS Teori Non-Praktikum (Sem 7). FST-613 (Pra-Skripsi) = 2 SKS Seminar (Sem 6). |
 | 7 | MKU-406 (Agama II) dan MKU-508 (Kewirausahaan II) = 0 SKS kebijakan UWG; tercatat di transkrip namun tidak dihitung dalam beban SKS kelulusan. |
 
 ---

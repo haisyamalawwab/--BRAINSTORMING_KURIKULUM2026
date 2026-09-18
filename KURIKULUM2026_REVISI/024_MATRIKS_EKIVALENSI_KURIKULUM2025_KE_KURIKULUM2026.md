@@ -163,7 +163,7 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | 43 | `STI-634` | Pengolahan Citra Digital dan Vision (+P) | 3 | `STI-626` | Deep Learning & Neural Networks (+P) | 3 | 6 | **E2** | K2026 mengintegrasikan computer vision ke dalam kerangka deep learning (CNN). Overlap ± 65% → wajib uji penyetaraan pada komponen arsitektur jaringan saraf & pelatihan model |
 | 44 | `STI-635` | Desain dan Evaluasi Antarmuka Pengguna (UI/UX) (+P) | 3 | `STI-308` | UI/UX Design & Prototyping (+P) | 3 | 3 | **E3** | Dilebur bersama `STI-314` Interaksi Manusia dan Komputer — lihat klaster G-3 |
 | 45 | `STI-636` | Machine Learning (+P) | 3 | `STI-413` | Machine Learning (+P) | 3 | 4 | **E1** | Nama dan SKS identik; posisi bergeser Sem 6 → Sem 4 |
-| 46 | `STI-637` | Smart City dan Sistem Pemerintahan Digital | 3 | `STI-625` | Smart City & Pemerintahan Digital | 2 | 6 | **E1** | SKS diturunkan 3 → 2 (rasionalisasi Dok. 014). Selisih 1 SKS menjadi kredit bebas |
+| 46 | `STI-637` | Smart City dan Sistem Pemerintahan Digital | 3 | `STI-625` | Smart City & Pemerintahan Digital | 2 | 7 | **E1** | SKS diturunkan 3 → 2 (rasionalisasi Dok. 014); posisi bergeser Sem 6 → Sem 7. Selisih 1 SKS menjadi kredit bebas |
 | 47 | `STI-638` | Intelligent Signal Processing | 3 | — | *Tidak ada padanan* | — | — | **E5** | **Dihapus** dari K2026 (bertumpang dengan ranah riset algoritma Prodi TI, Dok. 016). Unsur ekstraksi fitur sinyal terserap parsial pada `STI-626` Deep Learning & `STA-703` Smart Surveillance. Diakui sebagai kredit bebas 3 SKS |
 
 ### 3.7 EKIVALENSI MK SEMESTER 7 KURIKULUM 2025 (20 SKS)
@@ -171,10 +171,10 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | No | Kode K2025 | Nama MK Kurikulum 2025 | SKS | Kode K2026 | Nama MK Kurikulum 2026 (Revisi) | SKS | Smt | Kat | Catatan Penyetaraan |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 48 | `MFT-002` | Metodologi Penelitian | 2 | `FST-611` | Metodologi Penelitian | 2 | 6 | **E1** | Nama dan SKS identik; **prefiks berubah** `MFT` → `FST`; posisi bergeser Sem 7 → Sem 6 |
-| 49 | `MFT-003` | Praktik Kerja Lapangan | 3 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | 7 | **E1** | Nama dan SKS identik; **prefiks berubah** `MFT` → `FST` |
+| 49 | `MFT-003` | Praktik Kerja Lapangan | 3 | `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | 6 | **E1** | Nama dan SKS identik; **prefiks berubah** `MFT` → `FST`; posisi bergeser Sem 7 → Sem 6 |
 | 50 | `STI-739` | Platform Literasi dan Edukasi Digital (+P) | 3 | `STI-627` | Digital Platform Engineering (+P) | 3 | 6 | **E2** | Reorientasi dari platform edukasi domain-spesifik ke rekayasa platform digital generik (arsitektur layanan, skalabilitas, DevOps dasar). Overlap ± 60% → wajib uji penyetaraan |
 | 51 | `STI-740` | Penambangan Data dan Visualisasi (+P) | 3 | `STI-520` | Data Mining & Visualisasi Data (+P) | 3 | 5 | **E3** | Dilebur bersama `STI-208` Visualisasi Data dan Dashboard Interaktif — lihat klaster G-2 |
-| 52 | `STI-741` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | 6 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (MK penciri prodi) → wajib praktikum penyetaraan (integrasi API model AI ke aplikasi nyata) |
+| 52 | `STI-741` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | 7 | **E2** | Nama, SKS, dan semester identik, namun MK baru **berpraktikum** (MK penciri prodi) → wajib praktikum penyetaraan (integrasi API model AI ke aplikasi nyata) |
 | 53 | `STI-742` | Inovasi Teknologi dan Startup Digital | 3 | `STI-728` | Inovasi Teknologi dan Startup Digital (+P) | 3 | 7 | **E2** | Nama dan SKS identik, namun MK baru **berpraktikum** (validasi produk & pitching) → wajib praktikum penyetaraan. **Catatan:** apabila mahasiswa telah lulus `STI-742`, maka `STI-422` E-Commerce (baris 29) dialihkan menjadi kredit bebas |
 | 54 | `STI-743` | Audit dan Tata Kelola Sistem Informasi | 3 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | **E1** | Padanan pada **MK elektif Peminatan P2 (Sem 7)**. Diakui penuh bila mahasiswa memilih Peminatan P2; jika tidak, dihitung sebagai kredit bebas |
 
@@ -183,7 +183,7 @@ Matriks disusun dua arah agar dapat dipakai oleh dua pengguna berbeda:
 | No | Kode K2025 | Nama MK Kurikulum 2025 | SKS | Kode K2026 | Nama MK Kurikulum 2026 (Revisi) | SKS | Smt | Kat | Catatan Penyetaraan |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|---|
 | 55 | `MFT-004` | Skripsi | 6 | `FST-714` | Skripsi / Tugas Akhir | 6 | 8 | **E1** | SKS identik; **prefiks berubah** `MFT` → `FST`. K2026 menyediakan 4 opsi Tugas Akhir non-skripsi dengan bobot ekuivalen 6 SKS (Dok. 009) |
-| 56 | `STI-844` | Pra Skripsi | 2 | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | 7 | **E1** | SKS identik; **kode berubah** `STI-844` → `FST-613`; posisi bergeser Sem 8 → Sem 7 |
+| 56 | `STI-844` | Pra Skripsi | 2 | `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | 6 | **E1** | SKS identik; **kode berubah** `STI-844` → `FST-613`; posisi bergeser Sem 8 → Sem 6 |
 
 ### 3.9 VERIFIKASI KESEIMBANGAN MATRIKS EKIVALENSI
 
@@ -281,26 +281,26 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | `MKU-508` | Kewirausahaan II | 0 | E1 | `MKU-508` | Alih nilai langsung |
 | *Elektif* | **MK Peminatan 1** | 3 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
 
-#### SEMESTER 6 — Diakui 13 SKS Paket + 6 SKS Elektif, Defisit 0 SKS Paket ✅
+#### SEMESTER 6 — Diakui 13 SKS Paket + 3 SKS Elektif, Defisit 3 SKS Paket
 
 | Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
 |:---:|---|:---:|:---:|:---:|---|
-| `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | E2 | `STI-741` | **Praktikum penyetaraan** (MK penciri prodi) |
-| `STI-625` | Smart City & Pemerintahan Digital | 2 | E1 | `STI-637` (3 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
 | `STI-626` | Deep Learning & Neural Networks (+P) | 3 | E2 | `STI-634` | **Uji penyetaraan** (CNN & pelatihan model) |
 | `STI-627` | Digital Platform Engineering (+P) | 3 | E2 | `STI-739` | **Uji penyetaraan** (reorientasi platform) |
 | `FST-611` | Metodologi Penelitian | 2 | E1 | `MFT-002` | Alih nilai langsung |
-| *Elektif* | **MK Peminatan 2 & 3** | 6 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
+| `FST-610` | Capstone Project FSTI (+P) | 3 | **B** | — | **WAJIB TEMPUH** — wahana asesmen 10 dari 14 CPL |
+| `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | E1 | `MFT-003` | Alih nilai langsung |
+| `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | E1 | `STI-844` | Alih nilai langsung |
+| *Elektif* | **MK Peminatan 2** | 3 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
 
-#### SEMESTER 7 — Diakui 8 SKS Paket + 9 SKS Elektif, Defisit 3 SKS Paket
+#### SEMESTER 7 — Diakui 8 SKS Paket + 12 SKS Elektif, Defisit 0 SKS Paket ✅
 
 | Kode K2026 | Nama Mata Kuliah | SKS | Kat | Asal K2025 | Tindakan Akademik |
 |:---:|---|:---:|:---:|:---:|---|
 | `STI-728` | Inovasi Teknologi dan Startup Digital (+P) | 3 | E2 | `STI-742` | **Praktikum penyetaraan**; `STI-422` → kredit bebas |
-| `FST-610` | Capstone Project FSTI (+P) | 3 | **B** | — | **WAJIB TEMPUH** — wahana asesmen 10 dari 14 CPL |
-| `FST-612` | Praktik Kerja Lapangan (PKL) | 3 | E1 | `MFT-003` | Alih nilai langsung |
-| `FST-613` | Pra-Skripsi / Seminar Proposal | 2 | E1 | `STI-844` | Alih nilai langsung |
-| *Elektif* | **MK Peminatan 4, 5 & 6** | 9 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
+| `STI-624` | Integrasi Layanan Cerdas Berbasis AI (+P) | 3 | E2 | `STI-741` | **Praktikum penyetaraan** (MK penciri prodi) |
+| `STI-625` | Smart City & Pemerintahan Digital | 2 | E1 | `STI-637` (3 SKS) | Alih nilai; 1 SKS jadi kredit bebas |
+| *Elektif* | **MK Peminatan 3, 4, 5 & 6** | 12 | — | Lihat Bagian 6.3 | Bergantung jalur peminatan |
 
 #### SEMESTER 8 — Diakui 6 SKS, Defisit 0 SKS ✅
 
@@ -317,8 +317,8 @@ Kolom "Asal K2025" adalah MK yang **harus sudah lulus** (nilai ≥ C) agar MK K2
 | Sem 3 | 20 | 17 | 3 | `STI-312` | 85,0% |
 | Sem 4 | 21 | 21 | 0 | — | **100%** |
 | Sem 5 | 18 (tanpa elektif) | 15 | 3 | `STI-519` | 83,3% |
-| Sem 6 | 13 (tanpa elektif) | 13 | 0 | — | **100%** |
-| Sem 7 | 11 (tanpa elektif) | 8 | 3 | `FST-610` | 72,7% |
+| Sem 6 | 16 (tanpa elektif) | 13 | 3 | `FST-610` | 81,3% |
+| Sem 7 | 8 (tanpa elektif) | 8 | 0 | — | **100%** |
 | Sem 8 | 6 | 6 | 0 | — | **100%** |
 | **TOTAL PAKET WAJIB** | **128** | **114** | **14** | **5 MK** | **89,1%** |
 
@@ -382,7 +382,7 @@ Terdapat **4 kode mata kuliah** yang dipakai untuk MK berbeda pada K2025 dan K20
 | 2 | `STI-312` | Jaringan Komputer (+P) | 3 | 3 | Core STI | **Gap fondasi kritis K2025.** K2025 melompat langsung ke `STI-529` Keamanan Jaringan tanpa MK jaringan komputer dasar. Prasyarat wajib bagi Cloud (`STI-417`), IoT (`STI-521`), dan Keamanan (`STI-418`) |
 | 3 | `STI-519` | Keamanan Informasi Lanjut | 3 | 5 | Core STI | Penguatan jenjang keamanan bertingkat (dasar Sem 4 → lanjut Sem 5) untuk memenuhi CPL KK4 (audit, GRC & tata kelola TI) pada jalur wajib, tidak hanya elektif |
 | 4 | `FST-204` | Pengantar Kecerdasan Artifisial & Data | 2 | 2 | FSTI | Pintu masuk pipeline AI 5 tahap (Dok. 016). K2025 baru menyentuh AI pada Sem 4 (`STI-418` Sistem Cerdas) tanpa MK pengantar konseptual |
-| 5 | `FST-610` | Capstone Project FSTI (+P) | 3 | 7 | FSTI | **Wahana asesmen terintegrasi 10 dari 14 CPL** (Dok. 011 Sheet 5). K2025 tidak memiliki proyek integratif selain Skripsi |
+| 5 | `FST-610` | Capstone Project FSTI (+P) | 3 | 6 | FSTI | **Wahana asesmen terintegrasi 10 dari 14 CPL** (Dok. 011 Sheet 5). K2025 tidak memiliki proyek integratif selain Skripsi |
 | **TOTAL** | — | **MK Wajib Baru** | **14** | — | — | **Defisit minimum bagi seluruh mahasiswa transisi** |
 
 ### 6.2 MK ELEKTIF BARU PER PEMINATAN (13 MK / 39 SKS DITAWARKAN)
@@ -396,13 +396,13 @@ Terdapat **4 kode mata kuliah** yang dipakai untuk MK berbeda pada K2025 dan K20
 
 ### 6.3 EKIVALENSI MK PEMINATAN MENURUT SEMESTER DEFINITIF (SEM 5–6–7)
 
-Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola tetap 1 MK di Sem 5, 2 MK di Sem 6, 3 MK di Sem 7 untuk setiap peminatan), bukan lagi rentang generik "Sem 5–7". Tabel berikut memetakan asal-usul K2025 dan prasyarat K2026 setiap MK elektif pada posisi semesternya.
+Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola tetap 1 MK di Sem 5, 1 MK di Sem 6, 4 MK di Sem 7 untuk setiap peminatan), bukan lagi rentang generik "Sem 5–7". Tabel berikut memetakan asal-usul K2025 dan prasyarat K2026 setiap MK elektif pada posisi semesternya.
 
 | Smt | P1 — Integrated Smart Systems | Asal K2025 | P2 — Cloud Infra & Cybersecurity | Asal K2025 | P3 — Digital Platform Engineering | Asal K2025 |
 |:---:|---|---|---|---|---|---|
 | **5** | `STA-501` Decision Support Systems | `STI-633` SPK (**E1**) | `STB-501` Network Security & Digital Forensics | `STI-529` Keamanan Jaringan (**E1**) | `STC-501` UX Research & Design | — (**B**) |
 | **6** | `STA-601` Rekayasa Big Data & Terdistribusi | — (**B**, baru) | `STB-601` Cloud Architecture & DevOps | — (**B**) | `STC-601` Rekayasa & Otomasi Proses Bisnis | — (**B**) |
-| **6** | `STA-602` Intelligent Agent Systems | — (**B**) | `STB-602` Cybersecurity Risk Management | — (**B**) | `STC-602` Rekayasa Aplikasi Industri Vertikal | — (**B**) |
+| **7** | `STA-602` Intelligent Agent Systems | — (**B**) | `STB-602` Cybersecurity Risk Management | — (**B**) | `STC-602` Rekayasa Aplikasi Industri Vertikal | — (**B**) |
 | **7** | `STA-701` MLOps and AI Pipeline | — (**B**) | `STB-701` IT Governance & Compliance COBIT 2019 | `STI-743` Audit & Tata Kelola SI (**E1**) | `STC-701` Immersive Media & XR Development | `STI-316` + `STI-531` (**E3**/G-4) |
 | **7** | `STA-702` Conversational AI & Assistant | — (**B**) | `STB-702` IT Service Management ITIL 4 | — (**B**) | `STC-702` SaaS Architecture & Multi-Tenancy | — (**B**) |
 | **7** | `STA-703` Smart Surveillance & IoT Analytics | — (**B**) | `STB-703` Enterprise Architecture TOGAF | — (**B**) | `STC-703` Digital Product Management & Agile | — (**B**) |

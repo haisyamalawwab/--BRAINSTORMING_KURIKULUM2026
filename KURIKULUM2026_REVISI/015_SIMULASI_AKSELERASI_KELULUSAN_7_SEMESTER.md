@@ -26,10 +26,10 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 │ **Sem 1**│ Ganjil    │  19 SKS   │     19 SKS     │ Paket Reguler Fondasi Sains & Koding Dasar   │
 │ **Sem 2**│ Genap     │  20 SKS   │     39 SKS     │ Paket Reguler Data, OOP & Matdis (IPS >= 3.0)│
 │ **Sem 3**│ Ganjil    │  23 SKS   │     62 SKS     │ 20 SKS Reguler Sem 3 + Maju 1 MK Sem 5       │
-│ **Sem 4**│ Genap     │  23 SKS   │     85 SKS     │ 21 SKS Reguler Sem 4 + Maju 1 MK Sem 6       │
-│ **Sem 5**│ Ganjil    │  24 SKS   │    109 SKS     │ 18 SKS Sem 5 + KPM + Maju PKL & Startup      │
-│ **Sem 6**│ Genap     │  22 SKS   │    131 SKS     │ 17 SKS Sem 6 + Maju Capstone & Pra-Skripsi   │
-│ **Sem 7**│ Ganjil    │  15 SKS   │  **146 SKS**   │ **3 MK Peminatan Akhir + SKRIPSI (LULUS!)**   │
+│ **Sem 4**│ Genap     │  24 SKS   │     86 SKS     │ 21 SKS Reguler Sem 4 + Maju 1 MK Sem 6       │
+│ **Sem 5**│ Ganjil    │  24 SKS   │    110 SKS     │ 21 SKS Reguler Sem 5 + Maju 1 MK Sem 7       │
+│ **Sem 6**│ Genap     │  22 SKS   │    132 SKS     │ 19 SKS Reguler (Capstone, PKL, Sempro) + Maju│
+│ **Sem 7**│ Ganjil    │  14 SKS   │  **146 SKS**   │ **Sisa MK Peminatan/Sem 7 + SKRIPSI (LULUS!)**│
 ├──────────┴───────────┼:---------:┼:--------------:┼──────────────────────────────────────────────┤
 │ TOTAL KELULUSAN      │  146 SKS  │  **146 SKS**   │ **YUDISIUM & WISUDA DALAM 3,5 TAHUN (SEM 7)** │
 └──────────────────────┴:---------:┴:--------------┴──────────────────────────────────────────────┘

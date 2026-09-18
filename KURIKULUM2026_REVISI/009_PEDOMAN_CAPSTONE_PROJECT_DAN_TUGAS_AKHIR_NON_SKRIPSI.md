@@ -6,9 +6,9 @@
 
 ---
 
-## 1. KRITERIA DAN KETENTUAN CAPSTONE PROJECT (`FST-610`, 3 SKS — SEMESTER 7)
+## 1. KRITERIA DAN KETENTUAN CAPSTONE PROJECT (`FST-610`, 3 SKS — SEMESTER 6)
 
-Sesuai ketentuan Panduan Kurikulum OBE APTIKOM SI v2.0 yang menyatakan Program Studi **wajib menyatakan** mata kuliah yang memenuhi kriteria *capstone project*, Program Studi SISTEKIN menetapkan **`FST-610` Capstone Project FSTI (3 SKS, Semester 7)** sebagai mata kuliah *capstone project*.
+Sesuai ketentuan Panduan Kurikulum OBE APTIKOM SI v2.0 yang menyatakan Program Studi **wajib menyatakan** mata kuliah yang memenuhi kriteria *capstone project*, Program Studi SISTEKIN menetapkan **`FST-610` Capstone Project FSTI (3 SKS, Semester 6)** sebagai mata kuliah *capstone project*.
 
 ### 1.1 PEMENUHAN 7 KRITERIA CAPSTONE PROJECT APTIKOM
 

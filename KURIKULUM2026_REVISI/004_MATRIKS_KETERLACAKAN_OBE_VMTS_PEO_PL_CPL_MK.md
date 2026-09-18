@@ -112,13 +112,13 @@ graph LR
 | 37 | `MKU-507` | KPM (Kuliah Pengabdian Kepada Masyarakat) | 3 | **M** | | | **M** | | | | | | | | | | | Seluruh PL | PEO-1, PEO-2, PEO-3 | **M** |
 | 38 | `STA/B/C` | **MK Pilihan Peminatan 1** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **R** |
 | 38.B | `MKU-508` | Kewirausahaan II | 0 | | | | | | | | | | | | | | **R** | PL-4 | PEO-2 | **R** |
-| 39 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
-| 40 | `STI-625` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
-| 41 | `STI-626` | Deep Learning & Neural Net | 3 | | | | | | | | | **R** | **R** | | | | | PL-1 | PEO-1, PEO-3 | **R** |
-| 42 | `STI-627` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
-| 43 | `FST-611` | Metodologi Penelitian | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-3 | **M** |
-| 44 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
-| 45 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
+| 39 | `STI-626` | Deep Learning & Neural Net | 3 | | | | | | | | | **R** | **R** | | | | | PL-1 | PEO-1, PEO-3 | **R** |
+| 40 | `STI-627` | Digital Platform Engineering| 3 | | | | | | | | **M** | | | | | **M** | | PL-3 | PEO-1, PEO-2 | **M** |
+| 41 | `FST-611` | Metodologi Penelitian | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-3 | **M** |
+| 42 | `FST-610` | Capstone Project FSTI | 3 | **M** | **M** | **M** | **M** | | | | | **M** | **M** | **M** | **M** | **M** | **M** | Seluruh PL | PEO-1, PEO-2 | **M** |
+| 43 | `FST-612` | Praktik Kerja Lapangan(PKL) | 3 | **M** | **M** | **M** | **M** | | | | | **M** | **M** | **M** | **M** | **M** | **M** | Seluruh PL | PEO-1, PEO-2 | **M** |
+| 44 | `FST-613` | Pra-Skripsi / Sempro | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-3 | **M** |
+| 45 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
 
 ---
 
@@ -127,9 +127,9 @@ graph LR
 | No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 46 | `STI-728` | Inovasi & Startup Digital | 3 | | | | | | | | | | | | | | **M** | PL-4 | PEO-2 | **M** |
-| 47 | `FST-610` | Capstone Project FSTI | 3 | **M** | **M** | **M** | **M** | | | | | **M** | **M** | **M** | **M** | **M** | **M** | Seluruh PL | PEO-1, PEO-2 | **M** |
-| 48 | `FST-612` | Praktik Kerja Lapangan(PKL) | 3 | **M** | **M** | **M** | **M** | | | | | **M** | **M** | **M** | **M** | **M** | **M** | Seluruh PL | PEO-1, PEO-2 | **M** |
-| 49 | `FST-613` | Pra-Skripsi / Sempro | 2 | | **M** | **M** | | | | | | | | | | | | Seluruh PL | PEO-1, PEO-3 | **M** |
+| 47 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
+| 48 | `STI-625` | Smart City & Pem. Digital | 2 | | | | | | | **M** | | | | **M** | | | | PL-2 | PEO-1 | **M** |
+| 49 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
 | 50 | `STA/B/C` | **MK Pilihan Peminatan 4** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
 | 51 | `STA/B/C` | **MK Pilihan Peminatan 5** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3 | PEO-1..3 | **M** |
 | 52 | `STA/B/C` | **MK Pilihan Peminatan 6** | 3 | | | | | | | | | * | * | * | * | * | * | PL-1..3,4 | PEO-1..3 | **M** |
@@ -145,7 +145,7 @@ graph LR
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
 | 1 | `STA-501` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
 | 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | P2, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
-| 3 | `STA-602` | Intelligent Agent Systems | 3 | 6 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
+| 3 | `STA-602` | Intelligent Agent Systems | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
 | 4 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
 | 5 | `STA-702` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
 | 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | 7 | P3, KK1, KK3 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
@@ -158,7 +158,7 @@ graph LR
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
 | 1 | `STB-501` | Network Security & Digital Forensics | 3 | 5 | P3, KK3, KK4 | PL-2 | PEO-1, PEO-3 | **R** |
 | 2 | `STB-601` | Cloud Architecture & DevOps | 3 | 6 | P3, P4, KK3 | PL-2 | PEO-1, PEO-3 | **M** |
-| 3 | `STB-602` | Cybersecurity Risk Management | 3 | 6 | P3, KK4 | PL-2 | PEO-1 | **M** |
+| 3 | `STB-602` | Cybersecurity Risk Management | 3 | 7 | P3, KK4 | PL-2 | PEO-1 | **M** |
 | 4 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
 | 5 | `STB-702` | IT Service Management (ITIL 4) | 3 | 7 | P2, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
 | 6 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | 7 | P2, P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
@@ -171,7 +171,7 @@ graph LR
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
 | 1 | `STC-501` | User Experience Research & Design | 3 | 5 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **R** |
 | 2 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | P2, P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | 6 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
+| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
 | 4 | `STC-701` | Immersive Media & XR Development | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-3 | **M** |
 | 5 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
 | 6 | `STC-703` | Digital Product Management & Agile | 3 | 7 | P2, KK6 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
