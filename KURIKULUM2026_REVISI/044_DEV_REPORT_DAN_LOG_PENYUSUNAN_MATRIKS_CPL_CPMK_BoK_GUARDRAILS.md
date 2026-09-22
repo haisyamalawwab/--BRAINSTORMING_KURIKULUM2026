@@ -132,26 +132,26 @@ Berikut adalah status audit kelengkapan 4 elemen (*CPL, CPMK ABCD, BoK APTIKOM, 
 | 21 | `STI-521` | Internet of Things (IoT) | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS03, BK-IT14` | Lengkap (3 Pagar) | **LULUS** |
 | 22 | `STI-522` | Pemrograman Aplikasi Mobile | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT04` | Lengkap (3 Pagar) | **LULUS** |
 | 23 | `STI-523` | Manajemen Proyek TI | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS08, BK-IS05` | Lengkap (3 Pagar) | **LULUS** |
-| 24 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
-| 25 | `STI-625` | Smart City & Pem. Digital | 2 | 6 | Lengkap | Lengkap (C3-C4) | `BK-IS01, BK-IS04` | Lengkap (3 Pagar) | **LULUS** |
+| 24 | `STI-624` | Integrasi Layanan Cerdas AI | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
+| 25 | `STI-625` | Smart City & Pem. Digital | 2 | 7 | Lengkap | Lengkap (C3-C4) | `BK-IS01, BK-IS04` | Lengkap (3 Pagar) | **LULUS** |
 | 26 | `STI-626` | Deep Learning & Neural Networks | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS18, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
 | 27 | `STI-627` | Digital Platform Engineering | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 28 | `STI-728` | Inovasi Startup Digital | 3 | 7 | Lengkap | Lengkap (C4-C6) | `BK-IS15, BK-IT13` | Lengkap (3 Pagar) | **LULUS** |
 | 29 | `STA-501` | Decision Support Systems | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS01, BK-IS13` | Lengkap (3 Pagar) | **LULUS** |
 | 30 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | Lengkap | Lengkap (C3-C6) | `BK-IS02, BK-IS18` | Lengkap (3 Pagar) | **LULUS** |
-| 31 | `STA-602` | Intelligent Agent Systems | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
+| 31 | `STA-602` | Intelligent Agent Systems | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
 | 32 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS18, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 33 | `STA-702` | Conversational AI & Assistant | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT02` | Lengkap (3 Pagar) | **LULUS** |
 | 34 | `STA-703` | Smart Surveillance & IoT Analytics | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS16, BK-IT14` | Lengkap (3 Pagar) | **LULUS** |
 | 35 | `STB-501` | Network Security & Forensics | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS06, BK-IT06` | Lengkap (3 Pagar) | **LULUS** |
 | 36 | `STB-601` | Cloud Architecture & DevOps | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS19, BK-IT05` | Lengkap (3 Pagar) | **LULUS** |
-| 37 | `STB-602` | Cybersecurity Risk Management | 3 | 6 | Lengkap | Lengkap (C3-C4) | `BK-IS06, BK-IT12` | Lengkap (3 Pagar) | **LULUS** |
+| 37 | `STB-602` | Cybersecurity Risk Management | 3 | 7 | Lengkap | Lengkap (C3-C4) | `BK-IS06, BK-IT12` | Lengkap (3 Pagar) | **LULUS** |
 | 38 | `STB-701` | IT Governance (COBIT 2019) | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS05, BK-IT08` | Lengkap (3 Pagar) | **LULUS** |
 | 39 | `STB-702` | IT Service Management (ITIL 4) | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS05, BK-IT08` | Lengkap (3 Pagar) | **LULUS** |
 | 40 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS04, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 41 | `STC-501` | UX Research & Design | 3 | 5 | Lengkap | Lengkap (C3-C5) | `BK-IS17, BK-IT10` | Lengkap (3 Pagar) | **LULUS** |
 | 42 | `STC-601` | Rekayasa & Otomasi Proses Bisnis | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS09, BK-IS07` | Lengkap (3 Pagar) | **LULUS** |
-| 43 | `STC-602` | Rekayasa Aplikasi Vertikal | 3 | 6 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT04` | Lengkap (3 Pagar) | **LULUS** |
+| 43 | `STC-602` | Rekayasa Aplikasi Vertikal | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT04` | Lengkap (3 Pagar) | **LULUS** |
 | 44 | `STC-701` | Immersive Media & XR Dev | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS17, BK-IT10` | Lengkap (3 Pagar) | **LULUS** |
 | 45 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | 7 | Lengkap | Lengkap (C3-C5) | `BK-IS12, BK-IT07` | Lengkap (3 Pagar) | **LULUS** |
 | 46 | `STC-703` | Digital Product Management | 3 | 7 | Lengkap | Lengkap (C3-C6) | `BK-IS15, BK-IT13` | Lengkap (3 Pagar) | **LULUS** |

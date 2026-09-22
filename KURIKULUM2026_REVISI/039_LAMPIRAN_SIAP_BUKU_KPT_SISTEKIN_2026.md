@@ -255,10 +255,10 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | 14 | FST-206 | Etika & Hukum Digital | 2 | 2 | V |  | V |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | 15 | FST-207 | Sistem Basis Data | 2 | 3 |  |  |  |  |  |  |  | V |  | V |  |  |  |  | 2 |
 | 16 | FST-408 | Probabilitas & Statistika | 4 | 3 |  |  |  |  | V |  |  |  |  |  |  |  |  |  | 1 |
-| 17 | FST-610 | Capstone Project FSTI | 7 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  | V | 4 |
+| 17 | FST-610 | Capstone Project FSTI | 6 | 3 |  |  |  |  |  |  |  |  | V | V |  |  |  | V | 4 |
 | 18 | FST-611 | Metodologi Penelitian | 6 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| 19 | FST-612 | PKL (Magang/Praktik) | 7 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
-| 20 | FST-613 | Pra-Skripsi | 7 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
+| 19 | FST-612 | PKL (Magang/Praktik) | 6 | 3 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
+| 20 | FST-613 | Pra-Skripsi | 6 | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 | 21 | FST-714 | Skripsi / Tugas Akhir | 8 | 6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 
 > **Catatan:** kolom CPL terisi (V) merujuk Dok 011 Sheet 5 (sumber Dok 004). Jml = jumlah CPL yang dibebankan pada MK. Matriks lengkap seluruh MK Core STI (34 MK) & MK Pilihan tersedia di Dok 011 Sheet 5.
@@ -332,17 +332,17 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | 38 | MKU-507 | KPM (Kuliah Pengabdian Masyarakat) | 3 | 5 | MKWU |
 | 39 | MKU-508 | Kewirausahaan II | 0 | 5 | MKWU |
 | 40 | **MK Pilihan Peminatan 1** | (P1/P2/P3) | 3 | 5 | Elektif |
-| 41 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | 6 | Core STI |
-| 42 | STI-625 | Smart City & Pemerintahan Digital | 2 | 6 | Core STI |
+| 41 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | 7 | Core STI |
+| 42 | STI-625 | Smart City & Pemerintahan Digital | 2 | 7 | Core STI |
 | 43 | STI-626 | Deep Learning & Neural Networks | 3 | 6 | Core STI |
 | 44 | STI-627 | Digital Platform Engineering | 3 | 6 | Core STI |
 | 45 | FST-611 | Metodologi Penelitian | 2 | 6 | FSTI |
 | 46 | **MK Pilihan Peminatan 2** | (P1/P2/P3) | 3 | 6 | Elektif |
 | 47 | **MK Pilihan Peminatan 3** | (P1/P2/P3) | 3 | 6 | Elektif |
 | 48 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 | 7 | Core STI |
-| 49 | FST-610 | Capstone Project FSTI | 3 | 7 | FSTI |
-| 50 | FST-612 | PKL (Praktik Kerja Lapangan) | 3 | 7 | FSTI |
-| 51 | FST-613 | Pra-Skripsi / Seminar Proposal | 2 | 7 | FSTI |
+| 49 | FST-610 | Capstone Project FSTI | 3 | 6 | FSTI |
+| 50 | FST-612 | PKL (Praktik Kerja Lapangan) | 3 | 6 | FSTI |
+| 51 | FST-613 | Pra-Skripsi / Seminar Proposal | 2 | 6 | FSTI |
 | 52 | **MK Pilihan Peminatan 4** | (P1/P2/P3) | 3 | 7 | Elektif |
 | 53 | **MK Pilihan Peminatan 5** | (P1/P2/P3) | 3 | 7 | Elektif |
 | 54 | **MK Pilihan Peminatan 6** | (P1/P2/P3) | 3 | 7 | Elektif |
@@ -415,17 +415,17 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 | 5 | MKU-507 | KPM | 3 |
 | 5 | MKU-508 | Kewirausahaan II | 0 |
 | 5 | **MK Pilihan 1** | (P1/P2/P3) | 3 |
-| 6 | STI-624 | Integrasi Layanan Cerdas AI | 3 |
-| 6 | STI-625 | Smart City & Pemerintahan Digital | 2 |
+| 7 | STI-624 | Integrasi Layanan Cerdas AI | 3 |
+| 7 | STI-625 | Smart City & Pemerintahan Digital | 2 |
 | 6 | STI-626 | Deep Learning & Neural Networks | 3 |
 | 6 | STI-627 | Platform Engineering | 3 |
 | 6 | FST-611 | Metodologi Penelitian | 2 |
 | 6 | **MK Pilihan 2** | (P1/P2/P3) | 3 |
 | 6 | **MK Pilihan 3** | (P1/P2/P3) | 3 |
 | 7 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 |
-| 7 | FST-610 | Capstone Project FSTI | 3 |
-| 7 | FST-612 | PKL (Magang/Praktik) | 3 |
-| 7 | FST-613 | Pra-Skripsi | 2 |
+| 6 | FST-610 | Capstone Project FSTI | 3 |
+| 6 | FST-612 | PKL (Magang/Praktik) | 3 |
+| 6 | FST-613 | Pra-Skripsi | 2 |
 | 7 | **MK Pilihan 4** | (P1/P2/P3) | 3 |
 | 7 | **MK Pilihan 5** | (P1/P2/P3) | 3 |
 | 7 | **MK Pilihan 6** | (P1/P2/P3) | 3 |
@@ -453,7 +453,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 |:--:|:---:|---|:--:|:--:|:--:|---|
 | 1 | STA-501 | Decision Support Systems | 3 | +P | 5 | STI-307 |
 | 2 | STA-601 | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | +P | 6 | FST-207, STI-415 |
-| 3 | STA-602 | Intelligent Agent Systems | 3 | +P | 6 | STI-307 |
+| 3 | STA-602 | Intelligent Agent Systems | 3 | +P | 7 | STI-307 |
 | 4 | STA-701 | MLOps and AI Pipeline | 3 | +P | 7 | STI-413, STI-624 |
 | 5 | STA-702 | Conversational AI & Intelligent Assistant | 3 | +P | 7 | STI-413, STI-416 |
 | 6 | STA-703 | Smart Surveillance and IoT Analytics | 3 | +P | 7 | STI-626, STI-521 |
@@ -464,7 +464,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 |:--:|:---:|---|:--:|:--:|:--:|---|
 | 1 | STB-501 | Network Security and Digital Forensics | 3 | +P | 5 | STI-312, STI-418 |
 | 2 | STB-601 | Cloud Architecture & DevOps | 3 | +P | 6 | STI-417 |
-| 3 | STB-602 | Cybersecurity Risk Management | 3 | Teori | 6 | STI-418 |
+| 3 | STB-602 | Cybersecurity Risk Management | 3 | Teori | 7 | STI-418 |
 | 4 | STB-701 | IT Governance & Compliance (COBIT 2019) | 3 | Teori | 7 | STI-101 |
 | 5 | STB-702 | IT Service Management (ITIL 4) | 3 | Teori | 7 | STI-101 |
 | 6 | STB-703 | Enterprise Architecture (TOGAF) | 3 | Teori | 7 | STI-306 |
@@ -475,7 +475,7 @@ Sarjana yang berjiwa kewirausahaan teknologi, mampu mengidentifikasi celah pasar
 |:--:|:---:|---|:--:|:--:|:--:|---|
 | 1 | STC-501 | User Experience Research & Design | 3 | +P | 5 | STI-308 |
 | 2 | STC-601 | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | 6 | STI-306 |
-| 3 | STC-602 | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | +P | 6 | STI-416 |
+| 3 | STC-602 | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | +P | 7 | STI-416 |
 | 4 | STC-701 | Immersive Media & XR Development | 3 | +P | 7 | STI-311 |
 | 5 | STC-702 | SaaS Architecture & Multi-Tenancy | 3 | +P | 7 | STI-416 |
 | 6 | STC-703 | Digital Product Management & Agile Practices | 3 | Teori | 7 | STI-523 |

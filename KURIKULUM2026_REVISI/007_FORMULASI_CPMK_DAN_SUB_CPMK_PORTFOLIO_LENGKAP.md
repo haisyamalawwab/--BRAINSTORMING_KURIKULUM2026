@@ -1643,7 +1643,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STI-624 — Integrasi Layanan Cerdas Berbasis AI** (*AI-Based Smart Services Integration*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 6** / Sistem Cerdas & Sains Data (Core STI) |
+| **Semester / Rumpun MK** | **Semester 7** / Sistem Cerdas & Sains Data (Core STI) |
 | **Prasyarat Akademik** | `STI-413` Machine Learning & `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P2` (Arsitektur AI-as-a-Service), `KK1` (Model Serving, RAG, & Vektor Database) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent Information Systems Developer) |
@@ -1686,7 +1686,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STI-625 — Smart City & Pemerintahan Digital** (*Smart City & Digital Governance*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Teori** (100m Kuliah + 120m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 6** / Sistem Informasi & Tata Kelola (Core STI) |
+| **Semester / Rumpun MK** | **Semester 7** / Sistem Informasi & Tata Kelola (Core STI) |
 | **Prasyarat Akademik** | `STI-521` Internet of Things (IoT) |
 | **CPL yang Dibebankan** | `P3` (Infrastruktur Kota Cerdas & Arsitektur SPBE), `KK3` (Integrasi GIS & Telemetri Perkotaan) |
 | **Profil Lulusan (PL)** | `PL-2` (Smart Systems Integrator), `PL-4` |
@@ -1900,8 +1900,8 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **FST-610 — Capstone Project FSTI** (*FSTI Multidisciplinary Capstone Project*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Proyek** (270 Menit Studio Proyek / Minggu) |
-| **Semester / Rumpun MK** | **Semester 7** / Proyek Terpadu Multidisiplin (FSTI) |
-| **Prasyarat Akademik** | Minimal Telah Menempuh 110 SKS |
+| **Semester / Rumpun MK** | **Semester 6** / Proyek Terpadu Multidisiplin (FSTI) |
+| **Prasyarat Akademik** | `STI-523` Manajemen Proyek TI, $\ge 100\text{ SKS}$ |
 | **CPL yang Dibebankan** | `S1` (Etika Tim), `KU1-KU3` (Manajemen & Komunikasi), `P1-P4` (Sains Komputasi), `KK1-KK6` (Integrasi Solusi Nyata) |
 | **Profil Lulusan (PL)** | Seluruh Profil Lulusan (`PL-1` s.d. `PL-4`) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-2` (Technopreneurship) |
@@ -1943,7 +1943,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **FST-612 — Praktik Kerja Lapangan (PKL)** (*Industrial Internship*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Magang** (240 Menit Praktik Industri / Minggu) |
-| **Semester / Rumpun MK** | **Semester 7** / Pengalaman Kerja Industri & DUDI (FSTI) |
+| **Semester / Rumpun MK** | **Semester 6** / Pengalaman Kerja Industri & DUDI (FSTI) |
 | **Prasyarat Akademik** | Minimal Telah Menempuh 100 SKS |
 | **CPL yang Dibebankan** | `S1` (Etika Profesi), `KU1-KU3` (Komunikasi & Adaptabilitas), `KK1-KK6` (Penerapan Kompetensi di Industri) |
 | **Profil Lulusan (PL)** | Seluruh Profil Lulusan (`PL-1` s.d. `PL-4`) |
@@ -1985,8 +1985,8 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **FST-613 — Pra-Skripsi / Seminar Proposal** (*Pre-Thesis / Proposal Seminar*) |
 | **Bobot SKS / Tipe** | **2 SKS** / Tipe: **Seminar** (100m Bimbingan + 120m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 7** / Tugas Akhir & Publikasi Ilmiah (FSTI) |
-| **Prasyarat Akademik** | Lulus `FST-611` Metodologi Penelitian |
+| **Semester / Rumpun MK** | **Semester 6** / Tugas Akhir & Publikasi Ilmiah (FSTI) |
+| **Prasyarat Akademik** | Menempuh bersamaan `FST-611` Metodologi Penelitian, $\ge 100\text{ SKS}$ |
 | **CPL yang Dibebankan** | `KU1` (Sintesis Kritis Masalah Riset), `KU2` (Komunikasi Ilmiah & Pertanggungjawaban Akademik) |
 | **Profil Lulusan (PL)** | Seluruh Profil Lulusan (`PL-1` s.d. `PL-4`) |
 | **Target PEO** | `PEO-1` (Professional Practice), `PEO-3` (Research) |
@@ -2155,7 +2155,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STA-602 — Intelligent Agent Systems** (*Intelligent Agent Systems*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 6** / Peminatan 1: Integrated Smart Systems |
+| **Semester / Rumpun MK** | **Semester 7** / Peminatan 1: Integrated Smart Systems |
 | **Prasyarat Akademik** | `STI-307` Sistem Cerdas |
 | **CPL yang Dibebankan** | `P2` (Arsitektur BDI & Multi-Agent), `KK1` (Reinforcement Learning & Agen Otonom) |
 | **Profil Lulusan (PL)** | `PL-1` (Intelligent Information Systems Developer) |
@@ -2410,7 +2410,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STB-602 — Cybersecurity Risk Management** (*Cybersecurity Risk Management*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **Teori** (150m Kuliah + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 6** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
+| **Semester / Rumpun MK** | **Semester 7** / Peminatan 2: Cloud Infrastructure & Cybersecurity |
 | **Prasyarat Akademik** | `STI-418` Dasar Keamanan Informasi |
 | **CPL yang Dibebankan** | `P3` (Kerangka Kerja Risiko NIST & ISO 27005), `KK4` (Penilaian Risiko Kuantitatif & BCP/DRP) |
 | **Profil Lulusan (PL)** | `PL-2` (Cybersecurity Specialist / Information Security Officer) |
@@ -2662,7 +2662,7 @@ Setiap mata kuliah dalam dokumen ini disusun secara modular dan terstruktur dala
 |---|---|
 | **Kode & Nama Mata Kuliah** | **STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)** (*Vertical Industry Application Engineering*) |
 | **Bobot SKS / Tipe** | **3 SKS** / Tipe: **+P** (100m Teori + 170m Lab + 180m Mandiri) |
-| **Semester / Rumpun MK** | **Semester 6** / Peminatan 3: Digital Platform Engineering |
+| **Semester / Rumpun MK** | **Semester 7** / Peminatan 3: Digital Platform Engineering |
 | **Prasyarat Akademik** | `STI-416` Web Back End Development |
 | **CPL yang Dibebankan** | `P4` (Arsitektur Spesifik Domain), `KK5` (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI) |
 | **Profil Lulusan (PL)** | `PL-3` (Digital Platform Engineer / Vertical Domain Architect) |

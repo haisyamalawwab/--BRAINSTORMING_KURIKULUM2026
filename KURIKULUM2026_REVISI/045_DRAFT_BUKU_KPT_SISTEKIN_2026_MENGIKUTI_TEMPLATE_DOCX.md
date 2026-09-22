@@ -546,13 +546,13 @@ Kumulatif 101 SKS.
 
 | No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
 |---|---|---|---|---|---|
-| 1 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | STI-413, STI-416 |
-| 2 | STI-625 | Smart City & Pemerintahan Digital (K2026) | 2 | Teori | STI-521 |
-| 3 | STI-626 | Deep Learning & Neural Networks | 3 | +P | STI-413 |
-| 4 | STI-627 | Digital Platform Engineering | 3 | +P | STI-416 |
-| 5 | FST-611 | Metodologi Penelitian | 2 | Teori | ≥76 SKS |
-| 6 | STA-601 / STB-601 / STC-601 | MK Pilihan Peminatan-2 (satu jalur) | 3 | Elektif | Lihat prasyarat jalur |
-| 7 | STA-602 / STB-602 / STC-602 | MK Pilihan Peminatan-3 (satu jalur) | 3 | Elektif | Lihat prasyarat jalur |
+| 1 | STI-626 | Deep Learning & Neural Networks | 3 | +P | STI-413 |
+| 2 | STI-627 | Digital Platform Engineering | 3 | +P | STI-416 |
+| 3 | FST-610 | Capstone Project FSTI | 3 | Proyek | STI-523, ≥100 SKS |
+| 4 | FST-611 | Metodologi Penelitian | 2 | Teori | ≥76 SKS |
+| 5 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | Magang | ≥100 SKS |
+| 6 | FST-613 | Pra-Skripsi / Seminar Proposal | 2 | Seminar | FST-611, ≥100 SKS |
+| 7 | STA-601 / STB-601 / STC-601 | MK Pilihan Peminatan-2 (satu jalur) | 3 | Elektif | Lihat prasyarat peminatan |
 | | **Total Semester 6** | | **19** | | |
 
 Kumulatif 120 SKS.
@@ -561,11 +561,11 @@ Kumulatif 120 SKS.
 
 | No | Kode MK | Mata Kuliah | SKS | Jenis MK | Prasyarat |
 |---|---|---|---|---|---|
-| 1 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 | +P | STI-627, MKU-204 |
-| 2 | FST-610 | Capstone Project FSTI | 3 | Proyek | STI-523, ≥100 SKS |
-| 3 | FST-612 | Praktik Kerja Lapangan (PKL) | 3 | Magang | ≥100 SKS |
-| 4 | FST-613 | Pra-Skripsi / Seminar Proposal | 2 | Seminar | FST-611, ≥100 SKS |
-| 5–7 | STA-701/702/703 atau STB-701/702/703 atau STC-701/702/703 | MK Pilihan Peminatan-4/5/6 (satu jalur) | 9 | Elektif | Lihat prasyarat jalur |
+| 1 | STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | +P | STI-413, STI-416 |
+| 2 | STI-625 | Smart City & Pemerintahan Digital (K2026) | 2 | Teori | STI-521 |
+| 3 | STI-728 | Inovasi Teknologi dan Startup Digital | 3 | +P | STI-627, MKU-204 |
+| 4 | STA-602 / STB-602 / STC-602 | MK Pilihan Peminatan-3 (satu jalur) | 3 | Elektif | Lihat prasyarat peminatan |
+| 5–7 | STA-701/702/703 atau STB-701/702/703 atau STC-701/702/703 | MK Pilihan Peminatan-4, 5, 6 (3 MK) | 9 | Elektif | Sesuai jalur |
 | | **Total Semester 7** | | **20** | | |
 
 Kumulatif 140 SKS.
@@ -964,7 +964,7 @@ Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Diko
 
 | No | Bentuk BKP MBKM | Status SISTEKIN | Konversi |
 |---|---|---|---|
-| 1 | Magang/Praktik Kerja | Ada — FST-612 PKL 3 SKS Sem 7 | Alih nilai + laporan mitra |
+| 1 | Magang/Praktik Kerja | Ada — FST-612 PKL 3 SKS Sem 6 | Alih nilai + laporan mitra |
 | 2 | KKN/KKNT (KPM) | Ada — MKU-507 KPM 3 SKS Sem 5 | Praktik universitas |
 | 3 | Wirausaha | Ada — MKU-204, Startup STI-728, Capstone | MVP + pitch deck |
 | 4 | Asistensi Mengajar | Belum dirinci — disusun bertahap | Rekognisi peminatan/PKL |

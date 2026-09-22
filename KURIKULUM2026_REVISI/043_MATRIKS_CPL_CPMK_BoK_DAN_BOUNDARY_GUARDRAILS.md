@@ -16,12 +16,12 @@
    - [Semester 3: Fondasi Rekayasa Sistem, Data & Infrastruktur](#semester-3-fondasi-rekayasa-sistem-data--infrastruktur)
    - [Semester 4: Data Warehouse, Cloud, Backend & Machine Learning](#semester-4-data-warehouse-cloud-backend--machine-learning)
    - [Semester 5: IoT, Security Lanjut, Data Mining & Manajemen Proyek](#semester-5-iot-security-lanjut-data-mining--manajemen-proyek)
-   - [Semester 6: Platform Digital, Integrasi AI & Deep Learning](#semester-6-platform-digital-integrasi-ai--deep-learning)
-   - [Semester 7: Startup Digital & Inovasi Teknologi](#semester-7-startup-digital--inovasi-teknologi)
+   - [Semester 6: Platform Digital & Deep Learning](#semester-6-platform-digital--deep-learning)
+   - [Semester 7: Integrasi AI, Smart City & Startup Digital](#semester-7-integrasi-ai-smart-city--startup-digital)
 3. [BAGIAN II: 18 Mata Kuliah Pilihan Peminatan (Per Semester)](#3-bagian-ii-18-mata-kuliah-pilihan-peminatan-per-semester)
    - [Semester 5: Elektif Spesialisasi Tingkat Dasar (3 SKS)](#semester-5-elektif-spesialisasi-tingkat-dasar-3-sks)
-   - [Semester 6: Elektif Spesialisasi Tingkat Menengah (6 SKS)](#semester-6-elektif-spesialisasi-tingkat-menengah-6-sks)
-   - [Semester 7: Elektif Spesialisasi Tingkat Lanjut (9 SKS)](#semester-7-elektif-spesialisasi-tingkat-lanjut-9-sks)
+   - [Semester 6: Elektif Spesialisasi Tingkat Menengah (3 SKS)](#semester-6-elektif-spesialisasi-tingkat-menengah-3-sks)
+   - [Semester 7: Elektif Spesialisasi Tingkat Lanjut & Aplikatif (12 SKS)](#semester-7-elektif-spesialisasi-tingkat-lanjut--aplikatif-12-sks)
 4. [Pedoman Implementasi Dosen Pengampu & Gugus Penjaminan Mutu](#4-pedoman-implementasi-dosen-pengampu--gugus-penjaminan-mutu)
 
 ---
@@ -1386,129 +1386,13 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 ---
 
-### SEMESTER 6: PLATFORM DIGITAL, INTEGRASI AI & DEEP LEARNING
+### SEMESTER 6: PLATFORM DIGITAL & DEEP LEARNING
 
 #### Tabel Rekapitulasi Core Semester 6
 | Kode MK | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Kewenangan (In-Scope Ringkas) |
 |:---:|---|:---:|:---:|:---:|---|---|
-| `STI-624` | Integrasi Layanan Cerdas Berbasis AI | 3 | `STI-413`, `STI-416` | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur Integrasi Model AI ke Sistem Produksi, Pembuatan Wrapp... |
-| `STI-625` | Smart City & Pemerintahan Digital | 2 | `STI-521` | `P3` , `KK3` | `BK-IS01` *Foundations of IS* | Konsep Smart City 6 Pilar, Transformasi Digital Sektor Publik, Si... |
-| `STI-626` | Deep Learning & Neural Networks | 3 | `STI-413` | `KK1` , `KK2` | `BK-IS18` *Machine Learning* | Multi-Layer Perceptron, Backpropagation, Framework PyTorch, Convo... |
-| `STI-627` | Digital Platform Engineering | 3 | `STI-416` | `P4` , `KK5` | `BK-IS12` *Web and Mobile App Development* | Arsitektur Platform Digital, Event-Driven Architecture, Message B... |
-
-#### STI-624 — Integrasi Layanan Cerdas Berbasis AI
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`, `STI-416`
-* **CPL yang Dibebankan:** `P2` (Arsitektur AI-as-a-Service), `KK1` (Model Serving, RAG, & Vektor Database)
-* **Body of Knowledge (BoK):** `BK-IS16` *Artificial Intelligence*, `BK-IT07` *System Integration*
-
-**Formulasi CPMK (Format ABCD & Level Bloom):**
-
-| Kode | Rumusan CPMK | Bloom | CPL |
-|:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **mengoptimalkan dan mengonversi** model deep learning terlatih (*B*) ke format ONNX dan TensorRT (*C*) untuk inferensi berlatensi rendah (*D*). | **C4** | `KK1` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **membangun** RESTful / gRPC Inference Service asinkron (*B*) menggunakan framework FastAPI dan kontainer Docker (*C*) dengan throughput tinggi (*D*). | **C6** | `P2, KK1` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **merancang dan mengintegrasikan** sistem Retrieval-Augmented Generation (RAG) (*B*) menggunakan Vector Database (Milvus/Chroma) dan Large Language Models (LLM API) (*C*) secara akurat dan minim halusinasi (*D*). | **C6** | `KK1` |
-| `CPMK-4` | Mahasiswa (*A*) mampu **mengevaluasi** performa layanan AI (*B*) dengan pengujian beban (*Load Testing* Locust), monitoring latensi, dan pertahanan terhadap prompt injection (*C*) secara kritis (*D*). | **C5** | `KK1` |
-
-**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
-
-| Kode | Kompetensi Spesifik | CPMK | Bloom |
-|---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Mengonversi model Machine Learning/Deep Learning ke format ONNX/TensorRT. | CPMK-1 | **C4** |
-| **Sub-CPMK-1.2** | Mengemas model ke kontainer untuk layanan inferensi. | CPMK-1 | **C4** |
-| **Sub-CPMK-2.1** | Membangun RESTful/gRPC inference service yang dapat diintegrasikan ke sistem. | CPMK-2 | **C6** |
-| **Sub-CPMK-2.2** | Mengimplementasikan Retrieval-Augmented Generation (RAG) dengan vector database. | CPMK-2 | **C6** |
-| **Sub-CPMK-3.1** | Mengintegrasikan layanan AI ke platform digital yang ada. | CPMK-3 | **C6** |
-| **Sub-CPMK-3.2** | Mengelola keamanan dan autentikasi layanan inferensi AI. | CPMK-3 | **C5** |
-| **Sub-CPMK-4.1** | Melakukan load testing untuk mengukur kapasitas layanan AI. | CPMK-4 | **C5** |
-| **Sub-CPMK-4.2** | Menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model. | CPMK-4 | **C5** |
-
-
-**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
-
-| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
-|:---:|:---:|---|---|---|:---:|:---:|
-| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
-| 2 | Sub-1.1 | Mengonversi model Machine Learning/Deep Learning ke format ONNX/TensorRT | Mahasiswa (*A*) mampu mengonversi model Machine Learning/Deep Learning ke format ONNX/TensorRT (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 3 | Sub-1.2 | Mengemas model ke kontainer | Mahasiswa (*A*) mampu mengemas model ke kontainer untuk layanan inferensi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 4 | Sub-2.1 | Membangun RESTful/gRPC inference service yang dapat diintegrasikan ke sistem | Mahasiswa (*A*) mampu membangun RESTful/gRPC inference service yang dapat diintegrasikan ke sistem (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Mengimplementasikan Retrieval-Augmented Generation (RAG) | Mahasiswa (*A*) mampu mengimplementasikan Retrieval-Augmented Generation (RAG) dengan vector database (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
-| 6 | Sub-3.1 | Mengintegrasikan layanan AI ke platform digital yang ada | Mahasiswa (*A*) mampu mengintegrasikan layanan AI ke platform digital yang ada (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 7 | Sub-3.2 | Mengelola keamanan dan autentikasi layanan inferensi AI | Mahasiswa (*A*) mampu mengelola keamanan dan autentikasi layanan inferensi AI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
-| 9 | Sub-4.1 | Melakukan load testing | Mahasiswa (*A*) mampu melakukan load testing untuk mengukur kapasitas layanan AI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 10 | Sub-4.2 | Menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model | Mahasiswa (*A*) mampu menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
-| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
-| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
-| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
-| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
-| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
-
-**Boundary Guardrails:**
-
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Integrasi Model AI ke Sistem Produksi, Pembuatan Wrapper REST/gRPC API untuk Model AI, Microservices Inference, Caching Hasil Prediksi (Redis), Batch vs Real-time Inference, Rate Limiting AI API.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang meriset arsitektur matematika deep learning baru dari nol, instalasi kabel jaringan fisik, perancangan antarmuka visual Figma.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Mengintegrasikan model kecerdasan buatan ke ekosistem layanan nyata; menjadi jangkar utama posisi SISTEKIN sebagai integrator AI cerdas.
-
----
-
-#### STI-625 — Smart City & Pemerintahan Digital
-* **Beban / Tipe / Prasyarat:** 2 SKS / Teori / Prasyarat: `STI-521`
-* **CPL yang Dibebankan:** `P3` (Infrastruktur Kota Cerdas & Arsitektur SPBE), `KK3` (Integrasi GIS & Telemetri Perkotaan)
-* **Body of Knowledge (BoK):** `BK-IS01` *Foundations of IS*, `BK-IS04` *Enterprise Architecture*
-
-**Formulasi CPMK (Format ABCD & Level Bloom):**
-
-| Kode | Rumusan CPMK | Bloom | CPL |
-|:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **menganalisis** arsitektur enterprise Sistem Pemerintahan Berbasis Elektronik (SPBE) (*B*) berdasarkan regulasi nasional Perpres No. 95/2018 (*C*) dengan pemetaan 6 domain SPBE (*D*). | **C4** | `P3` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **membangun** peta digital perkotaan interaktif (*B*) menggunakan Web GIS (Leaflet/Mapbox) dan integrasi sensor telemetri perkotaan (*C*) secara visual dan fungsional (*D*). | **C6** | `KK3` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **merancang** skema interoperabilitas data publik (*B*) berdasarkan prinsip Satu Data Indonesia dan RESTful API SPBE (*C*) dengan keamanan terstandar (*D*). | **C4** | `P3, KK3` |
-| `CPMK-4` | Mahasiswa (*A*) mampu **menyusun** masterplan dan purwarupa sistem layanan publik cerdas (*B*) pada salah satu pilar Smart City (*C*) secara komprehensif (*D*). | **C6** | `P3, KK3` |
-
-**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
-
-| Kode | Kompetensi Spesifik | CPMK | Bloom |
-|---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Merancang arsitektur layanan Smart City sesuai kerangka SPBE (Perpres). | CPMK-1 | **C4** |
-| **Sub-CPMK-1.2** | Menganalisis komponen smart city (transportasi, energi, keamanan, lingkungan). | CPMK-1 | **C4** |
-| **Sub-CPMK-2.1** | Membangun aplikasi Web GIS menggunakan Leaflet/Mapbox untuk visualisasi spasial. | CPMK-2 | **C6** |
-| **Sub-CPMK-2.2** | Mengintegrasikan data telemetri perkotaan ke platform layanan. | CPMK-2 | **C6** |
-| **Sub-CPMK-3.1** | Menganalisis interoperabilitas data pada kerangka Satu Data Indonesia. | CPMK-3 | **C4** |
-| **Sub-CPMK-3.2** | Merancang integrasi data lintas instansi pemerintahan digital. | CPMK-3 | **C4** |
-| **Sub-CPMK-4.1** | Menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota. | CPMK-4 | **C6** |
-| **Sub-CPMK-4.2** | Membangun purwarupa layanan smart city end-to-end yang terintegrasi data. | CPMK-4 | **C6** |
-
-
-**Rencana 16 Pertemuan & Asesmen** (2 SKS, Teori — 1 SKS = 50 menit):
-
-| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
-|:---:|:---:|---|---|---|:---:|:---:|
-| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 100' | — |
-| 2 | Sub-1.1 | Merancang arsitektur layanan Smart City sesuai kerangka SPBE (Perpres) | Mahasiswa (*A*) mampu merancang arsitektur layanan Smart City sesuai kerangka SPBE (Perpres) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 100' | — |
-| 3 | Sub-1.2 | Menganalisis komponen smart city (transportasi, energi, keamanan, lingkungan) | Mahasiswa (*A*) mampu menganalisis komponen smart city (transportasi, energi, keamanan, lingkungan) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 100' | — |
-| 4 | Sub-2.1 | Membangun aplikasi Web GIS | Mahasiswa (*A*) mampu membangun aplikasi Web GIS menggunakan Leaflet/Mapbox untuk visualisasi spasial (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 100' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Mengintegrasikan data telemetri perkotaan ke platform layanan | Mahasiswa (*A*) mampu mengintegrasikan data telemetri perkotaan ke platform layanan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 100' | — |
-| 6 | Sub-3.1 | Menganalisis interoperabilitas data | Mahasiswa (*A*) mampu menganalisis interoperabilitas data pada kerangka Satu Data Indonesia (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 100' | — |
-| 7 | Sub-3.2 | Merancang integrasi data lintas instansi pemerintahan digital | Mahasiswa (*A*) mampu merancang integrasi data lintas instansi pemerintahan digital (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 100' | — |
-| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 100' | **UTS** (30%) |
-| 9 | Sub-4.1 | Menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota | Mahasiswa (*A*) mampu menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Kuliah / Diskusi | 100' | — |
-| 10 | Sub-4.2 | Membangun purwarupa layanan smart city end-to-end yang terintegrasi data | Mahasiswa (*A*) mampu membangun purwarupa layanan smart city end-to-end yang terintegrasi data (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Kuliah / Diskusi | 100' | — |
-| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 100' | — |
-| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 100' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
-| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 100' | — |
-| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 100' | — |
-| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 100' | — |
-| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 100' | **UAS** (30%) |
-
-**Boundary Guardrails:**
-
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Konsep Smart City 6 Pilar, Transformasi Digital Sektor Publik, Sistem Pemerintahan Berbasis Elektronik (SPBE), Integrasi Layanan Publik, Satu Data Indonesia, Sensor Perkotaan Terpadu.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang penyusunan roadmap TOGAF korporasi privat murni, penetrasi keamanan jaringan pemerintahan, koding kernel mikrokontroler sensor.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai arsitektur solusi TI perkotaan dan pemerintahan; menyerahkan arsitektur enterprise korporat ke `STB-703`.
-
----
+| STI-626 | Deep Learning & Neural Networks | 3 | STI-413 | KK1 , KK2 | BK-IS18 *Machine Learning* | Multi-Layer Perceptron, Backpropagation, Framework PyTorch, Convo... |
+| STI-627 | Digital Platform Engineering | 3 | STI-416 | P4 , KK5 | BK-IS12 *Web and Mobile App Development* | Arsitektur Platform Digital, Event-Driven Architecture, Message B... |
 
 #### STI-626 — Deep Learning & Neural Networks
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`
@@ -1624,12 +1508,128 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 
 ---
 
-### SEMESTER 7: STARTUP DIGITAL & INOVASI TEKNOLOGI
+### SEMESTER 7: INTEGRASI AI, SMART CITY & STARTUP DIGITAL
 
 #### Tabel Rekapitulasi Core Semester 7
 | Kode MK | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Kewenangan (In-Scope Ringkas) |
 |:---:|---|:---:|:---:|:---:|---|---|
-| `STI-728` | Inovasi Teknologi dan Startup Digital | 3 | `STI-627`, `MKU-204` | `KK6` | `BK-IS15` *Digital Innovation and Entrepreneurship* | Inovasi Teknologi Digital, Lean Startup Methodology, Business Mod... |
+| STI-624 | Integrasi Layanan Cerdas Berbasis AI | 3 | STI-413, STI-416 | P2 , KK1 | BK-IS16 *Artificial Intelligence* | Arsitektur Integrasi Model AI ke Sistem Produksi, Pembuatan Wrapp... |
+| STI-625 | Smart City & Pemerintahan Digital | 2 | STI-521 | P3 , KK3 | BK-IS01 *Foundations of IS* | Konsep Smart City 6 Pilar, Transformasi Digital Sektor Publik, Si... |
+| STI-728 | Inovasi Teknologi dan Startup Digital | 3 | STI-627, MKU-204 | KK6 | BK-IS15 *Digital Innovation and Entrepreneurship* | Inovasi Teknologi Digital, Lean Startup Methodology, Business Mod... |
+
+#### STI-624 — Integrasi Layanan Cerdas Berbasis AI
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`, `STI-416`
+* **CPL yang Dibebankan:** `P2` (Arsitektur AI-as-a-Service), `KK1` (Model Serving, RAG, & Vektor Database)
+* **Body of Knowledge (BoK):** `BK-IS16` *Artificial Intelligence*, `BK-IT07` *System Integration*
+
+**Formulasi CPMK (Format ABCD & Level Bloom):**
+
+| Kode | Rumusan CPMK | Bloom | CPL |
+|:---:|---|:---:|:---:|
+| `CPMK-1` | Mahasiswa (*A*) mampu **mengoptimalkan dan mengonversi** model deep learning terlatih (*B*) ke format ONNX dan TensorRT (*C*) untuk inferensi berlatensi rendah (*D*). | **C4** | `KK1` |
+| `CPMK-2` | Mahasiswa (*A*) mampu **membangun** RESTful / gRPC Inference Service asinkron (*B*) menggunakan framework FastAPI dan kontainer Docker (*C*) dengan throughput tinggi (*D*). | **C6** | `P2, KK1` |
+| `CPMK-3` | Mahasiswa (*A*) mampu **merancang dan mengintegrasikan** sistem Retrieval-Augmented Generation (RAG) (*B*) menggunakan Vector Database (Milvus/Chroma) dan Large Language Models (LLM API) (*C*) secara akurat dan minim halusinasi (*D*). | **C6** | `KK1` |
+| `CPMK-4` | Mahasiswa (*A*) mampu **mengevaluasi** performa layanan AI (*B*) dengan pengujian beban (*Load Testing* Locust), monitoring latensi, dan pertahanan terhadap prompt injection (*C*) secara kritis (*D*). | **C5** | `KK1` |
+
+**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
+
+| Kode | Kompetensi Spesifik | CPMK | Bloom |
+|---:|---|:--:|:--:|
+| **Sub-CPMK-1.1** | Mengonversi model Machine Learning/Deep Learning ke format ONNX/TensorRT. | CPMK-1 | **C4** |
+| **Sub-CPMK-1.2** | Mengemas model ke kontainer untuk layanan inferensi. | CPMK-1 | **C4** |
+| **Sub-CPMK-2.1** | Membangun RESTful/gRPC inference service yang dapat diintegrasikan ke sistem. | CPMK-2 | **C6** |
+| **Sub-CPMK-2.2** | Mengimplementasikan Retrieval-Augmented Generation (RAG) dengan vector database. | CPMK-2 | **C6** |
+| **Sub-CPMK-3.1** | Mengintegrasikan layanan AI ke platform digital yang ada. | CPMK-3 | **C6** |
+| **Sub-CPMK-3.2** | Mengelola keamanan dan autentikasi layanan inferensi AI. | CPMK-3 | **C5** |
+| **Sub-CPMK-4.1** | Melakukan load testing untuk mengukur kapasitas layanan AI. | CPMK-4 | **C5** |
+| **Sub-CPMK-4.2** | Menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model. | CPMK-4 | **C5** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Mengonversi model Machine Learning/Deep Learning ke format ONNX/TensorRT | Mahasiswa (*A*) mampu mengonversi model Machine Learning/Deep Learning ke format ONNX/TensorRT (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Mengemas model ke kontainer | Mahasiswa (*A*) mampu mengemas model ke kontainer untuk layanan inferensi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Membangun RESTful/gRPC inference service yang dapat diintegrasikan ke sistem | Mahasiswa (*A*) mampu membangun RESTful/gRPC inference service yang dapat diintegrasikan ke sistem (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Mengimplementasikan Retrieval-Augmented Generation (RAG) | Mahasiswa (*A*) mampu mengimplementasikan Retrieval-Augmented Generation (RAG) dengan vector database (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Mengintegrasikan layanan AI ke platform digital yang ada | Mahasiswa (*A*) mampu mengintegrasikan layanan AI ke platform digital yang ada (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengelola keamanan dan autentikasi layanan inferensi AI | Mahasiswa (*A*) mampu mengelola keamanan dan autentikasi layanan inferensi AI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | Sub-4.1 | Melakukan load testing | Mahasiswa (*A*) mampu melakukan load testing untuk mengukur kapasitas layanan AI (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 10 | Sub-4.2 | Menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model | Mahasiswa (*A*) mampu menyusun strategi monitoring latensi dan kesehatan layanan rekomendasi/model (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
+**Boundary Guardrails:**
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Integrasi Model AI ke Sistem Produksi, Pembuatan Wrapper REST/gRPC API untuk Model AI, Microservices Inference, Caching Hasil Prediksi (Redis), Batch vs Real-time Inference, Rate Limiting AI API.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang meriset arsitektur matematika deep learning baru dari nol, instalasi kabel jaringan fisik, perancangan antarmuka visual Figma.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Mengintegrasikan model kecerdasan buatan ke ekosistem layanan nyata; menjadi jangkar utama posisi SISTEKIN sebagai integrator AI cerdas.
+
+---
+
+#### STI-625 — Smart City & Pemerintahan Digital
+* **Beban / Tipe / Prasyarat:** 2 SKS / Teori / Prasyarat: `STI-521`
+* **CPL yang Dibebankan:** `P3` (Infrastruktur Kota Cerdas & Arsitektur SPBE), `KK3` (Integrasi GIS & Telemetri Perkotaan)
+* **Body of Knowledge (BoK):** `BK-IS01` *Foundations of IS*, `BK-IS04` *Enterprise Architecture*
+
+**Formulasi CPMK (Format ABCD & Level Bloom):**
+
+| Kode | Rumusan CPMK | Bloom | CPL |
+|:---:|---|:---:|:---:|
+| `CPMK-1` | Mahasiswa (*A*) mampu **menganalisis** arsitektur enterprise Sistem Pemerintahan Berbasis Elektronik (SPBE) (*B*) berdasarkan regulasi nasional Perpres No. 95/2018 (*C*) dengan pemetaan 6 domain SPBE (*D*). | **C4** | `P3` |
+| `CPMK-2` | Mahasiswa (*A*) mampu **membangun** peta digital perkotaan interaktif (*B*) menggunakan Web GIS (Leaflet/Mapbox) dan integrasi sensor telemetri perkotaan (*C*) secara visual dan fungsional (*D*). | **C6** | `KK3` |
+| `CPMK-3` | Mahasiswa (*A*) mampu **merancang** skema interoperabilitas data publik (*B*) berdasarkan prinsip Satu Data Indonesia dan RESTful API SPBE (*C*) dengan keamanan terstandar (*D*). | **C4** | `P3, KK3` |
+| `CPMK-4` | Mahasiswa (*A*) mampu **menyusun** masterplan dan purwarupa sistem layanan publik cerdas (*B*) pada salah satu pilar Smart City (*C*) secara komprehensif (*D*). | **C6** | `P3, KK3` |
+
+**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
+
+| Kode | Kompetensi Spesifik | CPMK | Bloom |
+|---:|---|:--:|:--:|
+| **Sub-CPMK-1.1** | Merancang arsitektur layanan Smart City sesuai kerangka SPBE (Perpres). | CPMK-1 | **C4** |
+| **Sub-CPMK-1.2** | Menganalisis komponen smart city (transportasi, energi, keamanan, lingkungan). | CPMK-1 | **C4** |
+| **Sub-CPMK-2.1** | Membangun aplikasi Web GIS menggunakan Leaflet/Mapbox untuk visualisasi spasial. | CPMK-2 | **C6** |
+| **Sub-CPMK-2.2** | Mengintegrasikan data telemetri perkotaan ke platform layanan. | CPMK-2 | **C6** |
+| **Sub-CPMK-3.1** | Menganalisis interoperabilitas data pada kerangka Satu Data Indonesia. | CPMK-3 | **C4** |
+| **Sub-CPMK-3.2** | Merancang integrasi data lintas instansi pemerintahan digital. | CPMK-3 | **C4** |
+| **Sub-CPMK-4.1** | Menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota. | CPMK-4 | **C6** |
+| **Sub-CPMK-4.2** | Membangun purwarupa layanan smart city end-to-end yang terintegrasi data. | CPMK-4 | **C6** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (2 SKS, Teori — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 100' | — |
+| 2 | Sub-1.1 | Merancang arsitektur layanan Smart City sesuai kerangka SPBE (Perpres) | Mahasiswa (*A*) mampu merancang arsitektur layanan Smart City sesuai kerangka SPBE (Perpres) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 100' | — |
+| 3 | Sub-1.2 | Menganalisis komponen smart city (transportasi, energi, keamanan, lingkungan) | Mahasiswa (*A*) mampu menganalisis komponen smart city (transportasi, energi, keamanan, lingkungan) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 100' | — |
+| 4 | Sub-2.1 | Membangun aplikasi Web GIS | Mahasiswa (*A*) mampu membangun aplikasi Web GIS menggunakan Leaflet/Mapbox untuk visualisasi spasial (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 100' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Mengintegrasikan data telemetri perkotaan ke platform layanan | Mahasiswa (*A*) mampu mengintegrasikan data telemetri perkotaan ke platform layanan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 100' | — |
+| 6 | Sub-3.1 | Menganalisis interoperabilitas data | Mahasiswa (*A*) mampu menganalisis interoperabilitas data pada kerangka Satu Data Indonesia (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 100' | — |
+| 7 | Sub-3.2 | Merancang integrasi data lintas instansi pemerintahan digital | Mahasiswa (*A*) mampu merancang integrasi data lintas instansi pemerintahan digital (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 100' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 100' | **UTS** (30%) |
+| 9 | Sub-4.1 | Menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota | Mahasiswa (*A*) mampu menyusun masterplan smart city berbasis kebutuhan dan kapasitas kota (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Kuliah / Diskusi | 100' | — |
+| 10 | Sub-4.2 | Membangun purwarupa layanan smart city end-to-end yang terintegrasi data | Mahasiswa (*A*) mampu membangun purwarupa layanan smart city end-to-end yang terintegrasi data (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Kuliah / Diskusi | 100' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 100' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 100' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 100' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 100' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 100' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 100' | **UAS** (30%) |
+
+**Boundary Guardrails:**
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Konsep Smart City 6 Pilar, Transformasi Digital Sektor Publik, Sistem Pemerintahan Berbasis Elektronik (SPBE), Integrasi Layanan Publik, Satu Data Indonesia, Sensor Perkotaan Terpadu.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang penyusunan roadmap TOGAF korporasi privat murni, penetrasi keamanan jaringan pemerintahan, koding kernel mikrokontroler sensor.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai arsitektur solusi TI perkotaan dan pemerintahan; menyerahkan arsitektur enterprise korporat ke `STB-703`.
+
+---
 
 #### STI-728 — Inovasi Teknologi dan Startup Digital
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-627`, `MKU-204`
@@ -1865,17 +1865,14 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 
 ---
 
-### SEMESTER 6: ELEKTIF SPESIALISASI TINGKAT MENENGAH (2 MK DITEMPUH / 6 SKS)
+### SEMESTER 6: ELEKTIF SPESIALISASI TINGKAT MENENGAH (1 MK DITEMPUH / 3 SKS)
 
 #### Tabel Rekapitulasi Peminatan Semester 6
 | Kode MK | Jalur | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Spesialisasi (In-Scope) |
 |:---:|:---:|---|:---:|:---:|:---:|---|---|
-| `STA-601` | P1 | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | `FST-207`, `STI-415` Data Warehouse & BI | `P2` , `KK2` | `BK-IS02` *Data and Information Management* | Arsitektur terdistribusi, PySpark, lakehouse, Kafka stream... |
-| `STA-602` | P1 | Intelligent Agent Systems | 3 | `STI-307` Sistem Cerdas | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur Agen Cerdas, Agen Otonom (BDI - Belief-Desire-Int... |
-| `STB-601` | P2 | Cloud Architecture & DevOps | 3 | `STI-417` Komputasi Awan | `P3` , `P4` , `KK3` | `BK-IS19` *Cloud Architecture* | Arsitektur Cloud Tingkat Lanjut, Infrastructure as Code (Ter... |
-| `STB-602` | P2 | Cybersecurity Risk Management | 3 | `STI-418` Dasar Keamanan Informasi | `P3` , `KK4` | `BK-IS06` *Information Security* | Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penil... |
-| `STC-601` | P3 | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | `STI-306` Analisis & Perancangan SI | `P2` , `P4` , `KK5` | `BK-IS09` *Business Process Management* | Rekayasa Proses Bisnis Enterprise, Simulasi Alur Kerja Bisni... |
-| `STC-602` | P3 | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | `STI-416` Web Back End Development | `P4` , `KK5` | `BK-IS12` *Web & Mobile* | Arsitektur Sistem Industri Vertikal, Layanan FinTech (Sistem... |
+| STA-601 | P1 | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | FST-207, STI-415 Data Warehouse & BI | P2 , KK2 | BK-IS02 *Data and Information Management* | Arsitektur terdistribusi, PySpark, lakehouse, Kafka stream... |
+| STB-601 | P2 | Cloud Architecture & DevOps | 3 | STI-417 Komputasi Awan | P3 , P4 , KK3 | BK-IS19 *Cloud Architecture* | Arsitektur Cloud Tingkat Lanjut, Infrastructure as Code (Ter... |
+| STC-601 | P3 | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | STI-306 Analisis & Perancangan SI | P2 , P4 , KK5 | BK-IS09 *Business Process Management* | Rekayasa Proses Bisnis Enterprise, Simulasi Alur Kerja Bisni... |
 
 #### STA-601 — Rekayasa Big Data dan Komputasi Terdistribusi (Peminatan 1: Integrated Smart Systems)
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `FST-207`, `STI-415` Data Warehouse & BI
@@ -1934,63 +1931,6 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 
 ---
 
-#### STA-602 — Intelligent Agent Systems (Peminatan 1: Integrated Smart Systems)
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-307` Sistem Cerdas
-* **CPL yang Dibebankan:** `P2` (Arsitektur BDI & Multi-Agent), `KK1` (Reinforcement Learning & Agen Otonom)
-* **Body of Knowledge (BoK):** `BK-IS16` *Artificial Intelligence*, `BK-IT02` *Applied AI*
-
-**Formulasi CPMK (Format ABCD & Level Bloom):**
-
-| Kode | Rumusan CPMK | Bloom | CPL |
-|:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **merancang** agen otonom berbasis arsitektur Belief-Desire-Intention (BDI) (*B*) untuk pengambilan keputusan proaktif (*C*) secara rasional (*D*). | **C4** | `P2` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **membangun** simulasi Multi-Agent Systems (MAS) (*B*) menggunakan protokol komunikasi FIPA-ACL dan framework Python Mesa/JADE (*C*) dengan koordinasi terpadu (*D*). | **C6** | `P2, KK1` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **mengimplementasikan** algoritma Reinforcement Learning (Q-Learning, Deep Q-Networks / DQN) (*B*) pada lingkungan simulasi Gymnasium (*C*) dengan kebijakan optimal (*D*). | **C4** | `KK1` |
-| `CPMK-4` | Mahasiswa (*A*) mampu **melatih** agen otonom menggunakan algoritma Policy Gradient (PPO) (*B*) pada skenario multi-agen kompetitif/kooperatif (*C*) secara stabil (*D*). | **C5** | `KK1` |
-
-**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
-
-| Kode | Kompetensi Spesifik | CPMK | Bloom |
-|---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Merancang arsitektur agen cerdas berbasis model Belief-Desire-Intention (BDI). | CPMK-1 | **C4** |
-| **Sub-CPMK-1.2** | Menganalisis peran dan interaksi antar agen pada Multi-Agent System (MAS). | CPMK-1 | **C4** |
-| **Sub-CPMK-2.1** | Mengimplementasikan komunikasi agen menggunakan protokol FIPA-ACL. | CPMK-2 | **C6** |
-| **Sub-CPMK-2.2** | Membangun simulasi agen menggunakan framework Mesa/JADE. | CPMK-2 | **C6** |
-| **Sub-CPMK-3.1** | Menerapkan mekanisme negosiasi dan koordinasi antar agen. | CPMK-3 | **C4** |
-| **Sub-CPMK-3.2** | Menerapkan reinforcement learning dasar pada perilaku agen. | CPMK-3 | **C4** |
-| **Sub-CPMK-4.1** | Membangun sistem multi-agen untuk menyelesaikan masalah terdistribusi. | CPMK-4 | **C5** |
-| **Sub-CPMK-4.2** | Mengevaluasi kinerja dan efektivitas sistem agen yang dibangun. | CPMK-4 | **C5** |
-
-
-**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
-
-| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
-|:---:|:---:|---|---|---|:---:|:---:|
-| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
-| 2 | Sub-1.1 | Merancang arsitektur agen cerdas berbasis model Belief-Desire-Intention (BDI) | Mahasiswa (*A*) mampu merancang arsitektur agen cerdas berbasis model Belief-Desire-Intention (BDI) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 3 | Sub-1.2 | Menganalisis peran dan interaksi antar agen | Mahasiswa (*A*) mampu menganalisis peran dan interaksi antar agen pada Multi-Agent System (MAS) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 4 | Sub-2.1 | Mengimplementasikan komunikasi agen | Mahasiswa (*A*) mampu mengimplementasikan komunikasi agen menggunakan protokol FIPA-ACL (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Membangun simulasi agen | Mahasiswa (*A*) mampu membangun simulasi agen menggunakan framework Mesa/JADE (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
-| 6 | Sub-3.1 | Menerapkan mekanisme negosiasi dan koordinasi antar agen | Mahasiswa (*A*) mampu menerapkan mekanisme negosiasi dan koordinasi antar agen (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 7 | Sub-3.2 | Menerapkan reinforcement learning dasar | Mahasiswa (*A*) mampu menerapkan reinforcement learning dasar pada perilaku agen (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
-| 9 | Sub-4.1 | Membangun sistem multi-agen | Mahasiswa (*A*) mampu membangun sistem multi-agen untuk menyelesaikan masalah terdistribusi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 10 | Sub-4.2 | Mengevaluasi kinerja dan efektivitas sistem agen yang dibangun | Mahasiswa (*A*) mampu mengevaluasi kinerja dan efektivitas sistem agen yang dibangun (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
-| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
-| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
-| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
-| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
-| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
-
-**Boundary Guardrails:**
-
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Agen Cerdas, Agen Otonom (BDI - Belief-Desire-Intention), Multi-Agent Systems (MAS), Protokol Komunikasi Antar-Agen (FIPA-ACL), Game Theory & Negosiasi Agen.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengulang algoritma search BFS/DFS sederhana, training model deep learning transformer teks, perakitan robot fisik.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai perilaku agen otonom terdistribusi; menyerahkan agen percakapan berbasis LLM ke `STA-702`.
-
----
-
 #### STB-601 — Cloud Architecture & DevOps (Peminatan 2: Cloud Infrastructure & Cybersecurity)
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-417` Komputasi Awan
 * **CPL yang Dibebankan:** `P3` (Infrastruktur Cloud Native), `P4` (Automasi CI/CD & IaC), `KK3` (Orkestrasi Kubernetes & GitOps)
@@ -2042,60 +1982,6 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 * 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Cloud Tingkat Lanjut, Infrastructure as Code (Terraform), Orkestrasi Container (Kubernetes), Pipeline CI/CD Terintegrasi (GitLab CI/GitHub Actions), DevSecOps & Otomasi Keamanan.
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang koding logika aplikasi bisnis tingkat atas, instalasi kabel rak data center on-premise, pembuatan desain grafis prototipe.
 * 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyediakan platform infrastruktur awan yang terotomasi, skalabel, dan aman untuk aplikasi enterprise.
-
----
-
-#### STB-602 — Cybersecurity Risk Management (Peminatan 2: Cloud Infrastructure & Cybersecurity)
-* **Beban / Tipe / Prasyarat:** 3 SKS / Teori / Prasyarat: `STI-418` Dasar Keamanan Informasi
-* **CPL yang Dibebankan:** `P3` (Kerangka Kerja Risiko NIST & ISO 27005), `KK4` (Penilaian Risiko Kuantitatif & BCP/DRP)
-* **Body of Knowledge (BoK):** `BK-IS06` *Information Security*, `BK-IT12` *IT Risk Management*
-
-**Formulasi CPMK (Format ABCD & Level Bloom):**
-
-| Kode | Rumusan CPMK | Bloom | CPL |
-|:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **melakukan** penilaian risiko keamanan siber kualitatif dan kuantitatif (SLE, ARO, ALE) (*B*) berdasarkan standar ISO/IEC 27005 dan NIST SP 800-30 (*C*) secara presisi (*D*). | **C4** | `P3, KK4` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **merumuskan** strategi penanganan risiko (Risk Treatment Plan) dan Business Impact Analysis (BIA) (*B*) pada proses bisnis kritis organisasi (*C*) dengan pemilihan kontrol keamanan terjustifikasi (*D*). | **C4** | `KK4` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **menyusun** dokumen rencana keberlanjutan bisnis (*Business Continuity Plan / BCP*) dan rencana pemulihan bencana (*Disaster Recovery Plan / DRP*) (*B*) dengan target metrik RTO dan RPO realistis (*C*) secara komprehensif (*D*). | **C5** | `KK4` |
-
-**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
-
-| Kode | Kompetensi Spesifik | CPMK | Bloom |
-|---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Menganalisis proses penilaian risiko kualitatif dan kuantitatif (SLE, ARO, ALE). | CPMK-1 | **C4** |
-| **Sub-CPMK-1.2** | Menerapkan pendekatan ISO/IEC 27005 dan NIST SP 800-30 pada penilaian risiko. | CPMK-1 | **C4** |
-| **Sub-CPMK-2.1** | Menyusun Risk Treatment Plan untuk memitigasi risiko keamanan. | CPMK-2 | **C4** |
-| **Sub-CPMK-2.2** | Menerapkan analisis dampak bisnis (BIA) pada aset kritis organisasi. | CPMK-2 | **C4** |
-| **Sub-CPMK-3.1** | Menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP). | CPMK-3 | **C5** |
-| **Sub-CPMK-3.2** | Mengevaluasi efektivitas program manajemen risiko keamanan informasi. | CPMK-3 | **C5** |
-
-
-**Rencana 16 Pertemuan & Asesmen** (3 SKS, Teori — 1 SKS = 50 menit):
-
-| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
-|:---:|:---:|---|---|---|:---:|:---:|
-| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
-| 2 | Sub-1.1 | Menganalisis proses penilaian risiko kualitatif dan kuantitatif (SLE, ARO, ALE) | Mahasiswa (*A*) mampu menganalisis proses penilaian risiko kualitatif dan kuantitatif (SLE, ARO, ALE) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
-| 3 | Sub-1.2 | Menerapkan pendekatan ISO/IEC 27005 dan NIST SP 800-30 | Mahasiswa (*A*) mampu menerapkan pendekatan ISO/IEC 27005 dan NIST SP 800-30 pada penilaian risiko (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
-| 4 | Sub-2.1 | Menyusun Risk Treatment Plan | Mahasiswa (*A*) mampu menyusun Risk Treatment Plan untuk memitigasi risiko keamanan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Menerapkan analisis dampak bisnis (BIA) | Mahasiswa (*A*) mampu menerapkan analisis dampak bisnis (BIA) pada aset kritis organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
-| 6 | Sub-3.1 | Menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP) | Mahasiswa (*A*) mampu menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
-| 7 | Sub-3.2 | Mengevaluasi efektivitas program manajemen risiko keamanan informasi | Mahasiswa (*A*) mampu mengevaluasi efektivitas program manajemen risiko keamanan informasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
-| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
-| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
-| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
-| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
-| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
-| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
-| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
-| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
-| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
-
-**Boundary Guardrails:**
-
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penilaian Ancaman & Dampak Bisnis (BIA), Rencana Tanggap Darurat & Business Continuity Plan (BCP/DRP), Metrik Kepatuhan Keamanan.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang eksekusi teknis hacking/pentest langsung ke sistem target, penulisan script koding kriptografi, perbaikan source code aplikasi.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai kepatuhan dan mitigasi risiko keamanan; menyerahkan tata kelola strategis dewan direksi ke `STB-701`.
 
 ---
 
@@ -2153,29 +2039,52 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 
 ---
 
-#### STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (Peminatan 3: Digital Platform Engineering)
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-416` Web Back End Development
-* **CPL yang Dibebankan:** `P4` (Arsitektur Spesifik Domain), `KK5` (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI)
-* **Body of Knowledge (BoK):** `BK-IS12` *Web & Mobile*, `BK-IT04` *Platform Technologies*
+---
+
+### SEMESTER 7: ELEKTIF SPESIALISASI TINGKAT LANJUT & APLIKATIF (4 MK DITEMPUH / 12 SKS)
+
+#### Tabel Rekapitulasi Peminatan Semester 7
+| Kode MK | Jalur | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Spesialisasi (In-Scope) |
+|:---:|:---:|---|:---:|:---:|:---:|---|---|
+| STA-602 | P1 | Intelligent Agent Systems | 3 | STI-307 Sistem Cerdas | P2 , KK1 | BK-IS16 *Artificial Intelligence* | Arsitektur Agen Cerdas, Agen Otonom (BDI - Belief-Desire-Int... |
+| STA-701 | P1 | MLOps and AI Pipeline | 3 | STI-413, STI-624 Integrasi AI | P4 , KK1 , KK2 | BK-IS18 *Machine Learning* | Lifecycle MLOps, Experiment Tracking (MLflow), Data Versioni... |
+| STA-702 | P1 | Conversational AI and Intelligent Assistant | 3 | STI-413, STI-416 Web Back End | P2 , KK1 | BK-IS16 *Artificial Intelligence* | Arsitektur LLM Modern, Prompt Engineering Lanjut (Few-shot, ... |
+| STA-703 | P1 | Smart Surveillance and IoT Analytics | 3 | STI-626, STI-521 IoT | P3 , KK1 , KK3 | BK-IS16 *Artificial Intelligence* | Video Analytics Real-Time, Deteksi Objek Edge (YOLO/MobileNe... |
+| STB-602 | P2 | Cybersecurity Risk Management | 3 | STI-418 Dasar Keamanan Informasi | P3 , KK4 | BK-IS06 *Information Security* | Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penil... |
+| STB-701 | P2 | IT Governance & Compliance (COBIT 2019) | 3 | STI-101 Pengantar Sistem & TI | P3 , KK4 | BK-IS05 *IS Management and Governance* | Tata Kelola TI Korporat, Framework COBIT 2019 (Governance & ... |
+| STB-702 | P2 | IT Service Management (ITIL 4) | 3 | STI-101 Pengantar Sistem & TI | P2 , KK4 | BK-IS05 *IS Management* | Manajemen Layanan TI (ITIL 4), Service Value System (SVS), E... |
+| STB-703 | P2 | Enterprise Architecture (TOGAF) | 3 | STI-306 Analisis & Perancangan SI | P2 , P3 , KK4 | BK-IS04 *Enterprise Architecture* | Arsitektur Enterprise Korporat, Framework TOGAF (Architectur... |
+| STC-602 | P3 | Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) | 3 | STI-416 Web Back End Development | P4 , KK5 | BK-IS12 *Web & Mobile* | Arsitektur Sistem Industri Vertikal, Layanan FinTech (Sistem... |
+| STC-701 | P3 | Immersive Media & XR Development | 3 | STI-311 Web Front End Development | P4 , KK5 | BK-IS17 *Human-Computer Interaction* | Media Imersif, Dasar Extended Reality (XR: Virtual Reality &... |
+| STC-702 | P3 | SaaS Architecture & Multi-Tenancy | 3 | STI-416 Web Back End Development | P4 , KK5 | BK-IS12 *Web & Mobile* | Arsitektur Software-as-a-Service (SaaS), Pola Multi-Tenancy ... |
+| STC-703 | P3 | Digital Product Management & Agile Practices | 3 | STI-523 Manajemen Proyek TI | P2 , KK6 | BK-IS15 *Digital Innovation* | Manajemen Produk Digital (Product Management), Product Roadm... |
+
+#### STA-602 — Intelligent Agent Systems (Peminatan 1: Integrated Smart Systems)
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-307` Sistem Cerdas
+* **CPL yang Dibebankan:** `P2` (Arsitektur BDI & Multi-Agent), `KK1` (Reinforcement Learning & Agen Otonom)
+* **Body of Knowledge (BoK):** `BK-IS16` *Artificial Intelligence*, `BK-IT02` *Applied AI*
 
 **Formulasi CPMK (Format ABCD & Level Bloom):**
 
 | Kode | Rumusan CPMK | Bloom | CPL |
 |:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **menerapkan** arsitektur sistem pembayaran digital (*B*) dengan integrasi Payment Gateway API (Midtrans/Xendit) dan buku besar akuntansi ganda (*Double-Entry Ledger*) (*C*) secara aman dan konsisten (*D*). | **C4** | `P4, KK5` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **mengimplementasikan** standar interoperabilitas pembelajaran digital (SCORM 1.2/2004 dan xAPI Tin-Can) (*B*) pada Learning Management System (LMS) (*C*) dengan pelacakan aktivitas belajar yang presisi (*D*). | **C4** | `P4, KK5` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **membangun** platform aplikasi industri vertikal terpadu (*B*) dengan penanganan transaksi idempotensi (*Idempotency Key*) dan kepatuhan regulasi industri (*C*) secara andal (*D*). | **C6** | `KK5` |
+| `CPMK-1` | Mahasiswa (*A*) mampu **merancang** agen otonom berbasis arsitektur Belief-Desire-Intention (BDI) (*B*) untuk pengambilan keputusan proaktif (*C*) secara rasional (*D*). | **C4** | `P2` |
+| `CPMK-2` | Mahasiswa (*A*) mampu **membangun** simulasi Multi-Agent Systems (MAS) (*B*) menggunakan protokol komunikasi FIPA-ACL dan framework Python Mesa/JADE (*C*) dengan koordinasi terpadu (*D*). | **C6** | `P2, KK1` |
+| `CPMK-3` | Mahasiswa (*A*) mampu **mengimplementasikan** algoritma Reinforcement Learning (Q-Learning, Deep Q-Networks / DQN) (*B*) pada lingkungan simulasi Gymnasium (*C*) dengan kebijakan optimal (*D*). | **C4** | `KK1` |
+| `CPMK-4` | Mahasiswa (*A*) mampu **melatih** agen otonom menggunakan algoritma Policy Gradient (PPO) (*B*) pada skenario multi-agen kompetitif/kooperatif (*C*) secara stabil (*D*). | **C5** | `KK1` |
 
 **Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
 
 | Kode | Kompetensi Spesifik | CPMK | Bloom |
 |---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Menganalisis kebutuhan dan alur transaksi aplikasi FinTech (e-wallet, AML/risk rule). | CPMK-1 | **C4** |
-| **Sub-CPMK-1.2** | Menganalisis kebutuhan aplikasi EdTech (LMS, SIS, proctoring). | CPMK-1 | **C4** |
-| **Sub-CPMK-2.1** | Mengintegrasikan payment gateway pada aplikasi FinTech. | CPMK-2 | **C4** |
-| **Sub-CPMK-2.2** | Merancang alur pembayaran dan pencatatan transaksi yang aman. | CPMK-2 | **C4** |
-| **Sub-CPMK-3.1** | Membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai. | CPMK-3 | **C6** |
-| **Sub-CPMK-3.2** | Mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal. | CPMK-3 | **C6** |
+| **Sub-CPMK-1.1** | Merancang arsitektur agen cerdas berbasis model Belief-Desire-Intention (BDI). | CPMK-1 | **C4** |
+| **Sub-CPMK-1.2** | Menganalisis peran dan interaksi antar agen pada Multi-Agent System (MAS). | CPMK-1 | **C4** |
+| **Sub-CPMK-2.1** | Mengimplementasikan komunikasi agen menggunakan protokol FIPA-ACL. | CPMK-2 | **C6** |
+| **Sub-CPMK-2.2** | Membangun simulasi agen menggunakan framework Mesa/JADE. | CPMK-2 | **C6** |
+| **Sub-CPMK-3.1** | Menerapkan mekanisme negosiasi dan koordinasi antar agen. | CPMK-3 | **C4** |
+| **Sub-CPMK-3.2** | Menerapkan reinforcement learning dasar pada perilaku agen. | CPMK-3 | **C4** |
+| **Sub-CPMK-4.1** | Membangun sistem multi-agen untuk menyelesaikan masalah terdistribusi. | CPMK-4 | **C5** |
+| **Sub-CPMK-4.2** | Mengevaluasi kinerja dan efektivitas sistem agen yang dibangun. | CPMK-4 | **C5** |
 
 
 **Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
@@ -2183,44 +2092,29 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 | Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
 |:---:|:---:|---|---|---|:---:|:---:|
 | 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
-| 2 | Sub-1.1 | Menganalisis kebutuhan dan alur transaksi aplikasi FinTech (e-wallet | Mahasiswa (*A*) mampu menganalisis kebutuhan dan alur transaksi aplikasi FinTech (e-wallet, AML/risk rule) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 3 | Sub-1.2 | Menganalisis kebutuhan aplikasi EdTech (LMS, SIS, proctoring) | Mahasiswa (*A*) mampu menganalisis kebutuhan aplikasi EdTech (LMS, SIS, proctoring) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 4 | Sub-2.1 | Mengintegrasikan payment gateway | Mahasiswa (*A*) mampu mengintegrasikan payment gateway pada aplikasi FinTech (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Merancang alur pembayaran dan pencatatan transaksi yang aman | Mahasiswa (*A*) mampu merancang alur pembayaran dan pencatatan transaksi yang aman (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
-| 6 | Sub-3.1 | Membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai | Mahasiswa (*A*) mampu membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 7 | Sub-3.2 | Mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal | Mahasiswa (*A*) mampu mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
-| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
-| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
-| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
-| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
-| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
-| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
-| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 2 | Sub-1.1 | Merancang arsitektur agen cerdas berbasis model Belief-Desire-Intention (BDI) | Mahasiswa (*A*) mampu merancang arsitektur agen cerdas berbasis model Belief-Desire-Intention (BDI) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Menganalisis peran dan interaksi antar agen | Mahasiswa (*A*) mampu menganalisis peran dan interaksi antar agen pada Multi-Agent System (MAS) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengimplementasikan komunikasi agen | Mahasiswa (*A*) mampu mengimplementasikan komunikasi agen menggunakan protokol FIPA-ACL (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Membangun simulasi agen | Mahasiswa (*A*) mampu membangun simulasi agen menggunakan framework Mesa/JADE (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Menerapkan mekanisme negosiasi dan koordinasi antar agen | Mahasiswa (*A*) mampu menerapkan mekanisme negosiasi dan koordinasi antar agen (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Menerapkan reinforcement learning dasar | Mahasiswa (*A*) mampu menerapkan reinforcement learning dasar pada perilaku agen (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | Sub-4.1 | Membangun sistem multi-agen | Mahasiswa (*A*) mampu membangun sistem multi-agen untuk menyelesaikan masalah terdistribusi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 10 | Sub-4.2 | Mengevaluasi kinerja dan efektivitas sistem agen yang dibangun | Mahasiswa (*A*) mampu mengevaluasi kinerja dan efektivitas sistem agen yang dibangun (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
+| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
 | 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
 
 **Boundary Guardrails:**
 
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Sistem Industri Vertikal, Layanan FinTech (Sistem Pembayaran, Payment Gateway, Fraud Detection Dasar, Regulasi BI/OJK), Layanan EdTech (LMS, Learning Analytics), Keamanan Transaksi Finansial.
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang audit kepatuhan perbankan legal murni, pembuatan game edukasi 3D mendalam, setup hardware server fisik data center.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun sistem aplikasi industri bernilai ekonomi tinggi yang patuh pada standar regulasi sektoral.
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Agen Cerdas, Agen Otonom (BDI - Belief-Desire-Intention), Multi-Agent Systems (MAS), Protokol Komunikasi Antar-Agen (FIPA-ACL), Game Theory & Negosiasi Agen.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengulang algoritma search BFS/DFS sederhana, training model deep learning transformer teks, perakitan robot fisik.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai perilaku agen otonom terdistribusi; menyerahkan agen percakapan berbasis LLM ke `STA-702`.
 
 ---
-
-### SEMESTER 7: ELEKTIF SPESIALISASI TINGKAT LANJUT & CAPSTONE (3 MK DITEMPUH / 9 SKS)
-
-#### Tabel Rekapitulasi Peminatan Semester 7
-| Kode MK | Jalur | Nama Mata Kuliah | SKS | Prasyarat | CPL Utama | Bahan Kajian (BoK) | Fokus Spesialisasi (In-Scope) |
-|:---:|:---:|---|:---:|:---:|:---:|---|---|
-| `STA-701` | P1 | MLOps and AI Pipeline | 3 | `STI-413`, `STI-624` Integrasi AI | `P4` , `KK1` , `KK2` | `BK-IS18` *Machine Learning* | Lifecycle MLOps, Experiment Tracking (MLflow), Data Versioni... |
-| `STA-702` | P1 | Conversational AI and Intelligent Assistant | 3 | `STI-413`, `STI-416` Web Back End | `P2` , `KK1` | `BK-IS16` *Artificial Intelligence* | Arsitektur LLM Modern, Prompt Engineering Lanjut (Few-shot, ... |
-| `STA-703` | P1 | Smart Surveillance and IoT Analytics | 3 | `STI-626`, `STI-521` IoT | `P3` , `KK1` , `KK3` | `BK-IS16` *Artificial Intelligence* | Video Analytics Real-Time, Deteksi Objek Edge (YOLO/MobileNe... |
-| `STB-701` | P2 | IT Governance & Compliance (COBIT 2019) | 3 | `STI-101` Pengantar Sistem & TI | `P3` , `KK4` | `BK-IS05` *IS Management and Governance* | Tata Kelola TI Korporat, Framework COBIT 2019 (Governance & ... |
-| `STB-702` | P2 | IT Service Management (ITIL 4) | 3 | `STI-101` Pengantar Sistem & TI | `P2` , `KK4` | `BK-IS05` *IS Management* | Manajemen Layanan TI (ITIL 4), Service Value System (SVS), E... |
-| `STB-703` | P2 | Enterprise Architecture (TOGAF) | 3 | `STI-306` Analisis & Perancangan SI | `P2` , `P3` , `KK4` | `BK-IS04` *Enterprise Architecture* | Arsitektur Enterprise Korporat, Framework TOGAF (Architectur... |
-| `STC-701` | P3 | Immersive Media & XR Development | 3 | `STI-311` Web Front End Development | `P4` , `KK5` | `BK-IS17` *Human-Computer Interaction* | Media Imersif, Dasar Extended Reality (XR: Virtual Reality &... |
-| `STC-702` | P3 | SaaS Architecture & Multi-Tenancy | 3 | `STI-416` Web Back End Development | `P4` , `KK5` | `BK-IS12` *Web & Mobile* | Arsitektur Software-as-a-Service (SaaS), Pola Multi-Tenancy ... |
-| `STC-703` | P3 | Digital Product Management & Agile Practices | 3 | `STI-523` Manajemen Proyek TI | `P2` , `KK6` | `BK-IS15` *Digital Innovation* | Manajemen Produk Digital (Product Management), Product Roadm... |
 
 #### STA-701 — MLOps and AI Pipeline (Peminatan 1: Integrated Smart Systems)
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-413`, `STI-624` Integrasi AI
@@ -2390,6 +2284,60 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 
 ---
 
+#### STB-602 — Cybersecurity Risk Management (Peminatan 2: Cloud Infrastructure & Cybersecurity)
+* **Beban / Tipe / Prasyarat:** 3 SKS / Teori / Prasyarat: `STI-418` Dasar Keamanan Informasi
+* **CPL yang Dibebankan:** `P3` (Kerangka Kerja Risiko NIST & ISO 27005), `KK4` (Penilaian Risiko Kuantitatif & BCP/DRP)
+* **Body of Knowledge (BoK):** `BK-IS06` *Information Security*, `BK-IT12` *IT Risk Management*
+
+**Formulasi CPMK (Format ABCD & Level Bloom):**
+
+| Kode | Rumusan CPMK | Bloom | CPL |
+|:---:|---|:---:|:---:|
+| `CPMK-1` | Mahasiswa (*A*) mampu **melakukan** penilaian risiko keamanan siber kualitatif dan kuantitatif (SLE, ARO, ALE) (*B*) berdasarkan standar ISO/IEC 27005 dan NIST SP 800-30 (*C*) secara presisi (*D*). | **C4** | `P3, KK4` |
+| `CPMK-2` | Mahasiswa (*A*) mampu **merumuskan** strategi penanganan risiko (Risk Treatment Plan) dan Business Impact Analysis (BIA) (*B*) pada proses bisnis kritis organisasi (*C*) dengan pemilihan kontrol keamanan terjustifikasi (*D*). | **C4** | `KK4` |
+| `CPMK-3` | Mahasiswa (*A*) mampu **menyusun** dokumen rencana keberlanjutan bisnis (*Business Continuity Plan / BCP*) dan rencana pemulihan bencana (*Disaster Recovery Plan / DRP*) (*B*) dengan target metrik RTO dan RPO realistis (*C*) secara komprehensif (*D*). | **C5** | `KK4` |
+
+**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
+
+| Kode | Kompetensi Spesifik | CPMK | Bloom |
+|---:|---|:--:|:--:|
+| **Sub-CPMK-1.1** | Menganalisis proses penilaian risiko kualitatif dan kuantitatif (SLE, ARO, ALE). | CPMK-1 | **C4** |
+| **Sub-CPMK-1.2** | Menerapkan pendekatan ISO/IEC 27005 dan NIST SP 800-30 pada penilaian risiko. | CPMK-1 | **C4** |
+| **Sub-CPMK-2.1** | Menyusun Risk Treatment Plan untuk memitigasi risiko keamanan. | CPMK-2 | **C4** |
+| **Sub-CPMK-2.2** | Menerapkan analisis dampak bisnis (BIA) pada aset kritis organisasi. | CPMK-2 | **C4** |
+| **Sub-CPMK-3.1** | Menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP). | CPMK-3 | **C5** |
+| **Sub-CPMK-3.2** | Mengevaluasi efektivitas program manajemen risiko keamanan informasi. | CPMK-3 | **C5** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, Teori — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menganalisis proses penilaian risiko kualitatif dan kuantitatif (SLE, ARO, ALE) | Mahasiswa (*A*) mampu menganalisis proses penilaian risiko kualitatif dan kuantitatif (SLE, ARO, ALE) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 3 | Sub-1.2 | Menerapkan pendekatan ISO/IEC 27005 dan NIST SP 800-30 | Mahasiswa (*A*) mampu menerapkan pendekatan ISO/IEC 27005 dan NIST SP 800-30 pada penilaian risiko (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Kuliah / Diskusi | 150' | — |
+| 4 | Sub-2.1 | Menyusun Risk Treatment Plan | Mahasiswa (*A*) mampu menyusun Risk Treatment Plan untuk memitigasi risiko keamanan (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Menerapkan analisis dampak bisnis (BIA) | Mahasiswa (*A*) mampu menerapkan analisis dampak bisnis (BIA) pada aset kritis organisasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Kuliah / Diskusi | 150' | — |
+| 6 | Sub-3.1 | Menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP) | Mahasiswa (*A*) mampu menyusun rencana kelangsungan bisnis (BCP) dan pemulihan bencana (DRP) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi efektivitas program manajemen risiko keamanan informasi | Mahasiswa (*A*) mampu mengevaluasi efektivitas program manajemen risiko keamanan informasi (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Kuliah / Diskusi | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian | 150' | **UTS** (30%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (20%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
+**Boundary Guardrails:**
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penilaian Ancaman & Dampak Bisnis (BIA), Rencana Tanggap Darurat & Business Continuity Plan (BCP/DRP), Metrik Kepatuhan Keamanan.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang eksekusi teknis hacking/pentest langsung ke sistem target, penulisan script koding kriptografi, perbaikan source code aplikasi.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai kepatuhan dan mitigasi risiko keamanan; menyerahkan tata kelola strategis dewan direksi ke `STB-701`.
+
+---
+
 #### STB-701 — IT Governance & Compliance (COBIT 2019) (Peminatan 2: Cloud Infrastructure & Cybersecurity)
 * **Beban / Tipe / Prasyarat:** 3 SKS / Teori / Prasyarat: `STI-101` Pengantar Sistem & TI
 * **CPL yang Dibebankan:** `P3` (Tata Kelola TI Korporasi), `KK4` (Audit COBIT 2019, CMMI & Kepatuhan Regulasi)
@@ -2552,6 +2500,58 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 
 ---
 
+#### STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) (Peminatan 3: Digital Platform Engineering)
+* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-416` Web Back End Development
+* **CPL yang Dibebankan:** `P4` (Arsitektur Spesifik Domain), `KK5` (Payment Gateway, Buku Besar Digital, Standar SCORM/xAPI)
+* **Body of Knowledge (BoK):** `BK-IS12` *Web & Mobile*, `BK-IT04` *Platform Technologies*
+
+**Formulasi CPMK (Format ABCD & Level Bloom):**
+
+| Kode | Rumusan CPMK | Bloom | CPL |
+|:---:|---|:---:|:---:|
+| `CPMK-1` | Mahasiswa (*A*) mampu **menerapkan** arsitektur sistem pembayaran digital (*B*) dengan integrasi Payment Gateway API (Midtrans/Xendit) dan buku besar akuntansi ganda (*Double-Entry Ledger*) (*C*) secara aman dan konsisten (*D*). | **C4** | `P4, KK5` |
+| `CPMK-2` | Mahasiswa (*A*) mampu **mengimplementasikan** standar interoperabilitas pembelajaran digital (SCORM 1.2/2004 dan xAPI Tin-Can) (*B*) pada Learning Management System (LMS) (*C*) dengan pelacakan aktivitas belajar yang presisi (*D*). | **C4** | `P4, KK5` |
+| `CPMK-3` | Mahasiswa (*A*) mampu **membangun** platform aplikasi industri vertikal terpadu (*B*) dengan penanganan transaksi idempotensi (*Idempotency Key*) dan kepatuhan regulasi industri (*C*) secara andal (*D*). | **C6** | `KK5` |
+
+**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
+
+| Kode | Kompetensi Spesifik | CPMK | Bloom |
+|---:|---|:--:|:--:|
+| **Sub-CPMK-1.1** | Menganalisis kebutuhan dan alur transaksi aplikasi FinTech (e-wallet, AML/risk rule). | CPMK-1 | **C4** |
+| **Sub-CPMK-1.2** | Menganalisis kebutuhan aplikasi EdTech (LMS, SIS, proctoring). | CPMK-1 | **C4** |
+| **Sub-CPMK-2.1** | Mengintegrasikan payment gateway pada aplikasi FinTech. | CPMK-2 | **C4** |
+| **Sub-CPMK-2.2** | Merancang alur pembayaran dan pencatatan transaksi yang aman. | CPMK-2 | **C4** |
+| **Sub-CPMK-3.1** | Membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai. | CPMK-3 | **C6** |
+| **Sub-CPMK-3.2** | Mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal. | CPMK-3 | **C6** |
+
+
+**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+
+| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
+|:---:|:---:|---|---|---|:---:|:---:|
+| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
+| 2 | Sub-1.1 | Menganalisis kebutuhan dan alur transaksi aplikasi FinTech (e-wallet | Mahasiswa (*A*) mampu menganalisis kebutuhan dan alur transaksi aplikasi FinTech (e-wallet, AML/risk rule) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 3 | Sub-1.2 | Menganalisis kebutuhan aplikasi EdTech (LMS, SIS, proctoring) | Mahasiswa (*A*) mampu menganalisis kebutuhan aplikasi EdTech (LMS, SIS, proctoring) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
+| 4 | Sub-2.1 | Mengintegrasikan payment gateway | Mahasiswa (*A*) mampu mengintegrasikan payment gateway pada aplikasi FinTech (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
+| 5 | Sub-2.2 | Merancang alur pembayaran dan pencatatan transaksi yang aman | Mahasiswa (*A*) mampu merancang alur pembayaran dan pencatatan transaksi yang aman (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
+| 6 | Sub-3.1 | Membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai | Mahasiswa (*A*) mampu membangun aplikasi industri vertikal (FinTech/EdTech) yang siap pakai (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 7 | Sub-3.2 | Mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal | Mahasiswa (*A*) mampu mengevaluasi kepatuhan dan keamanan aplikasi industri vertikal (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
+| 8 | CPMK-1 s.d. 2 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 dan CPMK-2 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
+| 9 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 1) | Mahasiswa (*A*) menerapkan kompetensi CPMK-3 (*B*) pada kasus/proyek nyata (*C*) secara mandiri dan terukur (*D*). | PjBL / Case Method | 150' | — |
+| 10 | CPMK-3 | Aplikasi & Pendalaman CPMK-3 (Bagian 2) | Mahasiswa (*A*) mengembangkan solusi berbasis CPMK-3 (*B*) dalam konteks proyek (*C*) secara kolaboratif (*D*). | PjBL / Case Method | 150' | — |
+| 11 | CPMK-3 | Studi Kasus Integratif | Mahasiswa (*A*) menganalisis kasus integratif (*B*) yang menghubungkan seluruh CPMK (*C*) secara kritis (*D*). | Case Method / Diskusi | 150' | — |
+| 12 | Seluruh CPMK | Proyek Terapan & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
+| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek (*B*) berdasarkan umpan balik (*C*) secara mandiri (*D*). | PjBL / Konsultasi | 150' | — |
+| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian (*B*) melalui review (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
+| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
+| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+
+**Boundary Guardrails:**
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Sistem Industri Vertikal, Layanan FinTech (Sistem Pembayaran, Payment Gateway, Fraud Detection Dasar, Regulasi BI/OJK), Layanan EdTech (LMS, Learning Analytics), Keamanan Transaksi Finansial.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang audit kepatuhan perbankan legal murni, pembuatan game edukasi 3D mendalam, setup hardware server fisik data center.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun sistem aplikasi industri bernilai ekonomi tinggi yang patuh pada standar regulasi sektoral.
+
 #### STC-701 — Immersive Media & XR Development (Peminatan 3: Digital Platform Engineering)
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `STI-311` Web Front End Development
 * **CPL yang Dibebankan:** `P4` (Grafika Komputer & WebXR), `KK5` (Augmented Reality & Virtual Reality)
@@ -2712,7 +2712,6 @@ Mata kuliah keahlian spesialisasi ditawarkan dalam 3 jalur:
 * ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang penulisan source code teknis aplikasi di lapangan, audit legal kontrak ketenagakerjaan, instalasi server.
 * 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan produk digital yang berkelanjutan secara metrik pasar dan selaras dengan kebutuhan pengguna nyata.
 
----
 
 ## 4. PEDOMAN IMPLEMENTASI DOSEN PENGAMPU & GUGUS PENJAMINAN MUTU
 1. **Kepatuhan RPS:** Setiap RPS yang disusun oleh Dosen Pengampu wajib mencantumkan butir *In-Scope*, *Out-of-Scope*, dan *Handoff Anchor* ini pada lembar Rencana Pembelajaran.
