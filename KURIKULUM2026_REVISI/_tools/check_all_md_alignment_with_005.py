@@ -11,17 +11,35 @@ with open(f005_path, 'r', encoding='utf-8') as f:
 # 1. Parse all 67 courses from Dok 005
 courses_005 = {}
 
-# Parse from Seksi 1.1, 1.2, 1.3, 1.4
-# Format: | No | `KODE` | Nama | SKS | Tipe | Semester | Prasyarat | ...
-for m in re.finditer(r'^\|\s*[\d.B]+\s*\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*(\d+)\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*([^|]+)\|', d005, re.M):
-    kode, nama, sks, tipe, sem, pra = [x.strip() for x in m.groups()]
-    courses_005[kode] = {
-        'nama': nama,
-        'sks': int(sks),
-        'tipe': tipe,
-        'sem': sem.replace('Sem ', '').strip(),
-        'pra': pra
-    }
+for line in d005.splitlines():
+    m = re.search(r'\|\s*[\d.B]+\s*\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*\*?([^|*]+)\*?\s*\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)
+    if not m:
+        m = re.search(r'\|\s*[\d.B]+\s*\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)
+        if m:
+            kode, nama, sks, tipe, sem, pra = [x.strip() for x in m.groups()]
+            courses_005[kode] = {
+                'nama': nama,
+                'sks': int(sks),
+                'tipe': tipe,
+                'sem': sem.replace('Sem ', '').strip(),
+                'pra': pra
+            }
+    else:
+        kode = m.group(1).strip()
+        nama = m.group(2).strip()
+        nama_en = m.group(3).strip()
+        sks = int(m.group(4).strip())
+        tipe = m.group(5).strip()
+        sem = m.group(6).strip().replace('Sem ', '')
+        pra = m.group(7).strip()
+        courses_005[kode] = {
+            'nama': nama,
+            'nama_en': nama_en,
+            'sks': sks,
+            'tipe': tipe,
+            'sem': sem,
+            'pra': pra
+        }
 
 print(f"Parsed {len(courses_005)} courses from Dokumen 005 tables.")
 
@@ -71,17 +89,18 @@ for fpath in sorted(md_files):
 
     # Check 2: Deep Learning in Semester 5
     # Matches like "STI-519 Deep Learning" or "Deep Learning ... Sem 5"
-    if re.search(r'STI-519[^|\n]*Deep Learning', content, re.IGNORECASE):
+    if re.search(r'STI-519(?:\s+[—\-]\s+|\s+)?Deep Learning', content, re.IGNORECASE):
         file_issues.append("Menyebut 'STI-519 Deep Learning' (seharusnya STI-626 di Sem 6)")
-    if re.search(r'Deep Learning[^|\n]*\([^)]*Sem 5\)', content):
+    if re.search(r'Deep Learning[^\n.]{0,30}\([^)]*Sem 5\)', content):
         file_issues.append("Menyebut Deep Learning di Sem 5")
 
     # Check 3: Keamanan Informasi Lanjut in Semester 6
-    if re.search(r'STI-626[^|\n]*Keamanan Informasi Lanjut', content, re.IGNORECASE):
+    if re.search(r'STI-626(?:\s+[—\-]\s+|\s+)?Keamanan Informasi Lanjut', content, re.IGNORECASE):
         file_issues.append("Menyebut 'STI-626 Keamanan Informasi Lanjut' (seharusnya STI-519 di Sem 5)")
 
     # Check 4: STI-625 Smart City 3 SKS (bukan 2 SKS)
-    if re.search(r'STI-625[^|/\n,]{0,40}3\s*SKS', content) or re.search(r'STI-625[^|/\n,]{0,40}\(\s*3\s*\)', content):
+    # Ensure it only matches STI-625 followed immediately by 3 SKS, not spanning to another course
+    if re.search(r'STI-625(?:\s*\(2026\))?[^\w\n,;]{0,15}(?:3\s*SKS|\(\s*3\s*\))', content):
         if fname not in whitelist_old_code_files and fname != '024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md':
             file_issues.append("Menyebut STI-625 berbobot 3 SKS (seharusnya 2 SKS)")
 

@@ -19,16 +19,32 @@ with open(f005_path, "r", encoding="utf-8") as f:
 # 1. Parse all 67 courses from Dokumen 005
 courses = {}
 for line in d005.splitlines():
-    m = re.search(r'\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)
-    if m:
+    # Format bilingual: | Kode | Nama ID | Nama EN | SKS | Tipe | Sem | Pra |
+    m = re.search(r'\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*\*?([^|*]+)\*?\s*\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)
+    if not m:
+        # Fallback format single: | Kode | Nama | SKS | Tipe | Sem | Pra |
+        m = re.search(r'\|\s*`([A-Z]{3}-\d{3})`\s*\|\s*([^|]+)\|\s*(\d+)\s*\|\s*([^|]+)\|\s*(?:Sem\s*)?(\d+)\s*\|\s*([^|]+)\|', line)
+        if m:
+            c_code = m.group(1).strip()
+            c_name = m.group(2).strip()
+            c_name_en = c_name
+            c_sks = int(m.group(3).strip())
+            c_tipe = m.group(4).strip()
+            c_sem = int(m.group(5).strip())
+            c_pra = m.group(6).strip()
+    else:
         c_code = m.group(1).strip()
         c_name = m.group(2).strip()
-        c_sks = int(m.group(3).strip())
-        c_tipe = m.group(4).strip()
-        c_sem = int(m.group(5).strip())
-        c_pra = m.group(6).strip()
+        c_name_en = m.group(3).strip()
+        c_sks = int(m.group(4).strip())
+        c_tipe = m.group(5).strip()
+        c_sem = int(m.group(6).strip())
+        c_pra = m.group(7).strip()
+        
+    if m:
         courses[c_code] = {
             "name": c_name,
+            "name_en": c_name_en,
             "sks": c_sks,
             "tipe": c_tipe,
             "sem": c_sem,

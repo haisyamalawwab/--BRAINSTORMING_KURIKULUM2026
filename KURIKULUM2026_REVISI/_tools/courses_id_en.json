@@ -1,0 +1,327 @@
+{
+  "FST-101": {
+    "kode": "FST-101",
+    "nama_id": "Dasar Teknologi Digital",
+    "nama_en": "Fundamentals of Digital Technology"
+  },
+  "FST-102": {
+    "kode": "FST-102",
+    "nama_id": "Algoritma dan Pemrograman",
+    "nama_en": "Algorithms and Programming"
+  },
+  "STI-101": {
+    "kode": "STI-101",
+    "nama_id": "Pengantar Sistem & Teknologi Informasi",
+    "nama_en": "Introduction to IS & IT"
+  },
+  "STI-102": {
+    "kode": "STI-102",
+    "nama_id": "Kalkulus",
+    "nama_en": "Calculus"
+  },
+  "STI-103": {
+    "kode": "STI-103",
+    "nama_id": "Arsitektur dan Organisasi Sistem Teknologi Informasi",
+    "nama_en": "Architecture and Organization of Information Technology Systems"
+  },
+  "MKU-101": {
+    "kode": "MKU-101",
+    "nama_id": "Agama I",
+    "nama_en": "Religious Education I"
+  },
+  "MKU-102": {
+    "kode": "MKU-102",
+    "nama_id": "Pancasila",
+    "nama_en": "Pancasila Education"
+  },
+  "MKU-103": {
+    "kode": "MKU-103",
+    "nama_id": "Bahasa Indonesia",
+    "nama_en": "Indonesian Language"
+  },
+  "STI-204": {
+    "kode": "STI-204",
+    "nama_id": "Matematika Diskrit dan Logika",
+    "nama_en": "Discrete Mathematics and Logic"
+  },
+  "STI-205": {
+    "kode": "STI-205",
+    "nama_id": "Aljabar Linear dan Matriks",
+    "nama_en": "Linear Algebra and Matrices"
+  },
+  "FST-203": {
+    "kode": "FST-203",
+    "nama_id": "Struktur Data dan Algoritma",
+    "nama_en": "Data Structures & Algorithms"
+  },
+  "FST-204": {
+    "kode": "FST-204",
+    "nama_id": "Organisasi dan Arsitektur Komputer",
+    "nama_en": "Computer Org & Arch"
+  },
+  "FST-205": {
+    "kode": "FST-205",
+    "nama_id": "Pemrograman Lanjut",
+    "nama_en": "Advanced Object-Oriented Programming"
+  },
+  "FST-206": {
+    "kode": "FST-206",
+    "nama_id": "Etika Profesi & Hukum Digital",
+    "nama_en": "Professional Ethics & Cyber Law"
+  },
+  "FST-207": {
+    "kode": "FST-207",
+    "nama_id": "Sistem Basis Data",
+    "nama_en": "Database Systems"
+  },
+  "MKU-204": {
+    "kode": "MKU-204",
+    "nama_id": "Kewirausahaan I",
+    "nama_en": "Entrepreneurship I"
+  },
+  "STI-306": {
+    "kode": "STI-306",
+    "nama_id": "Analisis & Perancangan Sistem Informasi",
+    "nama_en": "Systems Analysis and Design"
+  },
+  "STI-307": {
+    "kode": "STI-307",
+    "nama_id": "Sistem Cerdas",
+    "nama_en": "Intelligent Systems"
+  },
+  "STI-308": {
+    "kode": "STI-308",
+    "nama_id": "UI/UX Design & Prototyping",
+    "nama_en": "UI/UX Design & Prototyping"
+  },
+  "STI-309": {
+    "kode": "STI-309",
+    "nama_id": "Rekayasa Perangkat Lunak",
+    "nama_en": "Software Engineering"
+  },
+  "STI-310": {
+    "kode": "STI-310",
+    "nama_id": "Sistem Operasi",
+    "nama_en": "Operating Systems"
+  },
+  "STI-311": {
+    "kode": "STI-311",
+    "nama_id": "Web Front End Development",
+    "nama_en": "Web Front End Development"
+  },
+  "STI-312": {
+    "kode": "STI-312",
+    "nama_id": "Jaringan Komputer",
+    "nama_en": "Computer Networks"
+  },
+  "STI-413": {
+    "kode": "STI-413",
+    "nama_id": "Machine Learning",
+    "nama_en": "Machine Learning"
+  },
+  "STI-415": {
+    "kode": "STI-415",
+    "nama_id": "Data Warehouse & Business Intelligence",
+    "nama_en": "Data Warehouse & Business Intelligence"
+  },
+  "STI-416": {
+    "kode": "STI-416",
+    "nama_id": "Web Back End Development",
+    "nama_en": "Web Back End Development"
+  },
+  "STI-417": {
+    "kode": "STI-417",
+    "nama_id": "Komputasi Awan",
+    "nama_en": "Cloud Computing"
+  },
+  "STI-418": {
+    "kode": "STI-418",
+    "nama_id": "Dasar Keamanan Informasi",
+    "nama_en": "Fundamentals of Information Security"
+  },
+  "FST-408": {
+    "kode": "FST-408",
+    "nama_id": "Probabilitas dan Statistika",
+    "nama_en": "Probability and Statistics"
+  },
+  "STI-414": {
+    "kode": "STI-414",
+    "nama_id": "Pengantar NLP & Information Retrieval",
+    "nama_en": "Introduction to NLP & Information Retrieval"
+  },
+  "MKU-405": {
+    "kode": "MKU-405",
+    "nama_id": "Kewarganegaraan",
+    "nama_en": "Civic Education"
+  },
+  "STI-519": {
+    "kode": "STI-519",
+    "nama_id": "Keamanan Informasi Lanjut",
+    "nama_en": "Advanced Information Security"
+  },
+  "STI-520": {
+    "kode": "STI-520",
+    "nama_id": "Data Mining & Visualisasi Data",
+    "nama_en": "Data Mining & Data Visualization"
+  },
+  "STI-521": {
+    "kode": "STI-521",
+    "nama_id": "Internet of Things",
+    "nama_en": "IoT"
+  },
+  "STI-522": {
+    "kode": "STI-522",
+    "nama_id": "Pemrograman Aplikasi Mobile",
+    "nama_en": "Mobile Application Development"
+  },
+  "STI-523": {
+    "kode": "STI-523",
+    "nama_id": "Manajemen Proyek TI",
+    "nama_en": "IT Project Management"
+  },
+  "MKU-507": {
+    "kode": "MKU-507",
+    "nama_id": "KPM",
+    "nama_en": "Kuliah Pengabdian Kepada Masyarakat"
+  },
+  "STI-624": {
+    "kode": "STI-624",
+    "nama_id": "Integrasi Layanan Cerdas Berbasis AI",
+    "nama_en": "AI-Based Smart Services Integration"
+  },
+  "STI-625": {
+    "kode": "STI-625",
+    "nama_id": "Smart City & Pemerintahan Digital",
+    "nama_en": "Smart City & Digital Governance"
+  },
+  "STI-626": {
+    "kode": "STI-626",
+    "nama_id": "Deep Learning & Neural Networks",
+    "nama_en": "Deep Learning & Neural Networks"
+  },
+  "STI-627": {
+    "kode": "STI-627",
+    "nama_id": "Digital Platform Engineering",
+    "nama_en": "Digital Platform Engineering"
+  },
+  "FST-611": {
+    "kode": "FST-611",
+    "nama_id": "Metodologi Penelitian",
+    "nama_en": "Research Methodology"
+  },
+  "STI-728": {
+    "kode": "STI-728",
+    "nama_id": "Inovasi Teknologi dan Startup Digital",
+    "nama_en": "Tech Innovation and Digital Startup"
+  },
+  "FST-610": {
+    "kode": "FST-610",
+    "nama_id": "Capstone Project FSTI",
+    "nama_en": "FSTI Multidisciplinary Capstone Project"
+  },
+  "FST-612": {
+    "kode": "FST-612",
+    "nama_id": "Praktik Kerja Lapangan",
+    "nama_en": "PKL"
+  },
+  "FST-613": {
+    "kode": "FST-613",
+    "nama_id": "Pra-Skripsi / Seminar Proposal",
+    "nama_en": "Pre-Thesis / Proposal Seminar"
+  },
+  "FST-714": {
+    "kode": "FST-714",
+    "nama_id": "Skripsi / Tugas Akhir",
+    "nama_en": "Undergraduate Thesis / Final Project"
+  },
+  "STA-501": {
+    "kode": "STA-501",
+    "nama_id": "Decision Support Systems",
+    "nama_en": "Decision Support Systems"
+  },
+  "STA-601": {
+    "kode": "STA-601",
+    "nama_id": "Rekayasa Big Data dan Komputasi Terdistribusi",
+    "nama_en": "*Big Data Engineering & Distributed Systems*"
+  },
+  "STA-602": {
+    "kode": "STA-602",
+    "nama_id": "Intelligent Agent Systems",
+    "nama_en": "Intelligent Agent Systems"
+  },
+  "STA-701": {
+    "kode": "STA-701",
+    "nama_id": "MLOps and AI Pipeline",
+    "nama_en": "MLOps and AI Pipeline"
+  },
+  "STA-702": {
+    "kode": "STA-702",
+    "nama_id": "Conversational AI and Intelligent Assistant",
+    "nama_en": "Conversational AI & Intelligent Assistant"
+  },
+  "STA-703": {
+    "kode": "STA-703",
+    "nama_id": "Smart Surveillance and IoT Analytics",
+    "nama_en": "Smart Surveillance and IoT Analytics"
+  },
+  "STB-501": {
+    "kode": "STB-501",
+    "nama_id": "Network Security and Digital Forensics",
+    "nama_en": "Network Security and Digital Forensics"
+  },
+  "STB-601": {
+    "kode": "STB-601",
+    "nama_id": "Cloud Architecture & DevOps",
+    "nama_en": "Cloud Architecture & DevOps"
+  },
+  "STB-602": {
+    "kode": "STB-602",
+    "nama_id": "Cybersecurity Risk Management",
+    "nama_en": "Cybersecurity Risk Management"
+  },
+  "STB-701": {
+    "kode": "STB-701",
+    "nama_id": "IT Governance & Compliance",
+    "nama_en": "COBIT 2019"
+  },
+  "STB-702": {
+    "kode": "STB-702",
+    "nama_id": "IT Service Management",
+    "nama_en": "ITIL 4"
+  },
+  "STB-703": {
+    "kode": "STB-703",
+    "nama_id": "Enterprise Architecture",
+    "nama_en": "TOGAF"
+  },
+  "STC-501": {
+    "kode": "STC-501",
+    "nama_id": "User Experience Research & Design",
+    "nama_en": "User Experience Research & Design"
+  },
+  "STC-601": {
+    "kode": "STC-601",
+    "nama_id": "Rekayasa & Otomasi Proses Bisnis",
+    "nama_en": "BPA"
+  },
+  "STC-602": {
+    "kode": "STC-602",
+    "nama_id": "Rekayasa Aplikasi Industri Vertikal",
+    "nama_en": "FinTech & EdTech"
+  },
+  "STC-701": {
+    "kode": "STC-701",
+    "nama_id": "Immersive Media & XR Development",
+    "nama_en": "Immersive Media & XR Development"
+  },
+  "STC-702": {
+    "kode": "STC-702",
+    "nama_id": "SaaS Architecture & Multi-Tenancy",
+    "nama_en": "SaaS Architecture & Multi-Tenancy"
+  },
+  "STC-703": {
+    "kode": "STC-703",
+    "nama_id": "Digital Product Management & Agile Practices",
+    "nama_en": "Digital Product Management & Agile"
+  }
+}

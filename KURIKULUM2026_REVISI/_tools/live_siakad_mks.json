@@ -1,0 +1,708 @@
+{
+  "title": "Mata Kuliah Kurikulum",
+  "url": "https://siakad.widyagama.ac.id/siakad/list_mkkurikulum/MjAyNi81OTIwMQ",
+  "headers": [
+    "No",
+    "Kode",
+    "Mata Kuliah",
+    "SKS",
+    "Status",
+    "Nilai Min.",
+    "Prasyarat",
+    "Konsentrasi Bidang Studi",
+    "Aksi",
+    "No",
+    "Kode",
+    "Mata Kuliah",
+    "SKS",
+    "Status",
+    "Nilai Min.",
+    "Prasyarat",
+    "Konsentrasi Bidang Studi",
+    "Aksi",
+    "No.",
+    "Kode",
+    "Mata Kuliah",
+    "SKS",
+    "Semester",
+    "Jenis Prasyarat",
+    "Nilai Min.",
+    "Konsentrasi Bidang Studi"
+  ],
+  "rowCount": 15,
+  "rows": [
+    [
+      "1",
+      "FST-101",
+      "Dasar Teknologi Digital",
+      "2",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2",
+      "FST-102",
+      "Algoritma Pemrograman (+P)",
+      "3",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "3",
+      "MKU-101",
+      "Agama I",
+      "2",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "4",
+      "MKU-102",
+      "Pancasila",
+      "2",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "5",
+      "MKU-103",
+      "Bahasa Indonesia",
+      "2",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "6",
+      "STI-101",
+      "Pengantar Sistem dan Teknologi Informasi",
+      "2",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "7",
+      "STI-102",
+      "Kalkulus",
+      "3",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "8",
+      "STI-103",
+      "Arsitektur dan Organisasi Sistem Teknologi Informasi",
+      "3",
+      "Wajib Paket",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "1",
+      "STI-306",
+      "Analisis dan Perancangan Sistem Informasi",
+      "3",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "2",
+      "STI-307",
+      "Sistem Cerdas",
+      "2",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "3",
+      "STI-308",
+      "UI-UX Design and Prototyping",
+      "3",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "4",
+      "STI-309",
+      "Rekayasa Perangkat Lunak",
+      "3",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "5",
+      "STI-310",
+      "Sistem Operasi",
+      "3",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "6",
+      "STI-311",
+      "Web Front End Development (+P)",
+      "3",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ],
+    [
+      "7",
+      "STI-312",
+      "Jaringan Komputer (+P)",
+      "3",
+      "Wajib",
+      "D",
+      "-",
+      "-",
+      ""
+    ]
+  ],
+  "buttons": [
+    {
+      "text": "Profil",
+      "id": "",
+      "class": "btn btn-default btn-flat",
+      "href": "https://siakad.widyagama.ac.id/gate/profil",
+      "onclick": ""
+    },
+    {
+      "text": "Menu",
+      "id": "",
+      "class": "btn btn-default btn-flat",
+      "href": "https://siakad.widyagama.ac.id/gate/menu",
+      "onclick": ""
+    },
+    {
+      "text": "Keluar",
+      "id": "",
+      "class": "btn btn-default btn-flat",
+      "href": "https://siakad.widyagama.ac.id/siakad/logout",
+      "onclick": ""
+    },
+    {
+      "text": "Sembunyikan Panduan",
+      "id": "showhide-navigation",
+      "class": "btn btn-info btn-sm",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-warning btn-sm",
+      "href": "",
+      "onclick": "goShowMenu('hideleftfilter')"
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-sm btn-primary",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Kembali ke Daftar",
+      "id": "",
+      "class": "btn btn-info btn-sm",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Salin Data",
+      "id": "",
+      "class": "btn btn-warning btn-sm",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Cetak",
+      "id": "",
+      "class": "btn btn-info btn-sm dropdown-toggle",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Tambah",
+      "id": "",
+      "class": "btn btn-success btn-sm",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-info btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "",
+      "id": "",
+      "class": "btn btn-danger btn-xs btn-flat",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "×",
+      "id": "",
+      "class": "close",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Tutup",
+      "id": "",
+      "class": "btn btn-warning",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "×",
+      "id": "",
+      "class": "close",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Batalkan",
+      "id": "",
+      "class": "btn btn-warning",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Salin Data",
+      "id": "",
+      "class": "btn btn-success",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "×",
+      "id": "",
+      "class": "close",
+      "href": "",
+      "onclick": ""
+    },
+    {
+      "text": "Lihat apa yang baru",
+      "id": "changelog_footer_link",
+      "class": "btn btn-primary",
+      "href": "",
+      "onclick": ""
+    }
+  ],
+  "formInputs": [
+    {
+      "id": "hakakses",
+      "name": "hakakses",
+      "type": "select-one",
+      "placeholder": "",
+      "value": "KA:59201"
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "submit",
+      "placeholder": "",
+      "value": "Pilih"
+    },
+    {
+      "id": "",
+      "name": "act",
+      "type": "hidden",
+      "placeholder": "",
+      "value": "chgrole"
+    },
+    {
+      "id": "",
+      "name": "fotouser",
+      "type": "file",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "",
+      "name": "act",
+      "type": "hidden",
+      "placeholder": "",
+      "value": "upload"
+    },
+    {
+      "id": "",
+      "name": "path",
+      "type": "hidden",
+      "placeholder": "",
+      "value": "list_mkkurikulum/MjAyNi81OTIwMQ"
+    },
+    {
+      "id": "act",
+      "name": "act",
+      "type": "hidden",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "key",
+      "name": "key",
+      "type": "hidden",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "text",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "text",
+      "placeholder": "Cari Kurikulum",
+      "value": ""
+    },
+    {
+      "id": "key",
+      "name": "key",
+      "type": "hidden",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "idmk",
+      "name": "idmk",
+      "type": "select-one",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "semmk",
+      "name": "semmk",
+      "type": "select-one",
+      "placeholder": "",
+      "value": "1"
+    },
+    {
+      "id": "nilaiminimum",
+      "name": "nilaiminimum",
+      "type": "select-one",
+      "placeholder": "",
+      "value": "1.00"
+    },
+    {
+      "id": "wajibpilihan_W",
+      "name": "wajibpilihan",
+      "type": "radio",
+      "placeholder": "",
+      "value": "W"
+    },
+    {
+      "id": "wajibpilihan_P",
+      "name": "wajibpilihan",
+      "type": "radio",
+      "placeholder": "",
+      "value": "P"
+    },
+    {
+      "id": "ispaket_1",
+      "name": "ispaket",
+      "type": "radio",
+      "placeholder": "",
+      "value": "1"
+    },
+    {
+      "id": "ispaket_0",
+      "name": "ispaket",
+      "type": "radio",
+      "placeholder": "",
+      "value": "0"
+    },
+    {
+      "id": "key",
+      "name": "key",
+      "type": "hidden",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "act",
+      "name": "act",
+      "type": "hidden",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "kurikulumfrom",
+      "name": "kurikulumfrom",
+      "type": "select-one",
+      "placeholder": "",
+      "value": "2026"
+    },
+    {
+      "id": "kurikulumto",
+      "name": "kurikulumto",
+      "type": "select-one",
+      "placeholder": "",
+      "value": "2026"
+    },
+    {
+      "id": "",
+      "name": "act",
+      "type": "hidden",
+      "placeholder": "",
+      "value": "copy"
+    },
+    {
+      "id": "",
+      "name": "idkurikulum",
+      "type": "hidden",
+      "placeholder": "",
+      "value": "2026"
+    },
+    {
+      "id": "",
+      "name": "idunit",
+      "type": "hidden",
+      "placeholder": "",
+      "value": "59201"
+    }
+  ]
+}

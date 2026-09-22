@@ -233,7 +233,7 @@ def main():
     paket = {}
     for m in re.finditer(r"### SEMESTER (\d) \(\d+ SKS\)[^#]*", d005):
         s = int(m.group(1))
-        for kode, sks in re.findall(r"^\| [\d.B]+ \| `([A-Z]{3}-\d{3})` \| [^|]+ \| (\d+) \|",
+        for kode, sks in re.findall(r"^\| [\d.B]+ \| `([A-Z]{3}-\d{3})` \| [^|]+ \| (?:[^|]+ \| )?(\d+) \|",
                                     m.group(0), re.M):
             paket[kode] = dict(sem=s, sks=int(sks))
 

@@ -498,6 +498,11 @@ def convert_all():
             
         print(f"Converting [{idx+1}/{len(DOC_FILES)}]: {filename}")
         
+        if filename == "045_DRAFT_BUKU_KPT_SISTEKIN_2026_MENGIKUTI_TEMPLATE_DOCX.md":
+            import build_045_template_master_html
+            build_045_template_master_html.build_045_html()
+            continue
+            
         with open(filepath, 'r', encoding='utf-8') as f:
             md_text = f.read()
             
