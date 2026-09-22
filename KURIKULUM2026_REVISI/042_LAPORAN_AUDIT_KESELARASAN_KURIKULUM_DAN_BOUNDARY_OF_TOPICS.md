@@ -42,8 +42,8 @@ Sesuai konsensus final pada **Dokumen 005 (Struktur Kurikulum 8 Semester dan Pem
 * **Semester 3 (20 SKS / 7 MK):** `STI-306` (3), `STI-307` (2), `STI-308` (3), `STI-309` (3), `STI-310` (3), `STI-311` (3), `STI-312` (3).
 * **Semester 4 (21 SKS / 9 MK):** `STI-413` (3), `STI-414` (2), `STI-415` (3), `STI-416` (3), `STI-417` (3), `STI-418` (2), `FST-408` (3), `MKU-405` (2), `MKU-406` (0).
 * **Semester 5 (21 SKS / 8 MK):** `STI-519` (3), `STI-520` (3), `STI-521` (3), `STI-522` (3), `STI-523` (3), `MKU-507` (3), `MKU-508` (0), **MK Pilihan Peminatan 1** (3).
-* **Semester 6 (19 SKS / 7 MK):** `STI-624` (3), `STI-625` (2), `STI-626` (3), `STI-627` (3), `FST-611` (2), **MK Pilihan Peminatan 2** (3), **MK Pilihan Peminatan 3** (3).
-* **Semester 7 (20 SKS / 7 MK):** `STI-728` (3), `FST-610` (3), `FST-612` (3), `FST-613` (2), **MK Pilihan Peminatan 4** (3), **MK Pilihan Peminatan 5** (3), **MK Pilihan Peminatan 6** (3).
+* **Semester 6 (19 SKS / 7 MK):** `STI-626` (3), `STI-627` (3), `FST-610` (3), `FST-611` (2), `FST-612` (3), `FST-613` (2), **MK Pilihan Peminatan 2** (3).
+* **Semester 7 (20 SKS / 7 MK):** `STI-624` (3), `STI-625` (2), `STI-728` (3), **MK Pilihan Peminatan 3** (3), **MK Pilihan Peminatan 4** (3), **MK Pilihan Peminatan 5** (3), **MK Pilihan Peminatan 6** (3).
 * **Semester 8 (6 SKS / 1 MK):** `FST-714` Skripsi / Tugas Akhir Murni / 4 Opsi Non-Skripsi (6 SKS).
 
 ---

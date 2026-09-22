@@ -128,11 +128,11 @@ Mata kuliah keahlian inti Sistem dan Teknologi Informasi yang membina 14 CPL Pro
 | 21 | `STI-521` | Internet untuk Segala (IoT) | *Internet of Things (IoT)* | 3 | +P | Sem 5 | `STI-312`, `STI-310` |
 | 22 | `STI-522` | Pemrograman Aplikasi Mobile | *Mobile Application Programming* | 3 | +P | Sem 5 | `STI-311`, `STI-416` |
 | 23 | `STI-523` | Manajemen Proyek TI | *IT Project Management* | 3 | Teori | Sem 5 | `STI-306`, `STI-309` |
-| 24 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | *AI-Based Smart Service Integration* | 3 | +P | Sem 7 | `STI-413`, `STI-416` |
-| 25 | `STI-625` | Smart City & Pemerintahan Digital | *Smart City & Digital Governance* | 2 | Teori | Sem 7 | `STI-521` |
-| 26 | `STI-626` | Pembelajaran Mendalam & Jaringan Saraf | *Deep Learning & Neural Networks* | 3 | +P | Sem 6 | `STI-413` |
-| 27 | `STI-627` | Rekayasa Platform Digital | *Digital Platform Engineering* | 3 | +P | Sem 6 | `STI-416` |
-| 28 | `STI-728` | Inovasi Teknologi dan Startup Digital | *Technology Innovation and Digital Startup* | 3 | +P | Sem 7 | `STI-627`, `MKU-204` |
+| 24 | `STI-624` | Pembelajaran Mendalam & Jaringan Saraf | *Deep Learning & Neural Networks* | 3 | +P | Sem 6 | `STI-413` |
+| 25 | `STI-625` | Rekayasa Platform Digital | *Digital Platform Engineering* | 3 | +P | Sem 6 | `STI-416` |
+| 26 | `STI-726` | Integrasi Layanan Cerdas Berbasis AI | *AI-Based Smart Service Integration* | 3 | +P | Sem 7 | `STI-413`, `STI-416` |
+| 27 | `STI-727` | Smart City & Pemerintahan Digital | *Smart City & Digital Governance* | 2 | Teori | Sem 7 | `STI-521` |
+| 28 | `STI-728` | Inovasi Teknologi dan Startup Digital | *Technology Innovation and Digital Startup* | 3 | +P | Sem 7 | `STI-625`, `MKU-204` |
 | **TOTAL** | — | **28 Mata Kuliah Inti Program Studi** | — | **79** | — | — | **54,1% Beban Kurikulum** |
 
 ---
@@ -146,9 +146,9 @@ Mata kuliah keahlian spesialisasi yang ditawarkan dalam 3 jalur peminatan (*Inte
 | 1 | `STA-501` | Sistem Pendukung Keputusan | *Decision Support Systems* | 3 | +P | Sem 5 | `STI-307` | P1: Integrated Smart Systems |
 | 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | *Big Data Engineering and Distributed Systems* | 3 | +P | Sem 6 | `FST-207`, `STI-415` | P1: Integrated Smart Systems |
 | 3 | `STA-602` | Sistem Agen Cerdas | *Intelligent Agent Systems* | 3 | +P | Sem 7 | `STI-307` | P1: Integrated Smart Systems |
-| 4 | `STA-701` | MLOps dan Alur Pipa AI | *MLOps and AI Pipeline* | 3 | +P | Sem 7 | `STI-413`, `STI-624` | P1: Integrated Smart Systems |
+| 4 | `STA-701` | MLOps dan Alur Pipa AI | *MLOps and AI Pipeline* | 3 | +P | Sem 7 | `STI-413`, `STI-726` | P1: Integrated Smart Systems |
 | 5 | `STA-702` | AI Percakapan dan Asisten Cerdas | *Conversational AI and Intelligent Assistant* | 3 | +P | Sem 7 | `STI-413`, `STI-416` | P1: Integrated Smart Systems |
-| 6 | `STA-703` | Pengawasan Cerdas dan Analitika IoT | *Smart Surveillance and IoT Analytics* | 3 | +P | Sem 7 | `STI-626`, `STI-521` | P1: Integrated Smart Systems |
+| 6 | `STA-703` | Pengawasan Cerdas dan Analitika IoT | *Smart Surveillance and IoT Analytics* | 3 | +P | Sem 7 | `STI-624`, `STI-521` | P1: Integrated Smart Systems |
 | 7 | `STB-501` | Keamanan Jaringan dan Forensik Digital | *Network Security and Digital Forensics* | 3 | +P | Sem 5 | `STI-312`, `STI-418` | P2: Cloud Infra & Cybersecurity |
 | 8 | `STB-601` | Arsitektur Cloud & DevOps | *Cloud Architecture & DevOps* | 3 | +P | Sem 6 | `STI-417` | P2: Cloud Infra & Cybersecurity |
 | 9 | `STB-602` | Manajemen Risiko Keamanan Siber | *Cybersecurity Risk Management* | 3 | Teori | Sem 7 | `STI-418` | P2: Cloud Infra & Cybersecurity |
@@ -269,8 +269,8 @@ Mata kuliah keahlian spesialisasi yang ditawarkan dalam 3 jalur peminatan (*Inte
 ### SEMESTER 6 (19 SKS) — Tahap Spesialisasi Deep Learning, Capstone FSTI, PKL, Pra-Skripsi & MBKM
 | No | Kode MK | Nama Mata Kuliah (Indonesia) | Course Name (English) | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|---|:---:|:---:|:---:|---|
-| 39 | `STI-626` | Pembelajaran Mendalam & Jaringan Saraf | *Deep Learning & Neural Networks* | 3 | +P | Core STI | `STI-413` |
-| 40 | `STI-627` | Rekayasa Platform Digital | *Digital Platform Engineering* | 3 | +P | Core STI | `STI-416` |
+| 39 | `STI-624` | Pembelajaran Mendalam & Jaringan Saraf | *Deep Learning & Neural Networks* | 3 | +P | Core STI | `STI-413` |
+| 40 | `STI-625` | Rekayasa Platform Digital | *Digital Platform Engineering* | 3 | +P | Core STI | `STI-416` |
 | 41 | `FST-611` | Metodologi Penelitian | *Research Methodology* | 2 | Teori | FSTI | $\ge 76\text{ SKS}$ |
 | 42 | `FST-610` | Capstone Project FSTI | *FSTI Multidisciplinary Capstone Project* | 3 | Proyek | FSTI | `STI-523`, $\ge 100\text{ SKS}$ |
 | 43 | `FST-612` | Praktik Kerja Lapangan (PKL) | *Field Work Practice / Internship* | 3 | Magang | FSTI | $\ge 100\text{ SKS}$ |
@@ -289,9 +289,9 @@ Mata kuliah keahlian spesialisasi yang ditawarkan dalam 3 jalur peminatan (*Inte
 ### SEMESTER 7 (20 SKS) — Tahap Integrasi Layanan Cerdas, Smart City, Startup & Peminatan Lanjutan
 | No | Kode MK | Nama Mata Kuliah (Indonesia) | Course Name (English) | SKS | Tipe | Kategori | Prasyarat |
 |:---:|:---:|---|---|:---:|:---:|:---:|---|
-| 46 | `STI-728` | Inovasi Teknologi dan Startup Digital | *Technology Innovation and Digital Startup* | 3 | +P | Core STI | `STI-627`, `MKU-204` |
-| 47 | `STI-624` | Integrasi Layanan Cerdas Berbasis AI | *AI-Based Smart Service Integration* | 3 | +P | Core STI | `STI-413`, `STI-416` |
-| 48 | `STI-625` | Smart City & Pemerintahan Digital | *Smart City & Digital Governance* | 2 | Teori | Core STI | `STI-521` |
+| 46 | `STI-726` | Integrasi Layanan Cerdas Berbasis AI | *AI-Based Smart Service Integration* | 3 | +P | Core STI | `STI-413`, `STI-416` |
+| 47 | `STI-727` | Smart City & Pemerintahan Digital | *Smart City & Digital Governance* | 2 | Teori | Core STI | `STI-521` |
+| 48 | `STI-728` | Inovasi Teknologi dan Startup Digital | *Technology Innovation and Digital Startup* | 3 | +P | Core STI | `STI-625`, `MKU-204` |
 | 49 | `STA/B/C` | **MK Pilihan Peminatan 3** | *Elective Specialization Course 3* | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 50 | `STA/B/C` | **MK Pilihan Peminatan 4** | *Elective Specialization Course 4* | 3 | Elektif | Peminatan | Prasyarat Peminatan |
 | 51 | `STA/B/C` | **MK Pilihan Peminatan 5** | *Elective Specialization Course 5* | 3 | Elektif | Peminatan | Prasyarat Peminatan |

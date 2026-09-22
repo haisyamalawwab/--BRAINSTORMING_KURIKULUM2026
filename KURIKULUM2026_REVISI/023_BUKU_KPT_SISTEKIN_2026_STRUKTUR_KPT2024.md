@@ -415,7 +415,7 @@ Nomenklatur lengkap: Dokumen 003 §4–5.
 
 **Tabel VI.3 — Matriks BK × MK** — Dokumen 004 §6.
 
-Mata kuliah yang memenuhi kriteria **capstone**: `FST-610` Capstone Project FSTI (3 SKS, Semester 7). Kriteria dan ketentuan: Dokumen 009 §1.
+Mata kuliah yang memenuhi kriteria **capstone**: `FST-610` Capstone Project FSTI (3 SKS, Semester 6). Kriteria dan ketentuan: Dokumen 009 §1.
 
 ## VI.4 Audit Zero Redundancy Bahan Kajian
 

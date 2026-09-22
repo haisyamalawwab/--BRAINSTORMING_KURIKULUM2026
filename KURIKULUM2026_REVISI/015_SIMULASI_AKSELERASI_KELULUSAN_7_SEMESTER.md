@@ -146,8 +146,8 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 | 45 | `FST-611` | Metodologi Penelitian | 2 | Teori | FSTI | Syarat $\ge 76\text{ SKS}$ (Sudah 109 SKS ✅) |
 | 46 | `STA/B/C` | **MK Pilihan Peminatan 2** | 3 | Elektif| Peminatan | Pilihan Paket Peminatan 2 (P1/P2/P3) |
 | 47 | `STA/B/C` | **MK Pilihan Peminatan 3** | 3 | Elektif| Peminatan | Pilihan Paket Peminatan 3 (P1/P2/P3) |
-| **48**| **`FST-610`**| **Capstone Project FSTI (Maju dari Sem 7)** | **3** | **Proyek**| **FSTI** | **Akselerasi: STI-523 Manpro Selesai, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
-| **49**| **`FST-613`**| **Pra-Skripsi / Sempro (Maju dari Sem 7)** | **2** | **Seminar**| **FSTI** | **Akselerasi: Paralel Metpen, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
+| **48**| **`FST-610`**| **Capstone Project FSTI (Maju dari Sem 7 → Sem 6)** | **3** | **Proyek**| **FSTI** | **Akselerasi: STI-523 Manpro Selesai, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
+| **49**| **`FST-613`**| **Pra-Skripsi / Sempro (Maju dari Sem 7 → Sem 6)** | **2** | **Seminar**| **FSTI** | **Akselerasi: Paralel Metpen, Syarat $\ge 100\text{ SKS}$ Terpenuhi ✅** |
 | **SUBTOTAL** | — | **Total SKS Semester 6 (8 Mata Kuliah)** | **22** | — | — | **Kumulatif: 131 SKS** |
 
 > 📌 **Milestone Penting:** Di akhir Semester 6, proposal Skripsi mahasiswa telah **LULUS SEMINAR PROPOSAL (SEMPRO)** dan akumulasi SKS mencapai **131 SKS**, memenuhi syarat pendaftaran Skripsi ($\ge 120\text{ SKS}$).
@@ -196,7 +196,7 @@ Sesuai dengan **Permendikbudristek No. 53 Tahun 2023 tentang Penjaminan Mutu Pen
 
 1. **Skrining di Akhir Semester 2:** Dosen Penasihat Akademik (DPA) mengidentifikasi mahasiswa dengan $\text{IPK} \ge 3{,}50$ dan tidak memiliki nilai D/E untuk ditawarkan masuk *Jalur Akselerasi 3,5 Tahun*.
 2. **KRS Approval:** Pengambilan 23–24 SKS di Semester 3 s.d. 6 dipandu DPA dengan memastikan jadwal kuliah tidak bentrok antar-angkatan (misal melalui kelas paralel atau penugasan asinkron).
-3. **Fokus Total di Semester 7:** Karena Capstone dan PKL sudah tuntas di Semester 6, Semester 7 hanya membebani 15 SKS, memberikan peluang besar bagi mahasiswa meraih nilai Skripsi **A** dan mempublikasikan paper jurnal internasional terindeks Scopus / SINTA 2.
+3. **Fokus Total di Semester 7:** Karena Capstone dan PKL sudah tuntas di Semester 6, Semester 7 fokus pada Integrasi AI, Smart City, Startup, dan 4 MK Peminatan Lanjut, memberikan peluang besar bagi mahasiswa meraih nilai Skripsi **A** dan mempublikasikan paper jurnal internasional terindeks Scopus / SINTA 2.
 
 ---
 *Disahkan sebagai Dokumen Resmi 015 — Panduan & Simulasi Akselerasi 7 Semester Kurikulum SISTEKIN 2026.*  

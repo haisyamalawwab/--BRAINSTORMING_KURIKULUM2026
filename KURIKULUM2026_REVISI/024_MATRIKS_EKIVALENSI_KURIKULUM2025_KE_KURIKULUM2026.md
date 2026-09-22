@@ -450,8 +450,8 @@ Kolom **Smt** pada Bagian 3 kini merujuk semester definitif Dokumen 005 (pola te
 | Tahap Studi saat Transisi | SKS K2025 Ditempuh | SKS Diakui K2026 | Defisit MK Wajib Baru | Rekomendasi Jalur |
 |---|:---:|:---:|---|---|
 | **Telah selesai Sem 1–2** | 36 SKS | ± 31 SKS | `STI-103` (3), `FST-204` (2), `STI-312` (3) | **Migrasi penuh ke K2026.** Sisipkan 3 MK baru secara bertahap pada Sem 3–4 (maksimum +3 SKS per semester) agar beban per semester tetap ≤ 22 SKS |
-| **Telah selesai Sem 3–4** | 76 SKS | ± 66 SKS | `STI-103` (3), `STI-312` (3), `FST-204` (2), `FST-610` (3) | **Migrasi selektif.** `STI-103` dan `STI-312` wajib pada Sem 5 karena menjadi prasyarat Cloud, IoT, dan Keamanan; `FST-610` Capstone pada Sem 7 |
-| **Telah selesai Sem 5–6** | 118 SKS | ± 106 SKS | `FST-610` (3) dan `STI-519` (3) atau ekuivalen | **Tetap pada K2025** dengan penyisipan `FST-610` Capstone Project FSTI sebagai pengganti 3 SKS MK pilihan. Migrasi penuh tidak efisien karena defisit melampaui 24 SKS |
+| **Telah selesai Sem 3–4** | 76 SKS | ± 66 SKS | `STI-103` (3), `STI-312` (3), `FST-204` (2), `FST-610` (3) | **Migrasi selektif.** `STI-103` dan `STI-312` wajib pada Sem 5 karena menjadi prasyarat Cloud, IoT, dan Keamanan; `FST-610` Capstone pada Sem 6 |
+| **Telah selesai Sem 5–6** | 118 SKS | ± 106 SKS | `FST-610` (3) dan `STI-519` (3) atau ekuivalen | **Tetap pada K2025** dengan penyisipan `FST-610` Capstone Project FSTI sebagai pengganti 3 SKS MK pilihan di Sem 6. Migrasi penuh tidak efisien karena defisit melampaui 24 SKS |
 | **Sedang menempuh Sem 7–8** | ≥ 138 SKS | ≥ 126 SKS | — | **Tetap pada K2025 hingga lulus.** Diberikan akses opsional pada 4 opsi Tugas Akhir non-skripsi (Dok. 009) sebagai ekuivalen `MFT-004` Skripsi 6 SKS |
 
 > [!NOTE]

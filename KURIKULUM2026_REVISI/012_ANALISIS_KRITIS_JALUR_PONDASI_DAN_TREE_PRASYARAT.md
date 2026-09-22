@@ -84,13 +84,13 @@ graph TD
     subgraph P5 ["PILAR 5: SINTESIS CAPSTONE, RISET & STARTUP"]
         S2_KWU["Sem 2: Kewirausahaan I"] --> S5_Manpro["Sem 5: Manajemen Proyek TI"]
         S3_APSI --> S5_Manpro
-        S5_Manpro --> S7_Capstone["Sem 7: Capstone Project FSTI (+P)"]
+        S5_Manpro --> S6_Capstone["Sem 6: Capstone Project FSTI (+P)"]
         S6_Platform --> S7_Startup["Sem 7: Inovasi & Startup Digital (+P)"]
         S2_KWU --> S7_Startup
         S4_ML --> S6_Metpen["Sem 6: Metodologi Penelitian"]
-        S6_Metpen --> S7_Sempro["Sem 7: Pra-Skripsi / Sempro"]
-        S7_Sempro --> S8_Skripsi["Sem 8: Skripsi Murni / 4 Opsi Non-Skripsi (6 SKS)"]
-        S7_Capstone --> S8_Skripsi
+        S6_Metpen --> S6_Sempro["Sem 6: Pra-Skripsi / Sempro"]
+        S6_Sempro --> S8_Skripsi["Sem 8: Skripsi Murni / 4 Opsi Non-Skripsi (6 SKS)"]
+        S6_Capstone --> S8_Skripsi
     end
 ```
 

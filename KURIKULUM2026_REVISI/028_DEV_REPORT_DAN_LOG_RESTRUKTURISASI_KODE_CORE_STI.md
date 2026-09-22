@@ -88,7 +88,7 @@ $$\mathbf{STI\text{-}[Semester][Nomor\ Urut\ Kumulatif\ 2\ Digit]}$$
 
 Perubahan kode Core STI secara otomatis memicu pemutakhiran syarat prasyarat pada:
 1. **MK Wajib Fakultas (FSTI):**
-   * `FST-610 Capstone Project FSTI` (Sem 7): Prasyarat `STI-506` dimutakhirkan ke **`STI-523`** *Manajemen Proyek TI*.
+   * `FST-610 Capstone Project FSTI` (Sem 6): Prasyarat `STI-506` dimutakhirkan ke **`STI-523`** *Manajemen Proyek TI*.
 2. **MK Pilihan Peminatan (Elektif):**
    * `STA-501 Decision Support Systems` (Sem 5): Prasyarat `STI-402` dimutakhirkan ke **`STI-415`** *Data Warehouse & BI*.
    * `STB-501 Network Security & Digital Forensics` (Sem 5): Prasyarat `STI-307` dimutakhirkan ke **`STI-312`** *Jaringan Komputer*.

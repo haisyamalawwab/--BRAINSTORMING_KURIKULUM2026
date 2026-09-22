@@ -411,11 +411,11 @@ Ground truth K2025 dari Laporan SIAKAD: 56 MK / 146 SKS, sebaran 18-18-20-20-21-
 
 Kelompok MKWU (8 MK / 13 SKS): MKU-101 Agama I (2, Sem 1); MKU-102 Pancasila (2, Sem 1); MKU-103 Bahasa Indonesia (2, Sem 1); MKU-204 Kewirausahaan I (2, Sem 2); MKU-405 Kewarganegaraan (2, Sem 4); MKU-406 Agama II (0, Sem 4, kebijakan UWG); MKU-507 KPM (3 +Praktik, Sem 5, syarat ≥80 SKS); MKU-508 Kewirausahaan II (0, Sem 5, kebijakan UWG).
 
-Kelompok FSTI (13 MK / 36 SKS): FST-101 Dasar Teknologi Digital (2, Sem 1); FST-102 Algoritma dan Pemrograman (3 +P, Sem 1); FST-203 Struktur Data dan Algoritma (3 +P, Sem 2, prasyarat FST-102); FST-204 Pengantar Kecerdasan Artifisial & Data (2, Sem 2, FST-101); FST-205 Basic English for IT (2, Sem 2); FST-206 Etika Profesi & Hukum Digital (2, Sem 2); FST-207 Sistem Basis Data (3 +P, Sem 2, FST-102); FST-408 Probabilitas dan Statistika (3, Sem 4, STI-102); FST-611 Metodologi Penelitian (2, Sem 6, ≥76 SKS); FST-610 Capstone Project FSTI (3 Proyek, Sem 7, STI-523 + ≥100 SKS); FST-612 PKL (3 Magang, Sem 7, ≥100 SKS); FST-613 Pra-Skripsi/Seminar Proposal (2 Seminar, Sem 7, FST-611 + ≥100 SKS); FST-714 Skripsi/Tugas Akhir (6 Mandiri, Sem 8, FST-613 + ≥120 SKS).
+Kelompok FSTI (13 MK / 36 SKS): FST-101 Dasar Teknologi Digital (2, Sem 1); FST-102 Algoritma dan Pemrograman (3 +P, Sem 1); FST-203 Struktur Data dan Algoritma (3 +P, Sem 2, prasyarat FST-102); FST-204 Pengantar Kecerdasan Artifisial & Data (2, Sem 2, FST-101); FST-205 Basic English for IT (2, Sem 2); FST-206 Etika Profesi & Hukum Digital (2, Sem 2); FST-207 Sistem Basis Data (3 +P, Sem 2, FST-102); FST-408 Probabilitas dan Statistika (3, Sem 4, STI-102); FST-611 Metodologi Penelitian (2, Sem 6, ≥76 SKS); FST-610 Capstone Project FSTI (3 Proyek, Sem 6, STI-523 + ≥100 SKS); FST-612 PKL (3 Magang, Sem 6, ≥100 SKS); FST-613 Pra-Skripsi/Seminar Proposal (2 Seminar, Sem 6, FST-611 + ≥100 SKS); FST-714 Skripsi/Tugas Akhir (6 Mandiri, Sem 8, FST-613 + ≥120 SKS).
 
-Kelompok Core STI (28 MK / 79 SKS): STI-101 Pengantar Sistem dan TI (2, Sem 1); STI-102 Kalkulus (3, Sem 1); STI-103 Arsitektur dan Organisasi STI (3, Sem 1); STI-204 Matematika Diskrit dan Logika (3, Sem 2, STI-103); STI-205 Aljabar Linear dan Matriks (3, Sem 2, STI-102); STI-306 Analisis dan Perancangan SI (3, Sem 3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, Sem 3, STI-204 + FST-204); STI-308 UI/UX Design & Prototyping (3 +P, Sem 3, FST-101); STI-309 Rekayasa Perangkat Lunak (3, Sem 3, FST-203); STI-310 Sistem Operasi (3, Sem 3, STI-103); STI-311 Web Front End Development (3 +P, Sem 3, FST-102); STI-312 Jaringan Komputer (3 +P, Sem 3, STI-103); STI-413 Machine Learning (3 +P, Sem 4, STI-205 + STI-307); STI-414 Pengantar NLP & Information Retrieval (2 +P, Sem 4, STI-307); STI-415 Data Warehouse & BI (3 +P, Sem 4, FST-207); STI-416 Web Back End Development (3 +P, Sem 4, FST-207 + STI-311); STI-417 Komputasi Awan (3, Sem 4, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, Sem 4, STI-312); STI-519 Keamanan Informasi Lanjut (3, Sem 5, STI-418); STI-520 Data Mining & Visualisasi Data (3 +P, Sem 5, STI-413 + STI-415); STI-521 Internet of Things (3 +P, Sem 5, STI-312 + STI-310); STI-522 Pemrograman Aplikasi Mobile (3 +P, Sem 5, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, Sem 5, STI-306 + STI-309); STI-624 Integrasi Layanan Cerdas Berbasis AI (3 +P, Sem 6, STI-413 + STI-416); STI-625 Smart City & Pemerintahan Digital (2, Sem 6, STI-521); STI-626 Deep Learning & Neural Networks (3 +P, Sem 6, STI-413); STI-627 Digital Platform Engineering (3 +P, Sem 6, STI-416); STI-728 Inovasi Teknologi dan Startup Digital (3 +P, Sem 7, STI-627 + MKU-204).
+Kelompok Core STI (28 MK / 79 SKS): STI-101 Pengantar Sistem dan TI (2, Sem 1); STI-102 Kalkulus (3, Sem 1); STI-103 Arsitektur dan Organisasi STI (3, Sem 1); STI-204 Matematika Diskrit dan Logika (3, Sem 2, STI-103); STI-205 Aljabar Linear dan Matriks (3, Sem 2, STI-102); STI-306 Analisis dan Perancangan SI (3, Sem 3, STI-101 + FST-207); STI-307 Sistem Cerdas (2, Sem 3, STI-204 + FST-204); STI-308 UI/UX Design & Prototyping (3 +P, Sem 3, FST-101); STI-309 Rekayasa Perangkat Lunak (3, Sem 3, FST-203); STI-310 Sistem Operasi (3, Sem 3, STI-103); STI-311 Web Front End Development (3 +P, Sem 3, FST-102); STI-312 Jaringan Komputer (3 +P, Sem 3, STI-103); STI-413 Machine Learning (3 +P, Sem 4, STI-205 + STI-307); STI-414 Pengantar NLP & Information Retrieval (2 +P, Sem 4, STI-307); STI-415 Data Warehouse & BI (3 +P, Sem 4, FST-207); STI-416 Web Back End Development (3 +P, Sem 4, FST-207 + STI-311); STI-417 Komputasi Awan (3, Sem 4, STI-312 + STI-310); STI-418 Dasar Keamanan Informasi (2, Sem 4, STI-312); STI-519 Keamanan Informasi Lanjut (3, Sem 5, STI-418); STI-520 Data Mining & Visualisasi Data (3 +P, Sem 5, STI-413 + STI-415); STI-521 Internet of Things (3 +P, Sem 5, STI-312 + STI-310); STI-522 Pemrograman Aplikasi Mobile (3 +P, Sem 5, STI-311 + STI-416); STI-523 Manajemen Proyek TI (3, Sem 5, STI-306 + STI-309); STI-626 Deep Learning & Neural Networks (3 +P, Sem 6, STI-413); STI-627 Digital Platform Engineering (3 +P, Sem 6, STI-416); STI-624 Integrasi Layanan Cerdas Berbasis AI (3 +P, Sem 7, STI-413 + STI-416); STI-625 Smart City & Pemerintahan Digital (2, Sem 7, STI-521); STI-728 Inovasi Teknologi dan Startup Digital (3 +P, Sem 7, STI-627 + MKU-204).
 
-Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Rekayasa Big Data dan Komputasi Terdistribusi (3 +P, Sem 6, FST-207 + STI-415); STA-602 Intelligent Agent Systems (3 +P, Sem 6, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture & DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 6, STI-418); STB-701 IT Governance & Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research & Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa & Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech & EdTech (3 +P, Sem 6, STI-416); STC-701 Immersive Media & XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture & Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management & Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 2 di Sem 6, 3 di Sem 7).
+Kelompok Elektif (18 ditawarkan, ditempuh 6 MK / 18 SKS): P1 — STA-501 Decision Support Systems (3 +P, Sem 5, STI-307); STA-601 Rekayasa Big Data dan Komputasi Terdistribusi (3 +P, Sem 6, FST-207 + STI-415); STA-602 Intelligent Agent Systems (3 +P, Sem 7, STI-307); STA-701 MLOps and AI Pipeline (3 +P, Sem 7, STI-413 + STI-624); STA-702 Conversational AI and Intelligent Assistant (3 +P, Sem 7, STI-413 + STI-416); STA-703 Smart Surveillance and IoT Analytics (3 +P, Sem 7, STI-626 + STI-521). P2 — STB-501 Network Security and Digital Forensics (3 +P, Sem 5, STI-312 + STI-418); STB-601 Cloud Architecture & DevOps (3 +P, Sem 6, STI-417); STB-602 Cybersecurity Risk Management (3 Teori, Sem 7, STI-418); STB-701 IT Governance & Compliance COBIT 2019 (3 Teori, Sem 7, STI-101); STB-702 IT Service Management ITIL 4 (3 Teori, Sem 7, STI-101); STB-703 Enterprise Architecture TOGAF (3 Teori, Sem 7, STI-306). P3 — STC-501 User Experience Research & Design (3 +P, Sem 5, STI-308); STC-601 Rekayasa & Otomasi Proses Bisnis BPA (3 +P, Sem 6, STI-306); STC-602 Rekayasa Aplikasi Industri Vertikal FinTech & EdTech (3 +P, Sem 7, STI-416); STC-701 Immersive Media & XR Development (3 +P, Sem 7, STI-311); STC-702 SaaS Architecture & Multi-Tenancy (3 +P, Sem 7, STI-416); STC-703 Digital Product Management & Agile Practices (3 Teori, Sem 7, STI-523). Mahasiswa menempuh 1 paket penuh (1 di Sem 5, 1 di Sem 6, 4 di Sem 7).
 
 18 MK baru K2026 (5 wajib/14 SKS + 13 elektif). Penuh Dok. 004–005.
 
@@ -759,51 +759,58 @@ flowchart BT
     STI418 --> STB501
     STI308 --> STC501
 
-    subgraph S6 ["Semester 6: Spesialisasi Lanjut & Metodologi Riset"]
-        STI624["STI-624<br/>Integrasi Layanan AI (3)"]
-        STI625["STI-625<br/>Smart City & Pem Dig (2)"]
+    subgraph S6 ["Semester 6: Capstone FSTI, PKL, Pra-Skripsi & Deep Learning"]
         STI626["STI-626<br/>Deep Learning & NN (3)"]
         STI627["STI-627<br/>Platform Engineering (3)"]
         FST611["FST-611<br/>Metodologi Penelitian (2)"]
-        STA601["STA-601/602 (P1)<br/>Big Data / Agen (6)"]
-        STB601["STB-601/602 (P2)<br/>DevOps / Pentest (6)"]
-        STC601["STC-601/602 (P3)<br/>BPMN / Vertikal (6)"]
+        FST610["FST-610<br/>Capstone Project FSTI (3)"]
+        FST612["FST-612<br/>Praktik Kerja Lapangan (3)"]
+        FST613["FST-613<br/>Pra-Skripsi / Sempro (2)"]
+        STA601["STA-601 (P1)<br/>Big Data Eng (3)"]
+        STB601["STB-601 (P2)<br/>Cloud & DevOps (3)"]
+        STC601["STC-601 (P3)<br/>BPA & BPMN (3)"]
     end
 
-    STI413 --> STI624
-    STI416 --> STI624
-    STI521 --> STI625
     STI413 --> STI626
     STI416 --> STI627
     STI417 --> STI627
     FST408 --> FST611
+    STI523 --> FST610
+    FST611 --> FST613
     STI415 --> STA601
     STI417 --> STB601
-    STI418 --> STB602
     STI306 --> STC601
-    STI522 --> STC602
 
-    subgraph S7 ["Semester 7: Sintesis Capstone, Magang PKL & Pra-Skripsi"]
+    subgraph S7 ["Semester 7: Integrasi AI, Smart City, Startup & Peminatan Lanjut"]
         STI728["STI-728<br/>Inovasi & Startup (3)"]
-        FST610["FST-610<br/>Capstone Project FSTI (3)"]
-        FST612["FST-612<br/>Praktik Kerja Lapangan (3)"]
-        FST613["FST-613<br/>Pra-Skripsi / Sempro (2)"]
+        STI624["STI-624<br/>Integrasi Layanan AI (3)"]
+        STI625["STI-625<br/>Smart City & Pem Dig (2)"]
+        STA602["STA-602 (P1)<br/>Intelligent Agent (3)"]
+        STB602["STB-602 (P2)<br/>Cyber Risk Mgmt (3)"]
+        STC602["STC-602 (P3)<br/>FinTech / EdTech (3)"]
         STA701["STA-701/702/703 (P1)<br/>MLOps / LLM / Edge AI (9)"]
-        STB701["STB-701/702/703 (P2)<br/>GRC / CloudSec / SRE (9)"]
+        STB701["STB-701/702/703 (P2)<br/>GRC / ITSM / EA (9)"]
         STC701["STC-701/702/703 (P3)<br/>XR / SaaS / Prod Mgmt (9)"]
     end
 
     STI627 --> STI728
     MKU204 --> STI728
-    STI523 --> FST610
-    FST611 --> FST613
-    STI626 --> STA701
+    STI413 --> STI624
+    STI416 --> STI624
+    STI521 --> STI625
+    STI307 --> STA602
+    STI418 --> STB602
+    STI416 --> STC602
+    STI413 --> STA701
+    STI624 --> STA701
     STI414 --> STA702
     STI626 --> STA703
-    STI519 --> STB702
-    STB601 --> STB703
-    STI627 --> STC702
-    STI728 --> STC703
+    STI519 --> STB701
+    STB601 --> STB702
+    STI306 --> STB703
+    STI311 --> STC701
+    STI416 --> STC702
+    STI523 --> STC703
 
     subgraph S8 ["Semester 8: Kulminasi Kelulusan"]
         FST714["FST-714 SKRIPSI / TUGAS AKHIR (6 SKS)<br/>(Skripsi Murni / Proyek Startup / Prototipe Industri / Jurnal)"]
@@ -837,17 +844,27 @@ flowchart BT
         TA --> GRAD
     end
 
-    %% LEVEL MASTERY - SINTESIS SEM 7
-    subgraph MASTERY_SYN ["TAHAP MASTERY: SINTESIS & CAPSTONE (SEMESTER 7 — 18 SKS)"]
+    %% LEVEL MASTERY - SINTESIS SEM 6 (Capstone, PKL, Pra-Skripsi)
+    subgraph MASTERY_SYN ["TAHAP MASTERY: SINTESIS CAPSTONE, PKL & PRA-SKRIPSI (SEMESTER 6 — 8 SKS)"]
         CAP["FST-610 Capstone Project FSTI (3 SKS)<br/>Kolaborasi Lintas Peminatan"]
         PKL["FST-612 Praktik Kerja Lapangan / PKL (3 SKS)<br/>Magang Industri Mitra"]
         SEMPRO["FST-613 Pra-Skripsi / Sempro (2 SKS)"]
-        STARTUP["STI-728 Inovasi & Startup Digital (3 SKS)"]
     end
 
     CAP --> TA
     SEMPRO --> TA
     PKL -.-> TA
+    
+    %% LEVEL MASTERY - INTEGRASI & STARTUP SEM 7
+    subgraph MASTERY_INT ["TAHAP MASTERY: INTEGRASI AI, SMART CITY & STARTUP (SEMESTER 7 — 8 SKS)"]
+        INTEGR["STI-624 Integrasi Layanan Cerdas AI (3 SKS)<br/>Model Serving, RAG, Vector DB"]
+        SMART["STI-625 Smart City & Pemerintahan Digital (2 SKS)<br/>SPBE & Digital Governance"]
+        STARTUP["STI-728 Inovasi & Startup Digital (3 SKS)<br/>Lean Startup & Business Model Canvas"]
+    end
+    
+    INTEGR --> TA
+    SMART --> TA
+    STARTUP --> TA
 
     %% 3 TRACK PEMINATAN
     subgraph TRACKS ["3 JALUR PEMINATAN BERBASIS PROFIL LULUSAN (SEMESTER 5–7: @ 18 SKS)"]
@@ -864,23 +881,26 @@ flowchart BT
         end
     end
 
-    STA_ALL --> CAP
-    STB_ALL --> CAP
-    STC_ALL --> CAP
     STA_ALL --> SEMPRO
     STB_ALL --> SEMPRO
     STC_ALL --> SEMPRO
+    STA_ALL --> INTEGR
+    STB_ALL --> INTEGR
+    STC_ALL --> INTEGR
     STC_ALL --> STARTUP
 
     %% LEVEL MASTERY - SEMESTER 5 & 6 CORE
-    subgraph MASTERY_CORE ["TAHAP MASTERY: CORE LANJUTAN (SEMESTER 5 & 6 — 39 SKS)"]
-        S5_CORE["Semester 5 Core:<br/>• STI-519 Keamanan Info Lanjut (3)<br/>• STI-520 Data Mining & Vis (3)<br/>• STI-521 Internet of Things (3)<br/>• STI-522 Pemrograman Mobile (3)<br/>• STI-523 Manajemen Proyek TI (3)<br/>• MKU-507 KPM MBKM (3) • MKU-506 Bhs Inggris (2)"]
-        S6_CORE["Semester 6 Core:<br/>• STI-624 Integrasi Layanan Cerdas AI (3)<br/>• STI-625 Smart City & Pem. Digital (2)<br/>• STI-626 Deep Learning & NN (3)<br/>• STI-627 Digital Platform Eng. (3)<br/>• FST-611 Metodologi Penelitian (2)"]
+    subgraph MASTERY_CORE ["TAHAP MASTERY: CORE LANJUTAN (SEMESTER 5 & 6 — 33 SKS)"]
+        S5_CORE["Semester 5 Core:<br/>• STI-519 Keamanan Info Lanjut (3)<br/>• STI-520 Data Mining & Vis (3)<br/>• STI-521 Internet of Things (3)<br/>• STI-522 Pemrograman Mobile (3)<br/>• STI-523 Manajemen Proyek TI (3)<br/>• MKU-507 KPM MBKM (3)"]
+        S6_CORE["Semester 6 Core:<br/>• STI-626 Deep Learning & NN (3)<br/>• STI-627 Digital Platform Eng. (3)<br/>• FST-611 Metodologi Penelitian (2)"]
     end
 
     S5_CORE --> S6_CORE
     S6_CORE --> CAP
     S6_CORE --> SEMPRO
+    S6_CORE --> INTEGR
+    S6_CORE --> SMART
+    S6_CORE --> STARTUP
 
     %% LEVEL REINFORCE - SEMESTER 3 & 4
     subgraph REINFORCE ["TAHAP REINFORCE: PENGUATAN INTI TEKNOLOGI (SEMESTER 3 & 4 — 42 SKS)"]
@@ -910,7 +930,7 @@ flowchart BT
 
     class S1_ALL,S2_ALL cIntro;
     class S3_ALL,S4_ALL cReinf;
-    class S5_CORE,S6_CORE,CAP,PKL,SEMPRO,STARTUP cMast;
+    class S5_CORE,S6_CORE,CAP,PKL,SEMPRO,INTEGR,SMART,STARTUP cMast;
     class STA_ALL,STB_ALL,STC_ALL cTrack;
     class TA,GRAD cApex;
 ```
@@ -958,7 +978,7 @@ RPS 67 MK, Rencana Tugas, Bahan Ajar, rubrik/portofolio (Dok. 008, 018). Analisi
 
 ## 10.1 Kebijakan MBKM Program Studi
 
-Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Dikonversi ke paket MK peminatan, Capstone Project FSTI, dan PKL. Skema ekuivalensi Dok. 006: Magang MSIB Sem 6 mengonversi Peminatan 2 (3) + Peminatan 3 (3) + STI-624 (3) + STI-627 (3) + STI-625 (2) + STI-626 (3) + FST-611 (2) = 20 SKS (catatan: total paket Sem 6 adalah 19 SKS; konversi 20 SKS mencakup lintas-komponen yang disetarakan). Magang/Studi Independen/Wirausaha Sem 7 mengonversi Peminatan 4-6 (9) + STI-728 (3) + FST-610 (3) + FST-612 (3) + FST-613 (2) = 20 SKS.
+Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Dikonversi ke paket MK peminatan, Capstone Project FSTI, dan PKL. Skema ekuivalensi Dok. 006: Magang MSIB Sem 6 mengonversi FST-610 Capstone (3) + FST-612 PKL (3) + FST-613 Pra-Skripsi (2) + Peminatan-2 (3) + STI-626 (3) + STI-627 (3) + FST-611 (2) = 19 SKS. Magang/Studi Independen/Wirausaha Sem 7 mengonversi STI-624 (3) + STI-625 (2) + STI-728 (3) + Peminatan 3-6 (12) = 20 SKS.
 
 ## 10.2 Bentuk Kegiatan Pembelajaran MBKM (9 BKP wajib KPT)
 
@@ -966,9 +986,9 @@ Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Diko
 |---|---|---|---|
 | 1 | Magang/Praktik Kerja | Ada — FST-612 PKL 3 SKS Sem 6 | Alih nilai + laporan mitra |
 | 2 | KKN/KKNT (KPM) | Ada — MKU-507 KPM 3 SKS Sem 5 | Praktik universitas |
-| 3 | Wirausaha | Ada — MKU-204, Startup STI-728, Capstone | MVP + pitch deck |
+| 3 | Wirausaha | Ada — MKU-204, Startup STI-728 Sem 7, Capstone Sem 6 | MVP + pitch deck |
 | 4 | Asistensi Mengajar | Belum dirinci — disusun bertahap | Rekognisi peminatan/PKL |
-| 5 | Penelitian/Riset | Belum dirinci — via Metopel + Capstone | Publikasi/laporan riset |
+| 5 | Penelitian/Riset | Belum dirinci — via Metopel Sem 6 + Capstone | Publikasi/laporan riset |
 | 6 | Studi/Proyek Independen | Ada — peminatan STA/STB/STC | Produk + portofolio |
 | 7 | Proyek Kemanusiaan | Belum dirinci — disusun bertahap | Rekognisi KPM/PKL |
 | 8 | Pertukaran Mahasiswa | Belum dirinci — disusun bertahap | Alih kredit antar-PT |
@@ -976,7 +996,7 @@ Semester 6 dan 7 fleksibel hingga 20 SKS sesuai Permendikbudristek 53/2023. Diko
 
 ## 10.3 Penempatan MBKM dalam Struktur Kurikulum
 
-Semester 6 (Deep Learning, Smart AI, Smart City 2 SKS, Platform Eng, Metopel, Peminatan 601-602) dan Semester 7 (Startup, Capstone 3, PKL 3, Pra-Skripsi 2, Peminatan 701-703) dapat diganti paket MBKM setara atas persetujuan Ka Prodi dan pembimbing akademik.
+Semester 6 (Deep Learning, Platform Eng, Metopen, Capstone FSTI, PKL, Pra-Skripsi, Peminatan-2) dan Semester 7 (Integrasi AI, Smart City, Startup, Peminatan 3-6) dapat diganti paket MBKM setara atas persetujuan Ka Prodi dan pembimbing akademik.
 
 ## 10.4 Mekanisme Rekognisi Kredit MBKM — sumber Dok. 006, Dok. 024
 

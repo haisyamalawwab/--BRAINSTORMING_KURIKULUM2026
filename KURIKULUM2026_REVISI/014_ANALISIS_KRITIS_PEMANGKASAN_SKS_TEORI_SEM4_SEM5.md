@@ -66,7 +66,7 @@ Dengan terkuncinya seluruh MKWU dan MK FSTI, analisis pemangkasan diarahkan seca
 * **Status:** 🟢 **SANGAT LAYAK & REKOMENDASI UTAMA PRODI**
 * **Justifikasi Akademik:**
   1. *Fokus Konseptual Framework:* Teori manajemen proyek mencakup *Agile Scrum framework, User Story, Sprint Planning, WBS, Gantt Charting, dan Risk Log*. Seluruh materi ini **tuntas dan padat disampaikan dalam alokasi 100 menit/pekan (2 SKS)**.
-  2. *Bebas Redundansi Praktik:* Praktik eksekusi proyek nyata tidak terjadi di ruang kelas teori ini, melainkan terwadahi secara paripurna pada mata kuliah **`FST-610 Capstone Project FSTI (3 SKS)`** dan **`FST-612 Praktik Kerja Lapangan (3 SKS)`** di Semester 7.
+  2. *Bebas Redundansi Praktik:* Praktik eksekusi proyek nyata tidak terjadi di ruang kelas teori ini, melainkan terwadahi secara paripurna pada mata kuliah **`FST-610 Capstone Project FSTI (3 SKS)`** dan **`FST-612 Praktik Kerja Lapangan (3 SKS)`** di Semester 6.
   3. *Meringankan Semester 5:* Menurunkan Semester 5 dari 21 SKS ke **20 SKS**, memberikan ruang fokus bagi mahasiswa yang sedang menempuh **KPM (3 SKS)** dan **4 MK Praktikum Hands-On**.
 
 ---

@@ -10,7 +10,7 @@ Pada implementasi awal draf Kurikulum 2026, 18 Mata Kuliah Pilihan Peminatan (*E
 1. **Tidak Informatif terhadap Semester Penawaran:** Dari kode mata kuliah, mahasiswa, dosen Penasihat Akademik (PA), maupun operator SIAKAD tidak dapat langsung mengenali semester penawaran mata kuliah tersebut.
 2. **Inkonsistensi Format Kodifikasi:** Seluruh kelompok mata kuliah lain di Kurikulum 2026 telah menerapkan digit semester pada digit pertama:
    - **MKWU:** `MKU-101..103` (Sem 1), `MKU-204` (Sem 2), `MKU-405..406` (Sem 4), `MKU-507..508` (Sem 5).
-   - **FSTI:** `FST-101..102` (Sem 1), `FST-203..207` (Sem 2), `FST-408` (Sem 4), `FST-611` (Sem 6), `FST-610..613` (Sem 7), `FST-714` (Sem 8).
+   - **FSTI:** `FST-101..102` (Sem 1), `FST-203..207` (Sem 2), `FST-408` (Sem 4), `FST-610..613` (Sem 6), `FST-714` (Sem 8).
    - **Core STI:** `STI-101..103` (Sem 1) s.d. `STI-728` (Sem 7).
 3. **Zero Risk Kolisi Kurikulum 2025:** Berdasarkan audit forensik terhadap basis data Laporan Kurikulum SIAKAD 2025 (`Laporan Daftar Kurikulum Prodi Sistekin.pdf`), Kurikulum 2025 tidak pernah memiliki mata kuliah berawalan `STA`, `STB`, ataupun `STC` (0 kemunculan), sehingga transisi ke format 3-digit sepenuhnya bebas konflik.
 

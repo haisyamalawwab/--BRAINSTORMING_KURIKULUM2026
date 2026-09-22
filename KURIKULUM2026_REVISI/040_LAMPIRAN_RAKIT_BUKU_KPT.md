@@ -173,7 +173,7 @@ Penerapan kriteria penilaian merujuk **Rubrik Master 4 Klaster MK** (Dok 018 §3
 > Sumber yang dirangkai: Dok 009 (Pedoman Capstone Project & Opsi Tugas Akhir Non-Skripsi). Dasar: Permendikbudristek No. 53/2023 Pasal 19.
 
 ## 33.1 Tujuan & Dasar
-SOP menetapkan mekanisme penyelenggaraan **Tugas Akhir (TA)** yang setara berbobot **6 SKS** (mata kuliah `FST-714` Sem 8) dan **Capstone Project** (`FST-610`, 3 SKS, Sem 7). Prodi menyediakan 4 jalur kelulusan TA yang setara sesuai fleksibilitas tugas akhir.
+SOP menetapkan mekanisme penyelenggaraan **Tugas Akhir (TA)** yang setara berbobot **6 SKS** (mata kuliah `FST-714` Sem 8) dan **Capstone Project** (`FST-610`, 3 SKS, Sem 6). Prodi menyediakan 4 jalur kelulusan TA yang setara sesuai fleksibilitas tugas akhir.
 
 ## 33.2 Empat Jalur Tugas Akhir Setara (6 SKS)
 

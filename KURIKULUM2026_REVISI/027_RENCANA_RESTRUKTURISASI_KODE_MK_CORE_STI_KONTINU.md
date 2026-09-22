@@ -55,7 +55,7 @@ di mana digit semester (1 s.d. 7) dipadukan dengan nomor urut kumulatif (01 s.d.
 
 Mata kuliah non-Core STI yang memiliki prasyarat ke mata kuliah Core STI wajib dimutakhirkan:
 1. **`FST-408` Probabilitas dan Statistika (Sem 4):** Prasyarat tetap `STI-102`.
-2. **`FST-610` Capstone Project FSTI (Sem 7):** Prasyarat `STI-506` $\rightarrow$ diperbarui menjadi **`STI-523`**.
+2. **`FST-610` Capstone Project FSTI (Sem 6):** Prasyarat `STI-506` $\rightarrow$ diperbarui menjadi **`STI-523`**.
 3. **`STA-501` Decision Support Systems (Sem 5):** Prasyarat `STI-402` $\rightarrow$ diperbarui menjadi **`STI-415`**.
 4. **`STB-501` Network Security & Digital Forensics (Sem 5):** Prasyarat `STI-307` $\rightarrow$ diperbarui menjadi **`STI-312`**.
 5. **`STB-601` Cloud Architecture & DevOps (Sem 6):** Prasyarat `STI-404` $\rightarrow$ diperbarui menjadi **`STI-417`**.
