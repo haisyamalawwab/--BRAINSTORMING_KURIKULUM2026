@@ -131,6 +131,8 @@ KURIKULUM2026_REVISI/
 ├── START_LIVE_WATCHER.bat (Trigger Background Watcher untuk Auto-update Excel saat file .md disimpan)
 ├── index.html (Portal Navigasi Interaktif Seluruh Dokumen Kurikulum 2026)
 └── _tools/
+    ├── convert_html_to_docx.py (Engine Konversi Dokumen HTML Portal ke Microsoft Word .docx A4 Portrait)
+    ├── convert_md_to_docx.py (Engine Konversi Markdown Kurikulum ke Microsoft Word .docx A4 Portrait)
     ├── convert_md_to_html.py (Engine Konversi Markdown ke HTML Modern & Interaktif)
     ├── export_all_to_excel.py (Engine Konversi Multi-Sheet Python)
     ├── export_024_awam.py ⭐ (Eksporter Dokumen 024 ke XLSX 8-Sheet & DOCX 9-Tabel untuk Pembaca Non-Teknis)
