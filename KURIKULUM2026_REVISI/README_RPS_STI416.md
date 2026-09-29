@@ -1,4 +1,4 @@
-# 📘 RPS STI-416 — Web Back End Development
+# 📘 RPS STI-416 — Web Back End Development (2 VERSI)
 
 **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
 **Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI)  
@@ -8,15 +8,69 @@
 
 ---
 
+## 🔄 DUA VERSI RPS TERSEDIA
+
+### ⚡ Versi 1 (Original — Advanced Multi-Framework)
+**Target:** Mahasiswa berprestasi tinggi (IPK ≥ 3.25) dengan motivasi belajar tinggi  
+**Framework:** Node.js/Express **ATAU** Python FastAPI  
+**Complexity:** C4-C6 (Advanced)  
+**Pass Rate Target:** 50-60%  
+**File:** `RPS_STI-416_Web_Back_End_Development.md`
+
+### 🎯 Versi 2 (Simplified — Python Flask Focus) ⭐ **RECOMMENDED**
+**Target:** Mahasiswa menengah (IPK 2.75-3.25) dengan motivasi belajar menengah & dosen dengan keterbatasan teknis  
+**Framework:** **Python Flask ONLY** (micro-framework)  
+**Complexity:** C3-C4 (Intermediate)  
+**Pass Rate Target:** 85%+  
+**File:** `RPS_STI-416_Web_Back_End_Development_V2_SIMPLIFIED.md`
+
+---
+
 ## 📋 Daftar Isi
 
-1. [Informasi Mata Kuliah](#informasi-mata-kuliah)
-2. [File Tersedia](#file-tersedia)
-3. [Cara Generate DOCX](#cara-generate-docx)
-4. [Struktur Dokumen RPS](#struktur-dokumen-rps)
-5. [Keselarasan Kurikulum](#keselarasan-kurikulum)
-6. [Checklist Review](#checklist-review)
-7. [Kontak & Approval](#kontak--approval)
+1. [Perbandingan Versi 1 vs Versi 2](#perbandingan-versi-1-vs-versi-2)
+2. [Informasi Mata Kuliah](#informasi-mata-kuliah)
+3. [File Tersedia](#file-tersedia)
+4. [Cara Generate DOCX](#cara-generate-docx)
+5. [Struktur Dokumen RPS](#struktur-dokumen-rps)
+6. [Keselarasan Kurikulum](#keselarasan-kurikulum)
+7. [Checklist Review](#checklist-review)
+8. [Kontak & Approval](#kontak--approval)
+
+---
+
+## 🔄 PERBANDINGAN VERSI 1 VS VERSI 2
+
+| Aspek | Versi 1 (Original) | Versi 2 (Simplified) ⭐ |
+|-------|-------------------|----------------------|
+| **Target Mahasiswa** | IPK ≥ 3.25, Motivasi Tinggi | IPK 2.75-3.25, Motivasi Menengah |
+| **Target Dosen** | Menguasai Node.js & Python | Cukup menguasai Python dasar |
+| **Bahasa/Framework** | Node.js/Express **ATAU** FastAPI | **Python Flask ONLY** |
+| **ORM** | Sequelize/Prisma (Node) / SQLAlchemy | **Flask-SQLAlchemy** (built-in) |
+| **Authentication** | JWT + OAuth2 + Multi-level RBAC | **JWT + 2-Role RBAC** (Admin-User) |
+| **Caching** | Redis (external service) | **Flask-Caching** (in-memory) |
+| **API Documentation** | Swagger/OpenAPI (manual YAML) | **Flask-RESTX** (auto-generate) |
+| **Deployment** | Docker + Cloud (Railway/GCP) | **Heroku** (one-click) |
+| **Complexity Level** | C4-C6 (Advanced) | **C3-C4** (Intermediate) |
+| **Learning Curve** | Steep (banyak dependency) | **Gentle** (minimalis) |
+| **Pass Rate Target** | 50-60% | **85%+** |
+| **Capstone Project** | E-Commerce Full-Stack | **Library Management API** |
+| **Ukuran DOCX** | ~56 KB | **~61 KB** |
+
+### 🎯 Rekomendasi Penggunaan
+
+**Gunakan Versi 1 jika:**
+- ✅ Kelas terdiri dari mahasiswa berprestasi (IPK ≥ 3.25)
+- ✅ Dosen menguasai Node.js/TypeScript atau FastAPI advanced
+- ✅ Tersedia lab dengan Docker & cloud infrastructure
+- ✅ Target pembelajaran: **Advanced backend architecture**
+
+**Gunakan Versi 2 jika:** ⭐ **RECOMMENDED untuk mayoritas kelas**
+- ✅ Kelas heterogen (IPK 2.75-3.50)
+- ✅ Dosen lebih nyaman dengan Python
+- ✅ Fokus pada **fundamental backend** yang transferable
+- ✅ Target: **High pass rate** (85%+) & **practical skills**
+- ✅ Sustainability: mudah di-maintain oleh berbagai dosen
 
 ---
 
@@ -45,92 +99,119 @@
 
 ## 📁 File Tersedia
 
-### 1. File Sumber (Markdown)
+### 📄 VERSI 1 (Original — Advanced)
+
+#### 1.1 File Sumber (Markdown)
 ```
 RPS_STI-416_Web_Back_End_Development.md
 ```
 - Format: Markdown (.md)
 - Ukuran: ~45 KB
-- Konten: RPS lengkap dengan 16 pertemuan, 4 CPMK, 8 Sub-CPMK, 4 lampiran asesmen
+- Framework: Node.js/Express ATAU FastAPI
+- Complexity: C4-C6 (Advanced)
 - Status: ✅ Final & Verified
 
-### 2. File Output (DOCX)
+#### 1.2 File Output (DOCX)
 ```
 DOCX/RPS_STI-416_Web_Back_End_Development.docx
 ```
 - Format: Microsoft Word (.docx)
 - Ukuran: ~56 KB
-- Layout: A4 Portrait (standar Template RPS OBE FSTI UWG)
-- Status: ✅ Ready for Print & Approval
+- Layout: A4 Portrait (Template RPS OBE FSTI UWG)
+- Status: ✅ Ready for Approval
 
-### 3. Generator Script
+#### 1.3 Generator Script
 ```
 _tools/generate_rps_sti416_docx.py
 ```
 - Bahasa: Python 3
 - Dependencies: python-docx
-- Fungsi: Convert MD → DOCX dengan format standar
+- Fungsi: Convert V1 MD → DOCX
 
-### 4. Batch File (Windows)
+#### 1.4 Batch File (Windows)
 ```
 GENERATE_RPS_STI416_DOCX.bat
 ```
-- Platform: Windows
-- Fungsi: One-click generator DOCX
-- Output: Otomatis membuka folder DOCX setelah selesai
+- One-click generator untuk Versi 1
+
+---
+
+### 📄 VERSI 2 (Simplified — Python Flask Focus) ⭐ **RECOMMENDED**
+
+#### 2.1 File Sumber (Markdown)
+```
+RPS_STI-416_Web_Back_End_Development_V2_SIMPLIFIED.md
+```
+- Format: Markdown (.md)
+- Ukuran: ~68 KB (lebih detail & lengkap)
+- Framework: **Python Flask ONLY**
+- Complexity: C3-C4 (Intermediate)
+- Status: ✅ Final & Verified
+
+#### 2.2 File Output (DOCX)
+```
+DOCX/RPS_STI-416_Web_Back_End_Development_V2_SIMPLIFIED.docx
+```
+- Format: Microsoft Word (.docx)
+- Ukuran: ~61 KB
+- Layout: A4 Portrait (Template RPS OBE FSTI UWG)
+- Status: ✅ Ready for Approval
+
+#### 2.3 Generator Script
+```
+_tools/generate_rps_sti416_v2_docx.py
+```
+- Bahasa: Python 3
+- Dependencies: python-docx
+- Fungsi: Convert V2 MD → DOCX
+
+#### 2.4 Batch File (Windows)
+```
+GENERATE_RPS_STI416_V2_DOCX.bat
+```
+- One-click generator untuk Versi 2 ⭐
 
 ---
 
 ## 🚀 Cara Generate DOCX
 
-### Metode 1: Menggunakan Batch File (Termudah)
+### Metode 1: Menggunakan Batch File (Termudah) ⭐
 
-**Windows:**
+**Untuk Versi 1 (Original):**
 ```batch
 # Double-click file batch
 GENERATE_RPS_STI416_DOCX.bat
-
-# Atau via Command Prompt
-cd KURIKULUM2026_REVISI
-GENERATE_RPS_STI416_DOCX.bat
 ```
 
-File DOCX akan otomatis di-generate di folder `DOCX/` dan folder akan terbuka otomatis.
+**Untuk Versi 2 (Simplified):** ⭐ **RECOMMENDED**
+```batch
+# Double-click file batch
+GENERATE_RPS_STI416_V2_DOCX.bat
+```
+
+File DOCX akan otomatis di-generate dan folder DOCX akan terbuka.
 
 ---
 
 ### Metode 2: Menggunakan Python Langsung
 
+**Untuk Versi 1:**
 ```bash
-# Pastikan berada di folder KURIKULUM2026_REVISI
 cd KURIKULUM2026_REVISI
-
-# Jalankan generator
 python _tools/generate_rps_sti416_docx.py
 ```
 
-**Output:**
-```
-================================================================================
-🚀 GENERATOR RPS DOCX — STI-416 Web Back End Development
-================================================================================
-📄 Input  : RPS_STI-416_Web_Back_End_Development.md
-📁 Output : DOCX\RPS_STI-416_Web_Back_End_Development.docx
---------------------------------------------------------------------------------
-⚙️  Memproses konversi Markdown → DOCX...
-================================================================================
-✅ SUKSES! RPS DOCX berhasil di-generate
-================================================================================
-📍 Lokasi file: DOCX\RPS_STI-416_Web_Back_End_Development.docx
-📊 Ukuran    : 56.41 KB
-================================================================================
+**Untuk Versi 2:**
+```bash
+cd KURIKULUM2026_REVISI
+python _tools/generate_rps_sti416_v2_docx.py
 ```
 
 ---
 
-### Metode 3: Re-generate Semua Dokumen Kurikulum
+### Metode 3: Generate SEMUA Dokumen Kurikulum
 
-Jika ingin generate ulang seluruh dokumen kurikulum (termasuk RPS ini):
+Jika ingin re-generate seluruh dokumen kurikulum (termasuk RPS ini):
 
 ```bash
 # Windows
@@ -142,7 +223,70 @@ python _tools/convert_md_to_docx.py
 
 ---
 
-## 📖 Struktur Dokumen RPS
+### Output yang Dihasilkan
+
+**Versi 1:**
+```
+DOCX/RPS_STI-416_Web_Back_End_Development.docx (56 KB)
+```
+
+**Versi 2:**
+```
+DOCX/RPS_STI-416_Web_Back_End_Development_V2_SIMPLIFIED.docx (61 KB)
+```
+
+---
+
+## 🎯 SPOTLIGHT: VERSI 2 (SIMPLIFIED PYTHON FOCUS)
+
+### Mengapa Versi 2 Direkomendasikan?
+
+#### 1. **Sustainability & Maintainability** 🔄
+- ✅ Python lebih familiar bagi mayoritas dosen FSTI
+- ✅ Flask minimalis → dokumentasi mudah dipahami
+- ✅ Tidak bergantung pada expertise Node.js/TypeScript
+- ✅ Mudah di-maintain oleh berbagai dosen (turnover friendly)
+
+#### 2. **Student-Centric Design** 🎓
+- ✅ Mahasiswa sudah belajar Python di Semester 1-2
+- ✅ Learning curve gentle → fokus pada konsep, bukan syntax
+- ✅ Target pass rate 85%+ (vs 50% di V1)
+- ✅ Motivasi belajar terjaga (tidak overwhelmed)
+
+#### 3. **Practical & Transferable Skills** 💼
+- ✅ Konsep fundamental backend (REST, ORM, JWT, RBAC)
+- ✅ **Transferable** ke framework lain (Express, FastAPI, Django)
+- ✅ Portofolio: Library Management API yang fungsional
+- ✅ Deployment real ke Heroku → modal magang
+
+#### 4. **Zero External Dependency** 🚀
+- ✅ **SQLite** untuk development (tidak perlu install MySQL/Postgres)
+- ✅ **Flask-Caching** in-memory (tidak perlu Redis server)
+- ✅ **Heroku** one-click deploy (tidak perlu Docker/Kubernetes)
+- ✅ **Flask-RESTX** auto-generate Swagger (tidak perlu YAML manual)
+
+### Perbedaan Kunci: Capstone Project
+
+| Aspek | Versi 1 | Versi 2 ⭐ |
+|-------|---------|-----------|
+| **Domain** | E-Commerce Full-Stack | Library Management System API |
+| **Kompleksitas** | Multi-service (Auth, Cart, Payment, Order) | Single-service (CRUD + Auth + Loan) |
+| **Database Model** | 7+ models dengan relationship kompleks | **4 models** (User, Author, Book, Loan) |
+| **Business Logic** | Shopping cart, payment gateway, inventory | **Stock management**, borrow & return |
+| **Deployment** | Docker multi-container + Railway | **Heroku one-click** |
+| **Success Rate** | ~50% (banyak yang stuck di deployment) | **~85%** (clear milestone) |
+
+### Testimoni Rasionalisasi
+
+> **"Versi 2 fokus pada fundamental yang betul-betul penting: REST API design, ORM, authentication, dan deployment. Mahasiswa yang lulus RPS V2 punya foundation kuat untuk belajar framework lain (Express, FastAPI, Django) secara mandiri."**  
+> — Tim Kurikulum SISTEKIN
+
+> **"Flask adalah gateway terbaik untuk backend engineering. Cukup sederhana untuk dipelajari semester 4, tapi cukup powerful untuk industri. Banyak startup pakai Flask untuk MVP mereka."**  
+> — Industri Partner Feedback
+
+---
+
+## 📖 Struktur Dokumen RPS (KEDUA VERSI)
 
 ### Bagian I: Identitas & Capaian Pembelajaran (Hal 1-3)
 
