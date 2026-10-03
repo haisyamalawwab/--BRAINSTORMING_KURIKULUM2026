@@ -25,6 +25,35 @@ graph LR
 
 ---
 
+## 0. TABEL PERSAMAAN KODE CPL: KODE BAKU `CPL-01` s.d. `CPL-14` ↔ KODE KATEGORI LAMA
+
+**Konvensi Penomoran CPL (ditetapkan 2 Oktober 2026):** Seluruh CPL dalam ekosistem OBE SISTEKIN 2026 menggunakan **kode baku berurutan `CPL-01` s.d. `CPL-14`**. Kode lama berbasis klaster kategori (`S1`, `KU1`–`KU3`, `P1`–`P4`, `KK1`–`KK6`) ditetapkan sebagai **alias kategori**, dan seluruh kemunculannya pada dokumen ini telah digantikan kode baku. Tabel berikut merupakan **rujukan tunggal persamaan kode** bagi dosen pengampu, Gugus Penjaminan Mutu (GPM), dan penyusun RPS OBE Generator.
+
+| Kode Baku Baru | Kode Lama (Alias Kategori) | Klaster CPL | Deskripsi Ringkas CPL | Level Bloom | Genealogi Sumber (Dok. 003) |
+|:---:|:---:|:---:|---|:---:|---|
+| **CPL-01** | `S1` | Sikap (S) | Integritas, etika komputasi, nilai Pancasila & spiritualitas | A3 (Valuing) | SN-Dikti Sikap 1–10; IS2020 CPL-S01–S08 |
+| **CPL-02** | `KU1` | Keterampilan Umum (KU) | Berpikir kritis, pemecahan masalah kompleks & logika komputasi | C4 (Analyze) | SN-Dikti KU 1 & 3; IS2020 CPL-KU01 |
+| **CPL-03** | `KU2` | Keterampilan Umum (KU) | Komunikasi efektif ilmiah, kepemimpinan & kolaborasi tim | C5 (Evaluate) | SN-Dikti KU 4 & 6; IS2020 CPL-KU02, KU04 |
+| **CPL-04** | `KU3` | Keterampilan Umum (KU) | Tanggung jawab etis, kepatuhan regulasi siber & hukum digital | C5 (Evaluate) | SN-Dikti KU 2, 5, 7–9; IS2020 CPL-KU03, KU05–KU08 |
+| **CPL-05** | `P1` | Pengetahuan (P) | Fondasi matematika sains komputer, logika, aljabar & kalkulus | C3 (Apply) | IS2020 CPL-P05; IT2017 Pengetahuan P1 |
+| **CPL-06** | `P2` | Pengetahuan (P) | Konsep sistem informasi cerdas, arsitektur data & tata kelola | C4 (Analyze) | IS2020 CPL-P01, P04, P09, P16; IT2017 Pengetahuan P2 |
+| **CPL-07** | `P3` | Pengetahuan (P) | Infrastruktur komputasi awan, jaringan, IoT & keamanan siber | C4 (Analyze) | IS2020 CPL-P03, P06, P07, P08; IT2017 Pengetahuan P2 |
+| **CPL-08** | `P4` | Pengetahuan (P) | Rekayasa perangkat lunak, algoritma pemrograman & platform | C4 (Analyze) | IS2020 CPL-P02, P10–P14; IT2017 Pengetahuan P1 |
+| **CPL-09** | `KK1` | Keterampilan Khusus (KK) | Merancang, melatih & mengintegrasikan model Machine Learning/AI | C6 (Create) | IS2020 CPL-K01, K09, K13, K16; IT2017 KK1 |
+| **CPL-10** | `KK2` | Keterampilan Khusus (KK) | Rekayasa data end-to-end, data mining, DWH/BI & analitik | C6 (Create) | IS2020 CPL-K01, K13, K16; IT2017 KK1 |
+| **CPL-11** | `KK3` | Keterampilan Khusus (KK) | Mengonfigurasi cloud infra, arsitektur jaringan & telemetri IoT | C6 (Create) | IS2020 CPL-K02, K05, K06, K17; IT2017 KK2 & KK3 |
+| **CPL-12** | `KK4` | Keterampilan Khusus (KK) | Menganalisis risiko keamanan siber, pentest & tata kelola TI | C5 (Evaluate) | IS2020 CPL-K05, K06, K07, K14; IT2017 KK3 |
+| **CPL-13** | `KK5` | Keterampilan Khusus (KK) | Membangun web/mobile multi-platform, UI/UX & microservices | C6 (Create) | IS2020 CPL-K03, K04, K08, K10–K12; IT2017 KK1 |
+| **CPL-14** | `KK6` | Keterampilan Khusus (KK) | Mengelola proyek TI secara adaptif, startup digital & bisnis | C6 (Create) | IS2020 CPL-K08, K15; IT2017 KK1 |
+
+> **Catatan Anti-Kolisi Notasi (WAJIB dibaca):**
+> 1. **"(S1)" pada judul program studi** adalah jenjang Sarjana — **bukan** kode CPL dan tidak berubah.
+> 2. **Label Peminatan P1/P2/P3** (P1 *Integrated Smart Systems*; P2 *Cloud Infrastructure & Cybersecurity*; P3 *Digital Platform Engineering*) adalah penamaan jalur peminatan — **berbeda dari kode CPL-05 s.d. CPL-07** dan tidak berubah.
+> 3. Kode genealogi pada kolom sumber (`CPL-S01–S08`, `CPL-KU01–08`, `CPL-P01–P17`, `CPL-K01–K17` milik IS2020, serta `P1–P2` dan `KK1–KK3` milik IT2017) adalah kode baku standar rujukan — **berbeda dari alias CPL lama** meskipun notasinya mirip.
+> 4. Rumusan lengkap CPL (ABCD), indikator kinerja, dan pemetaan BoK tetap merujuk **Dokumen 003** serta **Dokumen 009A–009E**; tabel ini hanya menetapkan persamaan kode.
+
+---
+
 ## 1. MATRIKS KESELARASAN STRATEGIS: VMTS 2045 ↔ 3 PEO ↔ 4 PROFIL LULUSAN (PL)
 
 | Pilar VMTS 2045 SISTEKIN UWG | Rumusan PEO Terkait (3–5 Thn Lulus) | Profil Lulusan yang Dituju | Domain Karir / Peran Utama Alumni |
@@ -39,9 +68,9 @@ graph LR
 
 | Kode PEO | Deskripsi Singkat PEO | Profil Lulusan Utama | Pemetaan 14 CPL SN-Dikti & APTIKOM |
 |:---:|---|:---:|---|
-| **PEO-1** | **Professional Practice & Systems Integration:** Menjadi praktisi profesional yang kompeten merancang, mengintegrasikan, mengamankan, dan mengelola solusi AI, cloud, dan platform digital. | **PL-1, PL-2, PL-3** *(primer)*<br>PL-4 *(sekunder)* | **S1, KU1, KU3, P1, P2, P3, P4, KK1, KK2, KK3, KK4, KK5, KK6** |
-| **PEO-2** | **Digital Innovation & Technopreneurship:** Menjadi inovator produk digital, technopreneur mandiri, atau konsultan transformasi digital yang adaptif terhadap dinamika industri. | **PL-4, PL-3** *(primer)*<br>PL-1, PL-2 *(sekunder)* | **S1, KU1, KU2, KU3, P2, P4, KK5, KK6** |
-| **PEO-3** | **Advanced Study, Research & Lifelong Learning:** Menjadi pembelajar sepanjang hayat yang mampu melanjutkan studi pascasarjana, riset terapan, dan sertifikasi keahlian internasional. | **PL-1, PL-2, PL-3, PL-4** *(seluruh PL)* | **S1, KU1, KU2, P1, P2, P3, P4, KK1, KK2, KK3, KK4** |
+| **PEO-1** | **Professional Practice & Systems Integration:** Menjadi praktisi profesional yang kompeten merancang, mengintegrasikan, mengamankan, dan mengelola solusi AI, cloud, dan platform digital. | **PL-1, PL-2, PL-3** *(primer)*<br>PL-4 *(sekunder)* | **CPL-01, CPL-02, CPL-04, CPL-05, CPL-06, CPL-07, CPL-08, CPL-09, CPL-10, CPL-11, CPL-12, CPL-13, CPL-14** |
+| **PEO-2** | **Digital Innovation & Technopreneurship:** Menjadi inovator produk digital, technopreneur mandiri, atau konsultan transformasi digital yang adaptif terhadap dinamika industri. | **PL-4, PL-3** *(primer)*<br>PL-1, PL-2 *(sekunder)* | **CPL-01, CPL-02, CPL-03, CPL-04, CPL-06, CPL-08, CPL-13, CPL-14** |
+| **PEO-3** | **Advanced Study, Research & Lifelong Learning:** Menjadi pembelajar sepanjang hayat yang mampu melanjutkan studi pascasarjana, riset terapan, dan sertifikasi keahlian internasional. | **PL-1, PL-2, PL-3, PL-4** *(seluruh PL)* | **CPL-01, CPL-02, CPL-03, CPL-05, CPL-06, CPL-07, CPL-08, CPL-09, CPL-10, CPL-11, CPL-12** |
 
 ---
 
@@ -56,7 +85,7 @@ graph LR
 
 ### TABEL 3.1: MATRIKS KETERLACAKAN TAHAP FONDASI (SEMESTER 1 & SEMESTER 2)
 
-| No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
+| No | Kode MK | Nama Mata Kuliah | SKS | CPL-01 | CPL-02 | CPL-03 | CPL-04 | CPL-05 | CPL-06 | CPL-07 | CPL-08 | CPL-09 | CPL-10 | CPL-11 | CPL-12 | CPL-13 | CPL-14 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | `FST-101` | Dasar Teknologi Digital | 2 | | **I** | | | | **I** | | | | | | | | | PL-1, PL-2, PL-3 | PEO-1 | **I** |
 | 2 | `FST-102` | Algoritma & Pemrograman | 3 | | **I** | | | | | | **I** | | | | | | | PL-1, PL-3, PL-4 | PEO-1, PEO-3 | **I** |
@@ -79,7 +108,7 @@ graph LR
 
 ### TABEL 3.2: MATRIKS KETERLACAKAN TAHAP PENGUATAN INTI REKAYASA (SEMESTER 3 & SEMESTER 4)
 
-| No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
+| No | Kode MK | Nama Mata Kuliah | SKS | CPL-01 | CPL-02 | CPL-03 | CPL-04 | CPL-05 | CPL-06 | CPL-07 | CPL-08 | CPL-09 | CPL-10 | CPL-11 | CPL-12 | CPL-13 | CPL-14 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 17 | `STI-306` | Analisis & Perancangan SI | 3 | | **R** | | | | **R** | | | | | | | | | PL-1, PL-3 | PEO-1 | **R** |
 | 18 | `STI-307` | Sistem Cerdas | 2 | | | | | | **R** | | | **R** | | | | | | PL-1 | PEO-1, PEO-3 | **R** |
@@ -102,7 +131,7 @@ graph LR
 
 ### TABEL 3.3: MATRIKS KETERLACAKAN TAHAP SPESIALISASI & LANJUT (SEMESTER 5 & SEMESTER 6)
 
-| No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
+| No | Kode MK | Nama Mata Kuliah | SKS | CPL-01 | CPL-02 | CPL-03 | CPL-04 | CPL-05 | CPL-06 | CPL-07 | CPL-08 | CPL-09 | CPL-10 | CPL-11 | CPL-12 | CPL-13 | CPL-14 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 32 | `STI-519` | Keamanan Informasi Lanjut | 3 | | | | | | | **M** | | | | **M** | **M** | | | PL-2 | PEO-1 | **M** |
 | 33 | `STI-520` | Data Mining & Visualisasi | 3 | | | | | | **R** | | | | **R** | | | | | PL-1 | PEO-1 | **R** |
@@ -124,7 +153,7 @@ graph LR
 
 ### TABEL 3.4: MATRIKS KETERLACAKAN TAHAP PUNCAK & KARYA AKHIR (SEMESTER 7 & SEMESTER 8)
 
-| No | Kode MK | Nama Mata Kuliah | SKS | S1 | KU1 | KU2 | KU3 | P1 | P2 | P3 | P4 | KK1 | KK2 | KK3 | KK4 | KK5 | KK6 | Target PL | Target PEO | Status IRM |
+| No | Kode MK | Nama Mata Kuliah | SKS | CPL-01 | CPL-02 | CPL-03 | CPL-04 | CPL-05 | CPL-06 | CPL-07 | CPL-08 | CPL-09 | CPL-10 | CPL-11 | CPL-12 | CPL-13 | CPL-14 | Target PL | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 46 | `STI-728` | Inovasi & Startup Digital | 3 | | | | | | | | | | | | | | **M** | PL-4 | PEO-2 | **M** |
 | 47 | `STI-726` | Integrasi Layanan Cerdas AI | 3 | | | | | | **M** | | | **M** | | | | | | PL-1 | PEO-1, PEO-3 | **M** |
@@ -143,12 +172,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P1 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STA-501` | Decision Support Systems | 3 | 5 | P2, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **R** |
-| 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | P2, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
-| 3 | `STA-602` | Intelligent Agent Systems | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-3 | **M** |
-| 4 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | P4, KK1, KK2 | PL-1 | PEO-1, PEO-3 | **M** |
-| 5 | `STA-702` | Conversational AI & Intelligent Assistant | 3 | 7 | P2, KK1 | PL-1 | PEO-1, PEO-2 | **M** |
-| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | 7 | P3, KK1, KK3 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
+| 1 | `STA-501` | Decision Support Systems | 3 | 5 | CPL-06, CPL-09, CPL-10 | PL-1 | PEO-1, PEO-3 | **R** |
+| 2 | `STA-601` | Rekayasa Big Data dan Komputasi Terdistribusi | 3 | 6 | CPL-06, CPL-10 | PL-1 | PEO-1, PEO-3 | **M** |
+| 3 | `STA-602` | Intelligent Agent Systems | 3 | 7 | CPL-06, CPL-09 | PL-1 | PEO-1, PEO-3 | **M** |
+| 4 | `STA-701` | MLOps and AI Pipeline | 3 | 7 | CPL-08, CPL-09, CPL-10 | PL-1 | PEO-1, PEO-3 | **M** |
+| 5 | `STA-702` | Conversational AI & Intelligent Assistant | 3 | 7 | CPL-06, CPL-09 | PL-1 | PEO-1, PEO-2 | **M** |
+| 6 | `STA-703` | Smart Surveillance and IoT Analytics | 3 | 7 | CPL-07, CPL-09, CPL-11 | PL-1, PL-2 | PEO-1, PEO-3 | **M** |
 
 ---
 
@@ -156,12 +185,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P2 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STB-501` | Network Security & Digital Forensics | 3 | 5 | P3, KK3, KK4 | PL-2 | PEO-1, PEO-3 | **R** |
-| 2 | `STB-601` | Cloud Architecture & DevOps | 3 | 6 | P3, P4, KK3 | PL-2 | PEO-1, PEO-3 | **M** |
-| 3 | `STB-602` | Cybersecurity Risk Management | 3 | 7 | P3, KK4 | PL-2 | PEO-1 | **M** |
-| 4 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
-| 5 | `STB-702` | IT Service Management (ITIL 4) | 3 | 7 | P2, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
-| 6 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | 7 | P2, P3, KK4 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 1 | `STB-501` | Network Security & Digital Forensics | 3 | 5 | CPL-07, CPL-11, CPL-12 | PL-2 | PEO-1, PEO-3 | **R** |
+| 2 | `STB-601` | Cloud Architecture & DevOps | 3 | 6 | CPL-07, CPL-08, CPL-11 | PL-2 | PEO-1, PEO-3 | **M** |
+| 3 | `STB-602` | Cybersecurity Risk Management | 3 | 7 | CPL-07, CPL-12 | PL-2 | PEO-1 | **M** |
+| 4 | `STB-701` | IT Governance & Compliance (COBIT 2019) | 3 | 7 | CPL-07, CPL-12 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 5 | `STB-702` | IT Service Management (ITIL 4) | 3 | 7 | CPL-06, CPL-12 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
+| 6 | `STB-703` | Enterprise Architecture (TOGAF) | 3 | 7 | CPL-06, CPL-07, CPL-12 | PL-2, PL-4 | PEO-1, PEO-2 | **M** |
 
 ---
 
@@ -169,12 +198,12 @@ graph LR
 
 | No | Kode MK | Nama Mata Kuliah Pilihan P3 | SKS | Sem | CPL Dibina | PL Relevan | Target PEO | Status IRM |
 |:---:|:---:|---|:---:|:---:|---|:---:|:---:|:---:|
-| 1 | `STC-501` | User Experience Research & Design | 3 | 5 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **R** |
-| 2 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | P2, P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 4 | `STC-701` | Immersive Media & XR Development | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-3 | **M** |
-| 5 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | 7 | P4, KK5 | PL-3 | PEO-1, PEO-2 | **M** |
-| 6 | `STC-703` | Digital Product Management & Agile | 3 | 7 | P2, KK6 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
+| 1 | `STC-501` | User Experience Research & Design | 3 | 5 | CPL-08, CPL-13 | PL-3 | PEO-1, PEO-2 | **R** |
+| 2 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | 6 | CPL-06, CPL-08, CPL-13 | PL-3 | PEO-1, PEO-2 | **M** |
+| 3 | `STC-602` | Rekayasa Aplikasi Industri Vertikal | 3 | 7 | CPL-08, CPL-13 | PL-3 | PEO-1, PEO-2 | **M** |
+| 4 | `STC-701` | Immersive Media & XR Development | 3 | 7 | CPL-08, CPL-13 | PL-3 | PEO-1, PEO-3 | **M** |
+| 5 | `STC-702` | SaaS Architecture & Multi-Tenancy | 3 | 7 | CPL-08, CPL-13 | PL-3 | PEO-1, PEO-2 | **M** |
+| 6 | `STC-703` | Digital Product Management & Agile | 3 | 7 | CPL-06, CPL-14 | PL-3, PL-4 | PEO-1, PEO-2 | **M** |
 
 ---
 
@@ -182,20 +211,20 @@ graph LR
 
 | Kategori CPL | Kode CPL | Deskripsi Ringkas CPL | Jumlah MK Pembina | Total SKS Pembina Langsung |
 |---|:---:|---|:---:|:---:|
-| **Sikap (S)** | **S1** | Integritas, etika komputasi, nilai Pancasila & spiritualitas | 7 MK Wajib + Capstone + TA | 21 SKS |
-| **Keterampilan Umum (KU)** | **KU1** | Berpikir kritis, pemecahan masalah kompleks & logika komputasi | 10 MK Wajib + Capstone + TA | 29 SKS |
-| | **KU2** | Komunikasi efektif ilmiah, kepemimpinan & kolaborasi tim | 6 MK Wajib + Capstone + TA | 18 SKS |
-| | **KU3** | Tanggung jawab etis, kepatuhan regulasi siber & hukum digital | 4 MK Wajib + Capstone + TA | 14 SKS |
-| **Pengetahuan (P)** | **P1** | Fondasi matematika sains komputer, logika, aljabar & kalkulus | 7 MK Wajib | 20 SKS |
-| | **P2** | Konsep sistem informasi cerdas, arsitektur data & tata kelola | 12 MK Wajib + Elektif | 34 SKS |
-| | **P3** | Infrastruktur komputasi awan, jaringan, IoT & keamanan siber | 10 MK Wajib + Elektif | 28 SKS |
-| | **P4** | Rekayasa perangkat lunak, algoritma pemrograman & platform | 11 MK Wajib + Elektif | 32 SKS |
-| **Keterampilan Khusus (KK)** | **KK1** | Merancang, melatih & mengintegrasikan model Machine Learning/AI | 5 MK Inti + 5 MK P1 | 30 SKS |
-| | **KK2** | Rekayasa data end-to-end, data mining, DWH/BI & analitik | 4 MK Inti + 3 MK P1 | 21 SKS |
-| | **KK3** | Mengonfigurasi cloud infra, arsitektur jaringan & telemetri IoT | 7 MK Inti + 3 MK P2 | 30 SKS |
-| | **KK4** | Menganalisis risiko keamanan siber, pentest & tata kelola TI | 3 MK Inti + 5 MK P2 | 24 SKS |
-| | **KK5** | Membangun web/mobile multi-platform, UI/UX & microservices | 7 MK Inti + 5 MK P3 | 36 SKS |
-| | **KK6** | Mengelola proyek TI secara adaptif, startup digital & bisnis | 4 MK Inti + 2 MK P3 + Capstone | 21 SKS |
+| **Sikap (S)** | **CPL-01** | Integritas, etika komputasi, nilai Pancasila & spiritualitas | 7 MK Wajib + Capstone + TA | 21 SKS |
+| **Keterampilan Umum (KU)** | **CPL-02** | Berpikir kritis, pemecahan masalah kompleks & logika komputasi | 10 MK Wajib + Capstone + TA | 29 SKS |
+| | **CPL-03** | Komunikasi efektif ilmiah, kepemimpinan & kolaborasi tim | 6 MK Wajib + Capstone + TA | 18 SKS |
+| | **CPL-04** | Tanggung jawab etis, kepatuhan regulasi siber & hukum digital | 4 MK Wajib + Capstone + TA | 14 SKS |
+| **Pengetahuan (P)** | **CPL-05** | Fondasi matematika sains komputer, logika, aljabar & kalkulus | 7 MK Wajib | 20 SKS |
+| | **CPL-06** | Konsep sistem informasi cerdas, arsitektur data & tata kelola | 12 MK Wajib + Elektif | 34 SKS |
+| | **CPL-07** | Infrastruktur komputasi awan, jaringan, IoT & keamanan siber | 10 MK Wajib + Elektif | 28 SKS |
+| | **CPL-08** | Rekayasa perangkat lunak, algoritma pemrograman & platform | 11 MK Wajib + Elektif | 32 SKS |
+| **Keterampilan Khusus (KK)** | **CPL-09** | Merancang, melatih & mengintegrasikan model Machine Learning/AI | 5 MK Inti + 5 MK P1 | 30 SKS |
+| | **CPL-10** | Rekayasa data end-to-end, data mining, DWH/BI & analitik | 4 MK Inti + 3 MK P1 | 21 SKS |
+| | **CPL-11** | Mengonfigurasi cloud infra, arsitektur jaringan & telemetri IoT | 7 MK Inti + 3 MK P2 | 30 SKS |
+| | **CPL-12** | Menganalisis risiko keamanan siber, pentest & tata kelola TI | 3 MK Inti + 5 MK P2 | 24 SKS |
+| | **CPL-13** | Membangun web/mobile multi-platform, UI/UX & microservices | 7 MK Inti + 5 MK P3 | 36 SKS |
+| | **CPL-14** | Mengelola proyek TI secara adaptif, startup digital & bisnis | 4 MK Inti + 2 MK P3 + Capstone | 21 SKS |
 
 ---
 

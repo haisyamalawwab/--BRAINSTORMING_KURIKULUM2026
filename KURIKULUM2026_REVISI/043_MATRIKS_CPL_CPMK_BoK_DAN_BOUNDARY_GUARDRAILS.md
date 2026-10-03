@@ -348,7 +348,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 | `STI-308` | UI/UX Design & Prototyping | 3 | `FST-101` | `KK5` | `BK-IS17` *Human-Computer Interaction* | Prinsip Human-Computer Interaction (HCI), Heuristic Evaluation, U... |
 | `STI-309` | Rekayasa Perangkat Lunak | 3 | `FST-203` | `P4` , `KK5` | `BK-IS07` *Systems Analysis and Design* | Prinsip Rekayasa Perangkat Lunak, Arsitektur Perangkat Lunak (Lay... |
 | `STI-310` | Sistem Operasi | 3 | `STI-103` | `P3` , `KK3` | `BK-IS03` *IT Infrastructure* | Konsep Sistem Operasi, Manajemen Proses & Threading, Concurrency ... |
-| `STI-311` | Web Front End Development | 3 | `FST-102` | `P4` , `KK5` | `BK-IS12` *Web Application Development* | Semantic HTML5, Modern CSS3, Responsive Design (Grid, Flexbox, Ta... |
+| `STI-311` | Web Front End Development | 3 | `FST-102` | `P4` , `KK5` | `BK-IS12` *Web and Mobile Application Development* | Semantic HTML5, Modern CSS3, Responsive Design (Grid, Flexbox, Ta... |
 | `STI-312` | Jaringan Komputer | 3 | `STI-103` | `P3` , `KK3` | `BK-IS03` *IT Infrastructure* | Model OSI 7 Layer, Protokol TCP/IP, IP Addressing (IPv4/IPv6 Subn... |
 
 #### STI-306 — Analisis dan Perancangan Sistem Informasi
@@ -633,7 +633,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 #### STI-311 — Web Front End Development
 * **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `FST-102`
 * **CPL yang Dibebankan:** `P4` (Pemrograman Web Modern), `KK5` (Single Page Application / SPA)
-* **Body of Knowledge (BoK):** `BK-IS12` *Web Application Development*, `BK-IT04` *Platform Technologies*
+* **Body of Knowledge (BoK):** `BK-IS12` *Web and Mobile Application Development*, `BK-IT04` *Platform Technologies*
 
 **Formulasi CPMK (Format ABCD & Level Bloom):**
 
