@@ -4,9 +4,9 @@
 >
 > 1. **Satu-satunya Lokasi Keluaran Perangkat Ajar:** Seluruh paket perangkat ajar mata kuliah (**RPS, SAP, Outline Modul, Rencana Evaluasi & Asesmen, Rubrik Penilaian**, maupun ekspansi **Modul Ajar Utuh, Bank Soal, Jobsheet Praktikum, dan Slide Perkuliahan**) **WAJIB langsung dibuat, diperkaya, dan disimpan di dalam folder `KURIKULUM2026_REVISI/PERANGKAT_AJAR/` ini**.
 > 2. **Larangan Menulis di Root `KURIKULUM2026_REVISI/`:** **JANGAN** lagi menaruh berkas `055_*` s.d. `100_*` (atau perangkat ajar lanjutan lainnya) di root `KURIKULUM2026_REVISI/`. Root folder dikhususkan hanya untuk dokumen induk Buku Kurikulum KPT-OBE (`000`–`054`, `BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md`, dan template master).
-> 3. **Status Saat Ini (Update 7 November 2026):** Sebanyak **130 berkas perangkat ajar (`055_*` s.d. `080_*` — Semester 1 s.d. Semester 5, 26 Mata Kuliah × 5 dokumen)** telah tersedia di folder ini:
->    - **Generator Pengayaan / Ekspansi Konten** (mis. pendalaman narasi materi per pertemuan, studi kasus, soal, dan rubrik seperti yang telah diterapkan pada `055`–`059`): silakan **langsung mengedit berkas `060_*` s.d. `080_*` di folder ini**.
->    - **Generator Tahap Berikutnya (Semester 6–7):** silakan **langsung melanjutkan mulai nomor `081_*` di folder ini** sesuai tabel penomoran baku di Bagian 2.
+> 3. **Status Saat Ini (Update 7 November 2026):** Sebanyak **155 berkas perangkat ajar (`055_*` s.d. `085_*` — Semester 1 s.d. Semester 6, 31 Mata Kuliah × 5 dokumen)** telah tersedia di folder ini:
+>    - **Generator Pengayaan / Ekspansi Konten** (mis. pendalaman narasi materi per pertemuan, studi kasus, soal, dan rubrik seperti yang telah diterapkan pada `055`–`059`): silakan **langsung mengedit berkas `060_*` s.d. `085_*` di folder ini**.
+>    - **Generator Tahap Berikutnya (Semester 7):** silakan **langsung melanjutkan mulai nomor `086_*` di folder ini** sesuai tabel penomoran baku di Bagian 2.
 
 ---
 
@@ -71,7 +71,7 @@ Seluruh atribut di bawah ini ditarik langsung dari **Single Source of Truth `../
 | `079` | 5 | `STB-501` | Keamanan Jaringan dan Forensik Digital | 3 | +P | `STI-312`, `STI-418` | P2: Cloud Infra & Cybersecurity |
 | `080` | 5 | `STC-501` | Riset & Desain Pengalaman Pengguna (UX) | 3 | +P | `STI-308` | P3: Digital Platform Engineering |
 
-### C. Tahap 6: Semester 6 (`081`–`085` — 5 MK / 25 Berkas) — ANTREAN LANJUTAN
+### C. Tahap 6: Semester 6 (`081`–`085` — 5 MK / 25 Berkas) — TERSEDIA
 
 | `<NNN>` | Sem | Kode MK | Nama Mata Kuliah Resmi (Dok 005) | SKS | Tipe | Prasyarat Resmi | Rumpun / Jalur |
 |:---:|:---:|:---:|---|:---:|:---:|---|---|
