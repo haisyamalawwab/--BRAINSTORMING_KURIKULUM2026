@@ -4,6 +4,11 @@
 > FSTI UWG. Sudah teruji pada 2 unit pilot: **STI-416** (V2 simplified) dan **STI-311**
 > (isi penuh template). Ganti nilai pada blok PARAMETER, lalu jalankan tahapan T0–T6
 > secara berurutan. Jangan melompat tahap.
+>
+> **CATATAN PENTING REORGANISASI FOLDER (Update 7 November 2026 — WAJIB DIPATUHI SEMUA GENERATOR BAHAN AJAR):**
+> - Seluruh paket perangkat ajar Markdown seri bernomor (`055_*` s.d. `100_*`: `_1_RPS`, `_2_SAP`, `_3_OUTLINE_MODUL`, `_4_RENCANA_EVALUASI_ASESMEN`, `_5_RUBRIK_PENILAIAN`, maupun bahan ajar turunan seperti modul penuh, jobsheet, slide, dan bank soal) **telah direorganisasi ke subfolder `KURIKULUM2026_REVISI/PERANGKAT_AJAR/`** (90 berkas `055_*`–`072_*` Semester 1–4 sudah berada di folder tersebut).
+> - **Semua generator bahan ajar lainnya WAJIB langsung membaca, memperkaya, dan membangkitkan berkas lanjutan di dalam `KURIKULUM2026_REVISI/PERANGKAT_AJAR/`** (JANGAN lagi menaruh berkas perangkat ajar baru di root `KURIKULUM2026_REVISI/`).
+> - Sebelum membangkitkan mata kuliah baru atau memperkaya berkas yang sudah ada, **baca `KURIKULUM2026_REVISI/PERANGKAT_AJAR/README.md`** untuk daftar nomor urut resmi `<NNN>` (`055`–`100`) dan aturan kepatuhan terhadap Dokumen 005.
 
 ---
 
@@ -23,7 +28,7 @@ master, tanpa mengarang data, tanpa klaim berlebihan.
 | TGL_SUSUN | tanggal penyusunan | 30 September 2026 |
 | KODE_PRODI | pola `B4.5.2.RPS-<KODE_MK>` | B4.5.2.RPS-STI311 |
 | OUT_DOCX | `DOCX/RPS_<KODE_MK>_<Nama_MK_EN>.docx` | DOCX/RPS_STI-311_Web_Front_End_Development.docx |
-| OUT_MD | `RPS_<KODE_MK>_<Nama_MK_EN>.md` | RPS_STI-311_Web_Front_End_Development.md |
+| OUT_MD | `PERANGKAT_AJAR/<NNN>_1_RPS_<KODE_MK>_<NAMA_MK_ID_KAPITAL>_<DDMMYYYY>.md` *(atau `PERANGKAT_AJAR/RPS_<KODE_MK>_<Nama_MK_EN>.md` untuk companion DOCX tunggal; pilot lama tetap di root)* | PERANGKAT_AJAR/065_1_RPS_STI-311_PENGEMBANGAN_WEB_FRONT_END_07112026.md |
 | OUT_SCRIPT | `_tools/generate_rps_<kodemk-tanpa-stri>_docx.py` | _tools/generate_rps_sti311_docx.py |
 
 ## 2. SUMBER DATA WAJIB (satu-satunya sumber kebenaran)

@@ -2,7 +2,7 @@ import os
 import re
 import glob
 
-base = r'd:\!!MYDOCUMENTS2026\!!!SISTEKIN2026\!!BRAINSTORMING_KURIKULUM2026\KURIKULUM2026_REVISI'
+base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 f005_path = os.path.join(base, '005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md')
 
 with open(f005_path, 'r', encoding='utf-8') as f:
@@ -43,9 +43,12 @@ for line in d005.splitlines():
 
 print(f"Parsed {len(courses_005)} courses from Dokumen 005 tables.")
 
-# List of all markdown files
-md_files = glob.glob(os.path.join(base, "*.md"))
-print(f"Scanning {len(md_files)} markdown files in {base}...\n")
+# List of all markdown files (root + PERANGKAT_AJAR/)
+md_files = sorted(
+    glob.glob(os.path.join(base, "*.md"))
+    + glob.glob(os.path.join(base, "PERANGKAT_AJAR", "*.md"))
+)
+print(f"Scanning {len(md_files)} markdown files in {base} (including PERANGKAT_AJAR/)...\n")
 
 audit_results = {
     'obsolete_codes': [],
@@ -73,6 +76,7 @@ whitelist_old_code_files = [
 
 for fpath in sorted(md_files):
     fname = os.path.basename(fpath)
+    rel_name = os.path.relpath(fpath, base)
     with open(fpath, 'r', encoding='utf-8') as f:
         content = f.read()
 
@@ -90,7 +94,7 @@ for fpath in sorted(md_files):
     # Check 2: Deep Learning in Semester 5
     # Matches like "STI-519 Deep Learning" or "Deep Learning ... Sem 5"
     if re.search(r'STI-519(?:\s+[—\-]\s+|\s+)?Deep Learning', content, re.IGNORECASE):
-        file_issues.append("Menyebut 'STI-519 Deep Learning' (seharusnya STI-626 di Sem 6)")
+        file_issues.append("Menyebut 'STI-519 Deep Learning' (seharusnya STI-624 di Sem 6)")
     if re.search(r'Deep Learning[^\n.]{0,30}\([^)]*Sem 5\)', content):
         file_issues.append("Menyebut Deep Learning di Sem 5")
 
@@ -98,23 +102,22 @@ for fpath in sorted(md_files):
     if re.search(r'STI-626(?:\s+[—\-]\s+|\s+)?Keamanan Informasi Lanjut', content, re.IGNORECASE):
         file_issues.append("Menyebut 'STI-626 Keamanan Informasi Lanjut' (seharusnya STI-519 di Sem 5)")
 
-    # Check 4: STI-625 Smart City 3 SKS (bukan 2 SKS)
-    # Ensure it only matches STI-625 followed immediately by 3 SKS, not spanning to another course
-    if re.search(r'STI-625(?:\s*\(2026\))?[^\w\n,;]{0,15}(?:3\s*SKS|\(\s*3\s*\))', content):
-        if fname not in whitelist_old_code_files and fname != '024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md':
-            file_issues.append("Menyebut STI-625 berbobot 3 SKS (seharusnya 2 SKS)")
+    # Check 4: Smart City (STI-727 pasca Dok 051, atau STI-625 pra-Dok 051) berbobot 3 SKS (seharusnya 2 SKS)
+    if re.search(r'STI-727(?:\s*\(2026\))?[^\w\n,;]{0,35}(?:3\s*SKS|\|\s*3\s*\|)', content) or re.search(r'STI-625[^\n]{0,30}Smart City[^\n]{0,20}3\s*SKS', content, re.IGNORECASE):
+        if fname not in whitelist_old_code_files and fname not in ('024_MATRIKS_EKIVALENSI_KURIKULUM2025_KE_KURIKULUM2026.md', '050_DEV_REPORT_DAN_LOG_PERTUKARAN_STRUKTUR_SEM6_SEM7_DAN_HARMONISASI_KURIKULUM.md', '051_DEV_REPORT_DAN_LOG_RESTRUKTURISASI_KODE_MK_PASCA_PERTUKARAN_SEM6_SEM7.md'):
+            file_issues.append("Menyebut Smart City berbobot 3 SKS (seharusnya 2 SKS)")
 
     # Check 5: Prerequisite of STI-624 (should not be STI-519)
     if re.search(r'STI-624[^|\n]*[Pp]rasyarat[^|\n]*STI-519', content):
         file_issues.append("Prasyarat STI-624 masih merujuk STI-519")
 
     if file_issues:
-        print(f"[FAIL] {fname}:")
+        print(f"[FAIL] {rel_name}:")
         for iss in file_issues:
             print(f"    - {iss}")
     else:
-        audit_results['clean_files'].append(fname)
-        print(f"[OK] {fname} : 100% Selaras dengan Dok 005")
+        audit_results['clean_files'].append(rel_name)
+        print(f"[OK] {rel_name} : 100% Selaras dengan Dok 005")
 
 print(f"\n=======================================================")
 print(f"TOTAL FILE BERSIH & SELARAS: {len(audit_results['clean_files'])} / {len(md_files)}")
