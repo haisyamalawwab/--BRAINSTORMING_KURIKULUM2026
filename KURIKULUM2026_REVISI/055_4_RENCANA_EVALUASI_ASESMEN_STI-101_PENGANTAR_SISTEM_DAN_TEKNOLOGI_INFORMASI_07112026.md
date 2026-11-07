@@ -1,166 +1,323 @@
-# 055_4 — RENCANA EVALUASI DAN ASESMEN PEMBELAJARAN BERBASIS OBE
-## STI-101 — PENGANTAR SISTEM DAN TEKNOLOGI INFORMASI (*Introduction to Systems and Information Technology*)
+# RENCANA EVALUASI DAN ASESMEN
+## STI-101 — PENGANTAR SISTEM DAN TEKNOLOGI INFORMASI
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 1 — Tahap Fondasi)  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI101`  
-**Klaster Asesmen MK (Dok 018):** Klaster 4 (`K-4`) — Sintesis, Sistem Informasi, & Manajemen  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan:** Panduan KPT 2024 Dikti (Tabel 16, 17, 21, 26 & Lampiran RTM) · Permendikbudristek No. 53/2023 · Dok 008 (Formula CPL Attainment & Skema 4x Evaluasi) · Dok 018 (Model Asesmen Dosen & Integritas AI) · Dok 041 Lampiran 23 (Format RTM) · `055_1_RPS_STI-101_...md`.
+> **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang
+> **Dokumen induk:** `055_1_RPS_STI-101_PENGANTAR_SISTEM_DAN_TEKNOLOGI_INFORMASI_07112026.md`
+> **Rujukan sistem:** Dokumen 008 (Sistem Asesmen OBE & Formula Ketercapaian CPL), Dokumen 018 (Rubrik Master), Dokumen 043 (CPMK/Sub-CPMK)
+> **Tanggal:** 07 November 2026
 
 ---
 
-## 1. PRINSIP PENILAIAN OBE & KEPATUHAN REGULASI (SN-DIKTI & IKU 7)
+## 1. IDENTITAS DAN RUANG LINGKUP
 
-Rencana evaluasi dan asesmen pada mata kuliah `STI-101` (2 SKS Teori) dirancang berdasarkan **constructive alignment** antara `CPL-06` (`P2`), 3 `CPMK`, dan 6 `Sub-CPMK`, dengan menegakkan 5 prinsip penilaian SN-Dikti (Tabel 16 KPT 2024):
-1. **Edukatif:** Umpan balik hasil Tugas 1, UTS, dan Tugas 2 dikembalikan maksimal 7 hari kerja agar mahasiswa dapat memperbaiki strategi belajarnya sebelum tahapan evaluasi berikutnya.
-2. **Otentik:** Seluruh tugas berbasis observasi unit organisasi nyata dan studi kasus aktual (*real-world business cases*), bukan hafalan definisi semata.
-3. **Objektif:** Setiap instrumen sumatif dinilai menggunakan **Rubrik Analitik Terstandar** (`055_5`) yang telah disepakati kontraknya pada Pekan 1.
-4. **Akuntabel:** Setiap komponen skor terpetakan langsung 1-ke-1 maupun proporsional ke `CPMK` dan `CPL-06` dengan jejak audit yang jelas di SIAKAD/buku nilai OBE.
-5. **Transparan:** Kisi-kisi, bobot, batas waktu, dan kriteria rubrik dipublikasikan terbuka di LMS Edlink sejak awal semester.
-
-> [!IMPORTANT]
-> **Verifikasi Kepatuhan IKU 7 (Metode Kasus / Proyek Partisipatif $\ge 50\%$):**  
-> Pada `STI-101`, komponen evaluasi berbasis pemecahan kasus (*Case Method*) dan usulan proyek tim (*Team-Based Project Proposal*) mencakup: **Tugas 1 (20% — *Case Method*) + Tugas 2 (20% — *Case Method*) + UAS (30% — *Project Feasibility & Case Evaluation*) = 70%** (bahkan jika UTS 30% dihitung sebagai ujian kasus terjadwal, porsi partisipatif/kasus mencapai **70%–100%**, melampaui ambang minimal nasional **50%**).
-
----
-
-## 2. MATRIKS DISTRIBUSI BOBOT PENILAIAN TERHADAP CPL, CPMK, & SUB-CPMK (STANDAR KPT 2024 TABEL 26)
-
-| Kode CPL | Kode CPMK (Bloom) | Kode Sub-CPMK | Pekan Uji | Bentuk & Teknik Penilaian | Instrumen Penilaian | Sifat Evaluasi | Bobot Sub (%) | Total CPMK (%) |
-|:---:|:---:|:---:|:---:|---|---|---|:---:|:---:|
-| **`CPL-06`**<br>(`P2`)<br>*Level: I* | **`CPMK-1`**<br>(C2) | `Sub-CPMK-1.1` | Mg 4 | Non-tes: Pemecahan kasus tertulis (*Case-Based Problem Solving*) | **RTM-1 (Tugas 1)** + Rubrik Analitik Tugas 1 | Sumatif | 10% | **20%** |
-| | | `Sub-CPMK-1.2` | Mg 4 | Non-tes: Observasi & pemetaan 6 komponen SI organisasi nyata | **RTM-1 (Tugas 1)** + Rubrik Analitik Tugas 1 | Sumatif | 10% | |
-| **`CPL-06`**<br>(`P2`)<br>*Level: I* | **`CPMK-2`**<br>(C4) | `Sub-CPMK-2.1` | Mg 8 | Tes tertulis berbasis skenario kasus (*Case-Method Written Exam*) | **Naskah Soal UTS** (Butir 1 & 2) + Rubrik Analitik UTS | Sumatif | 15% | **30%** |
-| | | `Sub-CPMK-2.2` | Mg 8 | Tes tertulis komparasi strategis sistem enterprise & bisnis digital | **Naskah Soal UTS** (Butir 3 & 4) + Rubrik Analitik UTS | Sumatif | 15% | |
-| **`CPL-06`**<br>(`P2`)<br>*Level: I* | **`CPMK-3`**<br>(C5) | `Sub-CPMK-3.1` | Mg 12 | Non-tes: Paper analisis studi kasus proses bisnis, risiko siber, & UU PDP | **RTM-2 (Tugas 2)** + Rubrik Analitik Tugas 2 | Sumatif | 20% | **50%** |
-| | | `Sub-CPMK-3.2` *(+ Sintesis)* | Mg 16 | Gabungan: Naskah Proposal Studi Kelayakan Tim (60%) + Ujian Verifikasi Individu (40%) | **Bundel Proposal TELOS & Soal UAS** + Rubrik Analitik & Holistik UAS | Sumatif | 30% | |
-| — | *Seluruh CPMK* | *Seluruh Sub-CPMK* | Mg 1–3, 5–7, 9–11, 13–15 | Diskusi kelas, kuis diagnostik Edlink, matriks komparasi kelompok, klinik TELOS, *mini pitching* | Lembar observasi formatif & *peer review* | Formatif *(Non-Graded)* | 0% *(Umpan Balik)* | **0%** |
-| **TOTAL** | **3 CPMK** | **6 Sub-CPMK** | **16 Pekan** | **4 Titik Evaluasi Baku SISTEKIN** | **4 Paket Instrumen Lengkap** | **Sumatif + Formatif** | **100%** | **100%** |
-
----
-
-## 3. KISI-KISI INSTRUMEN EVALUASI (*ASSESSMENT BLUEPRINT / TABLE OF SPECIFICATIONS*)
-
-### 3.1 Kisi-Kisi Keseluruhan 4 Titik Asesmen Sumatif
-
-| Titik Evaluasi | Pekan | Durasi / Format | Sub-CPMK Diuji | Level Kognitif | Rincian Butir / Bagian Penilaian | Bobot Internal | Bobot MK |
-|---|:---:|---|---|:---:|---|:---:|:---:|
-| **1. Tugas 1** | Mg 4 | Penugasan Terstruktur Individu (Laporan 4–6 hal. A4, waktu kerja 1 pekan) | `Sub-CPMK-1.1`<br>`Sub-CPMK-1.2` | C2 → C3 | • Bagian A: Transformasi 5 contoh rantai DIKW pada objek nyata<br>• Bagian B: Identifikasi & pemetaan 6 komponen sosio-teknis SI<br>• Bagian C: Diagnosis 2 hambatan (*bottleneck*) siklus informasi | 30%<br>35%<br>25% (+10% tata tulis) | **20%** |
-| **2. UTS** | Mg 8 | Ujian Tertulis Terjadwal Individu (100 menit, uraian kasus terpadu) | `Sub-CPMK-2.1`<br>`Sub-CPMK-2.2` | C4 | • Soal 1: Klasifikasi batas operasi TPS vs agregasi MIS pada kasus ritel<br>• Soal 2: Diagnosis *information silos* & pemetaan modul inti ERP<br>• Soal 3: Analisis komparasi strategis SCM (hulu) vs CRM (hilir)<br>• Soal 4: Rekomendasi fitur DSS/EIS & model *e-commerce* B2B/B2C | 25%<br>30%<br>25%<br>20% | **30%** |
-| **3. Tugas 2** | Mg 12 | Paper Analisis Studi Kasus Individu/Berpasangan (6–8 hal. A4, waktu kerja 2 pekan) | `Sub-CPMK-3.1` | C4 → C5 | • Bagian A: Bedah kelemahan proses *As-Is* & peluang *Cloud/AI/IoT*<br>• Bagian B: Analisis kegagalan keamanan berbasis *CIA Triad*<br>• Bagian C: Evaluasi pelanggaran etika & kewajiban UU PDP No. 27/2022<br>• Bagian D: Rekomendasi prinsip *IT Governance* & mitigasi manajemen | 30%<br>30%<br>25%<br>15% (incl. sitasi) | **20%** |
-| **4. UAS** | Mg 16 | Proposal Studi Kelayakan Kelompok (3–4 org, bobot 60%) + Ujian Tertulis Individu di Kelas (100 menit, bobot 40%) | `Sub-CPMK-3.2` & Sintesis `CPMK-1..3` | C5 | • Komponen Kelompok (60%): Masalah *As-Is* & Arsitektur *To-Be* (Cloud/AI/IoT) [30%], Analisis 5 Dimensi TELOS [25%], Kepatuhan UU PDP & Guardrail [15%] *(dinormalisasi ke 60%)*<br>• Komponen Ujian Individu (40%): 3 Soal Sintesis Kasus & Pertanggungjawaban Individu atas Proposal Tim | 60%<br><br>40% | **30%** |
-
----
-
-## 4. RENCANA TUGAS MAHASISWA (RTM) & SPESIFIKASI UJIAN (STANDAR KPT 2024 LAMPIRAN 23)
-
-### 4.1 Rencana Tugas Mahasiswa 1 (RTM-1 — Tugas 1)
-
-| Komponen RTM | Uraian Rinci Instruksi Resmi |
+| Atribut | Keterangan |
 |---|---|
-| **Mata Kuliah / Kode / SKS** | Pengantar Sistem dan Teknologi Informasi / `STI-101` / 2 SKS Teori |
-| **Minggu Rilis & Batas Kumpul** | Dirilis: **Pekan 3** · Batas Pengumpulan: **Pekan 4** (melalui LMS Edlink dalam format `.pdf`) |
-| **Bobot Penilaian** | **20%** dari Nilai Akhir Mata Kuliah |
-| **CPMK & Sub-CPMK Tujuan** | **`CPMK-1`** (`Sub-CPMK-1.1` & `Sub-CPMK-1.2`): Menguraikan komponen pembentuk SI, siklus data-ke-informasi (DIKW), dan perannya dalam organisasi melalui studi kasus bisnis. |
-| **1. Tujuan Tugas** | Melatih kepekaan mahasiswa membaca realitas organisasi sebagai sebuah **sistem informasi sosio-teknis** yang utuh (bukan sekadar perangkat komputer) serta memetakan bagaimana data mentah diolah menjadi informasi bernilai keputusan. |
-| **2. Objek Garapan** | Satu unit organisasi atau usaha nyata berskala kecil-menengah yang dapat diamati secara langsung maupun melalui wawancara singkat/dokumentasi publik (contoh: minimarket/toko ritel lokal, koperasi mahasiswa, klinik pratama, usaha kuliner/kafe, jasa ekspedisi agen, atau layanan administrasi kampus). |
-| **3. Batasan yang Harus Dikerjakan** | 1. Mendeskripsikan profil singkat proses bisnis utama unit yang diamati (maks. 1 halaman).<br>2. Menyusun tabel **5 contoh nyata transformasi rantai Data → Informasi → Pengetahuan → Keputusan/Tindakan (DIKW)** yang terjadi pada unit tersebut.<br>3. Mengidentifikasi secara spesifik keenam komponen SI yang ada saat ini (**Hardware, Software, Data, Network, People, Process**) beserta diagram alur *Input → Processing → Output → Feedback*.<br>4. Mendiagnosis minimal **2 titik hambatan (*bottleneck*)** atau risiko kesalahan informasi yang terjadi (wajib mencakup minimal 1 aspek *People/Process*).<br>5. **Batasan Guardrail:** Dilarang membuat kode program atau skema tabel SQL teknis. |
-| **4. Metode / Cara Pengerjaan** | Dikerjakan **secara mandiri (individu)** melalui observasi lapangan/studi dokumentasi, dianalisis menggunakan kerangka Bab 1–2 Modul Ajar `STI-101`, dan diketik rapi (4–6 halaman A4, font Times New Roman/Calibri 11pt, spasi 1,15). |
-| **5. Deskripsi Luaran Tugas** | Satu berkas laporan `.pdf` bernama `STI101_T1_[NIM]_[Nama].pdf` berisi: Halaman Judul Ringkas, Profil Unit, Tabel Analisis DIKW, Matriks 6 Komponen + Diagram Siklus Informasi, Analisis Hambatan, Lampiran Bukti Observasi/Foto, dan Deklarasi Kejujuran Akademik/AI. |
-| **6. Kriteria & Bobot Penilaian** | Dinilai dengan **Rubrik Analitik Tugas 1 (`055_5`)**: (1) Ketepatan rantai DIKW (30%); (2) Kelengkapan & ketepatan pemetaan 6 komponen + siklus informasi (35%); (3) Ketajaman diagnosis hambatan bisnis (25%); (4) Tata tulis & integritas (10%). |
+| Mata kuliah | Pengantar Sistem dan Teknologi Informasi (`STI-101`) |
+| Bobot / tipe | 2 SKS / Teori |
+| Semester | 1 (Gasal) |
+| CPL dibina | `CPL-06` (`P2`) (konsep teoretis SI, analisis & perancangan, arsitektur enterprise, proses bisnis) |
+| CPMK | CPMK-1 (C2), CPMK-2 (C4), CPMK-3 (C5) |
+| Jumlah Sub-CPMK | 6 |
+| Skema asesmen | 4 titik baku: Tugas 1 (20%), UTS (30%), Tugas 2 (20%), UAS (30%) |
+| Ambang ketuntasan MK | Nilai akhir ≥ 60 (huruf C) |
+| Ambang ketercapaian CPL | Skor ≥ 65,0 (Dokumen 008) |
 
 ---
 
-### 4.2 Spesifikasi Instrumen Ujian Tengah Semester (UTS — Pekan 8)
+## 2. PRINSIP EVALUASI
 
-| Komponen Spesifikasi | Uraian Rinci Pelaksanaan |
+1. **Berbasis luaran (*outcome-based*):** setiap instrumen mengukur CPMK/Sub-CPMK yang eksplisit, bukan sekadar kehadiran atau hafalan.
+2. **Valid:** butir/instrumen selaras dengan kata kerja operasional pada rumusan CPMK (C2–C5).
+3. **Reliabel:** kunci jawaban dan rubrik berlapis level skor digunakan konsisten antar-kelas paralel.
+4. **Adil dan transparan:** bobot, kriteria, dan tenggat diumumkan pada pekan 1 dan tersedia di LMS.
+5. **Autentik:** tugas berupa kasus organisasi nyata, bukan soal dekontekstualisasi.
+6. **Formatif mendukung sumatif:** 12 pekan non-asesmen digunakan untuk umpan balik tanpa bobot nilai.
+7. **Berkeadilan digital:** mahasiswa dengan keterbatasan perangkat/koneksi mendapat penyesuaian tenggat.
+
+---
+
+## 3. SKEMA 4 TITIK ASESMEN
+
+| Titik | Pekan | Instrumen | CPMK | Bobot | Sifat |
+|:---:|:---:|---|:---:|:---:|:---:|
+| **Tugas 1** | 4 | Kuis + problem solving "Peta Sistem Informasi Enterprise" | CPMK-1, CPMK-2 (awal) | **20%** | Individu |
+| **UTS** | 8 | Ujian tertulis analisis taksonomi SI enterprise | CPMK-1, CPMK-2 | **30%** | Individu, *closed book* |
+| **Tugas 2** | 12 | Studi kasus/paper "Transformasi Digital yang Bertanggung Jawab" | CPMK-3 | **20%** | Kelompok 3–4 orang |
+| **UAS** | 16 | Ujian komprehensif + naskah studi kelayakan | CPMK-1, CPMK-2, CPMK-3 | **30%** | Individu |
+| | | **TOTAL** | | **100%** | |
+
+**Catatan komposisi:** 62,5% bobot berasal dari asesmen berbasis kasus/proyek/kinerja, yaitu Tugas 1 20% + Tugas 2 20% + Bagian II UAS 10,5% (35 poin × 30%) + Bagian III UAS 12% (40 poin × 30%), sehingga memenuhi ambang IKU 7 (≥ 50%).
+
+---
+
+## 4. RENCANA ASESMEN RINCI
+
+### 4.1 Tugas 1 — Peta Sistem Informasi Enterprise (20%)
+
+| Komponen | Uraian |
 |---|---|
-| **Bentuk & Durasi Ujian** | Ujian Tertulis Terjadwal di Kelas (*Case-Method Analytical Essay*, *Closed-Book / Closed-Gadget*), durasi **100 menit**. |
-| **Bobot & Target Capaian** | **30%** dari Nilai Akhir · Mengukur **`CPMK-2`** (`Sub-CPMK-2.1` & `Sub-CPMK-2.2` [C4]). |
-| **Desain Skenario Soal** | Satu studi kasus komprehensif sepanjang $\pm 450\text{ kata}$ tentang perusahaan distribusi pangan & ritel multi-cabang (*PT Nusantara Segar*) yang masih menjalankan aplikasi kasir, pencatatan gudang Excel, dan akuntansi secara terpisah sehingga sering mengalami kehabisan stok barang laku (*stockout*), penumpukan barang kadaluarsa di gudang pusat (*bullwhip effect*), komplain pelanggan tak terlacak, serta keterlambatan laporan direksi. |
-| **Rincian 4 Butir Soal Uraian** | 1. **(Bobot 25% — `Sub-CPMK-2.1`)** Klasifikasikan aktivitas mana pada kasus tersebut yang termasuk ranah **TPS** vs **MIS**, jelaskan perbedaan pengguna, sifat pemrosesan, dan bentuk keluarannya!<br>2. **(Bobot 30% — `Sub-CPMK-2.1`)** Analisis mengapa *information silos* terjadi pada PT Nusantara Segar, lalu petakan minimal 4 modul inti **ERP** beserta aliran datanya saat seorang pelanggan memesan barang secara grosir!<br>3. **(Bobot 25% — `Sub-CPMK-2.2`)** Bandingkan peran strategis **SCM** dan **CRM** pada kasus tersebut: masalah spesifik mana yang diselesaikan SCM (hulu) dan masalah mana yang diselesaikan CRM (hilir)?<br>4. **(Bobot 20% — `Sub-CPMK-2.2`)** Rekomendasikan rancangan konseptual **DSS / Executive Dashboard** (sebutkan 4 KPI kunci direksi) serta pilihan kanal **E-Commerce (B2B vs B2C)** yang paling tepat untuk ekspansi perusahaan! |
+| CPMK diukur | CPMK-1 (dominan), CPMK-2 (awal) |
+| Sub-CPMK | 1.1, 1.2, 2.1 |
+| Indikator | 1.1.1–1.1.2; 1.2.1–1.2.2; 2.1.1–2.1.2 |
+| Bentuk | Laporan analitis 8 halaman + matriks komparasi |
+| Teknik | Penugasan terstruktur (unjuk kerja tertulis) |
+| Waktu | Dikerjakan di kelas pekan 4 (100′) + penyelesaian mandiri 3 hari |
+| Media | LMS (unggah PDF), formulir naskah |
+| Rubrik | `055_5` Rubrik Tugas 1 (4 dimensi: 25/30/30/15) |
+| Umpan balik | Komentar per dimensi ≤ 7 hari |
 
----
+### 4.2 UTS — Analisis Taksonomi Sistem Informasi Enterprise (30%)
 
-### 4.3 Rencana Tugas Mahasiswa 2 (RTM-2 — Tugas 2)
-
-| Komponen RTM | Uraian Rinci Instruksi Resmi |
+| Komponen | Uraian |
 |---|---|
-| **Mata Kuliah / Kode / SKS** | Pengantar Sistem dan Teknologi Informasi / `STI-101` / 2 SKS Teori |
-| **Minggu Rilis & Batas Kumpul** | Dirilis: **Pekan 10** · Batas Pengumpulan: **Pekan 12** (melalui LMS Edlink dalam format `.pdf`) |
-| **Bobot Penilaian** | **20%** dari Nilai Akhir Mata Kuliah |
-| **CPMK & Sub-CPMK Tujuan** | **`CPMK-3` Tahap Analisis** (`Sub-CPMK-3.1` [C5]): Menganalisis permasalahan proses bisnis konvensional, peluang teknologi transformasi digital, ancaman keamanan siber, dan kepatuhan regulasi privasi data. |
-| **1. Tujuan Tugas** | Mengembangkan daya analisis kritis mahasiswa terhadap dua sisi mata uang transformasi digital: bagaimana *Cloud, AI,* dan *IoT* memecahkan inefisiensi bisnis sekaligus menghadirkan tanggung jawab besar atas keamanan siber (*CIA Triad*), etika, dan kepatuhan UU PDP. |
-| **2. Objek Garapan** | Satu studi kasus terdokumentasi di media bereputasi/laporan resmi mengenai: (a) kegagalan layanan digital/insiden kebocoran data/serangan *ransomware* pada organisasi di Indonesia dalam 5 tahun terakhir, **ATAU** (b) transformasi proses konvensional organisasi publik/swasta yang menimbulkan tantangan privasi data pelanggan. |
-| **3. Batasan yang Harus Dikerjakan** | 1. Menguraikan kronologi konteks proses bisnis organisasi dan peran teknologi (*Cloud/AI/IoT/Platform*) yang terlibat.<br>2. Menganalisis akar kelemahan proses bisnis serta dampak insiden menggunakan kerangka **CIA Triad** (*Confidentiality, Integrity, Availability*) secara tajam.<br>3. Mengevaluasi aspek etika digital dan kewajiban hukum organisasi sebagai Pengendali Data berdasarkan pasal-pasal relevan **UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)**.<br>4. Merumuskan rekomendasi perbaikan manajerial & tata kelola TI (*IT Governance* — kebijakan, SDM, prosedur) tanpa melebar ke skrip *pentesting* teknis. |
-| **4. Metode / Cara Pengerjaan** | Dikerjakan secara **individu atau berpasangan (maksimal 2 orang)** dengan studi literatur minimal 4 sumber kredibel (buku teks, berita terverifikasi, regulasi UU PDP, artikel ilmiah), panjang 6–8 halaman A4. |
-| **5. Deskripsi Luaran Tugas** | Paper analisis studi kasus `.pdf` bernama `STI101_T2_[NIM].pdf` lengkap dengan sitasi standar APA/IEEE dan lampiran *AI Transparency Declaration*. |
-| **6. Kriteria & Bobot Penilaian** | Dinilai dengan **Rubrik Analitik Tugas 2 (`055_5`)**: (1) Diagnosis masalah proses bisnis & konteks teknologi (30%); (2) Ketepatan analisis *CIA Triad* & etika digital (30%); (3) Ketepatan evaluasi kepatuhan UU PDP & tata kelola TI (25%); (4) Kualitas rujukan, tata tulis, & integritas (15%). |
+| CPMK diukur | CPMK-1 (40%), CPMK-2 (60%) |
+| Sub-CPMK | 1.1, 1.2, 2.1, 2.2 |
+| Indikator | Seluruh indikator pekan 1–7 |
+| Bentuk | 10 PG (20), 5 jawaban singkat (25), 2 studi kasus (40), 1 soal analisis (15) |
+| Teknik | Tes tertulis terjadwal |
+| Waktu | Pekan 8, 100 menit, *closed book* |
+| Pengawasan | Dosen + 1 pengawas; tata tertib ujian fakultas |
+| Rubrik | `055_5` Rubrik UTS (4 dimensi: 25/30/30/15) |
+| Analisis pasca-ujian | Analisis butir (tingkat kesukaran, daya beda) dalam 7 hari |
 
----
+### 4.3 Tugas 2 — Transformasi Digital yang Bertanggung Jawab (20%)
 
-### 4.4 Spesifikasi Evaluasi Akhir Semester (UAS — Pekan 16)
-
-| Komponen Spesifikasi | Uraian Rinci Pelaksanaan |
+| Komponen | Uraian |
 |---|---|
-| **Arsitektur Hibrida Akuntabel** | Menggabungkan **Penilaian Proyek Proposal Kelompok (60% dari nilai UAS)** untuk melatih kolaborasi perumusan solusi transformasi digital dan **Ujian Kasus Verifikasi Individu di Kelas (40% dari nilai UAS, 100 menit)** untuk menjamin ketercapaian `CPL-06` per mahasiswa secara objektif bebas *free-rider*. |
-| **Bobot & Target Capaian** | **30%** dari Nilai Akhir · Mengukur **`CPMK-3` Tahap Sintesis** (`Sub-CPMK-3.2` [C5]) dan integrasi utuh `CPMK-1..3`. |
-| **Bagian A — Naskah Proposal Studi Kelayakan Kelompok (60% UAS)** | Tim (3–4 mahasiswa) menyusun dokumen **Proposal Studi Kelayakan Solusi Transformasi Digital** (10–14 halaman A4) untuk satu UMKM/koperasi/unit layanan nyata, berisi:<br>1. Profil Organisasi & Diagnosis Masalah Proses Bisnis Konvensional (*As-Is*).<br>2. Rancangan Arsitektur Solusi Konseptual (*To-Be*) yang memadukan sistem informasi enterprise yang tepat dengan minimal dua pilar *enabler* (*Cloud SaaS/PaaS, Applied AI,* dan/atau *IoT*) beserta diagram blok aliran datanya (**tanpa koding**).<br>3. Evaluasi Studi Kelayakan 5 Dimensi **TELOS** (*Technical, Economic, Legal/Ethical, Operational, Schedule*).<br>4. Rencana Tata Kelola, Keamanan Informasi (*CIA*), & Kepatuhan Privasi Data (UU PDP). |
-| **Bagian B — Ujian Kasus & Verifikasi Individu (40% UAS)** | Dilaksanakan luring terjadwal (100 menit) terdiri atas:<br>• **2 Soal Kasus Sintesis Baru** (menguji ketepatan merumuskan solusi transformasi digital dan uji kelayakan TELOS secara mandiri).<br>• **1 Soal Pertanggungjawaban Proyek Individu** (mahasiswa menjelaskan ulang secara tertulis rasionalitas arsitektur *To-Be*, trade-off biaya/operasional, dan mitigasi UU PDP pada proposal timnya sendiri). |
+| CPMK diukur | CPMK-3 (dominan, 80%), CPMK-2 (20%) |
+| Sub-CPMK | 3.1, 3.2 |
+| Indikator | 3.1.1–3.1.2; 3.2.1–3.2.4 |
+| Bentuk | Paper 10–12 halaman + slide 5 halaman |
+| Teknik | Proyek kelompok (unjuk kerja produk tertulis) |
+| Waktu | Diumumkan pekan 6, draf pekan 12, final pekan 14 |
+| Media | LMS; repositori dokumen kelompok |
+| Rubrik | `055_5` Rubrik Tugas 2 (4 dimensi: 25/30/25/20) |
+| Anti-*free-rider* | Lembar pembagian peran + verifikasi lisan acak |
+
+### 4.4 UAS — Evaluasi Komprehensif (30%)
+
+| Komponen | Uraian |
+|---|---|
+| CPMK diukur | CPMK-1 (25%), CPMK-2 (30%), CPMK-3 (45%) |
+| Sub-CPMK | Seluruh Sub-CPMK 1.1–3.2 |
+| Indikator | Seluruh indikator pekan 1–15 |
+| Bentuk | Esai konseptual (25), analisis kasus portofolio SI (35), naskah studi kelayakan (40) |
+| Teknik | Tes tertulis komprehensif |
+| Waktu | Pekan 16, 100 menit, *closed book* |
+| Rubrik | `055_5` Rubrik UAS (4 dimensi: 25/30/30/15) |
+
+### 4.5 Aktivitas Formatif (tanpa bobot)
+
+| Pekan | Aktivitas | Umpan Balik |
+|:--:|---|---|
+| 1 | Diskusi orientasi | Lisan |
+| 2 | Kuis DIKW di LMS | Skor otomatis + pembahasan |
+| 3 | Lembar kerja komponen SI | Komentar tertulis |
+| 5 | Matriks komparasi + *gallery walk* | Umpan balik sejawat |
+| 6 | Analisis kasus kesenjangan | Komentar lisan |
+| 7 | Review proposal tahap 1 | Checklist |
+| 9 | Kuis cloud | Skor otomatis |
+| 10 | Lembar use case AI | Komentar tertulis |
+| 11 | Peta skenario IoT | Umpan balik kelompok |
+| 13 | Latihan pemetaan COBIT | Pembahasan kelas |
+| 14 | Review proposal tahap 2 | Checklist |
+| 15 | Presentasi gagasan | Rubrik presentasi (formatif) |
 
 ---
 
-## 5. FORMULA PERHITUNGAN NILAI, KETERCAPAIAN CPMK/CPL, & KONVERSI MUTU
+## 5. MATRIKS BOBOT CPMK
 
-### 5.1 Rumus Nilai Akhir Mata Kuliah ($NA_{\text{STI-101}}$)
+| CPMK | Tugas 1 (20%) | UTS (30%) | Tugas 2 (20%) | UAS (30%) | Total Bobot dalam CPMK |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| CPMK-1 | 60% | 40% | — | — | 100% |
+| CPMK-2 | — | 70% | — | 30% | 100% |
+| CPMK-3 | — | — | 50% | 50% | 100% |
 
-Mengacu **Dokumen 008 §3**:
-$$\text{Score}_{\text{CPMK-1}} = S_{\text{Tugas 1}}$$
-$$\text{Score}_{\text{CPMK-2}} = S_{\text{UTS}}$$
-$$\text{Score}_{\text{CPMK-3}} = 0,40 \times S_{\text{Tugas 2}} + 0,60 \times S_{\text{UAS}} \quad \text{(karena Tugas 2 = 20\% dan UAS = 30\% dari total 50\% bobot CPMK-3)}$$
+**Catatan metodologis (wajib dibaca):**
 
-Sehingga Nilai Akhir Mata Kuliah pada skala $0\text{–}100$ adalah:
-$$NA_{\text{STI-101}} = (0,20 \times S_{\text{Tugas 1}}) + (0,30 \times S_{\text{UTS}}) + (0,20 \times S_{\text{Tugas 2}}) + (0,30 \times S_{\text{UAS}})$$
-yang secara aljabar identik 100% dengan:
-$$NA_{\text{STI-101}} = (0,20 \times \text{Score}_{\text{CPMK-1}}) + (0,30 \times \text{Score}_{\text{CPMK-2}}) + (0,50 \times \text{Score}_{\text{CPMK-3}})$$
+Angka pada tabel di atas adalah **bobot relatif di dalam CPMK** — setiap baris berjumlah 100%. Angka tersebut **bukan** porsi terhadap nilai akhir, sehingga tidak boleh dijumlahkan menurut kolom.
 
-### 5.2 Kontribusi Mata Kuliah terhadap `CPL-06` (`P2`)
+Nilai akhir **tidak** dihitung dari penjumlahan kolom CPMK, melainkan langsung dari bobot instrumen baku pada rumus Bagian 6.1:
 
-Karena 100% bobot `STI-101` (2 SKS) mendukung **`CPL-06` (`P2`)** pada level *Introduce* (`I`), maka skor kontribusi mata kuliah ini bagi mahasiswa $i$ pada buku portofolio CPL prodi adalah:
-$$\text{Contribution}_{\text{STI-101} \to \text{CPL-06}}(i) = NA_{\text{STI-101}}(i) \quad \text{dengan bobot kredit } SKS_k \times W_{k, \text{CPL-06}} = 2 \times 1,0 = 2,0$$
+$$NA = 0{,}20\,T_1 + 0{,}30\,UTS + 0{,}20\,T_2 + 0{,}30\,UAS$$
 
-### 5.3 Tabel Konversi Nilai Angka ke Huruf Mutu & Status Ketuntasan OBE
-
-| Rentang Nilai Angka ($0\text{–}100$) | Huruf Mutu SIAKAD | Angka Mutu | Kategori Predikat | Status Kelulusan MK (Min. C) | Status Ketercapaian OBE ($\ge 65,0$) |
-|:---:|:---:|:---:|---|:---:|:---:|
-| $81,00 \text{ – } 100,00$ | **A** | 4,00 | Sangat Baik / Istimewa | Lulus | **Tercapai (Exemplary)** |
-| $76,00 \text{ – } 80,99$ | **B+** | 3,50 | Lebih dari Baik | Lulus | **Tercapai (Proficient)** |
-| $70,00 \text{ – } 75,99$ | **B** | 3,00 | Baik | Lulus | **Tercapai (Satisfactory)** |
-| $65,00 \text{ – } 69,99$ | **C+** | 2,50 | Lebih dari Cukup | Lulus | **Tercapai Minimum Ambang OBE ($\ge 65,0$)** |
-| $56,00 \text{ – } 64,99$ | **C** | 2,00 | Cukup | Lulus Administratif | *Belum Mencapai Target OBE (< 65,0 — Dianjurkan Remedial Komponen)* |
-| $45,00 \text{ – } 55,99$ | **D** | 1,00 | Kurang | Tidak Lulus (Wajib Ulang/Remedial) | **Tidak Tercapai** |
-| $0,00 \text{ – } 44,99$ | **E** | 0,00 | Sangat Kurang / Gagal | Tidak Lulus (Wajib Ulang) | **Tidak Tercapai** |
-
-> *Catatan Kalibrasi SIAKAD UWG:* Apabila pedoman akademik tahun berjalan menetapkan batas interval huruf mutu sedikit berbeda, konversi huruf di SIAKAD mengikuti SK Rektor UWG yang berlaku, sedangkan **ambang batas ketercapaian mutu CPL OBE Prodi SISTEKIN tetap dikunci pada skor $\ge 65,0$ dengan target minimal 80% mahasiswa dalam kohor memenuhi ambang tersebut (Dokumen 008 §3.3–3.4).**
-
-### 5.4 Contoh Simulasi Perhitungan Buku Nilai OBE (*Sample Calculation*)
-
-| Mahasiswa | Tugas 1 (20%)<br>`CPMK-1` | UTS (30%)<br>`CPMK-2` | Tugas 2 (20%)<br>`Sub-3.1` | UAS (30%)<br>`Sub-3.2` | Skor `CPMK-3`<br>`0,4T2 + 0,6UAS` | Nilai Akhir `NA` & `CPL-06` | Status OBE ($\ge 65$) |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Mhs-01 | 84 | 78 | 82 | 86 | 84,4 | **82,40 (A)** | ✅ Tercapai |
-| Mhs-02 | 70 | 66 | 72 | 70 | 70,8 | **69,20 (C+)** | ✅ Tercapai |
-| Mhs-03 | 62 | 58 | 64 | 60 | 61,6 | **60,60 (C)** | ⚠️ Remedial `CPMK-2 & 3` |
+Dengan pemisahan ini, satu instrumen boleh mengukur lebih dari satu CPMK tanpa menimbulkan penghitungan ganda (*double counting*).
 
 ---
 
-## 6. PROTOKOL REMEDIAL, INTEGRITAS AKADEMIK/AI, & SIKLUS CQI (PPEPP)
+## 6. FORMULA PENILAIAN
 
-1. **Kebijakan Asesmen Remedial Terarah Berbasis CPMK:** Mahasiswa yang memperoleh skor komponen $< 65,0$ pada `CPMK-1`, `CPMK-2`, atau `CPMK-3` diberikan **1 kali kesempatan penugasan/ujian perbaikan terarah** sebelum penutupan input nilai SIAKAD, khusus pada CPMK yang belum tuntas, dengan nilai maksimal hasil remedial dibatasi pada skor ambang **70,0 (B)**.
-2. **Protokol Kejujuran Akademik & Transparansi Generative AI (Dokumen 018 §5):**
-   - Pemanfaatan LLM (ChatGPT/Claude/Gemini) diizinkan sebatas *brainstorming* struktur ide dan penyuntingan tata bahasa; dilarang menyalin mentah analisis kasus tanpa observasi nyata atau memfabrikasi sumber sitasi/pasal UU PDP.
-   - Setiap pengumpulan Tugas 1, Tugas 2, dan Proposal UAS **wajib** melampirkan tabel *AI Transparency Declaration* (alat yang dipakai, tujuan, dan verifikasi manusia yang dilakukan). Kemiripan teks tanpa sitasi $\ge 25\%$ atau kutipan fiktif dikenai sanksi pembatalan skor komponen.
-3. **Evaluasi & Tindak Lanjut Siklus PPEPP Akhir Semester:**
-   - Pada akhir semester, Dosen Koordinator menyusun **Portofolio Mata Kuliah `STI-101`** yang melaporkan rata-rata skor tiap `CPMK` dan persentase mahasiswa yang melampaui skor $\ge 65,0$.
-   - Jika ketercapaian kohor pada salah satu CPMK $< 80\%$, Tim KBK Sistem Informasi melakukan *Root Cause Analysis* (RCA)—apakah terkendala kedalaman kasus, keterbacaan modul, atau alokasi waktu diskusi—untuk ditindaklanjuti pada revisi SAP/Modul tahun akademik berikutnya.
+### 6.1 Nilai Akhir Mata Kuliah
+
+$$NA = (0{,}20 \times T_1) + (0{,}30 \times UTS) + (0{,}20 \times T_2) + (0{,}30 \times UAS)$$
+
+dengan $T_1$, $UTS$, $T_2$, $UAS$ ∈ [0, 100].
+
+### 6.2 Ketercapaian CPMK
+
+| CPMK | Formula |
+|:---:|---|
+| CPMK-1 | $0{,}60 \times T_1 + 0{,}40 \times UTS$ |
+| CPMK-2 | $0{,}70 \times UTS + 0{,}30 \times UAS$ |
+| CPMK-3 | $0{,}50 \times T_2 + 0{,}50 \times UAS$ |
+
+Mahasiswa dinyatakan **tuntas CPMK** apabila skor CPMK ≥ 60. Mahasiswa dengan CPMK < 60 wajib mengikuti asesmen pemulihan pada komponen terkait (Bagian 8.4).
+
+### 6.3 Ketercapaian CPL (kontribusi MK)
+
+$$Attainment_{CPL\text{-}06}(i) = \frac{2 \times 1{,}0 \times NA_{STI\text{-}101}(i)}{\sum_{k \in MK(CPL\text{-}06)} (SKS_k \times W_{k,CPL\text{-}06})}$$
+
+Karena MK ini membina satu CPL (`CPL-06` (`P2`)) secara penuh, maka $W = 1{,}0$ dan $SKS = 2$.
+
+**Ambang:** ketercapaian CPL ≥ 65,0. Target prodi: ≥ 80% mahasiswa mencapai ambang.
+
+### 6.4 Ketercapaian Kelas (untuk CQI)
+
+$$\bar{X}_{CPMK_j} = \frac{1}{n}\sum_{i=1}^{n} Score_{CPMK_j}(i)$$
+
+Kelas dinyatakan sehat apabila $\bar{X}_{CPMK_j} \ge 70$ untuk seluruh CPMK. Nilai 60–69 memicu tindak lanjut penguatan metode; < 60 memicu revisi instrumen dan/atau materi.
+
+---
+
+## 7. KONVERSI NILAI DAN KELULUSAN
+
+| Nilai Angka | Huruf | Bobot | Predikat | Status |
+|:---:|:---:|:---:|---|:---:|
+| 86–100 | A | 4,00 | Sangat Baik | Lulus |
+| 76–85 | B+ | 3,50 | Baik Sekali | Lulus |
+| 70–75 | B | 3,00 | Baik | Lulus |
+| 66–69 | C+ | 2,50 | Cukup Baik | Lulus |
+| 60–65 | C | 2,00 | Cukup | **Lulus (batas minimum)** |
+| 56–59 | D | 1,00 | Kurang | Tidak lulus |
+| 0–55 | E | 0,00 | Sangat Kurang | Tidak lulus |
+
+**Syarat kelulusan:** (1) nilai akhir ≥ 60; (2) kehadiran ≥ 75% (12 dari 16 pertemuan); (3) seluruh tugas sumatif dikumpulkan. Kekurangan salah satu syarat menyebabkan nilai maksimum D.
+
+---
+
+## 8. MEKANISME PELAKSANAAN
+
+### 8.1 Pengumuman dan Transparansi
+- Bobot, rubrik, dan tenggat diumumkan pada pekan 1 dan dipasang permanen di LMS.
+- Naskah soal dan rubrik dibuka untuk mahasiswa setelah asesmen selesai.
+
+### 8.2 Pengumpulan
+- Semua pengumpulan melalui LMS dengan cap waktu otomatis.
+- Format berkas: PDF (laporan/paper), PPTX/PDF (slide).
+- Penamaan berkas: `STI101_<NIM>_<Komponen>_<Pekan>.pdf`.
+
+### 8.3 Keterlambatan
+| Keterlambatan | Sanksi |
+|:---:|---|
+| ≤ 24 jam | −10% dari skor komponen |
+| 25–72 jam | −25% dari skor komponen |
+| > 72 jam | Tidak diterima, kecuali dengan bukti force majeure yang disetujui dosen |
+
+### 8.4 Remedial dan Asesmen Pemulihan
+- Remedial diberikan bagi mahasiswa dengan NA 56–59 atau CPMK < 60.
+- Bentuk: ujian pemulihan tertulis setara + revisi tugas yang belum tuntas.
+- Batas maksimum nilai setelah remedial: **C (65)**.
+- Remedial dilaksanakan paling lambat 2 pekan setelah pengumuman nilai.
+
+### 8.5 Ujian Susulan
+- Diberikan hanya untuk kondisi medis darurat, kedukaan, atau penugasan resmi universitas, dengan bukti dokumen.
+- Diajukan maksimal 3 hari kerja setelah jadwal asesmen.
+
+### 8.6 Moderasi Nilai Antar-Kelas
+- Dilakukan jika terdapat lebih dari satu kelas paralel.
+- Prosedur: penyamaan bobot, peninjauan sebaran nilai, penyesuaian maksimal ±5 poin dengan persetujuan Koordinator RMK.
+
+---
+
+## 9. INTEGRITAS AKADEMIK
+
+1. Setiap tugas menyertakan **Deklarasi Transparansi AI** (bagian mana dibantu AI, alat apa, prompt ringkas).
+2. Dosen berhak melakukan **verifikasi lisan 3 menit** atas karya yang dikumpulkan.
+3. Indikasi plagiarisme diproses sesuai Peraturan Akademik Universitas; sanksi minimal nilai 0 pada komponen terkait.
+4. Pencegahan plagiarisme: pemeriksaan kemiripan (ambang ≤ 25% setelah kutipan dikecualikan).
+5. Kerja sama antar-kelompok diperbolehkan pada diskusi, tetapi naskah dan analisis wajib orisinal per kelompok.
+
+---
+
+## 10. EVALUASI PELAKSANAAN PEMBELAJARAN (CQI/PPEPP)
+
+### 10.1 Indikator dan Target
+
+| No | Indikator | Target | Alat Ukur | Frekuensi |
+|:--:|---|---|---|---|
+| 1 | Rata-rata ketercapaian CPMK | ≥ 70 | Rekap nilai LMS | Per semester |
+| 2 | Persentase mahasiswa tuntas CPL-06 (P2) (≥ 65,0) | ≥ 80% | Formula 6.3 | Per semester |
+| 3 | Ketepatan pelaksanaan 4 titik asesmen | 100% sesuai jadwal | Lembar monitoring SAP | Per semester |
+| 4 | Ketepatan umpan balik (≤ 7 hari) | ≥ 90% komponen | Log LMS | Per semester |
+| 5 | Tingkat kepuasan mahasiswa terhadap asesmen | ≥ 4,0/5,0 | Kuesioner anonim | Per semester |
+| 6 | Persentase bobot asesmen kinerja (IKU 7) | ≥ 50% | Dokumen RPS | Tahunan |
+| 7 | Tingkat plagiarisme/kemiripan | ≤ 25% | Laporan similarity | Per tugas |
+
+### 10.2 Siklus PPEPP
+
+| Tahap | Aktivitas | Bukti |
+|---|---|---|
+| **P**erencanaan | Penetapan RPS, SAP, kisi-kisi, rubrik sebelum semester | Dokumen 055_1–055_5 |
+| **P**elaksanaan | Pengajaran & asesmen sesuai SAP | Jurnal perkuliahan, log LMS |
+| **E**valuasi | Analisis butir, rekap CPMK, kuesioner mahasiswa | Laporan evaluasi semester |
+| **P**engendalian | Rapat evaluasi RMK; verifikasi UPM | Berita acara |
+| **P**eningkatan | Revisi metode/instrumen untuk semester berikutnya | Dokumen revisi RPS versi baru |
+
+### 10.3 Rencana Tindak Lanjut
+
+| Temuan | Ambang Pemicu | Tindakan |
+|---|---|---|
+| CPMK tertentu rendah | Rata-rata < 65 | Penguatan materi & latihan tambahan; revisi butir soal |
+| Banyak mahasiswa remedial | > 20% kelas | Analisis kesulitan belajar; sesi tutorial tambahan |
+| Umpan balik terlambat | > 10% komponen | Perbaikan alur kerja penilaian; penugasan asisten |
+| Kemiripan tinggi | > 25% pada satu tugas | Penggantian kasus; pengetatan verifikasi lisan |
+| Kepuasan rendah | < 3,5/5,0 | Revisi metode dan beban tugas |
+
+---
+
+## 11. KEPATUHAN IKU 7
+
+| Kriteria | Ketentuan | Kondisi MK Ini |
+|---|---|---|
+| Bobot asesmen berbasis partisipasi/kasus/proyek | ≥ 50% | **62,5%** (Tugas 1 20% + Tugas 2 20% + Bagian II UAS 10,5% + Bagian III UAS 12%) |
+| Keterlibatan mahasiswa dalam asesmen | Ada | Presentasi, *gallery walk*, *peer feedback* |
+| Asesmen autentik | Ada | Kasus organisasi nyata, naskah studi kelayakan |
+| Umpan balik formatif | Ada | 12 aktivitas formatif non-graded |
+
+**Rekonsiliasi dengan Dokumen 004.** Dokumen 004 Bagian 7 mencatat `STI-101` dengan *Case Method* 30% + PjBL 20% = **50%** dan status ✅ *Patuh IKU 7*. Kerangka asesmen RPS ini menghitung seluruh bobot non-*recall* — Tugas 1, Tugas 2, serta dua bagian UAS yang berbasis kasus dan perancangan — sehingga menghasilkan **62,5%**. Kedua angka berada di atas ambang 50%, sehingga status kepatuhan IKU 7 **terpenuhi**; selisih 12,5 poin berasal dari bagian UAS yang berbasis kasus/perancangan tetapi tidak diklasifikasikan sebagai PjBL pada Dokumen 004.
+
+---
+
+## 12. PELAPORAN DAN ARSIP
+
+| Berkas | Isi | Penyimpanan | Retensi |
+|---|---|---|---|
+| Lembar nilai akhir | NIM, T1, UTS, T2, UAS, NA, grade | SIAKAD + arsip prodi | 5 tahun |
+| Rekap CPMK | Skor CPMK per mahasiswa | Arsip RMK | 5 tahun |
+| Laporan evaluasi semester | Analisis butir, CQI, tindak lanjut | Arsip UPM | 5 tahun |
+| Naskah & rubrik terisi | Bukti asesmen | LMS/arsip digital | 2 tahun |
+| Berita acara ujian | Kehadiran, kejadian khusus | Arsip prodi | 5 tahun |
+
+---
+
+## 13. LAMPIRAN — FORMAT LEMBAR NILAI
+
+```
+================================================================================
+LEMBAR NILAI AKHIR — STI-101 PENGANTAR SISTEM DAN TEKNOLOGI INFORMASI
+Semester: 1 / Kelas: ____ / Tahun Akademik: ____ / Dosen: ________________
+--------------------------------------------------------------------------------
+No | NIM | Nama | T1 (20) | UTS (30) | T2 (20) | UAS (30) | NA | Huruf | Status
+--------------------------------------------------------------------------------
+ 1 |     |      |         |          |         |          |    |       |
+ 2 |     |      |         |          |         |          |    |       |
+...|     |      |         |          |         |          |    |       |
+--------------------------------------------------------------------------------
+Rata-rata CPMK-1: ____ | CPMK-2: ____ | CPMK-3: ____ | Tuntas CPL: ____%
+Kehadiran rata-rata: ____% | Jumlah remedial: ____ | Jumlah tidak lulus: ____
+================================================================================
+```
+
+---
+
+*Dokumen ini konsisten dengan skema 4 titik asesmen Dokumen 008 dan rubrik Dokumen 018. Bukti pelaksanaan asesmen diarsipkan sesuai Bagian 12.*

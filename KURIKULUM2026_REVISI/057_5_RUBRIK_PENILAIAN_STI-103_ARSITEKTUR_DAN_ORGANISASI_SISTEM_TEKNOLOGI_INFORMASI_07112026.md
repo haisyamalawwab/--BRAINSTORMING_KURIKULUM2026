@@ -1,133 +1,301 @@
-# 057_5 — RUBRIK PENILAIAN PEMBELAJARAN BERBASIS OBE
-## STI-103 — ARSITEKTUR DAN ORGANISASI SISTEM TEKNOLOGI INFORMASI (*Information Technology Systems Architecture and Organization*)
+# RUBRIK PENILAIAN
+## STI-103 — ARSITEKTUR DAN ORGANISASI SISTEM TEKNOLOGI INFORMASI
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 1 — Tahap Fondasi)  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI103`  
-**Klaster Rubrik Master (Dok 018):** Klaster 1 (`K-1`) dipadukan Dimensi Evaluasi Infrastruktur  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan:** Panduan KPT 2024 Dikti (Tabel 18, 19, 20) · Dok 008 §4 · Dok 018 §3 · Dok 033 · `057_1_RPS_STI-103_...md` · `057_4_RENCANA_EVALUASI_ASESMEN_STI-103_...md`.
+> **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang
+> **Dokumen induk:** `057_1_RPS_STI-103_ARSITEKTUR_DAN_ORGANISASI_SISTEM_TEKNOLOGI_INFORMASI_07112026.md` dan `057_4_RENCANA_EVALUASI_ASESMEN_STI-103_ARSITEKTUR_DAN_ORGANISASI_SISTEM_TEKNOLOGI_INFORMASI_07112026.md`
+> **Rujukan rubrik master:** Dokumen 008 (Rubrik 1–3) dan Dokumen 018 (4 klaster rubrik)
+> **Tanggal:** 07 November 2026
 
 ---
 
-## BAGIAN I — KERANGKA RUBRIK & GRADASI PENILAIAN
+## 1. PRINSIP DAN CAKUPAN
 
-Perangkat rubrik pada `STI-103` mengukur progresi kognitif dari **ketepatan representasi bit & penelusuran register (`C3` pada `CPMK-1`)**, **analisis rangkaian logika & *datapath* ALU (`C4` pada `CPMK-2`)**, **komparasi kritis prosesor, memori, & akselerator (`C4` pada `CPMK-3`)**, hingga **evaluasi komprehensif interkoneksi bus/DMA, *Hypervisor*, & server *data center* (`C5` pada `CPMK-4`)**.
+| Aspek | Ketentuan |
+|---|---|
+| Jenis rubrik | **Analitik** untuk seluruh asesmen sumatif (kriteria terpisah, skor teragregasi) |
+| Jumlah level | 4 level: Sangat Baik (4), Baik (3), Cukup (2), Kurang (1) |
+| Skala skor | 0–100 per dimensi |
+| Transparansi | Rubrik dibagikan sebelum asesmen dilaksanakan |
+| Konsistensi | Digunakan sama pada seluruh kelas paralel |
+| Fokus | Penilaian **proses analisis rekayasa**, bukan hanya jawaban akhir |
 
----
+**Daftar rubrik dalam dokumen ini:**
 
-## BAGIAN II — RUBRIK ANALITIK 4 TITIK EVALUASI SUMATIF
-
-### 2.1 Rubrik Analitik Tugas 1 (Pekan 4 — Bobot 20% MK · Mengukur `CPMK-1`: `Sub-CPMK-1.1` & `1.2`)
-**Objek Penilaian:** Lembar Kerja Terstruktur Berparameter NIM: Konversi Biner/Hex, *Two's Complement*, IEEE 754 32-bit, dan Penelusuran Siklus Instruksi Von Neumann.
-
-| Dimensi Kriteria | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Konversi Basis Bilangan & Aritmetika *Two's Complement***<br>(`Sub-CPMK-1.1`) | **30%** | Seluruh konversi biner/oktal/hex dan operasi *Two's Complement* 8-bit benar 100% sesuai parameter NIM; pembuktian ada/tidaknya *overflow* sangat tepat. | Langkah konversi dan operasi *Two's Complement* benar dengan maks. 1 selip hitung bit minor; analisis *overflow* tepat. | Prosedur *Two's Complement* dipahami dengan benar, namun terdapat kesalahan bit pada 1 soal atau penjelasan syarat *overflow* kurang rinci. | Mencampuradukkan *One's Complement* dengan *Two's Complement* atau gagal mendeteksi kondisi *overflow*. | Hanya menulis hasil konversi kalkulator tanpa langkah pembagian/inversi bit, atau memakai parameter NIM milik orang lain. |
-| **2. Pengkodean IEEE 754 32-bit & Analisis Presisi Pecahan**<br>(`Sub-CPMK-1.1`) | **35%** | Menentukan bit *Sign*, *Biased Exponent* ($E+127$), dan 23-bit *Mantissa* (serta representasi hex 8-digit) secara presisi; menjelaskan penyebab galat pembulatan pecahan biner dengan sangat jernih. | Langkah normalisasi $1,M \times 2^E$ dan penentuan *bias* $+127$ tepat; hanya terdapat selip 1 bit di ujung *mantissa* atau konversi hex akhir. | Memahami struktur 1–8–23 bit IEEE 754, namun sempat keliru 1 langkah saat menggeser koma biner atau menjelaskan galat pembulatan secara singkat. | Salah menghitung *Biased Exponent* (lupa menambahkan 127) atau menyertakan angka `1` di depan koma ke dalam 23-bit *mantissa*. | Tidak mampu menguraikan format IEEE 754 sama sekali. |
-| **3. Penelusuran Register Siklus `Fetch-Decode-Execute` Von Neumann**<br>(`Sub-CPMK-1.2`) | **35%** | Tabel perubahan nilai `PC, MAR, MBR, IR,` dan `ACC` pada ke-4 siklus instruksi terisi lengkap, berurutan tepat waktu (termasuk inkremen `PC`), dan konsisten penuh dengan isi memori akhir. | Penelusuran siklus instruksi dan hasil akhir `ACC`/memori benar; hanya terdapat 1 sel tabel antara `MAR/MBR` yang kurang rinci pada 1 sub-siklus. | Alur utama pengambilan instruksi dan eksekusi di `ACC` benar, namun pencatatan saat `PC` bertambah $+1$ sedikit bergeser fasenya. | Tertukar peran antara register alamat (`MAR`/`PC`) dengan register penampung data/instruksi (`MBR`/`IR`). | Tabel penelusuran register kosong atau diisi angka acak yang tidak mengikuti eksekusi program. |
-
-$$\text{Skor Tugas 1} = 0,30(K_1) + 0,35(K_2) + 0,35(K_3)$$
-
----
-
-### 2.2 Rubrik Analitik Ujian Tengah Semester / UTS (Pekan 8 — Bobot 30% MK · Mengukur `CPMK-2`: `Sub-CPMK-2.1` & `2.2`)
-**Objek Penilaian:** Jawaban Ujian Tertulis 150 Menit: Minimasi Gerbang K-Map, Rangkaian Kombinasional & *Flags* ALU, *Timing Diagram Flip-Flop*/Register, dan *CPU Datapath*.
-
-| Dimensi Kriteria | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Tabel Kebenaran & Minimasi Rangkaian Gerbang via K-Map**<br>(Soal 1 — `Sub-CPMK-2.1`) | **25%** | Tabel kebenaran akurat, pengelompokan * Gray code* pada K-Map 4 variabel menghasilkan suku paling minimal, dan diagram gerbang logika digambar bersih sesuai standar simbol. | Tabel kebenaran dan pemetaan K-Map benar; pengelompokan sah namun masih menyisakan 1 suku yang sebenarnya bisa digabung lebih besar. | Tabel kebenaran benar dan memahami cara kerja dasar K-Map, namun terdapat kekeliruan urutan kolom `00-01-11-10` atau gambar gerbang kurang rapi. | Menyusun ekspresi SOP mentah yang panjang tanpa mampu melakukan penyederhanaan Boole/K-Map. | Tabel kebenaran maupun rangkaian gerbang salah total. |
-| **2. Analisis Rangkaian Kombinasional & *Status Flags* ALU**<br>(Soal 2 — `Sub-CPMK-2.1`) | **30%** | Menelusuri jalur *Full Adder-Subtractor* dan pemilih *Multiplexer* pada ALU 4-bit secara tepat untuk seluruh skenario, serta akurat menentukan ke-4 *flags* (`Zero, Negative, Carry, Overflow`). | Hasil keluaran 4-bit ALU tepat seluruhnya dan minimal 3 dari 4 *status flags* dianalisis dengan benar (hanya selip kecil membedakan *Carry* vs *Signed Overflow*). | Mampu menelusuri operasi `AND/OR/ADD` dasar pada ALU, namun kurang tepat saat menelusuri mode pengurangan (`SUB`) atau penentuan bendera `Overflow`. | Gagal memahami fungsi sinyal pemilih (*select lines*) pada *Multiplexer* di dalam ALU. | Tidak mampu menganalisis skema rangkaian kombinasional ALU. |
-| **3. Analisis Sekuensial *Flip-Flop*, *Timing Diagram*, & Register**<br>(Soal 3 — `Sub-CPMK-2.2`) | **25%** | Gelombang keluaran $Q$ pada *Timing Diagram* tepat berubah hanya pada tepi aktif *clock* (*rising/falling edge*) dengan memperhatikan sinyal `Reset`/`Enable`, serta isi *Shift/Parallel Register* akurat. | *Timing Diagram* hampir seluruhnya presisi; hanya terdapat 1 transisi pulsa yang sedikit bergeser namun prinsip *edge-triggered* dipahami kuat. | Memahami perbedaan *latch* vs *flip-flop* dan mampu mengisi tabel status dasar, tetapi sempat mengubah nilai $Q$ di tengah level *clock* tinggi (tertukar perilaku *latch*). | Tidak memperhatikan sinyal *clock* atau `Write Enable` saat menentukan perubahan isi register. | Gagal membaca maupun menggambar diagram waktu rangkaian sekuensial. |
-| **4. Analisis Integrasi *CPU Datapath***<br>(Soal 4 — `Sub-CPMK-2.1 & 2.2`) | **20%** | Menjelaskan secara sistematis aliran pembacaan dua register dari *Register File*, pengolahan di ALU, dan penulisan balik saat tepi *clock* berikutnya beserta peran sinyal kontrol. | Alur *datapath* dari register ke ALU dan kembali ke register tujuan diuraikan tepat dan runtut. | Menjelaskan fungsi bagian *Register File* dan ALU secara benar namun hubungan sinkronisasi waktu tulisnya masih dijelaskan secara umum. | Penjelasan terpotong-potong tanpa menghubungkan peran elemen sekuensial dan kombinasional. | Kosong atau salah konsep secara mendasar. |
-
-$$\text{Skor UTS} = 0,25(K_1) + 0,30(K_2) + 0,25(K_3) + 0,20(K_4)$$
+| Kode | Rubrik | Digunakan pada | Bobot |
+|:---:|---|:---:|:---:|
+| R-A | Tugas 1 — Dari Bit ke ALU | Pekan 4 | 20% |
+| R-B | UTS — Representasi Data, Logika Digital, dan Arsitektur | Pekan 8 | 30% |
+| R-C | Tugas 2 — Rancangan Platform Komputasi | Pekan 12–13 | 20% |
+| R-D | UAS — Evaluasi Komprehensif | Pekan 16 | 30% |
+| R-E | Presentasi & Partisipasi (formatif → komponen proses) | Pekan 12 & 15 | Formatif |
+| R-F | Sikap, Etika, dan Integritas Akademik (formatif → syarat kelulusan) | Sepanjang semester | Syarat |
 
 ---
 
-### 2.3 Rubrik Analitik Tugas 2 (Pekan 12 — Bobot 20% MK · Mengukur `CPMK-3`: `Sub-CPMK-3.1` & `3.2`)
-**Objek Penilaian:** Laporan Studi Kasus *Benchmarking* Arsitektur (6–8 hal.): CISC vs RISC, Perhitungan EAT *Cache* & RAID, serta Akselerator CPU vs GPU vs NPU.
+## 2. PANDUAN PENSKORAN UMUM
 
-| Dimensi Kriteria | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Komparasi Kritis Arsitektur CISC (`x86_64`) vs RISC (`ARM64`/`RISC-V`)**<br>(`Sub-CPMK-3.1`) | **30%** | Membandingkan spesifikasi prosesor nyata secara tajam (arsitektur ISA, jumlah *core*, TDP watt, ekosistem) dan memberikan rekomendasi yang sangat tepat bagi ke-3 skenario beban kerja. | Perbandingan CISC vs RISC menggunakan data spesifikasi nyata dengan argumen teknis kuat dan sesuai konteks beban kerja. | Membandingkan ciri umum CISC vs RISC dengan benar, namun pengaitan dengan angka spesifikasi prosesor yang dipilih masih bersifat deskriptif permukaan. | Perbandingan berisi klaim usang/keliru (mis. menganggap RISC tidak sanggup menjalankan beban server berat) tanpa data spesifikasi nyata. | Menyalin deskripsi pemasaran brosur tanpa analisis arsitektural. |
-| **2. Analisis Hierarki Memori, Perhitungan EAT *Cache*, & Konfigurasi RAID**<br>(`Sub-CPMK-3.2`) | **35%** | Rumus dan perhitungan *Effective Access Time* (EAT) `L1/L2/L3/RAM` tepat dan diinterpretasikan dampaknya; rekomendasi NVMe + skema RAID (kapasitas bersih, IOPS, toleransi gagal disk) sangat akurat. | Perhitungan EAT benar dan pemilihan skema RAID untuk server transaksi tepat disertai alasan keandalan yang jelas. | Perhitungan EAT dasar benar dan menyebutkan jenis RAID yang wajar, namun perhitungan kapasitas bersih atau analisis penalti tulis RAID kurang lengkap. | Rumus EAT salah susun atau memilih `RAID 0` (tanpa redundansi!) untuk server basis data kritis rumah sakit. | Tidak menyertakan perhitungan *cache* maupun analisis penyimpanan RAID. |
-| **3. Ketepatan Analisis Beban Kerja Akselerator CPU vs GPU vs NPU**<br>(`Sub-CPMK-3.2`) | **25%** | Menguraikan secara presisi perbedaan mikroarsitektur CPU (*latency/branch*), GPU (*parallel throughput/Tensor Cores/HBM*), dan NPU (*low-power edge AI inference*) sesuai tuntutan Skenario 2 & 3. | Penjelasan alasan kapan memakai CPU, GPU, dan NPU akurat secara arsitektural dan relevan dengan skenario kasus. | Mampu membedakan bahwa GPU untuk komputasi paralel besar dan NPU untuk efisiensi daya, namun belum mengaitkan dengan struktur ALU/*memory bandwidth*. | Hanya menyebut "GPU lebih cepat dari CPU untuk semua hal" tanpa memahami batas beban kerja sekuensial. | Gagal menjelaskan fungsi dan perbedaan GPU maupun NPU. |
-| **4. Rujukan *Datasheet* Resmi, Kerapian Matriks, & Deklarasi AI** | **10%** | Mengutip $\ge 3$ *datasheet/whitepaper* resmi terverifikasi, tabel perbandingan sangat informatif, deklarasi AI jujur dan lengkap. | Rujukan resmi valid, tata tulis rapi, deklarasi AI terisi lengkap. | Rujukan ada namun sebagian diambil dari situs ulasan sekunder; format laporan cukup rapi. | Klaim angka spesifikasi tidak mencantumkan sumber rujukan teknis. | Memfabrikasi tipe prosesor/angka spesifikasi palsu hasil halusinasi AI atau plagiasi. |
+### 2.1 Skor Level
 
-$$\text{Skor Tugas 2} = 0,30(K_1) + 0,35(K_2) + 0,25(K_3) + 0,10(K_4)$$
+| Level | Label | Rentang Skor | Deskripsi Umum |
+|:---:|---|:---:|---|
+| **4** | Sangat Baik | 86–100 | Penguasaan penuh, analisis teknis mendalam, justifikasi kuantitatif, melampaui harapan minimal |
+| **3** | Baik | 76–85 | Menguasai materi, prosedur benar dengan kekeliruan minor, memenuhi seluruh tuntutan |
+| **2** | Cukup | 60–75 | Memenuhi sebagian tuntutan, ada kekeliruan teknis yang tidak fatal |
+| **1** | Kurang | 0–59 | Tidak memenuhi tuntutan minimal, kekeliruan mendasar, atau tidak lengkap |
+
+### 2.2 Rumus Skor Rubrik
+
+$$Skor_{rubrik} = \sum_{d=1}^{D} (w_d \times s_d)$$
+
+dengan $w_d$ = bobot dimensi ke-$d$ (jumlah = 1,0) dan $s_d$ = skor dimensi ke-$d$ (0–100).
+
+### 2.3 Prinsip Penilaian Teknis (Wajib)
+
+| Aturan | Ketentuan |
+|---|---|
+| **Skor per langkah** | Metode dan alur analisis benar memperoleh skor meskipun hasil akhir keliru akibat kesalahan hitung |
+| **Jawaban tanpa langkah** | Maksimal 40% poin butir, meskipun jawaban akhir benar |
+| **Diagram wajib berlabel** | Diagram tanpa label dinilai maksimal 50% poin butir terkait |
+| **Satuan kuantitatif** | Perhitungan tanpa satuan (ns, MB/s, W) mengurangi 1 poin per butir |
+| **Notasi** | Biner ditulis dengan subskrip 2, heksadesimal dengan awalan `0x`; pelanggaran mengurangi skor dimensi kerapian |
+| **Justifikasi** | Rekomendasi tanpa argumen teknis dinilai maksimal 50% poin butir |
+
+### 2.4 Prinsip Anti-Kekeliruan Umum
+
+| Kekeliruan | Pencegahan |
+|---|---|
+| *Halo effect* (nilai satu dimensi memengaruhi dimensi lain) | Nilai tiap dimensi terpisah pada lembar skor per dimensi |
+| *Central tendency* (semua nilai di tengah) | Wajib memilih level, bukan angka bebas di tengah |
+| *Leniency/severity* | Moderasi antar-kelas dan *double marking* pada 10% sampel |
+| Penilaian berdasarkan usaha, bukan bukti | Skor hanya berdasarkan bukti pada artefak yang dikumpulkan |
 
 ---
 
-### 2.4 Rubrik Analitik Evaluasi Akhir Semester / UAS (Pekan 16 — Bobot 30% MK · Mengukur `CPMK-4`: `Sub-CPMK-4.1` & `4.2`)
-**Objek Penilaian:** Jawaban Ujian Evaluasi Studi Kasus Infrastruktur Sistem TI (150 menit): Bus PCIe/Interupsi/DMA, Virtualisasi *Hypervisor*, Audit *Server Data Center*, & Sintesis.
+## 3. RUBRIK A — TUGAS 1: DARI BIT KE ALU (20%)
 
-| Dimensi Kriteria | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Evaluasi Interkoneksi Bus PCIe, Interupsi I/O, & Efisiensi DMA**<br>(Kasus 1 — `Sub-CPMK-4.1`) | **25%** | Menemukan secara presisi letak *bottleneck* jalur PCIe (lengkap dengan hitungan GB/s) dan mengevaluasi keunggulan kuantitatif mekanisme *Interrupt* + DMA terhadap beban siklus CPU secara tajam. | Identifikasi *bottleneck* PCIe dan evaluasi perbandingan *Polling* vs *Interrupt* vs DMA tepat dan logis. | Memahami fungsi dasar interupsi dan DMA dalam meringankan CPU, namun perhitungan lebar pita jalur PCIe kurang presisi. | Tertukar cara kerja *Interrupt-Driven I/O* dengan *Direct Memory Access* (DMA) atau gagal melihat penyempitan jalur bus. | Tidak mampu mengevaluasi mekanisme bus maupun I/O. |
-| **2. Evaluasi Virtualisasi Hardware & Perencanaan Konsolidasi *Hypervisor***<br>(Kasus 2 — `Sub-CPMK-4.2`) | **25%** | Mengevaluasi secara komprehensif peran `VT-x/AMD-V`, `EPT`, & `IOMMU`, alasan pemilihan *Hypervisor* Tipe 1, serta menghitung *sizing* konsolidasi *host* dengan cadangan *failover* $N+1$ tanpa cacat. | Evaluasi *Hypervisor* Tipe 1 vs Tipe 2 dan peran ekstensi virtualisasi CPU tepat; perhitungan alokasi *vCPU/RAM* rasional. | Mampu membedakan *Hypervisor* Tipe 1 dan Tipe 2 dengan benar serta menyusun alokasi VM dasar, namun lupa memperhitungkan cadangan kapasitas saat 1 *host* gagal. | Mengusulkan *Hypervisor* Tipe 2 di atas OS desktop untuk server produksi kritis atau melakukan *RAM overcommitment* ekstrem. | Gagal menjelaskan konsep virtualisasi perangkat keras dan *Hypervisor*. |
-| **3. Audit Kritis & Rekomendasi Organisasi *Server Data Center* Cloud**<br>(Kasus 3 — `Sub-CPMK-4.2`) | **30%** | Berhasil menemukan seluruh titik kegagalan tunggal (*SPOF*: non-ECC, non-RAID, PSU tunggal, PUE buruk, klaim *Tier* keliru) pada kasus dan merumuskan revisi spesifikasi rak server yang koheren & realistis. | Mengidentifikasi mayoritas kelemahan desain server *data center*, menghitung PUE dengan benar, dan memberikan rekomendasi perbaikan yang tepat. | Menemukan minimal 2–3 kelemahan utama (mis. perlunya RAID dan PSU ganda) serta memahami konsep dasar *Tier*, namun analisis PUE/memori ECC masih singkat. | Hanya memberi saran umum ("beli server yang lebih mahal") tanpa mengevaluasi komponen redundansi spesifik. | Tidak mampu mengaudit kelemahan desain infrastruktur server. |
-| **4. Keutuhan Sintesis Lintas-Lapisan Arsitektur Sistem TI**<br>(Kasus 4 — Sintesis `CPMK-1..4`) | **20%** | Merangkai alur kerja dari abstraksi VM/*Hypervisor*, jalur PCIe/DMA, hierarki *Cache*/VRAM, hingga eksekusi aritmetika `FP16`/IEEE 754 di ALU/Tensor Core secara utuh, sistematis, dan akurat. | Menghubungkan minimal 4 lapisan arsitektur dari level infrastruktur cloud hingga eksekusi prosesor/akselerator secara runtut. | Menjelaskan tahapan utama dengan cukup benar walau transisi antar-komponen (mis. dari DMA ke *cache*) masih bersifat garis besar. | Penjelasan melompat-lompat dan mencampuradukkan lapisan perangkat keras dengan protokol aplikasi tingkat tinggi. | Kosong atau tidak menunjukkan pemahaman keterkaitan antar-materi. |
+**Cakupan CPMK:** CPMK-1 (50%), CPMK-2 (50%) | **Sub-CPMK:** 1.1, 1.2, 2.1
 
-$$\text{Skor UAS} = 0,25(K_1) + 0,25(K_2) + 0,30(K_3) + 0,20(K_4)$$
-
----
-
-## BAGIAN III — RUBRIK FORMATIF DISKUSI KASUS ARSITEKTUR & PENELUSURAN SIMULATOR
-
-| Kriteria Formatif | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Perlu Pembinaan (< 65) |
+| Dimensi (Bobot) | Level 4 — Sangat Baik (86–100) | Level 3 — Baik (76–85) | Level 2 — Cukup (60–75) | Level 1 — Kurang (< 60) |
 |---|---|---|---|---|
-| **Ketelitian Eksplorasi Simulator (LMC / CircuitVerse)** | Mandiri membangun/menelusuri skema dan mampu memprediksi perubahan nilai bit/register sebelum tombol langkah ditekan. | Menjalankan simulasi sesuai panduan dengan hasil akurat dan mencatat pengamatan secara lengkap. | Menyelesaikan simulasi dasar dengan bantuan rekan namun masih pasif menafsirkan hasilnya. | Tidak menjalankan penelusuran atau sekadar menyalin tangkapan layar rekan. |
-| **Kualitas Argumen Teknis pada Debat Kasus (CISC/RISC, RAID, Cloud)** | Argumen berbasis metrik kuantitatif (*latency, throughput, watt, fault tolerance*) dan bebas salah kaprah pemasaran. | Argumen logis dan merujuk konsep arsitektur yang relevan. | Argumen benar secara umum tetapi belum didukung perbandingan metrik teknis. | Argumen subjektif tanpa landasan arsitektur perangkat keras. |
+| **A1. Ketepatan representasi data (25%)** | Seluruh konversi dan format IEEE 754 tepat; *sign*, *exponent* (bias 127), dan *mantissa* ditulis eksplisit; hasil hex benar | Tepat dengan 1 kekeliruan minor pada *mantissa* | Ada kesalahan konversi pada 2 butir | Tidak menguasai sistem bilangan |
+| **A2. Ketepatan analisis rangkaian logika (30%)** | Tabel kebenaran, K-map, dan persamaan benar; rangkaian hasil ekuivalen secara fungsional dan tergambar rapi | Persamaan benar; gambar rangkaian kurang rapi atau kurang berlabel | Penyederhanaan benar sebagian; rangkaian tidak ekuivalen | Tabel kebenaran salah |
+| **A3. Pemahaman siklus instruksi (30%)** | Seluruh register (PC, IR, MAR, MDR) dan urutan lima tahap tepat; diagram alur konsisten dengan *datapath* | Urutan benar; 1–2 peran register kurang tepat | Urutan benar sebagian; peran register tertukar | Tidak memahami siklus instruksi |
+| **A4. Kerapian & tata tulis teknis (15%)** | Notasi biner/hex konsisten; gambar berlabel lengkap; seluruh butir dijawab | Notasi konsisten; gambar kurang berlabel | Notasi tidak konsisten; ada butir tidak dijawab | Jawaban tidak terbaca |
+
+**Contoh perhitungan:**
+A1 = 88, A2 = 82, A3 = 90, A4 = 86
+→ Skor = (0,25×88) + (0,30×82) + (0,30×90) + (0,15×86) = 22,0 + 24,6 + 27,0 + 12,9 = **86,5 (Sangat Baik)**
+
+**Ambang minimal kelulusan komponen:** 60. Skor < 60 wajib revisi dan dinilai ulang maksimal 7 hari setelah umpan balik.
 
 ---
 
-## BAGIAN IV — RUBRIK HOLISTIK MATA KULIAH (SKALA 5 TINGKAT — KPT 2024 TABEL 18 & DOK 033)
+## 4. RUBRIK B — UTS: REPRESENTASI DATA, LOGIKA DIGITAL, DAN ARSITEKTUR (30%)
 
-| Skor Holistik | Predikat Capaian | Deskriptor Integratif Penguasaan `STI-103` (`CPL-05`, `CPL-07`, & `CPL-02` — Level *Introduce*) |
-|:---:|---|---|
-| **5** | **Istimewa (*Outstanding*)** | Mahasiswa memiliki penguasaan sistemik dari bit biner/IEEE 754 dan rangkaian ALU hingga evaluasi kritis CPU CISC/RISC, *cache*, akselerator GPU/NPU, bus PCIe/DMA, *Hypervisor*, dan desain *server data center* berstandar ketersediaan *cloud*. |
-| **4** | **Sangat Baik (*Excellent*)** | Mahasiswa mampu menerapkan konversi data, menganalisis rangkaian kombinasional-sekuensial, membandingkan spesifikasi prosesor/memori/akselerator secara objektif, dan mengevaluasi arsitektur virtualisasi serta server dengan tepat. |
-| **3** | **Baik (*Proficient — Ambang Lulus OBE*)** | Mahasiswa menguasai prinsip dasar representasi data, siklus Von Neumann, gerbang logika/ALU, hierarki memori, serta fungsi dasar I/O, *Hypervisor*, dan komponen server sesuai ambang ketuntasan OBE ($\ge 65,0$). |
-| **2** | **Kurang (*Developing*)** | Mahasiswa memahami komponen komputer secara terpisah-pisah namun lemah dalam analisis rangkaian logika, perhitungan *cache*/RAID, dan evaluasi kemacetan infrastruktur. |
-| **1** | **Sangat Kurang (*Inadequate*)** | Mahasiswa gagal menguasai konsep fundamental arsitektur dan organisasi sistem TI atau melanggar kejujuran akademik. |
+**Cakupan CPMK:** CPMK-1 (35%), CPMK-2 (30%), CPMK-3 (35%) | **Bentuk:** 4 bagian
+
+### 4.1 Alokasi Poin per Bagian
+
+| Bagian | Fokus | Poin | CPMK |
+|:--:|---|:--:|:--:|
+| I | Representasi data & IEEE 754 | 20 | CPMK-1 |
+| II | Siklus instruksi & *datapath* | 15 | CPMK-1 |
+| III | Rangkaian kombinasional & sekuensial | 30 | CPMK-2 |
+| IV | Studi kasus komparatif (CISC/RISC, memori) | 35 | CPMK-3 |
+
+### 4.2 Rubrik Uraian (diterapkan pada seluruh bagian)
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **B1. Penguasaan konsep arsitektur (25%)** | Definisi, register, dan mekanisme dijelaskan tepat dan saling terkait | Tepat dengan 1–2 kekeliruan minor | Beberapa kekeliruan konseptual yang memengaruhi jawaban | Salah memahami konsep inti |
+| **B2. Ketepatan analisis rangkaian (25%)** | Analisis kombinasional dan sekuensial tepat; *timing* konsisten; diagram waktu benar | Sebagian besar tepat; satu kesalahan fungsional kecil | Analisis dangkal atau ada kesalahan fungsional | Tidak mampu menganalisis |
+| **B3. Kualitas analisis komparatif (30%)** | Komparasi multidimensi (ISA, performa, daya, biaya, ekosistem) dengan *trade-off* eksplisit | Komparasi jelas; dua dimensi utama tercakup | Komparasi dangkal; satu dimensi | Tidak ada komparasi |
+| **B4. Ketepatan kuantitatif & kelengkapan (20%)** | Seluruh perhitungan AMAT/*hit ratio* benar dengan interpretasi dan satuan tepat | Perhitungan benar; interpretasi ringkas | Ada kesalahan hitung atau satuan | Tidak menjawab perhitungan |
+
+### 4.3 Kunci Berlapis Bagian IV (Studi Kasus Komparatif, 35 poin)
+
+| Elemen Jawaban | Poin | Kriteria |
+|---|:--:|---|
+| Perbandingan CISC vs RISC untuk beban kerja (i) | 10 | 10 poin bila ≥ 3 argumen teknis tepat (ISA, *pipelining*, memori, daya) |
+| Perbandingan untuk beban kerja (ii) | 8 | 8 poin bila pilihan platform tepat dengan justifikasi daya/performa |
+| Perhitungan AMAT | 9 | 4 poin formula benar; 3 poin substitusi nilai; 2 poin satuan & hasil |
+| Interpretasi dampak desain | 8 | 8 poin bila dikaitkan dengan keputusan ukuran cache, asosiativitas, atau lokalitas kode |
 
 ---
 
-## BAGIAN V — RUBRIK SKALA PERSEPSI & REFLEKSI DIRI MAHASISWA (LIKERT 1–5 — KPT 2024 TABEL 20 & DOK 033)
+## 5. RUBRIK C — TUGAS 2: RANCANGAN PLATFORM KOMPUTASI (20%)
 
-**Skala Persepsi:** `5 = Sangat Mampu` · `4 = Mampu` · `3 = Cukup Mampu` · `2 = Kurang Mampu` · `1 = Sangat Tidak Mampu`.
+**Cakupan CPMK:** CPMK-3 (40%), CPMK-4 (60%) | **Sub-CPMK:** 3.1, 3.2, 4.1, 4.2, 4.3, 4.4 | **Bentuk:** Laporan proyek + diagram + presentasi
 
-| No | Pernyataan Refleksi Penguasaan Kompetensi `STI-103` | Rujukan Sub-CPMK | Skala |
-|:---:|---|---|:---:|
-| 1 | Saya mampu mengonversi bilangan biner, heksadesimal, *Two's Complement*, dan format *floating point* IEEE 754 secara akurat. | `Sub-CPMK-1.1` | 1 – 2 – 3 – 4 – 5 |
-| 2 | Saya mampu menjelaskan dan menelusuri perubahan register pada siklus eksekusi instruksi `Fetch-Decode-Execute` Von Neumann. | `Sub-CPMK-1.2` | 1 – 2 – 3 – 4 – 5 |
-| 3 | Saya mampu menganalisis gerbang logika biner, Peta Karnaugh, dan rangkaian kombinasional pembentuk ALU. | `Sub-CPMK-2.1` | 1 – 2 – 3 – 4 – 5 |
-| 4 | Saya mampu menganalisis cara kerja *flip-flop* dan rangkaian logika sekuensial penyimpan status register. | `Sub-CPMK-2.2` | 1 – 2 – 3 – 4 – 5 |
-| 5 | Saya mampu membandingkan kelebihan dan keterbatasan arsitektur prosesor CISC (`x86_64`) terhadap RISC (`ARM64`/`RISC-V`). | `Sub-CPMK-3.1` | 1 – 2 – 3 – 4 – 5 |
-| 6 | Saya mampu menganalisis pengaruh hierarki memori *cache* `L1/L2/L3`, penyimpanan NVMe/RAID, dan akselerator GPU/NPU pada kinerja sistem. | `Sub-CPMK-3.2` | 1 – 2 – 3 – 4 – 5 |
-| 7 | Saya mampu mengevaluasi potensi *bottleneck* pada bus PCIe serta efisiensi *Interrupt-Driven I/O* dan DMA. | `Sub-CPMK-4.1` | 1 – 2 – 3 – 4 – 5 |
-| 8 | Saya mampu mengevaluasi peran *Hypervisor* dan kelayakan spesifikasi organisasi *server data center* untuk mendukung layanan *cloud*. | `Sub-CPMK-4.2` | 1 – 2 – 3 – 4 – 5 |
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **C1. Karakterisasi beban kerja (25%)** | Profil beban kerja dikuantifikasi (CPU/memori/I/O) dengan asumsi eksplisit, realistis, dan terjustifikasi | Profil memadai; asumsi sebagian tersurat | Profil generik; asumsi tidak jelas | Tidak ada karakterisasi |
+| **C2. Kelayakan rancangan platform (30%)** | Rancangan konsisten dengan profil beban; pilihan arsitektur dan strategi virtualisasi terjustifikasi teknis | Rancangan layak; justifikasi memadai | Rancangan generik; justifikasi lemah | Rancangan tidak dapat diimplementasikan |
+| **C3. Ketepatan estimasi kuantitatif (25%)** | Seluruh estimasi (inti CPU, memori, AMAT/*throughput*) dihitung benar, bersatuan, dan diinterpretasikan | Estimasi benar; interpretasi ringkas | Ada kesalahan hitung atau estimasi tidak lengkap | Tidak ada estimasi |
+| **C4. Evaluasi *data center* & *trade-off* (20%)** | Analisis daya, PUE, redundansi, dan *trade-off* biaya–performa–risiko kritis dan terukur | Analisis memadai; *trade-off* disebut | Analisis umum | Mengabaikan aspek *data center* |
+
+### 5.1 Penilaian Kontribusi Tim (anti-*free-rider*)
+
+| Kondisi | Penyesuaian Skor Individu |
+|---|---|
+| Kontribusi merata, terdokumentasi (log pertemuan, riwayat dokumen) | 100% dari skor kelompok |
+| Kontribusi terbukti pada ≥ 3 dari 4 dimensi | 90–100% |
+| Kontribusi parsial, tidak terdokumentasi | 70–89% |
+| Kontribusi minimal / tidak dapat menjelaskan rancangan saat verifikasi 3 menit | ≤ 50% |
+| Tidak berkontribusi | 0% |
 
 ---
 
-## BAGIAN VI — TEMPLAT LEMBAR PENILAIAN CEPAT DOSEN (*SPEED GRADING SHEET* `STI-103`)
+## 6. RUBRIK D — UAS: EVALUASI KOMPREHENSIF (30%)
 
-```text
-====================================================================================================================================
-        LEMBAR REKAPITULASI PENILAIAN OBE MULTI-CPL — STI-103 ARSITEKTUR & ORGANISASI SISTEM TI (3 SKS TEORI)
-====================================================================================================================================
-Semester / Tahun Akademik : Semester 1 (Ganjil) / 2026-2027     CPL : CPL-05 (P1: 25%), CPL-07 (P3: 40%), CPL-02 (KU1: 35%) [Level I]
-Klaster Rubrik            : K-1 (Arsitektur & Sains Komputasi)  Ambang OBE : >= 65.0 per CPMK & CPL (Target Kohor >= 80%)
-------------------------------------------------------------------------------------------------------------------------------------
-No | NIM       | Nama Mhs     | T1(20%) | UTS(30%)| T2(20%) | UAS(30%)| CPL-05 | CPL-07 | CPL-02 | Nilai | Huruf | Status OBE
-   |           |              | [CPMK1] | [CPMK2] | [CPMK3] | [CPMK4] |  (P1)  |  (P3)  |  (KU1) | Akhir | Mutu  | Semua CPL >=65
-------------------------------------------------------------------------------------------------------------------------------------
-1  | 260101001 | [Nama Mhs 1] |  85.0   |  80.0   |  84.0   |  82.0   |  82.00 |  83.35 |  81.60 | 82.40 |   A   | YA
-2  | 260101002 | [Nama Mhs 2] |  76.0   |  70.0   |  72.0   |  74.0   |  72.40 |  73.90 |  71.83 | 72.80 |   B   | YA
-3  | 260101003 | [Nama Mhs 3] |  68.0   |  66.0   |  70.0   |  68.0   |  66.80 |  68.60 |  67.60 | 67.80 |   C+  | YA
-------------------------------------------------------------------------------------------------------------------------------------
-RATA-RATA KELAS               |  76.33  |  72.00  |  75.33  |  74.67  |  73.73 |  75.28 |  73.68 | 74.33 | % >=65: 100%
-====================================================================================================================================
+**Cakupan CPMK:** CPMK-1 s.d. CPMK-4 | **Bentuk:** 4 bagian
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **D1. Penguasaan konsep komprehensif (25%)** | Mengaitkan representasi data, ALU, ISA, memori, I/O, dan virtualisasi secara utuh dan koheren | Konsep benar; keterkaitan antar-bagian sebagian | Konsep terpisah-pisah; keterkaitan lemah | Salah konsep mendasar |
+| **D2. Ketepatan analisis teknis (30%)** | Analisis kuantitatif tepat; implikasi desain dijelaskan; satuan dan asumsi benar | Analisis tepat; interpretasi ringkas | Analisis umum; tanpa kuantifikasi | Analisis tidak berdasar |
+| **D3. Kedalaman evaluasi & *trade-off* (30%)** | Evaluasi kritis multi-kriteria (biaya, daya, performa, risiko) dengan rekomendasi tegas | Evaluasi jelas; dua kriteria utama | Evaluasi dangkal; satu kriteria | Tidak ada evaluasi |
+| **D4. Struktur & komunikasi teknis (15%)** | Uraian runtut; terminologi tepat; kesimpulan eksplisit dan konsisten | Uraian jelas; kesimpulan ada | Uraian kurang runtut | Tidak terstruktur |
+
+### 6.1 Kunci Berlapis Bagian III — Virtualisasi & *Data Center* (25 poin)
+
+| Elemen | Poin | Kriteria |
+|---|:--:|---|
+| Evaluasi kelayakan *overcommitment* memori | 8 | 5 poin analisis (pemanfaatan 62%, risiko *swapping*); 3 poin rekomendasi |
+| Perbandingan *hypervisor* Tipe 1 vs Tipe 2 | 6 | 3 poin karakteristik tiap tipe; 3 poin kesesuaian dengan kebutuhan |
+| Pertimbangan alternatif kontainer | 4 | 4 poin bila isolasi, kepadatan, dan *startup* dibandingkan |
+| Strategi konsolidasi & dampak PUE/daya | 7 | 4 poin strategi; 3 poin estimasi dampak kuantitatif |
+
+### 6.2 Kunci Berlapis Bagian IV — Perancangan Solusi Terbuka (20 poin)
+
+| Elemen | Poin | Kriteria |
+|---|:--:|---|
+| Identifikasi kebutuhan & batasan | 5 | 5 poin bila kebutuhan fungsional dan batasan (anggaran/daya) eksplisit |
+| Pemilihan komponen platform | 6 | 6 poin bila prosesor, memori, dan I/O dipilih konsisten dengan beban kerja |
+| Perhitungan kelayakan | 5 | 5 poin bila estimasi kuantitatif benar dan bersatuan |
+| Risiko & mitigasi | 4 | 4 poin bila ≥ 2 risiko teknis disertai mitigasi konkret |
+
+---
+
+## 7. RUBRIK E — PRESENTASI DAN PARTISIPASI (FORMATIF)
+
+**Digunakan:** Pekan 6 (*gallery walk*), Pekan 12 (presentasi antara), Pekan 15 (presentasi final)
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **E1. Penguasaan materi (40%)** | Menguasai penuh; mampu menggambar ulang diagram arsitektur di papan saat ditanya | Memahami materi; jawaban tepat dan logis | Pemahaman cukup; ragu saat tanya jawab | Tidak menguasai materi |
+| **E2. Kualitas media visual (30%)** | Diagram arsitektur profesional; blok berlabel; data terstruktur dalam tabel | Slide rapi; label sebagian besar ada | Slide terlalu padat; label sering hilang | Slide buruk/tidak berstruktur |
+| **E3. Artikulasi & alokasi waktu (30%)** | Lugas, percaya diri, kontak mata baik, tepat waktu | Komunikasi jelas; intonasi baik; waktu pas | Suara monoton; melebihi batas waktu | Komunikasi pasif; tidak terkontrol |
+
+---
+
+## 8. RUBRIK F — SIKAP, ETIKA, DAN INTEGRITAS AKADEMIK (SYARAT)
+
+| Aspek | Indikator Terpenuhi | Indikator Tidak Terpenuhi |
+|---|---|---|
+| Kehadiran | ≥ 75% pertemuan | < 75% pertemuan → nilai maksimum D |
+| Ketepatan pengumpulan | ≥ 80% tugas tepat waktu | < 50% tugas terlambat berat |
+| Deklarasi AI | Seluruh tugas menyertakan deklarasi penggunaan AI/simulator | Ada tugas tanpa deklarasi |
+| Orisinalitas | Kemiripan ≤ 25%; dapat menjelaskan diagram/analisis karyanya | Kemiripan > 25% atau tidak dapat menjelaskan karya |
+| Sitasi diagram | Diagram dari sumber eksternal disitasi dengan benar | Diagram disalin tanpa sitasi |
+| Etika kelas | Menghormati dosen dan sesama; aktif konstruktif | Mengganggu, tidak menghormati, atau manipulatif |
+
+**Konsekuensi:** pelanggaran integritas akademik berat (plagiarisme, pemalsuan data perhitungan, kerja sama terlarang) dikenakan nilai 0 pada komponen terkait dan diproses sesuai Peraturan Akademik Universitas.
+
+---
+
+## 9. REKAPITULASI BOBOT DAN KONVERSI
+
+### 9.1 Rekap Bobot Asesmen
+
+| Rubrik | Bobot terhadap NA | Skor Maksimum |
+|:---:|:---:|:---:|
+| R-A Tugas 1 | 20% | 100 |
+| R-B UTS | 30% | 100 |
+| R-C Tugas 2 | 20% | 100 |
+| R-D UAS | 30% | 100 |
+| **Total** | **100%** | |
+
+### 9.2 Konversi Nilai
+
+| NA | Huruf | Bobot | Status |
+|:---:|:---:|:---:|:---:|
+| 86–100 | A | 4,00 | Lulus |
+| 76–85 | B+ | 3,50 | Lulus |
+| 70–75 | B | 3,00 | Lulus |
+| 66–69 | C+ | 2,50 | Lulus |
+| 60–65 | C | 2,00 | Lulus (batas) |
+| 56–59 | D | 1,00 | Tidak lulus |
+| 0–55 | E | 0,00 | Tidak lulus |
+
+### 9.3 Contoh Perhitungan Lengkap
+
+| Komponen | Skor | Bobot | Kontribusi |
+|:---:|:---:|:---:|:---:|
+| Tugas 1 | 86,5 | 20% | 17,30 |
+| UTS | 74 | 30% | 22,20 |
+| Tugas 2 | 85 | 20% | 17,00 |
+| UAS | 78 | 30% | 23,40 |
+| **Nilai Akhir** | | | **79,90 → B+** |
+
+Ketercapaian CPMK mahasiswa tersebut:
+- CPMK-1 = 0,50×86,5 + 0,50×74 = 43,25 + 37,00 = **80,3**
+- CPMK-2 = 0,50×86,5 + 0,40×74 + 0,10×78 = 43,25 + 29,60 + 7,80 = **80,7**
+- CPMK-3 = 0,10×74 + 0,40×85 + 0,50×78 = 7,40 + 34,00 + 39,00 = **80,4**
+- CPMK-4 = 0,60×85 + 0,40×78 = 51,00 + 31,20 = **82,2**
+
+Seluruh CPMK ≥ 60 → **tuntas CPMK**. Ketercapaian CPL:
+- `CPL-05` (`P1`) = 0,25 × 79,90 = **19,98** (ambang ≥ 65,0 pada skala CPL penuh → lihat catatan)
+- `CPL-07` (`P3`) = 0,45 × 79,90 = **35,96**
+- `CPL-02` (`KU1`) = 0,30 × 79,90 = **23,97**
+
+> **Catatan pembacaan:** nilai berbobot di atas adalah **kontribusi parsial** MK terhadap CPL program. Ketercapaian CPL penuh dihitung pada tingkat prodi dengan menjumlahkan kontribusi seluruh MK pembina CPL tersebut (Dokumen 008 Bagian 3.3–3.4).
+
+---
+
+## 10. LEMBAR REKAP PENILAIAN (SPEED GRADING SHEET)
+
 ```
+================================================================================
+LEMBAR ASESMEN OBE CEPAT — STI-103 ARSITEKTUR DAN ORGANISASI SISTEM TI
+Kelas: ____ | Semester: 1 | Tahun Akademik: ____ | Dosen: __________________
+--------------------------------------------------------------------------------
+No | NIM | Nama | T1 (20%)  | UTS (30%)   | T2 (20%)  | UAS (30%) | NA | Grade
+   |     |      | [CPMK-1,2]| [CPMK-1,2,3]| [CPMK-3,4]| [Komp.]   |    |
+--------------------------------------------------------------------------------
+ 1 |     |      |           |             |           |           |    |
+ 2 |     |      |           |             |           |           |    |
+ 3 |     |      |           |             |           |           |    |
+--------------------------------------------------------------------------------
+RATA-RATA CPMK-1: ____ | CPMK-2: ____ | CPMK-3: ____ | CPMK-4: ____
+KETERCAPAIAN CPL: CPL-05 (P1) ____ | CPL-07 (P3) ____ | CPL-02 (KU1) ____
+================================================================================
+```
+
+**Petunjuk pengisian:** isi skor 0–100 per komponen; NA dihitung otomatis dengan rumus 9.1; kolom Grade diisi berdasarkan tabel 9.2; rekap CPMK dihitung dengan rumus Bagian 6.2 dokumen 055_4.
+
+---
+
+## 11. MODERASI, VALIDASI, DAN TINDAK LANJUT
+
+| Aktivitas | Ketentuan |
+|---|---|
+| Validasi rubrik sebelum digunakan | Ditelaah Koordinator RMK dan UPM FSTI |
+| Verifikasi kunci jawaban | Setiap kunci (termasuk tabel kebenaran dan perhitungan AMAT) diperiksa penelaah kedua sebelum ujian |
+| Moderasi antar-kelas | 10% sampel dinilai ulang oleh dosen kedua; selisih > 10 poin dibahas bersama |
+| Kalibrasi penilai | Sesi kalibrasi 60 menit sebelum penilaian tugas besar, menggunakan 3 sampel jawaban |
+| Dokumentasi | Lembar skor per dimensi diarsipkan bersama artefak mahasiswa |
+| Revisi rubrik | Dilakukan bila > 20% mahasiswa memperoleh level 1 pada dimensi yang sama |
+| Pelaporan | Rekap ke Koordinator RMK paling lambat 7 hari setelah asesmen |
+
+---
+
+## 12. RIWAYAT REVISI
+
+| Versi | Tanggal | Perubahan | Penyusun |
+|:---:|:---:|---|---|
+| 1.0 | 07 November 2026 | Penyusunan awal; 6 rubrik (A–F) untuk 4 CPMK, dilengkapi kunci berlapis dan penanganan 3 CPL | Tim Pengembang RPS SISTEKIN |
+
+---
+
+*Rubrik ini merupakan turunan langsung dari CPMK/Sub-CPMK Dokumen 043 dan skema asesmen Dokumen 008. Setiap perubahan bobot atau dimensi wajib disertai revisi dokumen 055_1 dan 055_4.*

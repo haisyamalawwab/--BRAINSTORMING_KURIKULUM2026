@@ -1,240 +1,389 @@
-# 059_1 — RENCANA PEMBELAJARAN SEMESTER (RPS)
-## STI-205 — ALJABAR LINEAR DAN MATRIKS (*Linear Algebra and Matrices*)
+# RENCANA PEMBELAJARAN SEMESTER (RPS)
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 2 — Tahap Fondasi Lanjut)  
-**Nomor Dokumen SPMI:** `071030.B4.5.2.RPS-STI205`  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan Utama:** Template Master RPS Generator FSTI UWG (`Template_RPS_GEN_2026_20092026-SWO.docx` / Dok 052 & 053) · Dok 003 (14 CPL & BoK) · Dok 004 (Matriks Keterlacakan & IRM) · Dok 005 (Struktur 8 Semester) · Dok 007 §10 (Silabus 3-Tabel) · Dok 008 & 018 (Asesmen 4 Titik & Rubrik Klaster K-1) · Dok 043 (Matriks CPL–CPMK–BoK & Boundary Guardrails).  
-**Perangkat Pendamping Seri `059`:**  
-- `059_2_SAP_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md` (Satuan Acara Perkuliahan 16 Pertemuan)  
-- `059_3_OUTLINE_MODUL_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md` (Outline Buku Modul Pembelajaran)  
-- `059_4_RENCANA_EVALUASI_ASESMEN_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md` (Rencana Evaluasi & Asesmen OBE)  
-- `059_5_RUBRIK_PENILAIAN_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md` (Rubrik Penilaian OBE)
+## STI-205 — ALJABAR LINEAR DAN MATRIKS
+### *Linear Algebra and Matrices*
 
-> [!IMPORTANT]
-> **Catatan Kesinambungan & Anti-Kolisi Kurikulum (Dokumen 005 & AGENTS.md):**  
-> Dokumen ini berlaku khusus untuk **`STI-205 Aljabar Linear dan Matriks` (3 SKS Teori)** pada **Kurikulum OBE SISTEKIN 2026**, dengan prasyarat resmi `STI-102 Kalkulus` (Semester 1) dan menjadi prasyarat langsung bagi `STI-413 Pembelajaran Mesin` (Semester 4).
+> **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)
+> **Fakultas:** Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang
+> **Nomor Dokumen SPMI:** 071030.B4.5.2.RPS-STI205
+> **Tanggal Penyusunan:** 07 November 2026
+> **Sumber Data:** Dokumen 005 (struktur & identitas), 007 (silabus), 043 (CPMK/Sub-CPMK/Boundary Guardrails), 003 (CPL), 008 & 018 (skema asesmen dan rubrik)
 
 ---
 
-## HALAMAN 1 — SAMPUL & IDENTITAS MATA KULIAH
+## HALAMAN 1 — SAMPUL DEPAN (LANDSCAPE)
 
-### A. Blok Sampul Dokumen (Cover — Landscape)
-* **Judul Dokumen:** RENCANA PEMBELAJARAN SEMESTER (RPS)
-* **Mata Kuliah:** Aljabar Linear dan Matriks (*Linear Algebra and Matrices*)
-* **Kode Mata Kuliah:** `STI-205` (Kurikulum OBE SISTEKIN 2026)
-* **Penyusun:** Tim KBK Matematika & Sains Komputasi (`[PERLU KONFIRMASI: Nama Dosen Koordinator STI-205]` / NUPTK: `[PERLU KONFIRMASI: NUPTK Dosen]`)
-* **Institusi:** UNIVERSITAS WIDYAGAMA MALANG — FAKULTAS SAINS DAN TEKNOLOGI INFORMASI
-* **Periode Penetapan:** NOVEMBER 2026
-
-### B. Tabel Identitas Mata Kuliah & Otorisasi SPMI
-
-| Atribut Identitas Template (`{{tag}}`) | Spesifikasi Resmi Kurikulum OBE SISTEKIN 2026 |
-|---|---|
-| **Institusi & UPPS** | Universitas Widyagama Malang — Fakultas Sains dan Teknologi Informasi (FSTI) |
-| **Program Studi (`{{prodi}}`)** | S1 Sistem dan Teknologi Informasi (SISTEKIN) |
-| **Nomor Dokumen SPMI (`071030.{{kodeprodi}}`)** | `071030.B4.5.2.RPS-STI205` |
-| **Mata Kuliah (`{{namamk}}`)** | Aljabar Linear dan Matriks (*Linear Algebra and Matrices*) |
-| **Kode MK (`{{kodemk}}`)** | `STI-205` |
-| **Rumpun MK (`{{rumpunmk}}`)** | Matematika & Sains Komputasi (Mata Kuliah Inti Program Studi / *Core STI*) |
-| **Bobot SKS (`T={{skst}} P={{sksp}}`)** | **T = 3 SKS, P = 0 SKS** (Total **3 SKS**, Tipe: **Teori**) |
-| **Alokasi Waktu Belajar per Pekan** | Tatap Muka (TM) = $3 \times 50' = 150\text{ menit}$ · Penugasan Terstruktur (PT) = $3 \times 60' = 180\text{ menit}$ · Belajar Mandiri (BM) = $3 \times 60' = 180\text{ menit}$ (Total $510\text{ menit/pekan}$ atau $136\text{ jam/semester}$) |
-| **Semester (`{{sms}}`)** | **Semester 2** (Genap — Tahap Fondasi Lanjut) |
-| **Tanggal Penyusunan (`{{tglsusun}}`)** | 07 November 2026 |
-| **Matakuliah Prasyarat (`{{mkprasyarat}}`)** | `STI-102` Kalkulus |
-| **Status & Nilai Minimal Kelulusan** | Wajib Program Studi · Nilai Minimal Lulus: **C** (Ambang Ketercapaian OBE: $\ge 65,0$ / Kategori B) |
-| **Pengembang RPS (`{{pengembangrps}}`)** | Tim KBK Matematika & Sains Komputasi |
-| **Koordinator RMK (`{{koordinatormk}}`)** | `[PERLU KONFIRMASI: Nama Koordinator RMK Matematika & Sains Komputasi]` |
-| **Ketua Program Studi (`{{ketuaprodi}}`)** | `[PERLU KONFIRMASI: Nama Ketua Prodi SISTEKIN]` *(Ref. Dok 054: Ahmad Fairuzabadi, S.Kom., M.Kom.)* |
-| **Dosen Pengampu (`{{dosenpengampu}}`)** | 1. `[PERLU KONFIRMASI: Nama Dosen Pengampu 1]` (Koordinator MK)<br>2. `[PERLU KONFIRMASI: Nama Dosen Pengampu 2]` (Kelas Paralel) |
-
----
-
-## HALAMAN 2 — CAPAIAN PEMBELAJARAN, KORELASI, DESKRIPSI, BAHAN KAJIAN & PUSTAKA
-
-### 1. Capaian Pembelajaran Lulusan (CPL-PRODI) yang Dibebankan pada MK (`[nocpl]` & `[cpl]`)
-
-Merujuk **Dokumen 003**, **Dokumen 004 Bagian 0 & Tabel 3.1** (kode baku `CPL-05`, level penguasaan **IRM = `I` / *Introduce***), serta **Dokumen 043**:
-
-| Kode Baku CPL | Alias Kategori | Rumusan Resmi CPL (Verbatim Dokumen 003) | Target Bloom CPL | Posisi IRM di MK Ini | Profil Lulusan & PEO Didukung |
-|:---:|:---:|---|:---:|:---:|---|
-| **`CPL-05`** | **`P1`** | Menguasai konsep dasar sains, matematika terapan (kalkulus, aljabar linear, statistika, matematika diskrit, logika) sebagai fondasi pemecahan masalah rekayasa sistem informasi dan komputasi cerdas yang kompleks. | **C3** (*Apply*) | **`I`** (*Introduce*) | `PL-1` (*Intelligent IS & AI Engineer*), `PL-2` (*Cloud Infra & Smart Systems*) · `PEO-1` & `PEO-3` |
-
-### 2. Capaian Pembelajaran Mata Kuliah (CPMK) — Format ABCD & Level Bloom (`[nocpmk]` & `[cpmk]`)
-
-Rumusan **verbatim** dari **Dokumen 043** dan **Dokumen 007 Tabel 10.B** (4 CPMK terpetakan 1-ke-1 ke 4 titik asesmen):
-
-| Kode CPMK | Rumusan Capaian Pembelajaran Mata Kuliah (Format ABCD) | Level Bloom | CPL Didukung |
-|:---:|---|:---:|:---:|
-| **`CPMK-1`** | Mahasiswa (*A*) mampu **menyelesaikan** Sistem Persamaan Linear (SPL) (*B*) menggunakan eliminasi Gauss-Jordan dan matriks invers (*C*) secara tepat (*D*). | **C3** (*Apply*) | `CPL-05` (`P1`) |
-| **`CPMK-2`** | Mahasiswa (*A*) mampu **menganalisis** struktur ruang vektor, kombinasi linier, kebebasan linier, basis, dan dimensi (*B*) pada ruang $\mathbb{R}^n$ (*C*) dengan kaidah aljabar formal (*D*). | **C4** (*Analyze*) | `CPL-05` (`P1`) |
-| **`CPMK-3`** | Mahasiswa (*A*) mampu **menghitung** nilai eigen (Eigenvalues), vektor eigen (Eigenvectors), dan diagonalisasi matriks (*B*) pada matriks transformasi linier (*C*) secara presisi (*D*). | **C3** (*Apply*) | `CPL-05` (`P1`) |
-| **`CPMK-4`** | Mahasiswa (*A*) mampu **merumuskan** dekomposisi matriks SVD (Singular Value Decomposition) dan reduksi dimensi PCA (*B*) menggunakan pustaka Python NumPy (*C*) untuk pemrosesan data AI (*D*). | **C4** (*Analyze*) | `CPL-05` (`P1`) |
-
-### 3. Kemampuan Akhir Tiap Tahapan Belajar (Sub-CPMK) (`[nosubcpmk]` & `[subcpmk]`)
-
-Rumusan **verbatim** dari **Dokumen 043** (8 Sub-CPMK operasional):
-
-| Kode Sub-CPMK | Rumusan Kemampuan Akhir Tahapan Belajar (Kompetensi Spesifik) | Induk CPMK | Level Bloom | Rentang Pekan |
-|:---:|---|:---:|:---:|:---:|
-| **`Sub-CPMK-1.1`** | Menyelesaikan Sistem Persamaan Linear (SPL) menggunakan eliminasi Gauss-Jordan dan matriks invers. | `CPMK-1` | **C3** | Pekan 1–3 |
-| **`Sub-CPMK-1.2`** | Menentukan jenis solusi SPL (tunggal, tak hingga, atau tak ada) dari bentuk eselon baris. | `CPMK-1` | **C3** | Pekan 2–3 |
-| **`Sub-CPMK-2.1`** | Menganalisis kombinasi linier, kebebasan linier, dan rentang (span) pada ruang vektor. | `CPMK-2` | **C4** | Pekan 4–6 |
-| **`Sub-CPMK-2.2`** | Menentukan basis dan dimensi ruang vektor R^n. | `CPMK-2` | **C4** | Pekan 5–7 |
-| **`Sub-CPMK-3.1`** | Menghitung nilai eigen, vektor eigen, dan diagonalisasi matriks. | `CPMK-3` | **C3** | Pekan 10–12 |
-| **`Sub-CPMK-3.2`** | Menerapkan diagonalisasi matriks pada transformasi linier. | `CPMK-3` | **C3** | Pekan 9 & 11–12 |
-| **`Sub-CPMK-4.1`** | Merumuskan dekomposisi SVD (Singular Value Decomposition) suatu matriks. | `CPMK-4` | **C4** | Pekan 13–14 |
-| **`Sub-CPMK-4.2`** | Menerapkan PCA (NumPy) untuk reduksi dimensi pada pemrosesan data AI. | `CPMK-4` | **C4** | Pekan 14–15 |
-
-### 4. Peta Analisis Pembelajaran (*Instructional Analysis* — Standar KPT 2024)
-
-```mermaid
-graph BT
-    EB["GARIS ENTRY BEHAVIOR: STI-102 Kalkulus (Fungsi Multivariat & Vektor Gradien 2D/3D) serta Dasar Python FST-102"] --> S11
-    S11["Sub-CPMK-1.1 & 1.2 (C3, Mg 1-3):<br/>Vektor di R^n, Aljabar Matriks, Eliminasi Gauss & Gauss-Jordan, Determinan, Invers, & Jenis Solusi SPL<br/>(Dievaluasi pada TUGAS 1 Mg 4: 20%)"] --> S21
-    S21["Sub-CPMK-2.1 (C4, Mg 4-6):<br/>Ruang Vektor & Subruang R^n, Kombinasi Linier, Rentang (Span), & Kebebasan Linier"] --> S22
-    S22["Sub-CPMK-2.2 (C4, Mg 5-7):<br/>Basis & Dimensi, Ruang Baris/Kolom/Nol (Rank-Nullitas), Ortogonalitas, & Gram-Schmidt"] --> UTS
-    UTS["EVALUASI TENGAH SEMESTER / UTS (Mg 8 — Bobot 30%):<br/>Analisis Struktur Ruang Vektor, Kebebasan Linier, Basis, Dimensi, & Ortogonalitas (CPMK-2)"] --> S32
-    S32["Sub-CPMK-3.1 & 3.2 (C3, Mg 9-12):<br/>Transformasi Linier, Nilai Eigen, Vektor Eigen, Diagonalisasi A = PDP^-1, & Matriks Simetris Ortogonal<br/>(Dievaluasi pada TUGAS 2 Mg 12: 20%)"] --> S41
-    S41["Sub-CPMK-4.1 (C4, Mg 13-14):<br/>Dekomposisi Nilai Singular (SVD: A = U Sigma V^T), Low-Rank Approximation, & Matematika Kovarians PCA"] --> S42
-    S42["Sub-CPMK-4.2 (C4, Mg 14-15):<br/>Komputasi Matriks SVD & Reduksi Dimensi PCA Murni dengan Pustaka Python NumPy untuk Data AI"] --> UAS
-    UAS["EVALUASI AKHIR SEMESTER / UAS (Mg 16 — Bobot 30%):<br/>Evaluasi Perumusan SVD, Reduksi Dimensi PCA (NumPy), & Sintesis Aljabar Linear AI (CPMK-4)"] --> CPL05["CAPAIAN AKHIR MK: Pemenuhan CPL-05 (P1) pada Level Introduce (I)"]
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                            UNIVERSITAS WIDYAGAMA                             │
+│                    FAKULTAS SAINS DAN TEKNOLOGI INFORMASI                    │
+│                                                                              │
+│                                                                              │
+│                  RENCANA PEMBELAJARAN SEMESTER (RPS)                         │
+│                                                                              │
+│                                                                              │
+│                     STI-205 — ALJABAR LINEAR DAN MATRIKS                     │
+│                         Linear Algebra and Matrices                          │
+│                                                                              │
+│                            BOBOT: 3 SKS (TEORI)                              │
+│                                                                              │
+│                                                                              │
+│                    Penyusun: Tim Pengembang RPS SISTEKIN                     │
+│                    Koordinator RMK Matematika & Sains Komputasi              │
+│                                                                              │
+│                                                                              │
+│                            MALANG, NOVEMBER 2026                             │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 5. Matriks Korelasi CPL terhadap CPMK & Bobot Penilaian (`[tabelkolerasi]`)
+---
 
-Mengacu **Dokumen 008 §2** dan **Dokumen 018 §3 Klaster `K-1`** (`20% + 30% + 20% + 30% = 100%`, pemetaan 1-ke-1):
+## HALAMAN 2 — IDENTITAS, OTORISASI, DAN CAPAIAN PEMBELAJARAN (LANDSCAPE)
 
-| Kode CPMK | `CPL-05` (`P1`) (%) | Bobot Penilaian (%) | Jumlah Minggu | Instrumen & Titik Asesmen Sumatif | Keterkaitan Metode Kasus/Problem (IKU 7) |
-|:---:|:---:|:---:|:---:|---|---|
-| **`CPMK-1`** | 20% | **20%** | 3 Minggu (Mg 1–3) | **Tugas 1** (Pekan 4 — 20%): Pemodelan & Penyelesaian SPL Jaringan/Alokasi via Gauss-Jordan & Matriks Invers | *Problem-Based Case* (20%) |
-| **`CPMK-2`** | 30% | **30%** | 5 Minggu (Mg 4–8) | **UTS** (Pekan 8 — 30%): Ujian Tertulis Analisis Ruang Vektor $\mathbb{R}^n$, Kebebasan Linier, Basis, Dimensi, & *Gram-Schmidt* | Ujian Analitik Formal |
-| **`CPMK-3`** | 20% | **20%** | 4 Minggu (Mg 9–12) | **Tugas 2** (Pekan 12 — 20%): Studi Kasus Transformasi Linier, Nilai/Vektor Eigen, & Diagonalisasi (*Markov/PageRank*) | *Case-Based Modeling* (20%) |
-| **`CPMK-4`** | 30% | **30%** | 4 Minggu (Mg 13–16) | **UAS** (Pekan 16 — 30%): Studi Kasus Matematis + Verifikasi `NumPy` Dekomposisi SVD & Reduksi Dimensi PCA | *Case-Based AI Data Formulation* (30%) |
-| **TOTAL** | **100%** | **100%** | **16 Minggu** | **4 Titik Evaluasi Baku (1-to-1 CPMK) = 100%** | **Bobot Problem/Case-Based = 70% ($\ge 50\%$)** |
+### A. Tabel Identitas Mata Kuliah
 
-### 6. Deskripsi Singkat Mata Kuliah (`{{deskripsimk}}`)
-
-Mata kuliah **Aljabar Linear dan Matriks (`STI-205`)** adalah mata kuliah wajib inti program studi (*Core STI*) berbobot 3 SKS Teori pada Semester 2 yang membangun bahasa matematika representasi vektor, matriks, dan ruang berdimensi tinggi sebagai fondasi utama kecerdasan artifisial modern, pemrosesan sinyal/citra, dan analitika data. Berangkat dari prasyarat `STI-102 Kalkulus`, perkuliahan membahas aljabar vektor di ruang $\mathbb{R}^n$ (*dot product, norm, cosine similarity*), operasi matriks, penyelesaian Sistem Persamaan Linear (SPL) melalui eliminasi Gauss dan Gauss-Jordan, analisis eksistensi/ketunggalan solusi dari bentuk eselon baris, determinan, serta matriks invers. Selanjutnya mahasiswa menganalisis struktur formal ruang vektor dan subruang pada $\mathbb{R}^n$—meliputi kombinasi linier, rentang (*span*), kebebasan linier, basis, dimensi, ruang baris/kolom/nol (*rank-nullity*), hingga ortogonalitas dan proses *Gram-Schmidt*. Pada paruh kedua semester, mahasiswa mengkaji matriks transformasi linier, perhitungan nilai eigen (*eigenvalues*) dan vektor eigen (*eigenvectors*), diagonalisasi matriks bujursangkar maupun matriks simetris ortogonal, yang kemudian bermuara pada perumusan *Singular Value Decomposition* (SVD) serta reduksi dimensi *Principal Component Analysis* (PCA) berbantuan pustaka komputasi matriks dasar Python `NumPy` untuk menyiapkan representasi fitur data AI. Sesuai *Boundary Guardrails* Dokumen 043, mata kuliah ini berfokus pada aljabar matriks analitis dan komputasi primitif `NumPy`, tanpa mengambil alih pelatihan model *Machine Learning* dengan `scikit-learn` (`STI-413 Pembelajaran Mesin`).
-
-### 7. Pagar Pembatas Materi (*Boundary Guardrails* — Verbatim & Selaras Dokumen 005/037/043)
-
-| Lapisan Guardrail | Ketentuan Wajib Dosen Pengampu & Audit GPM |
+| Atribut | Spesifikasi |
 |---|---|
-| 🟢 **IN-SCOPE (Wajib Diajarkan)** | Vektor ruang $\mathbb{R}^n$ & aljabar matriks; Sistem Persamaan Linear (SPL), eliminasi Gauss-Jordan, eselon baris, determinan, & matriks invers; ruang vektor, kombinasi linier, kebebasan linier, basis, dimensi, *rank*, & ortogonalitas; transformasi linier, nilai eigen, vektor eigen, & diagonalisasi; serta perumusan matematis dekomposisi SVD dan reduksi dimensi PCA menggunakan operasi matriks dasar Python `NumPy`. |
-| ❌ **OUT-OF-SCOPE (Dilarang Diajarkan)** | ❌ Dilarang mengajarkan pelatihan algoritma *machine learning* (*supervised/unsupervised model training* menggunakan pustaka `scikit-learn` seperti `RandomForest`, `SVM`, atau `sklearn.decomposition.PCA` instan); pengembangan aplikasi web; komputasi klaster terdistribusi (`STA-601`); maupun mengulang analisis limit diferensial-integral kalkulus (`STI-102`). |
-| 🔄 **HANDOFF ANCHOR (Titik Serah Terima)** | Menerima konsep vektor gradien dari `STI-102 Kalkulus`; menguasai manipulasi aljabar linear matriks dan reduksi dimensi fitur, lalu menyerahkan pemodelan *machine learning* penuh ke `STI-413 Pembelajaran Mesin` (Semester 4), arsitektur jaringan saraf ke `STI-624 Pembelajaran Mendalam & Jaringan Saraf` (Semester 6), serta integrasi layanan cerdas ke `STI-726 Integrasi Layanan Cerdas Berbasis AI` (Semester 7). |
+| **MATA KULIAH (MK)** | Aljabar Linear dan Matriks / *Linear Algebra and Matrices* |
+| **KODE** | `STI-205` |
+| **RUMPUN MK** | Matematika & Sains Komputasi (Core STI) |
+| **BOBOT (sks)** | **T = 3** · **P = 0** — Total 3 SKS |
+| **SEMESTER** | 2 (Genap) |
+| **TGL PENYUSUNAN** | 07 November 2026 |
+| **MATA KULIAH SYARAT** | `STI-102` Kalkulus |
+| **DOSEN PENGAMPU** | Tim Pengampu Rumpun Matematika & Sains Komputasi (Core STI) |
+| **BODY OF KNOWLEDGE** | `BK-IS10` *Applied Mathematics and Logic*; `BK-IT02` *Applied AI* |
 
-### 8. Bahan Kajian / Materi Pembelajaran (`{{bahankajian}}`)
+### B. Blok Otorisasi
 
-**Rujukan Body of Knowledge (BoK) APTIKOM (Dokumen 003 & 043):**
-1. **`BK-IS10` — *Applied Mathematics and Logic*** *(BoK Primer IS2020)*: Aljabar matriks, SPL, ruang vektor $\mathbb{R}^n$, nilai eigen, dan dekomposisi matriks.
-2. **`BK-IT02` — *Applied AI*** *(BoK Sekunder IT2017)*: Representasi vektor *embedding*/fitur (*cosine similarity*), SVD, dan matematika reduksi dimensi PCA untuk pemrosesan data AI.
+| Pengembang RPS | Koordinator RMK | Ketua Program Studi |
+|:---:|:---:|:---:|
+| Tim Pengembang RPS SISTEKIN | Koordinator RMK Matematika & Sains Komputasi | Ketua Prodi SISTEKIN FSTI |
+| .......................... | .......................... | .......................... |
 
-**Daftar 14 Pokok Bahasan Mingguan (Harmonisasi Dokumen 007 Tabel 10.C & Dokumen 043):**
-1. Vektor pada Ruang $\mathbb{R}^n$ (*Dot Product, Euclidean Norm, Cosine Similarity*) dan Operasi Aljabar Matriks `[Sub-CPMK-1.1]`
-2. Sistem Persamaan Linear (SPL), Matriks *Augmented*, Eliminasi Gauss & Gauss-Jordan, serta Klasifikasi Solusi dari Bentuk Eselon Baris (`REF/RREF`) `[Sub-CPMK-1.1, Sub-CPMK-1.2]`
-3. Determinan Matriks (Ekspansi Kofaktor & Reduksi Baris), Matriks Invers ($A^{-1}$), dan Penyelesaian SPL $x = A^{-1}b$ `[Sub-CPMK-1.1, Sub-CPMK-1.2]`
-4. Ruang Vektor Riil $\mathbb{R}^n$, Pengujian Subruang Vektor, Kombinasi Linier, dan Rentang (*Span*) `[Sub-CPMK-2.1]`
-5. Kebebasan Linier (*Linear Independence*) vs Ketergantungan Linier serta Basis dan Dimensi Ruang Vektor $\mathbb{R}^n$ `[Sub-CPMK-2.1, Sub-CPMK-2.2]`
-6. Ruang Baris, Ruang Kolom, Ruang Nol (*Null Space*), *Rank* Matriks, dan Teorema Rank-Nullitas pada Analisis Redundansi Fitur Data `[Sub-CPMK-2.1, Sub-CPMK-2.2]`
-7. Ruang Hasilkali Dalam, Ortogonalitas, Proyeksi Ortogonal (Intuisi Geometri *Least Squares*), dan Proses Ortogonalisasi *Gram-Schmidt* `[Sub-CPMK-2.2]`
-8. Transformasi Linier $T: \mathbb{R}^n \to \mathbb{R}^m$: Matriks Standar Geometri (Rotasi, Refleksi, Skala, Geser), Kernel, dan Jangkauan (*Range*) `[Sub-CPMK-3.2]`
-9. Polinomial Karakteristik $\det(A - \lambda I)=0$, Perhitungan Nilai Eigen (*Eigenvalues*), Vektor Eigen (*Eigenvectors*), dan Ruang Eigen `[Sub-CPMK-3.1]`
-10. Diagonalisasi Matriks Bujursangkar ($A = PDP^{-1}$), Komputasi Perpangkatan Matriks $A^k$, dan Aplikasi Rantai Transisi *Markov / PageRank* Sederhana `[Sub-CPMK-3.1, Sub-CPMK-3.2]`
-11. Matriks Simetris Riil, Sifat Vektor Eigen Saling Ortogonal, dan Diagonalisasi Ortogonal ($A = Q\Lambda Q^T$ — Teorema Spektral) `[Sub-CPMK-3.1, Sub-CPMK-3.2]`
-12. Formulasi Matematis *Singular Value Decomposition* ($A = U\Sigma V^T$), Nilai Singular, dan Aproksimasi Matriks Berperingkat Rendah (*Low-Rank Approximation*) `[Sub-CPMK-4.1]`
-13. Matematika *Principal Component Analysis* (PCA): *Mean-Centering*, Matriks Kovarians, Komponen Utama sebagai Vektor Eigen/Singular, & Rasio Variansi Terjelaskan `[Sub-CPMK-4.1, Sub-CPMK-4.2]`
-14. Komputasi Matriks SVD & Reduksi Dimensi PCA Menggunakan Pustaka Dasar Python `NumPy` (`np.linalg`) untuk Pemrosesan Data & Citra AI `[Sub-CPMK-4.2]`
+### C. Capaian Pembelajaran Lulusan (CPL) yang Dibebankan pada MK
 
-### 9. Daftar Pustaka (`[pustakautama]` & `[pustakapendukung]`)
+| Kode Baku (Alias) | Rumusan CPL (verbatim Dokumen 003) |
+|:---:|---|
+| **CPL-05** (`P1`) | Menguasai konsep dasar sains, matematika terapan (kalkulus, aljabar linear, statistika, matematika diskrit, logika) sebagai fondasi pemecahan masalah rekayasa sistem informasi dan komputasi cerdas yang kompleks. |
 
-> *Catatan Status (Dok 053 T3): Daftar pustaka di bawah merupakan buku teks rujukan utama aljabar linear terapan dan matematika untuk AI/sains data — perlu validasi ketersediaan koleksi perpustakaan oleh KBK/GPM.*
+Bobot kontribusi MK terhadap CPL-05 (P1): **3 SKS** dari total MK pembina CPL-05 (P1).
 
-**Pustaka Utama (`[pustakautama]`):**
-1. Anton, H., & Rorres, C. (2019). *Elementary Linear Algebra: Applications Version* (12th ed. / Edisi Bahasa Indonesia: *Aljabar Linear Elementer*, Penerbit Erlangga). Hoboken: John Wiley & Sons.
-2. Strang, G. (2016). *Introduction to Linear Algebra* (5th ed.). Wellesley, MA: Wellesley-Cambridge Press.
-3. Lay, D. C., Lay, S. R., & McDonald, J. J. (2021). *Linear Algebra and Its Applications* (6th ed.). Boston: Pearson Education.
+### D. Capaian Pembelajaran Mata Kuliah (CPMK)
 
-**Pustaka Pendukung (`[pustakapendukung]`):**
-4. Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). *Mathematics for Machine Learning* (Bab 2–4 & Bab 10: *Linear Algebra, Analytic Geometry, Matrix Decompositions, & Dimensionality Reduction with PCA*). Cambridge: Cambridge University Press. *(Open Access: https://mml-book.github.io)*.
-5. Boyd, S., & Vandenberghe, L. (2018). *Introduction to Applied Linear Algebra: Vectors, Matrices, and Least Squares*. Cambridge: Cambridge University Press. *(Open Access: https://vmls-book.stanford.edu)*.
-6. Strang, G. (2019). *Linear Algebra and Learning from Data*. Wellesley, MA: Wellesley-Cambridge Press.
+| Kode | Rumusan CPMK (Format ABCD) | Bloom | CPL |
+|:---:|---|:---:|:---:|
+| **CPMK-1** | Mahasiswa (*A*) mampu **menyelesaikan** Sistem Persamaan Linear (SPL) (*B*) menggunakan eliminasi Gauss-Jordan dan matriks invers (*C*) secara tepat (*D*). | **C3** | `CPL-05` (`P1`) |
+| **CPMK-2** | Mahasiswa (*A*) mampu **menganalisis** struktur ruang vektor, kombinasi linier, kebebasan linier, basis, dan dimensi (*B*) pada ruang $\mathbb{R}^n$ (*C*) dengan kaidah aljabar formal (*D*). | **C4** | `CPL-05` (`P1`) |
+| **CPMK-3** | Mahasiswa (*A*) mampu **menghitung** nilai eigen (Eigenvalues), vektor eigen (Eigenvectors), dan diagonalisasi matriks (*B*) pada matriks transformasi linier (*C*) secara presisi (*D*). | **C3** | `CPL-05` (`P1`) |
+| **CPMK-4** | Mahasiswa (*A*) mampu **merumuskan** dekomposisi matriks SVD (Singular Value Decomposition) dan reduksi dimensi PCA (*B*) menggunakan pustaka Python NumPy (*C*) untuk pemrosesan data AI (*D*). | **C4** | `CPL-05` (`P1`) |
 
----
+### E. Sub-Capaian Pembelajaran Mata Kuliah (Sub-CPMK)
 
-## HALAMAN 3–4 — MATRIKS RENCANA PEMBELAJARAN 16 PEKAN (8 KOLOM BAKU)
+| Kode | Kompetensi Spesifik | CPMK | Bloom |
+|---:|---|:--:|:--:|
+| **Sub-CPMK-1.1** | Menyelesaikan Sistem Persamaan Linear (SPL) menggunakan eliminasi Gauss-Jordan dan matriks invers. | CPMK-1 | **C3** |
+| **Sub-CPMK-1.2** | Menentukan jenis solusi SPL (tunggal, tak hingga, atau tak ada) dari bentuk eselon baris. | CPMK-1 | **C3** |
+| **Sub-CPMK-2.1** | Menganalisis kombinasi linier, kebebasan linier, dan rentang (span) pada ruang vektor. | CPMK-2 | **C4** |
+| **Sub-CPMK-2.2** | Menentukan basis dan dimensi ruang vektor R^n. | CPMK-2 | **C4** |
+| **Sub-CPMK-3.1** | Menghitung nilai eigen, vektor eigen, dan diagonalisasi matriks. | CPMK-3 | **C3** |
+| **Sub-CPMK-3.2** | Menerapkan diagonalisasi matriks pada transformasi linier. | CPMK-3 | **C3** |
+| **Sub-CPMK-4.1** | Merumuskan dekomposisi SVD (Singular Value Decomposition) suatu matriks. | CPMK-4 | **C4** |
+| **Sub-CPMK-4.2** | Menerapkan PCA (NumPy) untuk reduksi dimensi pada pemrosesan data AI. | CPMK-4 | **C4** |
 
-| Mg ke- `(1)` | Kemampuan Akhir Tiap Tahapan Belajar (Sub-CPMK) `(2)` | Penilaian: Indikator `(3)` | Penilaian: Kriteria & Teknik `(4)` | Bentuk, Metode Pembelajaran & Penugasan Mahasiswa [Estimasi Waktu] — Luring (Offline) `(5)` | Bentuk, Metode Pembelajaran & Penugasan Mahasiswa — Daring (Online) `(6)` | Materi Pembelajaran [Pustaka] `(7)` | Bobot Penilaian (%) `(8)` |
-|:---:|---|---|---|---|---|---|:---:|
-| **1** | **Sub-CPMK-1.1:** Melakukan operasi aljabar vektor pada ruang $\mathbb{R}^n$ dan operasi aljabar matriks sebagai fondasi representasi data (C3) | 1.1.1 Ketepatan menghitung penjumlahan vektor, *dot product*, norma Euclidean $\|\mathbf{x}\|_2$, dan kemiripan sudut *cosine similarity* antara dua vektor fitur.<br>1.1.2 Ketepatan melakukan penjumlahan, perkalian matriks $AB$, dan transpos $(AB)^T = B^T A^T$ beserta pemeriksaan kesesuaian dimensi. | **Kriteria:** Rubrik ketepatan operasi vektor-matriks formatif.<br>**Teknik:** Latihan terbimbing di kelas & kuis diagnostik awal. | **Kuliah Interaktif & *Guided Matrix Drill***<br>`[TM: 3x50' = 150']`<br>Latihan perhitungan *cosine similarity* dokumen/fitur & perkalian matriks:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: kontrak belajar, unduh RPS, kuis pengantar bagaimana tabel data $(N \times d)$ dan citra piksel direpresentasikan sebagai matriks. | Kontrak Belajar, Vektor di $\mathbb{R}^n$, *Dot Product*, Norma & *Cosine Similarity* pada Sistem Pencarian/AI, serta Matriks & Sifat Operasi Aljabar Matriks `[1] Bab 1.3–1.4 & 3.1–3.2; [5] Bab 1–3 & 6–10` | — |
-| **2** | **Sub-CPMK-1.1 & Sub-CPMK-1.2:** Menyelesaikan Sistem Persamaan Linear (SPL) dengan eliminasi Gauss & Gauss-Jordan serta menentukan jenis solusinya dari bentuk eselon baris (C3) | 1.1.3 Ketepatan memodelkan masalah keseimbangan ke dalam matriks *augmented* $[A \mid \mathbf{b}]$ dan menerapkan Operasi Baris Elementer (OBE) menuju bentuk eselon baris tereduksi (`RREF`).<br>1.2.1 Ketepatan mengklasifikasikan jenis solusi SPL (**solusi tunggal**, **tak hingga banyak solusi berparameter**, atau **tak konsisten/tak ada solusi**) berdasarkan posisi *pivot* pada eselon baris. | **Kriteria:** Checklist keruntutan langkah OBE & klasifikasi solusi.<br>**Teknik:** *Collaborative Problem Solving* di papan tulis. | **Kuliah & *Problem-Solving Class***<br>`[TM: 3x50' = 150']`<br>Lembar latihan 10 soal Gauss-Jordan & analisis parameter solusi:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: materi studi kasus pemodelan keseimbangan arus trafik jaringan dengan SPL. | Pemodelan SPL, Matriks *Augmented*, Operasi Baris Elementer (OBE), Eliminasi Gauss (`REF`) & Gauss-Jordan (`RREF`), serta Analisis 3 Kemungkinan Solusi SPL `[1] Bab 1.1–1.2; [3] Bab 1.1–1.2` | — |
-| **3** | **Sub-CPMK-1.1 & Sub-CPMK-1.2:** Menghitung determinan dan matriks invers untuk menyelesaikan SPL serta menganalisis syarat invertibilitas matriks (C3) | 1.1.4 Ketepatan menghitung determinan matriks via ekspansi kofaktor maupun reduksi baris segitiga, serta mencari matriks invers $A^{-1}$ via $[A \mid I] \to [I \mid A^{-1}]$ dan adjoin.<br>1.2.2 Ketepatan menghubungkan nilai $\det(A) \neq 0$ dengan eksistensi $A^{-1}$ dan ketunggalan solusi $x = A^{-1}b$. | **Kriteria:** Rubrik ketelitian perhitungan invers & determinan formatif.<br>**Teknik:** *Problem-Based Learning* (kasus matriks singular vs non-singular). | ***Problem-Based Learning* & Klinik Soal**<br>`[TM: 3x50' = 150']`<br>Latihan perhitungan determinan, invers $3\times 3$, & solusi $x=A^{-1}b$:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: rilis naskah resmi **RTM-1 (Tugas 1)** untuk dikumpulkan Pekan 4. | Determinan Matriks (Ekspansi Kofaktor & Sifat OBE), Matriks Balikan (*Inverse*), Teorema Ekuivalensi Matriks Invertibel, & Penyelesaian SPL via Invers/Cramer `[1] Bab 1.5–1.6 & Bab 2; [3] Bab 2–3` | — |
-| **4** | **Sub-CPMK-2.1:** Menganalisis struktur ruang vektor riil, subruang, kombinasi linier, dan rentang (*span*) pada ruang $\mathbb{R}^n$ (C4) | 2.1.1 Ketepatan membuktikan apakah suatu himpunan bagian $W \subseteq \mathbb{R}^n$ merupakan subruang vektor (tertutup terhadap penjumlahan & perkalian skalar, memuat $\mathbf{0}$).<br>2.1.2 Ketepatan menganalisis apakah suatu vektor merupakan kombinasi linier dari himpunan vektor lain dan menentukan ruang rentang $\text{Span}\{\mathbf{v}_1, \dots, \mathbf{v}_k\}$.<br>*(Sekaligus evaluasi sumatif `CPMK-1` via Tugas 1)*. | **Kriteria:** **Rubrik Analitik Tugas 1** (lihat Lampiran 1 / Dok `059_5`).<br>**Teknik:** Pengumpulan berkas **Tugas 1** + kuis konfirmasi 10 menit di kelas. | **Kuliah & Analisis Geometris + Verifikasi Tugas 1**<br>`[TM: 3x50' = 150']`<br>Penyelesaian & pengumpulan Tugas 1:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: pengumpulan berkas **Tugas 1** (batas akhir Pekan 4) & visualisasi 3D bidang *span* dua vektor di GeoGebra. | Aksioma Ruang Vektor Riil $\mathbb{R}^n$, Kriteria Uji Subruang Vektor, Kombinasi Linier, dan Himpunan Merentang (*Spanning Set*) `[1] Bab 4.1–4.3; [4] Bab 2.4–2.5` | **Tugas 1: 20%**<br>*(Evaluasi `CPMK-1`: `Sub-CPMK-1.1` & `1.2`)* |
-| **5** | **Sub-CPMK-2.1 & Sub-CPMK-2.2:** Menganalisis kebebasan linier (*linear independence*) serta menentukan basis dan dimensi ruang vektor $\mathbb{R}^n$ (C4) | 2.1.3 Ketepatan menguji apakah himpunan vektor bebas linier ($c_1\mathbf{v}_1 + \dots + c_k\mathbf{v}_k = \mathbf{0}$ hanya punya solusi trivial) atau bergantung linier.<br>2.2.1 Ketepatan menentukan basis dan dimensi suatu ruang vektor/subruang pada $\mathbb{R}^n$ serta vektor koordinat terhadap basis tertentu. | **Kriteria:** Rubrik analisis kebebasan linier & basis formatif.<br>**Teknik:** *Problem-Solving Class* deteksi fitur kolinear pada matriks data. | ***Problem-Solving Class*: Redundansi & Basis Ruang**<br>`[TM: 3x50' = 150']`<br>Latihan uji kebebasan linier dan penentuan basis/dimensi subruang:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: studi kasus mengapa kolom fitur yang saling bergantung linier (*multicollinearity*) merusak invertibilitas matriks regresi. | Kebebasan Linier vs Ketergantungan Linier, Konstruksi Basis, Dimensi Ruang Vektor $\mathbb{R}^n$, dan Perubahan Basis / Vektor Koordinat `[1] Bab 4.4–4.6; [4] Bab 2.6` | — |
-| **6** | **Sub-CPMK-2.1 & Sub-CPMK-2.2:** Menganalisis ruang baris, ruang kolom, ruang nol (*null space*), dan Teorema Rank-Nullitas matriks (C4) | 2.2.2 Ketepatan menentukan basis dan dimensi dari Ruang Baris, Ruang Kolom, dan Ruang Nol ($Ax = \mathbf{0}$) suatu matriks.<br>2.2.3 Ketepatan memverifikasi Teorema Rank-Nullitas ($\text{rank}(A) + \text{nullity}(A) = n$) untuk menilai dimensi informasi efektif matriks data. | **Kriteria:** Rubrik analisis ke-4 subruang fundamental formatif.<br>**Teknik:** *Case-Based Learning* analisis *rank* matriks tabel fitur. | ***Case-Based Learning*: Empat Subruang Fundamental Strang**<br>`[TM: 3x50' = 150']`<br>Latihan penentuan basis ruang kolom, ruang nol, & *rank* matriks:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: lembar latihan mandiri penentuan *rank* dan *nullity* dari `RREF`. | Ruang Baris (*Row Space*), Ruang Kolom (*Column Space*), Ruang Nol (*Null Space*), *Rank* Matriks, dan Teorema Rank-Nullitas `[1] Bab 4.7–4.8; [2] Bab 3` | — |
-| **7** | **Sub-CPMK-2.2:** Menerapkan ortogonalitas, proyeksi ortogonal, dan proses *Gram-Schmidt* untuk membangun basis ortonormal pada $\mathbb{R}^n$ (C3/C4) | 2.2.4 Ketepatan menguji himpunan vektor ortogonal/ortonormal dan menghitung proyeksi ortogonal vektor pada subruang.<br>2.2.5 Ketepatan menerapkan proses **Gram-Schmidt** untuk mengubah basis sembarang menjadi basis ortonormal (pengantar faktorisasi $A=QR$). | **Kriteria:** Rubrik ketelitian proses *Gram-Schmidt* formatif.<br>**Teknik:** *Problem-Solving Workshop* & simulasi persiapan UTS. | ***Problem-Solving Workshop* & Review Pra-UTS**<br>`[TM: 3x50' = 150']`<br>Latihan *Gram-Schmidt* pada $\mathbb{R}^3$ & paket simulasi soal UTS:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: kisi-kisi resmi UTS & pembahasan soal ruang vektor, kebebasan linier, basis-dimensi, *rank*, dan *Gram-Schmidt*. | Ruang Hasilkali Dalam, Himpunan Ortogonal & Ortonormal, Proyeksi Ortogonal, Proses Ortogonalisasi *Gram-Schmidt*, & Konsolidasi Pra-UTS `[1] Bab 6.1–6.3; [4] Bab 3.8` | — |
-| **8** | **Evaluasi Tengah Semester (UTS) — Menguji `CPMK-2` (`Sub-CPMK-2.1` & `Sub-CPMK-2.2`) serta penguatan `CPMK-1` (C4)** | **Indikator:** Ketepatan menganalisis subruang vektor, kombinasi linier, rentang (*span*), kebebasan linier, basis dan dimensi ruang baris/kolom/nol (*rank-nullity*), serta mengonstruksi basis ortonormal dengan kaidah aljabar formal secara teliti (skor $\ge 65$).<br>**Kriteria & Teknik:** **Rubrik Analitik UTS** (lihat Lampiran 2 / Dok `059_5`); Ujian Tertulis Analisis Ruang Vektor $\mathbb{R}^n$ (`150 menit`).<br>**Luring:** Ujian Tertulis Terjadwal di Ruang Kelas `[150']`.<br>**Daring:** LMS Edlink — pengumuman tata tertib & publikasi umpan balik koreksi.<br>**Materi:** Cakupan Pekan 1–7 (fokus utama Pekan 4–7: Ruang Vektor, Kombinasi/Kebebasan Linier, Basis & Dimensi, *Rank-Nullitas*, & *Gram-Schmidt*) `[1][2][4]`. | | | | | **UTS: 30%**<br>*(Evaluasi `CPMK-2`)* |
-| **9** | **Sub-CPMK-3.2:** Menganalisis matriks transformasi linier $T: \mathbb{R}^n \to \mathbb{R}^m$ beserta sifat geometri, kernel, dan jangkauannya (C3/C4) | 3.2.1 Ketepatan membuktikan kelinearan pemetaan $T(\mathbf{u}+\mathbf{v})=T(\mathbf{u})+T(\mathbf{v})$ dan menyusun matriks standar $[T]$ untuk rotasi, refleksi, dilatasi, geseran (*shear*), dan proyeksi.<br>3.2.2 Ketepatan menentukan komposisi matriks transformasi berurutan serta menganalisis Kernel dan *Range* dari $T$. | **Kriteria:** Rubrik analisis matriks transformasi formatif.<br>**Teknik:** Eksplorasi visual efek transformasi matriks 2D pada bidang koordinat. | **Kuliah Interaktif & Visualisasi Geometri Matriks**<br>`[TM: 3x50' = 150']`<br>Latihan penyusunan matriks komposisi transformasi citra 2D:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: evaluasi refleksi UTS & applet interaktif transformasi kisi 2D (*3Blue1Brown Essence of Linear Algebra intuition*). | Pemetaan/Transformasi Linier, Matriks Standar Transformasi Geometri pada $\mathbb{R}^2/\mathbb{R}^3$ (Dasar Augmentasi Citra AI), Komposisi Transformasi, Kernel, & *Range* `[1] Bab 4.9–4.10 & 8.1–8.2; [4] Bab 2.7` | — |
-| **10** | **Sub-CPMK-3.1:** Menghitung nilai eigen (*eigenvalues*) dan vektor eigen (*eigenvectors*) dari matriks transformasi linier (C3) | 3.1.1 Ketepatan menyusun persamaan karakteristik $\det(A - \lambda I) = 0$ dan menghitung seluruh nilai eigen $\lambda$.<br>3.1.2 Ketepatan menentukan ruang eigen dan basis vektor eigen $\mathbf{v} \neq \mathbf{0}$ yang memenuhi $A\mathbf{v} = \lambda\mathbf{v}$ beserta tafsir geometris sumbu invarian regangan. | **Kriteria:** Rubrik ketelitian perhitungan polinomial karakteristik & ruang eigen formatif.<br>**Teknik:** *Problem-Solving Class* perhitungan nilai & vektor eigen matriks $2\times 2$ dan $3\times 3$. | ***Problem-Solving Class*: Sumbu Utama Transformasi**<br>`[TM: 3x50' = 150']`<br>Lembar latihan 10 soal nilai eigen & basis ruang eigen:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: rilis naskah resmi **RTM-2 (Tugas 2)** untuk dikumpulkan Pekan 12 + visualisasi arah vektor eigen yang tidak berputar saat dikenai matriks $A$. | Definisi $A\mathbf{v} = \lambda\mathbf{v}$, Polinomial Karakteristik, Perhitungan Nilai Eigen & Vektor Eigen, Multiplisitas Aljabar vs Geometri, & Sifat Jejak/Determinan ($\sum\lambda_i = \text{tr}(A), \prod\lambda_i = \det(A)$) `[1] Bab 5.1; [2] Bab 6.1` | — |
-| **11** | **Sub-CPMK-3.1 & Sub-CPMK-3.2:** Melakukan diagonalisasi matriks bujursangkar ($A = PDP^{-1}$) dan menerapkannya pada transformasi linier berulang / rantai *Markov* (C3) | 3.1.3 Ketepatan menguji syarat keterdiagonalan matriks dan menyusun matriks pendiagonal $P$ serta matriks diagonal $D$ sehingga $A = PDP^{-1}$.<br>3.2.3 Ketepatan menerapkan diagonalisasi $A^k = PD^kP^{-1}$ untuk menghitung transisi transformasi linier berulang dan distribusi tunak (*steady-state*) rantai *Markov / PageRank* sederhana. | **Kriteria:** Rubrik ketepatan diagonalisasi & perpangkatan matriks formatif.<br>**Teknik:** *Case-Based Learning* pemodelan perpindahan pengguna / peringkat halaman web mini. | ***Case-Based Learning*: Diagonalisasi & *PageRank***<br>`[TM: 3x50' = 150']`<br>Latihan diagonalisasi $3\times 3$ dan analisis vektor eigen $\lambda=1$ pada *Markov*:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: studi kasus bagaimana algoritma awal Google *PageRank* sesungguhnya adalah pencarian vektor eigen utama matriks tautan web! | Syarat Diagonalisasi Matriks, Konstruksi $A = PDP^{-1}$, Komputasi Cepat $A^k = PD^kP^{-1}$, serta Aplikasi pada Sistem Dinamis Diskrit & Matriks Stokastik *Markov/PageRank* `[1] Bab 5.2 & 10.5; [2] Bab 6.2 & 10.3` | — |
-| **12** | **Sub-CPMK-3.1 & Sub-CPMK-3.2:** Menghitung diagonalisasi ortogonal pada matriks simetris riil ($A = Q\Lambda Q^T$) sebagai landasan Teorema Spektral (C3/C4) | 3.1.4 Ketepatan membuktikan/memverifikasi bahwa matriks simetris riil selalu memiliki nilai eigen riil dan vektor eigen dari ruang eigen berbeda yang saling ortogonal.<br>3.2.4 Ketepatan menormalisasi vektor eigen (dan menerapkan *Gram-Schmidt* jika nilai eigen berulang) untuk menyusun matriks ortogonal $Q$ ($Q^{-1}=Q^T$) sehingga $A = Q\Lambda Q^T$.<br>*(Sekaligus evaluasi sumatif `CPMK-3` via Tugas 2)*. | **Kriteria:** **Rubrik Analitik Tugas 2** (lihat Lampiran 3 / Dok `059_5`).<br>**Teknik:** Pengumpulan laporan studi kasus nilai eigen & diagonalisasi (**Tugas 2**) + kuis konfirmasi di kelas. | ***Problem-Solving Class* + Evaluasi Tugas 2**<br>`[TM: 3x50' = 150']`<br>Finalisasi & pengumpulan laporan Tugas 2:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: pengumpulan berkas **Tugas 2** (batas akhir Pekan 12). | Matriks Ortogonal ($Q^T Q = I$), Sifat Istimewa Matriks Simetris Riil, Teorema Spektral, Diagonalisasi Ortogonal $A = Q\Lambda Q^T$, & Bentuk Kuadratik Pengantar `[1] Bab 7.1–7.2; [4] Bab 4.4` | **Tugas 2: 20%**<br>*(Evaluasi `CPMK-3`: `Sub-CPMK-3.1` & `3.2`)* |
-| **13** | **Sub-CPMK-4.1:** Merumuskan dekomposisi nilai singular (*Singular Value Decomposition / SVD*) untuk matriks persegi panjang sembarang (C4) | 4.1.1 Ketepatan menghitung nilai singular $\sigma_i = \sqrt{\lambda_i}$ dan vektor singular kanan/kiri dari matriks $A^TA$ dan $AA^T$ untuk menyusun faktorisasi $A = U\Sigma V^T$.<br>4.1.2 Ketepatan merumuskan jumlahan *outer product* $\sum_{i=1}^r \sigma_i \mathbf{u}_i \mathbf{v}_i^T$ dan menghitung aproksimasi matriks berperingkat-$k$ terbaik (*Eckart-Young Low-Rank Approximation*). | **Kriteria:** Rubrik ketelitian formulasi SVD manual formatif.<br>**Teknik:** *Case-Based Workshop* dekomposisi SVD matriks *user-item rating* / blok citra kecil $3\times 2$. | ***Case-Based Workshop*: Dekomposisi Puncak Aljabar Linear (SVD)**<br>`[TM: 3x50' = 150']`<br>Latihan perhitungan tangan lengkap SVD matriks $3\times 2$ dan aproksimasi *rank-1*:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: visualisasi bagaimana memotong nilai singular kecil pada SVD mampu mengompresi ukuran matriks citra secara drastis. | Mengapa Diagonalisasi Gagal pada Matriks Tak Bujursangkar $m\times n$, Konstruksi Analitis **SVD** ($A = U\Sigma V^T$), Makna Geometri SVD, & Aproksimasi *Low-Rank* `[2] Bab 7; [4] Bab 4.5` | — |
-| **14** | **Sub-CPMK-4.1 & Sub-CPMK-4.2:** Merumuskan prosedur matematis reduksi dimensi *Principal Component Analysis* (PCA) berbasis dekomposisi nilai eigen/SVD (C4) | 4.1.3 Ketepatan memusatkan matriks data (*mean-centering* $\tilde{X} = X - \mathbf{1}\bar{\mathbf{x}}^T$) dan menyusun matriks kovarians sampel $S = \frac{1}{n-1}\tilde{X}^T\tilde{X}$.<br>4.2.1 Ketepatan menentukan arah Komponen Utama (*Principal Components*) dari vektor eigen terbesar matriks $S$ (atau vektor singular kanan $V$ dari $\tilde{X}$), memproyeksikan data $Z = \tilde{X}W_k$, dan menghitung *Explained Variance Ratio*. | **Kriteria:** Rubrik ketepatan formulasi matematis PCA formatif.<br>**Teknik:** Latihan perhitungan manual PCA mereduksi dataset mini 4 sampel $\mathbb{R}^3 \to \mathbb{R}^2$. | ***Problem-Solving Class*: Matematika di Balik Reduksi Dimensi AI**<br>`[TM: 3x50' = 150']`<br>Latihan perhitungan tangan *mean-centering*, kovarians, proyeksi PCA, & rasio variansi:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: penjelasan hubungan ekuivalensi antara *eigendecomposition* matriks kovarians $S$ dengan SVD langsung atas $\tilde{X}$. | Formulasi Matematis **PCA**: *Mean-Centering*, Matriks Kovarians Simetris Positif Semidefinit, Maksimasi Variansi Proyeksi, Pemilihan $k$ Komponen Utama, & *Explained Variance Ratio* `[4] Bab 10.1–10.4; [6] Bab 1.8` | — |
-| **15** | **Sub-CPMK-4.2:** Menerapkan komputasi matriks SVD dan reduksi dimensi PCA menggunakan pustaka Python `NumPy` murni untuk pemrosesan data AI (C4) | 4.2.2 Ketepatan menerjemahkan rumus aljabar linear SVD & PCA secara langsung ke operasi vektor/matriks Python `NumPy` (`X - X.mean(axis=0)`, `np.cov`, `np.linalg.eigh`, `np.linalg.svd`, perkalian `@`) **tanpa pustaka `scikit-learn` instan**.<br>4.2.3 Ketepatan menganalisis galat rekonstruksi Frobenius $\|X - \hat{X}\|_F$ pada reduksi dimensi tabel fitur AI dan kompresi matriks citra *grayscale*. | **Kriteria:** Rubrik ketepatan ekspresi matriks `NumPy` & interpretasi data AI formatif.<br>**Teknik:** *Interactive Computational Math Demo* (Google Colab / JupyterLite berbasis peramban) + review pra-UAS. | ***Interactive NumPy Linear Algebra Clinic* & Review Pra-UAS**<br>`[TM: 3x50' = 150']`<br>Eksplorasi buku catatan `NumPy` SVD/PCA & latihan simulasi UAS:<br>`[PT: 3x60' = 180']`<br>`[BM: 3x60' = 180']` | LMS Edlink: tautan *notebook* `NumPy` murni bebas instalasi, kisi-kisi resmi UAS, & survei evaluasi reflektif Sub-CPMK mahasiswa. | Komputasi Aljabar Linear di Python `NumPy` (`ndarray`, `@`, `.T`, `np.linalg.svd`, `np.linalg.eigh`, `np.linalg.norm`), Studi Kasus Reduksi Dimensi Fitur AI & Kompresi Matriks Citra, serta Konsolidasi Pra-UAS `[4] Bab 4 & 10; [5]` | — |
-| **16** | **Evaluasi Akhir Semester (UAS) — Menguji `CPMK-4` (`Sub-CPMK-4.1` & `Sub-CPMK-4.2`) serta sintesis komprehensif `CPMK-1` s.d. `CPMK-4` (C4)** | **Indikator:** Ketepatan merumuskan faktorisasi SVD ($A = U\Sigma V^T$) & aproksimasi *low-rank*, menurunkan langkah matematis reduksi dimensi PCA (kovarians, komponen utama, *explained variance*), serta merumuskan ekspresi komputasi matriks Python `NumPy` murni untuk pemrosesan data AI secara presisi (skor $\ge 65$).<br>**Kriteria & Teknik:** **Rubrik Analitik & Holistik UAS** (lihat Lampiran 4 / Dok `059_5`); Penilaian Studi Kasus Mini-Notebook `NumPy` Terverifikasi (30% dari UAS) + Ujian Tertulis Komprehensif di Kelas (70% dari UAS, `150 menit`).<br>**Luring:** Ujian Tertulis Akhir Terjadwal di Ruang Kelas `[150']`.<br>**Daring:** LMS Edlink — pengumpulan lampiran verifikasi `NumPy` pra-ujian & transparansi capaian `CPL-05`.<br>**Materi:** Fokus utama Pekan 13–15 (`CPMK-4`: SVD, *Low-Rank Approximation*, PCA Matematis, & `NumPy` Linear Algebra) terintegrasi dengan fondasi SPL, Ruang Vektor, & Nilai Eigen Pekan 1–12 `[1][2][4]`. | | | | | **UAS: 30%**<br>*(Evaluasi `CPMK-4` & Sintesis)* |
-| — | **TOTAL BOBOT PENILAIAN AKHIR SEMESTER** | | | | | | **100%** |
+### F. Matriks Korelasi CPL ↔ CPMK dan Bobot Penilaian
 
----
+| CPMK | CPL | Pekan | Tugas 1 (20%) | UTS (30%) | Tugas 2 (20%) | UAS (30%) | Bobot CPMK |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| CPMK-1 | `CPL-05` (`P1`) | 2–3, 8 | **50%** | **50%** | — | — | 100% |
+| CPMK-2 | `CPL-05` (`P1`) | 4–5, 8 | **50%** | **50%** | — | — | 100% |
+| CPMK-3 | `CPL-05` (`P1`) | 6–7, 8, 12, 16 | — | **20%** | **30%** | **50%** | 100% |
+| CPMK-4 | `CPL-05` (`P1`) | 9–11, 12, 16 | — | — | **60%** | **40%** | 100% |
+| **Total instrumen** | | | **20%** | **30%** | **20%** | **30%** | **100%** |
 
-## HALAMAN 5–8 — RINGKASAN LAMPIRAN INSTRUMEN SOAL & RUBRIK ASESMEN (4 TITIK BAKU)
+*Cara baca:* Skor CPMK-1 = 0,50 × Tugas 1 + 0,50 × UTS. Skor CPMK-2 = 0,50 × Tugas 1 + 0,50 × UTS. Skor CPMK-3 = 0,20 × UTS + 0,30 × Tugas 2 + 0,50 × UAS. Skor CPMK-4 = 0,60 × Tugas 2 + 0,40 × UAS. Nilai Akhir = 0,20×T1 + 0,30×UTS + 0,20×T2 + 0,30×UAS.
 
-*(Rincian penuh kisi-kisi, RTM, formula CPL, serta rubrik 5-level lengkap termuat pada `059_4_RENCANA_EVALUASI_ASESMEN_...md` dan `059_5_RUBRIK_PENILAIAN_...md`).*
+### G. Deskripsi Singkat Mata Kuliah
 
-### Lampiran 1 (Hal. 5 Template) — Penugasan Terstruktur 1 (`[penugasan1]` & `[rubriktugas1]`)
-* **Nama Instrumen:** **Tugas 1 — *Problem-Based Matrix Set*: Pemodelan & Penyelesaian Sistem Persamaan Linear (SPL) via Eliminasi Gauss-Jordan, Analisis Eselon Baris, & Matriks Invers**
-* **Jadwal & Bobot:** Pekan 4 · Bobot **20%** · Mengukur **`CPMK-1`** (`Sub-CPMK-1.1` & `Sub-CPMK-1.2` → `CPL-05`/`P1`)
-* **Ringkasan Tugas:** Mahasiswa menyelesaikan 4 masalah aljabar matriks berparameter NIM: (1) Perhitungan *dot product*, norma, dan *cosine similarity* tiga vektor profil fitur pengguna; (2) Pemodelan keseimbangan aliran paket data pada simpul jaringan menjadi SPL 4 variabel dan penyelesaiannya dengan **Eliminasi Gauss-Jordan** hingga `RREF`; (3) Penentuan syarat nilai parameter $k$ pada suatu SPL agar memiliki solusi tunggal, tak hingga banyak solusi, atau tidak memiliki solusi; (4) Perhitungan determinan dan matriks invers $A^{-1}$ ukuran $3\times 3$ untuk menyelesaikan $Ax=b$.
-* **Ringkasan Kriteria Rubrik Tugas 1 (Total 100%):** (1) Ketepatan pemodelan matriks & klasifikasi 3 jenis solusi SPL dari eselon baris = **35%**; (2) Keruntutan langkah Operasi Baris Elementer Gauss-Jordan & perhitungan invers = **40%**; (3) Presisi hasil numerik & verifikasi substitusi $Ax=b$ = **25%**.
+Mata kuliah ini membangun **bahasa aljabar bagi komputasi numerik dan kecerdasan artifisial**. Pembahasan dimulai dari objek paling dasar: vektor di $\mathbb{R}^n$ dengan operasi *dot product* dan norma, lalu matriks dengan operasi dan sifat-sifatnya. Dari sana dibangun Sistem Persamaan Linear (SPL) sebagai masalah pusat aljabar linear — dimodelkan sebagai matriks diperbesar (*augmented matrix*), diselesaikan dengan Operasi Baris Elementer (OBE), eliminasi Gauss dan Gauss–Jordan, serta matriks invers; jenis solusi (tunggal, tak hingga, tak ada) ditentukan dari bentuk eselon baris. Bagian kedua menggeneralisasi SPL menjadi **struktur ruang vektor**: aksioma ruang vektor riil, subruang, kombinasi linier, rentang (*span*), kebebasan linier, basis, dimensi, ruang baris dan kolom, serta proses ortogonalisasi Gram–Schmidt pada ruang hasil kali dalam. Bagian ketiga membahas **transformasi linier** sebagai objek yang menyatukan semua konsep sebelumnya: matriks representasi, kernel dan *range*, polinomial karakteristik, nilai eigen dan vektor eigen, serta diagonalisasi matriks bujursangkar dan matriks simetris. Bagian akhir menjembatani aljabar linear murni dengan pemrosesan data AI: **Singular Value Decomposition** (SVD) dan **Principal Component Analysis** (PCA) yang diimplementasikan dengan pustaka Python NumPy untuk reduksi dimensi. Seluruh pembahasan berada pada **level matematis dan implementasi dasar**; pelatihan model *machine learning* dan pengembangan aplikasi web berada di luar kewenangan MK ini sesuai pagar *Out-of-Scope* Dokumen 043. MK ini menjadi prasyarat langsung bagi `FST-408` (Probabilitas dan Statistika) dan penopang `STI-413` (Machine Learning) serta MK deep learning.
 
-### Lampiran 2 (Hal. 6 Template) — Ujian Tengah Semester (`[soaluts]` & `[rubrikuts]`)
-* **Nama Instrumen:** **UTS — Ujian Tertulis Analisis Ruang Vektor $\mathbb{R}^n$, Kebebasan Linier, Basis, Dimensi, *Rank-Nullitas*, & Ortogonalisasi *Gram-Schmidt***
-* **Jadwal & Bobot:** Pekan 8 (150 menit, terjadwal) · Bobot **30%** · Mengukur **`CPMK-2`** (`Sub-CPMK-2.1` & `Sub-CPMK-2.2` → `CPL-05`/`P1`)
-* **Ringkasan Soal (4 Butir Utama):** (1 — 25%) Pengujian formal apakah suatu himpunan vektor membentuk subruang dari $\mathbb{R}^n$ serta pemeriksaan kombinasi linier dan ruang rentang (*span*); (2 — 25%) Analisis kebebasan linier himpunan vektor fitur dan pemilihan subset vektor yang membentuk basis; (3 — 25%) Penentuan basis dan dimensi Ruang Baris, Ruang Kolom, serta Ruang Nol (*Null Space*) dari suatu matriks $4\times 5$ disertai verifikasi Teorema Rank-Nullitas; (4 — 25%) Penerapan proses **Gram-Schmidt** untuk mengubah 3 vektor bebas linier di $\mathbb{R}^3$ menjadi basis ortonormal dan menghitung proyeksi ortogonal vektor pada subruang.
-* **Ringkasan Kriteria Rubrik UTS (Total 100%):** (1) Ketepatan kaidah formal uji subruang, kombinasi linier, & kebebasan linier = **40%**; (2) Keruntutan penentuan basis, dimensi, *rank-nullitas*, & langkah *Gram-Schmidt* = **40%**; (3) Presisi perhitungan vektor akhir & uji ortogonalitas = **20%**.
+### H. Bahan Kajian (Body of Knowledge)
 
-### Lampiran 3 (Hal. 7 Template) — Penugasan Terstruktur 2 (`[tugas2]` & `[rubriktugas2]`)
-* **Nama Instrumen:** **Tugas 2 — Studi Kasus Transformasi Linier, Nilai Eigen, Vektor Eigen, Diagonalisasi ($A=PDP^{-1}$), & Diagonalisasi Ortogonal ($A=Q\Lambda Q^T$)**
-* **Jadwal & Bobot:** Pekan 12 · Bobot **20%** · Mengukur **`CPMK-3`** (`Sub-CPMK-3.1` & `Sub-CPMK-3.2` → `CPL-05`/`P1`)
-* **Ringkasan Tugas:** Mahasiswa menyusun penyelesaian analitis 4 studi masalah: (1) Konstruksi matriks komposisi transformasi geometri 2D (rotasi + geseran + refleksi) pada titik sudut objek grafis beserta penentuan kernel/*range*; (2) Perhitungan polinomial karakteristik, nilai eigen, dan basis ruang eigen matriks $3\times 3$; (3) Penerapan diagonalisasi $A = PDP^{-1}$ dan rumus $A^k = PD^kP^{-1}$ untuk memprediksi proporsi pangsa pengguna jangka panjang (*steady-state Markov / PageRank* 3 platform layanan); (4) Diagonalisasi ortogonal $A = Q\Lambda Q^T$ pada matriks simetris riil beserta verifikasi $Q^TQ = I$.
-* **Ringkasan Kriteria Rubrik Tugas 2 (Total 100%):** (1) Ketepatan polinomial karakteristik, nilai eigen, & basis vektor eigen = **35%**; (2) Keruntutan prosedur diagonalisasi biasa ($PDP^{-1}$) & diagonalisasi ortogonal ($Q\Lambda Q^T$) = **40%**; (3) Ketepatan pemodelan matriks transformasi/*Markov* & verifikasi hasil = **25%**.
+| Kode | Nomenklatur BoK | Cakupan dalam MK |
+|:---:|---|---|
+| `BK-IS10` | *Applied Mathematics and Logic* | Vektor, matriks, SPL, determinan, ruang vektor, transformasi linier, eigen, SVD |
+| `BK-IT02` | *Applied AI* | Reduksi dimensi PCA, representasi data matriks, dasar komputasi numerik dengan NumPy |
 
-### Lampiran 4 (Hal. 8 Template) — Ujian Akhir Semester (`[soaluas]` & `[rubrikuas]`)
-* **Nama Instrumen:** **UAS — Evaluasi Komprehensif Dekomposisi SVD, Reduksi Dimensi PCA, & Komputasi Matriks Python `NumPy` untuk Data AI**
-* **Jadwal & Bobot:** Pekan 16 · Bobot **30%** · Mengukur **`CPMK-4`** (`Sub-CPMK-4.1` & `Sub-CPMK-4.2` → `CPL-05`/`P1`) serta sintesis
-* **Arsitektur Penilaian UAS Terpadu:**
-  - **Komponen A (30% dari nilai UAS — dikumpulkan pra-ujian):** *Mini-Computational Worksheet* Python `NumPy` murni (tanpa `scikit-learn`!), di mana mahasiswa mengimplementasikan fungsi SVD *low-rank image/matrix compression* dan reduksi dimensi PCA $d \to 2$ hanya menggunakan operasi matriks `NumPy` (`mean`, `@`, `np.linalg.eigh`/`svd`) serta membandingkan hasilnya dengan perhitungan manual dataset kecil.
-  - **Komponen B (70% dari nilai UAS — Ujian Tertulis Luring 150 menit):** (1) Menghitung secara analitis di atas kertas faktorisasi **SVD ($A = U\Sigma V^T$)** dan aproksimasi *rank-1* dari suatu matriks $3\times 2$; (2) Menurunkan matriks data terpusat $\tilde{X}$, matriks kovarians $S$, komponen utama pertama $\mathbf{w}_1$, koordinat proyeksi 1D, dan persentase *explained variance* dari dataset 4 titik berdimensi-2; (3) Menuliskan/menelusuri ekspresi kode matriks `NumPy` yang ekuivalen dengan persamaan aljabar linear PCA/SVD serta menganalisis hubungan $\text{rank}(A)$, nilai eigen $A^TA$, dan nilai singular $\sigma_i$.
-* **Ringkasan Kriteria Rubrik UAS (Total 100%):** (1) Ketepatan perumusan analitis SVD & aproksimasi *low-rank* = **35%**; (2) Ketepatan penurunan matematis kovarians, proyeksi PCA, & *explained variance* = **35%**; (3) Ketepatan implementasi & penelusuran komputasi matriks `NumPy` murni (bebas `scikit-learn`) = **30%**.
+**Pokok bahasan:** (1) vektor di $\mathbb{R}^n$, dot product, norma; (2) matriks, operasi, transpose; (3) SPL, matriks diperbesar, OBE, Gauss & Gauss–Jordan; (4) bentuk eselon, jenis solusi, determinan, aturan Cramer, invers; (5) ruang vektor, subruang, kombinasi linier, span; (6) kebebasan linier, basis, dimensi, Gram–Schmidt; (7) transformasi linier, kernel, range, polinomial karakteristik, eigen; (8) diagonalisasi & matriks simetris; (9) evaluasi tengah semester; (10) SVD; (11) PCA via NumPy; (12) studi kasus reduksi dimensi; (13) proyek terapan & presentasi antara; (14) penyempurnaan proyek; (15) review, presentasi final; (16) evaluasi akhir semester.
+
+### I. Pustaka
+
+**Pustaka Utama**
+
+| No | Referensi |
+|:---:|---|
+| [1] | Lay, D.C., Lay, S.R. & McDonald, J.J. (2021). *Linear Algebra and Its Applications*, 6th ed. Pearson. ISBN 978-0-13-585926-9. |
+| [2] | Strang, G. (2016). *Introduction to Linear Algebra*, 5th ed. Wellesley-Cambridge Press. ISBN 978-0-9802327-7-6. |
+| [3] | Anton, H. & Rorres, C. (2019). *Elementary Linear Algebra: Applications Version*, 12th ed. Wiley. ISBN 978-1-119-24322-6. |
+
+**Pustaka Pendukung**
+
+| No | Referensi |
+|:---:|---|
+| [4] | Golub, G.H. & Van Loan, C.F. (2013). *Matrix Computations*, 4th ed. Johns Hopkins University Press. ISBN 978-1-4214-0794-4. |
+| [5] | Deisenroth, M.P., Faisal, A.A. & Ong, C.S. (2020). *Mathematics for Machine Learning*, Bab 2–4 & 10. Cambridge University Press. ISBN 978-1-108-45514-5. |
+| [6] | Goodfellow, I., Bengio, Y. & Courville, A. (2016). *Deep Learning*, Bab 2 (Linear Algebra). MIT Press. ISBN 978-0-262-03561-3. |
+| [7] | Harris, C.R. et al. (2020). "Array programming with NumPy". *Nature*, 585, 357–362. doi:10.1038/s41586-020-2649-2. |
+| [8] | Meyer, C.D. (2000). *Matrix Analysis and Applied Linear Algebra*. SIAM. ISBN 978-0-89871-454-8. |
 
 ---
 
-## HALAMAN 9 — LEMBAR VALIDASI & PENGESAHAN TRIPARTIT SPMI
+## HALAMAN 3–4 — MATRIKS RENCANA PEMBELAJARAN 16 PEKAN (LANDSCAPE)
 
-| Memvalidasi,<br>**Unit Penjaminan Mutu (UPM) FSTI** | Malang, 07 November 2026<br>**Dosen Pengampu / Koordinator MK,** |
+**Identitas waktu:** 3 SKS Teori → TM = 150 menit/pekan; PT = 180 menit/pekan; BM = 180 menit/pekan.
+
+| Mg | Sub-CPMK (Kemampuan Akhir) | Indikator Penilaian | Kriteria & Teknik | Luring (TM/PT/BM) | Daring | Materi Pembelajaran [Pustaka] | Bobot |
+|:--:|---|---|---|---|---|---|:--:|
+| 1 | Orientasi MK & kontrak belajar (fondasi vektor) | Ketepatan menjelaskan ruang lingkup, capaian, dan skema asesmen | Kriteria: kelengkapan jawaban; Teknik: tanya-jawab lisan | Kuliah interaktif; TM 150′ / PT 180′ / BM 180′ | Forum perkenalan di LMS; unduh kontrak belajar | Ruang lingkup aljabar linear, peta CPL–CPMK, vektor di $\mathbb{R}^n$, dot product, norma, jarak [1] Bab 1 & 6; [2] Bab 1 | — |
+| 2 | **Sub-CPMK-1.1** — Menyelesaikan SPL dengan eliminasi Gauss-Jordan | 1.1.1 Ketepatan operasi matriks & OBE; 1.1.2 Ketepatan langkah Gauss–Jordan hingga bentuk eselon tereduksi | Kriteria: ketepatan prosedur; Teknik: kuis formatif, latihan terbimbing | Kuliah & latihan; TM 150′ / PT 180′ / BM 180′ | Kuis LMS (formatif, non-graded) | Matriks, operasi matriks, transpose, matriks diperbesar, OBE, eliminasi Gauss, Gauss–Jordan [1] Bab 1–2; [3] Bab 1 | — |
+| 3 | **Sub-CPMK-1.2** — Menentukan jenis solusi SPL dari bentuk eselon baris | 1.2.1 Ketepatan klasifikasi solusi (tunggal/tak hingga/tak ada); 1.2.2 Ketepatan determinan & invers | Kriteria: ketepatan analisis; Teknik: latihan terstruktur | Ceramah interaktif + latihan; TM 150′ / PT 180′ / BM 180′ | Bank soal SPL di LMS | Bentuk eselon baris & tereduksi, variabel bebas, determinan, sifat determinan, aturan Cramer, invers via adjoin & OBE [1] Bab 2–3; [8] Bab 1 | — |
+| **4** | **Sub-CPMK-2.1** — Menganalisis kombinasi linier, kebebasan linier, dan span | 2.1.1 Ketepatan uji kombinasi linier; 2.1.2 Ketepatan penentuan span & subruang | Kriteria: rubrik analitik (4 dimensi); Teknik: **Tugas 1** — kuis + problem solving | Case-based learning; TM 150′ / PT 180′ / BM 180′ | Submit Tugas 1 via LMS (PDF) | Aksioma ruang vektor riil, subruang, kombinasi linier, rentang (*span*), himpunan perentang [1] Bab 4; [2] Bab 3 | **20%** |
+| 5 | **Sub-CPMK-2.2** — Menentukan basis dan dimensi ruang vektor $\mathbb{R}^n$ | 2.2.1 Ketepatan uji kebebasan linier; 2.2.2 Ketepatan penentuan basis, dimensi, dan Gram–Schmidt | Kriteria: ketepatan hasil & justifikasi; Teknik: latihan bertingkat | Kuliah & latihan; TM 150′ / PT 180′ / BM 180′ | Latihan bertingkat di LMS | Kebebasan linier, basis, dimensi, ruang baris & kolom, rank, ruang hasil kali dalam, ortogonalisasi Gram–Schmidt [1] Bab 4 & 6; [3] Bab 4–5 | — |
+| 6 | **Sub-CPMK-3.1** — Menghitung nilai eigen, vektor eigen, dan diagonalisasi | 3.1.1 Ketepatan polinomial karakteristik; 3.1.2 Ketepatan penentuan ruang eigen | Kriteria: ketepatan komputasi; Teknik: latihan terstruktur | Ceramah & latihan; TM 150′ / PT 180′ / BM 180′ | Lembar latihan eigen di LMS | Transformasi linier, matriks representasi, kernel & range, polinomial karakteristik, nilai & vektor eigen [1] Bab 5; [8] Bab 7 | — |
+| 7 | **Sub-CPMK-3.2** — Menerapkan diagonalisasi pada transformasi linier | 3.2.1 Ketepatan syarat diagonalisasi; 3.2.2 Ketepatan diagonalisasi matriks simetris | Kriteria: ketepatan syarat & hasil; Teknik: studi kasus terstruktur | Case method; TM 150′ / PT 180′ / BM 180′ | Analisis kasus di LMS | Diagonalisasi, multiplisitas aljabar vs geometrik, matriks simetris & ortogonal, teorema spektral (pengantar) [1] Bab 5 & 7; [2] Bab 6 | — |
+| **8** | **EVALUASI TENGAH SEMESTER (UTS)** | Ketuntasan CPMK-1, CPMK-2, CPMK-3 (tahap awal) | Kriteria: kunci jawaban terstandar; Teknik: ujian tertulis terjadwal | Ujian; TM 150′ | — | Materi pekan 1–7 | **30%** |
+| 9 | **Sub-CPMK-4.1** — Merumuskan dekomposisi SVD | 4.1.1 Ketepatan langkah SVD; 4.1.2 Ketepatan interpretasi nilai singular & rank | Kriteria: ketepatan formulasi; Teknik: latihan terbimbing | Ceramah & derivasi bersama; TM 150′ / PT 180′ / BM 180′ | Video + lembar derivasi di LMS | Nilai singular, dekomposisi $A = U\Sigma V^T$, rank terpotong, aproksimasi rank-$k$ [4] Bab 2; [5] Bab 10 | — |
+| 10 | **Sub-CPMK-4.2** — Menerapkan PCA via NumPy untuk reduksi dimensi | 4.2.1 Ketepatan alur PCA; 4.2.2 Ketepatan interpretasi varians terjelaskan | Kriteria: ketepatan implementasi & interpretasi; Teknik: praktik terpandu | Demo & praktik komputasi; TM 150′ / PT 180′ / BM 180′ | Notebook NumPy di LMS | Standarisasi data, matriks kovarians, eigen/SVD, komponen utama, *explained variance ratio*, rekonstruksi [5] Bab 10; [7] | — |
+| 11 | Penguatan CPMK-3 & CPMK-4 — studi kasus reduksi dimensi | 4.3.1 Ketepatan pemilihan jumlah komponen; 4.3.2 Ketepatan justifikasi trade-off | Kriteria: ketajaman analisis; Teknik: kerja kelompok terpandu | PjBL / Case Method; TM 150′ / PT 180′ / BM 180′ | Konsultasi asinkron | Studi kasus: reduksi dimensi data tabular & citra, kompresi matriks, analisis galat rekonstruksi [5]; [4] | — |
+| **12** | **Sub-CPMK-4.2 (integrasi)** — Proyek terapan lanjut & presentasi antara | 4.4.1 Kelayakan model aljabar; 4.4.2 Kejelasan argumentasi kuantitatif | Kriteria: rubrik analitik (4 dimensi); Teknik: **Tugas 2** — laporan proyek + presentasi | PjBL / Presentasi; TM 150′ / PT 180′ / BM 180′ | Submit Tugas 2 via LMS | Integrasi SPL–ruang vektor–eigen–SVD/PCA pada kasus nyata [1]; [5] | **20%** |
+| 13 | Penyempurnaan proyek berdasarkan umpan balik | 4.4.3 Ketepatan revisi; 4.4.4 Kualitas dokumentasi | Kriteria: checklist revisi; Teknik: konsultasi klinis | PjBL / Konsultasi; TM 150′ / PT 180′ / BM 180′ | Konsultasi asinkron | Seluruh materi CPMK-3 & CPMK-4 | — |
+| 14 | Review & konsolidasi seluruh CPMK | Ketepatan identifikasi kesenjangan pemahaman | Kriteria: kelengkapan peta konsep; Teknik: review bersama | Diskusi / Konsultasi; TM 150′ / PT 180′ / BM 180′ | Pembahasan soal terpilih di LMS | Rekapitulasi pekan 1–13 | — |
+| 15 | Presentasi final / demonstrasi hasil | 4.4.5 Kualitas komunikasi teknis; 4.4.6 Penguasaan saat tanya jawab | Kriteria: rubrik presentasi; Teknik: presentasi tim | Presentasi & pleno; TM 150′ / PT 180′ / BM 180′ | Unggah slide & rekaman | Seluruh materi CPMK-1 s.d. CPMK-4 | — |
+| **16** | **EVALUASI AKHIR SEMESTER (UAS)** | Ketuntasan komprehensif CPMK-1 s.d. CPMK-4 | Kriteria: kunci jawaban & rubrik esai; Teknik: ujian komprehensif | Ujian; TM 150′ | — | Materi pekan 1–15 | **30%** |
+| | **TOTAL BOBOT PENILAIAN** | | | | | | **100%** |
+
+**Keterangan waktu:** TM = tatap muka (1 SKS = 50 menit/pekan); PT = penugasan terstruktur (1 SKS = 60 menit/pekan); BM = belajar mandiri (1 SKS = 60 menit/pekan). Mata kuliah ini tidak memiliki komponen praktikum (P = 0); sesi praktik komputasi NumPy pada pekan 10 dilakukan dengan notebook daring pada perangkat mahasiswa, bukan praktikum laboratorium terjadwal.
+
+---
+
+## HALAMAN 5 — LAMPIRAN 1: NASKAH TUGAS 1 + RUBRIK (PORTRAIT)
+
+### A. Naskah Tugas 1 — Kuis & Problem Solving "SPL, Matriks, dan Struktur Ruang Vektor"
+
+**Pekan:** 4 | **Bobot:** 20% | **CPMK:** CPMK-1 & CPMK-2 | **Bentuk:** Individu | **Durasi:** 150 menit
+
+**Instruksi:**
+
+1. Diberikan sistem persamaan linear:
+   $$\begin{cases} 2x_1 - x_2 + 3x_3 = 5 \\ x_1 + 2x_2 - x_3 = 1 \\ 3x_1 + x_2 + 2x_3 = 6 \end{cases}$$
+   (a) Tuliskan matriks diperbesar dan lakukan eliminasi Gauss–Jordan. (10 poin)
+   (b) Tentukan jenis solusinya (tunggal, tak hingga, atau tak ada) beserta alasannya. (5 poin)
+2. Diberikan $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
+   (a) Hitung $\det(A)$ dan tentukan apakah $A$ invertibel. (5 poin)
+   (b) Tentukan $A^{-1}$ dengan metode adjoin **dan** verifikasi dengan OBE. (10 poin)
+   (c) Selesaikan $Ax = b$ untuk $b = \begin{pmatrix} 5 \\ 11 \end{pmatrix}$ menggunakan $A^{-1}$, lalu bandingkan dengan hasil aturan Cramer. (5 poin)
+3. Diberikan $\mathbf{u} = (1,2,-1)$, $\mathbf{v} = (2,-1,3)$, dan $\mathbf{w} = (5,3,1)$ pada $\mathbb{R}^3$.
+   (a) Periksa apakah $\mathbf{w}$ merupakan kombinasi linier dari $\mathbf{u}$ dan $\mathbf{v}$. Tunjukkan sistem yang harus diselesaikan. (10 poin)
+   (b) Tentukan apakah $\{\mathbf{u}, \mathbf{v}\}$ bebas linier. (5 poin)
+4. Diberikan $S = \{(1,0,1), (0,1,1), (1,1,2)\}$ pada $\mathbb{R}^3$.
+   (a) Tentukan apakah $S$ merentang $\mathbb{R}^3$. (10 poin)
+   (b) Bila tidak, tentukan $\mathrm{span}(S)$ secara eksplisit sebagai bidang/garis dalam $\mathbb{R}^3$. (10 poin)
+5. Diberikan subruang $W = \{(x,y,z) \in \mathbb{R}^3 \mid x + 2y - z = 0\}$.
+   (a) Tunjukkan bahwa $W$ adalah subruang (uji ketiga syarat). (10 poin)
+   (b) Tentukan basis dan dimensi $W$. (10 poin)
+
+**Ketentuan:** dikerjakan individual; seluruh langkah OBE wajib ditulis lengkap (jangan melompati baris); jawaban akhir tanpa langkah dinilai maksimal 40% poin butir; kalkulator ilmiah diperbolehkan untuk verifikasi aritmetika, **tidak** untuk menggantikan OBE.
+
+**Deliverable:** berkas PDF jawaban bertahap.
+
+### B. Rubrik Penilaian Tugas 1 (Total 100 poin)
+
+| Dimensi (Bobot) | Sangat Baik (86–100) | Baik (76–85) | Cukup (60–75) | Kurang (< 60) |
+|---|---|---|---|---|
+| **1. Ketepatan OBE & penyelesaian SPL (25%)** | Setiap langkah OBE ditulis dan valid; bentuk eselon tereduksi benar; jenis solusi disimpulkan tepat | Satu langkah diringkas; hasil dan kesimpulan benar | Ada kekeliruan aritmetika yang memengaruhi satu butir | Prosedur OBE tidak dikuasai |
+| **2. Ketepatan determinan & invers (25%)** | Determinan, adjoin, dan verifikasi OBE seluruhnya benar; Cramer konsisten | Tepat dengan 1 kekeliruan aritmetika minor | Invers benar sebagian; verifikasi tidak dilakukan | Tidak mampu menentukan invers |
+| **3. Ketepatan analisis ruang vektor (30%)** | Uji kombinasi linier, kebebasan linier, span, subruang, basis, dan dimensi seluruhnya benar dengan justifikasi | Tepat; satu justifikasi diringkas | Satu konsep keliru (mis. basis tidak bebas linier) | Tidak membedakan span, basis, dan dimensi |
+| **4. Kerapian & tata tulis matematis (20%)** | Notasi vektor/matriks konsisten; langkah runtut; seluruh butir dijawab | Notasi konsisten; beberapa langkah diringkas | Notasi tidak konsisten; ada butir tidak dijawab | Jawaban tidak terbaca |
+
+---
+
+## HALAMAN 6 — LAMPIRAN 2: NASKAH UTS + RUBRIK (PORTRAIT)
+
+### A. Naskah UTS — Ujian Tertulis Matriks, SPL, Ruang Vektor, dan Eigen
+
+**Pekan:** 8 | **Bobot:** 30% | **CPMK:** CPMK-1, CPMK-2, CPMK-3 | **Bentuk:** Individu, *closed book* | **Durasi:** 150 menit
+
+**Struktur soal:**
+
+| Bagian | Bentuk | Jumlah | Poin | Cakupan |
+|:--:|---|:--:|:--:|---|
+| I | Uraian terstruktur (SPL, OBE, determinan, invers) | 3 | 30 | CPMK-1 |
+| II | Uraian analitis (ruang vektor, basis, dimensi) | 3 | 35 | CPMK-2 |
+| III | Uraian komputasi (eigen & diagonalisasi) | 2 | 25 | CPMK-3 |
+| IV | Studi kasus terapan (pemodelan matriks) | 1 | 10 | CPMK-1, CPMK-2 |
+
+**Contoh butir Bagian IV:**
+> Sebuah jaringan pipa distribusi air memiliki tiga titik pertemuan. Laju aliran (dalam liter/detik) memenuhi sistem:
+> $$x_1 - x_2 = 4, \qquad x_2 - x_3 = 1, \qquad x_1 - x_3 = 5$$
+> (a) Tuliskan matriks diperbesar dan tentukan rank matriks koefisien serta rank matriks diperbesar. (4 poin)
+> (b) Berdasarkan teorema Rouché–Capelli (bandingkan rank), tentukan apakah sistem konsisten, dan bila konsisten tentukan derajat kebebasan solusinya. Jelaskan makna fisisnya bagi jaringan pipa. (6 poin)
+
+**Ketentuan:** *closed book*; kalkulator ilmiah tidak diperlukan; seluruh langkah OBE wajib ditulis; jawaban akhir tanpa langkah dinilai maksimal 40% poin butir.
+
+### B. Rubrik Penilaian UTS (Total 100 poin)
+
+| Dimensi (Bobot) | Sangat Baik (86–100) | Baik (76–85) | Cukup (60–75) | Kurang (< 60) |
+|---|---|---|---|---|
+| **1. Penguasaan konsep & prosedur (25%)** | Definisi, teorema, dan prosedur diterapkan tepat; syarat keberlakuan disebut | Tepat dengan 1–2 kekeliruan minor | Konsep dasar dipahami; ada kesalahan prosedur | Salah memahami konsep inti |
+| **2. Keruntutan alur komputasi (30%)** | Setiap langkah OBE/substitusi terjustifikasi dan dapat diikuti | Sebagian besar runtut; ada lompatan kecil | Alur terputus-putus | Tidak ada alur penyelesaian |
+| **3. Ketepatan hasil & justifikasi (30%)** | Seluruh hasil benar; kesimpulan (jenis solusi, basis, diagonalisasi) tepat dan terjustifikasi | Hasil benar; justifikasi ringkas | Sebagian besar hasil keliru | Hasil tidak relevan |
+| **4. Kelengkapan & kerapian jawaban (15%)** | Seluruh butir dijawab lengkap dan terbaca; notasi konsisten | Seluruh butir dijawab; beberapa kurang rinci | Ada butir tidak dijawab | Banyak butir kosong |
+
+---
+
+## HALAMAN 7 — LAMPIRAN 3: NASKAH TUGAS 2 + RUBRIK (PORTRAIT)
+
+### A. Naskah Tugas 2 — Proyek Terapan "Aljabar Linear untuk Reduksi Dimensi Data"
+
+**Pekan:** 12 | **Bobot:** 20% | **CPMK:** CPMK-3 & CPMK-4 | **Bentuk:** Kelompok 3–4 orang | **Durasi:** 3 pekan
+
+**Instruksi:**
+
+1. Pilih **satu** dari tiga tema berikut:
+   - **T1:** Reduksi dimensi data tabular akademik (mis. 20 indikator kinerja mahasiswa) menjadi 2–3 komponen utama, disertai interpretasi setiap komponen.
+   - **T2:** Kompresi citra *grayscale* menggunakan SVD aproksimasi rank-$k$; analisis kurva galat rekonstruksi terhadap $k$.
+   - **T3:** Analisis sistem persamaan pada model rangkaian/jaringan sederhana: pembentukan SPL, penentuan rank, dan interpretasi solusi (tunggal vs tak hingga).
+2. Sajikan **formulasi aljabar lengkap**: matriks data, standarisasi, matriks kovarians atau SVD, serta persamaan rekonstruksi.
+3. Implementasikan dengan **Python NumPy murni** (bukan pustaka *machine learning* tingkat tinggi seperti scikit-learn) dan lampirkan kode sumber yang dapat dijalankan.
+4. Sertakan **minimal dua eksperimen** dengan parameter berbeda (mis. $k = 1, 3, 5$) dan bandingkan hasilnya secara kuantitatif.
+5. Buat **visualisasi**: *scree plot explained variance*, grafik galat rekonstruksi, atau scatter plot dua komponen utama.
+6. Analisis **keterbatasan**: asumsi linearitas, sensitivitas terhadap skala, interpretabilitas komponen, biaya komputasi.
+7. Format: laporan 12–16 halaman, sitasi IEEE minimal 8 rujukan (≥ 3 buku/artikel aljabar linear), font 11 pt, spasi 1,15.
+8. Wajib menyertakan **Deklarasi Transparansi AI** dan pembagian peran tim.
+
+**Deliverable:** laporan PDF + notebook Python (`.ipynb`) + slide ringkas 7 halaman.
+
+### B. Rubrik Penilaian Tugas 2 (Total 100 poin)
+
+| Dimensi (Bobot) | Sangat Baik (86–100) | Baik (76–85) | Cukup (60–75) | Kurang (< 60) |
+|---|---|---|---|---|
+| **1. Ketepatan formulasi aljabar (30%)** | Formulasi matriks lengkap dan konsisten; asumsi dinyatakan; notasi tepat | Formulasi benar; satu komponen kurang eksplisit | Formulasi benar sebagian; asumsi tidak jelas | Formulasi tidak terbentuk |
+| **2. Ketepatan implementasi & verifikasi (25%)** | Implementasi NumPy benar; ≥ 2 eksperimen; hasil diverifikasi manual pada sampel kecil | Implementasi benar; verifikasi sebagian | Implementasi berjalan tetapi hasil tidak diverifikasi | Kode tidak berjalan atau hasil tidak relevan |
+| **3. Kualitas visualisasi & interpretasi (25%)** | Visualisasi akurat dan berlabel; interpretasi komponen menghubungkan matematika dengan domain data | Visualisasi benar; interpretasi memadai | Visualisasi kurang informatif; interpretasi dangkal | Tanpa visualisasi |
+| **4. Analisis keterbatasan & tata tulis (20%)** | Keterbatasan dianalisis kritis; laporan rapi; ≥ 8 rujukan IEEE; kode terdokumentasi | Analisis memadai; 6–7 rujukan | Analisis umum; < 6 rujukan | Tanpa analisis keterbatasan |
+
+---
+
+## HALAMAN 8 — LAMPIRAN 4: NASKAH UAS + RUBRIK (PORTRAIT)
+
+### A. Naskah UAS — Evaluasi Komprehensif Aljabar Linear dan Matriks
+
+**Pekan:** 16 | **Bobot:** 30% | **CPMK:** CPMK-1, CPMK-2, CPMK-3, CPMK-4 | **Bentuk:** Individu | **Durasi:** 150 menit
+
+**Struktur soal:**
+
+| Bagian | Bentuk | Poin | Cakupan |
+|:--:|---|:--:|---|
+| I | Uraian: SPL, matriks, determinan, invers | 20 | CPMK-1 |
+| II | Uraian: ruang vektor, basis, dimensi, ortogonalitas | 25 | CPMK-2 |
+| III | Uraian: eigen, diagonalisasi, dan SVD | 30 | CPMK-3, CPMK-4 |
+| IV | Pemodelan terbuka: perancangan solusi aljabar untuk kasus baru | 25 | CPMK-3, CPMK-4 |
+
+**Contoh butir Bagian III:**
+> Diberikan matriks $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
+> (a) Tentukan polinomial karakteristik, nilai eigen, dan vektor eigen $A$. (12 poin)
+> (b) Tentukan matriks $P$ dan $D$ sehingga $A = PDP^{-1}$, lalu verifikasi hasilnya. (8 poin)
+> (c) Hitung nilai singular $A$ dari $\sigma_i = \sqrt{\lambda_i(A^TA)}$ dan tuliskan bentuk dekomposisi SVD $A = U\Sigma V^T$. (6 poin)
+> (d) Jelaskan mengapa SVD selalu ada untuk matriks sembarang, sedangkan diagonalisasi tidak. (4 poin)
+
+### B. Rubrik Penilaian UAS (Total 100 poin)
+
+| Dimensi (Bobot) | Sangat Baik (86–100) | Baik (76–85) | Cukup (60–75) | Kurang (< 60) |
+|---|---|---|---|---|
+| **1. Penguasaan konsep komprehensif (25%)** | Mengaitkan SPL–ruang vektor–transformasi–eigen–SVD secara utuh dan koheren | Konsep benar; keterkaitan sebagian | Konsep terpisah-pisah | Salah konsep mendasar |
+| **2. Ketepatan komputasi simbolik (30%)** | Seluruh komputasi benar; notasi matriks konsisten; langkah lengkap dan efisien | 1–2 kekeliruan minor | Beberapa kekeliruan yang memengaruhi hasil | Komputasi tidak dapat diikuti |
+| **3. Kedalaman analisis & justifikasi (30%)** | Justifikasi setiap kesimpulan (eksistensi, ketunggalan, syarat diagonalisasi) tepat dan mendalam | Justifikasi tepat; kurang mendalam | Justifikasi deskriptif | Tanpa justifikasi |
+| **4. Struktur & komunikasi matematis (15%)** | Uraian runtut; definisi dipakai tepat; kesimpulan eksplisit | Uraian jelas; kesimpulan ada | Uraian kurang runtut | Tidak terstruktur |
+
+---
+
+## HALAMAN 9 — LEMBAR VALIDASI DAN PENGESAHAN (PORTRAIT)
+
+| Memvalidasi,<br>Unit Penjaminan Mutu FSTI | Malang, 07 November 2026<br>Dosen Pengampu Mata Kuliah |
+|:---:|:---:|
+| ..........................<br>NUPTK. .......................... | ..........................<br>NIDN/NUPTK. .......................... |
+
+<br>
+
+| Mengesahkan,<br>Ketua Program Studi S1 Sistem dan Teknologi Informasi |
+|:---:|
+| ..........................<br>NUPTK. .......................... |
+
+---
+
+## LAMPIRAN TEKNIS — KESESUAIAN DENGAN TEMPLATE MASTER RPS FSTI UWG
+
+### A. Pemetaan 18 Tag Nilai Tunggal (`{{...}}`)
+
+| Tag | Nilai Terisi |
 |---|---|
-| *(Tanda Tangan & Stempel)*<br><br>**`[PERLU KONFIRMASI: Nama Kepala UPM FSTI]`**<br>NUPTK. `[PERLU KONFIRMASI]` | *(Tanda Tangan)*<br><br>**`[PERLU KONFIRMASI: Nama Dosen Koordinator STI-205]`**<br>NUPTK. `[PERLU KONFIRMASI]` |
-| **Mengesahkan,**<br>**Ketua Program Studi S1 Sistem dan Teknologi Informasi** | |
-| *(Tanda Tangan & Stempel)*<br><br>**`[PERLU KONFIRMASI: Nama Ketua Prodi SISTEKIN]`**<br>NUPTK. `[PERLU KONFIRMASI]` | |
+| `{{namamk}}` | Aljabar Linear dan Matriks |
+| `{{kodemk}}` | STI-205 |
+| `{{rumpunmk}}` | Matematika & Sains Komputasi (Core STI) |
+| `{{skst}}` | 3 |
+| `{{sksp}}` | 0 |
+| `{{sms}}` | 2 (Genap) |
+| `{{tglsusun}}` | 07 November 2026 |
+| `{{pengembangrps}}` | Tim Pengembang RPS SISTEKIN |
+| `{{koordinatormk}}` | Koordinator RMK Matematika & Sains Komputasi |
+| `{{ketuaprodi}}` | Ketua Prodi SISTEKIN FSTI |
+| `{{kodeprodi}}` | B4.5.2.RPS-STI205 |
+| `{{prodi}}` | Sistem dan Teknologi Informasi |
+| `{{namadosen}}` | Tim Pengampu Rumpun Matematika & Sains Komputasi |
+| `{{nuptk}}` | .......................... |
+| `{{deskripsimk}}` | Lihat Bagian G Halaman 2 |
+| `{{bahankajian}}` | BK-IS10, BK-IT02 — lihat Bagian H Halaman 2 |
+| `{{dosenpengampu}}` | Tim Pengampu Rumpun Matematika & Sains Komputasi (Core STI) |
+| `{{mkprasyarat}}` | STI-102 |
+
+### B. Pemetaan 25 Tag Blok Isi (`[...]`)
+
+| Tag | Lokasi | Sumber Isi |
+|---|---|---|
+| `[nocpl]`, `[cpl]` | Hal 2 | Bagian C (1 baris CPL: CPL-05 (P1)) |
+| `[nocpmk]`, `[cpmk]` | Hal 2 | Bagian D (4 CPMK) |
+| `[nosubcpmk]`, `[subcpmk]` | Hal 2 | Bagian E (8 Sub-CPMK) |
+| `[tabelkolerasi]` | Hal 2 | Bagian F (matriks CPL×CPMK, total 100%) |
+| `[pustakautama]` | Hal 2 | Bagian I — 3 pustaka utama |
+| `[pustakapendukung]` | Hal 2 | Bagian I — 5 pustaka pendukung |
+| `[mingguke]` … `[bobot_nilai]` | Hal 3–4 | Kolom 1–8 tabel 16 pekan |
+| `[penugasan1]`, `[rubriktugas1]` | Hal 5 | Lampiran 1 |
+| `[soaluts]`, `[rubrikuts]` | Hal 6 | Lampiran 2 |
+| `[tugas2]`, `[rubriktugas2]` | Hal 7 | Lampiran 3 |
+| `[soaluas]`, `[rubrikuas]` | Hal 8 | Lampiran 4 |
+
+### C. Pernyataan Kepatuhan Skema Asesmen
+
+| Komponen | Pekan | Bobot | Target CPMK | Status |
+|:---:|:---:|:---:|:---:|:---:|
+| Tugas 1 | 4 | 20% | CPMK-1 & CPMK-2 | Sesuai |
+| UTS | 8 | 30% | CPMK-1, CPMK-2, CPMK-3 | Sesuai |
+| Tugas 2 | 12 | 20% | CPMK-3 & CPMK-4 | Sesuai |
+| UAS | 16 | 30% | CPMK-1 s.d. CPMK-4 (komprehensif) | Sesuai |
+| **Total** | | **100%** | | **Lulus** |
+
+### D. Kepatuhan Boundary Guardrails (Dokumen 043)
+
+| Kategori | Isi |
+|---|---|
+| **In-Scope (diajarkan)** | Sistem Persamaan Linier (SPL), eliminasi Gauss–Jordan, aljabar matriks, vektor ruang $\mathbb{R}^n$, determinan, invers, nilai eigen dan vektor eigen, dekomposisi PCA dasar |
+| **Out-of-Scope (tidak diajarkan)** | Pelatihan algoritma *machine learning* (scikit-learn), pengodean aplikasi web, analisis limit–diferensial–integral kalkulus |
+| **Handoff Anchor** | Menguasai manipulasi aljabar linear matriks; menyerahkan pemodelan *machine learning* tabular ke `STI-413` dan *deep learning* ke `STI-624` |
+
+> **Catatan rujukan kode:** Dokumen 043 menulis titik serah terima *deep learning* sebagai `STI-726`. Menurut Dokumen 005 (daftar MK berkesinambungan), `STI-726` adalah MK Semester 7, sedangkan MK *deep learning* Semester 6 berkode **`STI-624`**. Karena itu dokumen ini memakai `STI-624`. Ketidaksesuaian pada Dokumen 043 telah dicatat sebagai temuan terbuka (kode ganda `STI-726`/`STI-727`) dan menunggu perbaikan.
 
 ---
 
-## LAMPIRAN TATA KELOLA — CATATAN HARMONISASI T1 & DAFTAR BUTIR KONFIRMASI (DOK 053)
-
-1. **Verifikasi Keselarasan Sumber T1:** Kode `STI-205`, Nama `Aljabar Linear dan Matriks`, Bobot `3 SKS Teori`, `Semester 2`, Prasyarat `STI-102 Kalkulus`, `CPL-05` (`P1`), 4 `CPMK` (C3, C4, C3, C4), 8 `Sub-CPMK` (`1.1` s.d. `4.2`), BoK (`BK-IS10`, `BK-IT02`), dan *Boundary Guardrails* telah **100% verbatim selaras** dengan Dokumen `003`, `004`, `005`, `007`, `037`, dan `043`.
-2. **Harmonisasi Kronologis & Guardrail `NumPy` vs `Scikit-Learn`:**
-   - Rangkaian topik dari Dokumen 007 Tabel 10.C ditata secara presisi agar `CPMK-1` (SPL, Gauss-Jordan, Determinan, Invers) tuntas pada Pekan 1–3 untuk **Tugas 1 (Pekan 4 — 20%)**, `CPMK-2` (Ruang Vektor, Kebebasan Linier, Basis, Dimensi, *Rank*, *Gram-Schmidt*) tuntas pada Pekan 4–7 untuk **UTS (Pekan 8 — 30%)**, `CPMK-3` (Transformasi Linier, Nilai/Vektor Eigen, Diagonalisasi) tuntas pada Pekan 9–12 untuk **Tugas 2 (Pekan 12 — 20%)**, dan `CPMK-4` (SVD & PCA dengan `NumPy`) tuntas pada Pekan 13–15 untuk **UAS (Pekan 16 — 30%)**.
-   - Mematuhi secara ketat baik rumusan verbatim `CPMK-4` (*"menggunakan pustaka Python NumPy untuk pemrosesan data AI"*) maupun *Out-of-Scope Guardrail* (*"Dilarang training algoritma machine learning Scikit-Learn"*): penggunaan Python dibatasi murni sebagai **kalkulator aljabar matriks primitif `numpy.linalg`** tanpa pustaka `scikit-learn`.
-3. **Daftar Butir Konfirmasi Administratif:** Pengisian nama resmi & NUPTK pejabat/dosen pengampu serta validasi koleksi pustaka utama di perpustakaan UWG.
+*Dokumen ini disusun dari Dokumen 005, 007, 043, 003, 008, dan 018. Rujukan pustaka merupakan usulan standar bidang ilmu dan tetap terbuka untuk validasi KBK/GPM. Dokumen pendamping: `059_2_SAP_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md`, `059_3_OUTLINE_MODUL_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md`, `059_4_RENCANA_EVALUASI_ASESMEN_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md`, `059_5_RUBRIK_PENILAIAN_STI-205_ALJABAR_LINEAR_DAN_MATRIKS_07112026.md`.*

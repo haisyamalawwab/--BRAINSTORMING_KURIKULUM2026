@@ -1,217 +1,313 @@
-# 056_3 — OUTLINE BUKU MODUL PEMBELAJARAN BERBASIS OBE
-## STI-102 — KALKULUS (*Calculus*)
+# OUTLINE BUKU MODUL PEMBELAJARAN
+## STI-102 — KALKULUS
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 1 — Tahap Fondasi)  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI102`  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan:** `056_1_RPS_STI-102_KALKULUS_07112026.md` · `056_2_SAP_STI-102_KALKULUS_07112026.md` · Dok 007 §4 · Dok 043.
+> **Jenis dokumen:** Kerangka (*outline*) buku modul ajar yang diturunkan dari RPS
+> **Dokumen induk:** `056_1_RPS_STI-102_KALKULUS_07112026.md`
+> **Rujukan kurikulum:** Dokumen 005, 007, 043 (Sub-CPMK & Boundary Guardrails), 003 (CPL)
+> **Tanggal:** 07 November 2026
 
 ---
 
-## 1. IDENTITAS & SPESIFIKASI BUKU MODUL AJAR
+## 1. METADATA MODUL
 
-| Atribut Buku Modul | Spesifikasi Teknis & Akademik |
+| Atribut | Keterangan |
 |---|---|
-| **Judul Buku Modul** | *Kalkulus Terapan untuk Sistem Cerdas dan Teknologi Informasi* |
-| **Kode & Bobot MK** | `STI-102` · 3 SKS Teori (`TM 150'`, `PT 180'`, `BM 180'`) · Semester 1 |
-| **CPL & BoK Didukung** | `CPL-05` (`P1` — Level *Introduce*) · `BK-IS10` (*Applied Mathematics and Logic*) & `BK-IT01` (*IT Fundamentals*) |
-| **Target Tebal Naskah Utuh** | 14 Bab Materi Inti + 2 Unit Evaluasi Komprehensif ($\pm 180\text{–}220\text{ halaman}$ A4/B5 termasuk grafik geometri & kunci langkah soal terpilih) |
-| **Anatomi Baku Setiap Bab** | (1) *Peta Sub-CPMK & Indikator*; (2) *Motivasi Konteks Komputasi/AI*; (3) *Uraian Konsep, Teorema, & Intuisi Geometri*; (4) *Contoh Soal Bertingkat (Dasar → Menengah → Kasus Sistem TI)*; (5) *Kotak Peringatan Kesalahan Umum & Guardrail*; (6) *Rangkuman Rumus Esensial*; (7) *Latihan Mandiri Berjenjang (10–15 Soal)*. |
+| Judul modul | *Kalkulus untuk Komputasi: Limit, Diferensial, Integral, dan Optimasi Analitik* |
+| Kode MK | `STI-102` |
+| Penulis | Tim Pengampu Rumpun Sains Komputasi (Core STI) |
+| Penelaah | Koordinator RMK Sains Komputasi; Unit Penjaminan Mutu FSTI |
+| Jenjang / Semester | S1 / Semester 1 |
+| Bobot | 3 SKS Teori (TM 150′ + PT 180′ + BM 180′ per pekan) |
+| Prasyarat | — |
+| Target pembaca | Mahasiswa S1 SISTEKIN tahun pertama; dosen pengampu; asisten tutorial |
+| Estimasi tebal | 240–280 halaman A5 (atau 190–220 halaman A4) |
+| Bahasa | Indonesia, dengan istilah teknis Inggris dalam tanda kurung miring |
+| Bentuk | Buku modul cetak + e-modul (PDF interaktif dengan tautan GeoGebra/Desmos) |
+| Status ISBN | Dalam pengajuan Perpustakaan Nasional RI |
+| Edisi | Edisi 1 (2027) |
 
 ---
 
-## 2. PETA KESELARASAN 14 BAB MODUL TERHADAP PEKAN, CPMK, & SUB-CPMK
+## 2. DASAR DAN BATAS PENYUSUNAN
 
-| Bagian | Bab | Judul Bab Modul Pembelajaran | Pekan | CPMK | Sub-CPMK | Asesmen Terkait |
-|---|:---:|---|:---:|:---:|:---:|---|
-| **Bagian I:<br>Fungsi, Limit, & Kontinuitas** | **Bab 1** | Sistem Bilangan Riil, Pertidaksamaan, Nilai Mutlak, & Fungsi dalam Komputasi | Mg 1 | `CPMK-1` | `Sub-CPMK-1.1` | Tugas 1 (20%) |
-| | **Bab 2** | Limit Fungsi Aljabar, Limit Sepihak, Teorema Limit, & Perilaku Asimtotik | Mg 2 | `CPMK-1` | `Sub-CPMK-1.1, 1.2` | Tugas 1 (20%) |
-| | **Bab 3** | Limit Fungsi Transenden, Bentuk Tak Tentu, & Kontinuitas Fungsi | Mg 3 | `CPMK-1` | `Sub-CPMK-1.1, 1.2` | **Tugas 1 (Mg 4)** |
-| **Bagian II:<br>Kalkulus Diferensial, Gradien, & Optimasi** | **Bab 4** | Konsep Turunan, Keterdiferensialan, & Aturan Dasar Diferensiasi Univariat | Mg 4 | `CPMK-2` | `Sub-CPMK-2.1` | UTS (30%) |
-| | **Bab 5** | Aturan Rantai (*Chain Rule*), Implisit, Turunan Parsial Multivariat, & Vektor Gradien | Mg 5 | `CPMK-2` | `Sub-CPMK-2.1` | UTS (30%) |
-| | **Bab 6** | Laju Perubahan, Nilai Ekstrem Lokal/Global, Kecekungan, & Uji Turunan | Mg 6 | `CPMK-2` | `Sub-CPMK-2.2` | UTS (30%) |
-| | **Bab 7** | Pemodelan Optimasi Ekstremum pada Masalah Biaya, Industri, & Kapasitas TI | Mg 7 | `CPMK-2` | `Sub-CPMK-2.2` | **UTS (Mg 8)** |
-| *Evaluasi I* | *Unit E1* | *Paket Latihan Komprehensif & Simulasi Ujian Tengah Semester (UTS)* | *Mg 8* | *`CPMK-2`* | *`2.1–2.2`* | *UTS (30%)* |
-| **Bagian III:<br>Kalkulus Integral & Geometri Luas/Volume** | **Bab 8** | Konsep Antiturunan, Integral Tak Tentu, & Teknik Integrasi Substitusi | Mg 9 | `CPMK-3` | `Sub-CPMK-3.1` | Tugas 2 (20%) |
-| | **Bab 9** | Teknik Integrasi Parsial (*Integration by Parts*) & Pecahan Parsial | Mg 10 | `CPMK-3` | `Sub-CPMK-3.1` | Tugas 2 (20%) |
-| | **Bab 10** | Jumlah Riemann, Integral Tentu, & Teorema Dasar Kalkulus I–II | Mg 11 | `CPMK-3` | `Sub-CPMK-3.1, 3.2` | Tugas 2 (20%) |
-| | **Bab 11** | Aplikasi Integral Tentu: Luas Daerah Antar-Kurva & Volume Benda Putar | Mg 12 | `CPMK-3` | `Sub-CPMK-3.2` | **Tugas 2 (Mg 12)** |
-| **Bagian IV:<br>Kalkulus untuk Optimasi AI & Luasan Data** | **Bab 12** | Formulasi Matematis *Gradient Descent* pada Fungsi Kerugian (*Loss Function*) | Mg 13 | `CPMK-4` | `Sub-CPMK-4.1` | UAS (30%) |
-| | **Bab 13** | Aturan Rantai pada Graf Komputasi & Karakteristik Lanskap Optimasi | Mg 14 | `CPMK-4` | `Sub-CPMK-4.1` | UAS (30%) |
-| | **Bab 14** | Aplikasi Integral untuk Pemodelan Luasan Data Komputasi & Kurva *AUC* | Mg 15 | `CPMK-4` | `Sub-CPMK-4.2` | **UAS (Mg 16)** |
-| *Evaluasi II* | *Unit E2* | *Paket Sintesis Akhir & Simulasi Ujian Akhir Semester (UAS)* | *Mg 16* | *`CPMK-4`* | *`4.1–4.2` & Sintesis* | *UAS (30%)* |
+| Aspek | Ketentuan |
+|---|---|
+| Sumber capaian | CPMK-1 s.d. CPMK-4 dan Sub-CPMK-1.1 s.d. 4.2 dari Dokumen 043 |
+| Sumber materi | Pokok bahasan Tabel C Dokumen 007 dan BoK `BK-IS10`, `BK-IT01` |
+| Batas isi (*in-scope*) | Fungsi, limit & kontinuitas, turunan simbolik analitis, integral tentu/tak tentu, deret Taylor/Maclaurin, optimasi gradien analitik |
+| Batas larangan (*out-of-scope*) | Komputasi klaster terdistribusi Spark/Kafka, perhitungan galat aproksimasi numerik klasik, penerapan matriks–vektor multidimensi (kewenangan `STA-601`, `STI-205`) |
+| Titik serah terima | Aljabar matriks → `STI-205`; matematika diskrit → `STI-204`; komputasi terdistribusi → `STA-601` |
 
 ---
 
-## 3. RINCIAN OUTLINE SUBSTANSI TIAP BAB
+## 3. CAPAIAN MODUL
 
-### BAGIAN I — FUNGSI, LIMIT, DAN KONTINUITAS (`CPMK-1`)
+Setelah menuntaskan modul ini, mahasiswa mampu:
 
-#### BAB 1: Sistem Bilangan Riil, Pertidaksamaan, Nilai Mutlak, & Fungsi dalam Komputasi (Pekan 1)
-* **Sub-CPMK:** `Sub-CPMK-1.1` (C3) · **Estimasi Halaman:** 12–14 hlm.
-* **Sub-Pokok Bahasan:**
-  1.1 Mengapa Kalkulus Dibutuhkan Insinyur Sistem Cerdas? (Dari Variabel Kontinu hingga *Machine Learning*)  
-  1.2 Sistem Bilangan Riil, Notasi Selang (*Intervals*), dan Penyelesaian Pertidaksamaan Polinomial/Rasional  
-  1.3 Nilai Mutlak $|x-a| < \delta$: Tafsir Jarak, Galat Pengukuran, dan Toleransi Numerik  
-  1.4 Konsep Fungsi, Domain–Range, Operasi & Komposisi Fungsi $(f \circ g)(x)$  
-  1.5 Fungsi Khusus dalam Komputasi: Fungsi Sepotong-Sepotong (*Piecewise*), *Floor/Ceiling*, dan Fungsi Aktivasi ReLU $f(x)=\max(0,x)$
-* **Konteks Kasus TI:** Pemodelan fungsi biaya berlangganan *cloud storage* bertingkat (*tiered pricing*) dan penentuan domain valid rumus waktu respons sistem.
-* **Latihan Bab 1:** 12 soal berjenjang (pertidaksamaan rasional, nilai mutlak, komposisi fungsi, dan sketsa fungsi *piecewise*).
-* **Guardrail Bab 1:** Tidak membahas aksioma kelengkapan bilangan riil/topologi analisis riil abstrak.
-
-#### BAB 2: Limit Fungsi Aljabar, Limit Sepihak, Teorema Limit, & Perilaku Asimtotik (Pekan 2)
-* **Sub-CPMK:** `Sub-CPMK-1.1` & `Sub-CPMK-1.2` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  2.1 Pengertian Intuitif Limit melalui Pendekatan Numerik dan Grafik  
-  2.2 Limit Kiri, Limit Kanan, dan Kriteria Eksistensi Limit Dua Arah  
-  2.3 Teorema Limit Utama dan Strategi Penyelesaian Bentuk Tak Tentu Aljabar $0/0$ (Pemfaktoran & Rasionalisasi Sekawan)  
-  2.4 Limit Tak-Hingga ($\lim_{x\to c} f(x) = \pm\infty$) dan Limit di Tak-Hingga ($\lim_{x\to\infty} f(x)$)  
-  2.5 Penentuan Asimtot Tegak dan Asimtot Datar pada Fungsi Kinerja Komputasi
-* **Konteks Kasus TI:** Analisis perilaku batas latensi rata-rata antrean server $L(x) = \frac{x}{\mu - x}$ saat laju kedatangan $x$ mendekati kapasitas maksimum $\mu$ (asimtot tegak) dan efisiensi biaya rata-rata per pengguna saat $n \to \infty$ (asimtot datar).
-* **Latihan Bab 2:** 12 soal perhitungan limit sepihak, bentuk $0/0$ akar sekawan, dan perilaku asimtotik.
-* **Guardrail Bab 2:** Pembuktian formal $\varepsilon\text{–}\delta$ dikenalkan secara intuitif-geometris saja tanpa membebani pembuktian abstrak rumit.
-
-#### BAB 3: Limit Fungsi Transenden, Bentuk Tak Tentu, & Kontinuitas Fungsi (Pekan 3)
-* **Sub-CPMK:** `Sub-CPMK-1.1` & `Sub-CPMK-1.2` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  3.1 Teorema Apit (*Squeeze Theorem*) dan Identitas Dasar Limit Trigonometri ($\lim_{x\to 0}\frac{\sin x}{x}=1$, $\lim_{x\to 0}\frac{1-\cos x}{x}=0$)  
-  3.2 Fungsi Eksponensial Alami, Bilangan Euler $e = \lim_{n\to\infty}(1+\frac{1}{n})^n$, dan Limit Logaritma Natural  
-  3.3 Tiga Syarat Kontinuitas Fungsi pada Suatu Titik dan Kontinuitas pada Selang Tertutup $[a,b]$  
-  3.4 Klasifikasi Titik Diskontinuitas (*Removable, Jump,* dan *Infinite Discontinuity*)  
-  3.5 Teorema Nilai Antara (*Intermediate Value Theorem*) dan Makna Kemulusan Fungsi
-* **Konteks Kasus TI:** Penentuan parameter transisi tarif/kuota agar kurva penagihan layanan digital tersambung kontinu tanpa lonjakan mendadak (*jump*).
-* **Latihan Bab 3 & Persiapan Tugas 1:** 14 soal limit transenden dan uji kontinuitas fungsi sambungan + panduan pengerjaan **RTM-1 (Tugas 1)**.
+1. **Menghitung** limit fungsi aljabar/transenden dan memeriksa kontinuitas menggunakan kaidah kalkulus baku (CPMK-1, C3).
+2. **Menerapkan** konsep turunan fungsi univariat dan multivariat serta gradien pada permasalahan laju perubahan dan optimasi ekstremum (CPMK-2, C3).
+3. **Menganalisis** permasalahan integral tentu dan tak tentu menggunakan teknik substitusi dan integrasi parsial untuk pemodelan fungsi komputasi (CPMK-3, C4).
+4. **Merumuskan** aplikasi kalkulus diferensial–integral pada algoritma optimasi penurunan gradien dan luasan data secara matematis (CPMK-4, C4).
 
 ---
 
-### BAGIAN II — KALKULUS DIFERENSIAL, GRADIEN, DAN OPTIMASI (`CPMK-2`)
+## 4. PETA BAB ↔ SUB-CPMK ↔ PEKAN ↔ ASESMEN
 
-#### BAB 4: Konsep Turunan, Keterdiferensialan, & Aturan Dasar Diferensiasi Univariat (Pekan 4)
-* **Sub-CPMK:** `Sub-CPMK-2.1` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  4.1 Masalah Garis Singgung (*Tangent Line*) dan Laju Perubahan Sesaat  
-  4.2 Definisi Turunan sebagai Limit Hasil Bagi Selisih $f'(x) = \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$  
-  4.3 Hubungan Keterdiferensialan dengan Kontinuitas (Studi Kasus Sudut Tajam pada ReLU & $|x|$)  
-  4.4 Aturan Baku Diferensiasi: Konstanta, Pangkat, Kelipatan, Jumlah/Selisih, Hasil Kali, dan Hasil Bagi  
-  4.5 Turunan Fungsi Trigonometri, Eksponensial ($e^x, a^x$), dan Logaritma Natural ($\ln x$)
-* **Konteks Kasus TI:** Membandingkan sifat keterdiferensialan fungsi aktivasi ReLU vs *Softplus* $g(x)=\ln(1+e^x)$ di titik $x=0$.
-* **Latihan Bab 4:** 12 soal diferensiasi aturan dasar, persamaan garis singgung, dan uji keterdiferensialan.
+| Bab | Judul Bab | Sub-CPMK | Pekan | CPMK | Asesmen Terkait |
+|:--:|---|---|:--:|:--:|---|
+| 1 | Fungsi, Model Matematika, dan Bahasa Kalkulus | Pengantar 1.1 | 1–2 | CPMK-1 | Tugas 1, UTS |
+| 2 | Limit dan Kontinuitas | 1.1 | 2 | CPMK-1 | **Tugas 1**, UTS |
+| 3 | Teknik Lanjut Limit dan Bentuk Tak Tentu | 1.2 | 3 | CPMK-1 | Tugas 1, UTS |
+| 4 | Diferensial Univariat dan Aturan Turunan | 2.1 | 4 | CPMK-2 | **Tugas 1**, UTS |
+| 5 | Turunan Parsial, Gradien, dan Optimasi Ekstremum | 2.1, 2.2 | 4–5 | CPMK-2 | UTS, UAS |
+| 6 | Antiturunan dan Teknik Integrasi | 3.1 | 6 | CPMK-3 | UTS, Tugas 2 |
+| 7 | Integral Tentu dan Aplikasi Geometri | 3.2 | 7 | CPMK-3 | UTS, Tugas 2, UAS |
+| 8 | Deret Taylor, Maclaurin, dan Aproksimasi Fungsi | 4.3 | 11 | CPMK-4 | Tugas 2, UAS |
+| 9 | Kalkulus untuk Optimasi Mesin dan Pemodelan Data | 4.1, 4.2 | 9–10, 12 | CPMK-4 | **Tugas 2**, UAS |
+| Lampiran A | Glosarium, Tabel Integral, dan Tabel Turunan | — | — | — | — |
+| Lampiran B | Kumpulan Soal Terpandu dan Kunci | — | — | — | — |
 
-#### BAB 5: Aturan Rantai (*Chain Rule*), Implisit, Turunan Parsial Multivariat, & Vektor Gradien (Pekan 5)
-* **Sub-CPMK:** `Sub-CPMK-2.1` (C3) · **Estimasi Halaman:** 16–18 hlm.
-* **Sub-Pokok Bahasan:**
-  5.1 Aturan Rantai (*Chain Rule*) pada Komposisi Fungsi Satu Peubah ($\frac{dy}{dx} = \frac{dy}{du}\frac{du}{dx}$)  
-  5.2 Pembuktian Sifat Turunan Fungsi Logistik Sigmoid $\sigma'(x) = \sigma(x)(1-\sigma(x))$ dan $\tanh'(x) = 1 - \tanh^2(x)$  
-  5.3 Diferensiasi Implisit dan Turunan Tingkat Tinggi ($f'', f'''$)  
-  5.4 Fungsi Dua atau Lebih Peubah $z = f(x,y)$: Peta Kontur (*Level Curves*) dan Permukaan 3D  
-  5.5 Turunan Parsial Orde Pertama ($\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$), Orde Kedua, dan Penyusunan Vektor Gradien $\nabla f(x,y)$
-* **Konteks Kasus TI:** Menghitung vektor gradien permukaan galat prediksi $\nabla E(w_1, w_2)$ dan menafsirkan arah kemiringan tercuram pada peta kontur.
-* **Latihan Bab 5:** 14 soal *Chain Rule* berlapis, implisit, turunan parsial, dan evaluasi vektor gradien pada titik tertentu.
-* **Guardrail Bab 5:** Notasi vektor gradien dibatasi pada vektor kolom 2–3 peubah nyata; operasi ruang vektor umum, matriks transformasi, dan dekomposisi matriks diserahkan ke `STI-205 Aljabar Linear dan Matriks`.
-
-#### BAB 6: Laju Perubahan, Nilai Ekstrem Lokal/Global, Kecekungan, & Uji Turunan (Pekan 6)
-* **Sub-CPMK:** `Sub-CPMK-2.2` (C3/C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  6.1 Laju Perubahan Terkait (*Related Rates*) dalam Pemodelan Dinamis  
-  6.2 Nilai Maksimum/Minimum Mutlak pada Selang Tertutup $[a,b]$ dan Titik Kritis ($f'(c)=0$ atau $f'(c)$ tak ada)  
-  6.3 Kemonotonan Fungsi (Naik/Turun) dan Uji Turunan Pertama untuk Ekstrem Lokal  
-  6.4 Kecekungan Kurva (*Concavity*), Titik Belok (*Inflection Point*), dan Uji Turunan Kedua  
-  6.5 Pengantar Kondisi Stasioner Fungsi Dua Peubah ($\nabla f(x,y) = \mathbf{0}$) dan Aturan L'Hôpital untuk Bentuk Tak Tentu
-* **Konteks Kasus TI:** Analisis titik puncak beban trafik harian sistem informasi akademik dan penentuan waktu *maintenance window* pada lembah minimum beban.
-* **Latihan Bab 6:** 12 soal laju perubahan, klasifikasi titik kritis, kecekungan, dan titik stasioner fungsi dua variabel sederhana.
-
-#### BAB 7: Pemodelan Optimasi Ekstremum pada Masalah Biaya, Industri, & Kapasitas TI (Pekan 7)
-* **Sub-CPMK:** `Sub-CPMK-2.2` (C3/C4) · **Estimasi Halaman:** 12–14 hlm.
-* **Sub-Pokok Bahasan:**
-  7.1 Metodologi 5 Langkah Pemodelan Masalah Optimasi Nyata dengan Kalkulus  
-  7.2 Kasus Optimasi Ekonomi & Sistem Enterprise: Maksimasi Laba ($MR = MC$) dan *Economic Order Quantity* (EOQ) pada Rantai Pasok  
-  7.3 Kasus Optimasi Infrastruktur TI: Minimasi Fungsi Biaya Gabungan Kapasitas Komputasi Cloud vs Penalti Latensi  
-  7.4 Kasus Optimasi Ukuran Paket Data / *Throughput* Efektif Kanal Jaringan
-* **Konteks Kasus TI:** Menurunkan rumus EOQ $Q^* = \sqrt{\frac{2DS}{H}}$ secara langsung menggunakan turunan pertama dan kedua fungsi biaya total persediaan.
-* **Latihan Bab 7 & Unit Evaluasi E1:** 10 soal cerita pemodelan optimasi + **Paket Simulasi Lengkap UTS (`CPMK-2`)**.
+**Total bab inti:** 9 bab. Setiap bab setara 1–2 pekan pertemuan (16 pekan termasuk UTS & UAS).
 
 ---
 
-### BAGIAN III — KALKULUS INTEGRAL DAN GEOMETRI LUAS/VOLUME (`CPMK-3`)
+## 5. STRUKTUR BAKU SETIAP BAB
 
-#### BAB 8: Konsep Antiturunan, Integral Tak Tentu, & Teknik Integrasi Substitusi (Pekan 9)
-* **Sub-CPMK:** `Sub-CPMK-3.1` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  8.1 Antiturunan sebagai Operasi Balikan Diferensiasi dan Makna Konstanta Integrasi $C$  
-  8.2 Rumus Baku Integral Tak Tentu Fungsi Aljabar, Trigonometri, dan Eksponensial  
-  8.3 Persamaan Diferensial Terpisah Sederhana / Masalah Nilai Awal ($y'(t) = g(t), y(0)=y_0$)  
-  8.4 Teknik Integrasi Substitusi (`u-substitution`) sebagai Kebalikan Aturan Rantai
-* **Konteks Kasus TI:** Merekonstruksi fungsi akumulasi pertumbuhan pengguna aplikasi dari fungsi laju pertumbuhan harian yang diketahui nilai awalnya.
-* **Latihan Bab 8:** 14 soal antiturunan, masalah nilai awal, dan strategi pemisalan variabel $u$.
+Setiap bab wajib memuat tujuh komponen berikut, dengan urutan tetap:
 
-#### BAB 9: Teknik Integrasi Parsial (*Integration by Parts*) & Pecahan Parsial (Pekan 10)
-* **Sub-CPMK:** `Sub-CPMK-3.1` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  9.1 Penurunan Rumus Integrasi Parsial $\int u\,dv = uv - \int v\,du$ dari Aturan Hasil Kali  
-  9.2 Strategi Pemilihan $u$ dan $dv$ Menggunakan Hierarki LIATE serta Metode Tabular untuk Parsial Berulang  
-  9.3 Dekomposisi Pecahan Parsial untuk Fungsi Rasional (Faktor Linear Berbeda & Faktor Linear Berulang)  
-  9.4 Kerangka Analisis Pemilihan Teknik Integrasi (*Decision Tree*: Langsung vs Substitusi vs Parsial vs Pecahan Parsial)
-* **Konteks Kasus TI:** Menyelesaikan bentuk integral $\int x e^{-\lambda x}dx$ yang kelak menjadi dasar perhitungan nilai ekspektasi waktu tunggu layanan server eksponensial.
-* **Latihan Bab 9:** 12 soal diagnostik pemilihan metode dan perhitungan integrasi parsial/pecahan parsial.
-
-#### BAB 10: Jumlah Riemann, Integral Tentu, & Teorema Dasar Kalkulus I–II (Pekan 11)
-* **Sub-CPMK:** `Sub-CPMK-3.1` & `Sub-CPMK-3.2` (C3/C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  10.1 Masalah Luas Daerah, Partisi Selang, dan Jumlah Riemann $\sum_{i=1}^n f(x_i^*)\Delta x_i$  
-  10.2 Definisi Integral Tentu sebagai Limit Jumlah Riemann dan Sifat-Sifat Linearitas/Aditivitas/Simetri  
-  10.3 Nilai Rata-Rata Fungsi Kontinu pada Selang $[a,b]$  
-  10.4 Teorema Dasar Kalkulus I (Turunan Fungsi Akumulasi) dan Teorema Dasar Kalkulus II ($\int_a^b f(x)\,dx = F(b)-F(a)$)  
-  10.5 Transformasi Batas Integrasi pada Substitusi Tentu dan Integrasi Parsial Tentu
-* **Konteks Kasus TI:** Menghitung rata-rata suhu sensor *data center* selama satu siklus pendinginan dari kurva fungsi kontinu $T(t)$.
-* **Latihan Bab 10:** 12 soal Jumlah Riemann, sifat simetri fungsi ganjil/genap, dan TDK I–II.
-
-#### BAB 11: Aplikasi Integral Tentu: Luas Daerah Antar-Kurva & Volume Benda Putar (Pekan 12)
-* **Sub-CPMK:** `Sub-CPMK-3.2` (C3/C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  11.1 Perbedaan Integral Bertanda (*Net Signed Area*) vs Luas Geometris Mutlak $\int_a^b |f(x)|\,dx$  
-  11.2 Perhitungan Luas Daerah di Antara Dua Kurva (Pias Tegak $dx$ dan Pias Mendatar $dy$)  
-  11.3 Volume Benda Putar dengan Metode Cakram (*Disk Method*)  
-  11.4 Volume Benda Putar Berongga dengan Metode Cincin (*Washer Method*)
-* **Konteks Kasus TI:** Menghitung luasan selisih penghematan daya antara kurva konsumsi server lama vs server tervirtualisasi baru selama 12 bulan operasi, serta volume kubah pelindung sensor IoT.
-* **Latihan Bab 11 & Panduan Tugas 2:** 12 soal sketsa daerah, luas antar-kurva, dan volume benda putar + panduan penyelesaian **RTM-2 (Tugas 2)**.
+| No | Komponen | Isi Wajib | Estimasi |
+|:--:|---|---|:--:|
+| 1 | **Peta Kompetensi** | Sub-CPMK yang dibina, CPMK induk, indikator kinerja | 0,5 hlm |
+| 2 | **Uraian Materi** | 3–6 sub-bab, masing-masing dengan contoh bertahap dan galat umum mahasiswa | 12–20 hlm |
+| 3 | **Sorotan Kasus (Case Spotlight)** | Satu penerapan komputasi nyata + pertanyaan analitis | 1,5 hlm |
+| 4 | **Rangkuman** | 5–8 butir kunci dalam bentuk poin bernomor | 0,5 hlm |
+| 5 | **Latihan Terbimbing** | 8–12 soal bertingkat (C2–C4) dengan petunjuk pengerjaan | 1,5 hlm |
+| 6 | **Tes Formatif Mandiri** | 10 soal pilihan ganda + 3 esai pendek, kunci di lampiran daring | 2 hlm |
+| 7 | **Rujukan Bab** | 3–6 sitasi IEEE, sinkron dengan daftar pustaka RPS | 0,3 hlm |
 
 ---
 
-### BAGIAN IV — KALKULUS UNTUK OPTIMASI AI DAN PEMODELAN LUASAN DATA (`CPMK-4`)
+## 6. OUTLINE RINCI PER BAB
 
-#### BAB 12: Formulasi Matematis *Gradient Descent* pada Fungsi Kerugian (*Loss Function*) (Pekan 13)
-* **Sub-CPMK:** `Sub-CPMK-4.1` (C4) · **Estimasi Halaman:** 16–18 hlm.
-* **Sub-Pokok Bahasan:**
-  12.1 Dari Pencarian Akar $\nabla J = \mathbf{0}$ ke Optimasi Iteratif: Mengapa Algoritma *Gradient Descent* Diperlukan?  
-  12.2 Anatomi Fungsi Kerugian Kuadrat Rata-Rata (*Mean Squared Error / MSE*) $J(w,b) = \frac{1}{n}\sum_{i=1}^n (wx_i + b - y_i)^2$  
-  12.3 Penurunan Analitis Komponen Gradien $\frac{\partial J}{\partial w}$ dan $\frac{\partial J}{\partial b}$  
-  12.4 Persamaan Pembaruan Parameter $\theta^{(t+1)} = \theta^{(t)} - \eta \nabla J(\theta^{(t)})$ dan Simulasi Langkah demi Langkah di Atas Kertas  
-  12.5 Analisis Matematis Pengaruh *Learning Rate* $\eta$: Konvergensi Monoton, Osilasi, dan Divergensi (*Overshooting*)
-* **Konteks Kasus TI:** Simulasi tangan lengkap 3 iterasi *Gradient Descent* untuk mencocokkan garis prediksi pada 3 titik data pengamatan nyata tanpa bantuan pustaka *black-box*.
-* **Latihan Bab 12:** 10 soal penurunan gradien berbagai fungsi kerugian ($L_2$, fungsi kuadratik terboboti) dan analisis batas konvergensi $\eta$.
-* **Guardrail Bab 12:** Fokus 100% pada penurunan rumus kalkulus dan iterasi numerik kecil; dilarang melebar ke penulisan *pipeline training* `scikit-learn`/`PyTorch` (`STI-413`/`STI-624`).
+### BAB 1 — Fungsi, Model Matematika, dan Bahasa Kalkulus
+**Sub-CPMK:** Pengantar 1.1 | **Pekan:** 1–2 | **Estimasi:** 20 halaman
 
-#### BAB 13: Aturan Rantai pada Graf Komputasi & Karakteristik Lanskap Optimasi (Pekan 14)
-* **Sub-CPMK:** `Sub-CPMK-4.1` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  13.1 Merepresentasikan Fungsi Komposisi Bersusun sebagai Graf Komputasi Berarah  
-  13.2 Penelusuran Nilai Maju (*Forward Evaluation*) dan Perkalian Turunan Parsial Mundur (*Chain Rule / Mathematical Backprop*)  
-  13.3 Studi Kasus Kalkulus Unit Neuron Tunggal: $z = wx+b \to \hat{y} = \sigma(z) \to L = \frac{1}{2}(\hat{y}-y)^2$  
-  13.4 Geometri Lanskap Optimasi: Fungsi Konveks vs Non-Konveks, Minimum Lokal vs Global, dan Titik Pelana (*Saddle Point*)  
-  13.5 Telaah Kalkulus Peluruhan Turunan (*Vanishing Derivative*) ketika $\sigma'(z) \to 0$ pada Nilai $|z|$ Ekstrem
-* **Konteks Kasus TI:** Membuktikan secara analitis mengapa gradien fungsi aktivasi sigmoid mengecil drastis di daerah jenuh dibandingkan ReLU untuk $z > 0$.
-* **Latihan Bab 13:** 10 soal graf komputasi berantai dan identifikasi titik pelana vs minimum lokal.
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 1.1 | Konsep fungsi, domain, range, dan notasi $f: X \to Y$ |
+| 1.2 | Ragam fungsi: linear, kuadratik, polinomial, rasional, eksponensial, logaritma, trigonometri |
+| 1.3 | Fungsi komposit dan fungsi invers |
+| 1.4 | Grafik fungsi dan transformasi (geser, skala, refleksi) |
+| 1.5 | Model matematika sederhana: pertumbuhan, peluruhan, dan fungsi biaya |
+| 1.6 | Kesalahan umum: salah menentukan domain, keliru membaca notasi komposisi |
 
-#### BAB 14: Aplikasi Integral untuk Pemodelan Luasan Data Komputasi & Kurva *AUC* (Pekan 15)
-* **Sub-CPMK:** `Sub-CPMK-4.2` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  14.1 Pemodelan Akumulasi Laju Kontinu pada Sistem TI: Volume Trafik Jaringan $V = \int_{t_1}^{t_2} r(t)\,dt$ dan Konsumsi Energi Server  
-  14.2 Aproksimasi Integral pada Data Pengukuran Diskrit: Aturan Trapesium (*Trapezoidal Rule*)  
-  14.3 Matematika di Balik Metrik Evaluasi Model Klasifikasi: Luas di Bawah Kurva (*Area Under the Curve / AUC*) pada Ruang $[0,1]^2$  
-  14.4 Pengantar Fungsi Rapat Data Kontinu Non-Negatif: Syarat Normalisasi Luas Total $\int_{-\infty}^{\infty} f(x)\,dx = 1$ dan Luas Selang $[a,b]$  
-  14.5 Peta Keterhubungan *Handoff* Kalkulus menuju `STI-205`, `FST-408`, dan `STI-413`
-* **Konteks Kasus TI:** Menghitung nilai *AUC* dari kurva fungsi analitis sederhana dan dari tabel 5 titik koordinat *(False Positive Rate, True Positive Rate)* menggunakan aturan trapesium.
-* **Latihan Bab 14 & Unit Evaluasi E2:** 10 soal pemodelan luasan data komputasi + **Paket Simulasi Lengkap UAS (`CPMK-4` & Sintesis)**.
-* **Guardrail Bab 14:** Fungsi rapat kontinu hanya dibahas dari sisi syarat kalkulus integral ($\ge 0$ dan luas $= 1$); teori peluang aksiomatik, distribusi normal baku $Z$, dan uji hipotesis diserahkan penuh ke `FST-408 Probabilitas dan Statistika`.
+**Kegiatan belajar:** membaca (BM 90′), latihan sketsa grafik (PT 90′), diskusi model matematika (TM 35′).
+**Tes formatif:** identifikasi domain–range dan sketsa grafik untuk 8 fungsi berbeda.
+
+---
+
+### BAB 2 — Limit dan Kontinuitas
+**Sub-CPMK:** 1.1 | **Pekan:** 2 | **Estimasi:** 26 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 2.1 | Definisi intuitif limit dan notasi $\lim_{x \to a} f(x) = L$ |
+| 2.2 | Limit satu sisi dan syarat keberadaan limit dua sisi |
+| 2.3 | Sifat-sifat limit (jumlah, selisih, hasil kali, hasil bagi, pangkat, akar) |
+| 2.4 | Limit di ketakhinggaan dan perilaku asimtotik |
+| 2.5 | Definisi kontinuitas dan tiga syaratnya |
+| 2.6 | Klasifikasi diskontinuitas: *removable*, *jump*, *infinite* |
+| 2.7 | Teorema Nilai Antara dan implikasinya pada pencarian akar |
+
+**Kegiatan belajar:** latihan limit aljabar (PT 120′), visualisasi GeoGebra (TM 35′), kuis LMS.
+**Tes formatif:** 6 limit aljabar + 4 butir uji kontinuitas.
+
+---
+
+### BAB 3 — Teknik Lanjut Limit dan Bentuk Tak Tentu
+**Sub-CPMK:** 1.2 | **Pekan:** 3 | **Estimasi:** 24 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 3.1 | Teorema apit (*squeeze theorem*) dan penerapannya |
+| 3.2 | Limit trigonometri khusus: $\lim_{x\to0} \frac{\sin x}{x}$, $\lim_{x\to0} \frac{1-\cos x}{x}$ |
+| 3.3 | Bentuk tak tentu: $0/0$, $\infty/\infty$, $\infty - \infty$, $0 \cdot \infty$, $1^\infty$ |
+| 3.4 | Dalil L'Hôpital dan syarat keberlakuannya |
+| 3.5 | Limit bilangan $e$ dan kaitannya dengan pertumbuhan kontinu |
+| 3.6 | Kesalahan umum: menerapkan L'Hôpital pada bentuk yang bukan tak tentu |
+
+**Kegiatan belajar:** latihan bertingkat (PT 120′), pembahasan kasus batas (TM 35′).
+**Tes formatif:** 8 limit bentuk tak tentu dengan justifikasi pemilihan metode.
+
+---
+
+### BAB 4 — Diferensial Univariat dan Aturan Turunan
+**Sub-CPMK:** 2.1 | **Pekan:** 4 | **Estimasi:** 30 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 4.1 | Definisi turunan sebagai limit dan interpretasi geometris |
+| 4.2 | Notasi turunan (Leibniz, Lagrange, Newton) dan maknanya |
+| 4.3 | Aturan pangkat, konstan, jumlah, dan selisih |
+| 4.4 | Aturan hasil kali dan hasil bagi |
+| 4.5 | Aturan rantai dan diferensiasi implisit |
+| 4.6 | Turunan tingkat tinggi dan interpretasi fisis (percepatan) |
+| 4.7 | Turunan fungsi transenden (eksponensial, logaritma, trigonometri) |
+
+**Kegiatan belajar:** latihan aturan turunan (PT 180′), persiapan Tugas 1 (TM 40′).
+**Tes formatif:** 12 soal diferensiasi campuran dengan langkah lengkap.
+
+---
+
+### BAB 5 — Turunan Parsial, Gradien, dan Optimasi Ekstremum
+**Sub-CPMK:** 2.1, 2.2 | **Pekan:** 4–5 | **Estimasi:** 32 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 5.1 | Fungsi dua variabel dan permukaan $z = f(x,y)$ |
+| 5.2 | Turunan parsial orde pertama dan kedua |
+| 5.3 | Vektor gradien dan interpretasi arah |
+| 5.4 | Aturan rantai multivariat |
+| 5.5 | Laju perubahan dan *related rates* |
+| 5.6 | Titik kritis, uji turunan pertama, dan uji turunan kedua |
+| 5.7 | Optimasi terapan: biaya, luas, volume, dan efisiensi |
+| 5.8 | Matriks Hessian dan uji titik pelana (pengantar, tanpa aljabar matriks penuh) |
+
+**Kegiatan belajar:** latihan optimasi (PT 150′), studi kasus biaya (TM 50′).
+**Tes formatif:** 3 soal optimasi lengkap dengan pembuktian minimum/maksimum.
+
+---
+
+### BAB 6 — Antiturunan dan Teknik Integrasi
+**Sub-CPMK:** 3.1 | **Pekan:** 6 | **Estimasi:** 30 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 6.1 | Antiturunan dan integral tak tentu; konstanta integrasi |
+| 6.2 | Tabel integral dasar |
+| 6.3 | Substitusi-u dan pemilihan substitusi yang tepat |
+| 6.4 | Integrasi parsial $\int u\,dv = uv - \int v\,du$ dan heuristik ILATE |
+| 6.5 | Integrasi fungsi rasional sederhana (dekomposisi parsial pengantar) |
+| 6.6 | Integral fungsi trigonometri dan eksponensial |
+| 6.7 | Kesalahan umum: lupa konstanta integrasi, salah diferensial substitusi |
+
+**Kegiatan belajar:** latihan bertingkat (PT 180′), pembahasan strategi pemilihan teknik (TM 35′).
+**Tes formatif:** 10 integral tak tentu campuran.
+
+---
+
+### BAB 7 — Integral Tentu dan Aplikasi Geometri
+**Sub-CPMK:** 3.2 | **Pekan:** 7 | **Estimasi:** 28 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 7.1 | Jumlah Riemann dan definisi integral tentu |
+| 7.2 | Teorema Dasar Kalkulus I dan II |
+| 7.3 | Sifat-sifat integral tentu dan teorema nilai rata-rata integral |
+| 7.4 | Luas daerah di bawah kurva dan antara dua kurva |
+| 7.5 | Volume benda putar: metode cakram, cincin, dan kulit tabung |
+| 7.6 | Panjang busur dan luas permukaan (pengantar) |
+| 7.7 | Penerapan pada akumulasi kuantitas kontinu |
+
+**Kegiatan belajar:** latihan aplikasi geometri (PT 150′), visualisasi GeoGebra (TM 35′).
+**Tes formatif:** 2 soal luas daerah + 2 soal volume benda putar.
+
+---
+
+### BAB 8 — Deret Taylor, Maclaurin, dan Aproksimasi Fungsi
+**Sub-CPMK:** 4.3 | **Pekan:** 11 | **Estimasi:** 24 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 8.1 | Polinom Taylor orde-$n$ di sekitar titik $a$ |
+| 8.2 | Deret Maclaurin dan deret fungsi umum ($e^x$, $\sin x$, $\cos x$, $\ln(1+x)$) |
+| 8.3 | Sisa galat Lagrange dan estimasi ketelitian |
+| 8.4 | Konsep konvergensi deret (pengantar, tanpa teori deret lanjut) |
+| 8.5 | Aproksimasi fungsi dalam implementasi komputasi |
+| 8.6 | Keterbatasan: radius konvergensi dan titik singular |
+
+**Kegiatan belajar:** konstruksi deret (PT 120′), estimasi galat (TM 35′).
+**Tes formatif:** ekspansi 3 fungsi + estimasi galat orde berikutnya.
+
+---
+
+### BAB 9 — Kalkulus untuk Optimasi Mesin dan Pemodelan Data
+**Sub-CPMK:** 4.1, 4.2 | **Pekan:** 9–10, 12 | **Estimasi:** 30 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 9.1 | Fungsi kerugian (*loss function*) dan fungsi objektif |
+| 9.2 | Turunan parsial sebagai dasar arah penurunan |
+| 9.3 | Derivasi aturan pembaruan *Gradient Descent* |
+| 9.4 | Pengaruh *learning rate*: konvergensi, osilasi, divergensi |
+| 9.5 | Integral sebagai akumulasi kontinu dan rata-rata fungsi |
+| 9.6 | Pemodelan luasan data dan ekspektasi variabel kontinu |
+| 9.7 | Studi kasus: optimasi biaya, akumulasi *bandwidth*, laju permintaan |
+
+**Kegiatan belajar:** derivasi bersama (TM 70′), simulasi iterasi manual (PT 120′), penyusunan proyek (PT 180′).
+**Tes formatif:** 3 soal yang menghubungkan gradien dengan perilaku algoritma.
+
+---
+
+### LAMPIRAN A — Glosarium, Tabel Integral, dan Tabel Turunan
+**Estimasi:** 12 halaman. Memuat ≥ 70 entri istilah (limit, kontinuitas, gradien, antiturunan, deret, konvergensi) beserta padanan Inggris, tabel turunan & integral standar, serta tabel identitas trigonometri yang dipakai.
+
+### LAMPIRAN B — Kumpulan Soal Terpandu dan Kunci
+**Estimasi:** 28 halaman. Memuat 60 soal bertingkat (C2–C4) lengkap dengan petunjuk pengerjaan dan kunci jawaban ringkas, serta 4 paket soal latihan UTS/UAS mandiri.
+
+---
+
+## 7. SPESIFIKASI TEKNIS PENULISAN
+
+| Aspek | Ketentuan |
+|---|---|
+| Ukuran halaman | A5 (148 × 210 mm), margin 2 cm |
+| Tipografi | Body 10,5 pt *serif* (Times New Roman / Book Antiqua); judul sans-serif; spasi 1,15 |
+| Tata letak | Satu kolom untuk derivasi matematis (lebar penuh); dua kolom untuk uraian naratif |
+| Rumus | Diketik dengan LaTeX/MathType; penomoran rumus per bab, mis. (4.3) |
+| Sitasi | IEEE *numbered*, konsisten dengan daftar pustaka RPS |
+| Istilah asing | Ditulis miring pada kemunculan pertama, disertai padanan Indonesia |
+| Warna | Aksen biru tua untuk kotak definisi; abu untuk kotak galat umum |
+| Aksesibilitas | Kontras teks ≥ 4,5:1; gambar memiliki teks alternatif pada versi digital; deskripsi verbal untuk setiap grafik |
+
+---
+
+## 8. RENCANA PRODUKSI DAN KENDALI MUTU
+
+| Tahap | Aktivitas | Keluaran | Penanggung Jawab | Durasi |
+|:--:|---|---|---|---|
+| P1 | Finalisasi outline & alokasi penulis per bab | Dokumen outline ini | Koordinator RMK | 1 pekan |
+| P2 | Penulisan draf bab 1–5 | Draf 55% | Tim penulis | 8 pekan |
+| P3 | Penulisan draf bab 6–9 + lampiran | Draf 100% | Tim penulis | 6 pekan |
+| P4 | Verifikasi matematis (cek ulang setiap derivasi & kunci) | Lembar verifikasi | Dua penelaah internal | 3 pekan |
+| P5 | Telaah sejawat & uji keterbacaan mahasiswa | Laporan telaah + uji 20 responden | Tim penulis | 2 pekan |
+| P6 | Penyuntingan bahasa & tata letak | Naskah siap cetak | Penyunting | 2 pekan |
+| P7 | Pengajuan ISBN & pencetakan terbatas | ISBN + 50 eksemplar | Prodi & perpustakaan | 3 pekan |
+
+### Checklist mutu sebelum cetak
+
+- [ ] Seluruh Sub-CPMK RPS memiliki bab/sub-bab pembina yang eksplisit.
+- [ ] Tidak ada materi yang masuk kategori *out-of-scope* Dokumen 043 (tidak ada Spark/Kafka, tidak ada numerik aproksimatif, tidak ada matriks–vektor multidimensi).
+- [ ] Setiap derivasi matematis telah diperiksa ulang oleh penelaah kedua.
+- [ ] Seluruh kunci jawaban di lampiran B terverifikasi.
+- [ ] Setiap bab memiliki peta kompetensi, kasus, rangkuman, latihan, dan tes formatif.
+- [ ] Seluruh sitasi IEEE valid dan dapat ditelusuri; tidak ada rujukan fiktif.
+- [ ] Notasi konsisten lintas bab (mis. selalu gunakan $\nabla f$, bukan campuran grad dan $\nabla$).
+- [ ] Uji keterbacaan: ≥ 80% responden menilai materi mudah diikuti.
+
+---
+
+## 9. KETERKAITAN DENGAN DOKUMEN LAIN
+
+| Dokumen | Keterkaitan |
+|---|---|
+| `056_1_RPS_STI-102_KALKULUS_07112026.md` | Sumber capaian, materi, dan titik asesmen |
+| `056_2_SAP_STI-102_KALKULUS_07112026.md` | Sumber alokasi waktu dan urutan kegiatan per pekan |
+| `056_4_RENCANA_EVALUASI_ASESMEN_STI-102_KALKULUS_07112026.md` | Sumber bobot dan jadwal evaluasi |
+| `056_5_RUBRIK_PENILAIAN_STI-102_KALKULUS_07112026.md` | Sumber kriteria penilaian latihan dan tes formatif |
+| Dokumen 043 | Batas isi (*in-scope*, *out-of-scope*, *handoff anchor*) |
+| Dokumen 037 | Demarkasi silabus antar-MK |
+
+---
+
+*Outline ini merupakan rancangan kerja penulisan modul; perubahan judul bab wajib melalui persetujuan Koordinator RMK dan dicatat dalam riwayat revisi.*
