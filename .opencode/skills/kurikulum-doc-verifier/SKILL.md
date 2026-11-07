@@ -1,4 +1,4 @@
-﻿---
+---
 name: kurikulum-doc-verifier
 description: Use when verifying SKS, MK codes, CPL, semester alignment, zero discrepancy, SIAKAD ground truth, or running verify_ scripts in KURIKULUM2026_REVISI.
 ---
@@ -23,7 +23,8 @@ Verifikator keselarasan dokumen kurikulum SISTEKIN vs Dok 005 dan ground truth S
 2. Jalankan verifikator via bash dari workdir `KURIKULUM2026_REVISI`:
    - `python _tools/verify_k2025_ground_truth.py` — 11 kelompok uji / 17 butir vs PDF SIAKAD.
    - `python _tools/verify_all_mk_aligned_with_005.py` — 67 MK: SKS, semester, tipe, kode, prasyarat.
-   - `python _tools/verify_zero_discrepancy.py` — sinkronisasi antar file.
+   - `python _tools/verify_zero_discrepancy.py` — sinkronisasi antar file (termasuk subfolder `PERANGKAT_AJAR/`).
+   - `python _tools/check_all_md_alignment_with_005.py` — pemindaian seluruh `.md` di root `KURIKULUM2026_REVISI/` dan `KURIKULUM2026_REVISI/PERANGKAT_AJAR/` terhadap Dok 005.
 3. Untuk klaim ekivalensi Dok 024, cek kategori E1-E5 dan neraca 146 SKS. Simulasi P1/P2=120, P3=117 SKS.
 4. Laporkan: PASS/FAIL per butir, file:line penyebab, dan aksi perbaikan minimal.
 
