@@ -1,205 +1,337 @@
-# 058_3 — OUTLINE BUKU MODUL PEMBELAJARAN BERBASIS OBE
-## STI-204 — MATEMATIKA DISKRIT DAN LOGIKA (*Discrete Mathematics and Logic*)
+# OUTLINE BUKU MODUL PEMBELAJARAN
+## STI-204 — MATEMATIKA DISKRIT DAN LOGIKA
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 2 — Tahap Fondasi Lanjut)  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI204`  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan:** `058_1_RPS_STI-204_...md` · `058_2_SAP_STI-204_...md` · Dok 007 §9 · Dok 043.
+> **Jenis dokumen:** Kerangka (*outline*) buku modul ajar yang diturunkan dari RPS
+> **Dokumen induk:** `058_1_RPS_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md`
+> **Rujukan kurikulum:** Dokumen 005, 007, 043 (Sub-CPMK & Boundary Guardrails), 003 (CPL)
+> **Tanggal:** 07 November 2026
 
 ---
 
-## 1. IDENTITAS & SPESIFIKASI BUKU MODUL AJAR
+## 1. METADATA MODUL
 
-| Atribut Buku Modul | Spesifikasi Teknis & Akademik |
+| Atribut | Keterangan |
 |---|---|
-| **Judul Buku Modul** | *Matematika Diskrit dan Logika Komputasi untuk Rekayasa Sistem Informasi & Kecerdasan Artifisial* |
-| **Kode & Bobot MK** | `STI-204` · 3 SKS Teori (`TM 150'`, `PT 180'`, `BM 180'`) · Semester 2 · Prasyarat: `STI-103` |
-| **CPL & BoK Didukung** | `CPL-05` (`P1`: 80%), `CPL-02` (`KU1`: 20%) [Level *Introduce*] · `BK-IS10` (*Applied Mathematics and Logic*), `BK-IS11` (*Programming Fundamentals*) |
-| **Target Tebal Naskah Utuh** | 14 Bab Materi Inti + 2 Unit Evaluasi Komprehensif ($\pm 195\text{–}235\text{ halaman}$ A4/B5 dilengkapi contoh bukti 2-kolom, tabel jejak algoritma graf, dan diagram transisi FSA) |
-| **Anatomi Baku Setiap Bab** | (1) *Sub-CPMK & Indikator*; (2) *Vignette Masalah Sistem Informasi/AI*; (3) *Definisi, Teorema, & Contoh Bukti Langkah demi Langkah*; (4) *Panduan Visualisasi Peramban Ringan*; (5) *Kotak Boundary Guardrail & Handoff*; (6) *Rangkuman Simbol & Hukum*; (7) *Soal Latihan Mandiri Berjenjang (10–14 Soal)*. |
+| Judul modul | *Matematika Diskrit dan Logika: dari Pembuktian Formal hingga Otomata Berhingga* |
+| Kode MK | `STI-204` |
+| Penulis | Tim Pengampu Rumpun Matematika & Sains Komputasi (Core STI) |
+| Penelaah | Koordinator RMK Matematika & Sains Komputasi; Unit Penjaminan Mutu FSTI |
+| Jenjang / Semester | S1 / Semester 2 |
+| Bobot | 3 SKS Teori (TM 150′ + PT 180′ + BM 180′ per pekan) |
+| Prasyarat | `STI-103` Arsitektur dan Organisasi Sistem Teknologi Informasi |
+| Target pembaca | Mahasiswa S1 SISTEKIN tahun pertama; dosen pengampu; asisten tutorial |
+| Estimasi tebal | 250–290 halaman A5 (atau 195–225 halaman A4) |
+| Bahasa | Indonesia, dengan istilah teknis Inggris dalam tanda kurung miring |
+| Bentuk | Buku modul cetak + e-modul (PDF interaktif dengan tautan simulator JFLAP dan visualisasi graf) |
+| Status ISBN | Dalam pengajuan Perpustakaan Nasional RI |
+| Edisi | Edisi 1 (2027) |
 
 ---
 
-## 2. PETA KESELARASAN 14 BAB MODUL TERHADAP PEKAN, CPMK, & SUB-CPMK
+## 2. DASAR DAN BATAS PENYUSUNAN
 
-| Bagian | Bab | Judul Bab Modul Pembelajaran | Pekan | CPMK | Sub-CPMK | Asesmen Terkait |
-|---|:---:|---|:---:|:---:|:---:|---|
-| **Bagian I:<br>Logika Formal, Inferensi, & Induksi** | **Bab 1** | Logika Proposisional, Tabel Kebenaran, & Hukum Ekuivalensi Aljabar Logika | Mg 1 | `CPMK-1` | `Sub-CPMK-1.1` | Tugas 1 (20%) |
-| | **Bab 2** | Aturan Inferensi Formal, Prinsip Resolusi, & Logika Predikat (*FOL*) | Mg 2 | `CPMK-1` | `Sub-CPMK-1.1, 1.2` | Tugas 1 (20%) |
-| | **Bab 3** | Metode Pembuktian, Induksi Matematika, & Verifikasi Kebenaran Algoritma | Mg 3 | `CPMK-1` | `Sub-CPMK-1.2` | **Tugas 1 (Mg 4)** |
-| **Bagian II:<br>Relasi, Poset, Aljabar Boolean, & Kombinatorika** | **Bab 4** | Himpunan, Relasi Ekuivalensi, *Poset*, Diagram Hasse, & Urutan Topologis | Mg 4 | `CPMK-2` | `Sub-CPMK-2.1` | UTS (30%) |
-| | **Bab 5** | Fungsi Diskrit (*Hashing*) & Aljabar Boolean Formal pada Logika Query | Mg 5 | `CPMK-2` | `Sub-CPMK-2.1, 2.2` | UTS (30%) |
-| | **Bab 6** | Kombinatorika Terapan: Pencacahan, *Pigeonhole*, Permutasi, & Kombinasi | Mg 6 | `CPMK-2` | `Sub-CPMK-2.2` | UTS (30%) |
-| | **Bab 7** | Pemodelan & Penyelesaian Relasi Rekurensi Linier Homogen | Mg 7 | `CPMK-2` | `Sub-CPMK-2.1, 2.2` | **UTS (Mg 8)** |
-| *Evaluasi I* | *Unit E1* | *Paket Latihan Pembuktian & Pemodelan Struktur Diskrit (Persiapan UTS)* | *Mg 8* | *`CPMK-2`* | *`2.1–2.2`* | *UTS (30%)* |
-| **Bagian III:<br>Teori Graf & Pohon untuk Optimasi Jaringan** | **Bab 8** | Dasar Teori Graf, Graf Khusus, Isomorfisme, & *Adjacency Matrix* | Mg 9 | `CPMK-3` | `Sub-CPMK-3.1` | Tugas 2 (20%) |
-| | **Bab 9** | Penelusuran Lintasan, Euler/Hamilton, & Algoritma *Shortest Path* | Mg 10 | `CPMK-3` | `Sub-CPMK-3.1` | Tugas 2 (20%) |
-| | **Bab 10** | Teori Pohon (*Tree*) & Optimasi Jaringan *Minimum Spanning Tree* (*MST*) | Mg 11 | `CPMK-3` | `Sub-CPMK-3.2` | Tugas 2 (20%) |
-| | **Bab 11** | Pewarnaan Graf (*Graph Coloring* Jadwal) & Pohon Kode Optimal *Huffman* | Mg 12 | `CPMK-3` | `Sub-CPMK-3.1, 3.2` | **Tugas 2 (Mg 12)** |
-| **Bagian IV:<br>Bahasa Formal & Otomata Berhingga (FSA)** | **Bab 12** | Bahasa Formal, Ekspresi Reguler Dasar, & Konstruksi DFA Pengenal Pola | Mg 13 | `CPMK-4` | `Sub-CPMK-4.1` | UAS (30%) |
-| | **Bab 13** | *Nondeterministic Finite Automata* (NFA/$\varepsilon$-NFA) & Konversi *Subset* | Mg 14 | `CPMK-4` | `Sub-CPMK-4.2` | UAS (30%) |
-| | **Bab 14** | Minimasi Status DFA & Pemodelan Transisi Status Sistem Komputasi | Mg 15 | `CPMK-4` | `Sub-CPMK-4.1, 4.2` | **UAS (Mg 16)** |
-| *Evaluasi II* | *Unit E2* | *Paket Studi Kasus Graf, Pohon, & Konstruksi Otomata (Persiapan UAS)* | *Mg 16* | *`CPMK-4`* | *`4.1–4.2` & Sintesis* | *UAS (30%)* |
+| Aspek | Ketentuan |
+|---|---|
+| Sumber capaian | CPMK-1 s.d. CPMK-4 dan Sub-CPMK-1.1 s.d. 4.2 dari Dokumen 043 |
+| Sumber materi | Pokok bahasan Tabel 9.C Dokumen 007 dan BoK `BK-IS10`, `BK-IS11` |
+| Batas isi (*in-scope*) | Logika proposisi, logika predikat, aljabar Boolean formal, teori himpunan, relasi dan fungsi diskrit, kombinatorika, teori graf, pohon (*tree*) |
+| Batas larangan (*out-of-scope*) | Perancangan gerbang fisik mikroprosesor (*hardware wiring*) → `STI-103`; pengodean struktur data dinamis dengan manajemen memori → `FST-203`/`STI-308`; analisis diferensial–integral → `STI-102` |
+| Titik serah terima | Struktur memori fisik & implementasi graf → `FST-203` / `STI-308`; rangkaian gerbang logika fisik → `STI-103`; kalkulus → `STI-102` |
 
 ---
 
-## 3. RINCIAN OUTLINE SUBSTANSI TIAP BAB
+## 3. CAPAIAN MODUL
 
-### BAGIAN I — LOGIKA FORMAL, INFERENSI, DAN INDUKSI (`CPMK-1`)
+Setelah menuntaskan modul ini, mahasiswa mampu:
 
-#### BAB 1: Logika Proposisional, Tabel Kebenaran, & Hukum Ekuivalensi Aljabar Logika (Pekan 1)
-* **Sub-CPMK:** `Sub-CPMK-1.1` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  1.1 Dari Sirkuit Biner (`STI-103`) Menuju Penalaran Simbolik Formal (`STI-204`)  
-  1.2 Proposisi Atomik dan Penghubung Logika (`¬, ∧, ∨, ⊕`)  
-  1.3 Implikasi ($p \to q$), Bikondisional ($p \leftrightarrow q$), serta Konvers, Invers, dan Kontraposisi dalam Spesifikasi Aturan Bisnis  
-  1.4 Tabel Kebenaran, Tautologi, Kontradiksi, dan Kontingensi  
-  1.5 Hukum-Hukum Aljabar Logika dan Pembuktian Ekuivalensi Simbolik Tanpa Tabel Kebenaran
-* **Guardrail Bab 1:** Tidak menggambar ulang rangkaian gerbang silikon/ALU yang sudah tuntas di `STI-103`.
-* **Latihan Bab 1:** 12 soal formalisasi kalimat persyaratan sistem dan pembuktian ekuivalensi aljabar logika.
-
-#### BAB 2: Aturan Inferensi Formal, Prinsip Resolusi, & Logika Predikat (*FOL*) (Pekan 2)
-* **Sub-CPMK:** `Sub-CPMK-1.1` & `Sub-CPMK-1.2` (C3/C4) · **Estimasi Halaman:** 16–18 hlm.
-* **Sub-Pokok Bahasan:**
-  2.1 Struktur Argumen Valid dan Aturan Inferensi (*Modus Ponens, Modus Tollens, Silogisme Hipotetis, Silogisme Disjungtif, Penjumlahan, Penyederhanaan*)  
-  2.2 Deteksi Sesat Pikir Logis (*Fallacies*: *Affirming the Conclusion* & *Denying the Hypothesis*)  
-  2.3 Bentuk Klausa dan Aturan Inferensi **Resolusi** sebagai Fondasi Penalaran Otomatis AI  
-  2.4 Logika Predikat Orde Pertama (*First-Order Logic*): Predikat, Domain Pembicaraan, Kuantor Universal ($\forall$), dan Kuantor Eksistensial ($\exists$)  
-  2.5 Kuantor Bersarang, Hukum De Morgan untuk Negasi Kuantor, serta Aturan Inferensi Berkuantor (*UI, UG, EI, EG*)
-* **Konteks Kasus TI:** Memverifikasi konsistensi aturan kebijakan kontrol akses berbasis peran (*Role-Based Access Control Policy*) dan mengantar konsep *Knowledge Base* untuk `STI-307 Sistem Cerdas`.
-* **Latihan Bab 2:** 12 soal bukti validitas argumen 2-kolom dan negasi kuantor bersarang.
-
-#### BAB 3: Metode Pembuktian, Induksi Matematika, & Verifikasi Kebenaran Algoritma (Pekan 3)
-* **Sub-CPMK:** `Sub-CPMK-1.2` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  3.1 Anatomi Teorema dan Teknik Pembuktian: Bukti Langsung, Bukti Kontraposisi, Bukti Kontradiksi, & Contoh Penyangkal (*Counterexample*)  
-  3.2 Prinsip Induksi Matematika Biasa (*Basis Step, Inductive Hypothesis, Inductive Step*) pada Rumus Deret & Ketaksamaan  
-  3.3 Induksi Matematika Kuat (*Strong Induction*) dan Prinsip Pengurutan Rapi (*Well-Ordering*)  
-  3.4 Definisi Rekursif dan Pembuktian Kebenaran Algoritma Iteratif (*Loop Invariant*) serta Rekursif Sederhana
-* **Latihan Bab 3 & Panduan Tugas 1:** 10 soal pembuktian induksi matematika dan verifikasi algoritma + panduan penyelesaian **RTM-1 (Tugas 1)**.
+1. **Membuktikan** validitas argumen inferensi logika proposisi/predikat dan kebenaran algoritma menggunakan tabel kebenaran, hukum aljabar logika, dan metode induksi matematika secara runtut dan valid (CPMK-1, C3).
+2. **Menerapkan** konsep relasi ekuivalensi, himpunan terurut parsial (Poset), aljabar Boolean, dan kombinatorika pada pemodelan struktur data dan logika *query* basis data secara tepat (CPMK-2, C3).
+3. **Menganalisis** struktur graf dan pohon menggunakan matriks representasi (*adjacency matrix*) dan algoritma penelusuran lintasan untuk optimasi jaringan data/komputer (CPMK-3, C4).
+4. **Mengonstruksi** model otomata berhingga (DFA dan NFA) untuk pengenalan pola bahasa formal dan transisi status sistem komputasi secara akurat (CPMK-4, C4).
 
 ---
 
-### BAGIAN II — RELASI, POSET, ALJABAR BOOLEAN, DAN KOMBINATORIKA (`CPMK-2`)
+## 4. PETA BAB ↔ SUB-CPMK ↔ PEKAN ↔ ASESMEN
 
-#### BAB 4: Himpunan, Relasi Ekuivalensi, *Poset*, Diagram Hasse, & Urutan Topologis (Pekan 4)
-* **Sub-CPMK:** `Sub-CPMK-2.1` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  4.1 Operasi Aljabar Himpunan, Himpunan Kuasa $\mathcal{P}(A)$, dan Perkalian Kartesian $A \times B$  
-  4.2 Relasi Biner, Representasi Matriks 0–1, serta Sifat Refleksif, Simetris, Antisimetris, dan Transitif  
-  4.3 Relasi Ekuivalensi, Kelas Ekuivalensi, dan Partisi Himpunan (Contoh: Kongruensi Modulo $m$)  
-  4.4 Himpunan Terurut Parsial (*Partially Ordered Set / Poset*) dan Konstruksi **Diagram Hasse**  
-  4.5 Elemen Maksimal/Minimal dan Algoritma *Topological Sorting* pada Penjadwalan Ketergantungan Tugas
-* **Konteks Kasus TI:** Pemodelan urutan kompilasi paket perangkat lunak (*dependency graph*) dan pengelompokan partisi rekaman duplikat.
-* **Latihan Bab 4:** 10 soal pemeriksaan sifat relasi, kelas ekuivalensi, dan konstruksi Diagram Hasse/*topological sort*.
+| Bab | Judul Bab | Sub-CPMK | Pekan | CPMK | Asesmen Terkait |
+|:--:|---|---|:--:|:--:|---|
+| 1 | Logika Proposisi dan Bahasa Pembuktian | 1.1 | 2 | CPMK-1 | **Tugas 1**, UTS |
+| 2 | Logika Predikat, Inferensi, dan Induksi Matematika | 1.2 | 3 | CPMK-1 | Tugas 1, UTS |
+| 3 | Himpunan, Relasi, dan Himpunan Terurut Parsial | 2.1 | 4 | CPMK-2 | **Tugas 1**, UTS |
+| 4 | Aljabar Boolean, Kombinatorika, dan Relasi Rekurensi | 2.2 | 5 | CPMK-2 | UTS, UAS |
+| 5 | Teori Graf dan Representasinya | 3.1 | 6 | CPMK-3 | UTS, Tugas 2 |
+| 6 | Pohon, Pohon Merentang Minimum, dan Lintasan Terpendek | 3.2 | 7 | CPMK-3 | UTS, Tugas 2, UAS |
+| 7 | Otomata Berhingga Deterministik (DFA) | 4.1 | 9 | CPMK-4 | Tugas 2, UAS |
+| 8 | Otomata Berhingga Non-deterministik (NFA) dan Konversinya | 4.2 | 10 | CPMK-4 | **Tugas 2**, UAS |
+| 9 | Pemodelan Diskrit Terpadu untuk Sistem Nyata | 4.3, 4.4 | 11–12 | CPMK-3, CPMK-4 | **Tugas 2**, UAS |
+| Lampiran A | Glosarium, Tabel Hukum Logika, dan Rumus Kombinatorika | — | — | — | — |
+| Lampiran B | Kumpulan Soal Pembuktian Terpandu dan Kunci | — | — | — | — |
 
-#### BAB 5: Fungsi Diskrit (*Hashing*) & Aljabar Boolean Formal pada Logika Query (Pekan 5)
-* **Sub-CPMK:** `Sub-CPMK-2.1` & `Sub-CPMK-2.2` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  5.1 Fungsi Diskrit, Sifat Injektif, Surjektif, Bijektif, Komposisi, dan Invers Fungsi  
-  5.2 Fungsi *Floor*, *Ceiling*, dan Prinsip Matematis Fungsi Pemetaan *Modulo Hashing*  
-  5.3 Struktur Aksiomatik Aljabar Boolean $(B, +, \cdot, ')$ dan Prinsip Dualitas  
-  5.4 Bentuk Normal Disjungtif (DNF / *Sum-of-Minterms*) dan Bentuk Normal Konjungtif (CNF / *Product-of-Maxterms*)  
-  5.5 Penerapan Hukum Aljabar Boolean untuk Menyederhanakan Ekspresi Predikat Seleksi Query Basis Data
-* **Guardrail Bab 5:** Fokus pada ekspresi logika relasional abstrak ($\sigma_{P_1 \wedge (P_2 \vee P_3)}$); koding sintaks SQL fisik diserahkan ke `FST-207 Sistem Basis Data`.
-* **Latihan Bab 5:** 10 soal analisis bijeksi/*hashing* dan penyederhanaan ekspresi predikat kueri kompleks.
-
-#### BAB 6: Kombinatorika Terapan: Pencacahan, *Pigeonhole*, Permutasi, & Kombinasi (Pekan 6)
-* **Sub-CPMK:** `Sub-CPMK-2.2` (C3) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  6.1 Kaidah Penjumlahan, Kaidah Perkalian, dan Pencacahan dengan Diagram Pohon Keputusan  
-  6.2 Prinsip Inklusi-Eksklusi (*Inclusion-Exclusion*) untuk Kardinalitas Gabungan Himpunan Data Beririsan  
-  6.3 Prinsip Sarang Merpati (*Pigeonhole Principle*) dan Bukti Matematis *Hash/Port Collision*  
-  6.4 Permutasi dan Kombinasi (Tanpa Pengulangan & Dengan Pengulangan) serta Teorema Binomial  
-  6.5 Aplikasi Kombinatorika pada Estimasi Ruang Kunci Keamanan dan Kombinasi Atribut/Indeks Query
-* **Latihan Bab 6:** 12 soal studi masalah kombinatorika sistem informasi.
-
-#### BAB 7: Pemodelan & Penyelesaian Relasi Rekurensi Linier Homogen (Pekan 7)
-* **Sub-CPMK:** `Sub-CPMK-2.1` & `Sub-CPMK-2.2` (C3) · **Estimasi Halaman:** 12–14 hlm.
-* **Sub-Pokok Bahasan:**
-  7.1 Memodelkan Proses Bertahap & Algoritma Rekursif dengan Relasi Rekurensi  
-  7.2 Penyelesaian Relasi Rekurensi dengan Substitusi Mundur (*Backward Substitution*)  
-  7.3 Relasi Rekurensi Linier Homogen Berkoefisien Konstan: Metode Persamaan Karakteristik (Akar Berbeda & Akar Kembar)  
-  7.4 Pengantar Relasi Rekurensi *Divide-and-Conquer* sebagai Jembatan menuju Analisis Kompleksitas di `FST-203`
-* **Latihan Bab 7 & Unit Evaluasi E1:** 10 soal pemodelan & penyelesaian relasi rekurensi + **Paket Simulasi Lengkap UTS (`CPMK-2`)**.
+**Total bab inti:** 9 bab. Setiap bab setara 1–2 pekan pertemuan (16 pekan termasuk UTS & UAS).
 
 ---
 
-### BAGIAN III — TEORI GRAF DAN POHON UNTUK OPTIMASI JARINGAN (`CPMK-3`)
+## 5. STRUKTUR BAKU SETIAP BAB
 
-#### BAB 8: Dasar Teori Graf, Graf Khusus, Isomorfisme, & *Adjacency Matrix* (Pekan 9)
-* **Sub-CPMK:** `Sub-CPMK-3.1` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  8.1 Model Graf Tak Berarah, Graf Berarah (*Digraph*), dan Graf Berbobot dalam Sistem Informasi  
-  8.2 Terminologi Derajat Simpul, Teorema Jabat Tangan, dan Kelas Graf Khusus (Lengkap $K_n$, Siklus $C_n$, Roda $W_n$, Hiperkubus $Q_n$)  
-  8.3 Graf Bipartit dan Pemodelan Masalah Penugasan / Rekomendasi Dua Sisi  
-  8.4 Representasi Matriks: **Adjacency Matrix**, **Incidence Matrix**, dan Makna Perpangkatan $A^k$ dalam Menghitung Lintasan  
-  8.5 Isomorfisme Graf dan Pengujian Invarian Struktural
-* **Guardrail Bab 8:** Tidak menulis kode *class/struct pointer* graf di bahasa pemrograman (`FST-203 Struktur Data dan Algoritma`).
-* **Latihan Bab 8:** 10 soal *Adjacency Matrix*, perpangkatan matriks lintasan, dan uji isomorfisme.
+Setiap bab wajib memuat tujuh komponen berikut, dengan urutan tetap:
 
-#### BAB 9: Penelusuran Lintasan, Euler/Hamilton, & Algoritma *Shortest Path* (Pekan 10)
-* **Sub-CPMK:** `Sub-CPMK-3.1` (C4) · **Estimasi Halaman:** 16–18 hlm.
-* **Sub-Pokok Bahasan:**
-  9.1 Jalan (*Walk*), Jejak (*Trail*), Lintasan (*Path*), Sirkuit, dan Komponen Terhubung / Terhubung Kuat  
-  9.2 Penelusuran Sistematis *Breadth-First Search* (BFS) dan *Depth-First Search* (DFS) secara Matematis  
-  9.3 Lintasan & Sirkuit Euler (Teorema Derajat Genap) vs Lintasan & Sirkuit Hamilton (*Traveling Salesperson Problem* Pengantar)  
-  9.4 Algoritma **Dijkstra** untuk Lintasan Terpendek dari Satu Sumber (*Single-Source Shortest Path*)  
-  9.5 Algoritma **Floyd-Warshall** Berbasis Matriks untuk Lintasan Terpendek Semua Pasangan Simpul
-* **Konteks Kasus TI:** Penentuan jalur pengiriman paket data berlatensi total minimum pada topologi jaringan *backbone* antar-pusat data.
-* **Latihan Bab 9:** 10 soal analisis Euler/Hamilton dan penelusuran tabel *Dijkstra* & *Floyd-Warshall*.
+| No | Komponen | Isi Wajib | Estimasi |
+|:--:|---|---|:--:|
+| 1 | **Peta Kompetensi** | Sub-CPMK yang dibina, CPMK induk, indikator kinerja | 0,5 hlm |
+| 2 | **Uraian Materi** | 3–6 sub-bab, masing-masing dengan definisi formal, contoh, dan **jebakan pembuktian** | 12–20 hlm |
+| 3 | **Sorotan Kasus (Case Spotlight)** | Satu penerapan komputasi nyata + pertanyaan analitis | 1,5 hlm |
+| 4 | **Rangkuman** | 5–8 butir kunci dalam bentuk poin bernomor | 0,5 hlm |
+| 5 | **Latihan Terbimbing** | 8–12 soal bertingkat (C2–C4) dengan petunjuk pengerjaan | 1,5 hlm |
+| 6 | **Tes Formatif Mandiri** | 10 soal pilihan ganda + 3 esai pendek, kunci di lampiran daring | 2 hlm |
+| 7 | **Rujukan Bab** | 3–6 sitasi IEEE, sinkron dengan daftar pustaka RPS | 0,3 hlm |
 
-#### BAB 10: Teori Pohon (*Tree*) & Optimasi Jaringan *Minimum Spanning Tree* (*MST*) (Pekan 11)
-* **Sub-CPMK:** `Sub-CPMK-3.2` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  10.1 Definisi dan Karakterisasi Matematis Pohon ($n$ Simpul, $n-1$ Sisi, Jalur Tunggal Unik)  
-  10.2 Pohon Berakar, Pohon $m$-ary & Biner, serta Tinggi dan Batas Jumlah Daun  
-  10.3 Penelusuran Pohon (*Preorder, Inorder, Postorder*) dan Evaluasi Pohon Ekspresi Notasi Polandia  
-  10.4 Pohon Merentang (*Spanning Tree*) dan Pohon Merentang Minimum (*Minimum Spanning Tree / MST*)  
-  10.5 Analisis & Penelusuran **Algoritma Kruskal** dan **Algoritma Prim** pada Perancangan Infrastruktur Jaringan
-* **Latihan Bab 10:** 10 soal sifat pohon biner, pohon ekspresi, dan konstruksi *MST Kruskal/Prim*.
-
-#### BAB 11: Pewarnaan Graf (*Graph Coloring* Jadwal) & Pohon Kode Optimal *Huffman* (Pekan 12)
-* **Sub-CPMK:** `Sub-CPMK-3.1` & `Sub-CPMK-3.2` (C4) · **Estimasi Halaman:** 12–14 hlm.
-* **Sub-Pokok Bahasan:**
-  11.1 Graf Planar, Rumus Euler $v - e + r = 2$, dan Pengantar Teorema Empat Warna  
-  11.2 Pewarnaan Simpul Graf, Bilangan Kromatik $\chi(G)$, dan Algoritma Heuristik *Welsh-Powell*  
-  11.3 Studi Kasus Pemodelan Penjadwalan Ujian / Pemeliharaan Server Bebas Konflik dengan Pewarnaan Graf  
-  11.4 Kode Prefiks (*Prefix Codes*) dan Konstruksi Pohon Biner Optimal **Huffman** untuk Kompresi Data
-* **Latihan Bab 11 & Panduan Tugas 2:** 10 soal pewarnaan graf jadwal & konstruksi kode *Huffman* + panduan finalisasi **RTM-2 (Tugas 2)**.
+**Kekhususan modul ini:** setiap bab yang memuat pembuktian wajib menyertakan kotak **"Struktur Pembuktian Baku"** (asumsi → yang akan dibuktikan → langkah → kesimpulan) agar mahasiswa tidak menulis pembuktian tanpa kerangka.
 
 ---
 
-### BAGIAN IV — BAHASA FORMAL DAN OTOMATA BERHINGGA (`CPMK-4`)
+## 6. OUTLINE RINCI PER BAB
 
-#### BAB 12: Bahasa Formal, Ekspresi Reguler Dasar, & Konstruksi DFA Pengenal Pola (Pekan 13)
-* **Sub-CPMK:** `Sub-CPMK-4.1` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  12.1 Alfabet ($\Sigma$), String ($w$), Konkatenasi, Kleene Closure ($\Sigma^*$), dan Bahasa Formal ($L$)  
-  12.2 Pengantar Ekspresi Reguler (*Regular Expressions*) dalam Pencocokan Pola Teks  
-  12.3 Definisi Formal 5-Tupel *Deterministic Finite Automata* (DFA) $M = (Q, \Sigma, \delta, q_0, F)$  
-  12.4 Representasi Diagram Transisi Status, Tabel Transisi, dan Fungsi Transisi Diperluas $\hat{\delta}(q_0, w)$  
-  12.5 Teknik Perancangan DFA: Pelacakan Sisa Modulo, Pencocokan Substring, dan Penanganan *Dead/Trap State*
-* **Latihan Bab 12:** 10 soal konstruksi 5-tupel DFA pengenal pola kode dan token sistem.
+### BAB 1 — Logika Proposisi dan Bahasa Pembuktian
+**Sub-CPMK:** 1.1 | **Pekan:** 2 | **Estimasi:** 26 halaman
 
-#### BAB 13: *Nondeterministic Finite Automata* (NFA/$\varepsilon$-NFA) & Konversi *Subset* (Pekan 14)
-* **Sub-CPMK:** `Sub-CPMK-4.2` (C4) · **Estimasi Halaman:** 16–18 hlm.
-* **Sub-Pokok Bahasan:**
-  13.1 Konsep Nondeterminisme pada Otomata dan Perbedaannya dengan DFA  
-  13.2 Definisi Formal NFA ($\delta: Q \times \Sigma \to \mathcal{P}(Q)$) dan Kriteria Penerimaan String  
-  13.3 Otomata dengan Transisi Spontan ($\varepsilon$-NFA) dan Prosedur Perhitungan Himpunan $\varepsilon\text{-Closure}(q)$  
-  13.4 Teorema Ekuivalensi Bahasa Reguler: Membuktikan Setiap NFA Memiliki Padanan DFA  
-  13.5 Prosedur Sistematis **Subset Construction** (*Lazy Reachable States Evaluation*) untuk Mengonversi NFA / $\varepsilon$-NFA menjadi DFA
-* **Latihan Bab 13:** 10 soal perancangan NFA/$\varepsilon$-NFA dan tabel konversi lengkap ke DFA.
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 1.1 | Proposisi, nilai kebenaran, dan variabel proposisional |
+| 1.2 | Konektif logika: negasi, konjungsi, disjungsi, XOR, implikasi, bikondisional |
+| 1.3 | Konstruksi tabel kebenaran dan prioritas operator |
+| 1.4 | Tautologi, kontradiksi, dan kontingensi |
+| 1.5 | Hukum-hukum aljabar logika (identitas, dominasi, idempoten, negasi ganda, komutatif, asosiatif, distributif, De Morgan, absorpsi) |
+| 1.6 | Ekuivalensi logis dan pembuktian deret ekuivalensi tanpa tabel kebenaran |
+| 1.7 | Bentuk normal disjungtif/konjungtif dan keterkaitannya dengan rangkaian logika (level konseptual) |
+| 1.8 | Kesalahan umum: menyamakan implikasi dengan konvers, salah menerapkan De Morgan |
 
-#### BAB 14: Minimasi Status DFA & Pemodelan Transisi Status Sistem Komputasi (Pekan 15)
-* **Sub-CPMK:** `Sub-CPMK-4.1` & `Sub-CPMK-4.2` (C4) · **Estimasi Halaman:** 14–16 hlm.
-* **Sub-Pokok Bahasan:**
-  14.1 Mengapa Jumlah Status Otomata Perlu Diminimalkan? Penghapusan *Unreachable States*  
-  14.2 Status Tak Terbedakan (*Indistinguishable States*) dan Algoritma Partisi Ekuivalensi / *Table-Filling* untuk Minimasi DFA  
-  14.3 Pemodelan Proses Bisnis & Protokol Perangkat Lunak sebagai *Finite State Machine* (Siklus Pesanan *E-Commerce*, Pembayaran *Escrow*, & Sesi Otentikasi)  
-  14.4 Audit Kelengkapan Transisi & Pencegahan *Unintended Deadlock State* pada Desain Sistem Informasi  
-  14.5 Peta Kesinambungan *Handoff* `STI-204` menuju `STI-307 Sistem Cerdas` dan `STI-306 Analisis dan Perancangan Sistem Informasi`
-* **Latihan Bab 14 & Unit Evaluasi E2:** 8 soal minimasi DFA dan pemodelan *state machine* transaksi digital + **Paket Simulasi Lengkap UAS (`CPMK-4` & Sintesis)**.
+**Kegiatan belajar:** latihan tabel kebenaran (PT 120′), pembuktian ekuivalensi (PT 90′), diskusi keterkaitan dengan rangkaian (TM 35′).
+**Tes formatif:** 6 tabel kebenaran + 4 pembuktian ekuivalensi dengan hukum logika.
+
+---
+
+### BAB 2 — Logika Predikat, Inferensi, dan Induksi Matematika
+**Sub-CPMK:** 1.2 | **Pekan:** 3 | **Estimasi:** 30 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 2.1 | Predikat, domain, dan fungsi proposisional |
+| 2.2 | Kuantor universal dan eksistensial; kuantor bersarang |
+| 2.3 | Negasi pernyataan berkuantor dan translasi bahasa alami |
+| 2.4 | Aturan inferensi: modus ponens, modus tollens, silogisme hipotetis, silogisme disjungtif, konjungsi, adisi, resolusi |
+| 2.5 | Kesalahan penalaran (*fallacy*): *affirming the consequent*, *denying the antecedent* |
+| 2.6 | Induksi matematika biasa: basis, hipotesis, langkah |
+| 2.7 | Induksi kuat dan penerapannya pada relasi rekurensi |
+| 2.8 | Verifikasi kebenaran algoritma: invarian *loop* dan terminasi |
+| 2.9 | Kesalahan umum: melompat dari $n=k$ ke $n=k+2$, menggunakan kesimpulan sebagai premis |
+
+**Kegiatan belajar:** latihan translasi & inferensi (PT 120′), pembuktian induksi bertingkat (PT 120′), diskusi invarian *loop* (TM 30′).
+**Tes formatif:** 4 translasi berkuantor + 3 pembuktian induksi lengkap.
+
+---
+
+### BAB 3 — Himpunan, Relasi, dan Himpunan Terurut Parsial
+**Sub-CPMK:** 2.1 | **Pekan:** 4 | **Estimasi:** 32 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 3.1 | Himpunan, notasi pembentuk himpunan, himpunan semesta, himpunan kuasa |
+| 3.2 | Operasi himpunan: gabungan, irisan, komplemen, selisih, beda simetris |
+| 3.3 | Hukum aljabar himpunan dan pembuktian identitas himpunan |
+| 3.4 | Produk kartesius dan relasi biner |
+| 3.5 | Sifat relasi: refleksif, irefleksif, simetris, antisimetris, transitif |
+| 3.6 | Relasi ekuivalensi, kelas ekuivalensi, dan partisi |
+| 3.7 | Relasi terurut parsial (Poset) dan diagram Hasse |
+| 3.8 | Elemen maksimal, minimal, terbesar, terkecil, batas atas/bawah, *lattice* |
+| 3.9 | Penerapan: pemodelan keterkaitan tabel basis data dan dependensi fungsional |
+
+**Kegiatan belajar:** latihan uji sifat relasi (PT 150′), penyusunan diagram Hasse (PT 90′), persiapan Tugas 1 (TM 35′).
+**Tes formatif:** 3 relasi diuji lengkap + 2 diagram Hasse.
+
+---
+
+### BAB 4 — Aljabar Boolean, Kombinatorika, dan Relasi Rekurensi
+**Sub-CPMK:** 2.2 | **Pekan:** 5 | **Estimasi:** 32 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 4.1 | Fungsi Boolean dan representasinya dalam tabel kebenaran |
+| 4.2 | Bentuk normal disjungtif (SOP) dan konjungtif (POS) |
+| 4.3 | Penyederhanaan fungsi Boolean secara aljabar |
+| 4.4 | Kaidah penjumlahan dan perkalian dalam pencacahan |
+| 4.5 | Permutasi dan kombinasi dengan/tanpa pengulangan |
+| 4.6 | Prinsip pigeonhole dan penerapannya pada analisis tabrakan *hash* |
+| 4.7 | Prinsip inklusi–eksklusi |
+| 4.8 | Relasi rekurensi linier homogen dan metode akar karakteristik |
+| 4.9 | Penerapan: analisis jumlah kemungkinan *password*/token dan kompleksitas pencarian |
+
+**Kegiatan belajar:** latihan pencacahan bertingkat (PT 150′), penyelesaian rekurensi (PT 90′), diskusi penerapan *hash* (TM 30′).
+**Tes formatif:** 6 soal kombinatorika + 2 penyelesaian rekurensi.
+
+---
+
+### BAB 5 — Teori Graf dan Representasinya
+**Sub-CPMK:** 3.1 | **Pekan:** 6 | **Estimasi:** 30 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 5.1 | Definisi graf, simpul, sisi, *loop*, sisi ganda; graf sederhana, multigraf, pseudograf |
+| 5.2 | Derajat simpul dan *handshaking lemma* |
+| 5.3 | Lintasan, siklus, keterhubungan, dan komponen terhubung |
+| 5.4 | Isomorfisme graf dan uji isomorfisme sederhana |
+| 5.5 | Graf bipartit dan uji bipartit dengan pewarnaan dua warna |
+| 5.6 | Representasi: *adjacency matrix*, *adjacency list*, *incidence matrix* |
+| 5.7 | Penelusuran Breadth-First Search (BFS) dan Depth-First Search (DFS) |
+| 5.8 | Kompleksitas dan pemilihan representasi berdasarkan kepadatan graf |
+| 5.9 | Kesalahan umum: menganggap graf berarah sama dengan tak berarah pada matriks ketetanggaan |
+
+**Kegiatan belajar:** penelusuran manual BFS/DFS (PT 150′), latihan representasi matrix–list (PT 90′), visualisasi graf (TM 35′).
+**Tes formatif:** 3 penelusuran BFS/DFS + 2 konversi representasi.
+
+---
+
+### BAB 6 — Pohon, Pohon Merentang Minimum, dan Lintasan Terpendek
+**Sub-CPMK:** 3.2 | **Pekan:** 7 | **Estimasi:** 32 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 6.1 | Definisi pohon dan sifat ekuivalennya (terhubung, asiklik, $n-1$ sisi) |
+| 6.2 | Pohon berakar, pohon-$m$, pohon biner, dan traversal |
+| 6.3 | Pohon merentang (*spanning tree*) |
+| 6.4 | *Minimum Spanning Tree*: algoritma Kruskal dan struktur *union-find* |
+| 6.5 | *Minimum Spanning Tree*: algoritma Prim dan pemilihan struktur data |
+| 6.6 | Lintasan dan sirkuit Euler (teorema Euler) |
+| 6.7 | Sirkuit Hamilton dan kompleksitas pencariannya |
+| 6.8 | Algoritma Dijkstra untuk lintasan terpendek satu sumber |
+| 6.9 | Algoritma Floyd–Warshall untuk semua pasangan |
+| 6.10 | Perbandingan kompleksitas dan pemilihan algoritma berdasarkan kasus |
+
+**Kegiatan belajar:** penelusuran Kruskal/Prim manual (PT 150′), latihan Dijkstra/Floyd–Warshall (PT 120′), studi kasus topologi jaringan (TM 30′).
+**Tes formatif:** 1 MST lengkap + 2 lintasan terpendek dengan jejak tabel.
+
+---
+
+### BAB 7 — Otomata Berhingga Deterministik (DFA)
+**Sub-CPMK:** 4.1 | **Pekan:** 9 | **Estimasi:** 26 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 7.1 | Alfabet, string, panjang string, operasi konkatenasi dan *Kleene star* |
+| 7.2 | Bahasa sebagai himpunan string dan operasi bahasa |
+| 7.3 | Definisi formal DFA $M=(Q,\Sigma,\delta,q_0,F)$ |
+| 7.4 | Tabel transisi dan diagram status |
+| 7.5 | Fungsi transisi diperluas $\hat{\delta}$ dan penerimaan string |
+| 7.6 | Konstruksi DFA dari deskripsi bahasa (paritas, substring, prefiks/sufiks) |
+| 7.7 | Pembuktian kebenaran DFA melalui invarian status |
+| 7.8 | Kesalahan umum: status akhir tidak ditandai, transisi tidak lengkap untuk seluruh $\Sigma$ |
+
+**Kegiatan belajar:** konstruksi DFA bertingkat (PT 150′), uji string manual (PT 90′), simulasi JFLAP (TM 30′).
+**Tes formatif:** 3 konstruksi DFA + uji 5 string per otomata.
+
+---
+
+### BAB 8 — Otomata Berhingga Non-deterministik (NFA) dan Konversinya
+**Sub-CPMK:** 4.2 | **Pekan:** 10 | **Estimasi:** 28 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 8.1 | Definisi formal NFA dan perbedaan dengan DFA |
+| 8.2 | Transisi non-deterministik dan ε-transisi |
+| 8.3 | ε-closure dan perhitungannya |
+| 8.4 | Ekuivalensi NFA dan DFA |
+| 8.5 | Algoritma *subset construction* langkah demi langkah |
+| 8.6 | Ledakan jumlah status dan reduksi DFA |
+| 8.7 | Pengantar ekspresi reguler dan hubungannya dengan otomata berhingga |
+| 8.8 | Penerapan: validasi format masukan, pemindai leksikal sederhana, transisi status protokol |
+| 8.9 | Kesalahan umum: lupa memasukkan ε-closure pada setiap langkah konversi |
+
+**Kegiatan belajar:** latihan ε-closure (PT 90′), konversi subset construction (PT 150′), simulasi JFLAP (TM 30′).
+**Tes formatif:** 1 konversi lengkap NFA→DFA + analisis jumlah status.
+
+---
+
+### BAB 9 — Pemodelan Diskrit Terpadu untuk Sistem Nyata
+**Sub-CPMK:** 4.3, 4.4 | **Pekan:** 11–12 | **Estimasi:** 28 halaman
+
+| Sub-bab | Pokok Bahasan |
+|---|---|
+| 9.1 | Kerangka pemodelan: identifikasi entitas → relasi → struktur → algoritma |
+| 9.2 | Kasus A: perencanaan topologi jaringan (graf berbobot, MST, Dijkstra) |
+| 9.3 | Kasus B: penjadwalan dan alokasi sumber daya (pewarnaan graf) |
+| 9.4 | Kasus C: validasi masukan sistem (DFA/NFA) |
+| 9.5 | Kasus D: analisis dependensi basis data (relasi ekuivalensi, Poset) |
+| 9.6 | Analisis kompleksitas dan pemilihan algoritma |
+| 9.7 | Penyusunan laporan teknis berbasis bukti |
+| 9.8 | Presentasi dan pertahanan model |
+
+**Kegiatan belajar:** penyusunan formalisasi (TM 40′), verifikasi manual (PT 120′), penyusunan laporan proyek (PT 180′).
+**Tes formatif:** 3 soal pemodelan terbuka dengan justifikasi algoritma.
+
+---
+
+### LAMPIRAN A — Glosarium, Tabel Hukum Logika, dan Rumus Kombinatorika
+**Estimasi:** 14 halaman. Memuat ≥ 80 entri istilah (proposisi, kuantor, tautologi, Poset, pigeonhole, MST, DFA, ε-closure, dan lain-lain) beserta padanan Inggris; tabel lengkap hukum aljabar logika dan hukum himpunan; tabel rumus permutasi–kombinasi; tabel kompleksitas algoritma graf.
+
+### LAMPIRAN B — Kumpulan Soal Pembuktian Terpandu dan Kunci
+**Estimasi:** 30 halaman. Memuat 60 soal bertingkat (C2–C4) lengkap dengan petunjuk dan kerangka pembuktian, serta 4 paket latihan UTS/UAS mandiri dengan kunci ringkas.
+
+---
+
+## 7. SPESIFIKASI TEKNIS PENULISAN
+
+| Aspek | Ketentuan |
+|---|---|
+| Ukuran halaman | A5 (148 × 210 mm), margin 2 cm |
+| Tipografi | Body 10,5 pt *serif* (Times New Roman / Book Antiqua); judul sans-serif; spasi 1,15 |
+| Tata letak | Satu kolom untuk pembuktian dan diagram; dua kolom untuk uraian naratif |
+| Notasi | Simbol logika baku ($\land$, $\lor$, $\lnot$, $\to$, $\leftrightarrow$, $\forall$, $\exists$); himpunan dengan kurung kurawal; graf $G=(V,E)$; otomata $M=(Q,\Sigma,\delta,q_0,F)$ |
+| Diagram | Digambar vektor (SVG); diagram Hasse, graf berlabel bobot, dan diagram status otomata wajib konsisten gayanya |
+| Sitasi | IEEE *numbered*, konsisten dengan daftar pustaka RPS |
+| Istilah asing | Ditulis miring pada kemunculan pertama, disertai padanan Indonesia |
+| Warna | Aksen biru tua untuk kotak definisi; hijau untuk kotak "Struktur Pembuktian Baku"; abu untuk kotak galat umum |
+| Aksesibilitas | Kontras teks ≥ 4,5:1; diagram memiliki teks alternatif; simbol logika diberi penjelasan verbal |
+
+---
+
+## 8. RENCANA PRODUKSI DAN KENDALI MUTU
+
+| Tahap | Aktivitas | Keluaran | Penanggung Jawab | Durasi |
+|:--:|---|---|---|---|
+| P1 | Finalisasi outline & alokasi penulis per bab | Dokumen outline ini | Koordinator RMK | 1 pekan |
+| P2 | Penulisan draf bab 1–5 | Draf 55% | Tim penulis | 8 pekan |
+| P3 | Penulisan draf bab 6–9 + lampiran | Draf 100% | Tim penulis | 6 pekan |
+| P4 | Verifikasi matematis (cek ulang setiap pembuktian & kunci) | Lembar verifikasi | Dua penelaah internal | 3 pekan |
+| P5 | Uji simulator (semua DFA/NFA di bab 7–9 dijalankan di JFLAP) | Laporan uji simulator | Asisten laboratorium | 2 pekan |
+| P6 | Telaah sejawat & uji keterbacaan mahasiswa | Laporan telaah + uji 20 responden | Tim penulis | 2 pekan |
+| P7 | Penyuntingan bahasa & tata letak | Naskah siap cetak | Penyunting | 2 pekan |
+| P8 | Pengajuan ISBN & pencetakan terbatas | ISBN + 50 eksemplar | Prodi & perpustakaan | 3 pekan |
+
+### Checklist mutu sebelum cetak
+
+- [ ] Seluruh Sub-CPMK RPS memiliki bab/sub-bab pembina yang eksplisit.
+- [ ] Tidak ada materi yang masuk kategori *out-of-scope* Dokumen 043 (tidak ada *wiring* gerbang fisik, tidak ada kode struktur data bermemori dinamis, tidak ada kalkulus).
+- [ ] Setiap pembuktian induksi memiliki basis, hipotesis, dan langkah yang terverifikasi.
+- [ ] Seluruh diagram Hasse, graf berbobot, dan diagram status otomata telah diperiksa ulang.
+- [ ] Setiap DFA/NFA di modul dapat dijalankan di JFLAP tanpa galat.
+- [ ] Seluruh kunci jawaban di lampiran B terverifikasi.
+- [ ] Setiap bab memiliki peta kompetensi, kasus, rangkuman, latihan, dan tes formatif.
+- [ ] Seluruh sitasi IEEE valid dan dapat ditelusuri; tidak ada rujukan fiktif.
+- [ ] Notasi konsisten lintas bab (mis. selalu $\lnot$ untuk negasi, bukan tanda minus).
+- [ ] Uji keterbacaan: ≥ 80% responden menilai materi mudah diikuti.
+
+---
+
+## 9. KETERKAITAN DENGAN DOKUMEN LAIN
+
+| Dokumen | Keterkaitan |
+|---|---|
+| `058_1_RPS_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md` | Sumber capaian, materi, dan titik asesmen |
+| `058_2_SAP_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md` | Sumber alokasi waktu dan urutan kegiatan per pekan |
+| `058_4_RENCANA_EVALUASI_ASESMEN_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md` | Sumber bobot dan jadwal evaluasi |
+| `058_5_RUBRIK_PENILAIAN_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md` | Sumber kriteria penilaian latihan dan tes formatif |
+| Dokumen 043 | Batas isi (*in-scope*, *out-of-scope*, *handoff anchor*) |
+| Dokumen 037 | Demarkasi silabus antar-MK |
+
+---
+
+*Outline ini merupakan rancangan kerja penulisan modul; perubahan judul bab wajib melalui persetujuan Koordinator RMK dan dicatat dalam riwayat revisi.*

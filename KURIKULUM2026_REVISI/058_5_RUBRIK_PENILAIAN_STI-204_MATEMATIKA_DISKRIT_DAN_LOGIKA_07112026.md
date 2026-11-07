@@ -1,133 +1,302 @@
-# 058_5 — RUBRIK PENILAIAN PEMBELAJARAN BERBASIS OBE
-## STI-204 — MATEMATIKA DISKRIT DAN LOGIKA (*Discrete Mathematics and Logic*)
+# RUBRIK PENILAIAN
+## STI-204 — MATEMATIKA DISKRIT DAN LOGIKA
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 2 — Tahap Fondasi Lanjut)  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI204`  
-**Klaster Rubrik Master (Dok 018):** Klaster 1 (`K-1`) — Sains Dasar & Teori Formal  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan:** Panduan KPT 2024 Dikti (Tabel 18, 19, 20) · Dok 008 §4 · Dok 018 §3 · Dok 033 · `058_1_RPS_STI-204_...md` · `058_4_RENCANA_EVALUASI_ASESMEN_STI-204_...md`.
+> **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang
+> **Dokumen induk:** `058_1_RPS_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md` dan `058_4_RENCANA_EVALUASI_ASESMEN_STI-204_MATEMATIKA_DISKRIT_DAN_LOGIKA_07112026.md`
+> **Rujukan rubrik master:** Dokumen 008 (Rubrik 1–3) dan Dokumen 018 (4 klaster rubrik)
+> **Tanggal:** 07 November 2026
 
 ---
 
-## BAGIAN I — PEDOMAN KALIBRASI RUBRIK KLASTER TEORI FORMAL (`K-1`)
+## 1. PRINSIP DAN CAKUPAN
 
-Sesuai **Dokumen 018 §3**, penilaian pada `STI-204 Matematika Diskrit dan Logika` menilai ketajaman penalaran deduktif dan ketepatan pemodelan struktur diskrit melalui tiga pilar utama: **(1) Ketepatan Formalisasi Simbolik & Definisi Struktur**, **(2) Keabsahan Alur Pembuktian / Penelusuran Tabel Algoritmis**, serta **(3) Kelengkapan & Presisi Solusi Akhir**.
+| Aspek | Ketentuan |
+|---|---|
+| Jenis rubrik | **Analitik** untuk seluruh asesmen sumatif (kriteria terpisah, skor teragregasi) |
+| Jumlah level | 4 level: Sangat Baik (4), Baik (3), Cukup (2), Kurang (1) |
+| Skala skor | 0–100 per dimensi |
+| Transparansi | Rubrik dibagikan sebelum asesmen dilaksanakan |
+| Konsistensi | Digunakan sama pada seluruh kelas paralel |
+| Fokus | Penilaian **proses penalaran formal**, bukan hanya kesimpulan |
 
----
+**Daftar rubrik dalam dokumen ini:**
 
-## BAGIAN II — RUBRIK ANALITIK 4 TITIK EVALUASI SUMATIF
-
-### 2.1 Rubrik Analitik Tugas 1 (Pekan 4 — Bobot 20% MK · Mengukur `CPMK-1`: `Sub-CPMK-1.1` & `1.2`)
-**Objek Penilaian:** *Proof Set* Mandiri 4 Masalah: Ekuivalensi Aljabar Logika, Bukti Validitas Inferensi & Resolusi, *First-Order Logic*, dan Induksi Matematika Algoritma (+ Verifikasi Kelas).
-
-| Dimensi Kriteria (`K-1`) | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Ketepatan Formalisasi Simbolik Proposisi & Kuantor *FOL***<br>(`Sub-CPMK-1.1 & 1.2`) | **30%** | Seluruh kalimat aturan bisnis diterjemahkan presisi ke proposisi dan kuantor bersarang ($\forall, \exists$) dengan definisi domain jelas; negasi kuantor De Morgan akurat 100%. | Translasi proposisi dan predikat tepat; hanya terdapat ketidaklengkapan minor pada penulisan domain salah satu variabel. | Translasi proposisi benar, namun sempat tertukar urutan atau operator ($\wedge$ vs $\to$) di bawah kuantor eksistensial/universal pada 1 sub-soal. | Sering salah menerjemahkan arah implikasi ("hanya jika") dan gagal menegasikan kuantor bersarang dengan benar. | Tidak mampu memformulasikan pernyataan ke notasi logika simbolik. |
-| **2. Keabsahan Alur Hukum Aljabar Logika & Aturan Inferensi**<br>(`Sub-CPMK-1.1 & 1.2`) | **35%** | Setiap langkah transformasi ekuivalensi dan bukti 2-kolom mencantumkan nama hukum/aturan inferensi (*Modus Ponens/Tollens, Resolusi*, dll.) secara eksplisit, sah, dan bebas lompatan logika. | Alur deduksi sah dari premis hingga kesimpulan; hanya 1–2 baris yang nama hukumnya disingkat atau digabung dua langkah sekaligus. | Mencapai kesimpulan dengan alur yang secara garis besar benar, namun beberapa baris tidak mencantumkan alasan hukum logika yang sah. | Terjebak sesat pikir (*fallacy*) atau mencampuradukkan hukum ekuivalensi dengan aturan inferensi satu arah. | Bukti tidak nyambung antar-baris atau hanya menuliskan tabel kebenaran raksasa ketika diminta bukti aljabar. |
-| **3. Struktur & Ketelitian Pembuktian Induksi Matematika**<br>(`Sub-CPMK-1.2`) | **35%** | Langkah Basis, Hipotesis Induksi (untuk suatu $k \ge n_0$), dan Langkah Induktif ditulis terpisah dengan jernih, menggunakan hipotesis induksi secara sah untuk memverifikasi rumus/invarian algoritma, serta konsisten saat kuis verifikasi. | Ketiga tahapan induksi lengkap dan deduksi aljabarnya benar; penjelasan kesimpulan terminasi invarian algoritma sedikit ringkas. | Menuliskan Basis dan Langkah Induktif dengan cukup benar, namun penulisan kalimat Hipotesis Induksi kurang presisi (mis. menulis "asumsikan benar untuk semua $k$"). | Melakukan penalaran melingkar (*circular reasoning*: mengasumsikan $P(k+1)$ benar sejak awal pembuktian) atau gagal menguasai langkah dasar saat kuis kelas. | Bagian induksi matematika salah total atau tidak dikerjakan. |
-
-$$\text{Skor Tugas 1} = 0,30(K_1) + 0,35(K_2) + 0,35(K_3)$$
-
----
-
-### 2.2 Rubrik Analitik Ujian Tengah Semester / UTS (Pekan 8 — Bobot 30% MK · Mengukur `CPMK-2`: `Sub-CPMK-2.1` & `2.2`)
-**Objek Penilaian:** Jawaban Ujian Tertulis 150 Menit: Relasi Ekuivalensi, *Poset* & Diagram Hasse, Aljabar Boolean Query, Kombinatorika, dan Relasi Rekurensi.
-
-| Dimensi Kriteria (`K-1`) | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Pemodelan Relasi Ekuivalensi, *Poset*, & Diagram Hasse**<br>(Soal 1 — `Sub-CPMK-2.1`) | **30%** | Akurat menguji sifat refleksif/simetris/antisimetris/transitif, menggambar Diagram Hasse bersih tanpa garis refleksif/transitif redundan, serta menghasilkan urutan *topological sort* yang valid. | Pengujian sifat relasi dan urutan *topological sort* tepat; Diagram Hasse benar dengan 1 busur transitif lupa dihapus. | Memahami perbedaan relasi ekuivalensi vs *Poset*, namun salah menentukan salah satu elemen minimal/maksimal pada Diagram Hasse. | Menggambar graf berarah mentah lengkap dengan *self-loop* sebagai Diagram Hasse atau tertukar sifat simetris dengan antisimetris. | Gagal menguji sifat relasi maupun mengonstruksi *Poset*. |
-| **2. Manipulasi Aljabar Boolean pada Predikat Query & Fungsi Diskrit**<br>(Soal 2 — `Sub-CPMK-2.2 & 2.1`) | **25%** | Menyederhanakan kondisi predikat kueri menjadi bentuk paling minimal menggunakan hukum Aljabar Boolean secara sah dan tepat menganalisis sifat injektif/surjektif fungsi *hash*. | Penyederhanaan predikat Boolean benar dan efisien; analisis sifat fungsi diskrit tepat dengan penjelasan singkat. | Berhasil mereduksi sebagian redundansi predikat Boolean meskipun belum mencapai bentuk paling sederhana. | Salah menerapkan hukum distributif/De Morgan sehingga mengubah arti hasil seleksi kueri. | Tidak mampu menyederhanakan ekspresi Boolean maupun menganalisis fungsi. |
-| **3. Analisis Kaidah Kombinatorika Pencacahan**<br>(Soal 3 — `Sub-CPMK-2.2`) | **25%** | Tepat membedakan penggunaan *Inclusion-Exclusion*, *Pigeonhole*, permutasi, dan kombinasi sesuai syarat batasan soal dengan perhitungan akurat. | Pemilihan rumus kombinatorika tepat untuk seluruh bagian soal; terdapat maks. 1 selip hitung perkalian faktorial di akhir. | Benar pada soal permutasi/kombinasi dasar, namun kurang tepat mengurangi irisan rangkap tiga pada bagian *Inclusion-Exclusion*. | Tertukar antara rumus permutasi dan kombinasi pada mayoritas sub-soal. | Rumus dan penalaran pencacahan keliru seluruhnya. |
-| **4. Penyelesaian Analitis Relasi Rekurensi**<br>(Soal 4 — `Sub-CPMK-2.1`) | **20%** | Menyusun persamaan karakteristik dengan benar, menentukan bentuk solusi umum (akar berbeda/kembar), dan menghitung konstanta dari nilai awal hingga rumus tertutup terverifikasi. | Persamaan karakteristik dan bentuk solusi umum tepat; hanya terdapat selip aritmetika kecil saat menyelesaikan sistem persamaan konstanta $\alpha_1, \alpha_2$. | Mampu mencari akar karakteristik dengan benar, namun keliru menuliskan bentuk umum saat menghadapi akar kembar atau belum memasukkan syarat awal. | Hanya menghitung beberapa suku barisan secara manual tanpa menemukan rumus tertutup $a_n$. | Tidak mampu menyelesaikan relasi rekurensi. |
-
-$$\text{Skor UTS} = 0,30(K_1) + 0,25(K_2) + 0,25(K_3) + 0,20(K_4)$$
+| Kode | Rubrik | Digunakan pada | Bobot |
+|:---:|---|:---:|:---:|
+| R-A | Tugas 1 — Logika Formal dan Struktur Relasi | Pekan 4 | 20% |
+| R-B | UTS — Logika Formal, Struktur Diskrit, dan Graf | Pekan 8 | 30% |
+| R-C | Tugas 2 — Pemodelan Diskrit untuk Sistem Nyata | Pekan 12–13 | 20% |
+| R-D | UAS — Evaluasi Komprehensif | Pekan 16 | 30% |
+| R-E | Presentasi & Partisipasi (formatif → komponen proses) | Pekan 12 & 15 | Formatif |
+| R-F | Sikap, Etika, dan Integritas Akademik (formatif → syarat kelulusan) | Sepanjang semester | Syarat |
 
 ---
 
-### 2.3 Rubrik Analitik Tugas 2 (Pekan 12 — Bobot 20% MK · Mengukur `CPMK-3`: `Sub-CPMK-3.1` & `3.2`)
-**Objek Penilaian:** Laporan Studi Kasus Pemodelan Graf & Pohon Optimasi Jaringan (6–8 hal. berparameter NIM): *Adjacency Matrix*, *Dijkstra*, *MST Kruskal & Prim*, dan Pewarnaan Graf.
+## 2. PANDUAN PENSKORAN UMUM
 
-| Dimensi Kriteria (`K-1`) | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Pemodelan Graf, *Adjacency Matrix*, $A^2$, & Analisis Euler**<br>(`Sub-CPMK-3.1`) | **25%** | *Adjacency Matrix* sesuai parameter NIM tanpa salah entri, perhitungan jumlah lintasan via $A^2$ akurat, dan analisis syarat derajat lintasan/sirkuit Euler sangat tepat. | *Adjacency Matrix* dan analisis Euler tepat; perhitungan $A^2$ benar dengan 1 selip penjumlahan kecil. | Matriks ketetanggaan benar, namun penjelasan syarat eksistensi lintasan vs sirkuit Euler kurang spesifik pada derajat simpul ganjil. | Matriks tidak simetris untuk graf tak berarah atau salah menafsirkan arti elemen matriks $A^2$. | Representasi matriks salah total atau menyalin parameter NIM mahasiswa lain. |
-| **2. Ketelitian Tabel Penelusuran *Shortest Path* (*Dijkstra*)**<br>(`Sub-CPMK-3.1`) | **30%** | Tabel iterasi relaksasi jarak *Dijkstra* lengkap dari langkah ke-0 hingga seluruh simpul permanen, mencantumkan simpul pendahulu (*predecessor*), dan merekonstruksi jalur terpendek dengan benar 100%. | Tabel iterasi *Dijkstra* runtut dan menghasilkan jarak minimum yang tepat untuk hampir semua simpul (maks. 1 salah hitung bobot cabang non-utama). | Memahami prosedur pemilihan simpul berjarak terkecil pada *Dijkstra*, namun tidak menuliskan kolom *predecessor* secara lengkap atau keliru memperbarui 1–2 tetangga. | Mencampuradukkan langkah *Dijkstra* dengan *Prim* atau langsung menebak rute terpendek secara visual tanpa tabel iterasi algoritmis. | Tabel penelusuran *Dijkstra* salah konsep atau tidak disertakan. |
-| **3. Konstruksi Pohon *MST* (*Kruskal & Prim*)**<br>(`Sub-CPMK-3.2`) | **25%** | Menuliskan urutan pemilihan $n-1$ sisi secara eksplisit (termasuk sisi yang ditolak karena membentuk siklus pada *Kruskal*), menghasilkan *MST* valid dengan total bobot minimum identik antara *Kruskal* dan *Prim*. | Urutan pemilihan sisi *Kruskal* dan *Prim* benar serta menghasilkan total bobot *MST* yang sama dan minimal. | Berhasil membentuk *MST* yang benar dengan salah satu metode, namun pada metode kedua sempat melewatkan urutan pemeriksaan siklus. | Subgraf hasil yang dipilih masih memuat siklus (bukan pohon!) atau jumlah sisinya tidak sama dengan $|V|-1$. | Gagal membedakan *Minimum Spanning Tree* dengan lintasan tunggal. |
-| **4. Pewarnaan Graf Jadwal ($\chi(G)$) & Dokumentasi Visual**<br>(`Sub-CPMK-3.1`) | **20%** | Graf konflik jadwal dimodelkan akurat, pewarnaan urut derajat (*Welsh-Powell*) tepat tanpa simpul bertetangga sewarna, argumen batas bawah $\chi(G)$ (klik maksimum) tajam, dan diagram sangat rapi. | Graf konflik dan pembagian slot warna jadwal bebas bentrok sudah tepat serta visualisasi diagram jelas. | Pembagian jadwal bebas bentrok valid, tetapi jumlah warna yang dipakai belum minimal atau gambar graf kurang rapi. | Terdapat dua simpul bertetangga (jadwal bentrok) yang diberi warna/slot waktu yang sama. | Bagian pewarnaan graf tidak dikerjakan atau keliru memodelkan simpul dan sisi. |
+### 2.1 Skor Level
 
-$$\text{Skor Tugas 2} = 0,25(K_1) + 0,30(K_2) + 0,25(K_3) + 0,20(K_4)$$
+| Level | Label | Rentang Skor | Deskripsi Umum |
+|:---:|---|:---:|---|
+| **4** | Sangat Baik | 86–100 | Pembuktian lengkap dan valid; setiap langkah terjustifikasi; melampaui harapan minimal |
+| **3** | Baik | 76–85 | Pembuktian benar dengan kekeliruan minor pada notasi atau satu langkah yang diringkas |
+| **2** | Cukup | 60–75 | Struktur pembuktian ada tetapi tidak lengkap; ada kekeliruan yang tidak fatal |
+| **1** | Kurang | 0–59 | Tidak memenuhi tuntutan minimal; tidak ada kerangka pembuktian atau kekeliruan mendasar |
+
+### 2.2 Rumus Skor Rubrik
+
+$$Skor_{rubrik} = \sum_{d=1}^{D} (w_d \times s_d)$$
+
+dengan $w_d$ = bobot dimensi ke-$d$ (jumlah = 1,0) dan $s_d$ = skor dimensi ke-$d$ (0–100).
+
+### 2.3 Prinsip Penilaian Pembuktian (Wajib)
+
+| Aturan | Ketentuan |
+|---|---|
+| **Skor per langkah** | Langkah pembuktian yang valid tetap memperoleh skor meskipun kesimpulan akhir keliru |
+| **Kesimpulan tanpa langkah** | Maksimal 40% poin butir, meskipun kesimpulan benar |
+| **Kesalahan logika** | Satu langkah yang tidak valid menggugurkan skor langkah itu dan langkah yang bergantung padanya |
+| **Struktur wajib** | Pembuktian induksi tanpa basis/hipotesis/langkah eksplisit dinilai maksimal 50% poin butir |
+| **Diagram berlabel** | Diagram Hasse, graf, atau diagram status tanpa label dinilai maksimal 50% poin butir |
+| **Notasi** | Simbol baku ($\land$, $\lor$, $\lnot$, $\to$, $\leftrightarrow$, $\forall$, $\exists$); pelanggaran mengurangi skor dimensi kerapian |
+| **Verifikasi** | Mahasiswa yang menuliskan cek ulang (uji string, uji relasi, uji sifat graf) mendapat nilai plus pada dimensi argumentasi |
+
+### 2.4 Prinsip Anti-Kekeliruan Umum
+
+| Kekeliruan | Pencegahan |
+|---|---|
+| *Halo effect* | Nilai tiap dimensi terpisah pada lembar skor per dimensi |
+| *Central tendency* | Wajib memilih level, bukan angka bebas di tengah |
+| *Leniency/severity* | Moderasi antar-kelas dan *double marking* pada 10% sampel |
+| Penilaian berdasarkan panjang jawaban | Skor hanya berdasarkan bukti penalaran, bukan volume tulisan |
 
 ---
 
-### 2.4 Rubrik Analitik Evaluasi Akhir Semester / UAS (Pekan 16 — Bobot 30% MK · Mengukur `CPMK-4`: `Sub-CPMK-4.1` & `4.2`)
-**Objek Penilaian:** Jawaban Ujian Komprehensif 150 Menit: Konstruksi 5-Tupel DFA, NFA/$\varepsilon$-NFA & Konversi *Subset Construction*, Minimasi DFA & *State Machine* Sistem, serta Sintesis.
+## 3. RUBRIK A — TUGAS 1: LOGIKA FORMAL DAN STRUKTUR RELASI (20%)
 
-| Dimensi Kriteria (`K-1`) | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Konstruksi 5-Tupel & Kelengkapan Transisi DFA**<br>(Kasus 1 — `Sub-CPMK-4.1`) | **30%** | Definisi 5-tupel $M=(Q,\Sigma,\delta,q_0,F)$ lengkap, setiap status memiliki tepat satu busur keluar untuk seluruh simbol $\Sigma$ (termasuk *trap state*), menerima tepat bahasa sasaran, dan jejak $\hat{\delta}$ presisi. | DFA menerima tepat bahasa yang diminta dan bersifat deterministik; hanya lupa menyertakan *trap state* pada gambar meskipun tabel transisinya menandai $\emptyset$/tolak. | DFA menerima mayoritas string pola yang benar, namun tanpa sengaja meloloskan 1 kasus batas (mis. string kosong $\varepsilon$) atau notasi 5-tupel kurang lengkap. | Rancangan yang dibuat sebenarnya masih bersifat nondeterministik (ada 2 busur bersimbol sama dari 1 status) ketika diminta DFA. | Otomata gagal mengenali pola dasar yang diminta soal. |
-| **2. Perancangan NFA/$\varepsilon$-NFA & Ketelitian *Subset Construction***<br>(Kasus 2 — `Sub-CPMK-4.2`) | **35%** | Perhitungan $\varepsilon\text{-closure}(q)$ akurat untuk semua status, tabel **Subset Construction** hanya menelusuri himpunan status terjangkau secara tepat, dan penandaan himpunan status akhir DFA baru ($S \cap F \neq \emptyset$) benar 100%. | Himpunan $\varepsilon\text{-closure}$ dan alur *Subset Construction* benar; hanya terdapat 1 sel transisi himpunan gabungan yang kurang satu elemen status minor. | Memahami prosedur penggabungan himpunan status pada *Subset Construction*, namun lupa menerapkan $\varepsilon\text{-closure}$ kembali setelah membaca simbol input pada 1 langkah. | Mengubah NFA ke DFA hanya dengan menebak gambar baru tanpa menggunakan prosedur algoritmis *Subset Construction*. | Tidak memahami konsep $\varepsilon\text{-closure}$ maupun konversi NFA ke DFA. |
-| **3. Minimasi Status DFA & Pemodelan *State Machine* Sistem**<br>(Kasus 3 — `Sub-CPMK-4.1 & 4.2`) | **25%** | Partisi ekuivalensi menghasilkan DFA berstatus paling minimum secara sah; model *state machine* transaksi digital mencakup seluruh aksi valid/batal/kedaluwarsa secara deterministik tanpa celah transisi ilegal. | Minimasi DFA benar dan rancangan *state machine* sistem logis serta mencakup skenario normal maupun gagal dengan baik. | Mampu menggabungkan sebagian status ekuivalen dan menyusun diagram alur status dasar, walau 1 transisi penanganan gagal belum didefinisikan. | Menggabungkan status akhir ($F$) dengan status non-akhir ($Q \setminus F$) pada saat minimasi sehingga merusak bahasa yang diterima. | Gagal melakukan minimasi maupun memodelkan transisi status sistem. |
-| **4. Sintesis Logika–Graf–Otomata**<br>(Kasus 4 — Sintesis `CPMK-1..4`) | **10%** | Tepat memetakan graf transisi otomata ke matriks ketetanggaan berarah dan merumuskan predikat logika penjaga transisi dengan bersih. | Keterkaitan antara representasi matriks graf dan kondisi logika transisi dijelaskan dengan benar. | Mampu menyusun matriks ketetanggaan dari otomata namun perumusan kondisi logikanya masih kurang ringkas. | Hanya menjawab sebagian kecil tanpa menghubungkan konsep graf dan logika. | Kosong atau salah seluruhnya. |
+**Cakupan CPMK:** CPMK-1 (60%), CPMK-2 (40%) | **Sub-CPMK:** 1.1, 1.2, 2.1
 
-$$\text{Skor UAS} = 0,30(K_1) + 0,35(K_2) + 0,25(K_3) + 0,10(K_4)$$
-
----
-
-## BAGIAN III — RUBRIK FORMATIF AKTIVITAS PEMBUKTIAN & SIMULASI GRAF/OTOMATA DI KELAS
-
-| Kriteria Formatif | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Perlu Pembinaan (< 65) |
+| Dimensi (Bobot) | Level 4 — Sangat Baik (86–100) | Level 3 — Baik (76–85) | Level 2 — Cukup (60–75) | Level 1 — Kurang (< 60) |
 |---|---|---|---|---|
-| **Disiplin Penulisan Bukti & Notasi Himpunan** | Disiplin membedakan simbol $\in$ vs $\subseteq$, $\to$ vs $\Rightarrow$, serta selalu menyebutkan nama hukum/aturan pada setiap langkah. | Notasi rapi dan alur logis benar, hanya terdapat ketidaktepatan simbol sangat kecil. | Alur ide benar tetapi pencampuran simbol logika dan himpunan masih sering terjadi. | Langkah klaim tanpa dasar bukti atau notasi tidak bermakna matematis. |
-| **Pengujian Kasus Batas (*Edge Cases*) pada Graf & FSA** | Mandiri menguji rancangan DFA/graf dengan kasus ekstrem ($\varepsilon$, string panjang 1, graf tak terhubung). | Menguji rancangan dengan beberapa string/lintasan contoh sesuai arahan dosen. | Hanya menguji 1 contoh positif tanpa memeriksa apakah input tidak valid ikut diterima. | Tidak melakukan verifikasi uji kasus atas rancangan yang dibuat. |
+| **A1. Ketepatan logika proposisi (25%)** | Tabel kebenaran lengkap; setiap langkah penyederhanaan aljabar logika valid dan hukumnya disebut | Tabel benar; satu langkah penyederhanaan diringkas tanpa menyebut hukum | Ada kesalahan penerapan hukum logika pada satu butir | Tabel kebenaran salah atau tidak lengkap |
+| **A2. Ketepatan inferensi & kuantifikasi (30%)** | Seluruh aturan inferensi disebut dan diterapkan tepat; kuantor dan negasinya benar | Aturan tepat; 1–2 kekeliruan notasi kuantor | Argumen valid tetapi justifikasi aturan tidak lengkap | Tidak mampu membedakan aturan inferensi |
+| **A3. Ketepatan pembuktian induksi (30%)** | Basis, hipotesis, dan langkah induksi lengkap; setiap transisi aljabar terjustifikasi | Ketiga komponen ada; satu transisi aljabar diringkas | Langkah induksi ada, tetapi basis atau hipotesis tidak dinyatakan | Tidak memahami struktur induksi |
+| **A4. Ketepatan analisis relasi & Poset (15%)** | Seluruh sifat relasi diuji; diagram Hasse benar; elemen ekstremal diidentifikasi tepat | Sifat relasi benar; diagram kurang rapi | Satu sifat relasi keliru; elemen ekstremal sebagian benar | Tidak mampu menguji sifat relasi |
+
+**Contoh perhitungan:**
+A1 = 88, A2 = 80, A3 = 85, A4 = 90
+→ Skor = (0,25×88) + (0,30×80) + (0,30×85) + (0,15×90) = 22,0 + 24,0 + 25,5 + 13,5 = **85,0 (Baik)**
+
+**Ambang minimal kelulusan komponen:** 60. Skor < 60 wajib revisi dan dinilai ulang maksimal 7 hari setelah umpan balik.
 
 ---
 
-## BAGIAN IV — RUBRIK HOLISTIK MATA KULIAH (SKALA 5 TINGKAT — KPT 2024 TABEL 18 & DOK 033)
+## 4. RUBRIK B — UTS: LOGIKA FORMAL, STRUKTUR DISKRIT, DAN GRAF (30%)
 
-| Skor Holistik | Predikat Capaian | Deskriptor Integratif Penguasaan `STI-204` (`CPL-05` [80%] & `CPL-02` [20%] — Level *Introduce*) |
-|:---:|---|---|
-| **5** | **Istimewa (*Outstanding*)** | Mahasiswa menguasai pembuktian deduktif/induktif logika proposisi-predikat secara ketat, terampil memodelkan struktur *Poset*/Boolean/kombinatorika, mahir menganalisis optimasi jaringan dengan algoritma Graf & Pohon, serta presisi mengonstruksi dan mengonversi DFA/NFA. |
-| **4** | **Sangat Baik (*Excellent*)** | Mahasiswa mampu menyusun bukti logika dan induksi dengan benar, menerapkan relasi, aljabar Boolean, dan kombinatorika secara tepat, serta akurat menelusuri algoritma *Dijkstra/MST* dan mengonstruksi model DFA/NFA. |
-| **3** | **Baik (*Proficient — Ambang Lulus OBE*)** | Mahasiswa memenuhi standar minimal ketuntasan OBE ($\ge 65,0$) dalam membuktikan argumen dasar, memodelkan relasi/kombinatorika, menjalankan langkah algoritma graf/pohon standar, dan merancang DFA/NFA sederhana. |
-| **2** | **Kurang (*Developing*)** | Mahasiswa masih lemah dalam struktur pembuktian formal (melompati langkah induksi/inferensi) dan sering melakukan kesalahan sistematis saat menelusuri algoritma graf atau mengonversi NFA ke DFA. |
-| **1** | **Sangat Kurang (*Inadequate*)** | Mahasiswa gagal menguasai kaidah dasar logika maupun struktur diskrit, atau terbukti melanggar integritas akademik. |
+**Cakupan CPMK:** CPMK-1 (35%), CPMK-2 (35%), CPMK-3 (30%) | **Bentuk:** 4 bagian
+
+### 4.1 Alokasi Poin per Bagian
+
+| Bagian | Fokus | Poin | CPMK |
+|:--:|---|:--:|:--:|
+| I | Logika proposisi & predikat | 25 | CPMK-1 |
+| II | Pembuktian induksi & verifikasi algoritma | 20 | CPMK-1 |
+| III | Relasi, Poset, aljabar Boolean, kombinatorika | 30 | CPMK-2 |
+| IV | Studi kasus graf (representasi & penelusuran) | 25 | CPMK-3 |
+
+### 4.2 Rubrik Uraian (diterapkan pada seluruh bagian)
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **B1. Penguasaan konsep formal (25%)** | Definisi dan teorema digunakan tepat; notasi logika sempurna; syarat keberlakuan disebut | Tepat dengan 1–2 kekeliruan notasi | Konsep dasar dipahami; ada kesalahan definisi | Salah memahami konsep inti |
+| **B2. Keruntutan pembuktian (30%)** | Pembuktian sistematis dari premis ke konklusi; setiap langkah terjustifikasi | Sebagian besar runtut; ada lompatan kecil | Pembuktian terputus-putus; justifikasi minim | Tidak ada alur pembuktian |
+| **B3. Ketepatan hasil & justifikasi algoritma (30%)** | Seluruh hasil benar; pemilihan algoritma dan urutan langkah terjustifikasi | Hasil benar; justifikasi ringkas | Sebagian besar hasil keliru atau algoritma tidak tepat | Hasil tidak relevan |
+| **B4. Kelengkapan & kerapian jawaban (15%)** | Seluruh butir dijawab lengkap, diagram berlabel, urutan sesuai nomor | Seluruh butir dijawab; beberapa kurang rinci | Ada butir tidak dijawab | Banyak butir kosong |
+
+### 4.3 Kunci Berlapis Bagian IV (Studi Kasus Graf, 25 poin)
+
+| Elemen Jawaban | Poin | Kriteria |
+|---|:--:|---|
+| Menggambar graf dari matriks ketetanggaan | 6 | 6 poin bila seluruh 8 sisi tergambar benar; −1 per sisi hilang/salah |
+| Menentukan derajat setiap simpul | 4 | 4 poin bila keenam derajat benar dan konsisten dengan *handshaking lemma* |
+| Urutan pemilihan sisi Kruskal | 9 | 9 poin bila urutan benar dan setiap penolakan sisi (pembentuk siklus) dijelaskan |
+| Total panjang kabel minimum | 3 | 3 poin bila hasil penjumlahan tepat dengan satuan meter |
+| Interpretasi hasil | 3 | 3 poin bila dikaitkan dengan implikasi rekayasa (redundansi, biaya) |
 
 ---
 
-## BAGIAN V — RUBRIK SKALA PERSEPSI & REFLEKSI DIRI MAHASISWA (LIKERT 1–5 — KPT 2024 TABEL 20 & DOK 033)
+## 5. RUBRIK C — TUGAS 2: PEMODELAN DISKRIT UNTUK SISTEM NYATA (20%)
 
-**Skala Persepsi:** `5 = Sangat Mampu` · `4 = Mampu` · `3 = Cukup Mampu` · `2 = Kurang Mampu` · `1 = Sangat Tidak Mampu`.
+**Cakupan CPMK:** CPMK-3 (30%), CPMK-4 (70%) | **Sub-CPMK:** 3.1, 3.2, 4.1, 4.2, 4.3, 4.4 | **Bentuk:** Laporan proyek + visualisasi + presentasi
 
-| No | Pernyataan Refleksi Penguasaan Kompetensi `STI-204` | Rujukan Sub-CPMK | Skala |
-|:---:|---|---|:---:|
-| 1 | Saya mampu membuktikan ekuivalensi dan validitas argumen logika proposisi menggunakan tabel kebenaran maupun hukum aljabar logika. | `Sub-CPMK-1.1` | 1 – 2 – 3 – 4 – 5 |
-| 2 | Saya mampu memformulasikan pernyataan berkuantor *First-Order Logic* dan membuktikan kebenaran algoritma dengan Induksi Matematika. | `Sub-CPMK-1.2` | 1 – 2 – 3 – 4 – 5 |
-| 3 | Saya mampu menerapkan relasi ekuivalensi dan mengonstruksi Diagram Hasse (*Poset*) pada pemodelan ketergantungan data/tugas. | `Sub-CPMK-2.1` | 1 – 2 – 3 – 4 – 5 |
-| 4 | Saya mampu menyederhanakan ekspresi logika kueri dengan Aljabar Boolean dan menerapkan kaidah kombinatorika pencacahan. | `Sub-CPMK-2.2` | 1 – 2 – 3 – 4 – 5 |
-| 5 | Saya mampu menganalisis graf dengan *Adjacency Matrix*, lintasan Euler/Hamilton, dan algoritma rute terpendek *Dijkstra*. | `Sub-CPMK-3.1` | 1 – 2 – 3 – 4 – 5 |
-| 6 | Saya mampu menerapkan algoritma pohon merentang minimum (*Kruskal & Prim*) untuk optimasi topologi jaringan. | `Sub-CPMK-3.2` | 1 – 2 – 3 – 4 – 5 |
-| 7 | Saya mampu merancang model 5-tupel *Deterministic Finite Automata* (DFA) untuk pengenalan pola bahasa formal. | `Sub-CPMK-4.1` | 1 – 2 – 3 – 4 – 5 |
-| 8 | Saya mampu merancang NFA/$\varepsilon$-NFA, mengonversinya ke DFA (*Subset Construction*), dan memodelkan transisi status sistem. | `Sub-CPMK-4.2` | 1 – 2 – 3 – 4 – 5 |
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **C1. Ketepatan formalisasi model (30%)** | Model diskrit didefinisikan lengkap dan konsisten; seluruh asumsi dinyatakan dan dibenarkan | Model benar; satu komponen kurang eksplisit | Model benar sebagian; asumsi tidak jelas | Model tidak terbentuk |
+| **C2. Ketepatan algoritma & verifikasi manual (25%)** | ≥ 2 contoh kerja benar; setiap langkah algoritma terverifikasi | Contoh benar; verifikasi sebagian | Satu contoh benar; verifikasi tidak ada | Hasil tidak dapat diverifikasi |
+| **C3. Kualitas visualisasi & interpretasi (25%)** | Diagram akurat dan berlabel; interpretasi menghubungkan model dengan sistem nyata secara kritis | Diagram benar; interpretasi memadai | Diagram kurang informatif; interpretasi dangkal | Tanpa visualisasi atau diagram salah |
+| **C4. Analisis kompleksitas & keterbatasan (20%)** | Kompleksitas dianalisis (mis. $O(E\log V)$) dan keterbatasan model dibahas kritis; laporan rapi; ≥ 6 rujukan IEEE | Analisis memadai; 4–5 rujukan | Analisis umum; < 4 rujukan | Tanpa analisis kompleksitas/keterbatasan |
+
+### 5.1 Penilaian Kontribusi Tim (anti-*free-rider*)
+
+| Kondisi | Penyesuaian Skor Individu |
+|---|---|
+| Kontribusi merata, terdokumentasi (log pertemuan, riwayat dokumen) | 100% dari skor kelompok |
+| Kontribusi terbukti pada ≥ 3 dari 4 dimensi | 90–100% |
+| Kontribusi parsial, tidak terdokumentasi | 70–89% |
+| Kontribusi minimal / tidak dapat menjelaskan model saat verifikasi 3 menit | ≤ 50% |
+| Tidak berkontribusi | 0% |
 
 ---
 
-## BAGIAN VI — TEMPLAT LEMBAR PENILAIAN CEPAT DOSEN (*SPEED GRADING SHEET* `STI-204`)
+## 6. RUBRIK D — UAS: EVALUASI KOMPREHENSIF (30%)
 
-```text
-==============================================================================================================================
-       LEMBAR REKAPITULASI PENILAIAN OBE MULTI-CPL — STI-204 MATEMATIKA DISKRIT DAN LOGIKA (3 SKS TEORI)
-==============================================================================================================================
-Semester / Tahun Akademik : Semester 2 (Genap) / 2026-2027       CPL : CPL-05 (P1: 80%), CPL-02 (KU1: 20%) [Level: Introduce]
-Klaster Rubrik            : K-1 (Sains Dasar & Teori Formal)     Ambang OBE : >= 65.0 per CPMK & CPL (Target Kohor >= 80%)
-------------------------------------------------------------------------------------------------------------------------------
-No | NIM       | Nama Mhs     | T1(20%) | UTS(30%)| T2(20%) | UAS(30%)| CPL-05 (80%) | CPL-02 (20%) | Nilai | Huruf | OBE
-   |           |              | [CPMK1] | [CPMK2] | [CPMK3] | [CPMK4] |     (P1)     |     (KU1)    | Akhir | Mutu  | >=65
-------------------------------------------------------------------------------------------------------------------------------
-1  | 260101001 | [Nama Mhs 1] |  86.0   |  82.0   |  88.0   |  84.0   |    84.00     |    87.00     | 84.60 |   A   | YA
-2  | 260101002 | [Nama Mhs 2] |  74.0   |  72.0   |  76.0   |  70.0   |    72.00     |    75.00     | 72.60 |   B   | YA
-3  | 260101003 | [Nama Mhs 3] |  68.0   |  66.0   |  70.0   |  66.0   |    66.75     |    69.00     | 67.20 |   C+  | YA
-------------------------------------------------------------------------------------------------------------------------------
-RATA-RATA KELAS               |  76.00  |  73.33  |  78.00  |  73.33  |    74.25     |    77.00     | 74.80 | % >=65: 100%
-==============================================================================================================================
+**Cakupan CPMK:** CPMK-1 s.d. CPMK-4 | **Bentuk:** 4 bagian
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **D1. Penguasaan konsep komprehensif (25%)** | Mengaitkan logika–struktur–graf–otomata secara utuh; batas keberlakuan setiap konsep disebut | Konsep benar; keterkaitan antar-bagian sebagian | Konsep terpisah-pisah; keterkaitan lemah | Salah konsep mendasar |
+| **D2. Ketepatan formalisasi & komputasi (30%)** | Seluruh definisi formal dan perhitungan tepat; notasi konsisten; langkah efisien | 1–2 kekeliruan minor | Beberapa kekeliruan yang memengaruhi hasil | Formalisasi tidak dapat diikuti |
+| **D3. Kedalaman analisis & justifikasi (30%)** | Justifikasi setiap pilihan model/algoritma; implikasi perubahan parameter dianalisis | Justifikasi tepat; kurang mendalam | Justifikasi deskriptif | Tanpa justifikasi |
+| **D4. Struktur & komunikasi matematis (15%)** | Uraian runtut; definisi dipakai tepat; kesimpulan eksplisit | Uraian jelas; kesimpulan ada | Uraian kurang runtut | Tidak terstruktur |
+
+### 6.1 Kunci Berlapis Bagian III — Otomata (30 poin)
+
+| Elemen | Poin | Kriteria |
+|---|:--:|---|
+| Konstruksi DFA lengkap (5-tuple + tabel transisi) | 12 | 6 poin 5-tuple benar; 4 poin tabel transisi lengkap; 2 poin status awal/akhir ditandai |
+| Uji tiga string dengan jejak transisi | 10 | 3 poin per string benar (9) + 1 poin kerapian jejak |
+| Konstruksi NFA dan konversi *subset construction* | 8 | 4 poin NFA benar; 4 poin hasil konversi konsisten (setiap status gabungan ε-closure) |
+| Perbandingan jumlah status DFA vs NFA | 2 | 2 poin bila selisih dikuantifikasi dan penyebabnya dijelaskan |
+
+### 6.2 Kunci Berlapis Bagian IV — Pemodelan Terbuka (20 poin)
+
+| Elemen | Poin | Kriteria |
+|---|:--:|---|
+| Identifikasi entitas & relasi | 5 | 5 poin bila himpunan simpul/relasi didefinisikan dan batas domain eksplisit |
+| Formalisasi model diskrit | 5 | 5 poin bila formalisasi tepat dan dapat dioperasikan |
+| Prosedur algoritma | 6 | 6 poin bila algoritma tepat dengan urutan langkah lengkap |
+| Interpretasi & validasi hasil | 4 | 4 poin bila hasil diuji terhadap batas kasus/konteks |
+
+---
+
+## 7. RUBRIK E — PRESENTASI DAN PARTISIPASI (FORMATIF)
+
+**Digunakan:** Pekan 11 (konsultasi), Pekan 12 (presentasi antara), Pekan 15 (presentasi final)
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **E1. Penguasaan materi (40%)** | Menguasai penuh; mampu membuktikan ulang satu klaim di papan saat ditanya | Memahami materi; jawaban tepat dan logis | Pemahaman cukup; ragu saat tanya jawab | Tidak menguasai materi |
+| **E2. Kualitas media visual (30%)** | Diagram graf/Hasse/otomata profesional dan berlabel; notasi formal benar pada slide | Slide rapi; label sebagian besar ada | Slide terlalu padat; label sering hilang | Slide buruk/tidak berstruktur |
+| **E3. Artikulasi & alokasi waktu (30%)** | Lugas, percaya diri, kontak mata baik, tepat waktu | Komunikasi jelas; intonasi baik; waktu pas | Suara monoton; melebihi batas waktu | Komunikasi pasif; tidak terkontrol |
+
+---
+
+## 8. RUBRIK F — SIKAP, ETIKA, DAN INTEGRITAS AKADEMIK (SYARAT)
+
+| Aspek | Indikator Terpenuhi | Indikator Tidak Terpenuhi |
+|---|---|---|
+| Kehadiran | ≥ 75% pertemuan | < 75% pertemuan → nilai maksimum D |
+| Ketepatan pengumpulan | ≥ 80% tugas tepat waktu | < 50% tugas terlambat berat |
+| Deklarasi AI | Seluruh tugas menyertakan deklarasi penggunaan AI/simulator | Ada tugas tanpa deklarasi |
+| Orisinalitas | Kemiripan ≤ 25%; dapat menjelaskan pembuktian karyanya | Kemiripan > 25% atau tidak dapat menjelaskan karya |
+| Sitasi pembuktian | Kerangka pembuktian dari sumber eksternal disitasi dengan benar | Kerangka disalin tanpa sitasi |
+| Etika kelas | Menghormati dosen dan sesama; aktif konstruktif | Mengganggu, tidak menghormati, atau manipulatif |
+
+**Konsekuensi:** pelanggaran integritas akademik berat (plagiarisme, pemalsuan hasil pembuktian, kerja sama terlarang) dikenakan nilai 0 pada komponen terkait dan diproses sesuai Peraturan Akademik Universitas.
+
+---
+
+## 9. REKAPITULASI BOBOT DAN KONVERSI
+
+### 9.1 Rekap Bobot Asesmen
+
+| Rubrik | Bobot terhadap NA | Skor Maksimum |
+|:---:|:---:|:---:|
+| R-A Tugas 1 | 20% | 100 |
+| R-B UTS | 30% | 100 |
+| R-C Tugas 2 | 20% | 100 |
+| R-D UAS | 30% | 100 |
+| **Total** | **100%** | |
+
+### 9.2 Konversi Nilai
+
+| NA | Huruf | Bobot | Status |
+|:---:|:---:|:---:|:---:|
+| 86–100 | A | 4,00 | Lulus |
+| 76–85 | B+ | 3,50 | Lulus |
+| 70–75 | B | 3,00 | Lulus |
+| 66–69 | C+ | 2,50 | Lulus |
+| 60–65 | C | 2,00 | Lulus (batas) |
+| 56–59 | D | 1,00 | Tidak lulus |
+| 0–55 | E | 0,00 | Tidak lulus |
+
+### 9.3 Contoh Perhitungan Lengkap
+
+| Komponen | Skor | Bobot | Kontribusi |
+|:---:|:---:|:---:|:---:|
+| Tugas 1 | 85,0 | 20% | 17,00 |
+| UTS | 73 | 30% | 21,90 |
+| Tugas 2 | 87 | 20% | 17,40 |
+| UAS | 80 | 30% | 24,00 |
+| **Nilai Akhir** | | | **80,30 → B+** |
+
+Ketercapaian CPMK mahasiswa tersebut:
+- CPMK-1 = 0,60×85,0 + 0,40×73 = 51,00 + 29,20 = **80,2**
+- CPMK-2 = 0,40×85,0 + 0,60×73 = 34,00 + 43,80 = **77,8**
+- CPMK-3 = 0,20×73 + 0,30×87 + 0,50×80 = 14,60 + 26,10 + 40,00 = **80,7**
+- CPMK-4 = 0,60×87 + 0,40×80 = 52,20 + 32,00 = **84,2**
+
+Seluruh CPMK ≥ 60 → **tuntas CPMK**. Ketercapaian CPL:
+- `CPL-05` (`P1`) = 0,70 × 80,30 = **56,21**
+- `CPL-02` (`KU1`) = 0,30 × 80,30 = **24,09**
+
+> **Catatan pembacaan:** nilai berbobot di atas adalah **kontribusi parsial** MK terhadap CPL program. Ketercapaian CPL penuh dihitung pada tingkat prodi dengan menjumlahkan kontribusi seluruh MK pembina CPL tersebut (Dokumen 008 Bagian 3.3–3.4).
+
+---
+
+## 10. LEMBAR REKAP PENILAIAN (SPEED GRADING SHEET)
+
 ```
+================================================================================
+LEMBAR ASESMEN OBE CEPAT — STI-204 MATEMATIKA DISKRIT DAN LOGIKA
+Kelas: ____ | Semester: 2 | Tahun Akademik: ____ | Dosen: __________________
+--------------------------------------------------------------------------------
+No | NIM | Nama | T1 (20%)  | UTS (30%)   | T2 (20%)  | UAS (30%) | NA | Grade
+   |     |      | [CPMK-1,2]| [CPMK-1,2,3]| [CPMK-3,4]| [Komp.]   |    |
+--------------------------------------------------------------------------------
+ 1 |     |      |           |             |           |           |    |
+ 2 |     |      |           |             |           |           |    |
+ 3 |     |      |           |             |           |           |    |
+--------------------------------------------------------------------------------
+RATA-RATA CPMK-1: ____ | CPMK-2: ____ | CPMK-3: ____ | CPMK-4: ____
+KETERCAPAIAN CPL: CPL-05 (P1) ____ | CPL-02 (KU1) ____
+================================================================================
+```
+
+**Petunjuk pengisian:** isi skor 0–100 per komponen; NA dihitung otomatis dengan rumus 9.1; kolom Grade diisi berdasarkan tabel 9.2; rekap CPMK dihitung dengan rumus Bagian 6.2 dokumen 055_4.
+
+---
+
+## 11. MODERASI, VALIDASI, DAN TINDAK LANJUT
+
+| Aktivitas | Ketentuan |
+|---|---|
+| Validasi rubrik sebelum digunakan | Ditelaah Koordinator RMK dan UPM FSTI |
+| Verifikasi kunci jawaban | Setiap kunci (termasuk urutan Kruskal, jejak Dijkstra, dan tabel transisi DFA) diperiksa penelaah kedua sebelum ujian |
+| Moderasi antar-kelas | 10% sampel dinilai ulang oleh dosen kedua; selisih > 10 poin dibahas bersama |
+| Kalibrasi penilai | Sesi kalibrasi 60 menit sebelum penilaian tugas besar, menggunakan 3 sampel jawaban |
+| Dokumentasi | Lembar skor per dimensi diarsipkan bersama artefak mahasiswa |
+| Revisi rubrik | Dilakukan bila > 20% mahasiswa memperoleh level 1 pada dimensi yang sama |
+| Pelaporan | Rekap ke Koordinator RMK paling lambat 7 hari setelah asesmen |
+
+---
+
+## 12. RIWAYAT REVISI
+
+| Versi | Tanggal | Perubahan | Penyusun |
+|:---:|:---:|---|---|
+| 1.0 | 07 November 2026 | Penyusunan awal; 6 rubrik (A–F) untuk 4 CPMK, dilengkapi kunci berlapis dan penanganan 2 CPL | Tim Pengembang RPS SISTEKIN |
+
+---
+
+*Rubrik ini merupakan turunan langsung dari CPMK/Sub-CPMK Dokumen 043 dan skema asesmen Dokumen 008. Setiap perubahan bobot atau dimensi wajib disertai revisi dokumen 055_1 dan 055_4.*

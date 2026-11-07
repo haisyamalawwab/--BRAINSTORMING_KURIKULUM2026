@@ -1,154 +1,273 @@
-# 055_5 — RUBRIK PENILAIAN PEMBELAJARAN BERBASIS OBE
-## STI-101 — PENGANTAR SISTEM DAN TEKNOLOGI INFORMASI (*Introduction to Systems and Information Technology*)
+# RUBRIK PENILAIAN
+## STI-101 — PENGANTAR SISTEM DAN TEKNOLOGI INFORMASI
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
-**Fakultas:** Fakultas Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
-**Kurikulum:** Kurikulum OBE SISTEKIN 2026 (Semester 1 — Tahap Fondasi)  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI101`  
-**Klaster Rubrik Master (Dok 018):** Klaster 4 (`K-4`) — Sintesis, Sistem Informasi, & Manajemen  
-**Tanggal Penyusunan:** 07 November 2026  
-**Rujukan:** Panduan KPT 2024 Dikti (Tabel 18 Rubrik Holistik, Tabel 19 Rubrik Analitik, Tabel 20 Skala Persepsi) · Dok 008 §4 · Dok 018 §3 · Dok 033 · `055_1_RPS_STI-101_...md` · `055_4_RENCANA_EVALUASI_ASESMEN_STI-101_...md`.
+> **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang
+> **Dokumen induk:** `055_1_RPS_STI-101_PENGANTAR_SISTEM_DAN_TEKNOLOGI_INFORMASI_07112026.md` dan `055_4_RENCANA_EVALUASI_ASESMEN_STI-101_PENGANTAR_SISTEM_DAN_TEKNOLOGI_INFORMASI_07112026.md`
+> **Rujukan rubrik master:** Dokumen 008 (Rubrik 1–3) dan Dokumen 018 (4 klaster rubrik)
+> **Tanggal:** 07 November 2026
 
 ---
 
-## BAGIAN I — KERANGKA RUBRIK & PEDOMAN KALIBRASI PENILAIAN DOSEN
+## 1. PRINSIP DAN CAKUPAN
 
-Sesuai ketentuan **Panduan KPT 2024** dan **Dokumen 033**, perangkat rubrik pada mata kuliah `STI-101` mengintegrasikan **tiga jenis instrumen rubrik** yang saling melengkapi:
-1. **Rubrik Analitik (5 Tingkat Kriteria):** Instrumen utama penilaian objektif untuk ke-4 titik evaluasi sumatif (**Tugas 1, UTS, Tugas 2, UAS**) serta aktivitas diskusi/presentasi formatif.
-2. **Rubrik Holistik (5 Tingkat Capaian Utuh):** Instrumen penarikan kesimpulan mutu penguasaan integratif pada proyek Studi Kelayakan Transformasi Digital (komponen UAS).
-3. **Rubrik Skala Persepsi (Likert 1–5):** Instrumen refleksi ketercapaian `Sub-CPMK` dari sudut pandang mahasiswa dan evaluasi mutu pembelajaran akhir semester sebagai masukan siklus PPEPP.
+| Aspek | Ketentuan |
+|---|---|
+| Jenis rubrik | **Analitik** untuk seluruh asesmen sumatif (kriteria terpisah, skor teragregasi) |
+| Jumlah level | 4 level: Sangat Baik (4), Baik (3), Cukup (2), Kurang (1) |
+| Skala skor | 0–100 per dimensi |
+| Transparansi | Rubrik dibagikan sebelum asesmen dilaksanakan |
+| Konsistensi | Digunakan sama pada seluruh kelas paralel |
+| Fokus | Kinerja/unjuk kerja autentik, bukan sekadar recall |
 
-### Standar Gradasi Skor 5-Level Rubrik Analitik FSTI UWG
+**Daftar rubrik dalam dokumen ini:**
 
-| Level Kinerja | Rentang Skor | Padanan Mutu | Makna Ketercapaian Kompetensi OBE |
-|---|:---:|:---:|---|
-| **Sangat Baik (*Exemplary*)** | **86 – 100** | A | Melampaui standar; analisis kontekstual tajam, sistematis, orisinal, tanpa cacat konseptual. |
-| **Baik (*Proficient*)** | **76 – 85** | B+ / A- | Memenuhi standar dengan kuat; konsep akurat, argumen logis, hanya terdapat kekurangan teknis minor. |
-| **Cukup (*Satisfactory — Ambang OBE*)** | **65 – 75** | C+ / B | Memenuhi batas minimal ketuntasan OBE ($\ge 65,0$); konsep inti benar namun kedalaman analisis masih terbatas. |
-| **Kurang (*Developing*)** | **56 – 64** | C | Di bawah target OBE; pemahaman parsial/deskriptif dangkal, terdapat kekeliruan klasifikasi konsep. |
-| **Sangat Kurang (*Inadequate*)** | **0 – 55** | D / E | Gagal memenuhi kriteria dasar; salah konsep fatal, tidak relevan dengan kasus, atau melanggar integritas. |
-
----
-
-## BAGIAN II — RUBRIK ANALITIK 4 TITIK EVALUASI SUMATIF
-
-### 2.1 Rubrik Analitik Tugas 1 (Pekan 4 — Bobot 20% MK · Mengukur `CPMK-1`: `Sub-CPMK-1.1` & `1.2`)
-**Objek Penilaian:** Laporan Observasi & Analisis Komponen Sosio-Teknis Sistem Informasi serta Siklus DIKW pada Unit Organisasi Nyata.
-
-| Dimensi Kriteria & Indikator | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Analisis Rantai Transformasi DIKW**<br>(`Sub-CPMK-1.1`) | **30%** | Menyajikan $\ge 5$ contoh rantai *Data → Informasi → Pengetahuan → Keputusan* yang sangat spesifik dari objek amatan; perbedaan tiap level tepat dan kontekstual. | Menyajikan 5 contoh rantai DIKW nyata dengan pembedaan tepat; 1 contoh pada level *Knowledge/Wisdom* masih agak umum. | Menyajikan 3–4 contoh rantai DIKW yang cukup tepat, namun batas antara *Informasi* dan *Pengetahuan* masih bercampur di beberapa poin. | Contoh kurang dari 3 atau hanya mengulang contoh buku teks tanpa kaitan nyata dengan unit organisasi yang diamati. | Tidak mampu membedakan data dan informasi, atau bagian DIKW tidak dikerjakan. |
-| **2. Pemetaan 6 Komponen Sosio-Teknis SI & Siklus Informasi**<br>(`Sub-CPMK-1.2`) | **35%** | Keenam komponen (*Hardware, Software, Data, Network, People, Process*) dan diagram siklus *Input–Process–Output–Feedback* terpetakan lengkap, akurat, dan saling terhubung utuh. | Keenam komponen teridentifikasi benar dan diagram siklus ada; penjelasan interaksi antar-komponen sedikit kurang rinci pada 1 komponen. | Mengidentifikasi 5–6 komponen secara umum, namun aspek *People/Process* dibahas sangat singkat atau diagram siklus kurang lengkap. | Hanya membahas perangkat keras/lunak (*IT-centric*) dan mengabaikan komponen *Data, People,* atau *Process*. | Pemetaan komponen keliru total atau menyalin mentah dari objek fiktif tanpa bukti amatan. |
-| **3. Ketajaman Diagnosis Hambatan (*Bottleneck*) Bisnis**<br>(`Sub-CPMK-1.2`) | **25%** | Mendiagnosis $\ge 2$ hambatan alur informasi (teknis & sosio-organisasional) beserta sebab-akibatnya terhadap kinerja bisnis secara kritis dan logis. | Mendiagnosis 2 hambatan secara relevan dan logis, namun analisis dampak bisnisnya masih dapat diperdalam. | Mengidentifikasi 1–2 hambatan nyata tetapi penjelasan masih deskriptif permukaan (*gejala*, belum menyentuh akar masalah). | Hambatan yang disebut tidak berdasar pada pemetaan komponen sebelumnya atau terlalu klise. | Tidak menyertakan diagnosis hambatan alur informasi sama sekali. |
-| **4. Tata Tulis, Bukti Observasi, & Kejujuran Akademik** | **10%** | Sistematika rapi sesuai panduan RTM-1, bahasa baku, bukti observasi otentik terlampir, dan deklarasi AI lengkap. | Sistematika rapi, bukti observasi ada, terdapat sedikit salah ketik minor. | Format cukup rapi, bukti observasi minimal, deklarasi AI terisi singkat. | Format tidak konsisten, banyak salah ketik, tanpa bukti observasi lapangan. | Terbukti plagiasi antar-mahasiswa atau memfabrikasi data observasi. |
-
-$$\text{Skor Tugas 1} = 0,30(K_1) + 0,35(K_2) + 0,25(K_3) + 0,10(K_4)$$
+| Kode | Rubrik | Digunakan pada | Bobot |
+|:---:|---|:---:|:---:|
+| R-A | Tugas 1 — Peta Sistem Informasi Enterprise | Pekan 4 | 20% |
+| R-B | UTS — Analisis Taksonomi SI Enterprise | Pekan 8 | 30% |
+| R-C | Tugas 2 — Transformasi Digital yang Bertanggung Jawab | Pekan 12–14 | 20% |
+| R-D | UAS — Evaluasi Komprehensif | Pekan 16 | 30% |
+| R-E | Presentasi & Partisipasi (formatif → komponen proses) | Pekan 15 | Formatif |
+| R-F | Sikap, Etika, dan Integritas Akademik (formatif → syarat kelulusan) | Sepanjang semester | Syarat |
 
 ---
 
-### 2.2 Rubrik Analitik Ujian Tengah Semester / UTS (Pekan 8 — Bobot 30% MK · Mengukur `CPMK-2`: `Sub-CPMK-2.1` & `2.2`)
-**Objek Penilaian:** Jawaban Ujian Tertulis Uraian Berbasis Studi Kasus Terpadu Taksonomi & Komparasi Sistem Informasi Enterprise (100 menit).
+## 2. PANDUAN PENSKORAN UMUM
 
-| Dimensi Kriteria & Butir Soal | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Klasifikasi Fungsi & Aliran Data TPS vs MIS**<br>(Soal 1 — `Sub-CPMK-2.1`) | **25%** | Memisahkan aktivitas TPS dan MIS pada kasus secara presisi dari sisi pengguna, sifat waktu (*real-time/batch*), input, dan bentuk laporan keluarannya. | Klasifikasi TPS vs MIS tepat pada skenario kasus; penjelasan aliran agregasi data dari TPS ke MIS cukup jelas. | Mampu membedakan TPS dan MIS secara definisi dasar, namun pengaitannya ke aktivitas spesifik perusahaan dalam soal kurang tajam. | Tertukar dalam mengelompokkan sebagian aktivitas operasional TPS dengan pelaporan MIS. | Gagal menjelaskan perbedaan maupun contoh TPS dan MIS. |
-| **2. Analisis *Information Silos* & Arsitektur Integrasi ERP**<br>(Soal 2 — `Sub-CPMK-2.1`) | **30%** | Menganalisis akar masalah *silo* dengan tajam dan memetakan $\ge 4$ modul inti ERP beserta aliran transaksi lintas-divisi melalui basis data terpusat secara runtut. | Menganalisis masalah *silo* dengan benar dan memetakan 4 modul ERP secara tepat, terdapat ketidaklengkapan kecil pada urutan aliran data. | Menjelaskan konsep ERP secara umum dan menyebut 3 modul terkait, namun belum menguraikan bagaimana basis data tunggal menghilangkan *silo*. | Memahami ERP hanya sebagai aplikasi akuntansi biasa tanpa konsep integrasi lintas-fungsi bisnis. | Jawaban tidak relevan atau kosong. |
-| **3. Komparasi Strategis SCM (Hulu) vs CRM (Hilir)**<br>(Soal 3 — `Sub-CPMK-2.2`) | **25%** | Membandingkan SCM dan CRM secara kontras dan valid; tepat mengaitkan *bullwhip effect*/stok dengan SCM serta retensi/keluhan pelanggan dengan CRM. | Perbandingan SCM dan CRM akurat dan terhubung ke masalah kasus, meskipun istilah analitik (*bullwhip/churn*) dijelaskan secara implisit. | Mampu membedakan fokus pemasok (SCM) vs pelanggan (CRM), tetapi analisis nilai tambahnya bagi perusahaan masih dangkal. | Mencampuradukkan fungsi SCM dengan modul gudang internal saja atau tertukar dengan CRM. | Tidak mampu membandingkan peran SCM dan CRM. |
-| **4. Rekomendasi DSS/EIS & Kanal *E-Commerce***<br>(Soal 4 — `Sub-CPMK-2.2`) | **20%** | Merekomendasikan $\ge 4$ KPI eksekutif/simulasi *what-if* DSS yang relevan bagi direksi serta memilih skema B2B/B2C dengan argumen model bisnis yang kuat. | Merekomendasikan KPI/fitur DSS dan model B2B/B2C dengan tepat, argumen bisnis cukup logis. | Menyebutkan contoh fitur dashboard dan jenis *e-commerce* secara benar namun kurang spesifik terhadap konteks perusahaan pada soal. | KPI yang diusulkan bersifat operasional kasir (bukan eksekutif) atau salah membedakan B2B dan B2C. | Rekomendasi keliru total atau tidak dijawab. |
+### 2.1 Skor Level
 
-$$\text{Skor UTS} = 0,25(K_1) + 0,30(K_2) + 0,25(K_3) + 0,20(K_4)$$
+| Level | Label | Rentang Skor | Deskripsi Umum |
+|:---:|---|:---:|---|
+| **4** | Sangat Baik | 86–100 | Menunjukkan penguasaan penuh, akurat, argumentatif, dan melampaui harapan minimal |
+| **3** | Baik | 76–85 | Menguasai materi, tepat dengan kekeliruan minor, memenuhi seluruh tuntutan tugas |
+| **2** | Cukup | 60–75 | Memenuhi sebagian tuntutan, ada kekeliruan konseptual yang tidak fatal |
+| **1** | Kurang | 0–59 | Tidak memenuhi tuntutan minimal, kekeliruan mendasar, atau tidak lengkap |
 
----
+### 2.2 Rumus Skor Rubrik
 
-### 2.3 Rubrik Analitik Tugas 2 (Pekan 12 — Bobot 20% MK · Mengukur `CPMK-3` Analisis: `Sub-CPMK-3.1`)
-**Objek Penilaian:** Paper Analisis Studi Kasus Kelemahan Proses Bisnis, Risiko Siber (*CIA Triad*), Etika Digital, dan Kepatuhan UU PDP.
+$$Skor_{rubrik} = \sum_{d=1}^{D} (w_d \times s_d)$$
 
-| Dimensi Kriteria & Indikator | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Diagnosis Proses Bisnis & Konteks Enabler (*Cloud/AI/IoT*)**<br>(`Sub-CPMK-3.1`) | **30%** | Menguraikan konteks proses bisnis dan peran *Cloud/AI/IoT* secara sistematis; menemukan akar kelemahan sosio-teknis kasus dengan sangat kritis. | Konteks proses bisnis dan teknologi diuraikan jelas; identifikasi kelemahan kasus logis dan terarah. | Kronologi kasus dan peran teknologi dijelaskan cukup baik, namun analisis masih cenderung merangkum berita. | Deskripsi kasus sangat dangkal dan gagal mengaitkan dengan konsep proses bisnis atau *Cloud/AI/IoT*. | Kasus tidak jelas sumbernya atau menyimpang jauh dari ruang lingkup tugas. |
-| **2. Evaluasi Risiko Keamanan Berbasis *CIA Triad* & Etika Digital**<br>(`Sub-CPMK-3.1`) | **30%** | Membedah dampak insiden terhadap aspek *Confidentiality, Integrity,* dan *Availability* secara presisi, disertai telaah tajam atas etika pengelolaan data/AI. | Analisis *CIA Triad* tepat dan sesuai fakta kasus; bahasan implikasi etika terhadap pengguna/masyarakat memadai. | Menyebutkan *CIA Triad* dengan benar tetapi hanya menjelaskan 1–2 aspek secara umum tanpa kedalaman dampak bisnis. | Salah mengartikan komponen *Confidentiality, Integrity,* atau *Availability* pada insiden yang dibahas. | Tidak menggunakan kerangka *CIA Triad* maupun analisis etika digital. |
-| **3. Ketepatan Kepatuhan UU PDP No. 27/2022 & Rekomendasi *IT Governance***<br>(`Sub-CPMK-3.1`) | **25%** | Merujuk kewajiban Pengendali Data & hak Subjek Data dalam UU PDP secara akurat serta merumuskan rekomendasi tata kelola TI yang realistis dan sesuai *guardrail*. | Rujukan prinsip UU PDP benar dan rekomendasi perbaikan tata kelola manajemen relevan bagi organisasi. | Menyinggung UU PDP secara umum tanpa merinci kewajiban spesifik organisasi; rekomendasi perbaikan masih normatif. | Rujukan regulasi tidak tepat atau rekomendasi justru melebar ke perintah teknis koding/konfigurasi *firewall* di luar konteks manajemen. | Mengabaikan aspek UU PDP dan tata kelola TI, atau mencantumkan pasal fiktif hasil halusinasi AI. |
-| **4. Kualitas Referensi, Sitasi Ilmiah, & Deklarasi AI** | **15%** | Memuat $\ge 4$ referensi kredibel terverifikasi, sitasi APA/IEEE konsisten, tata bahasa akademik prima, deklarasi AI jujur dan transparan. | Memuat 4 referensi kredibel, sitasi rapi dengan kesalahan format sangat kecil, deklarasi AI lengkap. | Memuat 2–3 referensi valid, tata tulis cukup rapi, terdapat ketidakkonsistenan penulisan daftar pustaka. | Referensi kurang dari 2 atau hanya bersumber dari blog tak terverifikasi; banyak kesalahan tata tulis. | Plagiasi tinggi ($\ge 25\%$), referensi palsu/fiktif, atau tanpa daftar pustaka. |
+dengan $w_d$ = bobot dimensi ke-$d$ (jumlah = 1,0) dan $s_d$ = skor dimensi ke-$d$ (0–100).
 
-$$\text{Skor Tugas 2} = 0,30(K_1) + 0,30(K_2) + 0,25(K_3) + 0,15(K_4)$$
+**Pedoman penilaian:** dosen memilih skor dalam rentang level; bila ragu antara dua level, gunakan bukti terkuat yang dapat ditunjukkan mahasiswa.
 
----
+### 2.3 Prinsip Anti-Kekeliruan Umum
 
-### 2.4 Rubrik Analitik Evaluasi Akhir Semester / UAS (Pekan 16 — Bobot 30% MK · Mengukur `CPMK-3` Sintesis: `Sub-CPMK-3.2` & `CPMK-1..3`)
-**Objek Penilaian:** Bundel Naskah Proposal Studi Kelayakan Solusi Transformasi Digital Kelompok (60%) + Ujian Kasus & Verifikasi Penguasaan Individu (40%).
-
-| Dimensi Kriteria & Indikator | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (56–64) | Sangat Kurang (0–55) |
-|---|:---:|---|---|---|---|---|
-| **1. Ketajaman Masalah *As-Is* & Arsitektur Konseptual Solusi *To-Be* (*SI + Cloud/AI/IoT*)**<br>(Proposal Tim) | **25%** | Masalah nyata mitra terukur jelas; solusi *To-Be* memadukan SI enterprise & pilar *Cloud/AI/IoT* secara proporsional, inovatif, dilengkapi diagram alir konseptual bersih tanpa melanggar *guardrail*. | Masalah *As-Is* jelas; arsitektur konseptual *To-Be* logis dan relevan menjawab *pain points* bisnis mitra. | Masalah dan usulan teknologi cukup nyambung, namun alasan pemilihan *AI/Cloud/IoT* masih generik (*buzzword*) atau diagram kurang rinci. | Usulan teknologi berlebihan/tidak cocok dengan skala masalah mitra (*over-engineering* tanpa dasar) atau melanggar *guardrail*. | Masalah dan solusi tidak sinkron atau menyalin proposal pihak lain. |
-| **2. Evaluasi Studi Kelayakan 5 Dimensi TELOS & Nilai Bisnis**<br>(Proposal Tim) | **20%** | Kelima dimensi (*Technical, Economic, Legal/Ethical, Operational, Schedule*) dievaluasi lengkap dengan estimasi manfaat/biaya rasional dan jadwal pentahapan realistis. | Kelima dimensi TELOS terisi lengkap dan logis; perhitungan estimasi manfaat ekonomis atau kesiapan operasional cukup meyakinkan. | Seluruh 5 dimensi TELOS dibahas, tetapi 1–2 dimensi (mis. Ekonomis atau Operasional) masih berupa klaim kualitatif singkat. | Hanya membahas 2–3 dimensi kelayakan dan mengabaikan kendala biaya atau kesiapan SDM organisasi. | Tidak menyertakan analisis kelayakan TELOS. |
-| **3. Mitigasi Risiko Siber (*CIA*) & Kepatuhan Privasi UU PDP**<br>(Proposal Tim) | **15%** | Mengidentifikasi data pribadi yang diproses solusi, merancang mekanisme *consent*/proteksi *CIA Triad* dan tata kelola kepemilikan data secara komprehensif. | Memuat rencana pelindungan data pribadi sesuai UU PDP dan kontrol keamanan manajerial secara tepat. | Mencantumkan aspek keamanan dan privasi dasar secara singkat namun belum spesifik pada jenis data objek mitra. | Aspek keamanan dan privasi hanya disebut satu kalimat tanpa rancangan pengendalian. | Mengabaikan risiko privasi dan etika penggunaan data sama sekali. |
-| **4. Penguasaan Sintesis Kasus & Pertanggungjawaban Individu di Kelas**<br>(Ujian Individu 100') | **40%** | Menjawab soal kasus sintesis dengan sangat tajam **dan** mampu menjelaskan rasionalitas keputusan desain TELOS/arsitektur proposal timnya secara mandiri tanpa celah. | Menjawab soal sintesis dengan baik dan menguasai substansi utama proposal timnya secara konsisten. | Jawaban ujian individu memenuhi standar minimal ($\ge 65$); memahami garis besar proposal tim meskipun kurang rinci pada bagian anggota lain. | Nilai ujian individu rendah; tampak hanya menguasai potongan kecil proposal tim (*indikasi kontribusi timpang*). | Gagal menjawab soal dasar dan tidak memahami isi proposal kelompoknya sendiri (*free-rider*). |
-
-$$\text{Skor UAS Individu} = 0,25(K_1) + 0,20(K_2) + 0,15(K_3) + 0,40(K_{4,\text{individu}})$$
+| Kekeliruan | Pencegahan |
+|---|---|
+| *Halo effect* (nilai satu dimensi memengaruhi dimensi lain) | Nilai tiap dimensi secara terpisah, gunakan lembar skor per dimensi |
+| *Central tendency* (semua nilai di tengah) | Wajib memilih level, bukan angka bebas di tengah |
+| *Leniency/severity* | Moderasi antar-kelas dan *double marking* pada 10% sampel |
+| Penilaian berdasarkan usaha, bukan bukti | Skor hanya berdasarkan bukti pada artefak |
 
 ---
 
-## BAGIAN III — RUBRIK ANALITIK AKTIVITAS FORMATIF, DISKUSI KASUS, & *MINI PITCHING* (PEKAN 15)
+## 3. RUBRIK A — TUGAS 1: PETA SISTEM INFORMASI ENTERPRISE (20%)
 
-Digunakan sebagai umpan balik pembinaan (*assessment for learning*) pada diskusi kelas mingguan dan sesi *Executive Pitching* Pekan 15:
+**Cakupan CPMK:** CPMK-1 (dominan), CPMK-2 (awal) | **Sub-CPMK:** 1.1, 1.2, 2.1
 
-| Kriteria Formatif | Bobot | Sangat Baik (86–100) | Baik (76–85) | Cukup (65–75) | Kurang (< 65) |
-|---|:---:|---|---|---|---|
-| **1. Kualitas Argumen Bisnis-TI** | 40% | Argumen berbasis konsep SI, data kasus, dan logis menghubungkan teknologi dengan nilai bisnis. | Argumen tepat secara konsep dan relevan dengan kasus yang dibahas. | Argumen cukup benar namun masih mengulang teks salindia secara harfiah. | Argumen keliru konsep atau pasif tanpa kontribusi pemikiran. |
-| **2. Komunikasi & Visualisasi Salindia Pitching** | 30% | Penyampaian lugas tepat waktu (5 menit), visual ringkas berorientasi eksekutif, tidak *text-heavy*. | Penyampaian jelas, waktu terkendali, visual salindia rapi dan mudah dibaca. | Penyampaian cukup jelas namun melebihi batas waktu atau salindia terlalu penuh teks. | Membaca teks penuh tanpa kontak mata, visual tidak siap. |
-| **3. Kolaborasi Tim & Etika Diskusi (*Peer Review*)** | 30% | Seluruh anggota berbagi peran seimbang, menghargai pendapat lawan diskusi, memberi kritik konstruktif. | Pembagian peran tim baik dan aktif menanggapi pertanyaan kelas. | Hanya 1–2 anggota yang dominan berbicara mewakili kelompok. | Kerja tim tidak kompak atau tidak hadir tanpa keterangan sah. |
+| Dimensi (Bobot) | Level 4 — Sangat Baik (86–100) | Level 3 — Baik (76–85) | Level 2 — Cukup (60–75) | Level 1 — Kurang (< 60) |
+|---|---|---|---|---|
+| **A1. Ketepatan konsep DIKW & komponen SI (25%)** | Seluruh konsep didefinisikan tepat dan diterapkan kontekstual pada organisasi terpilih; tidak ada pencampuran istilah | Konsep tepat; penerapan kontekstual pada sebagian besar bagian | Terdapat 1–2 kekeliruan konsep; penerapan masih umum | Konsep data/informasi/pengetahuan tertukar; komponen SI tidak dapat dibedakan |
+| **A2. Kelengkapan & ketepatan klasifikasi sistem (30%)** | ≥ 4 tipe sistem teridentifikasi dengan fungsi, pengguna utama, dan tingkat manajemen yang tepat seluruhnya | 3–4 tipe teridentifikasi; satu atribut (pengguna/tingkat) kurang tepat | 2–3 tipe teridentifikasi; atribut sering tertukar | < 2 tipe; klasifikasi tidak berdasar bukti |
+| **A3. Kualitas analisis & argumentasi nilai bisnis (30%)** | Argumentasi kritis, didukung bukti/data publik, keterkaitan dengan strategi organisasi eksplisit | Argumentasi logis, bukti memadai, keterkaitan strategi disebut | Argumentasi deskriptif, bukti minim, keterkaitan strategi tidak jelas | Tanpa argumentasi; hanya daftar sistem |
+| **A4. Tata tulis, sitasi & deklarasi AI (15%)** | Format sempurna; sitasi IEEE konsisten; ≥ 5 rujukan kredibel; deklarasi AI lengkap dan jujur | Format rapi; sitasi konsisten; 3–4 rujukan; deklarasi AI ada | Kesalahan format/sitasi minor; 1–2 rujukan; deklarasi AI tidak rinci | Format berantakan; tanpa sitasi; tanpa deklarasi AI |
 
----
+**Contoh perhitungan:**
+A1 = 90, A2 = 80, A3 = 85, A4 = 80
+→ Skor = (0,25×90) + (0,30×80) + (0,30×85) + (0,15×80) = 22,5 + 24,0 + 25,5 + 12,0 = **84,0 (Baik)**
 
-## BAGIAN IV — RUBRIK HOLISTIK MATA KULIAH (SKALA 5 TINGKAT — KPT 2024 TABEL 18 & DOK 033)
-
-Digunakan oleh dosen pengampu untuk memvalidasi simpulan utuh profil capaian `CPL-06` (`P2` — Level *Introduce*) mahasiswa pada akhir semester:
-
-| Skor Holistik | Predikat Capaian | Deskriptor Integratif Penguasaan `STI-101` |
-|:---:|---|---|
-| **5** | **Istimewa (*Outstanding*)** | Mahasiswa menunjukkan cara pandang sistemik sosio-teknis yang matang; mampu membedakan dan mengomparasikan seluruh sistem enterprise secara presisi serta merumuskan gagasan transformasi digital berbasis AI/Cloud/IoT yang layak secara TELOS, etis, dan patuh UU PDP. |
-| **4** | **Sangat Baik (*Excellent*)** | Mahasiswa menguasai konsep komponen SI, taksonomi aplikasi enterprise, dan pilar transformasi digital dengan kuat; mampu menganalisis kasus bisnis nyata dan menyusun usulan solusi yang logis serta terstruktur baik. |
-| **3** | **Baik (*Proficient — Ambang Lulus OBE*)** | Mahasiswa memahami komponen dasar SI, perbedaan utama sistem enterprise (TPS/MIS/ERP/CRM/SCM/DSS), dan konsep dasar Cloud/AI/IoT; mampu menyusun analisis kasus dan usulan solusi yang memenuhi spesifikasi minimum tanpa melanggar *guardrail*. |
-| **2** | **Kurang (*Developing*)** | Mahasiswa baru memahami definisi terpisah secara hafalan namun masih sering keliru membandingkan fungsi sistem enterprise dan belum mampu menyusun argumen kelayakan solusi bisnis-TI yang koheren. |
-| **1** | **Sangat Kurang (*Inadequate*)** | Mahasiswa tidak menguasai konsep fundamental sistem informasi, gagal menyelesaikan tugas analisis kasus utama, atau melakukan pelanggaran integritas akademik. |
+**Ambang minimal kelulusan komponen:** 60. Skor < 60 wajib revisi dan dinilai ulang maksimal 7 hari setelah umpan balik.
 
 ---
 
-## BAGIAN V — RUBRIK SKALA PERSEPSI & REFLEKSI DIRI MAHASISWA (LIKERT 1–5 — KPT 2024 TABEL 20 & DOK 033)
+## 4. RUBRIK B — UTS: ANALISIS TAKSONOMI SI ENTERPRISE (30%)
 
-Diisi oleh seluruh mahasiswa melalui LMS Edlink pada Pekan 15 sebagai instrumen evaluasi diri ketercapaian `Sub-CPMK` (*indirect assessment*) untuk disandingkan dengan nilai ujian (*direct assessment*) pada rapat evaluasi PPEPP:
+**Cakupan CPMK:** CPMK-1, CPMK-2 | **Bentuk:** 10 PG, 5 jawaban singkat, 2 studi kasus, 1 soal analisis
 
-**Skala Persepsi:** `5 = Sangat Mampu / Sangat Setuju` · `4 = Mampu / Setuju` · `3 = Cukup Mampu / Netral` · `2 = Kurang Mampu / Tidak Setuju` · `1 = Sangat Tidak Mampu / Sangat Tidak Setuju`.
+### 4.1 Skor Objektif (45 poin)
 
-| No | Pernyataan Refleksi Penguasaan Kompetensi & Mutu Perkuliahan `STI-101` | Rujukan Sub-CPMK / Dimensi | Skala |
-|:---:|---|---|:---:|
-| 1 | Saya mampu membedakan data, informasi, pengetahuan, dan kebijaksanaan (DIKW) beserta peran strategis SI di organisasi. | `Sub-CPMK-1.1` | 1 – 2 – 3 – 4 – 5 |
-| 2 | Saya mampu memetakan ke-6 komponen sosio-teknis SI (*Hardware, Software, Data, Network, People, Process*) pada organisasi nyata. | `Sub-CPMK-1.2` | 1 – 2 – 3 – 4 – 5 |
-| 3 | Saya mampu mengklasifikasikan fungsi dan pengguna sistem TPS, MIS, DSS, ERP, CRM, dan SCM dengan tepat. | `Sub-CPMK-2.1` | 1 – 2 – 3 – 4 – 5 |
-| 4 | Saya mampu membandingkan nilai bisnis tiap sistem enterprise dan model bisnis digital (*E-Commerce/Fintech*). | `Sub-CPMK-2.2` | 1 – 2 – 3 – 4 – 5 |
-| 5 | Saya mampu menganalisis peluang *Cloud, AI,* dan *IoT* sekaligus risiko keamanan (*CIA Triad*) serta kepatuhan UU PDP pada proses bisnis. | `Sub-CPMK-3.1` | 1 – 2 – 3 – 4 – 5 |
-| 6 | Saya mampu merumuskan proposal solusi transformasi digital dan menguji kelayakannya dengan kerangka TELOS. | `Sub-CPMK-3.2` | 1 – 2 – 3 – 4 – 5 |
-| 7 | Studi kasus lokal dan metode diskusi kelas membantu saya memahami posisi Prodi SISTEKIN sebagai integrator AI ke sistem bisnis nyata. | Mutu Pembelajaran SCL | 1 – 2 – 3 – 4 – 5 |
-| 8 | Rubrik penilaian dan umpan balik dosen pada Tugas 1, UTS, dan Tugas 2 jelas, adil, serta membantu perbaikan belajar saya. | Transparansi Asesmen OBE | 1 – 2 – 3 – 4 – 5 |
+| Bagian | Bobot | Metode |
+|:--:|:--:|---|
+| Pilihan ganda (10 butir) | 20 | Skor 2 per butir; tidak ada pengurangan untuk jawaban salah |
+| Jawaban singkat (5 butir) | 25 | Skor 5 per butir; menggunakan kunci berlapis (poin per elemen jawaban) |
+
+### 4.2 Rubrik Esai & Studi Kasus (55 poin)
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **B1. Penguasaan konsep dasar (25%)** | Definisi & klasifikasi tepat seluruhnya; terminologi konsisten sepanjang jawaban | Tepat dengan 1–2 kekeliruan minor | Beberapa kekeliruan konseptual yang memengaruhi jawaban | Salah memahami konsep inti |
+| **B2. Ketepatan klasifikasi sistem (30%)** | Seluruh tipe sistem pada kasus terklasifikasi tepat beserta pengguna dan tingkat manajemen | Sebagian besar tepat; satu tipe keliru | Klasifikasi sebagian besar keliru atau tanpa justifikasi | Tidak mampu mengklasifikasikan |
+| **B3. Kualitas analisis komparatif (30%)** | Komparasi multidimensi (biaya, waktu, risiko, nilai) dengan pertimbangan *trade-off* eksplisit | Komparasi jelas; dua dimensi utama tercakup | Komparasi dangkal; satu dimensi; tanpa *trade-off* | Tidak ada komparasi |
+| **B4. Kerapian & kelengkapan jawaban (15%)** | Seluruh butir dijawab; struktur jawaban runtut; tidak ada kontradiksi | Seluruh butir dijawab; beberapa kurang runtut | Ada butir tidak dijawab atau tidak selesai | Banyak butir kosong |
+
+### 4.3 Khusus Bagian III (Studi Kasus) — Kunci Berlapis
+
+| Elemen Jawaban | Poin | Kriteria |
+|---|:--:|---|
+| Identifikasi ≥ 3 tipe sistem yang seharusnya ada | 10 | 3 poin per tipe yang tepat (maks. 9) + 1 poin kelengkapan |
+| Fungsi tiap sistem dijelaskan | 6 | 2 poin per fungsi yang tepat |
+| Komparasi dua alternatif solusi | 18 | 6 poin per dimensi (biaya, waktu, risiko) |
+| Rekomendasi dengan justifikasi | 6 | 3 poin rekomendasi + 3 poin justifikasi |
 
 ---
 
-## BAGIAN VI — TEMPLAT LEMBAR PENILAIAN CEPAT DOSEN (*SPEED GRADING SHEET* `STI-101`)
+## 5. RUBRIK C — TUGAS 2: TRANSFORMASI DIGITAL YANG BERTANGGUNG JAWAB (20%)
 
-```text
-========================================================================================================================
-                     LEMBAR REKAPITULASI PENILAIAN OBE — STI-101 PENGANTAR SISTEM & TI (2 SKS)
-========================================================================================================================
-Semester / Tahun Akademik : Semester 1 (Ganjil) / 2026-2027           CPL Dibebankan : CPL-06 (P2) [Level: Introduce]
-Klaster Rubrik            : K-4 (Sintesis & Sistem Informasi)         Ambang OBE     : >= 65.0 (Target Kohor >= 80%)
-------------------------------------------------------------------------------------------------------------------------
-No | NIM        | Nama Mahasiswa     | Tugas 1 (20%) | UTS (30%)     | Tugas 2 (20%) | UAS (30%)     | Nilai | Huruf | OBE
-   |            |                    | [CPMK-1: C2]  | [CPMK-2: C4]  | [Sub-3.1: C5] | [Sub-3.2: C5] | Akhir | Mutu  | >=65
-------------------------------------------------------------------------------------------------------------------------
-1  | 260101001  | [Nama Mhs 1]       | 85.0          | 80.0          | 84.0          | 86.0          | 83.60 | A     | YA
-2  | 260101002  | [Nama Mhs 2]       | 74.0          | 70.0          | 75.0          | 72.0          | 72.40 | B     | YA
-3  | 260101003  | [Nama Mhs 3]       | 68.0          | 65.0          | 66.0          | 68.0          | 66.70 | C+    | YA
-------------------------------------------------------------------------------------------------------------------------
-RATA-RATA KELAS PER KOMPONEN         | 75.67         | 71.67         | 75.00         | 75.33         | 74.23 | % >=65: 100%
-========================================================================================================================
+**Cakupan CPMK:** CPMK-3 (dominan), CPMK-2 (minor) | **Sub-CPMK:** 3.1, 3.2 | **Bentuk:** Paper + slide
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **C1. Ketajaman analisis akar masalah (25%)** | ≥ 3 akar masalah dengan bukti empiris, diagram sebab-akibat, dan keterkaitan ke proses bisnis jelas | 3 akar masalah dengan bukti cukup | 2 akar masalah; bukti minim | Masalah disebut tanpa analisis |
+| **C2. Kelayakan solusi teknologi (30%)** | Solusi tepat guna; arsitektur logis (AI/Cloud/IoT terintegrasi); pemilihan teknologi terjustifikasi terhadap konteks | Solusi layak; justifikasi memadai; integrasi dua teknologi | Solusi generik; justifikasi lemah; teknologi tunggal | Solusi tidak relevan dengan masalah |
+| **C3. Analisis risiko keamanan & kepatuhan (25%)** | ≥ 3 kontrol mitigasi spesifik dan terhubung eksplisit ke pasal UU PDP No. 27/2022 | 3 kontrol mitigasi; kaitan regulasi cukup | 1–2 kontrol umum; regulasi disebut sekilas | Tidak ada analisis risiko |
+| **C4. Kelayakan bisnis & tata tulis (20%)** | Analisis manfaat-biaya kuantitatif; paper rapi; ≥ 8 rujukan IEEE (≥ 3 jurnal/standar) | Analisis manfaat-biaya naratif; 5–7 rujukan | Analisis sangat umum; < 5 rujukan | Tanpa analisis kelayakan |
+
+### 5.1 Penilaian Kontribusi Tim (anti-*free-rider*)
+
+| Kondisi | Penyesuaian Skor Individu |
+|---|---|
+| Kontribusi merata, terdokumentasi (log pertemuan, commit/riwayat dokumen) | 100% dari skor kelompok |
+| Kontribusi terbukti pada ≥ 3 dari 4 dimensi | 90–100% |
+| Kontribusi parsial, tidak terdokumentasi | 70–89% |
+| Kontribusi minimal / tidak dapat menjelaskan karyanya saat verifikasi 3 menit | ≤ 50% |
+| Tidak berkontribusi | 0% |
+
+---
+
+## 6. RUBRIK D — UAS: EVALUASI KOMPREHENSIF (30%)
+
+**Cakupan CPMK:** CPMK-1, CPMK-2, CPMK-3 | **Bentuk:** 3 bagian esai
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **D1. Penguasaan konsep komprehensif (25%)** | Mengaitkan DIKW, komponen SI, tipologi sistem, dan lanskap teknologi secara utuh dan koheren | Konsep benar; keterkaitan antar-bagian sebagian | Konsep terpisah-pisah; keterkaitan lemah | Salah konsep mendasar |
+| **D2. Ketepatan analisis portofolio SI (30%)** | Identifikasi kesenjangan portofolio tepat; prioritas berbasis nilai dan risiko | Analisis tepat; prioritas kurang tajam | Analisis umum; tanpa prioritas | Tidak mampu menganalisis |
+| **D3. Kelayakan rancangan solusi (30%)** | Solusi kontekstual; arsitektur logis; indikator terukur; estimasi biaya realistis | Solusi layak; sebagian indikator belum terukur | Solusi generik; indikator tidak terukur | Solusi tidak dapat diimplementasikan |
+| **D4. Etika, kepatuhan & komunikasi (15%)** | Aspek etika/PDP ditangani eksplisit; uraian ringkas, profesional, bebas ambiguitas | Aspek etika disebut; uraian jelas | Etika disebut sebagai formalitas | Mengabaikan etika & kepatuhan |
+
+### 6.1 Kunci Berlapis Bagian III (40 poin)
+
+| Elemen | Poin | Kriteria |
+|---|:--:|---|
+| Rumusan masalah & target kinerja | 6 | Masalah spesifik + target kuantitatif (mis. 45′ → 15′) |
+| Arsitektur solusi & justifikasi | 12 | 4 poin per komponen (cloud/on-premise, AI, IoT) yang relevan |
+| Mitigasi risiko & kepatuhan | 8 | 4 poin risiko + 4 poin kontrol |
+| Estimasi manfaat & biaya | 8 | 4 poin manfaat terukur + 4 poin biaya realistis |
+| Indikator keberhasilan | 6 | 3 indikator, masing-masing 2 poin (terukur & relevan) |
+
+---
+
+## 7. RUBRIK E — PRESENTASI DAN PARTISIPASI (FORMATIF)
+
+**Digunakan:** Pekan 5 (*gallery walk*), Pekan 15 (presentasi gagasan), dan sesi diskusi
+
+| Dimensi (Bobot) | Level 4 (86–100) | Level 3 (76–85) | Level 2 (60–75) | Level 1 (< 60) |
+|---|---|---|---|---|
+| **E1. Penguasaan materi (40%)** | Menguasai penuh; menjawab pertanyaan kritis secara ilmiah | Memahami materi; jawaban tepat dan logis | Pemahaman cukup; ragu saat tanya jawab | Tidak menguasai materi |
+| **E2. Kualitas media visual (30%)** | Slide profesional; visual infografis kuat; data terstruktur | Slide rapi; teks terbaca; visual mendukung | Slide terlalu padat teks; visual minim | Slide buruk/tidak terstruktur |
+| **E3. Artikulasi & alokasi waktu (30%)** | Lugas, percaya diri, kontak mata baik, tepat waktu | Komunikasi jelas; intonasi baik; waktu pas | Suara monoton; melebihi batas waktu | Komunikasi pasif; tidak terkontrol |
+
+---
+
+## 8. RUBRIK F — SIKAP, ETIKA, DAN INTEGRITAS AKADEMIK (SYARAT)
+
+| Aspek | Indikator Terpenuhi | Indikator Tidak Terpenuhi |
+|---|---|---|
+| Kehadiran | ≥ 75% pertemuan | < 75% pertemuan → nilai maksimum D |
+| Ketepatan pengumpulan | ≥ 80% tugas tepat waktu | < 50% tugas terlambat berat |
+| Deklarasi AI | Seluruh tugas menyertakan deklarasi | Ada tugas tanpa deklarasi |
+| Orisinalitas | Kemiripan ≤ 25%; dapat menjelaskan karya | Kemiripan > 25% atau tidak dapat menjelaskan karya |
+| Etika kelas | Menghormati dosen dan sesama; aktif konstruktif | Mengganggu, tidak menghormati, atau manipulatif |
+
+**Konsekuensi:** pelanggaran integritas akademik berat (plagiarisme, pemalsuan data, kerja sama terlarang) dikenakan nilai 0 pada komponen terkait dan diproses sesuai Peraturan Akademik Universitas.
+
+---
+
+## 9. REKAPITULASI BOBOT DAN KONVERSI
+
+### 9.1 Rekap Bobot Asesmen
+
+| Rubrik | Bobot terhadap NA | Skor Maksimum |
+|:---:|:---:|:---:|
+| R-A Tugas 1 | 20% | 100 |
+| R-B UTS | 30% | 100 |
+| R-C Tugas 2 | 20% | 100 |
+| R-D UAS | 30% | 100 |
+| **Total** | **100%** | |
+
+### 9.2 Konversi Nilai
+
+| NA | Huruf | Bobot | Status |
+|:---:|:---:|:---:|:---:|
+| 86–100 | A | 4,00 | Lulus |
+| 76–85 | B+ | 3,50 | Lulus |
+| 70–75 | B | 3,00 | Lulus |
+| 66–69 | C+ | 2,50 | Lulus |
+| 60–65 | C | 2,00 | Lulus (batas) |
+| 56–59 | D | 1,00 | Tidak lulus |
+| 0–55 | E | 0,00 | Tidak lulus |
+
+### 9.3 Contoh Perhitungan Lengkap
+
+| Komponen | Skor | Bobot | Kontribusi |
+|:---:|:---:|:---:|:---:|
+| Tugas 1 | 84 | 20% | 16,80 |
+| UTS | 72 | 30% | 21,60 |
+| Tugas 2 | 88 | 20% | 17,60 |
+| UAS | 80 | 30% | 24,00 |
+| **Nilai Akhir** | | | **80,00 → B+** |
+
+Ketercapaian CPMK mahasiswa tersebut:
+- CPMK-1 = 0,60×84 + 0,40×72 = **79,2**
+- CPMK-2 = 0,70×72 + 0,30×80 = **74,4**
+- CPMK-3 = 0,50×88 + 0,50×80 = **84,0**
+
+Seluruh CPMK ≥ 60 → **tuntas CPMK**. Kontribusi ke CPL-06 (P2) = 80,0 ≥ 65,0 → **tuntas CPL**.
+
+---
+
+## 10. LEMBAR REKAP PENILAIAN (SPEED GRADING SHEET)
+
 ```
+================================================================================
+LEMBAR ASESMEN OBE CEPAT — STI-101 PENGANTAR SISTEM DAN TEKNOLOGI INFORMASI
+Kelas: ____ | Semester: 1 | Tahun Akademik: ____ | Dosen: __________________
+--------------------------------------------------------------------------------
+No | NIM | Nama | T1 (20%) | UTS (30%) | T2 (20%) | UAS (30%) | NA | Grade
+   |     |      | [CPMK-1] | [CPMK-1,2]| [CPMK-3] | [Komp.]   |    |
+--------------------------------------------------------------------------------
+ 1 |     |      |          |           |          |           |    |
+ 2 |     |      |          |           |          |           |    |
+ 3 |     |      |          |           |          |           |    |
+--------------------------------------------------------------------------------
+RATA-RATA CPMK-1: ____ | CPMK-2: ____ | CPMK-3: ____ | TUNTAS CPL: ____%
+================================================================================
+```
+
+**Petunjuk pengisian:** isi skor 0–100 per komponen; NA dihitung otomatis dengan rumus 9.1; kolom Grade diisi berdasarkan tabel 9.2; rekap CPMK dihitung dengan rumus Bagian 6.2 dokumen 055_4.
+
+---
+
+## 11. MODERASI, VALIDASI, DAN TINDAK LANJUT
+
+| Aktivitas | Ketentuan |
+|---|---|
+| Validasi rubrik sebelum digunakan | Ditelaah Koordinator RMK dan UPM FSTI |
+| Moderasi antar-kelas | 10% sampel dinilai ulang oleh dosen kedua; selisih > 10 poin dibahas bersama |
+| Kalibrasi penilai | Sesi kalibrasi 60 menit sebelum penilaian tugas besar |
+| Dokumentasi | Lembar skor per dimensi diarsipkan bersama artefak mahasiswa |
+| Revisi rubrik | Dilakukan bila > 20% mahasiswa memperoleh level 1 pada dimensi yang sama |
+| Pelaporan | Rekap ke Koordinator RMK paling lambat 7 hari setelah asesmen |
+
+---
+
+## 12. RIWAYAT REVISI
+
+| Versi | Tanggal | Perubahan | Penyusun |
+|:---:|:---:|---|---|
+| 1.0 | 07 November 2026 | Penyusunan awal; 6 rubrik (A–F) untuk 3 CPMK | Tim Pengembang RPS SISTEKIN |
+
+---
+
+*Rubrik ini merupakan turunan langsung dari CPMK/Sub-CPMK Dokumen 043 dan skema asesmen Dokumen 008. Setiap perubahan bobot atau dimensi wajib disertai revisi dokumen 055_1 dan 055_4.*
