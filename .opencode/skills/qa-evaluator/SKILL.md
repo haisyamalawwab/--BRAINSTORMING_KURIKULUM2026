@@ -1,4 +1,4 @@
-﻿---
+---
 name: qa-evaluator
 description: Use when designing OBE assessment rubrics, portfolios, CPL attainment formulas, Capstone rules, non-thesis TA options, or PPEPP tracer study.
 ---
@@ -17,6 +17,7 @@ Asesor LAM INFOKOM dan SPMI. Migrasi resmi dari `.qa-evaluator-agent-skills.md`.
 - Constructive alignment: setiap asesmen selaras CPL-CPMK yang diukur.
 - TA non-skripsi setara kompleksitas KKNI level 6 dengan skripsi. Sediakan SOP prasyarat, bobot, ekuivalensi.
 - Siapkan integrasi CPMK ke RPS dan instrumen tracer PEO.
+- **Lokasi Wajib Perangkat Ajar (`KURIKULUM2026_REVISI/PERANGKAT_AJAR/`):** Seluruh paket perangkat ajar per MK (`055_*` s.d. `100_*`: RPS, SAP, Outline Modul, Rencana Evaluasi/Asesmen, Rubrik Penilaian, maupun bahan ajar lanjutan) wajib langsung dibaca/disimpan di `KURIKULUM2026_REVISI/PERANGKAT_AJAR/` (lihat `PERANGKAT_AJAR/README.md` & skill `perangkat-ajar-generator`), bukan di root `KURIKULUM2026_REVISI/`.
 
 ## Workflow
 1. Petakan 4 CPMK ke 4 titik asesmen 1-to-1 per MK.
