@@ -1,5 +1,7 @@
 # DIREKTORI PERANGKAT AJAR OBE — PRODI S1 SISTEKIN FSTI UWG (KURIKULUM 2026)
 
+[Indeks lengkap dan tautan lima dokumen per MK](../INDEX.md#perangkat-ajar-core-sti-dan-peminatan) · [README repositori](../../README.md)
+
 > **INSTRUKSI WAJIB BAGI SELURUH GENERATOR BAHAN AJAR & AGENT AI (OpenCode, Arena, Claude Code, Cursor, Skrip Python, maupun Kontributor Manual):**
 >
 > 1. **Satu-satunya Lokasi Keluaran Perangkat Ajar:** Seluruh paket perangkat ajar mata kuliah (**RPS, SAP, Outline Modul, Rencana Evaluasi & Asesmen, Rubrik Penilaian**, maupun ekspansi **Modul Ajar Utuh, Bank Soal, Jobsheet Praktikum, dan Slide Perkuliahan**) **WAJIB langsung dibuat, diperkaya, dan disimpan di dalam folder `KURIKULUM2026_REVISI/PERANGKAT_AJAR/` ini**.
@@ -31,7 +33,9 @@ KURIKULUM2026_REVISI/PERANGKAT_AJAR/<NNN>_<SUB>_<JENIS>_<KODE-MK>_<NAMA_MK_KAPIT
 
 ---
 
-> **Revisi STI-311:** Paket `065_1`–`065_5` diselaraskan ke HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap/Tailwind dasar dan JavaScript dasar; tidak mencakup React/API. Detail dan status validasi ada di `../043_STI-311_WEB_FRONT_END_DEVELOPMENT_DASAR_USULAN_07112026.md` dan `../LAPORAN_AUDIT_DAMPAK_STI-311.md`.
+> **Revisi STI-311:** Paket `065_1`–`065_5` diselaraskan ke HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap/Tailwind dasar dan JavaScript dasar; tidak mencakup React/API. Buka [rancangan 043 STI-311](../043_STI-311_WEB_FRONT_END_DEVELOPMENT_DASAR_USULAN_07112026.md), [audit dampak dan status validasi](../LAPORAN_AUDIT_DAMPAK_STI-311.md), atau [tautan paket STI-311](../INDEX.md#semester-3). Revisi menunggu tinjauan/pengesahan RMK dan prodi. Ekspor non-Markdown dan pilot lama dapat belum selaras.
+>
+> **Paket di luar cakupan:** `113_1`–`113_5` untuk FST-714 Skripsi / Tugas Akhir tersedia terpisah, bukan bagian dari 46 MK Core STI/peminatan. [Buka kelima dokumen FST-714](../INDEX.md#paket-di-luar-cakupan-46-mk).
 
 ## 2. Daftar Nomor Urut Baku `<NNN>` (`055` s.d. `100` — 46 MK Core STI & Peminatan)
 

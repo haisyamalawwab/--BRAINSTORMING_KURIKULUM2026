@@ -2,8 +2,7 @@ import os
 import re
 import glob
 import html
-import markdown
-from markdown.extensions.toc import TocExtension
+import argparse
 
 # List of all curriculum documents in sequence
 DOC_FILES = [
@@ -75,6 +74,7 @@ WORKDIR = os.path.dirname(SCRIPT_DIR)
 
 def process_alerts(md_text):
     """Convert GitHub style alerts like > [!IMPORTANT] to styled HTML blocks."""
+    import markdown
     alert_types = {
         'IMPORTANT': ('alert-important', '⚡', 'IMPORTANT'),
         'NOTE': ('alert-note', 'ℹ️', 'NOTE'),
@@ -391,7 +391,7 @@ def build_full_html(filename, title, content_html, prev_doc, next_doc):
         </main>
 
         <footer class="footer no-print">
-            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p><strong>Dokumen kerja Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
 
@@ -413,14 +413,14 @@ def build_index_html():
         html_fn = doc_fn.replace('.md', '.html')
         doc_code = doc_fn.split('_')[0]
         cards_html.append(f'''
-        <div class="portal-card" onclick="window.location.href='{html_fn}'">
-            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">{doc_code}</div>
-            <h3>{doc_title}</h3>
-            <p>Buka dokumen kurikulum interaktif lengkap dengan tabel, visualisasi, dan diagram alur.</p>
+        <a class="portal-card" href="{html.escape(html_fn, quote=True)}">
+            <div class="badge badge-primary" style="margin-bottom: 10px; display: inline-block;">{html.escape(doc_code)}</div>
+            <h3>{html.escape(doc_title)}</h3>
+            <p>Salinan HTML; periksa versi Markdown untuk perubahan terbaru.</p>
             <div class="portal-card-footer">
-                <span class="portal-card-link">Buka Dokumen →</span>
+                <span class="portal-card-link">Buka HTML →</span>
             </div>
-        </div>''')
+        </a>''')
     cards_str = '\n'.join(cards_html)
     
     index_html = f'''<!DOCTYPE html>
@@ -449,8 +449,8 @@ def build_index_html():
 
         <section class="hero" style="text-align: center;">
             <div class="hero-badge-group" style="justify-content: center;">
-                <span class="badge badge-primary">SINGLE SOURCE OF TRUTH DEFINITIF</span>
-                <span class="badge badge-accent">AKREDITASI & LAM INFOKOM READY</span>
+                <span class="badge badge-primary">DOKUMEN KERJA KURIKULUM</span>
+                <span class="badge badge-accent">PERLU VALIDASI AKADEMIK</span>
             </div>
             <h1 class="hero-title" style="margin-bottom: 12px;">Buku Kurikulum KPT-OBE SISTEKIN 2026</h1>
             <p class="hero-subtitle" style="margin: 0 auto 24px auto; color: var(--text-secondary);">Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang</p>
@@ -461,12 +461,24 @@ def build_index_html():
             </div>
         </section>
 
+        <section aria-labelledby="status-heading" style="margin: 0 0 24px; padding: 20px; border: 1px solid var(--border-color); border-radius: 12px;">
+            <h2 id="status-heading">Status dan navigasi terbaru</h2>
+            <p>Salinan HTML, XLSX, DOCX dan PDF dapat tertinggal dari Markdown. Khususnya, HTML 043 dan dokumen lain dapat masih memuat materi STI-311 sebelum revisi. Gunakan tautan Markdown di bawah; penggabungan berkas bukan pengesahan akademik.</p>
+            <ul>
+                <li><a href="../INDEX.md">Indeks Markdown lengkap dan tautan paket per MK</a></li>
+                <li><a href="../043_STI-311_WEB_FRONT_END_DEVELOPMENT_DASAR_USULAN_07112026.md">Rancangan STI-311 terbaru (Markdown)</a> · <a href="../LAPORAN_AUDIT_DAMPAK_STI-311.md">Audit dampak dan keputusan yang menunggu RMK/prodi</a></li>
+                <li><a href="../043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md">Matriks 043 induk (Markdown)</a> · <a href="../007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md">007 (Markdown)</a> · <a href="../037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md">037 (Markdown)</a></li>
+                <li><a href="../PERANGKAT_AJAR/README.md">Manifest perangkat ajar</a> · <a href="../../README.md">README repositori</a></li>
+            </ul>
+            <p>Markdown dapat ditampilkan sebagai teks mentah oleh server statis; buka di penampil Markdown atau GitHub untuk tampilan terformat.</p>
+        </section>
+        <h2>Salinan HTML sebelumnya</h2>
         <main class="portal-grid">
             {cards_str}
         </main>
 
         <footer class="footer">
-            <p><strong>Dokumen Resmi Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
+            <p><strong>Dokumen kerja Kurikulum KPT-OBE SISTEKIN 2026</strong></p>
             <p>Tim Pengembang Kurikulum FSTI — Universitas Widyagama Malang © 2026</p>
         </footer>
     </div>
@@ -478,6 +490,8 @@ def build_index_html():
     return index_html
 
 def convert_all():
+    import markdown
+
     md = markdown.Markdown(
         extensions=[
             'extra',
@@ -567,5 +581,15 @@ def convert_all():
     print("Semua file HTML berhasil di-generate dan diselaraskan!")
 
 if __name__ == '__main__':
-    convert_all()
+    parser = argparse.ArgumentParser(description="Generate the HTML portal or all HTML documents.")
+    parser.add_argument('--index-only', action='store_true', help='Update only HTML/index.html; no Markdown dependency required')
+    args = parser.parse_args()
+    if args.index_only:
+        index_path = os.path.join(WORKDIR, 'HTML', 'index.html')
+        os.makedirs(os.path.dirname(index_path), exist_ok=True)
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(build_index_html())
+        print(f'Generated: {index_path}')
+    else:
+        convert_all()
 
