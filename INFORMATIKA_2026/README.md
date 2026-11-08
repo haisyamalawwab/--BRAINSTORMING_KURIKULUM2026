@@ -4,10 +4,10 @@ Ekstraksi dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](ht
 
 | Hasil | Isi |
 |---|---|
-| [CPL](CPL.md) | 10 CPL, profil lulusan terkait, dan matriks CPL–BK sumber. |
-| [CPMK dan Sub-CPMK](CPMK.md) | Kodifikasi, prinsip, dan contoh asesmen; batas ketersediaan rumusan per MK. |
-| [BoK dan bahan kajian](BOK_DAN_BAHAN_KAJIAN.md) | 10 BK, ruang lingkup, matriks CPL–BK dan contoh MK pengampu. |
-| [Pemetaan MK–CPL–BK](PEMETAAN_MK_CPL_BK.md) | Tabel 18 per semester serta 83 baris unik Tabel 15. |
+| [CPL](001_CPL_TEKNIK_INFORMATIKA_07112026_0859.md) | 10 CPL, profil lulusan terkait, dan matriks CPL–BK sumber. |
+| [CPMK dan Sub-CPMK](002_CPMK_TEKNIK_INFORMATIKA_07112026_0859.md) | Kodifikasi, prinsip, dan contoh asesmen; batas ketersediaan rumusan per MK. |
+| [BoK dan bahan kajian](003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md) | 10 BK, ruang lingkup, matriks CPL–BK dan contoh MK pengampu. |
+| [Pemetaan MK–CPL–BK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md) | Tabel 18 per semester serta 83 baris unik Tabel 15. |
 
 ## Identitas dan keterlacakan sumber
 
@@ -23,6 +23,10 @@ Ekstraksi dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](ht
 3. Bab IX memberi prinsip pemetaan CPMK, tetapi tidak ditemukan rumusan per MK dalam teks dan tabel utama. Tabel 29 Bab XI hanya memuat **contoh** label dan bobot; tidak digunakan untuk menciptakan CPMK per MK.
 4. Sel relasi pada Tabel 12 (CPL–PL) dan Tabel 19 (CPL–MK) kosong dalam teks DOCX. Tabel 11 dan Tabel 18 diekstrak apa adanya sebagai sumber relasi yang eksplisit; ketidaksesuaian antartabel belum direkonsiliasi.
 5. Hasil ini merupakan transkripsi rujukan dan **tidak membuktikan validasi atau pengesahan akademik**. Dokumen sumber menyebut 146 SKS dalam Bab VII; angka tersebut untuk Teknik Informatika dan tidak otomatis menggantikan statistik prodi lain.
+
+## Penamaan
+
+Berkas hasil ekstraksi menggunakan format `00x_NAMA_DDMMYYYY_HHMM.md`. Nomor, tanggal, dan waktu pada nama ditetapkan untuk versi hasil ini agar regenerasi tidak membuat duplikat; `README.md` tetap sebagai indeks folder.
 
 ## Reproduksi
 

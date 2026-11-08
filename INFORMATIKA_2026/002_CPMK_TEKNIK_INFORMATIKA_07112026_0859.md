@@ -49,8 +49,8 @@ Tabel ini mencantumkan label CPMK dan Sub-CPMK serta bobot, bukan deskripsi kema
 
 ## Sumber relasi yang sudah tersedia
 
-- CPL dan profil lulusan: [CPL](CPL.md).
-- CPL–BK dan uraian BK: [BoK dan bahan kajian](BOK_DAN_BAHAN_KAJIAN.md).
-- CPL yang dibebankan per MK menurut Tabel 18: [pemetaan MK](PEMETAAN_MK_CPL_BK.md).
+- CPL dan profil lulusan: [CPL](001_CPL_TEKNIK_INFORMATIKA_07112026_0859.md).
+- CPL–BK dan uraian BK: [BoK dan bahan kajian](003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md).
+- CPL yang dibebankan per MK menurut Tabel 18: [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md).
 
 Matriks CPL–CPMK–MK dan MK–CPMK–Sub-CPMK yang berisi deskripsi spesifik **tidak dibuat atau direka** pada hasil ini.
