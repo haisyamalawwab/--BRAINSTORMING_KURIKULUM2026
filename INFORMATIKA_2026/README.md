@@ -1,6 +1,6 @@
 # Ekstraksi KPT Teknik Informatika UWG 2026
 
-Ekstraksi dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](https://github.com/rozanhaisyam/--BRAINSTORMING_KURIKULUM2026/blob/91b793377cd4b051f7bdcb89d3c19427ff344f9d/KPT_FIX_3PRODI/KPT%20Program%20Studi/Buku%20KPT%20OBE%20Teknik%20Informatika%20UWG%202026%20%5BUpdate%2011%20September%202026%5D.docx), bukan panduan Informatika APTIKOM umum dan bukan kurikulum SISTEKIN.
+Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](https://github.com/rozanhaisyam/--BRAINSTORMING_KURIKULUM2026/blob/91b793377cd4b051f7bdcb89d3c19427ff344f9d/KPT_FIX_3PRODI/KPT%20Program%20Studi/Buku%20KPT%20OBE%20Teknik%20Informatika%20UWG%202026%20%5BUpdate%2011%20September%202026%5D.docx), bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika.
 
 | Hasil | Isi |
 |---|---|
@@ -11,6 +11,7 @@ Ekstraksi dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](ht
 | [005 — pemetaan APTIKOM](005_PEMETAAN_APTIKOM_MK_INFORMATIKA_07112026_0910.md) | Kandidat 22 BK APTIKOM untuk 83 MK berdasarkan judul; bukan validasi isi. |
 | [006 — analisis dan survei pustaka](006_ANALISIS_DAN_SURVEI_PUSTAKA_INFORMATIKA_07112026_0910.md) | Analisis hubungan tabel, perbedaan rujukan dan tindak lanjut. |
 | [007 — instrumen survei](007_INSTRUMEN_SURVEI_VALIDASI_INFORMATIKA_07112026_0910.md) | Rancangan survei dan validasi; belum ada respons. |
+| [008 — Tabel 4 BK APTIKOM Informatika](008_TABEL_4_RUMUSAN_BAHAN_KAJIAN_APTIKOM_INFORMATIKA_07112026_0942.md) | Transkripsi 22 BK beserta bobot dan referensi. |
 
 ## Identitas dan keterlacakan sumber
 
