@@ -1,5 +1,7 @@
 # LAPORAN PENGEMBANGAN RPS STI-311 — PENGEMBANGAN WEB FRONT END
 
+> **Laporan historis:** mencatat versi pilot lama yang memuat React/SPA/API; tidak menggambarkan revisi STI-311 terkini. Lihat `LAPORAN_AUDIT_DAMPAK_STI-311.md` dan paket `PERANGKAT_AJAR/065_*`.
+
 Unit pilot ke-2 RPS Batch Generator FSTI UWG (isi penuh template) — mengikuti Master Prompt Generator RPS OBE (Dok 053) tahap T0–T6. Tanggal: 30 September 2026.
 
 ## 1. Tabel Keluaran

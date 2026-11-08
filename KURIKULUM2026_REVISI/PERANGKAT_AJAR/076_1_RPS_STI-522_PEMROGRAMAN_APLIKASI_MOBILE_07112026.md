@@ -4,6 +4,9 @@
 
 **Identitas:** `STI-522` Pemrograman Aplikasi Mobile · Semester 5 · 3 SKS (+P) · Prasyarat: `STI-311`, `STI-416` · PL-3 · PEO-1, PEO-2 · IRM R · Rubrik K-2.
 
+
+> **Audit kesinambungan STI-522:** Bekal STI-311 terbatas pada HTML/CSS/Flexbox dan JavaScript dasar; Flutter/Dart, state mobile dan sinkronisasi API belum dijamin dari STI-311. Mulai dengan diagnostik dan pengantar sesuai minggu awal yang sudah direncanakan; uji ulang kesiapan sebelum praktik BLoC minggu 7 dan asesmen API. Rekomendasi pengayaan di laporan audit belum menjadi tambahan beban resmi. Lihat `../LAPORAN_AUDIT_DAMPAK_STI-311.md`.
+
 ## 1. Identitas dan otorisasi
 
 Prodi S1 Sistem dan Teknologi Informasi, FSTI Universitas Widyagama Malang. Dosen pengampu, koordinator RMK, tanggal dan tanda tangan: **diisi pada pengesahan**. Beban per minggu: **TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit**; PT = penugasan terstruktur, BM = belajar mandiri.

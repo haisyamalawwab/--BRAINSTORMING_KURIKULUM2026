@@ -1,5 +1,7 @@
 # RPS STI-311 — PENGEMBANGAN WEB FRONT END (*Web Front End Development*) — V2 VANILLA
 
+> **Arsip historis — tidak selaras dengan rancangan STI-311 terbaru.** Untuk lingkup HTML/CSS/Flexbox, Bootstrap/Tailwind dan JavaScript dasar, gunakan dokumen turunan 043 dan `PERANGKAT_AJAR/065_*`. Rekonsiliasi resmi masih menunggu pengesahan prodi.
+
 **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  
 **Fakultas:** Sains dan Teknologi Informasi (FSTI) — Universitas Widyagama Malang  
 **Nomor Dokumen:** 071030.B4.5.2.RPS-STI311  

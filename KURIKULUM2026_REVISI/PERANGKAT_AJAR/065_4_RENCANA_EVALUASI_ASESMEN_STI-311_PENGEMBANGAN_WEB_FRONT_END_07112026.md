@@ -1,82 +1,72 @@
-# 065_4 — RENCANA EVALUASI DAN ASESMEN PEMBELAJARAN BERBASIS OBE
+# 065_4 — RENCANA EVALUASI DAN ASESMEN
+
 ## STI-311 — PENGEMBANGAN WEB FRONT END (*Web Front End Development*)
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI311` · **Bobot:** 3 SKS (`T=2, P=1`) · **Semester:** 3  
-**Klaster Asesmen MK (Dok 018):** Klaster 2 (`K-2`) — Pemrograman, Algoritma, Basis Data, & Platform Web/Mobile  
-**CPL Dibebankan:** `CPL-08` (`P4` = **45%**) & `CPL-13` (`KK5` = **55%**) [Level `R` — *Reinforce*]  
-**Tanggal Penyusunan:** 07 November 2026  
+**Identitas:** `STI-311` Pengembangan Web Front End (*Web Front End Development*) · Core STI · Semester 3 · 3 SKS (+P, 2T+1P) · Prasyarat `FST-102` Algoritma dan Pemrograman.
 
----
+> **Revisi 7 November 2026 — rancangan:** diselaraskan dengan Dok 005 dan dokumen turunan 043; belum disahkan koordinator atau prodi. Tidak mengubah identitas/SKS/prasyarat.
 
-## 1. ARSITEKTUR EVALUASI 4 TITIK BAKU & KEPATUHAN IKU 7
+## Pemetaan dan bobot
 
-Selaras **Dokumen 008, 018, 043,** dan unit perintis kanonis `RPS_STI-311_Web_Front_End_Development.md`, mata kuliah berpraktikum `STI-311` (3 SKS `+P`) menggunakan skema bobot baku MK `+P` (`20% / 25% / 25% / 30%`) dengan pemetaan 1-ke-1 ke keempat CPMK:
-* **Tugas 1 (Pekan 4 — 20%) → `CPMK-1` (`CPL-08` / `P4`)** — *Responsive & Accessible HTML5 + CSS3 Flexbox/Grid Web Slicing*.
-* **UTS (Pekan 8 — 25%) → `CPMK-2` (`CPL-08` / `P4`)** — *Live Coding Exam: JavaScript ES6+, DOM Manipulation, & Async/Await Fetch API*.
-* **Tugas 2 (Pekan 12 — 25%) → `CPMK-3` (`CPL-13` / `KK5`)** — *Project-Based Reusable Component React SPA (Hooks, Router, Context)*.
-* **UAS (Pekan 16 — 30%) → `CPMK-4` (`CPL-13` / `KK5`)** — *Project-Based RESTful API Integrated Web App + Verified Lighthouse $\ge 85$ & Live Defense*.
-* **Kepatuhan IKU 7 ($\ge 70\%$ untuk Klaster `K-2` Dok 018):** `Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) = 75%` berbasis studi kasus implementasi dan proyek aplikasi web nyata *(persis selaras dengan tabel IKU 7 Dokumen 004 untuk `STI-311` = 75%)*.
+Pemetaan berikut merupakan **usulan** dengan satu CPMK utama untuk setiap instrumen. Keterampilan sebelumnya boleh digunakan sebagai prasyarat pengerjaan, tetapi penilaian tiap instrumen difokuskan pada CPMK yang dipetakan agar bobot tidak dihitung dua kali.
 
----
+| CPMK / CPL | Tugas 1 Mg 4 | UTS Mg 8 | Tugas 2 Mg 12 | UAS Mg 16 | Total |
+|---|---:|---:|---:|---:|---:|
+| `CPMK-1` / `CPL-08` | 20% | — | — | — | 20% |
+| `CPMK-2` / `CPL-08` | — | 25% | — | — | 25% |
+| `CPMK-3` / `CPL-13` | — | — | 25% | — | 25% |
+| `CPMK-4` / `CPL-13` | — | — | — | 30% | 30% |
+| **Total nilai MK** | **20%** | **25%** | **25%** | **30%** | **100%** |
 
-## 2. MATRIKS DISTRIBUSI BOBOT PENILAIAN TERHADAP CPL, CPMK, & SUB-CPMK (KPT 2024 TABEL 26)
+| Instrumen | Kriteria dan bobot di dalam instrumen | Bukti minimal |
+|---|---|---|
+| **Tugas 1 — HTML** | Struktur dan semantik 35%; kelengkapan konten, tabel dan tautan 25%; formulir dan label 25%; kerapian berkas 15%. | Berkas HTML, aset lokal berizin, dan daftar pengecekan elemen. |
+| **UTS — CSS, Flexbox dan pengenalan framework** | Selektor dan box model 20%; properti Flexbox container/item 35%; responsivitas dua ukuran layar 25%; pengenalan kelas Bootstrap dan Tailwind 20%. | Halaman dan stylesheet, tangkapan dua ukuran layar, serta latihan kelas dasar kedua framework. |
+| **Tugas 2 — kalkulator** | Operasi aritmetika dan logika JS 30%; DOM dan event 20%; penanganan input dan pembagi nol 20%; penggunaan kelas Bootstrap atau Tailwind 15%; kode dan hasil uji 15%. | Berkas kalkulator dan tabel uji operasi, input kosong serta pembagi nol. |
+| **UAS — landing page** | Struktur HTML dan konten 20%; CSS/Flexbox dan responsivitas 25%; interaksi JavaScript dasar 20%; pengujian dan perbaikan 20%; dokumentasi dan demonstrasi individual 15%. | Landing page lokal, petunjuk menjalankan, kasus uji dengan hasil, dan demonstrasi. |
 
-| Kode CPL | Kode CPMK (Bloom) | Kode Sub-CPMK | Pekan Uji | Bentuk & Teknik Penilaian | Instrumen Penilaian | Sifat | Bobot Sub (%) | Total CPMK (%) |
-|:---:|:---:|:---:|:---:|---|---|---|:---:|:---:|
-| **`CPL-08`**<br>(`P4` — 45%)<br>*Level: R* | **`CPMK-1`**<br>(C3) | `Sub-CPMK-1.1` | Mg 4 | Proyek individu: Konstruksi halaman **HTML5 semantik** valid W3C berstandar aksesibilitas dasar | **RTM-1 (Tugas 1)** + Uji *W3C Validator & Lighthouse A11y* + Rubrik T1 | Sumatif | 8% | **20%** |
-| | | `Sub-CPMK-1.2` | Mg 4 | Proyek individu: Tata letak **CSS3 Flexbox & Grid** responsif adaptif lintas resolusi (*360px–1440px*) | **RTM-1 (Tugas 1)** + Uji *DevTools Responsive* + Rubrik T1 | Sumatif | 12% | |
-| **`CPL-08`**<br>(`P4` — 45%)<br>*Level: R* | **`CPMK-2`**<br>(C3) | `Sub-CPMK-2.1` | Mg 8 | Ujian praktik *live coding* lab: Interaktivitas halaman dengan **JavaScript ES6+** & manipulasi **DOM** bersih | **Soal Praktik UTS** (Bagian ES6+ & DOM) + Rubrik Analitik UTS | Sumatif | 13% | **25%** |
-| | | `Sub-CPMK-2.2` | Mg 8 | Ujian praktik *live coding* lab: Konsumsi data JSON asinkron **Fetch API & `async/await`** bebas *error* | **Soal Praktik UTS** (Bagian Async Fetch) + Rubrik Analitik UTS | Sumatif | 12% | |
-| **`CPL-13`**<br>(`KK5` — 55%)<br>*Level: R* | **`CPMK-3`**<br>(C6) | `Sub-CPMK-3.1` | Mg 12 | Proyek aplikasi **React SPA**: Arsitektur komponen *reusable* (*Component, Props, State, Hooks*) | **RTM-2 (Tugas 2)** + *Code Walkthrough* Lab + Rubrik T2 | Sumatif | 14% | **25%** |
-| | | `Sub-CPMK-3.2` | Mg 12 | Proyek aplikasi **React SPA**: Navigasi multi-rute **React Router**, **Context API**, & *Custom Hook* | **RTM-2 (Tugas 2)** + Demo Lab + Rubrik Analitik T2 | Sumatif | 11% | |
-| **`CPL-13`**<br>(`KK5` — 55%)<br>*Level: R* | **`CPMK-4`**<br>(C5) | `Sub-CPMK-4.1` | Mg 16 | Proyek produksi + sidang: Integrasi penuh **RESTful API** eksternal (*CRUD/Query, Loading, Error States*) | **Repositori & Live App UAS** + Uji *Network Tab* + Rubrik UAS | Sumatif | 15% | **30%** |
-| | | `Sub-CPMK-4.2` | Mg 16 | Proyek produksi + sidang: Optimasi *Code Splitting & Core Web Vitals* terverifikasi **Lighthouse $\ge 85$** | **Audit Lighthouse Langsung** & Uji Modifikasi Kode + Rubrik UAS | Sumatif | 15% | |
-| **TOTAL** | **4 CPMK** | **8 Sub-CPMK** | **16 Pekan** | **4 Titik Evaluasi Baku (20/25/25/30)** | **4 Paket Instrumen Lengkap** | **Sumatif** | **100%** | **100%** |
+Setiap kriteria dinilai 0–100; skor instrumen adalah jumlah nilai kriteria dikalikan bobotnya. **Nilai akhir MK** = (20 × skor Tugas 1 + 25 × skor UTS + 25 × skor Tugas 2 + 30 × skor UAS) / 100. Bukti CPMK diambil dari instrumen utama masing-masing; agregasi ketercapaian CPL lintas MK tetap mengikuti Dokumen 008 dan kebijakan prodi, bukan sekadar menjumlahkan 45% dan 55% sebagai nilai CPL.
 
----
+Tugas 1, Tugas 2, dan UAS direncanakan berbasis kasus/proyek (75% bobot); kalkulator dan landing page adalah dua proyek berbeda. Jika dikerjakan berkelompok, simpan bukti kontribusi dan lakukan demonstrasi/pertanyaan individual. Realisasi metode aktif dan aturan penilaian harus diverifikasi oleh pengampu.
 
-## 3. RENCANA TUGAS MAHASISWA (RTM) & SPESIFIKASI UJIAN PRAKTIK
+## Rencana tugas dan proyek
 
-### 3.1 Rencana Tugas Mahasiswa 1 (RTM-1 — Tugas 1: Antarmuka Web Responsif HTML5 & CSS3)
-* **Jadwal & Bobot:** Rilis **Pekan 3**, Kumpul & Uji Lab **Pekan 4** · Bobot **20%** (`CPMK-1` → `CPL-08`).
-* **Spesifikasi Teknis Individu:**
-  1. Membangun antarmuka web multi-bagian (*Hero, Feature Grid, Interactive Pricing/Schedule Table, Accessible Contact/Registration Form, & Footer*) murni menggunakan **HTML5 semantik** dan **CSS3 (*Custom Properties, Flexbox, CSS Grid, Media Queries*)** tanpa *framework* JS.
-  2. Wajib lolos *W3C HTML Validator* (0 *error*), bebas *horizontal scrollbar* dari lebar `360px` hingga `1440px`, dapat dinavigasi penuh dengan tombol `Tab`, dan meraih skor awal *Lighthouse Accessibility* $\ge 90$.
+### Proyek 1 — Kalkulator sederhana: Tugas 2, minggu 12
 
-### 3.2 Spesifikasi Ujian Tengah Semester (UTS — Pekan 8: *Live Coding* JavaScript ES6+, DOM, & Fetch)
-* **Format & Bobot:** Ujian Praktik *Live Coding* Terawasi di Laboratorium (**150 menit**, individu) · Bobot **25%** (`CPMK-2` → `CPL-08`).
-* **Spesifikasi Soal Praktik:**
-  1. Mengambil koleksi data JSON dari *endpoint* REST lokal yang disediakan penguji di jaringan lab menggunakan **Fetch API** dan **`async/await`** di dalam blok `try/catch/finally`.
-  2. Menampilkan indikator *Loading* saat memuat, pesan ramah saat gagal, dan merender daftar kartu item ke **DOM** secara aman (tanpa celah `innerHTML` tidak aman).
-  3. Mengimplementasikan fitur pencarian kata kunci, filter kategori, pengurutan harga/skor menggunakan metode **ES6+** (`filter`, `map`, `toSorted`), serta penyimpanan daftar item pilihan ke `localStorage` tanpa satu pun galat di *Browser Console*.
+- **Tujuan:** menerapkan JavaScript dasar untuk membaca masukan, menjalankan operasi dan menampilkan hasil di halaman.
+- **Teknologi wajib:** HTML, JavaScript dasar, dan **pilih satu** CSS framework: Bootstrap **atau** Tailwind CSS. CSS buatan sendiri boleh dipakai sebagai pendamping.
+- **Fungsi minimum:** dua input angka; pilihan operasi tambah, kurang, kali dan bagi; tombol hitung dan reset; hasil ditampilkan di halaman.
+- **Penanganan minimum:** masukan kosong/tidak valid dan pembagian dengan nol menampilkan pesan yang dapat dipahami, bukan hasil yang menyesatkan.
+- **Uji minimum:** penjumlahan `2 + 3 = 5`, pengurangan `5 − 3 = 2`, perkalian `2 × 3 = 6`, pembagian `6 ÷ 3 = 2`, serta kasus input kosong dan pembagi nol. Tambahkan kasus lain sesuai kebutuhan.
+- **Bukti:** berkas HTML/CSS/JS dan stylesheet framework yang diperlukan atau tautan yang dicatat, petunjuk menjalankan, serta tabel input–operasi–hasil yang diharapkan–hasil aktual.
 
-### 3.3 Rencana Tugas Mahasiswa 2 (RTM-2 — Tugas 2: Aplikasi Single Page Application Berbasis React)
-* **Jadwal & Bobot:** Rilis **Pekan 10**, Demo & *Code Walkthrough* Lab **Pekan 12** · Bobot **25%** (`CPMK-3` → `CPL-13`).
-* **Spesifikasi Teknis:**
-  1. Membangun aplikasi **React SPA** minimal 4 halaman terhubung via **React Router** (*Beranda/Eksplorasi, Detail Dinamis `:id`, Formulir Tambah/Kelola Terkendali, & Halaman Favorit/Ringkasan + 404 Page*).
-  2. Wajib membangun minimal 6 komponen UI *reusable* ber-**Props** bersih, menggunakan **`useState`**, **`useEffect`**, minimal 1 **Custom Hook** buatan sendiri, dan 1 **Context API** untuk *state* lintas-komponen.
+### Proyek 2 — Landing page dengan JavaScript sederhana: UAS, minggu 16
 
-### 3.4 Spesifikasi Evaluasi Akhir Semester (UAS — Pekan 16: Integrasi RESTful API & Optimasi Lighthouse $\ge 85$)
-* **Format & Bobot:** Bobot **30%** (`CPMK-4` → `CPL-13`), terdiri atas **Aplikasi Produksi & Laporan Optimasi (50% nilai UAS)** + **Sidang Audit Langsung & Uji Kode Individu (50% nilai UAS, 150 menit)**:
-  1. **Integrasi RESTful API (`Sub-CPMK-4.1`):** Aplikasi React terintegrasi penuh dengan *Public REST API* atau *Mock REST Server* terstruktur (mendukung pembacaan daftar/detail parameter, mutasi data/interaksi API, *Skeleton Loading*, *Empty State*, dan penanganan galat HTTP yang rapi).
-  2. **Optimasi Performa Terverifikasi (`Sub-CPMK-4.2`):** Menerapkan *Code Splitting* (`React.lazy`), optimasi gambar `WebP` berdimensi eksplisit, dan menjalankan *Production Build / Live Deployment*. Saat sidang, penguji menjalankan langsung **Google Lighthouse** (*Navigation Mode, Incognito*) dan memverifikasi skor **Performance $\ge 85$** (serta Accessibility, Best Practices, & SEO $\ge 85$), ditambah tantangan modifikasi kecil komponen/API secara langsung per anggota tim.
+- **Tujuan:** mengintegrasikan kemampuan HTML, CSS/Flexbox, responsivitas dan JavaScript dasar pada satu halaman presentasi produk/kegiatan.
+- **Teknologi wajib:** HTML, CSS dan JavaScript dasar; Bootstrap **atau** Tailwind boleh digunakan, tetapi tidak wajib. Tidak menggunakan React, backend, database atau API.
+- **Isi minimum:** header/navigasi, hero, sedikitnya dua bagian konten (misalnya manfaat dan fitur), call-to-action dan footer; konten dan gambar berizin.
+- **Interaksi minimum:** sedikitnya satu interaksi bermakna, misalnya tombol membuka/menutup menu, tombol menampilkan pesan, atau validasi formulir simulasi tanpa pengiriman data. Gunakan DOM dan event dasar.
+- **Uji minimum:** tautan/navigasi, interaksi JavaScript termasuk input valid dan tidak valid bila ada formulir, tampilan pada sedikitnya dua lebar layar, label dan navigasi keyboard dasar. Catat hasil dan perbaikan.
+- **Bukti:** berkas proyek yang berjalan lokal, petunjuk menjalankan, daftar kasus uji dan hasil, serta demonstrasi dan penjelasan kode individual.
 
----
+### Tugas 1 — HTML (minggu 4, 20%, CPMK-1)
 
-## 4. FORMULA NILAI AKHIR, DISAGGREGASI MULTI-CPL, & AMBANG KETUNTASAN OBE
+Buat halaman informasi berisi struktur semantik, navigasi, gambar berizin dan alt, daftar, tabel, serta formulir berlabel. Kumpulkan berkas dan cek tautan/label. CSS yang dipelajari minggu ini tidak dinilai pada Tugas 1.
 
-### 4.1 Rumus Nilai Akhir Mata Kuliah ($NA_{\text{STI-311}}$)
-$$NA_{\text{STI-311}} = 0,20\,S_{\text{Tugas 1}} + 0,25\,S_{\text{UTS}} + 0,25\,S_{\text{Tugas 2}} + 0,30\,S_{\text{UAS}}$$
+### UTS — CSS/Flexbox (minggu 8, 25%, CPMK-2)
 
-### 4.2 Rumus Disaggregasi Ketercapaian Multi-CPL (Selaras Pilot `RPS_STI-311` & Dok 004/008)
-1. **Ketercapaian `CPL-08` (`P4` — bobot 45% MK dari `CPMK-1` [20%] + `CPMK-2` [25%]):**
-   $$\text{Score}_{\text{CPL-08, STI-311}}(i) = \frac{0,20\,S_{\text{Tugas 1}}(i) + 0,25\,S_{\text{UTS}}(i)}{0,45}$$
-   *(bobot SKS tertimbang pada agregasi prodi $= 3 \times 0,45 = 1,35\text{ SKS}$).*
-2. **Ketercapaian `CPL-13` (`KK5` — bobot 55% MK dari `CPMK-3` [25%] + `CPMK-4` [30%]):**
-   $$\text{Score}_{\text{CPL-13, STI-311}}(i) = \frac{0,25\,S_{\text{Tugas 2}}(i) + 0,30\,S_{\text{UAS}}(i)}{0,55}$$
-   *(bobot SKS tertimbang pada agregasi prodi $= 3 \times 0,55 = 1,65\text{ SKS}$).*
+Pada HTML yang disediakan, terapkan selektor, box model, Flexbox dan media query untuk dua ukuran layar. Selesaikan latihan singkat mengenali atau menggunakan kelas dasar pada kedua framework. Bukti berupa berkas dan tangkapan kedua ukuran layar.
 
-### 4.3 Ambang Ketuntasan OBE & Protokol Remedial
-* **Ambang Lulus CPMK/CPL OBE:** Skor minimal **$\ge 65,0$ (C+ / 2,50)**.
-* **Aturan Verifikasi Keaslian Kode:** Setiap mahasiswa pada proyek tim wajib memiliki jejak *commit* Git bermakna dan mampu memodifikasi komponen tanggung jawabnya secara langsung saat sidang; ketidakmampuan menjelaskan kode sendiri menggugurkan nilai individu pada komponen terkait. Remedial diberikan maksimal 1 kali dengan plafon nilai **70,0 (B)**.
+### Tugas 2 dan UAS
+
+Ketentuan, kasus uji dan bukti kalkulator (minggu 12, 25%, CPMK-3) dan landing page (minggu 16, 30%, CPMK-4) tercantum di atas. Semua kriteria berbobot pada 065_5; pengumpulan disertai penjelasan individual.
+
+## Ketercapaian dan tindak lanjut
+
+Skor CPMK berasal dari instrumen yang dipetakan. Rekap skor, umpan balik dan perbaikan menggunakan Dok 008; keputusan remedial dan batas ketuntasan mengikuti peraturan prodi. Rencana kasus/proyek 75% membutuhkan bukti metode aktif, bukan otomatis klaim realisasi IKU.
+
+## Lingkup dan fasilitas
+
+**Dalam lingkup:** HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap dan Tailwind CSS dasar, JavaScript dasar dan DOM/event, proyek kalkulator dan landing page. **Di luar lingkup:** React/Vue/SPA, Fetch/asinkron/API, backend, database dan build pipeline. Validasi klien bukan keamanan server; data harus dummy atau berizin.
+
+Gunakan editor dan browser; dosen menyiapkan CSS Bootstrap dan stylesheet Tailwind dengan semua kelas yang dipakai agar latihan dapat dijalankan tanpa internet, Node.js atau konfigurasi build. Pengenalan dilakukan pada kedua framework; kalkulator memakai salah satu.

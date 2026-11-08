@@ -1,86 +1,133 @@
-# 065_3 — OUTLINE BUKU MODUL PEMBELAJARAN & PRAKTIKUM BERBASIS OBE
+# 065_3 — OUTLINE MODUL DAN PRAKTIKUM — 14 BAB
+
 ## STI-311 — PENGEMBANGAN WEB FRONT END (*Web Front End Development*)
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI311` · **Bobot:** 3 SKS (`T=2, P=1`) · **Semester:** 3  
-**CPL:** `CPL-08` (`P4` = 45%) & `CPL-13` (`KK5` = 55%) [Level `R`] · **BoK:** `BK-IS12`, `BK-IT04`  
-**Tanggal Penyusunan:** 07 November 2026  
+**Identitas:** `STI-311` Pengembangan Web Front End (*Web Front End Development*) · Core STI · Semester 3 · 3 SKS (+P, 2T+1P) · Prasyarat `FST-102` Algoritma dan Pemrograman.
 
----
+> **Revisi 7 November 2026 — rancangan:** diselaraskan dengan Dok 005 dan dokumen turunan 043; belum disahkan koordinator atau prodi. Tidak mengubah identitas/SKS/prasyarat.
 
-## 1. IDENTITAS & SPESIFIKASI BUKU MODUL AJAR + PRAKTIKUM
+Beban per pekan pembelajaran: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit = 510 menit; 270 menit pertama adalah tatap muka dan praktik. Pekan ujian mengikuti jadwal lembaga.
 
-| Atribut Modul | Spesifikasi Teknis & Akademik |
-|---|---|
-| **Judul Buku Modul** | *Rekayasa Web Front-End Modern: HTML5 Semantik, CSS3 Responsif, JavaScript ES6+, Arsitektur React SPA, Integrasi RESTful API, & Optimasi Performa Lighthouse* |
-| **Target Tebal Naskah** | 14 Bab Materi + 14 Modul Praktikum Laboratorium + 2 Unit Evaluasi ($\pm 215\text{–}250\text{ halaman}$ A4 dilengkapi diagram *DOM/Rendering Pipeline*, sandingan kode bersih ES6+ & React Hooks, serta daftar periksa audit **Lighthouse $\ge 85$**) |
-| **Pagar Pembatas Buku (*Guardrail*)** | Fokus murni pada arsitektur & performa sisi klien (*client-side web engineering*); tidak membangun server *back-end*/SQL produksi (`STI-416`) dan tidak mengulang riset pengguna awal (`STI-308`). |
+## Lingkup dan fasilitas
 
----
+**Dalam lingkup:** HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap dan Tailwind CSS dasar, JavaScript dasar dan DOM/event, proyek kalkulator dan landing page. **Di luar lingkup:** React/Vue/SPA, Fetch/asinkron/API, backend, database dan build pipeline. Validasi klien bukan keamanan server; data harus dummy atau berizin.
 
-## 2. PETA KESELARASAN 14 BAB & 14 MODUL PRAKTIKUM TERHADAP CPMK & SUB-CPMK
+Gunakan editor dan browser; dosen menyiapkan CSS Bootstrap dan stylesheet Tailwind dengan semua kelas yang dipakai agar latihan dapat dijalankan tanpa internet, Node.js atau konfigurasi build. Pengenalan dilakukan pada kedua framework; kalkulator memakai salah satu.
 
-| Bagian | Bab & Lab | Judul Bab Materi & Modul Praktikum | Pekan | CPMK | Sub-CPMK | Asesmen |
-|---|:---:|---|:---:|:---:|:---:|---|
-| **Bagian I:<br>HTML5 Semantik, Aksesibilitas, & CSS3 Responsif** | **Bab 1 / Lab 1** | Arsitektur Rendering Peramban & Konstruksi Dokumen **HTML5 Semantik** Valid W3C | Mg 1 | `CPMK-1` | `Sub-CPMK-1.1` | Tugas 1 (20%) |
-| | **Bab 2 / Lab 2** | Formulir HTML5 Aksesibel (**WCAG/ARIA**) & Fondasi **CSS3 Box Model / Design Tokens** | Mg 2 | `CPMK-1` | `Sub-CPMK-1.1, 1.2` | Tugas 1 (20%) |
-| | **Bab 3 / Lab 3** | Tata Letak Web Modern 1D & 2D dengan **CSS3 Flexbox** dan **CSS Grid** | Mg 3 | `CPMK-1` | `Sub-CPMK-1.2` | Tugas 1 (20%) |
-| | **Bab 4 / Lab 4** | Desain Responsif **Mobile-First**, Gambar Adaptif, & Pengenalan *Utility-First CSS* | Mg 4 | `CPMK-1` | `Sub-CPMK-1.2` | **Tugas 1 (Mg 4)** |
-| **Bagian II:<br>JavaScript ES6+, DOM, & Asinkroni Fetch API** | **Bab 5 / Lab 5** | Pemrograman **JavaScript Modern (ES6+)**, *ES Modules*, & Transformasi Data Imutabel | Mg 5 | `CPMK-2` | `Sub-CPMK-2.1` | UTS (25%) |
-| | **Bab 6 / Lab 6** | Manipulasi **DOM** Dinamis, *Event Delegation*, Mitigasi XSS, & `localStorage` | Mg 6 | `CPMK-2` | `Sub-CPMK-2.1` | UTS (25%) |
-| | **Bab 7 / Lab 7** | Mekanisme *Event Loop*, *Promises*, **`async/await`**, & Komunikasi **Fetch API** | Mg 7 | `CPMK-2` | `Sub-CPMK-2.2` | **UTS (Mg 8)** |
-| *Evaluasi I* | *Unit E1* | *Simulasi Ujian Praktik Live Coding Interaktivitas JavaScript ES6+ & Fetch API (UTS)* | *Mg 8* | *`CPMK-2`* | *`2.1–2.2`* | *UTS (25%)* |
-| **Bagian III:<br>Rekayasa Single Page Application (React)** | **Bab 8 / Lab 8** | Arsitektur **SPA**, Ekosistem *Vite*, **JSX**, *Functional Components*, & **Props** | Mg 9 | `CPMK-3` | `Sub-CPMK-3.1` | Tugas 2 (25%) |
-| | **Bab 9 / Lab 9** | Manajemen *State* Reaktif (**`useState`**), *Controlled Forms*, & Efek **`useEffect`** | Mg 10 | `CPMK-3` | `Sub-CPMK-3.1` | Tugas 2 (25%) |
-| | **Bab 10 / Lab 10** | Navigasi Multi-Halaman **React Router**, **Context API**, & Abstraksi **Custom Hooks** | Mg 11 | `CPMK-3` | `Sub-CPMK-3.2` | Tugas 2 (25%) |
-| | **Bab 11 / Lab 11** | Pola Komposisi Komponen *Reusable* & Struktur Repositori **React SPA** Skalabel | Mg 12 | `CPMK-3` | `Sub-CPMK-3.1, 3.2` | **Tugas 2 (Mg 12)** |
-| **Bagian IV:<br>Integrasi RESTful API & Optimasi Lighthouse** | **Bab 12 / Lab 12** | Lapisan Klien HTTP & Integrasi Penuh **RESTful API** Eksternal (*CRUD & UI States*) | Mg 13 | `CPMK-4` | `Sub-CPMK-4.1` | UAS (30%) |
-| | **Bab 13 / Lab 13** | *Protected Routes* Sisi Klien, Keamanan Antarmuka, & **`React.lazy` Code Splitting** | Mg 14 | `CPMK-4` | `Sub-CPMK-4.1, 4.2` | UAS (30%) |
-| | **Bab 14 / Lab 14** | Optimasi **Core Web Vitals**, Audit **Google Lighthouse $\ge 85$**, & *Handoff* ke `STI-416` | Mg 15 | `CPMK-4` | `Sub-CPMK-4.2` | **UAS (Mg 16)** |
-| *Evaluasi II* | *Unit E2* | *Panduan Proyek Produksi React + API & Protokol Sidang Audit Lighthouse (UAS)* | *Mg 16* | *`CPMK-4`* | *`4.1–4.2`* | *UAS (30%)* |
+Bab mengikuti pekan 1–7 dan 9–15; pekan 8 dan 16 untuk evaluasi. Setiap bab memuat konsep, latihan praktik, bukti dan refleksi.
 
----
+### Bab 1 — HTML: dokumen, teks, heading dan daftar (pekan 1)
 
-## 3. RINCIAN SUBSTANSI TIAP BAB & MODUL PRAKTIKUM
+- **Materi:** Identifikasi doctype, html, head, body, hierarki heading serta daftar.
+- **Praktikum:** Buat halaman profil dengan judul, paragraf dan dua jenis daftar; buka langsung pada browser.
+- **Latihan & bukti:** Jelaskan perbedaan head dan body serta alasan urutan heading.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan HTML: dokumen, teks, heading dan daftar, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 1 & LAB 1: Arsitektur Rendering Peramban & Konstruksi Dokumen HTML5 Semantik (Pekan 1)
-* **Materi & Praktikum:** Tahapan *DOM, CSSOM, Accessibility Tree, Layout, Paint*; elemen struktural **HTML5 semantik**, hierarki judul, metadata dokumen, dan pengujian *W3C Markup Validator*.
+### Bab 2 — HTML semantik, tautan dan gambar (pekan 2)
 
-#### BAB 2 & LAB 2: Formulir HTML5 Aksesibel (WCAG/ARIA) & CSS3 Box Model / Design Tokens (Pekan 2)
-* **Materi & Praktikum:** Konstruksi formulir aksesibel (`label`, tipe masukan semantik, navigasi `Tab`, rasio kontras WCAG AA), **CSS3 Box Model**, spesifisitas selektor, tipografi fluida `clamp()`, dan deklarasi *CSS Custom Properties*.
+- **Materi:** Bedakan header, nav, main, section dan footer; path relatif, atribut href, src dan alt.
+- **Praktikum:** Buat navigasi ke bagian halaman dan tampilkan gambar berizin dengan alt bermakna.
+- **Latihan & bukti:** Uji tautan dan jelaskan manfaat elemen semantik dan alt.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan HTML semantik, tautan dan gambar, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 3 & LAB 3: Tata Letak Web Modern 1D & 2D dengan CSS3 Flexbox dan CSS Grid (Pekan 3)
-* **Materi & Praktikum:** Sumbu utama/silang **Flexbox**, perataan dan distribusi ruang, matriks baris-kolom **CSS Grid** (`fr`, `minmax`, `auto-fit/auto-fill`, `grid-template-areas`), dan penggabungan harmonis keduanya.
+### Bab 3 — Tabel dan formulir HTML (pekan 3)
 
-#### BAB 4 & LAB 4: Desain Responsif Mobile-First, Gambar Adaptif, & Utility-First CSS (Pekan 4)
-* **Materi & Praktikum:** Strategi `min-width` *breakpoints*, pencegahan *horizontal scroll*, atribut gambar responsif (`srcset`, `sizes`, `aspect-ratio`), serta alur kerja *Utility-First CSS* (`Tailwind CSS`).
+- **Materi:** Susun table dengan header, label dan input; gunakan tipe masukan dan validasi bawaan.
+- **Praktikum:** Tambahkan tabel agenda dan formulir simulasi dengan label, required dan tombol.
+- **Latihan & bukti:** Buktikan label terhubung dan validasi bawaan bekerja tanpa pengiriman data.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Tabel dan formulir HTML, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 5 & LAB 5: Pemrograman JavaScript Modern (ES6+), *ES Modules*, & Transformasi Data Imutabel (Pekan 5)
-* **Materi & Praktikum:** Cakupan blok `let/const`, *arrow functions*, *destructuring*, *spread/rest*, *optional chaining*, pemecahan berkas *ES Modules*, dan pengolahan larik deklaratif (`map, filter, reduce, find`).
+### Bab 4 — Tugas HTML dan pengantar CSS (pekan 4)
 
-#### BAB 6 & LAB 6: Manipulasi DOM Dinamis, *Event Delegation*, Mitigasi XSS, & `localStorage` (Pekan 6)
-* **Materi & Praktikum:** Pembacaan & pembuatan elemen **DOM** secara aman (menghindari *DOM XSS*), *Event Bubbling & Delegation*, pencegahan perilaku bawaan formulir, dan serialisasi JSON ke `localStorage`.
+- **Materi:** Periksa HTML tugas; jelaskan stylesheet terpisah, selector, color dan font.
+- **Praktikum:** Kumpulkan halaman HTML; setelah penilaian, hubungkan stylesheet dan ubah teks serta warna.
+- **Latihan & bukti:** Tugas 1 dinilai hanya pada struktur/konten HTML, bukan pada CSS.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Tugas HTML dan pengantar CSS, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 7 & LAB 7: Mekanisme *Event Loop*, *Promises*, `async/await`, & Komunikasi Fetch API (Pekan 7)
-* **Materi & Praktikum:** Visualisasi *Call Stack & Microtask Queue*, sintaks **`async/await`**, konsumsi **Fetch API** (`GET/POST`, pemeriksaan `response.ok`), serta pengelolaan *Loading, Empty,* dan *Error State*.
+### Bab 5 — CSS dasar–menengah dan box model (pekan 5)
 
-#### BAB 8 & LAB 8: Arsitektur SPA, Ekosistem *Vite*, JSX, *Functional Components*, & Props (Pekan 9)
-* **Materi & Praktikum:** Perbandingan arsitektur MPA vs **SPA**, mekanisme rekonsiliasi *Virtual DOM*, aturan kompilasi **JSX**, perancangan komponen *reusable* ber-**Props**, komposisi `children`, dan perenderan koleksi ber-`key`.
+- **Materi:** Periksa cascade, spesifisitas dasar, ukuran, margin, padding, border, display dan position sederhana.
+- **Praktikum:** Buat kartu informasi yang konsisten dan jelaskan perhitungan ruang padding, border dan margin.
+- **Latihan & bukti:** Bandingkan aturan selector yang bersaing dan cek hasil pada browser.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan CSS dasar–menengah dan box model, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 9 & LAB 9: Manajemen *State* Reaktif (`useState`), *Controlled Forms*, & Efek `useEffect` (Pekan 10)
-* **Materi & Praktikum:** Pembaruan *state* objek/larik secara imutabel pada **`useState`**, pola *Controlled Inputs*, *Lifting State Up*, aturan ketat dependensi **`useEffect`**, dan pembersihan efek samping (*cleanup*).
+### Bab 6 — Flexbox dasar dan lanjutan (pekan 6)
 
-#### BAB 10 & LAB 10: Navigasi Multi-Halaman React Router, Context API, & Custom Hooks (Pekan 11)
-* **Materi & Praktikum:** Rute bersarang (`<Outlet />`), parameter dinamis, halaman 404 pada **React Router**; berbagi *state* lintas pohon komponen dengan **Context API**; serta pembuatan **Custom Hooks** yang bersih.
+- **Materi:** Bedakan sumbu; direction, justify-content, align-items, wrap, gap, align-content, grow/shrink/basis, align-self dan order.
+- **Praktikum:** Buat navigasi dan kartu dengan wrap, grow/basis serta nested flex; bandingkan ukuran layar.
+- **Latihan & bukti:** Jelaskan beda grow, shrink dan basis; pastikan urutan visual tidak merusak urutan baca.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Flexbox dasar dan lanjutan, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 11 & LAB 11: Pola Komposisi Komponen *Reusable* & Struktur Repositori React SPA Skalabel (Pekan 12)
-* **Materi & Praktikum:** Pemisahan *UI Primitives* dan *Feature Modules*, penghindaran anti-pola *redundant state*, serta audit kualitas kode proyek SPA.
+### Bab 7 — Responsivitas serta Bootstrap dan Tailwind dasar (pekan 7)
 
-#### BAB 12 & LAB 12: Lapisan Klien HTTP & Integrasi Penuh RESTful API Eksternal (Pekan 13)
-* **Materi & Praktikum:** Pembuatan modul klien API terpusat dengan variabel lingkungan `.env`, integrasi siklus penuh `GET/POST/PUT/DELETE`, pencarian ber-*debounce*, paginasi, dan *Skeleton Loader*.
+- **Materi:** Gunakan media query dan dua breakpoint; bedakan komponen Bootstrap dari utility Tailwind.
+- **Praktikum:** Buat satu kartu Bootstrap dan satu kartu Tailwind dengan stylesheet siap pakai; uji dua lebar layar.
+- **Latihan & bukti:** Identifikasi container/tombol Bootstrap dan utility spacing/responsive Tailwind.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Responsivitas serta Bootstrap dan Tailwind dasar, dengan panah input–proses–hasil, tanpa data pribadi.
 
-#### BAB 13 & LAB 13: *Protected Routes* Sisi Klien, Keamanan Antarmuka, & `React.lazy` Code Splitting (Pekan 14)
-* **Materi & Praktikum:** Pembungkus rute privat, pemahaman *Same-Origin Policy & CORS*, pemecahan bundel per-rute dengan **`React.lazy` & `<Suspense>`**, serta penggunaan bijak `useMemo`/`useCallback`.
+### Bab 8 — JavaScript dasar dan operasi aritmetika (pekan 9)
 
-#### BAB 14 & LAB 14: Optimasi Core Web Vitals, Audit Google Lighthouse $\ge 85$, & *Handoff* ke `STI-416` (Pekan 15)
-* **Materi & Praktikum:** Teknik optimasi **LCP, INP, & CLS**, format gambar modern `WebP/AVIF`, atribut `loading="lazy"` & `fetchpriority="high"`, *deployment* statis produksi, pembuktian skor **Lighthouse $\ge 85$**, dan kesiapan integrasi menuju **`STI-416 Pengembangan Web Back End`**.
+- **Materi:** Hubungkan script; gunakan let/const, string, number, operator dan console.
+- **Praktikum:** Tulis fungsi untuk empat operasi sederhana dengan angka contoh.
+- **Latihan & bukti:** Jelaskan perbedaan teks angka dan nilai number.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan JavaScript dasar dan operasi aritmetika, dengan panah input–proses–hasil, tanpa data pribadi.
+
+### Bab 9 — Percabangan, perulangan, fungsi dan array (pekan 10)
+
+- **Materi:** Gunakan if/else, loop, function dan array sederhana; konversi nilai input.
+- **Praktikum:** Bangun fungsi hitung yang menolak input kosong, nilai bukan angka dan pembagi nol.
+- **Latihan & bukti:** Jalankan contoh valid dan tidak valid lalu jelaskan keluaran.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Percabangan, perulangan, fungsi dan array, dengan panah input–proses–hasil, tanpa data pribadi.
+
+### Bab 10 — DOM dan event untuk kalkulator (pekan 11)
+
+- **Materi:** Pilih elemen, baca value, gunakan addEventListener dan textContent untuk hasil.
+- **Praktikum:** Hubungkan dua input, operasi dan tombol hitung/reset; style dengan Bootstrap atau Tailwind.
+- **Latihan & bukti:** Uji klik, reset dan input tidak valid; hindari memasukkan HTML mentah dari input.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan DOM dan event untuk kalkulator, dengan panah input–proses–hasil, tanpa data pribadi.
+
+### Bab 11 — Proyek kalkulator: penyelesaian dan uji (pekan 12)
+
+- **Materi:** Uji empat operasi, reset dan penanganan kesalahan; cek tampilan dan styling framework.
+- **Praktikum:** Selesaikan kalkulator, jalankan kasus uji, kumpulkan berkas dan demonstrasikan logika.
+- **Latihan & bukti:** Tugas 2 dinilai pada fungsi, event, kesalahan, framework pilihan dan bukti uji.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Proyek kalkulator: penyelesaian dan uji, dengan panah input–proses–hasil, tanpa data pribadi.
+
+### Bab 12 — Perencanaan landing page (pekan 13)
+
+- **Materi:** Susun tujuan halaman, struktur semantik, hero, manfaat, CTA dan footer; pilih aset berizin.
+- **Praktikum:** Buat sketsa dan kerangka HTML landing page untuk produk/kegiatan fiktif.
+- **Latihan & bukti:** Cek hierarki heading, tautan dan atribut alt.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Perencanaan landing page, dengan panah input–proses–hasil, tanpa data pribadi.
+
+### Bab 13 — Landing page responsif dan interaktif (pekan 14)
+
+- **Materi:** Gunakan CSS/Flexbox dan media query; framework CSS opsional; satu interaksi JS sederhana.
+- **Praktikum:** Tata layout pada dua lebar dan tambahkan menu buka/tutup atau tombol tampil pesan.
+- **Latihan & bukti:** Uji fungsi tombol dan navigasi keyboard pada kedua ukuran layar.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Landing page responsif dan interaktif, dengan panah input–proses–hasil, tanpa data pribadi.
+
+### Bab 14 — Uji dan penyempurnaan landing page (pekan 15)
+
+- **Materi:** Susun uji navigasi, tampilan, interaksi, label dan akses keyboard; catat temuan.
+- **Praktikum:** Jalankan uji, perbaiki hasil gagal dan tuliskan langkah menjalankan secara lokal.
+- **Latihan & bukti:** Pastikan bukti uji mencantumkan hasil yang diharapkan dan aktual.
+- **Studi kasus:** gunakan informasi dan aset berizin untuk profil organisasi, kalkulator, atau landing page sesuai konteks bab.
+- **Prompt ilustrasi:** diagram edukasi berlabel bahasa Indonesia yang menjelaskan Uji dan penyempurnaan landing page, dengan panah input–proses–hasil, tanpa data pribadi.
+
+## Pustaka
+
+[HTML MDN](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS MDN](https://developer.mozilla.org/en-US/docs/Web/CSS), [Flexbox MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout), [JavaScript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [Bootstrap](https://getbootstrap.com/docs/), [Tailwind CSS](https://tailwindcss.com/docs/).

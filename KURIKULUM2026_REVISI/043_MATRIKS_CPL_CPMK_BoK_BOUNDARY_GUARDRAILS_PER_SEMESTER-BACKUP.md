@@ -1,4 +1,6 @@
 # 043 — MATRIKS CPL, CPMK, BoK, DAN BOUNDARY GUARDRAILS PER MATA KULIAH
+
+> **Arsip historis — tidak selaras dengan rancangan STI-311 terbaru.** Untuk lingkup HTML/CSS/Flexbox, Bootstrap/Tailwind dan JavaScript dasar, gunakan dokumen turunan 043 dan `PERANGKAT_AJAR/065_*`. Rekonsiliasi resmi masih menunggu pengesahan prodi.
 ## Matriks Kompilasi Per Semester — Core STI & Peminatan (Kurikulum OBE SISTEKIN 2026)
 
 **Program Studi Sistem dan Teknologi Informasi (S1) — Fakultas Sains dan Teknologi Informasi (FSTI) Universitas Widyagama Malang**

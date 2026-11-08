@@ -1,5 +1,7 @@
 # MASTER PROMPT — GENERATOR RPS OBE SISTEKIN 2026 (per Mata Kuliah)
 
+> **Catatan STI-311:** contoh dan generator pilot lama dapat memuat React/API. Untuk pengembangan STI-311 gunakan lingkup pada dokumen turunan 043 dan paket `PERANGKAT_AJAR/065_*`; tinjau generator lama sebelum dipakai ulang.
+
 > Prompt induk untuk membangkitkan RPS satu mata kuliah dari Template Master RPS Generator
 > FSTI UWG. Sudah teruji pada 2 unit pilot: **STI-416** (V2 simplified) dan **STI-311**
 > (isi penuh template). Ganti nilai pada blok PARAMETER, lalu jalankan tahapan T0–T6

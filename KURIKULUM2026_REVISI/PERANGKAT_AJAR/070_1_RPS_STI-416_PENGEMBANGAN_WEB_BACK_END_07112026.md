@@ -9,6 +9,8 @@
 
 ---
 
+> **Audit prasyarat STI-311:** HTML/CSS/Flexbox dan JavaScript dasar tersedia; HTTP/REST, Fetch/Axios, asinkron dan framework JS bukan capaian STI-311 yang baru. Bekali semantik HTTP/REST pada pertemuan 1 STI-416 dan uji endpoint dengan curl/Postman; penempatan pengayaan integrasi klien menunggu keputusan prodi. Lihat `../LAPORAN_AUDIT_DAMPAK_STI-311.md`.
+
 ## HALAMAN 1 — IDENTITAS MATA KULIAH & OTORISASI
 
 | Atribut | Spesifikasi Resmi (Selaras Dokumen 003, 004, 005, 007, 008, 018, 037, 043, & RPS Pilot STI-416) |
@@ -75,7 +77,7 @@
 [CPMK-1: Arsitektur Sisi Server, Protokol HTTP, RESTful API Modular, Middleware, & Sanitasi Input (C3) — Mg 1–4 (Tugas 1 20%)]
          (Sub-CPMK-1.1: Express/FastAPI Layered Architecture & HTTP Semantics | Sub-CPMK-1.2: Middleware, Error Handler, Zod/Pydantic)
       ▲
-[Fondasi Prasyarat: FST-207 Basis Data + STI-311 Pengembangan Web Front End (Konsumsi Fetch/Axios)]
+[Fondasi Prasyarat: FST-207 Basis Data + STI-311 Pengembangan Web Front End (HTML/CSS/Flexbox dan JavaScript dasar; konsumsi Fetch/Axios tidak diasumsikan)]
 ```
 
 ### 5. Matriks Korelasi CPL – CPMK – Sub-CPMK – Instrumen & Bobot Penilaian
@@ -96,7 +98,7 @@ Mata kuliah `STI-416 Pengembangan Web Back End` (3 SKS `+P`) membekali mahasiswa
 
 * **🟢 IN-SCOPE (Wajib Diajarkan):** Semantik protokol HTTP, arsitektur berlapis **RESTful API** (*Express / FastAPI*), *middleware* & sanitasi input, **ORM/ODM** (PostgreSQL + MongoDB), transaksi ACID & optimasi kueri, **JWT + RBAC + Bcrypt**, *rate limiting* & **Redis** *cache-aside*, pengujian otomatis *endpoint*, **Swagger/OpenAPI**, serta *deployment* kontainer **Docker** tunggal ke *cloud*.
 * **❌ OUT-OF-SCOPE (Dilarang Diajarkan — Anti-Overlap Dok 037):**
-  1. Dilarang mengajarkan desain tata letak visual HTML/CSS dan manajemen *state* komponen UI (sudah tuntas di **`STI-311 Pengembangan Web Front End`**).
+  1. Dilarang mengulang desain tata letak visual HTML/CSS yang merupakan lingkup **`STI-311 Pengembangan Web Front End`**; manajemen *state* komponen tidak diasumsikan telah diajarkan pada STI-311.
   2. Dilarang membahas orkestrasi multi-klaster **Kubernetes** & *Infrastructure as Code* Terraform (ranah **`STB-601 Arsitektur Cloud & DevOps`**).
   3. Dilarang membahas arsitektur *Microservices Event-Driven* berskala besar dengan **Apache Kafka** dan *Service Mesh* (ranah **`STI-625 Rekayasa Platform Digital`**).
 * **🔄 HANDOFF ANCHOR:** Menyerahkan kemampuan membangun *RESTful API* aman dan terdokumentasi *OpenAPI* untuk dikonsumsi oleh aplikasi seluler pada **`STI-522 Pemrograman Aplikasi Mobile`**, didekomposisi ke layanan terdistribusi pada **`STI-625 Rekayasa Platform Digital`**, dan diintegrasikan dengan model AI pada **`STI-726 Integrasi Layanan Cerdas Berbasis AI`**.

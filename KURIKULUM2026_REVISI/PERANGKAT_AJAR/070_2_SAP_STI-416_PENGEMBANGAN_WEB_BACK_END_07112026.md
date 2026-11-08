@@ -43,7 +43,7 @@
 
 ### PERTEMUAN 1 — Arsitektur Sisi Server, *Async I/O*, & Semantik Protokol **HTTP / REST**
 * **Sub-CPMK:** `Sub-CPMK-1.1` [C2→C3] · **Alat:** Node.js/Express atau Python FastAPI, Bruno/Postman, `curl -v`.
-* **Sesi Teori (`100'`):** Memetakan perjalanan satu permintaan HTTP dari aplikasi Front-End (`STI-311`) menuju server: DNS, TCP/TLS, *Event Loop & Non-Blocking Async I/O*, anatomi *Request/Response*, metode HTTP & sifat idempotensi, keluarga kode status (`2xx, 3xx, 4xx, 5xx`), serta *Richardson Maturity Model*.
+* **Sesi Teori (`100'`):** Memperkenalkan perjalanan permintaan HTTP dari klien menuju server (HTTP/REST tidak diasumsikan telah dikuasai dari `STI-311`): DNS, TCP/TLS, *Event Loop & Non-Blocking Async I/O*, anatomi *Request/Response*, metode HTTP & sifat idempotensi, keluarga kode status (`2xx, 3xx, 4xx, 5xx`), serta *Richardson Maturity Model*.
 * **Sesi Praktikum Lab 1 (`170'`):** Menginisialisasi proyek *back-end*, membangun 5 *endpoint* dasar sesuai konvensi REST, dan menginspeksi *raw HTTP headers* menggunakan `curl -v` serta Bruno/Postman.
 * **PT (`120'`) & BM (`120'`):** Merancang tabel kontrak URI RESTful untuk 4 entitas sistem perpustakaan/klinik.
 

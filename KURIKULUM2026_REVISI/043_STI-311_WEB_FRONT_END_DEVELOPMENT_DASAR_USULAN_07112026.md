@@ -5,11 +5,11 @@
 
 **Tanggal penyusunan/pembaruan:** 7 November 2026
 
-**Status:** Usulan perubahan lingkup, belum disahkan.
+**Status:** Rancangan yang diselaraskan pada dokumen terkait; belum disahkan secara akademik.
 
 > Dokumen ini adalah **dokumen baru turunan**, bukan ekstraksi verbatim dan bukan revisi otomatis terhadap Dokumen 043 induk. Usulan ini mencakup HTML dasar–menengah, CSS dasar–menengah dan Flexbox lanjutan, pengenalan dasar Bootstrap dan Tailwind CSS, serta JavaScript dasar. **React dan framework JavaScript sejenis tidak diajarkan.** Rumusan CPMK, Sub-CPMK, asesmen, dan rencana pertemuan adalah usulan baru yang perlu persetujuan koordinator dan program studi sebelum digunakan sebagai rujukan resmi.
 >
-> Dokumen 043 induk, ekstraksi `043_STI-311_WEB_FRONT_END_DEVELOPMENT_30092026.md`, Dokumen 007/037, serta lima dokumen `PERANGKAT_AJAR/065_*` masih memuat materi lanjutan seperti React dan API. Isinya **belum diubah** dan tidak otomatis konsisten dengan usulan ini.
+> Dokumen 043 induk, varian aktif, ekstraksi, Dokumen 007/037, buku kompilasi dan paket `PERANGKAT_AJAR/065_*` telah diselaraskan pada lingkup ini. Pengesahan koordinator/prodi dan penanganan materi lanjutan pada MK hilir masih diperlukan; backup dan RPS pilot lama ditandai sebagai arsip.
 
 ---
 
@@ -175,16 +175,16 @@ Tugas 1, Tugas 2, dan UAS direncanakan berbasis kasus/proyek (75% bobot); kalkul
 
 | Dokumen / MK terdampak | Tindak lanjut setelah usulan disetujui |
 |---|---|
-| Dokumen 043 induk dan varian/ekstraksi 043 | Ganti khusus rumusan STI-311, Sub-CPMK, rencana dan guardrails; tandai riwayat perubahan. |
-| Dokumen 007 dan 037 | Selaraskan silabus, materi dan batas antar-MK; hindari klaim React/API telah diajarkan dalam STI-311. |
-| `PERANGKAT_AJAR/065_1`–`065_5` | Revisi RPS, SAP, outline, rencana evaluasi dan rubrik secara konsisten dengan versi yang disetujui. Dokumen-dokumen tersebut saat ini masih memuat topik lanjutan. |
+| Dokumen 043 induk dan varian/ekstraksi 043 | Telah diselaraskan; riwayat sebelumnya tersedia di Git. Pengesahan tetap diperlukan. |
+| Dokumen 007 dan 037 | Silabus dan batas STI-311 telah diselaraskan; validasi prodi diperlukan. |
+| `PERANGKAT_AJAR/065_1`–`065_5` | Telah diselaraskan dengan rancangan baru; pengesahan dosen dan prodi masih diperlukan. |
 | `STI-416`, `STI-522`, `STC-701` dan MK hilir lain | Audit asumsi prasyarat, materi, waktu dan asesmen. Tentukan secara eksplisit apakah materi yang dihapus perlu diajarkan pada MK lanjutan atau kegiatan pengayaan terpisah. Jangan menetapkan penambahan beban sebagai keputusan otomatis. |
 | Koordinator RMK / prodi | Tinjau kesesuaian kontribusi CPL dan tingkat IRM, kelayakan SKS dan materi termasuk pengenalan dua framework, asesmen serta konsekuensi kurikuler; catat keputusan dan tanggal pengesahan. |
 
 ## 8. Sumber
 
 1. [`043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md`](043_MATRIKS_CPL_CPMK_BoK_DAN_BOUNDARY_GUARDRAILS.md), bagian `STI-311` — sumber awal yang disederhanakan.
-2. [`043_STI-311_WEB_FRONT_END_DEVELOPMENT_30092026.md`](043_STI-311_WEB_FRONT_END_DEVELOPMENT_30092026.md) — ekstraksi verbatim lama untuk pembanding.
+2. [`043_STI-311_WEB_FRONT_END_DEVELOPMENT_30092026.md`](043_STI-311_WEB_FRONT_END_DEVELOPMENT_30092026.md) — ekstraksi yang diperbarui; versi historis tersedia pada Git.
 3. [`003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md`](003_STANDAR_14_CPL_DAN_PEMETAAN_BoK_APTIKOM.md), [`004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md`](004_MATRIKS_KETERLACAKAN_OBE_VMTS_PEO_PL_CPL_MK.md), dan [`005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md`](005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md) — identitas dan CPL.
 4. [`007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md`](007_FORMULASI_CPMK_DAN_SUB_CPMK_PORTFOLIO_LENGKAP.md), [`008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md`](008_SISTEM_ASESMEN_OBE_FORMULA_CPL_DAN_RUBRIK_MASTER.md), [`037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md`](037_BOUNDARY_OF_TOPICS_DAN_MATRIKS_ANTI_OVERLAP_KURIKULUM.md) dan [`PERANGKAT_AJAR/README.md`](PERANGKAT_AJAR/README.md) — acuan pembanding dan konvensi beban/asesmen.
 5. MDN Web Docs: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout), dan [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). Gunakan bagian yang sesuai batas di atas.
