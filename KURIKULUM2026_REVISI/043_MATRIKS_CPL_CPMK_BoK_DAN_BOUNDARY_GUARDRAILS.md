@@ -348,7 +348,7 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 | `STI-308` | UI/UX Design & Prototyping | 3 | `FST-101` | `KK5` | `BK-IS17` *Human-Computer Interaction* | Prinsip Human-Computer Interaction (HCI), Heuristic Evaluation, U... |
 | `STI-309` | Rekayasa Perangkat Lunak | 3 | `FST-203` | `P4` , `KK5` | `BK-IS07` *Systems Analysis and Design* | Prinsip Rekayasa Perangkat Lunak, Arsitektur Perangkat Lunak (Lay... |
 | `STI-310` | Sistem Operasi | 3 | `STI-103` | `P3` , `KK3` | `BK-IS03` *IT Infrastructure* | Konsep Sistem Operasi, Manajemen Proses & Threading, Concurrency ... |
-| `STI-311` | Web Front End Development | 3 | `FST-102` | `P4` , `KK5` | `BK-IS12` *Web and Mobile Application Development* | Semantic HTML5, Modern CSS3, Responsive Design (Grid, Flexbox, Ta... |
+| `STI-311` | Web Front End Development | 3 | `FST-102` | `P4`, `KK5` | `BK-IS12` *Web and Mobile Application Development* | HTML dan CSS dasar–menengah, Flexbox lanjutan, pengenalan Bootstrap/Tailwind dan JavaScript dasar. |
 | `STI-312` | Jaringan Komputer | 3 | `STI-103` | `P3` , `KK3` | `BK-IS03` *IT Infrastructure* | Model OSI 7 Layer, Protokol TCP/IP, IP Addressing (IPv4/IPv6 Subn... |
 
 #### STI-306 — Analisis dan Perancangan Sistem Informasi
@@ -631,59 +631,63 @@ Matriks ini dirancang sebagai instrumen pengendali mutu kurikulum (*curricular q
 ---
 
 #### STI-311 — Web Front End Development
-* **Beban / Tipe / Prasyarat:** 3 SKS / +P / Prasyarat: `FST-102`
-* **CPL yang Dibebankan:** `P4` (Pemrograman Web Modern), `KK5` (Single Page Application / SPA)
+> **Revisi STI-311, 7 November 2026:** penyelarasan lingkup HTML/CSS/JavaScript, Flexbox dan pengenalan Bootstrap/Tailwind berdasarkan dokumen turunan 043. Perubahan masih perlu tinjauan dan pengesahan koordinator/prodi; atribut MK mengacu Dok 005.
+
+* **Beban / Tipe / Prasyarat:** Semester 3 / 3 SKS / +P / Prasyarat: `FST-102`
+* **CPL yang Dibebankan:** `CPL-08` (`P4`), `CPL-13` (`KK5`); IRM R
 * **Body of Knowledge (BoK):** `BK-IS12` *Web and Mobile Application Development*, `BK-IT04` *Platform Technologies*
 
-**Formulasi CPMK (Format ABCD & Level Bloom):**
+**Formulasi CPMK (format ABCD dan Bloom):**
 
-| Kode | Rumusan CPMK | Bloom | CPL |
-|:---:|---|:---:|:---:|
-| `CPMK-1` | Mahasiswa (*A*) mampu **membangun** struktur halaman web responsif multi-device (*B*) menggunakan HTML5 Semantik, CSS3 Flexbox/Grid, dan Variabel CSS (*C*) dengan tampilan estetik (*D*). | **C3** | `P4` |
-| `CPMK-2` | Mahasiswa (*A*) mampu **mengimplementasikan** logika interaktivitas client-side (*B*) menggunakan JavaScript Modern (ES6+, DOM Manipulation, Async/Await, Fetch API) (*C*) secara modular (*D*). | **C3** | `P4` |
-| `CPMK-3` | Mahasiswa (*A*) mampu **membangun** aplikasi Single Page Application (SPA) berbasis komponen (*B*) menggunakan framework React.js (Hooks, Context API, React Router) (*C*) dengan arsitektur state terpusat (*D*). | **C6** | `KK5` |
-| `CPMK-4` | Mahasiswa (*A*) mampu **mengintegrasikan** aplikasi front-end dengan RESTful API eksternal (*B*) serta **mengoptimalkan** performa loading (*C*) dengan skor Google Lighthouse $\ge 85$ (*D*). | **C5** | `KK5` |
+| Kode | Rumusan usulan: mahasiswa (A) | Bloom | CPL |
+|---|---|:---:|---|
+| `CPMK-1` | mampu **menyusun** halaman HTML dasar–menengah yang memuat struktur semantik, konten, tabel dan formulir (B) berdasarkan kebutuhan kasus yang diberikan (C), dengan struktur elemen, label dan tautan yang sesuai (D). | C3 | `CPL-08` (`P4`) |
+| `CPMK-2` | mampu **menerapkan** CSS dasar–menengah dan Flexbox termasuk pengaturan flex item dan responsivitas (B) pada kasus antarmuka yang diberikan, serta mengenali penggunaan kelas Bootstrap dan Tailwind dasar (C), dengan tampilan rapi dan terbaca pada sedikitnya dua ukuran layar (D). | C3 | `CPL-08` (`P4`) |
+| `CPMK-3` | mampu **membangun** kalkulator aritmetika sederhana (B) menggunakan JavaScript dasar dan styling **Bootstrap atau Tailwind CSS** (C), dengan operasi dan penanganan input sesuai kasus uji yang diberikan (D). | C3 | `CPL-13` (`KK5`) |
+| `CPMK-4` | mampu **membangun dan menguji** landing page responsif dengan interaksi sederhana (B) menggunakan HTML, CSS dan JavaScript dasar, dengan Bootstrap atau Tailwind sebagai pilihan (C), serta mendokumentasikan navigasi, interaksi dan hasil pengujian (D). | C6 | `CPL-13` (`KK5`) |
 
-**Sub-CPMK (penjabaran operasional CPMK, selaras IN-SCOPE Boundary Guardrails):**
+**Sub-CPMK:**
 
-| Kode | Kompetensi Spesifik | CPMK | Bloom |
-|---:|---|:--:|:--:|
-| **Sub-CPMK-1.1** | Membangun struktur halaman web responsif menggunakan HTML5 semantik. | CPMK-1 | **C3** |
-| **Sub-CPMK-1.2** | Mengimplementasikan tata letak responsif menggunakan CSS3 Flexbox, Grid, dan variabel CSS. | CPMK-1 | **C3** |
-| **Sub-CPMK-2.1** | Mengimplementasikan interaktivitas client-side menggunakan JavaScript ES6+ (DOM, Async/Await). | CPMK-2 | **C3** |
-| **Sub-CPMK-2.2** | Mengelola state dan komunikasi data menggunakan Fetch API secara modular. | CPMK-2 | **C3** |
-| **Sub-CPMK-3.1** | Membangun Single Page Application berbasis komponen menggunakan React (Hooks, Context API). | CPMK-3 | **C6** |
-| **Sub-CPMK-3.2** | Mengimplementasikan routing antar halaman pada aplikasi SPA. | CPMK-3 | **C6** |
-| **Sub-CPMK-4.1** | Mengintegrasikan front-end dengan RESTful API eksternal. | CPMK-4 | **C5** |
-| **Sub-CPMK-4.2** | Mengoptimalkan performa loading aplikasi dengan skor Google Lighthouse minimal 85. | CPMK-4 | **C5** |
+| Kode | Kemampuan operasional | CPMK | Bloom |
+|---|---|---|:---:|
+| `Sub-CPMK-1.1` | Menyusun struktur dokumen semantik dan konten: teks, gambar, daftar serta tautan. | `CPMK-1` | C3 |
+| `Sub-CPMK-1.2` | Membuat tabel dan formulir berlabel dengan tipe masukan dan validasi HTML dasar. | `CPMK-1` | C3 |
+| `Sub-CPMK-2.1` | Menerapkan selektor, cascade dasar, warna, tipografi, box model, display, position dan media query. | `CPMK-2` | C3 |
+| `Sub-CPMK-2.2` | Menggunakan properti container dan item Flexbox, termasuk wrap, grow/shrink/basis dan nested flex, untuk tata letak responsif. | `CPMK-2` | C3 |
+| `Sub-CPMK-2.3` | Menerapkan kelas dasar Bootstrap dan utility Tailwind pada latihan antarmuka sederhana. | `CPMK-2` | C3 |
+| `Sub-CPMK-3.1` | Menggunakan variabel, tipe data, operator, percabangan, perulangan dan fungsi dalam latihan aritmetika. | `CPMK-3` | C3 |
+| `Sub-CPMK-3.2` | Menghubungkan input dan tombol kalkulator dengan fungsi JavaScript melalui DOM dan event, memakai styling Bootstrap atau Tailwind. | `CPMK-3` | C3 |
+| `Sub-CPMK-4.1` | Menggabungkan HTML, CSS/Flexbox dan JavaScript dasar menjadi landing page responsif; framework CSS boleh digunakan. | `CPMK-4` | C6 |
+| `Sub-CPMK-4.2` | Menyusun dan menjalankan kasus uji navigasi, interaksi, dan tampilan; memperbaiki masalah dan mencatat hasilnya. | `CPMK-4` | C4 |
 
+**Rencana 16 pertemuan dan asesmen:**
 
-**Rencana 16 Pertemuan & Asesmen** (3 SKS, +P — 1 SKS = 50 menit):
+Rencana beban per minggu mengikuti konvensi paket perangkat ajar 3 SKS `+P`: **TM 100 menit + praktikum terbimbing 170 menit + penugasan terstruktur 120 menit + belajar mandiri 120 menit**. TM dan praktikum berjumlah 270 menit (4,5 jam); termasuk tugas terstruktur dan mandiri menjadi 510 menit (8,5 jam). Alokasi minggu ujian mengikuti jadwal institusi dan dapat menggunakan waktu tatap muka/praktikum untuk evaluasi.
 
-| Pekan | Sub-CPMK | Topik Pembelajaran Terkait | Kompetensi / Keterangan (ABCD) | Metode | Jumlah Jam | Asesmen |
-|:---:|:---:|---|---|---|:---:|:---:|
-| 1 | — | Pengantar MK, Kontrak Belajar & Orientasi | Mahasiswa (*A*) memahami ruang lingkup MK, capaian pembelajaran, dan skema asesmen (*B*) melalui penjelasan dosen (*C*) secara jelas (*D*). | Kuliah Interaktif | 150' | — |
-| 2 | Sub-1.1 | Membangun struktur halaman web responsif | Mahasiswa (*A*) mampu membangun struktur halaman web responsif menggunakan HTML5 semantik (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 3 | Sub-1.2 | Mengimplementasikan tata letak responsif | Mahasiswa (*A*) mampu mengimplementasikan tata letak responsif menggunakan CSS3 Flexbox, Grid, dan variabel CSS (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-1. | Praktikum / PjBL | 150' | — |
-| 4 | Sub-2.1 | Mengimplementasikan interaktivitas client-side | Mahasiswa (*A*) mampu mengimplementasikan interaktivitas client-side menggunakan JavaScript ES6+ (DOM, Async/Await) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | **Tugas 1** (20%) — evaluasi Sub-CPMK Pekan 2–3 |
-| 5 | Sub-2.2 | Mengelola state dan komunikasi data | Mahasiswa (*A*) mampu mengelola state dan komunikasi data menggunakan Fetch API secara modular (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-2. | Praktikum / PjBL | 150' | — |
-| 6 | Sub-3.1 | Membangun Single Page Application berbasis komponen | Mahasiswa (*A*) mampu membangun Single Page Application berbasis komponen menggunakan React (Hooks, Context API) (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 7 | Sub-3.2 | Mengimplementasikan routing antar halaman | Mahasiswa (*A*) mampu mengimplementasikan routing antar halaman pada aplikasi SPA (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-3. | Praktikum / PjBL | 150' | — |
-| 8 | CPMK-1 s.d. 3 | **Ujian Tengah Semester (UTS)** | Mahasiswa (*A*) mendemonstrasikan penguasaan CPMK-1 s.d. CPMK-3 (*B*) melalui ujian tertulis/praktikum (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian Praktikum | 150' | **UTS** (25%) |
-| 9 | Sub-4.1 | Mengintegrasikan front-end | Mahasiswa (*A*) mampu mengintegrasikan front-end dengan RESTful API eksternal (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 10 | Sub-4.2 | Mengoptimalkan performa loading aplikasi | Mahasiswa (*A*) mampu mengoptimalkan performa loading aplikasi dengan skor Google Lighthouse minimal 85 (*B*) melalui pembelajaran terstruktur (*C*) secara tepat dan terukur (*D*). Selaras CPMK-4. | Praktikum / PjBL | 150' | — |
-| 11 | CPMK-3, CPMK-4 | Studi Kasus / Proyek Terapan | Mahasiswa (*A*) menerapkan CPMK-3 dan CPMK-4 (*B*) pada studi kasus/proyek nyata (*C*) secara kolaboratif dan terukur (*D*). | PjBL / Case Method | 150' | — |
-| 12 | CPMK-4 | Proyek Terapan Lanjut & Presentasi Antara | Mahasiswa (*A*) menyajikan progres proyek/tugas akhir (*B*) dalam forum kelas (*C*) dengan argumen yang valid (*D*). | PjBL / Presentasi | 150' | **Tugas 2** (25%) — evaluasi Sub-CPMK Pekan 9–11 |
-| 13 | Seluruh CPMK | Penyempurnaan Proyek / Tugas Akhir | Mahasiswa (*A*) menyempurnakan hasil proyek/tugas akhir (*B*) berdasarkan umpan balik (*C*) secara mandiri dan berkualitas (*D*). | PjBL / Konsultasi | 150' | — |
-| 14 | Seluruh CPMK | Review & Konsultasi UAS | Mahasiswa (*A*) mengonsolidasikan seluruh capaian pembelajaran (*B*) melalui review dan konsultasi (*C*) secara komprehensif (*D*). | Diskusi / Konsultasi | 150' | — |
-| 15 | Seluruh CPMK | Presentasi Final / Demonstrasi | Mahasiswa (*A*) mempresentasikan hasil akhir proyek/tugas (*B*) di hadapan dosen dan rekan (*C*) secara profesional (*D*). | Presentasi | 150' | — |
-| 16 | Seluruh CPMK | **UAS / Tugas Akhir / Proyek** | Mahasiswa (*A*) mendemonstrasikan penguasaan seluruh CPMK (*B*) melalui ujian/proyek akhir (*C*) dengan kriteria ketuntasan minimal (*D*). | Ujian / Proyek Akhir | 150' | **UAS** (30%) |
+| Mg | Sub-CPMK | Pokok bahasan dan kegiatan | Bukti / asesmen |
+|:---:|---|---|---|
+| 1 | 1.1 | Orientasi front-end; peran HTML/CSS/JS dan browser; struktur HTML, teks, heading dan daftar. | Formatif: halaman profil HTML awal. |
+| 2 | 1.1 | HTML semantik: header, nav, main, section dan footer; tautan dan gambar dengan teks alternatif. | Formatif: halaman informasi dengan navigasi. |
+| 3 | 1.2 | HTML menengah: tabel, formulir, label, input, tombol dan validasi HTML bawaan. | Formatif: formulir simulasi dan tabel berstruktur. |
+| 4 | 1.1–1.2, 2.1 | Review HTML dan **Tugas 1**; pengantar stylesheet, selektor, warna dan tipografi CSS. Penilaian Tugas 1 hanya pada HTML. | **Tugas 1 — 20%:** halaman HTML untuk kasus yang disepakati. |
+| 5 | 2.1 | CSS dasar–menengah: cascade/spesifisitas dasar, box model, display, ukuran dan position sederhana. | Formatif: stylesheet dan tata letak kartu. |
+| 6 | 2.2 | Flexbox: sumbu, direction, alignment, wrap, gap; flex item grow/shrink/basis, align-self, order dan nested flex. | Formatif: navigasi dan kartu responsif menggunakan Flexbox. |
+| 7 | 2.1–2.3 | Media query dan latihan dua ukuran layar; pengenalan **Bootstrap** (container, tombol, kartu, grid dasar) dan **Tailwind** (spacing, warna, Flexbox, breakpoint dasar). | Formatif: komponen sederhana menggunakan masing-masing framework. |
+| 8 | 2.1–2.3 | Ujian praktik CSS/Flexbox responsif; pengenalan kelas Bootstrap dan Tailwind diuji melalui latihan singkat. | **UTS — 25%:** CSS/Flexbox, dua ukuran layar dan pemilihan kelas framework dasar. |
+| 9 | 3.1 | JavaScript di browser: script, variabel, tipe data, operator aritmetika dan konsol. | Formatif: operasi hitung dan keluaran sederhana. |
+| 10 | 3.1 | Percabangan, perulangan, fungsi dan array sederhana; konversi input menjadi angka dan kondisi pembagi nol. | Formatif: fungsi kalkulasi dengan contoh input valid/tidak valid. |
+| 11 | 3.2 | DOM dan event: membaca input, tombol, menampilkan hasil dan pesan; terapkan kelas Bootstrap atau Tailwind pada rancangan kalkulator. | Formatif: purwarupa kalkulator dengan styling framework pilihan. |
+| 12 | 3.1–3.2 | Praktikum dan demonstrasi kalkulator dasar menggunakan JavaScript serta Bootstrap **atau** Tailwind CSS. | **Tugas 2 — 25%:** kalkulator dan hasil uji. |
+| 13 | 4.1 | Merencanakan landing page: struktur semantik, hero, manfaat/fitur, call-to-action dan footer; siapkan konten berizin. | Formatif: sketsa dan kerangka HTML. |
+| 14 | 4.1 | Tata landing page responsif dengan CSS/Flexbox; Bootstrap atau Tailwind boleh digunakan. Tambahkan interaksi JS sederhana, misalnya menu atau tombol. | Formatif: purwarupa responsif dan interaktif. |
+| 15 | 4.2 | Uji navigasi, interaksi, keyboard dan tampilan; perbaiki masalah serta dokumentasikan hasil. | Formatif: daftar kasus uji dan perbaikan. |
+| 16 | 4.1–4.2 | Demonstrasi landing page, penjelasan kode individual dan penyerahan berkas. | **UAS — 30%:** landing page, dokumentasi dan demonstrasi. |
 
 **Boundary Guardrails:**
 
-* 🟢 **IN-SCOPE (Wajib Diajarkan):** Semantic HTML5, Modern CSS3, Responsive Design (Grid, Flexbox, TailwindCSS), Vanilla JavaScript (ES6+), DOM Manipulation, State Management, Front-End Framework (React/Vue).
-* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang backend server-side logic, query SQL langsung ke database produksi, perancangan API REST gateway, riset persona UX.
-* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun tampilan front-end web reaktif; menyerahkan penyediaan data backend API ke `STI-416`.
+* 🟢 **IN-SCOPE:** HTML dan CSS dasar–menengah; Flexbox lanjutan; responsivitas; pengenalan Bootstrap dan Tailwind; JavaScript dasar, DOM dan event; kalkulator serta landing page.
+* ❌ **OUT-OF-SCOPE:** React/Vue dan SPA; Fetch, async/await dan integrasi API; backend, database, pipeline build, optimasi produksi dan Lighthouse sebagai target.
+* 🔄 **HANDOFF:** dasar antarmuka responsif dan interaktif; `STI-416` mengajarkan rekayasa backend dan konsep komunikasi HTTP. Kemampuan integrasi klien/API dan framework JavaScript belum dijamin, sehingga perlu keputusan prodi untuk penempatan dan sumber daya.
 
 ---
 

@@ -4,6 +4,9 @@
 
 **Identitas:** `STC-701` Media Imersif & Pengembangan XR · Semester 7 · 3 SKS (+P) · Prasyarat `STI-311` · PL PL-3 · PEO PEO-1, PEO-3 · IRM M.
 
+
+> **Audit kesinambungan STC-701:** Bekal STI-311 terbatas pada HTML/CSS/Flexbox dan JavaScript dasar; WebXR, Three.js, modul JavaScript dan grafika 3D tidak diasumsikan. Periksa kesiapan sebelum Three.js minggu 3 dan Tugas 1 minggu 4; contoh/pengayaan dan perubahan jadwal menunggu keputusan koordinator. Lihat `../LAPORAN_AUDIT_DAMPAK_STI-311.md`.
+
 ## Identitas dan pengesahan
 
 Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. PT = tugas terstruktur; BM = belajar mandiri.
