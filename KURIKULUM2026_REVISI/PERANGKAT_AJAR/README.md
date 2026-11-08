@@ -4,9 +4,9 @@
 >
 > 1. **Satu-satunya Lokasi Keluaran Perangkat Ajar:** Seluruh paket perangkat ajar mata kuliah (**RPS, SAP, Outline Modul, Rencana Evaluasi & Asesmen, Rubrik Penilaian**, maupun ekspansi **Modul Ajar Utuh, Bank Soal, Jobsheet Praktikum, dan Slide Perkuliahan**) **WAJIB langsung dibuat, diperkaya, dan disimpan di dalam folder `KURIKULUM2026_REVISI/PERANGKAT_AJAR/` ini**.
 > 2. **Larangan Menulis di Root `KURIKULUM2026_REVISI/`:** **JANGAN** lagi menaruh berkas `055_*` s.d. `100_*` (atau perangkat ajar lanjutan lainnya) di root `KURIKULUM2026_REVISI/`. Root folder dikhususkan hanya untuk dokumen induk Buku Kurikulum KPT-OBE (`000`–`054`, `BUKU_KURIKULUM_OBE_SISTEKIN_2026_FINAL.md`, dan template master).
-> 3. **Status Saat Ini (Update 7 November 2026):** Sebanyak **155 berkas perangkat ajar (`055_*` s.d. `085_*` — Semester 1 s.d. Semester 6, 31 Mata Kuliah × 5 dokumen)** telah tersedia di folder ini:
->    - **Generator Pengayaan / Ekspansi Konten** (mis. pendalaman narasi materi per pertemuan, studi kasus, soal, dan rubrik seperti yang telah diterapkan pada `055`–`059`): silakan **langsung mengedit berkas `060_*` s.d. `085_*` di folder ini**.
->    - **Generator Tahap Berikutnya (Semester 7):** silakan **langsung melanjutkan mulai nomor `086_*` di folder ini** sesuai tabel penomoran baku di Bagian 2.
+> 3. **Status Saat Ini (7 November 2026):** Paket `055_*`–`100_*` telah tersedia: **46 MK × 5 = 230 berkas Markdown** untuk Core STI dan peminatan STA/STB/STC. Keberadaan berkas bukan pengesahan akademik. Paket `089`–`100` diperbaiki terhadap sumber dan perlu pendalaman serta validasi pengampu; `086`–`088` dan paket sebelumnya juga perlu audit substantif.
+>    - **Generator pengayaan:** edit paket yang sudah ada langsung di folder ini; jangan membuat ulang `086`–`100` sebagai antrean kosong.
+>    - **Pemeriksaan:** cek CPMK/sub-CPMK, hubungan asesmen, rubrik, rincian kegiatan dan sumber, selain verifikasi identitas otomatis. Selisih isi antardokumen induk harus dicatat dan divalidasi oleh koordinator.
 
 ---
 
@@ -23,7 +23,7 @@ KURIKULUM2026_REVISI/PERANGKAT_AJAR/<NNN>_<SUB>_<JENIS>_<KODE-MK>_<NAMA_MK_KAPIT
 | `1` | `RPS` | Identitas resmi MK (Dok 005), Otorisasi, Pemetaan CPL (`CPL-01`..`CPL-14` Dok 003/004) — CPMK ABCD+Bloom — Sub-CPMK (Dok 007 & 043), Matriks Korelasi CPL×CPMK & Bobot 100%, Rencana 16 Pertemuan lengkap estimasi waktu SN-Dikti, Pustaka Utama/Pendukung, dan Boundary Guardrails (*In-Scope / Out-of-Scope / Handoff*). |
 | `2` | `SAP` | Satuan Acara Perkuliahan mikro 16 pekan: kegiatan Pendahuluan — Inti — Penutup per pertemuan, metode aktif (*Case Method* / *Team-Based Project* IKU 7 $\ge 50\%$), media/perangkat lunak spesifik, tugas terstruktur & mandiri, serta aktivitas laboratorium (khusus MK `+P`). |
 | `3` | `OUTLINE_MODUL` | Kerangka buku ajar/modul 14 bab materi (Pekan 1–7 & 9–15), sub-topik mendalam, studi kasus kontekstual *AI/Smart Systems Integrator*, latihan per bab, spesifikasi *prompt* ilustrasi diagram teknis (aset disimpan di `../assets/ilustrasi_modul/`), dan *hands-on lab* (khusus MK `+P`). |
-| `4` | `RENCANA_EVALUASI_ASESMEN` | Arsitektur 4 titik evaluasi baku = **100%** (Tugas 1 Pekan 4, UTS Pekan 8, Tugas 2 Pekan 12, UAS Pekan 16), pemetaan 1-ke-1 terhadap CPMK, kisi-kisi (*blueprint*) soal/proyek, formula ketercapaian CPMK & kontribusi CPL (Dok 008), serta mekanisme remedial & CQI/PPEPP. |
+| `4` | `RENCANA_EVALUASI_ASESMEN` | Arsitektur 4 titik evaluasi baku = **100%** (Tugas 1 Pekan 4, UTS Pekan 8, Tugas 2 Pekan 12, UAS Pekan 16), pemetaan instrumen terhadap CPMK (beberapa instrumen dapat mengukur CPMK yang sama), kisi-kisi (*blueprint*) soal/proyek, formula ketercapaian CPMK & kontribusi CPL (Dok 008), serta mekanisme remedial & CQI/PPEPP. |
 | `5` | `RUBRIK_PENILAIAN` | Instrumen rubrik analitik 4 level kinerja (**Sangat Baik $\ge 81$, Baik $66\text{–}80$, Cukup $56\text{–}65$, Kurang $< 56$**) selaras klaster rubrik `K-1` s.d. `K-4` (Dok 018) untuk keempat instrumen asesmen + skala persepsi holistik (Dok 033). |
 
 > **Catatan Ekstensi untuk Generator Bahan Ajar Turunan Lainnya:**
@@ -81,7 +81,9 @@ Seluruh atribut di bawah ini ditarik langsung dari **Single Source of Truth `../
 | `084` | 6 | `STB-601` | Arsitektur Cloud & DevOps | 3 | +P | `STI-417` | P2: Cloud Infra & Cybersecurity |
 | `085` | 6 | `STC-601` | Rekayasa & Otomasi Proses Bisnis (BPA) | 3 | +P | `STI-306` | P3: Digital Platform Engineering |
 
-### D. Tahap 7: Semester 7 (`086`–`100` — 15 MK / 75 Berkas) — ANTREAN LANJUTAN
+### D. Tahap 7: Semester 7 (`086`–`100` — 15 MK / 75 Berkas) — TERSEDIA (PERLU VALIDASI SUBSTANTIF)
+
+**Catatan QA:** Paket peminatan `089`–`100` telah direkonstruksi: CPMK penuh dari Dok 043, topik dari Dok 007, empat asesmen dan rubrik per MK. Dokumen tersebut masih berupa rancangan dan perlu pendalaman SAP, modul, kriteria rubrik dan validasi dosen; beberapa relasi Sub-CPMK di sumber 043 tidak sejalan dengan rumusan CPMK dan dipertahankan sambil menunggu rekonsiliasi. Core `086`–`088` belum diaudit menyeluruh; contohnya `087_4` memuat bobot efektif CPMK dan pembagian instrumen yang perlu diperiksa ulang, dan `086`/`088` masih menggunakan notasi 180M yang berbeda dari acuan 120 PT + 120 BM untuk 3 SKS +P. Lakukan audit juga pada paket semester terdahulu sebelum menganggapnya siap disahkan.
 
 | `<NNN>` | Sem | Kode MK | Nama Mata Kuliah Resmi (Dok 005) | SKS | Tipe | Prasyarat Resmi | Rumpun / Jalur |
 |:---:|:---:|:---:|---|:---:|:---:|---|---|
@@ -129,4 +131,4 @@ Seluruh atribut di bawah ini ditarik langsung dari **Single Source of Truth `../
    python3 -B _tools/verify_zero_discrepancy.py
    python3 -B _tools/check_all_md_alignment_with_005.py
    ```
-   Pastikan ketiganya menghasilkan **0 diskrepansi (`100% Selaras dengan Dok 005`)**.
+   Ketiga skrip memeriksa keselarasan tertentu dengan Dok 005; hasil lulus tidak membuktikan kelengkapan atau mutu akademik. Periksa juga rumusan CPMK lengkap, pemetaan asesmen dan total bobot, referensi silang, substansi dan validasi pengampu.

@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STB-703 ARSITEKTUR ENTERPRISE TOGAF
+# 096_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STB-703 | **3 SKS / Teori** — 100T+120M/minggu | **Semester:** 7 | **Prasyarat:** STI-312 Rekayasa Perangkat Lunak | **CPL:** P2, KK4 (TOGAF ADM) | **Revisi:** 07112026
+## STB-703 — Arsitektur Enterprise (TOGAF)
 
----
+**Identitas:** `STB-703` Arsitektur Enterprise (TOGAF) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-306` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS TERTULIS]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 20%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Kajian → analisis → masterplan/roadmap + presentasi — gate Milestone1 & 2.
+### Bab 1 — Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan hakikat Enterprise Architecture dan framework besar (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar Enterprise | CPMK-1 | Menguraikan use cases & roadmap MK | 3.7 jam (100T+120M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STB-703 | 3.7 jam (100T+120M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 3.7 jam (100T+120M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 3.7 jam (100T+120M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 3.7 jam (100T+120M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 3.7 jam (100T+120M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 3.7 jam (100T+120M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 1.7 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 3.7 jam (100T+120M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 3.7 jam (100T+120M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 3.7 jam (100T+120M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 3.7 jam (100T+120M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 3.7 jam (100T+120M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 3.7 jam (100T+120M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 3.7 jam (100T+120M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 1.7 jam |
+- **Capaian:** Mampu menguraikan struktur TOGAF ADM (Architecture Development Method) (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu menyusun Fase Preliminary: Prinsip Arsitektur & Penyesuaian Framework (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi Enterprise Architecture (TOGAF), use cases industri (PL-2), setup tools (GitHub Classroom, QGIS/Draw.io/Archi), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STB-703  
-**Hands-on/Diskusi:** Essay + case  
+- **Capaian:** Mampu menyusun Fase A: Architecture Vision & Statement of Architecture Work (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STB-703: COBIT/ITIL/TOGAF/SAAS)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Analisis kasus & rancang skema/roadmap awal  
-**Output TUGAS1:** Laporan 3-5 hal + diagram  
+- **Capaian:** Mampu memodelkan elemen ArchiMate: Business Layer (Aktor, Proses, Peran) (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu merancang Fase B: Business Architecture As-Is dan To-Be (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — case analysis  
+- **Capaian:** Mampu merancang Fase C: Data Architecture & Pemodelan Entitas Logis (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, roadmap & stakeholder mapping  
+- **Capaian:** Mampu merancang Fase C: Application Architecture & Integrasi Antarmuka (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — kajian komprehensif + roadmap 5-th  
-**Output TUGAS2:** Laporan 8-10 hal + diagram  
+- **Capaian:** Mampu merancang Fase D: Technology Architecture Infrastruktur & Cloud (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — KPI dashboard governance  
+### Bab 10 — Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru) (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — maturity index & audit score  
+- **Capaian:** Mampu melakukan Gap Analysis As-Is vs To-Be lintas 4 pilar arsitektur (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*) (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 10m presentasi + 10m demo prototype/policy + 5m Q&A — panel dosen+industri  
-**Output:** Laporan akhir 15-20 hal + slide deck + video 3m  
+- **Capaian:** Mampu menyusun Fase E: Opportunities & Solutions dan Work Packages (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu merancang Fase F: Migration Planning & Matriks Prioritisasi (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama Enterprise Architecture (TOGAF) (lihat 007 §59. STB-703 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STB-703 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan (pekan 14)
 
----
+- **Capaian:** Mampu menguraikan Fase G & H: Implementation Governance & Change Mgmt (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital (pekan 15)
 
-- Lab Governance + Draw.io/Archi/QGIS + LMS — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu menyusun dokumen Architecture Definition Document (ADD) lengkap (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[The Open Group TOGAF Standard](https://www.opengroup.org/togaf) dan [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS04` *Enterprise Architecture*, `BK-IT07` *System Integration*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Enterprise Korporat, Framework TOGAF (Architecture Development Method / ADM: Tahap A s.d. H), 4 Lapisan Arsitektur (Bisnis, Data, Aplikasi, Teknologi), Migration Planning.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang perumusan kebijakan tata ruang perkotaan publik (Smart City), konfigurasi teknis Docker/Kubernetes di lapangan, koding modul program.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyusun blueprint arsitektur korporat terpadu yang memandu seluruh transformasi digital organisasi.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

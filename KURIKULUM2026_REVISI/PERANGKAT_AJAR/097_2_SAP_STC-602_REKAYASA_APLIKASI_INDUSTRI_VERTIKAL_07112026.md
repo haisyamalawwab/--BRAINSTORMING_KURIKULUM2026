@@ -1,127 +1,181 @@
-# SAP — STC-602 REKAYASA APLIKASI INDUSTRI VERTIKAL
+# 097_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STC-602 | **Nama:** Rekayasa Aplikasi Industri Vertikal / *Vertical Industry Application Engineering (FinTech & EdTech)*
-**SKS:** 3 SKS / +P | **Semester:** 7 | **Rumpun:** Platform Engineering — P3 Digital Platform Engineering
-**Prasyarat:** STI-416 Web Back End | **Dosen:** Tim Dosen Platform Engineering  | **Revisi:** 07112026
+## STC-602 — Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech)
 
----
+**Identitas:** `STC-602` Rekayasa Aplikasi Industri Vertikal (FinTech & EdTech) · Semester 7 · 3 SKS (+P) · Prasyarat `STI-416` · PL PL-3 · PEO PEO-1, PEO-2 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu PjBL + Lab Hands-on — **Bobot:** 20/25/25/30 =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir deployable service + Demo Day.
+Alokasi minggu: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar Vertical Industry Apps, Karakteristik Spesifik Domain, DDD
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan karakteristik aplikasi vertikal dan Domain-Driven Design (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **menerapkan** arsitektur sistem pembayaran digital (*B*) dengan integrasi Pay… | C4 | P4, KK5 |
-| CPMK-2 | Mahasiswa (*A*) mampu **mengimplementasikan** standar interoperabilitas pembelajaran digital (SCORM … | C4 | P4, KK5 |
-| CPMK-3 | Mahasiswa (*A*) mampu **membangun** platform aplikasi industri vertikal terpadu (*B*) dengan penanga… | C6 | KK5 |
-| CPMK-1 | Mahasiswa (*A*) mampu **membangun** adegan grafika 3D interaktif di browser (*B*) menggunakan WebXR … | C3 | P4 |
-| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan mengimplementasikan** aplikasi Augmented Reality (AR) mobile (… | C6 | KK5 |
-| CPMK-3 | Mahasiswa (*A*) mampu **membangun** simulasi Virtual Reality (VR) 6DoF interaktif (*B*) dengan audio… | C6 | KK5 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar Vertical Industry Apps, Karakteristik Spesifik Domain, DDD dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §62. STC-602.*
+### Pertemuan 2 — Domain FinTech: Payment Gateway, E-Wallet, Regulasi SNAP Open Banking
 
----
+**Kemampuan:** Mampu menganalisis ekosistem pembayaran digital dan regulasi Bank Indonesia (C4).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Domain FinTech: Payment Gateway, E-Wallet, Regulasi SNAP Open Banking dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar Vertical Industry Application Engineering (FinTech & EdTech) (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Lab setup 170m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — Payment Integration: Snap Checkout, Webhook Notification, Status Inquiry
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STC-602  
-**Metode:** Case Method + Lab Coding 270m/220m  
-**Asesmen:** Formatif — latihan notebook  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu mengintegrasikan Payment Gateway API (Midtrans/Xendit Sandbox) (C3).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — code review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Payment Integration: Snap Checkout, Webhook Notification, Status Inquiry dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — build service/endpoint  
-**Metode:** Kuliah 50m + Lab Hands-on 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: repo + README + benchmark — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — Keamanan Transaksi: Idempotency Keys, Mencegah Double-Spending, Race Conditions
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu menerapkan mekanisme Idempotency Key dan distributed locking (C4).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — code review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Keamanan Transaksi: Idempotency Keys, Mencegah Double-Spending, Race Conditions dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Rancang alur payment gateway sandbox dengan pengamanan transaksi. Bukti: diagram transaksi, request dan threat notes.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — Financial Ledger Engine: Akun Debet/Kredit, Immutability, Audit Trail
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Live Coding Lab Test 120m + wawancara 50m  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 25%  
+**Kemampuan:** Mampu merancang arsitektur Buku Besar Digital (Double-Entry Bookkeeping) (C4).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Financial Ledger Engine: Akun Debet/Kredit, Immutability, Audit Trail dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — FinTech Security: Tokenisasi Kartu Kredit, Enkripsi Payload, Standar PCI-DSS
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STC-602 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu menganalisis kepatuhan standar keamanan data kartu PCI-DSS (C4).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (25%)
-**Bahan:** Proyek integrasi komprehensif — deployable service + queue/monitoring  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (25%)** — Milestone 2: repo + compose + laporan evaluasi — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi FinTech Security: Tokenisasi Kartu Kredit, Enkripsi Payload, Standar PCI-DSS dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Fraud Detection Dasar: Rule-Based Velocity Checks & Geolocation Mismatch
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu merancang deteksi dini anomali transaksi mencurigakan (Fraud) (C4).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fraud Detection Dasar: Rule-Based Velocity Checks & Geolocation Mismatch dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Demo Day panel industri+dosen 170m (12m presentasi + 8m demo + 5m Q&A)  
-**Deliverables:** Repo final + PORTFOLIO.pdf + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Ujian Koding Terjadwal Integrasi Payment Gateway API & Double-Entry Ledger
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Ujian Koding Terjadwal Integrasi Payment Gateway API & Double-Entry Ledger dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (25%, CPMK-1):** Implementasikan payment sandbox dan double-entry ledger serta uji idempotensi. Bukti: kode individual, log transaksi dan hasil uji.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Live Coding |25%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |25%|Mg12|
-| UAS Mg16 | Demo Day + Portofolio |30%|Mg16|
+### Pertemuan 9 — Domain EdTech: Arsitektur LMS Modern, Kursus Daring, Gamifikasi Pembelajaran
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu menguraikan ekosistem teknologi pendidikan (EdTech) dan LMS (C2).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Domain EdTech: Arsitektur LMS Modern, Kursus Daring, Gamifikasi Pembelajaran dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Standar Interoperabilitas EdTech: Paket SCORM, Manifest XML, CMI Data Model
+
+**Kemampuan:** Mampu menganalisis standar paket pembelajaran SCORM 1.2 / 2004 (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Standar Interoperabilitas EdTech: Paket SCORM, Manifest XML, CMI Data Model dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Standar xAPI: Desain Statement (Actor, Verb, Object), Learning Record Store (LRS)
+
+**Kemampuan:** Mampu mengimplementasikan protokol xAPI (Experience API / Tin Can) (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Standar xAPI: Desain Statement (Actor, Verb, Object), Learning Record Store (LRS) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — Arsitektur CBT: Timer Sinkronisasi, Randomisasi Soal, Anti-Cheating Guard
+
+**Kemampuan:** Mampu merancang arsitektur Computer-Based Testing (CBT) anti-curang (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Arsitektur CBT: Timer Sinkronisasi, Randomisasi Soal, Anti-Cheating Guard dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (25%, CPMK-2):** Implementasikan SCORM/xAPI pada lingkungan LMS contoh. Bukti: paket pembelajaran, statement xAPI dan log uji.
+
+### Pertemuan 13 — Learning Analytics: Retention Rate, Completion Rate, Quiz Heatmaps
+
+**Kemampuan:** Mampu menganalisis metrik keterlibatan siswa via Learning Analytics (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Learning Analytics: Retention Rate, Completion Rate, Quiz Heatmaps dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — Media Streaming: HLS Video Segmentation, DRM Protection, Progress Tracking
+
+**Kemampuan:** Mampu mengintegrasikan streaming video adaptif HLS untuk materi belajar (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Media Streaming: HLS Video Segmentation, DRM Protection, Progress Tracking dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — PjBL Vertical Apps Studio: Pembangunan Solusi Terpadu Spesifik Domain
+
+**Kemampuan:** Mampu membangun platform industri vertikal terpadu (FinTech Billing / EdTech) (C6).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi PjBL Vertical Apps Studio: Pembangunan Solusi Terpadu Spesifik Domain dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Sidang Demonstrasi Produk Platform Aplikasi Industri Vertikal (FinTech/EdTech)
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Sidang Demonstrasi Produk Platform Aplikasi Industri Vertikal (FinTech/EdTech) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Bangun solusi vertikal dengan transaksi idempotent dan evaluasi keamanan. Bukti: repo, demo, hasil uji dan batas kepatuhan.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS12` *Web & Mobile*, `BK-IT04` *Platform Technologies*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Sistem Industri Vertikal, Layanan FinTech (Sistem Pembayaran, Payment Gateway, Fraud Detection Dasar, Regulasi BI/OJK), Layanan EdTech (LMS, Learning Analytics), Keamanan Transaksi Finansial.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang audit kepatuhan perbankan legal murni, pembuatan game edukasi 3D mendalam, setup hardware server fisik data center.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun sistem aplikasi industri bernilai ekonomi tinggi yang patuh pada standar regulasi sektoral.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

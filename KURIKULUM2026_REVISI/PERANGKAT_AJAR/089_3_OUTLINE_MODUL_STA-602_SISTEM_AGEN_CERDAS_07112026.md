@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STA-602 SISTEM AGEN CERDAS
+# 089_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STA-602 | **3 SKS / +P** — 100T+170P+180M/minggu | **Semester:** 7 | **Prasyarat:** STI-307 Sistem Cerdas | **CPL:** KK1, KK2 (Rekayasa Sistem Cerdas & Data Engineering) | **Revisi:** 07112026
+## STA-602 — Sistem Agen Cerdas
 
----
+**Identitas:** `STA-602` Sistem Agen Cerdas · Semester 7 · 3 SKS (+P) · Prasyarat `STI-307` · PL PL-1 · PEO PEO-1, PEO-3 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS PRAKTIK]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 25%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Service prototype → integrasi → deployable + monitoring — gate Milestone1 & 2.
+### Bab 1 — Pengantar Agen Cerdas, Otonomi Agen, Taksonomi Lingkungan Multi-Agen (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan arsitektur agen reaktif, deliberatif, dan hybrid (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Agen Cerdas, Otonomi Agen, Taksonomi Lingkungan Multi-Agen; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pengantar Agen Cerdas, Otonomi Agen, Taksonomi Lingkungan Multi-Agen, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Agen Cerdas, Otonomi Agen, Taksonomi Lingkungan Multi-Agen, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Arsitektur BDI: Struktur Kepercayaan, Keinginan, Niat, & Rencana Aksi (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar Intelligent | CPMK-1 | Menguraikan use cases & roadmap MK | 4.5 jam (100T+170P+180M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STA-602 | 4.5 jam (100T+170P+180M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 4.5 jam (100T+170P+180M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 4.5 jam (100T+170P+180M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 4.5 jam (100T+170P+180M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 4.5 jam (100T+170P+180M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 4.5 jam (100T+170P+180M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 2.8 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 4.5 jam (100T+170P+180M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 4.5 jam (100T+170P+180M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 4.5 jam (100T+170P+180M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 4.5 jam (100T+170P+180M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 4.5 jam (100T+170P+180M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 4.5 jam (100T+170P+180M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 4.5 jam (100T+170P+180M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 2.8 jam |
+- **Capaian:** Mampu merancang model penalaran agen Belief-Desire-Intention (BDI) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Arsitektur BDI: Struktur Kepercayaan, Keinginan, Niat, & Rencana Aksi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Arsitektur BDI: Struktur Kepercayaan, Keinginan, Niat, & Rencana Aksi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Arsitektur BDI: Struktur Kepercayaan, Keinginan, Niat, & Rencana Aksi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — Multi-Agent Systems: Koordinasi, Kolaborasi, Kompetisi dan Protokol Pesan FIPA-ACL (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu menguraikan interaksi lingkungan Multi-Agent Systems (MAS) (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Multi-Agent Systems: Koordinasi, Kolaborasi, Kompetisi dan Protokol Pesan FIPA-ACL; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Multi-Agent Systems: Koordinasi, Kolaborasi, Kompetisi dan Protokol Pesan FIPA-ACL, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Multi-Agent Systems: Koordinasi, Kolaborasi, Kompetisi dan Protokol Pesan FIPA-ACL, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi Intelligent Agent Systems, use cases industri (PL-1 Intelligent IS Developer), setup tools (GitHub Classroom, Docker/GPU), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — BDI: keyakinan, tujuan, niat dan rencana; review Tugas 1 (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STA-602  
-**Hands-on/Diskusi:** Notebook + case  
+- **Capaian:** Menganalisis rancangan BDI dan skenario keputusan (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan BDI: keyakinan, tujuan, niat dan rencana; review Tugas 1; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait BDI: keyakinan, tujuan, niat dan rencana; review Tugas 1, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang BDI: keyakinan, tujuan, niat dan rencana; review Tugas 1, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STA-602: FastAPI/MLOps/LLM/IoT)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Protokol Negosiasi: Contract Net Protocol, Lelang Inggris, Lelang Belanda (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Build service/endpoint awal (FastAPI/Model serving/Agent)  
-**Output TUGAS1:** Repo + benchmark  
+- **Capaian:** Mampu menerapkan protokol negosiasi Contract Net Protocol & Lelang (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Protokol Negosiasi: Contract Net Protocol, Lelang Inggris, Lelang Belanda; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Protokol Negosiasi: Contract Net Protocol, Lelang Inggris, Lelang Belanda, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Protokol Negosiasi: Contract Net Protocol, Lelang Inggris, Lelang Belanda, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Agent-Based Modeling: Framework Python Mesa, Grid Space, Schedule (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu membangun simulasi agen berbasis Python Mesa / JADE (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Agent-Based Modeling: Framework Python Mesa, Grid Space, Schedule; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Agent-Based Modeling: Framework Python Mesa, Grid Space, Schedule, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Agent-Based Modeling: Framework Python Mesa, Grid Space, Schedule, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Simulasi Dinamika Kompleks: Pemodelan Kerumunan & Transmisi Informasi (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — praktik  
+- **Capaian:** Mampu memodelkan fenomena lalu lintas / sosial via simulasi multi-agen (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Simulasi Dinamika Kompleks: Pemodelan Kerumunan & Transmisi Informasi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Simulasi Dinamika Kompleks: Pemodelan Kerumunan & Transmisi Informasi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Simulasi Dinamika Kompleks: Pemodelan Kerumunan & Transmisi Informasi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Fondasi Reinforcement Learning: MDP, States, Actions, Rewards, Nilai Harapan (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, Docker/cloud/CI/CD  
+- **Capaian:** Mampu menguraikan Markov Decision Process (MDP) dan persamaan Bellman (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Fondasi Reinforcement Learning: MDP, States, Actions, Rewards, Nilai Harapan; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Fondasi Reinforcement Learning: MDP, States, Actions, Rewards, Nilai Harapan, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Fondasi Reinforcement Learning: MDP, States, Actions, Rewards, Nilai Harapan, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Solusi MDP Berbasis Model: Value Iteration & Policy Iteration Algorithms (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — deployable + queue/monitoring  
-**Output TUGAS2:** Repo + compose + laporan  
+- **Capaian:** Mampu menerapkan Dynamic Programming: Value Iteration & Policy Iteration (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Solusi MDP Berbasis Model: Value Iteration & Policy Iteration Algorithms; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Solusi MDP Berbasis Model: Value Iteration & Policy Iteration Algorithms, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Solusi MDP Berbasis Model: Value Iteration & Policy Iteration Algorithms, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — Grafana/Prometheus  
+### Bab 10 — Model-Free RL: Temporal Difference Learning, Tabel Q-Learning & Eksplorasi (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — RPS/latensi/faithfulness  
+- **Capaian:** Mampu mengimplementasikan algoritma Q-Learning pada Gymnasium (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Model-Free RL: Temporal Difference Learning, Tabel Q-Learning & Eksplorasi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Model-Free RL: Temporal Difference Learning, Tabel Q-Learning & Eksplorasi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Model-Free RL: Temporal Difference Learning, Tabel Q-Learning & Eksplorasi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Deep Reinforcement Learning: Arsitektur DQN, Target Network, Replay Buffer (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 12m presentasi + 8m demo + 5m Q&A — panel dosen+industri  
-**Output:** Repo final + PORTFOLIO.pdf + video 3m  
+- **Capaian:** Mampu mengonstruksi Deep Q-Networks (DQN) dengan Experience Replay (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Deep Reinforcement Learning: Arsitektur DQN, Target Network, Replay Buffer; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Deep Reinforcement Learning: Arsitektur DQN, Target Network, Replay Buffer, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Deep Reinforcement Learning: Arsitektur DQN, Target Network, Replay Buffer, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Policy-Based Methods: REINFORCE Algorithm & Advantage Actor-Critic (A2C) (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu menganalisis algoritma Policy Gradient REINFORCE & Actor-Critic (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Policy-Based Methods: REINFORCE Algorithm & Advantage Actor-Critic (A2C); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Policy-Based Methods: REINFORCE Algorithm & Advantage Actor-Critic (A2C), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Policy-Based Methods: REINFORCE Algorithm & Advantage Actor-Critic (A2C), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama Intelligent Agent Systems (lihat 007 §50. STA-602 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STA-602 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — State-of-the-Art RL: Proximal Policy Optimization (PPO) Training (pekan 14)
 
----
+- **Capaian:** Mampu mengimplementasikan Proximal Policy Optimization (PPO) (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan State-of-the-Art RL: Proximal Policy Optimization (PPO) Training; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait State-of-the-Art RL: Proximal Policy Optimization (PPO) Training, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang State-of-the-Art RL: Proximal Policy Optimization (PPO) Training, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — PjBL RL Studio: Training Agen Otonom pada Lingkungan Game Kustom (pekan 15)
 
-- Lab GPU/Cloud + GitHub Classroom + Docker + MLflow — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu melatih agen otonom terpadu pada lingkungan game/robotik (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan PjBL RL Studio: Training Agen Otonom pada Lingkungan Game Kustom; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait PjBL RL Studio: Training Agen Otonom pada Lingkungan Game Kustom, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang PjBL RL Studio: Training Agen Otonom pada Lingkungan Game Kustom, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+Russell & Norvig, *Artificial Intelligence: A Modern Approach*; dokumentasi [Mesa](https://mesa.readthedocs.io/) dan [Gymnasium](https://gymnasium.farama.org/).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS16` *Artificial Intelligence*, `BK-IT02` *Applied AI*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Agen Cerdas, Agen Otonom (BDI - Belief-Desire-Intention), Multi-Agent Systems (MAS), Protokol Komunikasi Antar-Agen (FIPA-ACL), Game Theory & Negosiasi Agen.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengulang algoritma search BFS/DFS sederhana, training model deep learning transformer teks, perakitan robot fisik.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai perilaku agen otonom terdistribusi; menyerahkan agen percakapan berbasis LLM ke `STA-702`.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

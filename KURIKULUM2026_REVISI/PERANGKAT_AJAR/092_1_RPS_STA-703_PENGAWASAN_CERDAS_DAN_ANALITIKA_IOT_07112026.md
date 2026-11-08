@@ -1,138 +1,97 @@
-# RPS — STA-703 PENGAWASAN CERDAS DAN ANALITIKA IOT 
+# 092_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STA-703 | **Nama EN:** Smart Surveillance and IoT Analytics
-**SKS/Tipe:** 3 SKS / +P — 100m Teori + 170m Lab + 180m Mandiri | **Rumpun:** IoT Analytics — P1
-**Prasyarat:** STI-624 Deep Learning & STI-521 IoT | **Dosen:** Tim Dosen IoT Analytics | **Revisi:** 07112026
-**CPL:** KK1, KK3 (Vision & IoT) | **PL:** PL-1/PL-2 | **PEO:** PEO-1 | **Rujukan:** 005, 007 §53. STA-703, 008, 043
+## STA-703 — Pengawasan Cerdas dan Analitika IoT
 
----
+**Identitas:** `STA-703` Pengawasan Cerdas dan Analitika IoT · Semester 7 · 3 SKS (+P) · Prasyarat `STI-624`, `STI-521` · PL PL-1, PL-2 · PEO PEO-1, PEO-3 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STA-703 PENGAWASAN CERDAS DAN ANALITIKA IOT |
-| **Semester/Rumpun** | Semester 7 / IoT Analytics — P1 |
-| **Prasyarat** | STI-624 Deep Learning & STI-521 IoT |
-| **CPL Dibebankan** | KK1, KK3 (Vision & IoT) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-1/PL-2 |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK1, |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P1 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-09 (KK1) | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas terintegrasi kecerdasan artifisial (AI/ML, NLP, Computer Vision, Smart Sys, DSS) guna memecahkan masalah kompleks organisasi dan industri. | M |
+| CPL-07 (P3) | Menguasai prinsip dan konsep infrastruktur TI, jaringan komputer, komputasi awan (*cloud*), keamanan informasi & siber, tata kelola TI, serta manajemen proyek sistem dan teknologi informasi. | M |
+| CPL-11 (KK3) | Mampu merancang, mengintegrasikan, dan mengelola infrastruktur komputasi awan (Cloud/DevOps), sistem sensor cerdas (IoT), dan ketahanan siber (*Cybersecurity*) secara andal, terukur, dan aman. | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STA-703 — Pengawasan Cerdas Dan Analitika Iot** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK1, KK3 (Vision & IoT)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-1/PL-2).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **melatih dan mengoptimalkan** model deteksi objek modern (YOLOv8/YOLOv10) (*B*) pada dataset CCTV kustom (*C*) dengan mAP $\ge 0.80$ (*D*). | C4 | `CPL-09` (`KK1`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **mengimplementasikan** algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan wajah biometrik (*B*) pada stream video RTSP real-time (*C*) dengan frame rate stabil $\ge 25$ FPS (*D*). | C4 | `CPL-09` (`KK1`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **mengonversi dan mendeploy** model vision cerdas (*B*) pada perangkat komputasi tepi (*Edge AI: NVIDIA Jetson / Raspberry Pi 5*) menggunakan TensorRT/OpenVINO (*C*) secara optimal (*D*). | C6 | `CPL-07` (`P3`), `CPL-11` (`KK3`) |
+| CPMK-4 | Mahasiswa (*A*) mampu **membangun** sistem pengawasan cerdas terpadu (*B*) dengan trigger alarm otomatis ke broker MQTT dan dasbor monitoring (*C*) secara andal (*D*). | C6 | `CPL-07` (`P3`), `CPL-09` (`KK1`), `CPL-11` (`KK3`) |
 
-Relevansi karir: PL-1/PL-2 — roles: Smart Surveillance and IoT Analytics Specialist, PL-1/PL-2 Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menerapkan video analytics dan deteksi objek real-time (YOLO) pada edge device. | CPMK-1 | C4 |
+| Sub-CPMK-1.2 | Menganalisis alur pengolahan citra dan pelacakan objek/re-identification. | CPMK-1 | C4 |
+| Sub-CPMK-2.1 | Mengintegrasikan kamera dan sensor untuk akuisisi data pengawasan. | CPMK-2 | C4 |
+| Sub-CPMK-2.2 | Mengirim data telemetri dari edge ke platform secara real-time. | CPMK-2 | C4 |
+| Sub-CPMK-3.1 | Membangun dashboard monitoring IoT untuk visualisasi analitik. | CPMK-3 | C6 |
+| Sub-CPMK-3.2 | Mengembangkan pipeline analitik smart surveillance end-to-end. | CPMK-3 | C6 |
+| Sub-CPMK-4.1 | Mengevaluasi keandalan dan latensi sistem smart surveillance. | CPMK-4 | C6 |
+| Sub-CPMK-4.2 | Menyempurnakan sistem pengawasan berdasarkan metrik akurasi deteksi. | CPMK-4 | C6 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-09` (`KK1`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-09` (`KK1`) | — | 25% | — | — | 25% |
+| CPMK-3 | `CPL-07` (`P3`), `CPL-11` (`KK3`) | — | — | 25% | — | 25% |
+| CPMK-4 | `CPL-07` (`P3`), `CPL-09` (`KK1`), `CPL-11` (`KK3`) | — | — | — | 30% | 30% |
+| Total | — | 20% | 25% | 25% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK1** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks Smart Surveillance and IoT Analytics (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-1/PL-2.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 75% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §53. STA-703
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan arsitektur Smart Surveillance dan analitik video Edge AI (C2) | Pengantar Smart Surveillance, Arsitektur CCTV IP, Edge vs Cloud Video Analytics | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 2 | Mampu memproses stream video real-time via OpenCV VideoCapture & RTSP (C3) | Real-Time Video Ingestion: Protokol RTSP, WebRTC, OpenCV Pipeline | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 3 | Mampu mengimplementasikan deteksi objek real-time via YOLOv8/YOLOv10 (C3) | Object Detection Pipeline: Arsitektur YOLOv8, Inference Engine, NMS | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 4 | Mampu menganotasi data dan melatih baseline deteksi pada split yang terpisah (C4) | Dataset Curation dan Pelatihan Awal YOLO: Anotasi Bounding Box, Augmentasi Data, Split dan Baseline | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 1 20% |
+| 5 | Mampu melatih custom model YOLO untuk deteksi APD (Helm/Rompi) (C4) | Custom YOLO Training: Loss Curve Analysis, mAP50, mAP50-95 Optimization | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 6 | Mampu mengimplementasikan Multi-Object Tracking via ByteTrack / DeepSORT (C4) | Multi-Object Tracking (MOT): Kalmann Filter, Hungarian Matching, ByteTrack | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 7 | Mampu menerapkan deteksi intrusi zona terlarang dan Line Crossing (C4) | Behavioral Analytics: Virtual Tripwire, Polygon Zone Intrusion, Crowd Density | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Koding Terjadwal Custom YOLO Training & Multi-Object Tracking Pipeline | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UTS 25% |
+| 9 | Mampu mengimplementasikan pengenalan wajah biometrik via ArcFace/FaceNet (C4) | Face Recognition: Face Detection (RetinaFace), Embedding, Cosine Verification | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 10 | Mampu menguraikan tantangan komputasi tepi (Edge AI) & efisiensi daya (C2) | Edge AI Computing: Keterbatasan Memori, Disipasi Panas, Latensi | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 11 | Mampu mengoptimalkan model via Kuantisasi INT8/FP16 & TensorRT Engine (C5) | Model Compression: Post-Training Quantization, Pruning, TensorRT Engine | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 12 | Mampu mendeploy model inferensi pada hardware NVIDIA Jetson / RPi 5 (C6) | Edge Deployment: Setup NVIDIA Jetson Nano / Orin, CSI Camera Interface | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 2 25% |
+| 13 | Mampu menghubungkan deteksi visual AI ke broker MQTT untuk memicu alarm (C4) | Edge IoT Integration: MQTT Alert Triggering, Relay Alarm, WhatsApp Alert | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 14 | Mampu mengimplementasikan sistem Automatic License Plate Recognition (ALPR) (C4) | Studi Kasus Industri: ALPR OCR (Plat Nomor Kendaraan) & Smart Parking | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 15 | Mampu membangun sistem smart surveillance terpadu pada area kampus/pabrik (C6) | PjBL Surveillance Studio: Integrasi Kamera CCTV, Edge AI, Alarm, & Dasbor | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Sidang Demonstrasi Produk Sistem Smart Surveillance Edge AI Terpadu | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **melatih dan mengoptimalkan** model deteksi objek modern (YOLOv8/YOLOv10) (*B*) pada dataset CCTV… | **C4** | `KK1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **mengimplementasikan** algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan waja… | **C4** | `KK1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mengonversi dan mendeploy** model vision cerdas (*B*) pada perangkat komputasi tepi (*Edge AI: N… | **C6** | `P3, KK3` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **membangun** sistem pengawasan cerdas terpadu (*B*) dengan trigger alarm otomatis ke broker MQTT … | **C6** | `P3, KK1, KK3` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **mengonfigurasi dan menyusun aturan** (*Rules*) Intrusion Detection / Prevention Systems (Snort /… | **C4** | `P3, KK3` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **menganalisis** bukti transfer data mencurigakan dan jejak eksfiltrasi (*B*) melalui analisis lal… | **C4** | `KK4` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **melakukan** akuisisi bukti digital (*Bit-Stream Image*) dan analisis forensik memori/disk (*B*) … | **C5** | `KK4` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §53. STA-703. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Anotasi citra berizin dan latih/evaluasi deteksi objek pada split terpisah. Bukti: dataset sintetis/berizin, model dan metrik mAP |
+| UTS | 8 | 25% | CPMK-2 | Terapkan pelacakan multiobjek pada video uji dan evaluasi frame rate. Bukti: kode tracking, video contoh dan hasil uji |
+| Tugas 2 | 12 | 25% | CPMK-3 | Konversi model untuk edge, ukur latensi dan jelaskan batas perangkat. Bukti: artefak model, konfigurasi dan benchmark |
+| UAS | 16 | 30% | CPMK-4 | Integrasikan deteksi, alarm MQTT dan dashboard; uji privasi dan keandalan. Bukti: kode, diagram, hasil uji dan demo |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+Dokumentasi [Ultralytics YOLO](https://docs.ultralytics.com/) dan [OpenCV](https://docs.opencv.org/).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri Smart Surveillance and IoT Analytics (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STA-703 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Praktik Live Coding 170m/100m | **UTS 25% Live Coding** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 25%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Demo Day** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20%+25%+25%+30% =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS16` *Artificial Intelligence*, `BK-IT14` *IoT & Smart Systems*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Video Analytics Real-Time, Deteksi Objek Edge (YOLO/MobileNet pada Jetson/Raspberry Pi), Multi-Camera Tracking, Analitik Aliran Sensor IoT Cerdas, Smart City Surveillance Privacy.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang pengkabelan mikrokontroler sensor dasar dari nol, perancangan dashboard BI finansial, training arsitektur transformer teks.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan sistem pengawasan cerdas terintegrasi AI edge dan jaringan IoT otonom.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Biometrik hanya pada data sintetis atau data yang memiliki persetujuan eksplisit; mAP/FPS adalah target Dok 043, bukan hasil yang dijamin. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan Smart Surveillance and IoT Analytics (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-1/PL-2) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 092_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Live Coding Lab Test | CPMK-1,2 | 25% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 25% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai Smart Surveillance and IoT Analytics (lihat 007 §53. STA-703 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab IoT (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §53. STA-703.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

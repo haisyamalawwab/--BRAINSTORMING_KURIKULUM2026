@@ -1,127 +1,181 @@
-# SAP — STB-701 TATA KELOLA TI DAN KEPATUHAN COBIT2019
+# 094_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STB-701 | **Nama:** Tata Kelola Ti Dan Kepatuhan Cobit2019 / *IT Governance & Compliance (COBIT 2019)*
-**SKS:** 3 SKS / Teori | **Semester:** 7 | **Rumpun:** IT Governance — P2
-**Prasyarat:** STB-602 | **Dosen:** Tim Dosen IT Governance  | **Revisi:** 07112026
+## STB-701 — Tata Kelola & Kepatuhan TI (COBIT 2019)
 
----
+**Identitas:** `STB-701` Tata Kelola & Kepatuhan TI (COBIT 2019) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-101` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu Case Method + Studio — **Bobot:** 20/30/20/30 =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir kajian + masterplan + presentasi.
+Alokasi minggu: TM 150 menit + PT 180 menit + BM 180 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan hakikat Tata Kelola TI vs Manajemen TI korporasi (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **membedakan** prinsip Tata Kelola TI (*Governance*) vs Manajemen TI (*Managem… | C4 | P3 |
-| CPMK-2 | Mahasiswa (*A*) mampu **merancang** sistem tata kelola TI (*B*) menggunakan COBIT 2019 Design Toolki… | C4 | KK4 |
-| CPMK-3 | Mahasiswa (*A*) mampu **melakukan** audit kapabilitas proses tata kelola TI (*B*) berdasarkan model … | C5 | KK4 |
-| CPMK-1 | Mahasiswa (*A*) mampu **menguraikan** Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7… | C2 | P2 |
-| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan menganalisis** alur kerja Service Desk, Incident Management, d… | C4 | KK4 |
-| CPMK-3 | Mahasiswa (*A*) mampu **merancang** Katalog Layanan TI (*Service Catalog*) dan perjanjian tingkat la… | C5 | P2, KK4 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §57. STB-701.*
+### Pertemuan 2 — Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance
 
----
+**Kemampuan:** Mampu menganalisis 6 prinsip sistem tata kelola & 3 prinsip kerangka kerja (C4).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar IT Governance & Compliance (COBIT 2019) (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Diskusi 120m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4)
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STB-701  
-**Metode:** Case Method + Diskusi 270m/220m  
-**Asesmen:** Formatif — latihan essay 500 kata  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu menguraikan struktur 40 Sasaran Tata Kelola & Manajemen COBIT 2019 (C2).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — case analysis 1 hal  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — analisis kasus & rancang skema  
-**Metode:** Kuliah 50m + Workshop 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: laporan analisis 3-5 hal + diagram — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu memetakan Enterprise Goals ke Alignment Goals & Sasaran COBIT (C4).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — peer review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Bedakan governance dan management serta petakan sasaran organisasi pada COBIT. Bukti: analisis peran dan goals cascade.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Ujian Tertulis 100m (20 PG + 3 esai case)  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 30%  
+**Kemampuan:** Mampu menganalisis 11 Design Factors perancangan tata kelola TI (C4).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STB-701 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu mengoperasikan COBIT 2019 Design Toolkit untuk penentuan prioritas (C3).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (20%)
-**Bahan:** Proyek integrasi komprehensif — kajian komprehensif + roadmap  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (20%)** — Milestone 2: laporan 8-10 hal + diagram arsitektur/governance — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu menyusun dokumen Target Governance System berdasar output toolkit (C4).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Sidang presentasi 100m (10m presentasi + 10m demo + 5m Q&A) — kajian komprehensif  
-**Deliverables:** Laporan akhir 15-20 hal + slide deck + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Ujian Analisis Goals Cascade, Design Factors, & Desain Sistem COBIT 2019
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Ujian Analisis Goals Cascade, Design Factors, & Desain Sistem COBIT 2019 dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (30%, CPMK-2):** Rancang sistem tata kelola dengan design factors dan prioritas. Bukti: design factor, keputusan dan peta proses.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Tertulis Case |30%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |20%|Mg12|
-| UAS Mg16 | Presentasi + Laporan Akhir |30%|Mg16|
+### Pertemuan 9 — Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya)
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu menguraikan Domain EDM (Evaluate, Direct, Monitor) tata kelola (C2).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM)
+
+**Kemampuan:** Mampu menganalisis Domain APO (Align, Plan, Organize) manajemen TI (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi)
+
+**Kemampuan:** Mampu menganalisis Domain BAI (Build, Acquire, Implement) transformasi (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja)
+
+**Kemampuan:** Mampu menganalisis Domain DSS & MEA (Deliver, Service, Monitor) operasional (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (20%, CPMK-2):** Analisis domain COBIT, tentukan bukti dan sasaran perbaikan. Bukti: matriks proses, sasaran dan bukti.
+
+### Pertemuan 13 — Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI)
+
+**Kemampuan:** Mampu menilai kapabilitas proses tata kelola via skala CMMI Level 0-5 (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja
+
+**Kemampuan:** Mampu menyusun kertas kerja audit tata kelola TI dan pengumpulan bukti (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap
+
+**Kemampuan:** Mampu menyusun Laporan Audit Tata Kelola TI dan Rekomendasi Roadmap (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Penilaian Dokumen Komprehensif Desain Sistem & Laporan Audit COBIT 2019
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penilaian Dokumen Komprehensif Desain Sistem & Laporan Audit COBIT 2019 dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Simulasikan asesmen kapabilitas dan susun laporan audit dan rekomendasi. Bukti: kertas kerja, bukti dan laporan audit.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS05` *IS Management and Governance*, `BK-IT08` *IT Governance*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Tata Kelola TI Korporat, Framework COBIT 2019 (Governance & Management Objectives), Penyelarasan Strategi TI dan Bisnis, Evaluasi Tingkat Kematangan TI (Capability Maturity Assessment).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang konfigurasi teknis operasional server harian, penanganan tiket helpdesk, audit forensik harddisk digital.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyelaraskan investasi dan kebijakan TI dengan tujuan korporat; menyerahkan manajemen layanan operasional ke `STB-702`.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

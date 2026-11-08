@@ -1,139 +1,96 @@
-# RPS — STA-702 AI PERCAKAPAN DAN ASISTEN CERDAS 
+# 091_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STA-702 | **Nama EN:** Conversational AI and Intelligent Assistant
-**SKS/Tipe:** 3 SKS / +P — 100m Teori + 170m Lab + 180m Mandiri | **Rumpun:** Conversational AI — P1
-**Prasyarat:** STI-413 & STI-416 | **Dosen:** Tim Dosen Conversational AI | **Revisi:** 07112026
-**CPL:** KK1 (LLM, RAG, Prompt Engineering) | **PL:** PL-1 AI Engineer | **PEO:** PEO-1, PEO-2 | **Rujukan:** 005, 007 §52. STA-702, 008, 043
+## STA-702 — AI Percakapan dan Asisten Cerdas
 
----
+**Identitas:** `STA-702` AI Percakapan dan Asisten Cerdas · Semester 7 · 3 SKS (+P) · Prasyarat `STI-413`, `STI-416` · PL PL-1 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STA-702 AI PERCAKAPAN DAN ASISTEN CERDAS |
-| **Semester/Rumpun** | Semester 7 / Conversational AI — P1 |
-| **Prasyarat** | STI-413 & STI-416 |
-| **CPL Dibebankan** | KK1 (LLM, RAG, Prompt Engineering) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-1 AI Engineer |
-| **PEO** | PEO-1, PEO-2 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK1 |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P1 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-09 (KK1) | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas terintegrasi kecerdasan artifisial (AI/ML, NLP, Computer Vision, Smart Sys, DSS) guna memecahkan masalah kompleks organisasi dan industri. | M |
+| CPL-06 (P2) | Menguasai konsep teoretis sistem informasi, analisis & perancangan sistem, arsitektur enterprise, metodologi pengembangan perangkat lunak, serta proses bisnis organisasi untuk transformasi digital. | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STA-702 — Ai Percakapan Dan Asisten Cerdas** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK1 (LLM, RAG, Prompt Engineering)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-1 AI Engineer).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **menerapkan** teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Thought, ReAct) (*B*) menggunakan framework LangChain (*C*) dengan output terstruktur (*D*). | C3 | `CPL-09` (`KK1`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan mengoptimalkan** sistem RAG multi-dokumen (*B*) menggunakan teknik Contextual Compression dan Reranking (*C*) dengan skor evaluasi RAGAS yang tinggi (*D*). | C6 | `CPL-06` (`P2`), `CPL-09` (`KK1`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **melakukan** Fine-Tuning model LLM open-source (*B*) menggunakan teknik Parameter-Efficient Fine-Tuning (QLoRA) (*C*) pada domain khusus (*D*). | C4 | `CPL-09` (`KK1`) |
+| CPMK-4 | Mahasiswa (*A*) mampu **membangun** asisten virtual cerdas berbasis agen otonom (Tool Calling) (*B*) dengan integrasi multi-channel (WhatsApp API / Web Widget) (*C*) secara terpadu (*D*). | C6 | `CPL-09` (`KK1`) |
 
-Relevansi karir: PL-1 AI Engineer — roles: Conversational AI and Intelligent Assistant Specialist, PL-1 AI Engineer Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menerapkan fine-tuning model LLM/Transformer untuk kebutuhan spesifik. | CPMK-1 | C3 |
+| Sub-CPMK-1.2 | Menyusun prompt engineering yang efektif untuk tugas percakapan. | CPMK-1 | C3 |
+| Sub-CPMK-2.1 | Membangun sistem RAG menggunakan LangChain dan vector database. | CPMK-2 | C6 |
+| Sub-CPMK-2.2 | Mengimplementasikan agentic AI dengan tool-use dan pemanggilan fungsi. | CPMK-2 | C6 |
+| Sub-CPMK-3.1 | Mengevaluasi kualitas respons percakapan asisten AI. | CPMK-3 | C4 |
+| Sub-CPMK-3.2 | Mengintegrasikan asisten percakapan ke saluran layanan pengguna. | CPMK-3 | C4 |
+| Sub-CPMK-4.1 | Membangun intelligent assistant end-to-end yang andal. | CPMK-4 | C6 |
+| Sub-CPMK-4.2 | Menyempurnakan perilaku asisten berdasarkan evaluasi pengguna. | CPMK-4 | C6 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-09` (`KK1`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-06` (`P2`), `CPL-09` (`KK1`) | — | 25% | — | — | 25% |
+| CPMK-3 | `CPL-09` (`KK1`) | — | — | 25% | — | 25% |
+| CPMK-4 | `CPL-09` (`KK1`) | — | — | — | 30% | 30% |
+| Total | — | 20% | 25% | 25% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK1 (LLM** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks Conversational AI and Intelligent Assistant (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-1 AI Engineer.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 75% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §52. STA-702
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan evolusi Chatbot dari Rule-Based ke Large Language Models (C2) | Pengantar Conversational AI, Arsitektur Transformer, Foundation Models | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 2 | Mampu menerapkan Prompt Engineering: Zero-Shot, Few-Shot, Chain-of-Thought (C3) | Prompt Engineering Patterns: CoT, Step-Back, Self-Consistency Prompting | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 3 | Mampu membangun rantai pemrosesan teks via LangChain Core (C3) | LangChain Fundamentals: PromptTemplates, OutputParsers, LCEL Syntax | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 4 | Mampu mengonfigurasi memori percakapan (ConversationBufferMemory) (C3) | Memory & State Management: Buffer Memory, Summary Memory, Entity Memory | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 1 20% |
+| 5 | Mampu membangun sistem RAG dasar dengan Vector Store Chroma / Pinecone (C4) | RAG Fundamentals: Text Splitting, Vector Ingestion, Vector Retriever | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 6 | Mampu mengoptimalkan retrieval via Multi-Query & Contextual Compression (C4) | Advanced RAG: Multi-Query Retriever, Ensemble, Contextual Compressor | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 7 | Mampu menerapkan Reranking (Cohere Rerank) dan evaluasi via RAGAS (C5) | RAG Evaluation: RAGAS Metrics (Faithfulness, Answer Relevance, Context Recall) | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Koding Terjadwal Advanced RAG Pipeline & Prompt Engineering | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UTS 25% |
+| 9 | Mampu menguraikan metode Parameter-Efficient Fine-Tuning (PEFT & LoRA) (C2) | LLM Fine-Tuning Concepts: Full Fine-Tuning vs LoRA, QLoRA 4-bit Precision | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 10 | Mampu menyiapkan dataset instruksi kustom dalam format Alpaca/ChatML (C3) | Dataset Preparation: Instruction Tuning Format, Data Filtering & Tokenization | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 11 | Mampu mengeksekusi pelatihan QLoRA pada model LLM open-source (Llama/Mistral) (C4) | Training Execution: HuggingFace TRL (SFTTrainer), BitsAndBytes, PEFT | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 12 | Mengevaluasi hasil fine-tuning QLoRA pada data berizin (C4) | Evaluasi QLoRA, log pelatihan, baseline dan batas perangkat | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 2 25% |
+| 13 | Mampu menerapkan Guardrails untuk pencegahan halusinasi & prompt injection (C4) | AI Safety & Guardrails: NeMo Guardrails, Llama Guard, Content Moderation | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 14 | Mampu mengintegrasikan chatbot cerdas ke WhatsApp Business API & Web (C4) | Multi-Channel Integration: Webhook WhatsApp Business, Telegram, Web UI | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 15 | Mampu mendeploy asisten cerdas enterprise terpadu pada cloud server (C6) | PjBL Conversational AI Studio: Deployment Asisten Cerdas Terpadu | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Sidang Demonstrasi Produk Asisten Virtual Cerdas Conversational AI | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **menerapkan** teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Thought, ReAct) (*B*) … | **C3** | `KK1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang dan mengoptimalkan** sistem RAG multi-dokumen (*B*) menggunakan teknik Contextual Comp… | **C6** | `P2, KK1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **melakukan** Fine-Tuning model LLM open-source (*B*) menggunakan teknik Parameter-Efficient Fine-… | **C4** | `KK1` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **membangun** asisten virtual cerdas berbasis agen otonom (Tool Calling) (*B*) dengan integrasi mu… | **C6** | `KK1` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **melatih dan mengoptimalkan** model deteksi objek modern (YOLOv8/YOLOv10) (*B*) pada dataset CCTV… | **C4** | `KK1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **mengimplementasikan** algoritma pelacakan multi-objek (ByteTrack / DeepSORT) dan pengenalan waja… | **C4** | `KK1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mengonversi dan mendeploy** model vision cerdas (*B*) pada perangkat komputasi tepi (*Edge AI: N… | **C6** | `P3, KK3` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **membangun** sistem pengawasan cerdas terpadu (*B*) dengan trigger alarm otomatis ke broker MQTT … | **C6** | `P3, KK1, KK3` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §52. STA-702. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Rancang dan uji prompt terstruktur untuk kumpulan pertanyaan berizin. Bukti: prompt, kasus uji dan analisis jawaban |
+| UTS | 8 | 25% | CPMK-2 | Bangun RAG multi-dokumen dengan retrieval, reranking dan evaluasi. Bukti: kode, corpus berizin, sitasi dan metrik retrieval |
+| Tugas 2 | 12 | 25% | CPMK-3 | Lakukan QLoRA pada model kecil atau simulasi jika perangkat terbatas dan evaluasi hasilnya. Bukti: konfigurasi, log latihan atau rencana simulasi dan evaluasi |
+| UAS | 16 | 30% | CPMK-4 | Integrasikan tool calling dan kanal uji, uji kesalahan serta batas keamanan. Bukti: kode, demo, pengujian dan kartu sistem |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+Dokumentasi [Hugging Face PEFT](https://huggingface.co/docs/peft/) dan [LangChain](https://python.langchain.com/docs/).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri Conversational AI and Intelligent Assistant (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STA-702 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Praktik Live Coding 170m/100m | **UTS 25% Live Coding** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 25%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Demo Day** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20%+25%+25%+30% =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS16` *Artificial Intelligence*, `BK-IT02` *Applied AI*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur LLM Modern, Prompt Engineering Lanjut (Few-shot, CoT), Arsitektur RAG (Chunking, Vector Database Chroma/Milvus), Framework LangChain/LlamaIndex, Fine-tuning Efisien (LoRA/QLoRA).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengulang rumus TF-IDF dasar, algoritma Naive Bayes teks klasik, pembuatan scraper web berita umum.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun sistem asisten cerdas berbasis model bahasa besar tingkat korporat.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Jika GPU tidak tersedia, praktik QLoRA dapat berupa demonstrasi terbatas atau rencana teruji; keterbatasannya harus dinyatakan. Dok 043 menempatkan fine-tuning pada Sub-CPMK-1.1 meskipun rumusan CPMK-3 menilai fine-tuning; dan tool-use pada Sub-CPMK-2.2 meskipun rumusan CPMK-4 membahas agen. Bukti dinilai berdasarkan rumusan CPMK.
 
-- **Case Method 30%:** Bedah kasus industri relevan Conversational AI and Intelligent Assistant (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-1 AI Engineer) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 091_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Live Coding Lab Test | CPMK-1,2 | 25% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 25% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai Conversational AI and Intelligent Assistant (lihat 007 §52. STA-702 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab Conversational (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §52. STA-702.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

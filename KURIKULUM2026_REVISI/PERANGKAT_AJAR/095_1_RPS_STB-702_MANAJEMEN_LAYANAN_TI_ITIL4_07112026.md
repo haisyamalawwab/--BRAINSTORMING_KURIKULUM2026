@@ -1,137 +1,92 @@
-# RPS — STB-702 MANAJEMEN LAYANAN TI ITIL4 
+# 095_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STB-702 | **Nama EN:** IT Service Management (ITIL 4)
-**SKS/Tipe:** 3 SKS / Teori — 100m Kuliah + 120m Mandiri (Teori) | **Rumpun:** IT Service — P2
-**Prasyarat:** STB-602 | **Dosen:** Tim Dosen IT Service | **Revisi:** 07112026
-**CPL:** KK4 (ITIL 4) | **PL:** PL-2 | **PEO:** PEO-1 | **Rujukan:** 005, 007 §58. STB-702, 008, 043
+## STB-702 — Manajemen Layanan TI (ITIL 4)
 
----
+**Identitas:** `STB-702` Manajemen Layanan TI (ITIL 4) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-101` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STB-702 MANAJEMEN LAYANAN TI ITIL4 |
-| **Semester/Rumpun** | Semester 7 / IT Service — P2 |
-| **Prasyarat** | STB-602 |
-| **CPL Dibebankan** | KK4 (ITIL 4) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-2 |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK4 |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 150 menit + PT 180 menit + BM 180 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P2 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-06 (P2) | Menguasai konsep teoretis sistem informasi, analisis & perancangan sistem, arsitektur enterprise, metodologi pengembangan perangkat lunak, serta proses bisnis organisasi untuk transformasi digital. | M |
+| CPL-12 (KK4) | Mampu merancang tata kelola TI (*IT Governance*), melakukan audit sistem informasi, serta memastikan kepatuhan terhadap standar industri dan manajemen risiko (COBIT, ITIL, ISO 27001). | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STB-702 — Manajemen Layanan Ti Itil4** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK4 (ITIL 4)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-2).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **menguraikan** Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7 Prinsip Panduan (*B*) berdasarkan kerangka kerja ITIL 4 (*C*) secara komprehensif (*D*). | C2 | `CPL-06` (`P2`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan menganalisis** alur kerja Service Desk, Incident Management, dan Problem Management (*B*) menggunakan analisis akar masalah (*Root Cause Analysis / Fishbone*) (*C*) secara terstruktur (*D*). | C4 | `CPL-12` (`KK4`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **merancang** Katalog Layanan TI (*Service Catalog*) dan perjanjian tingkat layanan (*Service Level Agreement / SLA*) (*B*) untuk organisasi penyedia layanan TI (*C*) secara profesional (*D*). | C5 | `CPL-06` (`P2`), `CPL-12` (`KK4`) |
 
-Relevansi karir: PL-2 — roles: IT Service Management (ITIL 4) Specialist, PL-2 Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menjelaskan Service Value System dan praktik ITIL 4 (Core, Improve, Drive). | CPMK-1 | C2 |
+| Sub-CPMK-1.2 | Menjelaskan peran SLA/OLA pada pengelolaan layanan TI. | CPMK-1 | C2 |
+| Sub-CPMK-2.1 | Mengimplementasikan manajemen incident dan problem pada organisasi. | CPMK-2 | C4 |
+| Sub-CPMK-2.2 | Menerapkan manajemen change dan release management. | CPMK-2 | C4 |
+| Sub-CPMK-3.1 | Mengevaluasi efektivitas service desk dan proses layanan ITIL 4. | CPMK-3 | C5 |
+| Sub-CPMK-3.2 | Menyusun rekomendasi perbaikan layanan TI berdasarkan metrik ITIL. | CPMK-3 | C5 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-06` (`P2`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-12` (`KK4`) | — | 30% | — | — | 30% |
+| CPMK-3 | `CPL-06` (`P2`), `CPL-12` (`KK4`) | — | — | 20% | 30% | 50% |
+| Total | — | 20% | 30% | 20% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK4 (ITIL 4)** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks IT Service Management (ITIL 4) (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-2.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (20%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 70% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §58. STB-702
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan konsep Layanan, Nilai (*Value*), dan Co-Creation of Value (C2) | Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 2 | Mampu menganalisis 4 Dimensi Manajemen Layanan ITIL 4 (C4) | 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 3 | Mampu menguraikan Service Value System (SVS) dan Service Value Chain (C2) | ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 4 | Mampu menerapkan 7 Prinsip Panduan ITIL 4 pada keputusan operasional (C3) | 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 1 20% |
+| 5 | Mampu memetakan 6 aktivitas Service Value Chain pada skenario layanan (C4) | Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 6 | Mampu merancang sistem Service Desk dan antarmuka tiket pengguna (C4) | Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 7 | Mampu merancang alur Incident Management & strategi eskalasi swarming (C4) | Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Tertulis Konsep ITIL 4 SVS, 4 Dimensi, & Praktik Incident Management | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UTS 30% |
+| 9 | Mampu menganalisis Problem Management dan Known Error Database (KEDB) (C4) | Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 10 | Mampu menerapkan Root Cause Analysis via Diagram Fishbone & 5-Whys (C3) | Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 11 | Mampu merancang Service Request Management dan alur persetujuan (C4) | Service Request Management: Standar Request Workflows & Otomasi | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 12 | Mampu merancang Service Catalog dan menetapkan SLA, OLA, UC (C5) | Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 2 20% |
+| 13 | Mampu menganalisis praktik Change Enablement & peran Change Advisory Board (C4) | Change Enablement: Standar, Normal, Emergency Changes, CAB Governance | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 14 | Mampu menguraikan Service Configuration Management dan CMDB (C2) | Configuration Management: Configuration Items (CI), CMDB Relationship Mapping | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 15 | Mampu menyusun Cetak Biru Katalog Layanan TI dan Perjanjian SLA Tim (C5) | Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Penilaian Portofolio Lengkap Manajemen Layanan TI & Desain SLA / KEDB | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **menguraikan** Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7 Prinsip Panduan (*B… | **C2** | `P2` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang dan menganalisis** alur kerja Service Desk, Incident Management, dan Problem Managemen… | **C4** | `KK4` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **merancang** Katalog Layanan TI (*Service Catalog*) dan perjanjian tingkat layanan (*Service Leve… | **C5** | `P2, KK4` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **menguraikan** siklus Architecture Development Method (ADM Fase Preliminary s.d. H) (*B*) berdasa… | **C2** | `P2` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **memodelkan** 4 pilar arsitektur enterprise (Business, Data, Application, Technology Architecture… | **C4** | `P2, P3, KK4` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menyusun** dokumen cetak biru Architecture Definition Document (ADD) (*B*) dengan analisis kesen… | **C5** | `KK4` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §58. STB-702. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Analisis SVS, empat dimensi dan guiding principles pada kasus layanan. Bukti: peta layanan dan analisis SVS |
+| UTS | 8 | 30% | CPMK-2 | Susun alur incident/problem dan analisis akar masalah dari tiket simulasi. Bukti: diagram alur, prioritas dan RCA |
+| Tugas 2 | 12 | 20% | CPMK-3 | Susun katalog layanan dan SLA/OLA dengan indikator terukur. Bukti: katalog, SLA dan kriteria pengukuran |
+| UAS | 16 | 30% | CPMK-3 | Evaluasi dan perbaiki katalog, SLA dan service desk berdasarkan data simulasi. Bukti: portofolio layanan, evaluasi dan rekomendasi |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+[PeopleCert ITIL](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1) dan panduan resmi ITIL 4 (akses sesuai lisensi).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri IT Service Management (ITIL 4) (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STB-702 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Tertulis Case Analysis 170m/100m | **UTS 30% Tertulis** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 20%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Presentasi** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20/30/20/30 =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS05` *IS Management*, `BK-IT08` *IT Service Management*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Manajemen Layanan TI (ITIL 4), Service Value System (SVS), Empat Dimensi Manajemen Layanan, Praktik Manajemen Layanan (Incident, Problem, Change, Service Level Management / SLA).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengubah strategi korporat tingkat dewan direksi, koding fitur aplikasi backend, konfigurasi routing hardware.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menjamin operasional layanan TI berjalan andal dan memenuhi kesepakatan SLA pengguna.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan IT Service Management (ITIL 4) (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-2) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 095_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Ujian Tertulis Case Analysis | CPMK-1,2 | 30% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 20% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai IT Service Management (ITIL 4) (lihat 007 §58. STB-702 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab IT (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §58. STB-702.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

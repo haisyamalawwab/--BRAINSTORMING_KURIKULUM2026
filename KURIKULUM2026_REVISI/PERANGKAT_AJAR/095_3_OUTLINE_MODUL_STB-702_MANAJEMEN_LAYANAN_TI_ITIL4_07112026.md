@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STB-702 MANAJEMEN LAYANAN TI ITIL4
+# 095_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STB-702 | **3 SKS / Teori** — 100T+120M/minggu | **Semester:** 7 | **Prasyarat:** STB-602 | **CPL:** KK4 (ITIL 4) | **Revisi:** 07112026
+## STB-702 — Manajemen Layanan TI (ITIL 4)
 
----
+**Identitas:** `STB-702` Manajemen Layanan TI (ITIL 4) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-101` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS TERTULIS]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 20%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Kajian → analisis → masterplan/roadmap + presentasi — gate Milestone1 & 2.
+### Bab 1 — Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan konsep Layanan, Nilai (*Value*), dan Co-Creation of Value (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar IT | CPMK-1 | Menguraikan use cases & roadmap MK | 3.7 jam (100T+120M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STB-702 | 3.7 jam (100T+120M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 3.7 jam (100T+120M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 3.7 jam (100T+120M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 3.7 jam (100T+120M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 3.7 jam (100T+120M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 3.7 jam (100T+120M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 1.7 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 3.7 jam (100T+120M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 3.7 jam (100T+120M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 3.7 jam (100T+120M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 3.7 jam (100T+120M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 3.7 jam (100T+120M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 3.7 jam (100T+120M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 3.7 jam (100T+120M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 1.7 jam |
+- **Capaian:** Mampu menganalisis 4 Dimensi Manajemen Layanan ITIL 4 (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu menguraikan Service Value System (SVS) dan Service Value Chain (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi IT Service Management (ITIL 4), use cases industri (PL-2), setup tools (GitHub Classroom, QGIS/Draw.io/Archi), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STB-702  
-**Hands-on/Diskusi:** Essay + case  
+- **Capaian:** Mampu menerapkan 7 Prinsip Panduan ITIL 4 pada keputusan operasional (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STB-702: COBIT/ITIL/TOGAF/SAAS)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Analisis kasus & rancang skema/roadmap awal  
-**Output TUGAS1:** Laporan 3-5 hal + diagram  
+- **Capaian:** Mampu memetakan 6 aktivitas Service Value Chain pada skenario layanan (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC) (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu merancang sistem Service Desk dan antarmuka tiket pengguna (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — case analysis  
+- **Capaian:** Mampu merancang alur Incident Management & strategi eskalasi swarming (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, roadmap & stakeholder mapping  
+- **Capaian:** Mampu menganalisis Problem Management dan Known Error Database (KEDB) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — kajian komprehensif + roadmap 5-th  
-**Output TUGAS2:** Laporan 8-10 hal + diagram  
+- **Capaian:** Mampu menerapkan Root Cause Analysis via Diagram Fishbone & 5-Whys (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — KPI dashboard governance  
+### Bab 10 — Service Request Management: Standar Request Workflows & Otomasi (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — maturity index & audit score  
+- **Capaian:** Mampu merancang Service Request Management dan alur persetujuan (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Service Request Management: Standar Request Workflows & Otomasi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Service Request Management: Standar Request Workflows & Otomasi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Service Request Management: Standar Request Workflows & Otomasi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 10m presentasi + 10m demo prototype/policy + 5m Q&A — panel dosen+industri  
-**Output:** Laporan akhir 15-20 hal + slide deck + video 3m  
+- **Capaian:** Mampu merancang Service Catalog dan menetapkan SLA, OLA, UC (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Change Enablement: Standar, Normal, Emergency Changes, CAB Governance (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu menganalisis praktik Change Enablement & peran Change Advisory Board (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Change Enablement: Standar, Normal, Emergency Changes, CAB Governance; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Change Enablement: Standar, Normal, Emergency Changes, CAB Governance, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Change Enablement: Standar, Normal, Emergency Changes, CAB Governance, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama IT Service Management (ITIL 4) (lihat 007 §58. STB-702 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STB-702 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Configuration Management: Configuration Items (CI), CMDB Relationship Mapping (pekan 14)
 
----
+- **Capaian:** Mampu menguraikan Service Configuration Management dan CMDB (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Configuration Management: Configuration Items (CI), CMDB Relationship Mapping; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Configuration Management: Configuration Items (CI), CMDB Relationship Mapping, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Configuration Management: Configuration Items (CI), CMDB Relationship Mapping, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA (pekan 15)
 
-- Lab Governance + Draw.io/Archi/QGIS + LMS — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu menyusun Cetak Biru Katalog Layanan TI dan Perjanjian SLA Tim (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[PeopleCert ITIL](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1) dan panduan resmi ITIL 4 (akses sesuai lisensi).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS05` *IS Management*, `BK-IT08` *IT Service Management*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Manajemen Layanan TI (ITIL 4), Service Value System (SVS), Empat Dimensi Manajemen Layanan, Praktik Manajemen Layanan (Incident, Problem, Change, Service Level Management / SLA).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengubah strategi korporat tingkat dewan direksi, koding fitur aplikasi backend, konfigurasi routing hardware.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menjamin operasional layanan TI berjalan andal dan memenuhi kesepakatan SLA pengguna.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STB-602 MANAJEMEN RISIKO KEAMANAN SIBER
+# 093_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STB-602 | **3 SKS / Teori** — 100T+120M/minggu | **Semester:** 7 | **Prasyarat:** STI-418 Dasar Keamanan Informasi | **CPL:** KK4 (Audit, Risiko, Kepatuhan) | **Revisi:** 07112026
+## STB-602 — Manajemen Risiko Keamanan Siber
 
----
+**Identitas:** `STB-602` Manajemen Risiko Keamanan Siber · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-418` · PL PL-2 · PEO PEO-1 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS TERTULIS]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 20%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Kajian → analisis → masterplan/roadmap + presentasi — gate Milestone1 & 2.
+### Bab 1 — Pengantar Manajemen Risiko Keamanan Siber, Terminologi Standar Risiko (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan konsep dasar risiko siber: Aset, Ancaman, Kerentanan, Dampak (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Manajemen Risiko Keamanan Siber, Terminologi Standar Risiko; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Pengantar Manajemen Risiko Keamanan Siber, Terminologi Standar Risiko, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Manajemen Risiko Keamanan Siber, Terminologi Standar Risiko, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Kerangka Kerja Risiko Internasional: ISO 27005 Framework & NIST Risk Model (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar Cybersecurity | CPMK-1 | Menguraikan use cases & roadmap MK | 3.7 jam (100T+120M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STB-602 | 3.7 jam (100T+120M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 3.7 jam (100T+120M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 3.7 jam (100T+120M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 3.7 jam (100T+120M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 3.7 jam (100T+120M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 3.7 jam (100T+120M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 1.7 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 3.7 jam (100T+120M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 3.7 jam (100T+120M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 3.7 jam (100T+120M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 3.7 jam (100T+120M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 3.7 jam (100T+120M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 3.7 jam (100T+120M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 3.7 jam (100T+120M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 1.7 jam |
+- **Capaian:** Mampu membandingkan kerangka kerja ISO/IEC 27005 vs NIST SP 800-30 (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Kerangka Kerja Risiko Internasional: ISO 27005 Framework & NIST Risk Model; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Kerangka Kerja Risiko Internasional: ISO 27005 Framework & NIST Risk Model, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Kerangka Kerja Risiko Internasional: ISO 27005 Framework & NIST Risk Model, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — Penilaian Aset: Inventarisasi Aset, Klasifikasi Informasi, Asset Valuation (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu melakukan identifikasi dan valuasi aset informasi kritis organisasi (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penilaian Aset: Inventarisasi Aset, Klasifikasi Informasi, Asset Valuation; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penilaian Aset: Inventarisasi Aset, Klasifikasi Informasi, Asset Valuation, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penilaian Aset: Inventarisasi Aset, Klasifikasi Informasi, Asset Valuation, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi Cybersecurity Risk Management, use cases industri (PL-2 Cloud & Cybersecurity Specialist), setup tools (GitHub Classroom, QGIS/Draw.io/Archi), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Identifikasi Ancaman & Kerentanan: CVE Database, CVSS v3.1 Scoring (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STB-602  
-**Hands-on/Diskusi:** Essay + case  
+- **Capaian:** Mampu mengidentifikasi ancaman siber via Threat Intelligence & CVSS Base Score (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Identifikasi Ancaman & Kerentanan: CVE Database, CVSS v3.1 Scoring; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Identifikasi Ancaman & Kerentanan: CVE Database, CVSS v3.1 Scoring, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Identifikasi Ancaman & Kerentanan: CVE Database, CVSS v3.1 Scoring, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STB-602: COBIT/ITIL/TOGAF/SAAS)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Kuantifikasi Risiko: Single Loss Expectancy (SLE), Annualized Rate of Occurrence (ARO), ALE (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Analisis kasus & rancang skema/roadmap awal  
-**Output TUGAS1:** Laporan 3-5 hal + diagram  
+- **Capaian:** Mampu menghitung analisis risiko kuantitatif: SLE, ARO, dan ALE (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Kuantifikasi Risiko: Single Loss Expectancy (SLE), Annualized Rate of Occurrence (ARO), ALE; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Kuantifikasi Risiko: Single Loss Expectancy (SLE), Annualized Rate of Occurrence (ARO), ALE, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Kuantifikasi Risiko: Single Loss Expectancy (SLE), Annualized Rate of Occurrence (ARO), ALE, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Analisis Risiko Kualitatif: Matriks Kemungkinan-Dampak, Toleransi Risiko (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu menyusun Matriks Risiko Kualitatif dan menentukan Risk Appetite (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Analisis Risiko Kualitatif: Matriks Kemungkinan-Dampak, Toleransi Risiko; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Analisis Risiko Kualitatif: Matriks Kemungkinan-Dampak, Toleransi Risiko, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Analisis Risiko Kualitatif: Matriks Kemungkinan-Dampak, Toleransi Risiko, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Opsi Perlakuan Risiko: Risk Mitigation, Risk Transfer (Cyber Insurance) (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — case analysis  
+- **Capaian:** Mampu memilih opsi perlakuan risiko: Mitigate, Transfer, Avoid, Accept (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Opsi Perlakuan Risiko: Risk Mitigation, Risk Transfer (Cyber Insurance); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Opsi Perlakuan Risiko: Risk Mitigation, Risk Transfer (Cyber Insurance), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Opsi Perlakuan Risiko: Risk Mitigation, Risk Transfer (Cyber Insurance), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Penyusunan Risk Treatment Plan (RTP) & Pemilihan Kontrol CIS Controls (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, roadmap & stakeholder mapping  
+- **Capaian:** Mampu menyusun Dokumen Rencana Perlakuan Risiko (Risk Treatment Plan) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Risk Treatment Plan (RTP) & Pemilihan Kontrol CIS Controls; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Risk Treatment Plan (RTP) & Pemilihan Kontrol CIS Controls, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Risk Treatment Plan (RTP) & Pemilihan Kontrol CIS Controls, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — NIST CSF 2.0: Govern, Identify, Protect, Detect, Respond, Recover Functions (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — kajian komprehensif + roadmap 5-th  
-**Output TUGAS2:** Laporan 8-10 hal + diagram  
+- **Capaian:** Mampu menganalisis 6 fungsi NIST Cybersecurity Framework (CSF 2.0) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan NIST CSF 2.0: Govern, Identify, Protect, Detect, Respond, Recover Functions; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait NIST CSF 2.0: Govern, Identify, Protect, Detect, Respond, Recover Functions, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang NIST CSF 2.0: Govern, Identify, Protect, Detect, Respond, Recover Functions, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — KPI dashboard governance  
+### Bab 10 — Business Impact Analysis (BIA): Identifikasi MTD, Dampak Finansial/Operasional (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — maturity index & audit score  
+- **Capaian:** Mampu mengeksekusi Business Impact Analysis (BIA) pada proses bisnis kritis (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Business Impact Analysis (BIA): Identifikasi MTD, Dampak Finansial/Operasional; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Business Impact Analysis (BIA): Identifikasi MTD, Dampak Finansial/Operasional, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Business Impact Analysis (BIA): Identifikasi MTD, Dampak Finansial/Operasional, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Parameter Kontinjensi: RTO, Recovery Point Objective (RPO), WRT, SDO (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 10m presentasi + 10m demo prototype/policy + 5m Q&A — panel dosen+industri  
-**Output:** Laporan akhir 15-20 hal + slide deck + video 3m  
+- **Capaian:** Mampu menetapkan metrik pemulihan Recovery Time Objective (RTO) & RPO (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Parameter Kontinjensi: RTO, Recovery Point Objective (RPO), WRT, SDO; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Parameter Kontinjensi: RTO, Recovery Point Objective (RPO), WRT, SDO, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Parameter Kontinjensi: RTO, Recovery Point Objective (RPO), WRT, SDO, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Penyusunan Rencana Keberlanjutan Bisnis (BCP): Prosedur Darurat & Tim Krisis (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu menyusun dokumen Business Continuity Plan (BCP) organisasi (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Rencana Keberlanjutan Bisnis (BCP): Prosedur Darurat & Tim Krisis; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Rencana Keberlanjutan Bisnis (BCP): Prosedur Darurat & Tim Krisis, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Rencana Keberlanjutan Bisnis (BCP): Prosedur Darurat & Tim Krisis, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama Cybersecurity Risk Management (lihat 007 §56. STB-602 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STB-602 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Penyusunan Disaster Recovery Plan (DRP): Hot/Warm/Cold Sites & Cloud Backup (pekan 14)
 
----
+- **Capaian:** Mampu merancang Disaster Recovery Plan (DRP) dan strategi replikasi data (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Disaster Recovery Plan (DRP): Hot/Warm/Cold Sites & Cloud Backup; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Disaster Recovery Plan (DRP): Hot/Warm/Cold Sites & Cloud Backup, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Disaster Recovery Plan (DRP): Hot/Warm/Cold Sites & Cloud Backup, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — Pengujian Rencana Kontinjensi: Tabletop Drill, Walkthrough, Full Interruption (pekan 15)
 
-- Lab Governance + Draw.io/Archi/QGIS + LMS — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu merancang skenario pengujian BCP via Tabletop Exercise Simulation (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengujian Rencana Kontinjensi: Tabletop Drill, Walkthrough, Full Interruption; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Pengujian Rencana Kontinjensi: Tabletop Drill, Walkthrough, Full Interruption, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengujian Rencana Kontinjensi: Tabletop Drill, Walkthrough, Full Interruption, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework), [NIST SP 800-30](https://csrc.nist.gov/pubs/sp/800/30/r1/final), dan ISO/IEC 27005 (akses sesuai lisensi).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS06` *Information Security*, `BK-IT12` *IT Risk Management*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penilaian Ancaman & Dampak Bisnis (BIA), Rencana Tanggap Darurat & Business Continuity Plan (BCP/DRP), Metrik Kepatuhan Keamanan.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang eksekusi teknis hacking/pentest langsung ke sistem target, penulisan script koding kriptografi, perbaikan source code aplikasi.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai kepatuhan dan mitigasi risiko keamanan; menyerahkan tata kelola strategis dewan direksi ke `STB-701`.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.
