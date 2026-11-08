@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STB-701 TATA KELOLA TI DAN KEPATUHAN COBIT2019
+# 094_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STB-701 | **3 SKS / Teori** — 100T+120M/minggu | **Semester:** 7 | **Prasyarat:** STB-602 | **CPL:** KK4 (COBIT 2019) | **Revisi:** 07112026
+## STB-701 — Tata Kelola & Kepatuhan TI (COBIT 2019)
 
----
+**Identitas:** `STB-701` Tata Kelola & Kepatuhan TI (COBIT 2019) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-101` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS TERTULIS]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 20%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Kajian → analisis → masterplan/roadmap + presentasi — gate Milestone1 & 2.
+### Bab 1 — Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan hakikat Tata Kelola TI vs Manajemen TI korporasi (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar IT | CPMK-1 | Menguraikan use cases & roadmap MK | 3.7 jam (100T+120M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STB-701 | 3.7 jam (100T+120M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 3.7 jam (100T+120M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 3.7 jam (100T+120M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 3.7 jam (100T+120M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 3.7 jam (100T+120M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 3.7 jam (100T+120M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 1.7 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 3.7 jam (100T+120M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 3.7 jam (100T+120M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 3.7 jam (100T+120M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 3.7 jam (100T+120M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 3.7 jam (100T+120M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 3.7 jam (100T+120M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 3.7 jam (100T+120M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 1.7 jam |
+- **Capaian:** Mampu menganalisis 6 prinsip sistem tata kelola & 3 prinsip kerangka kerja (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4) (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu menguraikan struktur 40 Sasaran Tata Kelola & Manajemen COBIT 2019 (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi IT Governance & Compliance (COBIT 2019), use cases industri (PL-2), setup tools (GitHub Classroom, QGIS/Draw.io/Archi), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STB-701  
-**Hands-on/Diskusi:** Essay + case  
+- **Capaian:** Mampu memetakan Enterprise Goals ke Alignment Goals & Sasaran COBIT (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STB-701: COBIT/ITIL/TOGAF/SAAS)  
-**Aktivitas:** Hands-on  
+### Bab 5 — COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Analisis kasus & rancang skema/roadmap awal  
-**Output TUGAS1:** Laporan 3-5 hal + diagram  
+- **Capaian:** Mampu menganalisis 11 Design Factors perancangan tata kelola TI (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu mengoperasikan COBIT 2019 Design Toolkit untuk penentuan prioritas (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — case analysis  
+- **Capaian:** Mampu menyusun dokumen Target Governance System berdasar output toolkit (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya) (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, roadmap & stakeholder mapping  
+- **Capaian:** Mampu menguraikan Domain EDM (Evaluate, Direct, Monitor) tata kelola (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM) (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — kajian komprehensif + roadmap 5-th  
-**Output TUGAS2:** Laporan 8-10 hal + diagram  
+- **Capaian:** Mampu menganalisis Domain APO (Align, Plan, Organize) manajemen TI (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — KPI dashboard governance  
+### Bab 10 — Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi) (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — maturity index & audit score  
+- **Capaian:** Mampu menganalisis Domain BAI (Build, Acquire, Implement) transformasi (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja) (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 10m presentasi + 10m demo prototype/policy + 5m Q&A — panel dosen+industri  
-**Output:** Laporan akhir 15-20 hal + slide deck + video 3m  
+- **Capaian:** Mampu menganalisis Domain DSS & MEA (Deliver, Service, Monitor) operasional (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI) (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu menilai kapabilitas proses tata kelola via skala CMMI Level 0-5 (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama IT Governance & Compliance (COBIT 2019) (lihat 007 §57. STB-701 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STB-701 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja (pekan 14)
 
----
+- **Capaian:** Mampu menyusun kertas kerja audit tata kelola TI dan pengumpulan bukti (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap (pekan 15)
 
-- Lab Governance + Draw.io/Archi/QGIS + LMS — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu menyusun Laporan Audit Tata Kelola TI dan Rekomendasi Roadmap (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[ISACA COBIT](https://www.isaca.org/resources/cobit) dan COBIT 2019 Framework (akses sesuai lisensi).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS05` *IS Management and Governance*, `BK-IT08` *IT Governance*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Tata Kelola TI Korporat, Framework COBIT 2019 (Governance & Management Objectives), Penyelarasan Strategi TI dan Bisnis, Evaluasi Tingkat Kematangan TI (Capability Maturity Assessment).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang konfigurasi teknis operasional server harian, penanganan tiket helpdesk, audit forensik harddisk digital.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyelaraskan investasi dan kebijakan TI dengan tujuan korporat; menyerahkan manajemen layanan operasional ke `STB-702`.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

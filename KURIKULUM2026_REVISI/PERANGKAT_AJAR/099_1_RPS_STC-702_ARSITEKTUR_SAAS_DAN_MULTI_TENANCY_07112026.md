@@ -1,137 +1,92 @@
-# RPS — STC-702 ARSITEKTUR SAAS DAN MULTI TENANCY 
+# 099_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STC-702 | **Nama EN:** SaaS Architecture & Multi-Tenancy
-**SKS/Tipe:** 3 SKS / +P — 100m Teori + 170m Lab + 180m Mandiri | **Rumpun:** SaaS — P3
-**Prasyarat:** STI-625 Platform Engineering | **Dosen:** Tim Dosen SaaS | **Revisi:** 07112026
-**CPL:** KK5 (SaaS, Multi-tenant) | **PL:** PL-3 | **PEO:** PEO-1 | **Rujukan:** 005, 007 §64. STC-702, 008, 043
+## STC-702 — Arsitektur SaaS & Multi-Tenansi
 
----
+**Identitas:** `STC-702` Arsitektur SaaS & Multi-Tenansi · Semester 7 · 3 SKS (+P) · Prasyarat `STI-416` · PL PL-3 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STC-702 ARSITEKTUR SAAS DAN MULTI TENANCY |
-| **Semester/Rumpun** | Semester 7 / SaaS — P3 |
-| **Prasyarat** | STI-625 Platform Engineering |
-| **CPL Dibebankan** | KK5 (SaaS, Multi-tenant) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-3 |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK5 |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P3 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-08 (P4) | Menguasai prinsip rekayasa perangkat lunak modern (web, mobile, distributed), manajemen basis data relasional/NoSQL, rekayasa data & visualisasi, serta prinsip desain interaksi pengalaman pengguna (UI/UX). | M |
+| CPL-13 (KK5) | Mampu merancang pengalaman pengguna berbasis riset (UI/UX) serta merekayasa platform digital modern yang skalabel (*Microservices, Web/Mobile, API, SaaS, BPA*). | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STC-702 — Arsitektur Saas Dan Multi Tenancy** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK5 (SaaS, Multi-tenant)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-3).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **merancang** strategi isolasi data multi-tenant (Shared Database with Row-Level Security vs Database-per-Tenant) (*B*) pada PostgreSQL (*C*) dengan jaminan isolasi data mutlak (*D*). | C4 | `CPL-08` (`P4`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **membangun** mesin penagihan berlangganan (*Subscription Engine*) otomatis (*B*) dengan integrasi Stripe API dan webhook (*C*) secara transaksional (*D*). | C6 | `CPL-13` (`KK5`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **mengimplementasikan** arsitektur Micro-Frontends dan *Feature Toggling* (*B*) pada platform SaaS (*C*) untuk aktivasi fitur dinamis per paket langganan (*D*). | C4 | `CPL-08` (`P4`), `CPL-13` (`KK5`) |
 
-Relevansi karir: PL-3 — roles: SaaS Architecture & Multi-Tenancy Specialist, PL-3 Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Merancang arsitektur SaaS multi-tenant dengan isolasi antar tenant. | CPMK-1 | C4 |
+| Sub-CPMK-1.2 | Menganalisis skema sharing database pada arsitektur multi-tenant. | CPMK-1 | C4 |
+| Sub-CPMK-2.1 | Mengimplementasikan proses on-boarding tenant dan manajemen kuota. | CPMK-2 | C6 |
+| Sub-CPMK-2.2 | Menerapkan mekanisme monetisasi dan metering (plan, quota) pada SaaS. | CPMK-2 | C6 |
+| Sub-CPMK-3.1 | Membangun aplikasi SaaS dengan arsitektur multi-tenant yang andal. | CPMK-3 | C4 |
+| Sub-CPMK-3.2 | Mengevaluasi skalabilitas dan keamanan isolasi antar tenant. | CPMK-3 | C4 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-08` (`P4`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-13` (`KK5`) | — | 25% | — | — | 25% |
+| CPMK-3 | `CPL-08` (`P4`), `CPL-13` (`KK5`) | — | — | 25% | 30% | 55% |
+| Total | — | 20% | 25% | 25% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK5 (SaaS** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks SaaS Architecture & Multi-Tenancy (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-3.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 75% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §64. STC-702
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan model bisnis SaaS dan tantangan arsitektur Multi-Tenancy (C2) | Pengantar SaaS Architecture, Model Bisnis Langganan, Tenant Isolation | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 2 | Mampu membandingkan 3 pola isolasi data multi-tenant (C4) | Pola Isolasi Data: Database-per-Tenant, Schema-per-Tenant, Shared-Table | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 3 | Mampu mengimplementasikan Row-Level Security (RLS) pada PostgreSQL (C4) | Multi-Tenant RLS: Kebijakan RLS PostgreSQL, Current Tenant Session Variable | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 4 | Mampu mengonfigurasi resolusi tenant via Subdomain (*tenant.app.com*) (C3) | Tenant Routing: Subdomain Extraction, Custom Domain CNAME Mapping | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 1 20% |
+| 5 | Mampu merancang otentikasi multi-tenant dan Single Sign-On (SSO / SAML) (C4) | Tenant Identity: Multi-Tenant JWT Claims, Organization SSO Integration | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 6 | Mampu merancang skema paket langganan SaaS (Free, Pro, Enterprise) (C4) | Model Langganan: Pricing Tiers, Quota Limits, Per-Seat vs Usage Billing | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 7 | Mampu mengintegrasikan Subscription Engine via Stripe Billing API (C3) | Stripe API Integration: Customers, Payment Methods, Subscriptions Lifecycle | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Koding Terjadwal Multi-Tenant RLS Database & Integrasi Stripe Billing | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UTS 25% |
+| 9 | Mampu menangani Stripe Webhooks untuk aktivasi/pembatalan akun otomatis (C4) | Payment Webhooks: Invoice Payment Succeeded, Subscription Deleted Handlers | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 10 | Mampu mengimplementasikan Metered Billing berbasis konsumsi sumber daya (C4) | Usage-Based Billing: Event Ingestion, Metering Aggregation, Usage Records | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 11 | Mampu mengonfigurasi Feature Toggling berbasis paket langganan (C3) | Feature Flags: Dynamic Feature Toggling per Tenant Plan di Runtime | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 12 | Mampu merancang arsitektur Micro-Frontends via Module Federation (C4) | Micro-Frontends: Webpack/Vite Module Federation untuk Multi-Team SaaS | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 2 25% |
+| 13 | Mampu mencegah Noisy Neighbor Problem via Rate Limiting per tenant (C4) | Tenant Fair-Use: Redis Rate Limiter per Tenant, Resource Throttling | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 14 | Mampu merancang wizard onboarding mandiri instan tenant baru (C4) | Self-Service Onboarding: Automated Tenant Database Provisioning Wizard | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 15 | Mampu membangun platform SaaS multi-tenant terpadu siap produksi (C6) | PjBL SaaS Studio: Pembangunan Solusi Platform SaaS Terpadu | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Sidang Demonstrasi Produk Platform SaaS Multi-Tenant Live & Ujian Portofolio | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **merancang** strategi isolasi data multi-tenant (Shared Database with Row-Level Security vs Datab… | **C4** | `P4` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **membangun** mesin penagihan berlangganan (*Subscription Engine*) otomatis (*B*) dengan integrasi… | **C6** | `KK5` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mengimplementasikan** arsitektur Micro-Frontends dan *Feature Toggling* (*B*) pada platform SaaS… | **C4** | `P4, KK5` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **merumuskan** Visi Produk, Strategi Produk, dan Objectives and Key Results (OKRs) (*B*) untuk pro… | **C4** | `P2, KK6` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **melakukan** Product Discovery dan prioritisasi backlog (*B*) menggunakan kerangka kerja RICE, Ka… | **C4** | `KK6` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menyusun** dokumen Product Requirement Document (PRD) berstandar industri (*B*) dengan User Stor… | **C6** | `KK6` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §64. STC-702. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Rancang isolasi tenant dan uji akses lintas tenant pada data dummy. Bukti: skema, kebijakan RLS dan hasil negative test |
+| UTS | 8 | 25% | CPMK-2 | Bangun langganan dengan Stripe test mode dan penanganan webhook. Bukti: kode, event sandbox dan bukti transaksi |
+| Tugas 2 | 12 | 25% | CPMK-3 | Implementasikan feature flag per plan dan micro-frontends. Bukti: kode, konfigurasi dan hasil uji akses |
+| UAS | 16 | 30% | CPMK-3 | Integrasikan SaaS dan lakukan uji isolasi, akses plan, billing dan pemulihan. Bukti: repo, demo, hasil uji keamanan dan dokumentasi |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+[PostgreSQL Row Security](https://www.postgresql.org/docs/current/ddl-rowsecurity.html), [Stripe Subscriptions](https://docs.stripe.com/billing/subscriptions/overview), dan dokumentasi stack yang digunakan.
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri SaaS Architecture & Multi-Tenancy (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STC-702 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Praktik Live Coding 170m/100m | **UTS 25% Live Coding** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 25%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Demo Day** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20/25/25/30 =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS12` *Web & Mobile*, `BK-IT07` *System Integration*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Software-as-a-Service (SaaS), Pola Multi-Tenancy (Database per Tenant, Shared Database Shared Schema), Tenant Isolation, Sistem Penagihan Berlangganan (Stripe API), Skalabilitas Horisontal Layanan SaaS.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang koding driver perangkat keras, audit pajak korporat, perancangan sensor IoT fisik.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan platform SaaS multi-penyewa yang siap dipasarkan secara komersial dan skalabel.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Gunakan akun pembayaran sandbox, dan uji negatif antar-tenant; hasil uji tidak membuktikan isolasi mutlak. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan SaaS Architecture & Multi-Tenancy (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-3) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 099_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Live Coding Lab Test | CPMK-1,2 | 25% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 25% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai SaaS Architecture & Multi-Tenancy (lihat 007 §64. STC-702 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab SaaS (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §64. STC-702.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

@@ -1,117 +1,69 @@
-# RENCANA EVALUASI & ASESMEN — STC-702 ARSITEKTUR SAAS DAN MULTI TENANCY
+# 099_4 — RENCANA EVALUASI DAN ASESMEN
 
-**Kode:** STC-702 | **3 SKS / +P** — 100T+170P+180M | **Semester:** 7 | **Prasyarat:** STI-625 Platform Engineering
-**CPL:** KK5 (SaaS, Multi-tenant) | **CPMK:** CPMK-1 C4, CPMK-2 C6, CPMK-3 C4, CPMK-1 C4, CPMK-2 C4, CPMK-3 C6 | **Revisi:** 07112026
+## STC-702 — Arsitektur SaaS & Multi-Tenansi
 
----
+**Identitas:** `STC-702` Arsitektur SaaS & Multi-Tenansi · Semester 7 · 3 SKS (+P) · Prasyarat `STI-416` · PL PL-3 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Prinsip OBE (008)
+## Empat titik evaluasi
 
-- **Authentic:** Produk deployable yang di-load test & di-demo live — bukan hafalan
-- **Proportional:** Tugas1 20% + UTS 25% + Tugas2 25% + UAS 30% =100%
-- **Transparan:** Rubrik 099_5 terpublikasi Mg1, Turnitin/MOSS untuk integritas
-- **Formative+Summative:** 10-12 formatif scaffolding, 4 summative yudisium
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Rancang isolasi tenant dan uji akses lintas tenant pada data dummy. Bukti: skema, kebijakan RLS dan hasil negative test |
+| UTS | 8 | 25% | CPMK-2 | Bangun langganan dengan Stripe test mode dan penanganan webhook. Bukti: kode, event sandbox dan bukti transaksi |
+| Tugas 2 | 12 | 25% | CPMK-3 | Implementasikan feature flag per plan dan micro-frontends. Bukti: kode, konfigurasi dan hasil uji akses |
+| UAS | 16 | 30% | CPMK-3 | Integrasikan SaaS dan lakukan uji isolasi, akses plan, billing dan pemulihan. Bukti: repo, demo, hasil uji keamanan dan dokumentasi |
 
----
+## Pemetaan CPMK
 
-## 2. Pemetaan CPMK→Asesmen
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-08` (`P4`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-13` (`KK5`) | — | 25% | — | — | 25% |
+| CPMK-3 | `CPL-08` (`P4`), `CPL-13` (`KK5`) | — | — | 25% | 30% | 55% |
+| Total | — | 20% | 25% | 25% | 30% | 100% |
 
-| CPMK | Bloom | Asesmen Utama | Bobot Efektif | Teknik |
-|---|---|---|---|---|
-| CPMK-1 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Lab/Repo |
-| CPMK-2 | C6 | Tugas1/UTS/Tugas2/UAS | 25% | Lab/Repo |
-| CPMK-3 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Lab/Repo |
-| CPMK-1 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Lab/Repo |
-| CPMK-2 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Lab/Repo |
-| CPMK-3 | C6 | Tugas1/UTS/Tugas2/UAS | 25% | Lab/Repo |
+Skor instrumen = jumlah skor kriteria × bobot rubrik. Nilai akhir = jumlah bobot instrumen × skor instrumen / 100. Skor CPMK = jumlah bobot instrumen terkait × skor instrumen / jumlah bobot instrumen terkait. Skor CPL prodi menggunakan agregasi lintas MK sesuai Dok 008, bukan penjumlahan CPL pada tabel ini.
 
----
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 75% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
-## 3. Rincian Summative
+## Rencana tugas dan kisi-kisi
 
-### A. TUGAS1 — Milestone 1 / Analisis Awal (20% — Mg4)
+### Tugas 1 — pekan 4, 20%
 
-**Deliverables:** Repo: service/endpoint/ingestion + README benchmark + Dockerfile/compose  
-**Rubrik (099_5 §A):** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable/analisis 20% — Minimal 55, remedial 7 hari.  
-**Deadline:** Mg4 Jumat 23:59 GitHub Classroom.
+**CPMK-1 / `CPL-08` (`P4`).** Rancang isolasi tenant dan uji akses lintas tenant pada data dummy. **Bukti:** skema, kebijakan RLS dan hasil negative test.
 
-### B. UTS — Live Coding Lab Test (25% — Mg8)
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Tugas berbasis kasus atau proyek dengan catatan kontribusi dan pembelaan individual. Rubrik ada pada dokumen 5.
 
-**Format:** 120m coding (build endpoint/pipeline) + 50m wawancara trade-off  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Susulan H+7.  
+### UTS — pekan 8, 25%
 
-### C. TUGAS2 — Milestone 2 / Proyek Integrasi (25% — Mg12)
+**CPMK-2 / `CPL-13` (`KK5`).** Bangun langganan dengan Stripe test mode dan penanganan webhook. **Bukti:** kode, event sandbox dan bukti transaksi.
 
-**Deliverables:** Repo integrasi E2E: service+queue/monitoring+compose + laporan evaluasi (latensi/RPS/faithfulness)  
-**Rubrik:** Integrasi/kedalaman 35%, evaluasi 30%, runnable/docs 20%, analisis 15% — Minimal 55.  
-**Deadline:** Mg12 Jumat 23:59.
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Ujian individual dengan klarifikasi lisan. Rubrik ada pada dokumen 5.
 
-### D. UAS — Demo Day / Presentasi Akhir (30% — Mg16)
+### Tugas 2 — pekan 12, 25%
 
-**Format:** Kelompok 4-5 org, Demo Day 170m (12m presentasi + 8m demo live + 5m Q&A panel industri+dosen)  
-**Deliverables:** Repo final + PORTFOLIO.pdf + video 3m unlisted + Turnitin  
-**Rubrik (099_5 §D):** Fungsionalitas/kedalaman 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib (tidak boleh video saja). Jika demo gagal total → maksimal C.  
+**CPMK-3 / `CPL-08` (`P4`), `CPL-13` (`KK5`).** Implementasikan feature flag per plan dan micro-frontends. **Bukti:** kode, konfigurasi dan hasil uji akses.
 
----
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Tugas berbasis kasus atau proyek dengan catatan kontribusi dan pembelaan individual. Rubrik ada pada dokumen 5.
 
-## 4. Formatif (10-12 sesi — Non-Graded, Gate UAS)
+### UAS — pekan 16, 30%
 
-| Mg | Aktivitas | Output | Jika Gagal |
-|---|---|---|---|
-|1|Quiz konsep 10 soal|Pass ≥60%|Remedial quiz|
-|2|Latihan fondasi 1|Pass|Bimbingan|
-|3|Arsitektur/tools|Pass|Perbaikan|
-|5|Integrasi awal|Pass|Revisi|
-|6|Patterns|Pass|Review|
-|7|Case study 2 hal|Pass|Revisi|
-|9|Benchmark/scalability|Pass|Analisis ulang|
-|10|Deployment/integration|Pass|Rebuild|
-|11|Governance/risk matrix|Pass|Perbaikan|
-|13|Monitoring dashboard|Pass|Revisi|
-|14|UAT report|Pass|Perbaikan|
-|15|E2E screen record|Pass|Bug fix|
+**CPMK-3 / `CPL-08` (`P4`), `CPL-13` (`KK5`).** Integrasikan SaaS dan lakukan uji isolasi, akses plan, billing dan pemulihan. **Bukti:** repo, demo, hasil uji keamanan dan dokumentasi.
 
-**Aturan:** Tidak kumpul ≥6-8 formatif → tidak boleh UAS (remedial 7 hari). Hadir ≥80%.
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Tugas berbasis kasus atau proyek dengan catatan kontribusi dan pembelaan individual. Rubrik ada pada dokumen 5.
 
----
+## Umpan balik dan PPEPP
 
-## 5. Formula Nilai Akhir & Yudisium
+Dosen mencatat skor tiap CPMK dan umpan balik, memberikan remediasi sesuai peraturan institusi, merekap ketercapaian dan menindaklanjuti penyebab capaian rendah melalui siklus PPEPP. Jadwal dan nilai resmi ditetapkan pengampu.
 
-```
-NA = 0.20×Tugas1 + 0.25×UTS + 0.25×Tugas2 + 0.30×UAS + bonus (max +3)
-Bonus: partisipasi aktif >80% +2, video berkualitas/open-source +1
-```
+## Batas, keselamatan dan acuan
 
-| NA | Huruf | Keterangan |
-|---|---|---|
-|85-100|A|Sangat memuaskan — CPL tercapai sangat baik|
-|70-84|B|Memuaskan — CPL tercapai baik|
-|60-69|C|Cukup — Lulus bersyarat|
-|55-59|D|Tidak lulus — remedial|
-|<55|E|Gagal — mengulang|
+**BoK Dok 043:** `BK-IS12` *Web & Mobile*, `BK-IT07` *System Integration*.
 
-**Aturan tambahan:** NA ≥55 (C) dengan UAS ≥50 & hadir ≥80%. Jika NA ≥60 tetapi UAS <50 → maksimal C (mencegah lulus tanpa produk). Remedial Tugas 7 hari (maks B), UAS 14 hari (maks B).
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Software-as-a-Service (SaaS), Pola Multi-Tenancy (Database per Tenant, Shared Database Shared Schema), Tenant Isolation, Sistem Penagihan Berlangganan (Stripe API), Skalabilitas Horisontal Layanan SaaS.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang koding driver perangkat keras, audit pajak korporat, perancangan sensor IoT fisik.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan platform SaaS multi-penyewa yang siap dipasarkan secara komersial dan skalabel.
 
----
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Gunakan akun pembayaran sandbox, dan uji negatif antar-tenant; hasil uji tidak membuktikan isolasi mutlak. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-## 6. Integritas Akademik
-
-- Code plagiarism MOSS >30% → 0, AI-assistance disclosure wajib
-- Fabricated data/interview → 0 + sidang etik.
-
----
-
-## 7. Jadwal Ilustratif
-
-| Milestone | Tanggal | Tempat |
-|---|---|---|
-|Tugas1|Mg4 Jumat|Classroom|
-|UTS|Mg8|Lab GPU|
-|Tugas2|Mg12 Jumat|Classroom|
-|UAS Demo Day|Mg16 Senin-Selasa 08:00-17:00|Aula FSTI|
-
----
-
-*Rubrik detail 099_5 terlampir.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

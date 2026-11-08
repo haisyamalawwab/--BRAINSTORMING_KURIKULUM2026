@@ -1,83 +1,71 @@
-# RUBRIK PENILAIAN — STC-702 ARSITEKTUR SAAS DAN MULTI TENANCY
+# 099_5 — RUBRIK PENILAIAN PEMBELAJARAN
 
-**Kode:** STC-702 | **3 SKS / +P** | **Semester:** 7 | **Prasyarat:** STI-625 Platform Engineering
-**CPL:** KK5 (SaaS, Multi-tenant) | **CPMK:** CPMK-1 C4, CPMK-2 C6, CPMK-3 C4, CPMK-1 C4, CPMK-2 C4, CPMK-3 C6
-**Bobot:** 20/25/25/30 =100% | **Revisi:** 07112026
+## STC-702 — Arsitektur SaaS & Multi-Tenansi
 
----
+**Identitas:** `STC-702` Arsitektur SaaS & Multi-Tenansi · Semester 7 · 3 SKS (+P) · Prasyarat `STI-416` · PL PL-3 · PEO PEO-1, PEO-2 · IRM M.
 
-## A. RUBRIK TUGAS1 — Milestone 1 / Analisis Awal (20% — Mg4)
+## Skala dan cara pakai
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Fungsionalitas/Kebenaran Konsep (30%)** | Service/endpoint berfungsi 100% + validasi + error handler + test pass | Berfungsi 80% + test 1 gagal minor | Berfungsi 60% + error handler missing | Tidak berfungsi / crash |
-| **Kebenaran Teknis/Analisis (30%)** | Kebenaran 90%+ (benchmark, arsitektur benar, docs resmi diikuti) | Kebenaran 75-89% | Kebenaran 55-74% | <55% atau salah total |
-| **Dokumentasi (20%)** | README/laporan lengkap: instruksi runnable, diagram jelas, sitasi lengkap | Lengkap tetapi instruksi kurang 1 langkah | Tidak lengkap (tanpa diagram/sitasi) | Tidak ada docs |
-| **Runnable/Struktur (20%)** | Repo runnable copy-paste + Dockerfile/compose + tag milestone1 | Runnable tetapi manual step | Sebagian runnable (1 fail) | Tidak runnable |
+Rubrik mengadaptasi K-2 (adaptasi rekayasa aplikasi) dari Dok 018; bobot instrumen mengikuti tipe mata kuliah.
 
----
+Skor tiap kriteria 0–100: sangat baik 81–100, baik 66–80, cukup 56–65, kurang 0–55. Skor instrumen adalah rata-rata berbobot kriteria; bobot instrumen terhadap nilai MK terdapat pada dokumen 4.
 
-## B. RUBRIK UTS — Live Coding Lab Test (25% — Mg8)
+### Tugas 1 — pekan 4 (20%, CPMK-1)
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Fungsionalitas/Kebenaran (40%)** | Endpoint/pipeline 200 + JSON valid + benchmark < baseline | 200 tetapi 1 validasi missing | 200 tetapi sync/blocking | Tidak 200/crash |
-| **Analisis & Trade-off (30%)** | Jelaskan trade-off dengan angka & contoh (mis. latency vs accuracy, cost vs risk) | Jelaskan 2 trade-off tanpa angka | Jelaskan 1 trade-off | Tidak mampu jelaskan |
-| **Benchmark/Evaluasi (20%)** | Benchmark lengkap: P95, RPS, grafik | Benchmark 2 metrik | Benchmark 1 metrik | Tidak ada benchmark |
-| **Wawancara/Esai (10%)** | Lisan/esai jelas, struktur, data | Cukup jelas | Ragu-ragu | Tidak terjawab |
+**Tugas:** Rancang isolasi tenant dan uji akses lintas tenant pada data dummy. **Bukti:** skema, kebijakan RLS dan hasil negative test.
 
----
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 40% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 30% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
-## C. RUBRIK TUGAS2 — Milestone 2 / Proyek Integrasi (25% — Mg12)
+### UTS — pekan 8 (25%, CPMK-2)
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Integrasi/Kedalaman (35%)** | Integrasi E2E sukses (service+queue/monitoring/compose) + faithfulness/audit ≥80% | Integrasi 80% + 1 service missing | Integrasi 60% (2 fail) | Tidak terintegrasi / tidak ada kajian |
-| **Evaluasi/Metrik (30%)** | Evaluasi kuantitatif (P95/RPS/faithfulness) + analisis bottleneck + rekomendasi | Evaluasi 2 metrik | Evaluasi 1 metrik | Tidak ada evaluasi |
-| **Runnable/Docs (20%)** | Compose up sukses + healthchecks + E2E curl | Compose up tanpa healthcheck | Compose 3/4 services | Compose gagal |
-| **Analisis & Laporan (15%)** | Laporan 2-3 hal: trade-off, lesson learned, instruksi lengkap | 1-2 hal tanpa lesson | <1 hal | Tidak ada laporan |
+**Tugas:** Bangun langganan dengan Stripe test mode dan penanganan webhook. **Bukti:** kode, event sandbox dan bukti transaksi.
 
----
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 40% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 30% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
-## D. RUBRIK UAS — Demo Day / Presentasi Akhir (30% — Mg16)
+### Tugas 2 — pekan 12 (25%, CPMK-3)
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Fungsionalitas/Kedalaman (30%)** | FE→BE→DB→service→response sukses live + handle 2 concurrent + error UX | Sukses tanpa streaming/persist | Sebagian gagal | Gagal total / video saja |
-| **Performa/Audit (20%)** | P95<500ms-1s, RPS≥30-50, Locust HTML + bottleneck analysis | P95 1-2s, RPS 15-29 | P95 2s+ / RPS 10-14 | Tidak ada performa/audit |
-| **Analisis/Keamanan (20%)** | Keamanan aktif (rate limit/guardrails/COBIT controls) + evaluasi | Keamanan ada tanpa uji | Keamanan lemah | Tidak ada keamanan |
-| **Docs & Video (15%)** | PORTFOLIO/laporan PDF rapi (TOC) + repo + video 3m HD unlisted + Turnitin≤20% | PDF tanpa TOC, video 2m | PDF berantakan, video <2m | Tidak ada video/Turnitin>20% |
-| **Presentasi & Teamwork (15%)** | Presentasi 10-12m jelas + Q&A jawab trade-off dengan angka + peer eval seimbang (20-25%/org) | Jelas tetapi Q&A ragu | Melebihi waktu, Q&A banyak tidak terjawab | Tidak terstruktur, konflik peer |
+**Tugas:** Implementasikan feature flag per plan dan micro-frontends. **Bukti:** kode, konfigurasi dan hasil uji akses.
 
-**Peer eval:** Jika <10% kontribusi → nilai individu -30%. **Syarat lulus UAS:** Minimal skor 2 di semua aspek.
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 40% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 30% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
----
+### UAS — pekan 16 (30%, CPMK-3)
 
-## E. Formatif & Kehadiran
+**Tugas:** Integrasikan SaaS dan lakukan uji isolasi, akses plan, billing dan pemulihan. **Bukti:** repo, demo, hasil uji keamanan dan dokumentasi.
 
-| Kriteria | Lulus | Tidak Lulus |
-|---|---|---|
-| Kehadiran | ≥80% (13/16) | <80% → tugas pengganti/tidak boleh UAS |
-| Formatif | ≥6-8/12 pass | <6 → remedial 7 hari |
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 40% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 30% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
----
+## Formatif dan refleksi
 
-## F. Konversi NA
+Per pertemuan beri status tercapai / perlu perbaikan / belum ditunjukkan untuk proses, hasil dan refleksi tanpa bobot tambahan. Refleksi diri 1–5: pemahaman, kemampuan memverifikasi, batas dan risiko, kontribusi tim.
 
-```
-NA = 0.20×Tugas1 + 0.25×UTS + 0.25×Tugas2 + 0.30×UAS + bonus (max +3)
-```
+## Batas, keselamatan dan acuan
 
-| NA | Huruf | Keterangan |
-|---|---|---|
-|85-100|A|Sangat memuaskan|
-|70-84|B|Memuaskan|
-|60-69|C|Cukup|
-|55-59|D|Tidak lulus remedial|
-|<55|E|Gagal|
+**BoK Dok 043:** `BK-IS12` *Web & Mobile*, `BK-IT07` *System Integration*.
 
-Aturan: NA≥55 (C) dengan UAS≥50 & hadir≥80%. Remedial Tugas 7 hari (maks B), UAS 14 hari (maks B).
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Software-as-a-Service (SaaS), Pola Multi-Tenancy (Database per Tenant, Shared Database Shared Schema), Tenant Isolation, Sistem Penagihan Berlangganan (Stripe API), Skalabilitas Horisontal Layanan SaaS.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang koding driver perangkat keras, audit pajak korporat, perancangan sensor IoT fisik.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan platform SaaS multi-penyewa yang siap dipasarkan secara komersial dan skalabel.
 
----
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Gunakan akun pembayaran sandbox, dan uji negatif antar-tenant; hasil uji tidak membuktikan isolasi mutlak. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-*Rubrik mengikat — perubahan via rapat prodi.*
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

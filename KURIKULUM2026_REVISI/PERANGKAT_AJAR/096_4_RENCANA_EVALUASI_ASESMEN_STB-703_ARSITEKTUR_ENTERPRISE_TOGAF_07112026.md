@@ -1,117 +1,69 @@
-# RENCANA EVALUASI & ASESMEN — STB-703 ARSITEKTUR ENTERPRISE TOGAF
+# 096_4 — RENCANA EVALUASI DAN ASESMEN
 
-**Kode:** STB-703 | **3 SKS / Teori** — 100T+120M | **Semester:** 7 | **Prasyarat:** STI-312 Rekayasa Perangkat Lunak
-**CPL:** P2, KK4 (TOGAF ADM) | **CPMK:** CPMK-1 C2, CPMK-2 C4, CPMK-3 C5, CPMK-1 C4, CPMK-2 C4, CPMK-3 C6 | **Revisi:** 07112026
+## STB-703 — Arsitektur Enterprise (TOGAF)
 
----
+**Identitas:** `STB-703` Arsitektur Enterprise (TOGAF) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-306` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Prinsip OBE (008)
+## Empat titik evaluasi
 
-- **Authentic:** Kajian/masterplan komprehensif yang dipresentasikan ke panel — bukan hafalan
-- **Proportional:** Tugas1 20% + UTS 30% + Tugas2 20% + UAS 30% =100%
-- **Transparan:** Rubrik 096_5 terpublikasi Mg1, Turnitin/MOSS untuk integritas
-- **Formative+Summative:** 10-12 formatif scaffolding, 4 summative yudisium
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Jelaskan ADM dan rancang visi serta stakeholder arsitektur organisasi. Bukti: peta stakeholder, visi dan fase ADM |
+| UTS | 8 | 30% | CPMK-2 | Modelkan arsitektur bisnis dan data menggunakan ArchiMate. Bukti: diagram model dan deskripsi hubungan |
+| Tugas 2 | 12 | 20% | CPMK-2 | Lengkapi model aplikasi dan teknologi serta analisis gap awal. Bukti: diagram empat lapisan dan matriks gap |
+| UAS | 16 | 30% | CPMK-3 | Susun ADD, gap as-is/to-be dan roadmap migrasi. Bukti: model lengkap, dokumen ADD dan roadmap |
 
----
+## Pemetaan CPMK
 
-## 2. Pemetaan CPMK→Asesmen
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-06` (`P2`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-06` (`P2`), `CPL-07` (`P3`), `CPL-12` (`KK4`) | — | 30% | 20% | — | 50% |
+| CPMK-3 | `CPL-12` (`KK4`) | — | — | — | 30% | 30% |
+| Total | — | 20% | 30% | 20% | 30% | 100% |
 
-| CPMK | Bloom | Asesmen Utama | Bobot Efektif | Teknik |
-|---|---|---|---|---|
-| CPMK-1 | C2 | Tugas1/UTS/Tugas2/UAS | 25% | Analisis/Presentasi |
-| CPMK-2 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Analisis/Presentasi |
-| CPMK-3 | C5 | Tugas1/UTS/Tugas2/UAS | 25% | Analisis/Presentasi |
-| CPMK-1 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Analisis/Presentasi |
-| CPMK-2 | C4 | Tugas1/UTS/Tugas2/UAS | 25% | Analisis/Presentasi |
-| CPMK-3 | C6 | Tugas1/UTS/Tugas2/UAS | 25% | Analisis/Presentasi |
+Skor instrumen = jumlah skor kriteria × bobot rubrik. Nilai akhir = jumlah bobot instrumen × skor instrumen / 100. Skor CPMK = jumlah bobot instrumen terkait × skor instrumen / jumlah bobot instrumen terkait. Skor CPL prodi menggunakan agregasi lintas MK sesuai Dok 008, bukan penjumlahan CPL pada tabel ini.
 
----
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (20%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 70% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
-## 3. Rincian Summative
+## Rencana tugas dan kisi-kisi
 
-### A. TUGAS1 — Milestone 1 / Analisis Awal (20% — Mg4)
+### Tugas 1 — pekan 4, 20%
 
-**Deliverables:** Laporan 3-5 hal: analisis kasus + diagram (arsitektur/governance) + rekomendasi  
-**Rubrik (096_5 §A):** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable/analisis 20% — Minimal 55, remedial 7 hari.  
-**Deadline:** Mg4 Jumat 23:59 GitHub Classroom.
+**CPMK-1 / `CPL-06` (`P2`).** Jelaskan ADM dan rancang visi serta stakeholder arsitektur organisasi. **Bukti:** peta stakeholder, visi dan fase ADM.
 
-### B. UTS — Ujian Tertulis Case Analysis (20 PG + 3 esai) (30% — Mg8)
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Tugas berbasis kasus atau proyek dengan catatan kontribusi dan pembelaan individual. Rubrik ada pada dokumen 5.
 
-**Format:** 100m tertulis: 20 PG + 3 esai case analysis (analisis gap, rancang arsitektur/governance)  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Susulan H+7.  
+### UTS — pekan 8, 30%
 
-### C. TUGAS2 — Milestone 2 / Proyek Integrasi (20% — Mg12)
+**CPMK-2 / `CPL-06` (`P2`), `CPL-07` (`P3`), `CPL-12` (`KK4`).** Modelkan arsitektur bisnis dan data menggunakan ArchiMate. **Bukti:** diagram model dan deskripsi hubungan.
 
-**Deliverables:** Laporan komprehensif 8-10 hal: kajian mendalam + roadmap + KPI + stakeholder + diagram governance/arsitektur  
-**Rubrik:** Integrasi/kedalaman 35%, evaluasi 30%, runnable/docs 20%, analisis 15% — Minimal 55.  
-**Deadline:** Mg12 Jumat 23:59.
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Ujian individual dengan klarifikasi lisan. Rubrik ada pada dokumen 5.
 
-### D. UAS — Demo Day / Presentasi Akhir (30% — Mg16)
+### Tugas 2 — pekan 12, 20%
 
-**Format:** Kelompok 4-5 org, Sidang Presentasi 100m (10m presentasi + 10m demo prototype/policy + 5m Q&A panel)  
-**Deliverables:** Laporan akhir 15-20 hal + slide deck + video 3m + Turnitin ≤20%  
-**Rubrik (096_5 §D):** Fungsionalitas/kedalaman 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib (tidak boleh video saja). Jika demo gagal total → maksimal C.  
+**CPMK-2 / `CPL-06` (`P2`), `CPL-07` (`P3`), `CPL-12` (`KK4`).** Lengkapi model aplikasi dan teknologi serta analisis gap awal. **Bukti:** diagram empat lapisan dan matriks gap.
 
----
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Tugas berbasis kasus atau proyek dengan catatan kontribusi dan pembelaan individual. Rubrik ada pada dokumen 5.
 
-## 4. Formatif (10-12 sesi — Non-Graded, Gate UAS)
+### UAS — pekan 16, 30%
 
-| Mg | Aktivitas | Output | Jika Gagal |
-|---|---|---|---|
-|1|Quiz konsep 10 soal|Pass ≥60%|Remedial quiz|
-|2|Latihan fondasi 1|Pass|Bimbingan|
-|3|Arsitektur/tools|Pass|Perbaikan|
-|5|Integrasi awal|Pass|Revisi|
-|6|Patterns|Pass|Review|
-|7|Case study 2 hal|Pass|Revisi|
-|9|Benchmark/scalability|Pass|Analisis ulang|
-|10|Deployment/integration|Pass|Rebuild|
-|11|Governance/risk matrix|Pass|Perbaikan|
-|13|Monitoring dashboard|Pass|Revisi|
-|14|UAT report|Pass|Perbaikan|
-|15|E2E screen record|Pass|Bug fix|
+**CPMK-3 / `CPL-12` (`KK4`).** Susun ADD, gap as-is/to-be dan roadmap migrasi. **Bukti:** model lengkap, dokumen ADD dan roadmap.
 
-**Aturan:** Tidak kumpul ≥6-8 formatif → tidak boleh UAS (remedial 7 hari). Hadir ≥80%.
+**Kisi-kisi:** ketepatan metode dan asumsi; kualitas hasil; pengujian atau analisis bukti; dokumentasi, etika dan penjelasan batas. Tugas berbasis kasus atau proyek dengan catatan kontribusi dan pembelaan individual. Rubrik ada pada dokumen 5.
 
----
+## Umpan balik dan PPEPP
 
-## 5. Formula Nilai Akhir & Yudisium
+Dosen mencatat skor tiap CPMK dan umpan balik, memberikan remediasi sesuai peraturan institusi, merekap ketercapaian dan menindaklanjuti penyebab capaian rendah melalui siklus PPEPP. Jadwal dan nilai resmi ditetapkan pengampu.
 
-```
-NA = 0.20×Tugas1 + 0.30×UTS + 0.20×Tugas2 + 0.30×UAS + bonus (max +3)
-Bonus: partisipasi aktif >80% +2, video berkualitas/open-source +1
-```
+## Batas, keselamatan dan acuan
 
-| NA | Huruf | Keterangan |
-|---|---|---|
-|85-100|A|Sangat memuaskan — CPL tercapai sangat baik|
-|70-84|B|Memuaskan — CPL tercapai baik|
-|60-69|C|Cukup — Lulus bersyarat|
-|55-59|D|Tidak lulus — remedial|
-|<55|E|Gagal — mengulang|
+**BoK Dok 043:** `BK-IS04` *Enterprise Architecture*, `BK-IT07` *System Integration*.
 
-**Aturan tambahan:** NA ≥55 (C) dengan UAS ≥50 & hadir ≥80%. Jika NA ≥60 tetapi UAS <50 → maksimal C (mencegah lulus tanpa produk). Remedial Tugas 7 hari (maks B), UAS 14 hari (maks B).
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Enterprise Korporat, Framework TOGAF (Architecture Development Method / ADM: Tahap A s.d. H), 4 Lapisan Arsitektur (Bisnis, Data, Aplikasi, Teknologi), Migration Planning.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang perumusan kebijakan tata ruang perkotaan publik (Smart City), konfigurasi teknis Docker/Kubernetes di lapangan, koding modul program.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyusun blueprint arsitektur korporat terpadu yang memandu seluruh transformasi digital organisasi.
 
----
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-## 6. Integritas Akademik
-
-- Turnitin ≤20%, sitasi regulasi/standar wajib, disclosure AI → -20% jika tanpa disclosure
-- Fabricated data/interview → 0 + sidang etik.
-
----
-
-## 7. Jadwal Ilustratif
-
-| Milestone | Tanggal | Tempat |
-|---|---|---|
-|Tugas1|Mg4 Jumat|Classroom|
-|UTS|Mg8|Kelas|
-|Tugas2|Mg12 Jumat|Classroom|
-|UAS Demo Day|Mg16 Senin-Selasa 08:00-17:00|Aula FSTI|
-
----
-
-*Rubrik detail 096_5 terlampir.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STA-703 PENGAWASAN CERDAS DAN ANALITIKA IOT
+# 092_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STA-703 | **3 SKS / +P** — 100T+170P+180M/minggu | **Semester:** 7 | **Prasyarat:** STI-624 Deep Learning & STI-521 IoT | **CPL:** KK1, KK3 (Vision & IoT) | **Revisi:** 07112026
+## STA-703 — Pengawasan Cerdas dan Analitika IoT
 
----
+**Identitas:** `STA-703` Pengawasan Cerdas dan Analitika IoT · Semester 7 · 3 SKS (+P) · Prasyarat `STI-624`, `STI-521` · PL PL-1, PL-2 · PEO PEO-1, PEO-3 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS PRAKTIK]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 25%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Service prototype → integrasi → deployable + monitoring — gate Milestone1 & 2.
+### Bab 1 — Pengantar Smart Surveillance, Arsitektur CCTV IP, Edge vs Cloud Video Analytics (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan arsitektur Smart Surveillance dan analitik video Edge AI (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Smart Surveillance, Arsitektur CCTV IP, Edge vs Cloud Video Analytics; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pengantar Smart Surveillance, Arsitektur CCTV IP, Edge vs Cloud Video Analytics, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Smart Surveillance, Arsitektur CCTV IP, Edge vs Cloud Video Analytics, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Real-Time Video Ingestion: Protokol RTSP, WebRTC, OpenCV Pipeline (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar Smart | CPMK-1 | Menguraikan use cases & roadmap MK | 4.5 jam (100T+170P+180M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STA-703 | 4.5 jam (100T+170P+180M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 4.5 jam (100T+170P+180M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 4.5 jam (100T+170P+180M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 4.5 jam (100T+170P+180M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 4.5 jam (100T+170P+180M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 4.5 jam (100T+170P+180M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 2.8 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 4.5 jam (100T+170P+180M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 4.5 jam (100T+170P+180M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 4.5 jam (100T+170P+180M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 4.5 jam (100T+170P+180M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 4.5 jam (100T+170P+180M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 4.5 jam (100T+170P+180M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 4.5 jam (100T+170P+180M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 2.8 jam |
+- **Capaian:** Mampu memproses stream video real-time via OpenCV VideoCapture & RTSP (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Real-Time Video Ingestion: Protokol RTSP, WebRTC, OpenCV Pipeline; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Real-Time Video Ingestion: Protokol RTSP, WebRTC, OpenCV Pipeline, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Real-Time Video Ingestion: Protokol RTSP, WebRTC, OpenCV Pipeline, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — Object Detection Pipeline: Arsitektur YOLOv8, Inference Engine, NMS (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu mengimplementasikan deteksi objek real-time via YOLOv8/YOLOv10 (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Object Detection Pipeline: Arsitektur YOLOv8, Inference Engine, NMS; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Object Detection Pipeline: Arsitektur YOLOv8, Inference Engine, NMS, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Object Detection Pipeline: Arsitektur YOLOv8, Inference Engine, NMS, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi Smart Surveillance and IoT Analytics, use cases industri (PL-1/PL-2), setup tools (GitHub Classroom, Docker/GPU), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Dataset Curation dan Pelatihan Awal YOLO: Anotasi Bounding Box, Augmentasi Data, Split dan Baseline (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STA-703  
-**Hands-on/Diskusi:** Notebook + case  
+- **Capaian:** Mampu menganotasi data dan melatih baseline deteksi pada split yang terpisah (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Dataset Curation dan Pelatihan Awal YOLO: Anotasi Bounding Box, Augmentasi Data, Split dan Baseline; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Dataset Curation dan Pelatihan Awal YOLO: Anotasi Bounding Box, Augmentasi Data, Split dan Baseline, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Dataset Curation dan Pelatihan Awal YOLO: Anotasi Bounding Box, Augmentasi Data, Split dan Baseline, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STA-703: FastAPI/MLOps/LLM/IoT)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Custom YOLO Training: Loss Curve Analysis, mAP50, mAP50-95 Optimization (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Build service/endpoint awal (FastAPI/Model serving/Agent)  
-**Output TUGAS1:** Repo + benchmark  
+- **Capaian:** Mampu melatih custom model YOLO untuk deteksi APD (Helm/Rompi) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Custom YOLO Training: Loss Curve Analysis, mAP50, mAP50-95 Optimization; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Custom YOLO Training: Loss Curve Analysis, mAP50, mAP50-95 Optimization, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Custom YOLO Training: Loss Curve Analysis, mAP50, mAP50-95 Optimization, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Multi-Object Tracking (MOT): Kalmann Filter, Hungarian Matching, ByteTrack (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu mengimplementasikan Multi-Object Tracking via ByteTrack / DeepSORT (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Multi-Object Tracking (MOT): Kalmann Filter, Hungarian Matching, ByteTrack; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Multi-Object Tracking (MOT): Kalmann Filter, Hungarian Matching, ByteTrack, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Multi-Object Tracking (MOT): Kalmann Filter, Hungarian Matching, ByteTrack, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Behavioral Analytics: Virtual Tripwire, Polygon Zone Intrusion, Crowd Density (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — praktik  
+- **Capaian:** Mampu menerapkan deteksi intrusi zona terlarang dan Line Crossing (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Behavioral Analytics: Virtual Tripwire, Polygon Zone Intrusion, Crowd Density; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Behavioral Analytics: Virtual Tripwire, Polygon Zone Intrusion, Crowd Density, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Behavioral Analytics: Virtual Tripwire, Polygon Zone Intrusion, Crowd Density, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Face Recognition: Face Detection (RetinaFace), Embedding, Cosine Verification (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, Docker/cloud/CI/CD  
+- **Capaian:** Mampu mengimplementasikan pengenalan wajah biometrik via ArcFace/FaceNet (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Face Recognition: Face Detection (RetinaFace), Embedding, Cosine Verification; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Face Recognition: Face Detection (RetinaFace), Embedding, Cosine Verification, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Face Recognition: Face Detection (RetinaFace), Embedding, Cosine Verification, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Edge AI Computing: Keterbatasan Memori, Disipasi Panas, Latensi (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — deployable + queue/monitoring  
-**Output TUGAS2:** Repo + compose + laporan  
+- **Capaian:** Mampu menguraikan tantangan komputasi tepi (Edge AI) & efisiensi daya (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Edge AI Computing: Keterbatasan Memori, Disipasi Panas, Latensi; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Edge AI Computing: Keterbatasan Memori, Disipasi Panas, Latensi, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Edge AI Computing: Keterbatasan Memori, Disipasi Panas, Latensi, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — Grafana/Prometheus  
+### Bab 10 — Model Compression: Post-Training Quantization, Pruning, TensorRT Engine (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — RPS/latensi/faithfulness  
+- **Capaian:** Mampu mengoptimalkan model via Kuantisasi INT8/FP16 & TensorRT Engine (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Model Compression: Post-Training Quantization, Pruning, TensorRT Engine; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Model Compression: Post-Training Quantization, Pruning, TensorRT Engine, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Model Compression: Post-Training Quantization, Pruning, TensorRT Engine, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Edge Deployment: Setup NVIDIA Jetson Nano / Orin, CSI Camera Interface (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 12m presentasi + 8m demo + 5m Q&A — panel dosen+industri  
-**Output:** Repo final + PORTFOLIO.pdf + video 3m  
+- **Capaian:** Mampu mendeploy model inferensi pada hardware NVIDIA Jetson / RPi 5 (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Edge Deployment: Setup NVIDIA Jetson Nano / Orin, CSI Camera Interface; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Edge Deployment: Setup NVIDIA Jetson Nano / Orin, CSI Camera Interface, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Edge Deployment: Setup NVIDIA Jetson Nano / Orin, CSI Camera Interface, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Edge IoT Integration: MQTT Alert Triggering, Relay Alarm, WhatsApp Alert (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu menghubungkan deteksi visual AI ke broker MQTT untuk memicu alarm (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Edge IoT Integration: MQTT Alert Triggering, Relay Alarm, WhatsApp Alert; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Edge IoT Integration: MQTT Alert Triggering, Relay Alarm, WhatsApp Alert, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Edge IoT Integration: MQTT Alert Triggering, Relay Alarm, WhatsApp Alert, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama Smart Surveillance and IoT Analytics (lihat 007 §53. STA-703 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STA-703 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Studi Kasus Industri: ALPR OCR (Plat Nomor Kendaraan) & Smart Parking (pekan 14)
 
----
+- **Capaian:** Mampu mengimplementasikan sistem Automatic License Plate Recognition (ALPR) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Studi Kasus Industri: ALPR OCR (Plat Nomor Kendaraan) & Smart Parking; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Studi Kasus Industri: ALPR OCR (Plat Nomor Kendaraan) & Smart Parking, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Studi Kasus Industri: ALPR OCR (Plat Nomor Kendaraan) & Smart Parking, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — PjBL Surveillance Studio: Integrasi Kamera CCTV, Edge AI, Alarm, & Dasbor (pekan 15)
 
-- Lab GPU/Cloud + GitHub Classroom + Docker + MLflow — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu membangun sistem smart surveillance terpadu pada area kampus/pabrik (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan PjBL Surveillance Studio: Integrasi Kamera CCTV, Edge AI, Alarm, & Dasbor; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait PjBL Surveillance Studio: Integrasi Kamera CCTV, Edge AI, Alarm, & Dasbor, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang PjBL Surveillance Studio: Integrasi Kamera CCTV, Edge AI, Alarm, & Dasbor, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+Dokumentasi [Ultralytics YOLO](https://docs.ultralytics.com/) dan [OpenCV](https://docs.opencv.org/).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS16` *Artificial Intelligence*, `BK-IT14` *IoT & Smart Systems*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Video Analytics Real-Time, Deteksi Objek Edge (YOLO/MobileNet pada Jetson/Raspberry Pi), Multi-Camera Tracking, Analitik Aliran Sensor IoT Cerdas, Smart City Surveillance Privacy.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang pengkabelan mikrokontroler sensor dasar dari nol, perancangan dashboard BI finansial, training arsitektur transformer teks.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan sistem pengawasan cerdas terintegrasi AI edge dan jaringan IoT otonom.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Biometrik hanya pada data sintetis atau data yang memiliki persetujuan eksplisit; mAP/FPS adalah target Dok 043, bukan hasil yang dijamin. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

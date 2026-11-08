@@ -1,128 +1,181 @@
-# SAP — STA-701 MLOPS DAN ALUR PIPA AI
+# 090_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STA-701 | **Nama:** Mlops Dan Alur Pipa Ai / *MLOps and AI Pipeline*
-**SKS:** 3 SKS / +P | **Semester:** 7 | **Rumpun:** MLOps — P1 Integrated Smart Systems
-**Prasyarat:** STI-413 Machine Learning & STI-726 Integrasi AI | **Dosen:** Tim Dosen MLOps  | **Revisi:** 07112026
+## STA-701 — MLOps dan Alur Pipa AI
 
----
+**Identitas:** `STA-701` MLOps dan Alur Pipa AI · Semester 7 · 3 SKS (+P) · Prasyarat `STI-413`, `STI-726` · PL PL-1 · PEO PEO-1, PEO-3 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu PjBL + Lab Hands-on — **Bobot:** 20%+25%+25%+30% =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir deployable service + Demo Day.
+Alokasi minggu: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar MLOps, Tingkat Kematangan MLOps, Tantangan Deployment AI
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan filosofi MLOps, DevOps vs MLOps, dan siklus hidup ML (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **mengelola** pelacakan versi data dan eksperimen model (*B*) menggunakan Data… | C4 | KK2 |
-| CPMK-2 | Mahasiswa (*A*) mampu **membangun** pipeline Continuous Training (CT) otomatis (*B*) menggunakan Kub… | C6 | P4, KK1 |
-| CPMK-3 | Mahasiswa (*A*) mampu **mendeploy dan memantau** model AI produksi (*B*) dengan strategi Canary/Shad… | C5 | KK1 |
-| CPMK-1 | Mahasiswa (*A*) mampu **menerapkan** teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Th… | C3 | KK1 |
-| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan mengoptimalkan** sistem RAG multi-dokumen (*B*) menggunakan te… | C6 | P2, KK1 |
-| CPMK-3 | Mahasiswa (*A*) mampu **melakukan** Fine-Tuning model LLM open-source (*B*) menggunakan teknik Param… | C4 | KK1 |
-| CPMK-4 | Mahasiswa (*A*) mampu **membangun** asisten virtual cerdas berbasis agen otonom (Tool Calling) (*B*)… | C6 | KK1 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar MLOps, Tingkat Kematangan MLOps, Tantangan Deployment AI dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §51. STA-701.*
+### Pertemuan 2 — Data & Model Versioning: Setup DVC, Integrasi Remote Storage S3/GCS
 
----
+**Kemampuan:** Mampu mengonfigurasi pelacakan versi dataset via Data Version Control (DVC) (C3).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Data & Model Versioning: Setup DVC, Integrasi Remote Storage S3/GCS dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar MLOps and AI Pipeline (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Lab setup 170m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — Automated Data Validation: Great Expectations Skema Ingestion Data
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STA-701  
-**Metode:** Case Method + Lab Coding 270m/220m  
-**Asesmen:** Formatif — latihan notebook  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu menerapkan validasi skema data otomatis via Great Expectations (C4).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — code review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Automated Data Validation: Great Expectations Skema Ingestion Data dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — build service/endpoint  
-**Metode:** Kuliah 50m + Lab Hands-on 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: repo + README + benchmark — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — Experiment Tracking: MLflow Server, Parameter Logging, Metrics Artifacts
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu mengonfigurasi MLflow Tracking Server untuk logging eksperimen (C3).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — code review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Experiment Tracking: MLflow Server, Parameter Logging, Metrics Artifacts dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Versikan data dan lacak eksperimen MLflow; jelaskan sumber data dan model. Bukti: repositori DVC, eksperimen dan model card.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — Model Governance: Model Registry Stages (Staging, Production, Archive)
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Live Coding Lab Test 120m + wawancara 50m  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 25%  
+**Kemampuan:** Mampu mengelola siklus hidup model di MLflow Model Registry (C4).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Model Governance: Model Registry Stages (Staging, Production, Archive) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — Workflow Orchestration: DAG Airflow, Python Operators, Task Scheduling
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STA-701 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu merancang graf pipeline data science DAG menggunakan Apache Airflow (C4).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (25%)
-**Bahan:** Proyek integrasi komprehensif — deployable service + queue/monitoring  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (25%)** — Milestone 2: repo + compose + laporan evaluasi — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Workflow Orchestration: DAG Airflow, Python Operators, Task Scheduling dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Continuous Training Pipeline: Automated Model Retraining & Evaluation
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu membangun Continuous Training (CT) pipeline otomatis (C6).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Continuous Training Pipeline: Automated Model Retraining & Evaluation dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Demo Day panel industri+dosen 170m (12m presentasi + 8m demo + 5m Q&A)  
-**Deliverables:** Repo final + PORTFOLIO.pdf + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Ujian Koding Terjadwal Setup DVC, MLflow Registry, & Airflow Pipeline
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Ujian Koding Terjadwal Setup DVC, MLflow Registry, & Airflow Pipeline dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (25%, CPMK-2):** Susun DAG continuous training, validasi data dan uji trigger retraining. Bukti: DAG, bukti eksekusi dan hasil validasi.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Live Coding |25%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |25%|Mg12|
-| UAS Mg16 | Demo Day + Portofolio |30%|Mg16|
+### Pertemuan 9 — Model Packaging & Containerization: BentoML Service & REST Endpoint
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu mengemas model terstandarisasi menggunakan BentoML / TorchServe (C4).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Model Packaging & Containerization: BentoML Service & REST Endpoint dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Cloud Native AI Serving: KServe / Seldon Core on Kubernetes
+
+**Kemampuan:** Mampu mendeploy inference service pada klaster Kubernetes via KServe (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Cloud Native AI Serving: KServe / Seldon Core on Kubernetes dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Advanced Rollout: Canary Releases, Blue-Green, Shadow Deployment Model
+
+**Kemampuan:** Mampu mengonfigurasi strategi Canary Deployment & A/B Testing model (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Advanced Rollout: Canary Releases, Blue-Green, Shadow Deployment Model dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — Model Monitoring: Deteksi Drift Statistik (Kolmogorov-Smirnov, PSI)
+
+**Kemampuan:** Mampu mendeteksi Data Drift dan Concept Drift via Evidently AI (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Model Monitoring: Deteksi Drift Statistik (Kolmogorov-Smirnov, PSI) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (25%, CPMK-3):** Simulasikan canary/shadow dan deteksi drift dengan data yang terkendali. Bukti: konfigurasi serving, metrik dan hasil uji drift.
+
+### Pertemuan 13 — AI Observability: Custom Inference Latency Metrics, GPU Utilization
+
+**Kemampuan:** Mampu mengintegrasikan metrik observabilitas AI ke Prometheus & Grafana (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi AI Observability: Custom Inference Latency Metrics, GPU Utilization dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — Model Explainability & AI Fairness: Nilai Shapley & Interpretasi Fitur
+
+**Kemampuan:** Mampu menerapkan Explainable AI (XAI) via SHAP dan LIME (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Model Explainability & AI Fairness: Nilai Shapley & Interpretasi Fitur dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — PjBL MLOps Studio: Integrasi Penuh dari Commit Git ke Production Serving
+
+**Kemampuan:** Mampu membangun pipeline end-to-end MLOps enterprise terpadu (C6).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi PjBL MLOps Studio: Integrasi Penuh dari Commit Git ke Production Serving dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Sidang Demonstrasi Pipeline MLOps Terpadu & Simulasi Drift Handling
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Sidang Demonstrasi Pipeline MLOps Terpadu & Simulasi Drift Handling dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Integrasikan registry, serving dan monitoring; jelaskan prosedur rollback. Bukti: pipeline, log, laporan dan demonstrasi.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS18` *Machine Learning*, `BK-IT07` *System Integration*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Lifecycle MLOps, Experiment Tracking (MLflow), Data Versioning (DVC), Containerization Model (Docker), Model Serving (FastAPI/Triton), CI/CD Pipeline for ML, Monitoring Data & Concept Drift.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang merancang arsitektur jaringan saraf tiruan CNN baru dari nol, pengembangan antarmuka grafis UI/UX bisnis.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menjamin model kecerdasan buatan dapat dideploy, dipantau, dan di-retrain secara otomatis di lingkungan produksi.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STC-703 MANAJEMEN PRODUK DIGITAL DAN PRAKTIK AGILE
+# 100_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STC-703 | **3 SKS / Teori** — 100T+120M/minggu | **Semester:** 7 | **Prasyarat:** STI-728 & STB-702 | **CPL:** KK6 (Product Management, Agile) | **Revisi:** 07112026
+## STC-703 — Manajemen Produk Digital & Praktik Agile
 
----
+**Identitas:** `STC-703` Manajemen Produk Digital & Praktik Agile · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-523` · PL PL-3, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS TERTULIS]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 20%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Kajian → analisis → masterplan/roadmap + presentasi — gate Milestone1 & 2.
+### Bab 1 — Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan peran Digital Product Manager dan Product Triad (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Product Strategy: Product Vision Board, Value Proposition Canvas (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar Digital | CPMK-1 | Menguraikan use cases & roadmap MK | 3.7 jam (100T+120M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STC-703 | 3.7 jam (100T+120M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 3.7 jam (100T+120M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 3.7 jam (100T+120M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 3.7 jam (100T+120M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 3.7 jam (100T+120M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 3.7 jam (100T+120M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 1.7 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 3.7 jam (100T+120M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 3.7 jam (100T+120M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 3.7 jam (100T+120M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 3.7 jam (100T+120M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 3.7 jam (100T+120M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 3.7 jam (100T+120M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 3.7 jam (100T+120M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 1.7 jam |
+- **Capaian:** Mampu merumuskan Product Vision Statement dan identifikasi target pasar (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Product Strategy: Product Vision Board, Value Proposition Canvas; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Product Strategy: Product Vision Board, Value Proposition Canvas, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Product Strategy: Product Vision Board, Value Proposition Canvas, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — Goal Setting: OKRs Framework, Membedakan Output vs Outcome (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu menetapkan Objectives and Key Results (OKRs) kuantitatif produk (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Goal Setting: OKRs Framework, Membedakan Output vs Outcome; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Goal Setting: OKRs Framework, Membedakan Output vs Outcome, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Goal Setting: OKRs Framework, Membedakan Output vs Outcome, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi Digital Product Management & Agile Practices, use cases industri (PL-4 Technopreneur), setup tools (GitHub Classroom, QGIS/Draw.io/Archi), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STC-703  
-**Hands-on/Diskusi:** Essay + case  
+- **Capaian:** Mampu mengeksekusi Product Discovery via Continuous User Interviews (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STC-703: COBIT/ITIL/TOGAF/SAAS)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Analisis kasus & rancang skema/roadmap awal  
-**Output TUGAS1:** Laporan 3-5 hal + diagram  
+- **Capaian:** Mampu memprioritaskan fitur menggunakan RICE Score (Reach, Impact, Confidence, Effort) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu menerapkan Kano Model dan MoSCoW Method pada seleksi fitur (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — case analysis  
+- **Capaian:** Mampu merancang Outcome-Based Product Roadmap (Now, Next, Later) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, roadmap & stakeholder mapping  
+- **Capaian:** Mampu menyusun Product Requirement Document (PRD) yang komprehensif (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Agile Requirements: User Story Splitting & Gherkin (Given-When-Then) (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — kajian komprehensif + roadmap 5-th  
-**Output TUGAS2:** Laporan 8-10 hal + diagram  
+- **Capaian:** Mampu menulis User Stories dan Acceptance Criteria format Gherkin (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Agile Requirements: User Story Splitting & Gherkin (Given-When-Then); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Agile Requirements: User Story Splitting & Gherkin (Given-When-Then), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Agile Requirements: User Story Splitting & Gherkin (Given-When-Then), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — KPI dashboard governance  
+### Bab 10 — Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — maturity index & audit score  
+- **Capaian:** Mampu memfasilitasi ritual Agile Sprint: Grooming, Review, Retrospective (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Product Analytics: North Star Metric, Funnel Analytics, Retention Curves (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 10m presentasi + 10m demo prototype/policy + 5m Q&A — panel dosen+industri  
-**Output:** Laporan akhir 15-20 hal + slide deck + video 3m  
+- **Capaian:** Mampu menganalisis North Star Metric, DAU/MAU, Churn, Retention Cohort (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Product Analytics: North Star Metric, Funnel Analytics, Retention Curves; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Product Analytics: North Star Metric, Funnel Analytics, Retention Curves, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Product Analytics: North Star Metric, Funnel Analytics, Retention Curves, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu merancang strategi Product-Led Growth (PLG) dan Viral Loops (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama Digital Product Management & Agile Practices (lihat 007 §65. STC-703 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STC-703 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy (pekan 14)
 
----
+- **Capaian:** Mampu menyusun strategi peluncuran produk Go-To-Market (GTM Strategy) (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder (pekan 15)
 
-- Lab Governance + Draw.io/Archi/QGIS + LMS — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu menyajikan portofolio lengkap Product Management produk digital (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Diskusi terarah:** buat artefak atau analisis terkait Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[The Scrum Guide](https://scrumguides.org/scrum-guide.html) dan Cagan, *Inspired: How to Create Tech Products Customers Love*.
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS15` *Digital Innovation*, `BK-IT13` *Technology Entrepreneurship*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Manajemen Produk Digital (Product Management), Product Roadmap, Product Requirement Document (PRD), Agile Scrum Product Owner, Metrik Pertumbuhan Produk (AARRR Funnel, Churn Rate, LTV/CAC), Eksperimentasi Produk.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang penulisan source code teknis aplikasi di lapangan, audit legal kontrak ketenagakerjaan, instalasi server.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan produk digital yang berkelanjutan secara metrik pasar dan selaras dengan kebutuhan pengguna nyata.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

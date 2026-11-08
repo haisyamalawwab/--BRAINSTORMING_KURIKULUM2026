@@ -1,138 +1,93 @@
-# RPS — STA-701 MLOPS DAN ALUR PIPA AI 
+# 090_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STA-701 | **Nama EN:** MLOps and AI Pipeline
-**SKS/Tipe:** 3 SKS / +P — 100m Teori + 170m Lab + 180m Mandiri | **Rumpun:** MLOps — P1 Integrated Smart Systems
-**Prasyarat:** STI-413 Machine Learning & STI-726 Integrasi AI | **Dosen:** Tim Dosen MLOps | **Revisi:** 07112026
-**CPL:** P4, KK1, KK2 (MLOps & Data Pipeline) | **PL:** PL-1 MLOps Engineer | **PEO:** PEO-1 | **Rujukan:** 005, 007 §51. STA-701, 008, 043
+## STA-701 — MLOps dan Alur Pipa AI
 
----
+**Identitas:** `STA-701` MLOps dan Alur Pipa AI · Semester 7 · 3 SKS (+P) · Prasyarat `STI-413`, `STI-726` · PL PL-1 · PEO PEO-1, PEO-3 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STA-701 MLOPS DAN ALUR PIPA AI |
-| **Semester/Rumpun** | Semester 7 / MLOps — P1 Integrated Smart Systems |
-| **Prasyarat** | STI-413 Machine Learning & STI-726 Integrasi AI |
-| **CPL Dibebankan** | P4, KK1, KK2 (MLOps & Data Pipeline) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-1 MLOps Engineer |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait P4, |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P1 Integrated Smart Systems — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-10 (KK2) | Mampu merekayasa pipeline data skala besar (*Data Engineering*), membangun model machine learning/deep learning, serta menerapkan MLOps untuk solusi analitik dan visualisasi data bisnis. | M |
+| CPL-08 (P4) | Menguasai prinsip rekayasa perangkat lunak modern (web, mobile, distributed), manajemen basis data relasional/NoSQL, rekayasa data & visualisasi, serta prinsip desain interaksi pengalaman pengguna (UI/UX). | M |
+| CPL-09 (KK1) | Mampu menganalisis, merancang, dan mengembangkan sistem informasi cerdas terintegrasi kecerdasan artifisial (AI/ML, NLP, Computer Vision, Smart Sys, DSS) guna memecahkan masalah kompleks organisasi dan industri. | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STA-701 — Mlops Dan Alur Pipa Ai** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **P4, KK1, KK2 (MLOps & Data Pipeline)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-1 MLOps Engineer).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **mengelola** pelacakan versi data dan eksperimen model (*B*) menggunakan Data Version Control (DVC) dan MLflow Tracking (*C*) secara terstruktur (*D*). | C4 | `CPL-10` (`KK2`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **membangun** pipeline Continuous Training (CT) otomatis (*B*) menggunakan Kubeflow Pipelines / Apache Airflow (*C*) dengan trigger retraining teruji (*D*). | C6 | `CPL-08` (`P4`), `CPL-09` (`KK1`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **mendeploy dan memantau** model AI produksi (*B*) dengan strategi Canary/Shadow Deployment serta deteksi Data/Concept Drift (*C*) menggunakan Evidently AI dan Prometheus (*D*). | C5 | `CPL-09` (`KK1`) |
 
-Relevansi karir: PL-1 MLOps Engineer — roles: MLOps and AI Pipeline Specialist, PL-1 MLOps Engineer Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menganalisis siklus hidup MLOps (CI/CD/CT) untuk model Machine Learning. | CPMK-1 | C4 |
+| Sub-CPMK-1.2 | Mengelola eksperimen dan registry model menggunakan MLflow. | CPMK-1 | C4 |
+| Sub-CPMK-2.1 | Mengotomasi retraining model dan monitoring data drift. | CPMK-2 | C6 |
+| Sub-CPMK-2.2 | Menerapkan feature store untuk konsistensi data model. | CPMK-2 | C6 |
+| Sub-CPMK-3.1 | Mendeploy model dengan strategi canary dan blue-green. | CPMK-3 | C5 |
+| Sub-CPMK-3.2 | Mengevaluasi performa dan stabilitas pipeline AI di produksi. | CPMK-3 | C5 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-10` (`KK2`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-08` (`P4`), `CPL-09` (`KK1`) | — | 25% | — | — | 25% |
+| CPMK-3 | `CPL-09` (`KK1`) | — | — | 25% | 30% | 55% |
+| Total | — | 20% | 25% | 25% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **P4** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks MLOps and AI Pipeline (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-1 MLOps Engineer.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 75% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §51. STA-701
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan filosofi MLOps, DevOps vs MLOps, dan siklus hidup ML (C2) | Pengantar MLOps, Tingkat Kematangan MLOps, Tantangan Deployment AI | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 2 | Mampu mengonfigurasi pelacakan versi dataset via Data Version Control (DVC) (C3) | Data & Model Versioning: Setup DVC, Integrasi Remote Storage S3/GCS | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 3 | Mampu menerapkan validasi skema data otomatis via Great Expectations (C4) | Automated Data Validation: Great Expectations Skema Ingestion Data | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 4 | Mampu mengonfigurasi MLflow Tracking Server untuk logging eksperimen (C3) | Experiment Tracking: MLflow Server, Parameter Logging, Metrics Artifacts | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 1 20% |
+| 5 | Mampu mengelola siklus hidup model di MLflow Model Registry (C4) | Model Governance: Model Registry Stages (Staging, Production, Archive) | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 6 | Mampu merancang graf pipeline data science DAG menggunakan Apache Airflow (C4) | Workflow Orchestration: DAG Airflow, Python Operators, Task Scheduling | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 7 | Mampu membangun Continuous Training (CT) pipeline otomatis (C6) | Continuous Training Pipeline: Automated Model Retraining & Evaluation | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Koding Terjadwal Setup DVC, MLflow Registry, & Airflow Pipeline | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UTS 25% |
+| 9 | Mampu mengemas model terstandarisasi menggunakan BentoML / TorchServe (C4) | Model Packaging & Containerization: BentoML Service & REST Endpoint | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 10 | Mampu mendeploy inference service pada klaster Kubernetes via KServe (C4) | Cloud Native AI Serving: KServe / Seldon Core on Kubernetes | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 11 | Mampu mengonfigurasi strategi Canary Deployment & A/B Testing model (C4) | Advanced Rollout: Canary Releases, Blue-Green, Shadow Deployment Model | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 12 | Mampu mendeteksi Data Drift dan Concept Drift via Evidently AI (C5) | Model Monitoring: Deteksi Drift Statistik (Kolmogorov-Smirnov, PSI) | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 2 25% |
+| 13 | Mampu mengintegrasikan metrik observabilitas AI ke Prometheus & Grafana (C4) | AI Observability: Custom Inference Latency Metrics, GPU Utilization | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 14 | Mampu menerapkan Explainable AI (XAI) via SHAP dan LIME (C4) | Model Explainability & AI Fairness: Nilai Shapley & Interpretasi Fitur | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 15 | Mampu membangun pipeline end-to-end MLOps enterprise terpadu (C6) | PjBL MLOps Studio: Integrasi Penuh dari Commit Git ke Production Serving | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Sidang Demonstrasi Pipeline MLOps Terpadu & Simulasi Drift Handling | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **mengelola** pelacakan versi data dan eksperimen model (*B*) menggunakan Data Version Control (DV… | **C4** | `KK2` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **membangun** pipeline Continuous Training (CT) otomatis (*B*) menggunakan Kubeflow Pipelines / Ap… | **C6** | `P4, KK1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mendeploy dan memantau** model AI produksi (*B*) dengan strategi Canary/Shadow Deployment serta … | **C5** | `KK1` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **menerapkan** teknik Prompt Engineering tingkat lanjut (Few-Shot, Chain-of-Thought, ReAct) (*B*) … | **C3** | `KK1` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang dan mengoptimalkan** sistem RAG multi-dokumen (*B*) menggunakan teknik Contextual Comp… | **C6** | `P2, KK1` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **melakukan** Fine-Tuning model LLM open-source (*B*) menggunakan teknik Parameter-Efficient Fine-… | **C4** | `KK1` |
-| **CPMK-4** | Mahasiswa (*A*) mampu **membangun** asisten virtual cerdas berbasis agen otonom (Tool Calling) (*B*) dengan integrasi mu… | **C6** | `KK1` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §51. STA-701. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Versikan data dan lacak eksperimen MLflow; jelaskan sumber data dan model. Bukti: repositori DVC, eksperimen dan model card |
+| UTS | 8 | 25% | CPMK-2 | Susun DAG continuous training, validasi data dan uji trigger retraining. Bukti: DAG, bukti eksekusi dan hasil validasi |
+| Tugas 2 | 12 | 25% | CPMK-3 | Simulasikan canary/shadow dan deteksi drift dengan data yang terkendali. Bukti: konfigurasi serving, metrik dan hasil uji drift |
+| UAS | 16 | 30% | CPMK-3 | Integrasikan registry, serving dan monitoring; jelaskan prosedur rollback. Bukti: pipeline, log, laporan dan demonstrasi |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+Dokumentasi [MLflow](https://mlflow.org/docs/latest/), [DVC](https://dvc.org/doc) dan [Airflow](https://airflow.apache.org/docs/).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri MLOps and AI Pipeline (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STA-701 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Praktik Live Coding 170m/100m | **UTS 25% Live Coding** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 25%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Demo Day** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20%+25%+25%+30% =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS18` *Machine Learning*, `BK-IT07` *System Integration*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Lifecycle MLOps, Experiment Tracking (MLflow), Data Versioning (DVC), Containerization Model (Docker), Model Serving (FastAPI/Triton), CI/CD Pipeline for ML, Monitoring Data & Concept Drift.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang merancang arsitektur jaringan saraf tiruan CNN baru dari nol, pengembangan antarmuka grafis UI/UX bisnis.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menjamin model kecerdasan buatan dapat dideploy, dipantau, dan di-retrain secara otomatis di lingkungan produksi.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan MLOps and AI Pipeline (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-1 MLOps Engineer) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 090_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Live Coding Lab Test | CPMK-1,2 | 25% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 25% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai MLOps and AI Pipeline (lihat 007 §51. STA-701 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab MLOps (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §51. STA-701.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

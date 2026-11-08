@@ -1,127 +1,181 @@
-# SAP — STC-701 MEDIA IMERSIF DAN PENGEMBANGAN XR
+# 098_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STC-701 | **Nama:** Media Imersif Dan Pengembangan Xr / *Immersive Media & XR Development*
-**SKS:** 3 SKS / +P | **Semester:** 7 | **Rumpun:** Immersive Media — P3
-**Prasyarat:** STI-415 Pemrograman Front-End | **Dosen:** Tim Dosen Immersive Media  | **Revisi:** 07112026
+## STC-701 — Media Imersif & Pengembangan XR
 
----
+**Identitas:** `STC-701` Media Imersif & Pengembangan XR · Semester 7 · 3 SKS (+P) · Prasyarat `STI-311` · PL PL-3 · PEO PEO-1, PEO-3 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu PjBL + Lab Hands-on — **Bobot:** 20/25/25/30 =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir deployable service + Demo Day.
+Alokasi minggu: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan spektrum Extended Reality (AR, VR, MR) dan Spatial Computing (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **membangun** adegan grafika 3D interaktif di browser (*B*) menggunakan WebXR … | C3 | P4 |
-| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan mengimplementasikan** aplikasi Augmented Reality (AR) mobile (… | C6 | KK5 |
-| CPMK-3 | Mahasiswa (*A*) mampu **membangun** simulasi Virtual Reality (VR) 6DoF interaktif (*B*) dengan audio… | C6 | KK5 |
-| CPMK-1 | Mahasiswa (*A*) mampu **merancang** strategi isolasi data multi-tenant (Shared Database with Row-Lev… | C4 | P4 |
-| CPMK-2 | Mahasiswa (*A*) mampu **membangun** mesin penagihan berlangganan (*Subscription Engine*) otomatis (*… | C6 | KK5 |
-| CPMK-3 | Mahasiswa (*A*) mampu **mengimplementasikan** arsitektur Micro-Frontends dan *Feature Toggling* (*B*… | C4 | P4, KK5 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §63. STC-701.*
+### Pertemuan 2 — Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB
 
----
+**Kemampuan:** Mampu menguraikan fondasi grafika 3D: Ruang Koordinat, Mesh, Tekstur, Material (C2).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar Immersive Media & XR Development (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Lab setup 170m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STC-701  
-**Metode:** Case Method + Lab Coding 270m/220m  
-**Asesmen:** Formatif — latihan notebook  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu membangun adegan 3D dasar via Three.js: Scene, Camera, Renderer (C3).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — code review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — build service/endpoint  
-**Metode:** Kuliah 50m + Lab Hands-on 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: repo + README + benchmark — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu mengimplementasikan interaktivitas 3D: Raycasting & Orbit Controls (C3).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — code review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Bangun scene 3D interaktif dan optimalkan model glTF. Bukti: scene, asset dan hasil uji loading.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Live Coding Lab Test 120m + wawancara 50m  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 25%  
+**Kemampuan:** Mampu memprogram pencahayaan dinamis, bayangan, dan Custom GLSL Shaders (C4).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STC-701 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu menguraikan konsep Augmented Reality: Pelacakan Pose & Estimasi Cahaya (C2).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (25%)
-**Bahan:** Proyek integrasi komprehensif — deployable service + queue/monitoring  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (25%)** — Milestone 2: repo + compose + laporan evaluasi — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu membangun aplikasi AR Marker-Based dengan pengenalan target gambar 2D (C3).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Demo Day panel industri+dosen 170m (12m presentasi + 8m demo + 5m Q&A)  
-**Deliverables:** Repo final + PORTFOLIO.pdf + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Ujian Koding Terjadwal Three.js 3D Web & Aplikasi Marker-Based AR
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Ujian Koding Terjadwal Three.js 3D Web & Aplikasi Marker-Based AR dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (25%, CPMK-2):** Bangun purwarupa AR marker-based atau markerless dan uji interaksi. Bukti: kode, rekaman uji dan spesifikasi perangkat.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Live Coding |25%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |25%|Mg12|
-| UAS Mg16 | Demo Day + Portofolio |30%|Mg16|
+### Pertemuan 9 — Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu membangun aplikasi Markerless AR berbasis Plane Detection (C6).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation
+
+**Kemampuan:** Mampu merancang interaksi gestur spasial: Rotasi, Skala, dan Pinch objek AR (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines
+
+**Kemampuan:** Mampu menguraikan prinsip imersi Virtual Reality: 3DoF vs 6DoF & Comfort (C2).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab
+
+**Kemampuan:** Mampu memprogram navigasi VR Teleportasi dan interaksi kontroler 6DoF (C3).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (25%, CPMK-3):** Bangun VR 6DoF, navigasi dan audio spasial pada emulator atau perangkat. Bukti: scene VR, rekaman dan hasil pengukuran FPS.
+
+### Pertemuan 13 — Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect
+
+**Kemampuan:** Mampu mengonfigurasi Audio Spasial 3D untuk meningkatkan imersi virtual (C3).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD)
+
+**Kemampuan:** Mampu mengoptimalkan performa rendering grafika XR target $\ge 60$ FPS (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap
+
+**Kemampuan:** Mampu membangun simulasi pelatihan industri / tur virtual XR terpadu (C6).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Sidang Demonstrasi Produk Aplikasi Extended Reality (WebXR / Mobile AR)
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Sidang Demonstrasi Produk Aplikasi Extended Reality (WebXR / Mobile AR) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Evaluasi dan perbaiki purwarupa imersif dari uji kenyamanan dan performa. Bukti: repo, demo, data uji dan analisis.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS17` *Human-Computer Interaction*, `BK-IT10` *UX Design*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Media Imersif, Dasar Extended Reality (XR: Virtual Reality & Augmented Reality), Framework WebXR / Unity dasar untuk UI spasial, 3D User Interaction Design, Pemanfaatan XR untuk Industri & Edukasi.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang pembuatan game 3D AAA berskala besar, rigging animasi film animasi profesional, koding driver hardware VR.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun antarmuka interaktif spasial generasi masa depan untuk platform digital modern.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Jika perangkat XR tidak tersedia, gunakan emulator dan catat bahwa FPS headset belum teruji. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

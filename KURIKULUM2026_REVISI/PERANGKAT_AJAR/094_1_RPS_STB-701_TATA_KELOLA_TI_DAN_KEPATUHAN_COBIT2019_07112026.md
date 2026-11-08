@@ -1,137 +1,92 @@
-# RPS — STB-701 TATA KELOLA TI DAN KEPATUHAN COBIT2019 
+# 094_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STB-701 | **Nama EN:** IT Governance & Compliance (COBIT 2019)
-**SKS/Tipe:** 3 SKS / Teori — 100m Kuliah + 120m Mandiri (Teori) | **Rumpun:** IT Governance — P2
-**Prasyarat:** STB-602 | **Dosen:** Tim Dosen IT Governance | **Revisi:** 07112026
-**CPL:** KK4 (COBIT 2019) | **PL:** PL-2 | **PEO:** PEO-1 | **Rujukan:** 005, 007 §57. STB-701, 008, 043
+## STB-701 — Tata Kelola & Kepatuhan TI (COBIT 2019)
 
----
+**Identitas:** `STB-701` Tata Kelola & Kepatuhan TI (COBIT 2019) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-101` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STB-701 TATA KELOLA TI DAN KEPATUHAN COBIT2019 |
-| **Semester/Rumpun** | Semester 7 / IT Governance — P2 |
-| **Prasyarat** | STB-602 |
-| **CPL Dibebankan** | KK4 (COBIT 2019) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-2 |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK4 |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 150 menit + PT 180 menit + BM 180 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P2 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-07 (P3) | Menguasai prinsip dan konsep infrastruktur TI, jaringan komputer, komputasi awan (*cloud*), keamanan informasi & siber, tata kelola TI, serta manajemen proyek sistem dan teknologi informasi. | M |
+| CPL-12 (KK4) | Mampu merancang tata kelola TI (*IT Governance*), melakukan audit sistem informasi, serta memastikan kepatuhan terhadap standar industri dan manajemen risiko (COBIT, ITIL, ISO 27001). | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STB-701 — Tata Kelola Ti Dan Kepatuhan Cobit2019** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK4 (COBIT 2019)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-2).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **membedakan** prinsip Tata Kelola TI (*Governance*) vs Manajemen TI (*Management*) (*B*) berdasarkan kerangka kerja COBIT 2019 (*C*) secara komprehensif (*D*). | C4 | `CPL-07` (`P3`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **merancang** sistem tata kelola TI (*B*) menggunakan COBIT 2019 Design Toolkit dan analisis 11 Design Factors (*C*) sesuai strategi organisasi (*D*). | C4 | `CPL-12` (`KK4`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **melakukan** audit kapabilitas proses tata kelola TI (*B*) berdasarkan model kapabilitas CMMI COBIT 2019 (Level 0 s.d. 5) (*C*) dengan bukti audit yang valid (*D*). | C5 | `CPL-12` (`KK4`) |
 
-Relevansi karir: PL-2 — roles: IT Governance & Compliance (COBIT 2019) Specialist, PL-2 Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menganalisis domain tata kelola TI COBIT 2019 (EDM, APO, BAI, DSS, MEA). | CPMK-1 | C4 |
+| Sub-CPMK-1.2 | Menerapkan prinsip tata kelola COBIT 2019 pada organisasi. | CPMK-1 | C4 |
+| Sub-CPMK-2.1 | Memetakan tujuan TI dan tujuan perusahaan menggunakan model COBIT 2019. | CPMK-2 | C4 |
+| Sub-CPMK-2.2 | Menyusun metrik kinerja tata kelola pada kuadran strategis CMMI. | CPMK-2 | C4 |
+| Sub-CPMK-3.1 | Menyusun rekomendasi perbaikan tata kelola TI berdasarkan hasil audit. | CPMK-3 | C5 |
+| Sub-CPMK-3.2 | Mengevaluasi keselarasan tata kelola TI dengan strategi organisasi. | CPMK-3 | C5 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-07` (`P3`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-12` (`KK4`) | — | 30% | 20% | — | 50% |
+| CPMK-3 | `CPL-12` (`KK4`) | — | — | — | 30% | 30% |
+| Total | — | 20% | 30% | 20% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK4 (COBIT 2019)** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks IT Governance & Compliance (COBIT 2019) (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-2.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (20%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 70% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §57. STB-701
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan hakikat Tata Kelola TI vs Manajemen TI korporasi (C2) | Pengantar IT Governance, Peran Dewan Direksi, Value Creation TI | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 2 | Mampu menganalisis 6 prinsip sistem tata kelola & 3 prinsip kerangka kerja (C4) | Arsitektur COBIT 2019: Prinsip Tata Kelola & Komponen Sistem Governance | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 3 | Mampu menguraikan struktur 40 Sasaran Tata Kelola & Manajemen COBIT 2019 (C2) | Struktur Domain COBIT 2019: EDM (5), APO (14), BAI (11), DSS (6), MEA (4) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 4 | Mampu memetakan Enterprise Goals ke Alignment Goals & Sasaran COBIT (C4) | Goals Cascade COBIT 2019: Pemetaan Sasaran Korporasi ke Sasaran TI | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 1 20% |
+| 5 | Mampu menganalisis 11 Design Factors perancangan tata kelola TI (C4) | COBIT 2019 Design Factors: Strategi Bisnis, Profil Risiko, Lanskap Ancaman | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 6 | Mampu mengoperasikan COBIT 2019 Design Toolkit untuk penentuan prioritas (C3) | Praktik COBIT 2019 Design Toolkit: Kalkulasi Skor Prioritas Governance | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 7 | Mampu menyusun dokumen Target Governance System berdasar output toolkit (C4) | Penyusunan Cetak Biru Sistem Tata Kelola TI Khusus Organisasi | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Analisis Goals Cascade, Design Factors, & Desain Sistem COBIT 2019 | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UTS 30% |
+| 9 | Mampu menguraikan Domain EDM (Evaluate, Direct, Monitor) tata kelola (C2) | Domain EDM: EDM01 s.d EDM05 (Manfaat, Risiko, Optimasi Sumber Daya) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 10 | Mampu menganalisis Domain APO (Align, Plan, Organize) manajemen TI (C4) | Domain APO: APO01 s.d APO14 (Strategi TI, Portofolio, Anggaran, SDM) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 11 | Mampu menganalisis Domain BAI (Build, Acquire, Implement) transformasi (C4) | Domain BAI: BAI01 s.d BAI11 (Manajemen Program, Perubahan, Transisi) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 12 | Mampu menganalisis Domain DSS & MEA (Deliver, Service, Monitor) operasional (C4) | Domain DSS & MEA: DSS01-06 (Operasi & Keamanan) dan MEA01-04 (Evaluasi Kinerja) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 2 20% |
+| 13 | Mampu menilai kapabilitas proses tata kelola via skala CMMI Level 0-5 (C4) | Model Penilaian Kapabilitas Proses: Process Capability Rating (CMMI) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 14 | Mampu menyusun kertas kerja audit tata kelola TI dan pengumpulan bukti (C4) | Audit Lapangan: Pengumpulan Bukti Audit, Wawancara, Bukti Kerja | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 15 | Mampu menyusun Laporan Audit Tata Kelola TI dan Rekomendasi Roadmap (C5) | Penyusunan Laporan Audit COBIT 2019 & Continual Improvement Roadmap | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Penilaian Dokumen Komprehensif Desain Sistem & Laporan Audit COBIT 2019 | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **membedakan** prinsip Tata Kelola TI (*Governance*) vs Manajemen TI (*Management*) (*B*) berdasar… | **C4** | `P3` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang** sistem tata kelola TI (*B*) menggunakan COBIT 2019 Design Toolkit dan analisis 11 De… | **C4** | `KK4` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **melakukan** audit kapabilitas proses tata kelola TI (*B*) berdasarkan model kapabilitas CMMI COB… | **C5** | `KK4` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **menguraikan** Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7 Prinsip Panduan (*B… | **C2** | `P2` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang dan menganalisis** alur kerja Service Desk, Incident Management, dan Problem Managemen… | **C4** | `KK4` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **merancang** Katalog Layanan TI (*Service Catalog*) dan perjanjian tingkat layanan (*Service Leve… | **C5** | `P2, KK4` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §57. STB-701. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Bedakan governance dan management serta petakan sasaran organisasi pada COBIT. Bukti: analisis peran dan goals cascade |
+| UTS | 8 | 30% | CPMK-2 | Rancang sistem tata kelola dengan design factors dan prioritas. Bukti: design factor, keputusan dan peta proses |
+| Tugas 2 | 12 | 20% | CPMK-2 | Analisis domain COBIT, tentukan bukti dan sasaran perbaikan. Bukti: matriks proses, sasaran dan bukti |
+| UAS | 16 | 30% | CPMK-3 | Simulasikan asesmen kapabilitas dan susun laporan audit dan rekomendasi. Bukti: kertas kerja, bukti dan laporan audit |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+[ISACA COBIT](https://www.isaca.org/resources/cobit) dan COBIT 2019 Framework (akses sesuai lisensi).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri IT Governance & Compliance (COBIT 2019) (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STB-701 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Tertulis Case Analysis 170m/100m | **UTS 30% Tertulis** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 20%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Presentasi** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20/30/20/30 =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS05` *IS Management and Governance*, `BK-IT08` *IT Governance*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Tata Kelola TI Korporat, Framework COBIT 2019 (Governance & Management Objectives), Penyelarasan Strategi TI dan Bisnis, Evaluasi Tingkat Kematangan TI (Capability Maturity Assessment).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang konfigurasi teknis operasional server harian, penanganan tiket helpdesk, audit forensik harddisk digital.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyelaraskan investasi dan kebijakan TI dengan tujuan korporat; menyerahkan manajemen layanan operasional ke `STB-702`.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan IT Governance & Compliance (COBIT 2019) (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-2) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 094_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Ujian Tertulis Case Analysis | CPMK-1,2 | 30% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 20% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai IT Governance & Compliance (COBIT 2019) (lihat 007 §57. STB-701 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab IT (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §57. STB-701.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.
