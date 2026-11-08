@@ -8,6 +8,9 @@ Ekstraksi dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](ht
 | [CPMK dan Sub-CPMK](002_CPMK_TEKNIK_INFORMATIKA_07112026_0859.md) | Kodifikasi, prinsip, dan contoh asesmen; batas ketersediaan rumusan per MK. |
 | [BoK dan bahan kajian](003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md) | 10 BK, ruang lingkup, matriks CPL–BK dan contoh MK pengampu. |
 | [Pemetaan MK–CPL–BK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md) | Tabel 18 per semester serta 83 baris unik Tabel 15. |
+| [005 — pemetaan APTIKOM](005_PEMETAAN_APTIKOM_MK_INFORMATIKA_07112026_0910.md) | Kandidat 22 BK APTIKOM untuk 83 MK berdasarkan judul; bukan validasi isi. |
+| [006 — analisis dan survei pustaka](006_ANALISIS_DAN_SURVEI_PUSTAKA_INFORMATIKA_07112026_0910.md) | Analisis hubungan tabel, perbedaan rujukan dan tindak lanjut. |
+| [007 — instrumen survei](007_INSTRUMEN_SURVEI_VALIDASI_INFORMATIKA_07112026_0910.md) | Rancangan survei dan validasi; belum ada respons. |
 
 ## Identitas dan keterlacakan sumber
 
