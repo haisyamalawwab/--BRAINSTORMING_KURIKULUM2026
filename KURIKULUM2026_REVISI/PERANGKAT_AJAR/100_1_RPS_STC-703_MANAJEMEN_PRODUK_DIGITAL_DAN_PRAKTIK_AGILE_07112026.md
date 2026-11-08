@@ -1,134 +1,92 @@
-# RPS — STC-703 MANAJEMEN PRODUK DIGITAL DAN PRAKTIK AGILE 
+# 100_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STC-703 | **Nama EN:** Digital Product Management & Agile Practices
-**SKS/Tipe:** 3 SKS / Teori — 100m Kuliah + 120m Mandiri (Teori) | **Rumpun:** Product Management — P3
-**Prasyarat:** STI-728 & STB-702 | **Dosen:** Tim Dosen Product Management | **Revisi:** 07112026
-**CPL:** KK6 (Product Management, Agile) | **PL:** PL-4 Technopreneur | **PEO:** PEO-1, PEO-2 | **Rujukan:** 005, 007 §65. STC-703, 008, 043
+## STC-703 — Manajemen Produk Digital & Praktik Agile
 
----
+**Identitas:** `STC-703` Manajemen Produk Digital & Praktik Agile · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-523` · PL PL-3, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STC-703 MANAJEMEN PRODUK DIGITAL DAN PRAKTIK AGILE |
-| **Semester/Rumpun** | Semester 7 / Product Management — P3 |
-| **Prasyarat** | STI-728 & STB-702 |
-| **CPL Dibebankan** | KK6 (Product Management, Agile) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-4 Technopreneur |
-| **PEO** | PEO-1, PEO-2 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK6 |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 150 menit + PT 180 menit + BM 180 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P3 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-06 (P2) | Menguasai konsep teoretis sistem informasi, analisis & perancangan sistem, arsitektur enterprise, metodologi pengembangan perangkat lunak, serta proses bisnis organisasi untuk transformasi digital. | M |
+| CPL-14 (KK6) | Mampu merancang, memvalidasi model bisnis (*Lean Startup/MVP*), mengelola proyek agile, serta mendirikan usaha rintisan teknologi (*technopreneurship*) mandiri berbasis kebutuhan pasar. | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STC-703 — Manajemen Produk Digital Dan Praktik Agile** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK6 (Product Management, Agile)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-4 Technopreneur).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **merumuskan** Visi Produk, Strategi Produk, dan Objectives and Key Results (OKRs) (*B*) untuk produk digital rintisan (*C*) secara terukur (*D*). | C4 | `CPL-06` (`P2`), `CPL-14` (`KK6`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **melakukan** Product Discovery dan prioritisasi backlog (*B*) menggunakan kerangka kerja RICE, Kano Model, dan MoSCoW (*C*) secara objektif (*D*). | C4 | `CPL-14` (`KK6`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **menyusun** dokumen Product Requirement Document (PRD) berstandar industri (*B*) dengan User Stories, Acceptance Criteria, dan strategi Go-To-Market (GTM) (*C*) secara komprehensif (*D*). | C6 | `CPL-14` (`KK6`) |
 
-Relevansi karir: PL-4 Technopreneur — roles: Digital Product Management & Agile Practices Specialist, PL-4 Technopreneur Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menyusun product vision dan OKR produk digital. | CPMK-1 | C4 |
+| Sub-CPMK-1.2 | Melakukan product discovery untuk memahami kebutuhan pengguna. | CPMK-1 | C4 |
+| Sub-CPMK-2.1 | Menerapkan prioritisasi fitur menggunakan metode RICE dan Kano. | CPMK-2 | C4 |
+| Sub-CPMK-2.2 | Menyusun PRD dengan user stories dan acceptance criteria. | CPMK-2 | C4 |
+| Sub-CPMK-3.1 | Menerapkan agile product management pada siklus pengembangan produk. | CPMK-3 | C6 |
+| Sub-CPMK-3.2 | Mengevaluasi metrik produk (activation, retention, revenue) untuk perbaikan. | CPMK-3 | C6 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-06` (`P2`), `CPL-14` (`KK6`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-14` (`KK6`) | — | 30% | — | — | 30% |
+| CPMK-3 | `CPL-14` (`KK6`) | — | — | 20% | 30% | 50% |
+| Total | — | 20% | 30% | 20% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK6 (Product Management** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks Digital Product Management & Agile Practices (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-4 Technopreneur.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (20%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 70% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §65. STC-703
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan peran Digital Product Manager dan Product Triad (C2) | Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 2 | Mampu merumuskan Product Vision Statement dan identifikasi target pasar (C4) | Product Strategy: Product Vision Board, Value Proposition Canvas | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 3 | Mampu menetapkan Objectives and Key Results (OKRs) kuantitatif produk (C4) | Goal Setting: OKRs Framework, Membedakan Output vs Outcome | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 4 | Mampu mengeksekusi Product Discovery via Continuous User Interviews (C4) | Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 1 20% |
+| 5 | Mampu memprioritaskan fitur menggunakan RICE Score (Reach, Impact, Confidence, Effort) (C4) | Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 6 | Mampu menerapkan Kano Model dan MoSCoW Method pada seleksi fitur (C4) | Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 7 | Mampu merancang Outcome-Based Product Roadmap (Now, Next, Later) (C4) | Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Evaluasi Dokumen Product Vision, OKRs, & Matriks Prioritisasi RICE | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UTS 30% |
+| 9 | Mampu menyusun Product Requirement Document (PRD) yang komprehensif (C6) | Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 10 | Mampu menulis User Stories dan Acceptance Criteria format Gherkin (C4) | Agile Requirements: User Story Splitting & Gherkin (Given-When-Then) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 11 | Mampu memfasilitasi ritual Agile Sprint: Grooming, Review, Retrospective (C3) | Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 12 | Mampu menganalisis North Star Metric, DAU/MAU, Churn, Retention Cohort (C4) | Product Analytics: North Star Metric, Funnel Analytics, Retention Curves | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 2 20% |
+| 13 | Mampu merancang strategi Product-Led Growth (PLG) dan Viral Loops (C4) | Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 14 | Mampu menyusun strategi peluncuran produk Go-To-Market (GTM Strategy) (C6) | Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 15 | Mampu menyajikan portofolio lengkap Product Management produk digital (C5) | Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Penilaian Portofolio Lengkap Product Management (PRD, GTM, OKRs, Analytics) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **merumuskan** Visi Produk, Strategi Produk, dan Objectives and Key Results (OKRs) (*B*) untuk pro… | **C4** | `P2, KK6` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **melakukan** Product Discovery dan prioritisasi backlog (*B*) menggunakan kerangka kerja RICE, Ka… | **C4** | `KK6` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menyusun** dokumen Product Requirement Document (PRD) berstandar industri (*B*) dengan User Stor… | **C6** | `KK6` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §65. STC-703. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Susun visi produk dan OKR berdasarkan masalah pengguna yang teruji. Bukti: vision, asumsi dan OKR terukur |
+| UTS | 8 | 30% | CPMK-2 | Lakukan discovery dan prioritaskan backlog menggunakan RICE/Kano/MoSCoW. Bukti: bukti discovery, matriks prioritas dan roadmap |
+| Tugas 2 | 12 | 20% | CPMK-3 | Rancang PRD dengan user stories, acceptance criteria dan metrik. Bukti: PRD, acceptance criteria dan matriks KPI |
+| UAS | 16 | 30% | CPMK-3 | Sempurnakan PRD dan susun strategi GTM berdasarkan bukti dan asumsi. Bukti: portofolio produk, rencana GTM dan presentasi |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+[The Scrum Guide](https://scrumguides.org/scrum-guide.html) dan Cagan, *Inspired: How to Create Tech Products Customers Love*.
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri Digital Product Management & Agile Practices (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STC-703 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Tertulis Case Analysis 170m/100m | **UTS 30% Tertulis** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 20%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Presentasi** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20/30/20/30 =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS15` *Digital Innovation*, `BK-IT13` *Technology Entrepreneurship*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Manajemen Produk Digital (Product Management), Product Roadmap, Product Requirement Document (PRD), Agile Scrum Product Owner, Metrik Pertumbuhan Produk (AARRR Funnel, Churn Rate, LTV/CAC), Eksperimentasi Produk.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang penulisan source code teknis aplikasi di lapangan, audit legal kontrak ketenagakerjaan, instalasi server.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan produk digital yang berkelanjutan secara metrik pasar dan selaras dengan kebutuhan pengguna nyata.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan Digital Product Management & Agile Practices (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-4 Technopreneur) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 100_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Ujian Tertulis Case Analysis | CPMK-1,2 | 30% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 20% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai Digital Product Management & Agile Practices (lihat 007 §65. STC-703 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab Product (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §65. STC-703.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

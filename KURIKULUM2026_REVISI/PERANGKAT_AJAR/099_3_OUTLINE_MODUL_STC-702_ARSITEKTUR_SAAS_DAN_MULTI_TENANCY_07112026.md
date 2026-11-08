@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STC-702 ARSITEKTUR SAAS DAN MULTI TENANCY
+# 099_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STC-702 | **3 SKS / +P** — 100T+170P+180M/minggu | **Semester:** 7 | **Prasyarat:** STI-625 Platform Engineering | **CPL:** KK5 (SaaS, Multi-tenant) | **Revisi:** 07112026
+## STC-702 — Arsitektur SaaS & Multi-Tenansi
 
----
+**Identitas:** `STC-702` Arsitektur SaaS & Multi-Tenansi · Semester 7 · 3 SKS (+P) · Prasyarat `STI-416` · PL PL-3 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS PRAKTIK]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 25%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Service prototype → integrasi → deployable + monitoring — gate Milestone1 & 2.
+### Bab 1 — Pengantar SaaS Architecture, Model Bisnis Langganan, Tenant Isolation (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan model bisnis SaaS dan tantangan arsitektur Multi-Tenancy (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar SaaS Architecture, Model Bisnis Langganan, Tenant Isolation; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pengantar SaaS Architecture, Model Bisnis Langganan, Tenant Isolation, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar SaaS Architecture, Model Bisnis Langganan, Tenant Isolation, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Pola Isolasi Data: Database-per-Tenant, Schema-per-Tenant, Shared-Table (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar SaaS | CPMK-1 | Menguraikan use cases & roadmap MK | 4.5 jam (100T+170P+180M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STC-702 | 4.5 jam (100T+170P+180M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 4.5 jam (100T+170P+180M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 4.5 jam (100T+170P+180M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 4.5 jam (100T+170P+180M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 4.5 jam (100T+170P+180M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 4.5 jam (100T+170P+180M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 2.8 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 4.5 jam (100T+170P+180M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 4.5 jam (100T+170P+180M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 4.5 jam (100T+170P+180M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 4.5 jam (100T+170P+180M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 4.5 jam (100T+170P+180M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 4.5 jam (100T+170P+180M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 4.5 jam (100T+170P+180M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 2.8 jam |
+- **Capaian:** Mampu membandingkan 3 pola isolasi data multi-tenant (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pola Isolasi Data: Database-per-Tenant, Schema-per-Tenant, Shared-Table; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pola Isolasi Data: Database-per-Tenant, Schema-per-Tenant, Shared-Table, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pola Isolasi Data: Database-per-Tenant, Schema-per-Tenant, Shared-Table, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — Multi-Tenant RLS: Kebijakan RLS PostgreSQL, Current Tenant Session Variable (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu mengimplementasikan Row-Level Security (RLS) pada PostgreSQL (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Multi-Tenant RLS: Kebijakan RLS PostgreSQL, Current Tenant Session Variable; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Multi-Tenant RLS: Kebijakan RLS PostgreSQL, Current Tenant Session Variable, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Multi-Tenant RLS: Kebijakan RLS PostgreSQL, Current Tenant Session Variable, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi SaaS Architecture & Multi-Tenancy, use cases industri (PL-3), setup tools (GitHub Classroom, Docker/GPU), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Tenant Routing: Subdomain Extraction, Custom Domain CNAME Mapping (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STC-702  
-**Hands-on/Diskusi:** Notebook + case  
+- **Capaian:** Mampu mengonfigurasi resolusi tenant via Subdomain (*tenant.app.com*) (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Tenant Routing: Subdomain Extraction, Custom Domain CNAME Mapping; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Tenant Routing: Subdomain Extraction, Custom Domain CNAME Mapping, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Tenant Routing: Subdomain Extraction, Custom Domain CNAME Mapping, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STC-702: FastAPI/MLOps/LLM/IoT)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Tenant Identity: Multi-Tenant JWT Claims, Organization SSO Integration (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Build service/endpoint awal (FastAPI/Model serving/Agent)  
-**Output TUGAS1:** Repo + benchmark  
+- **Capaian:** Mampu merancang otentikasi multi-tenant dan Single Sign-On (SSO / SAML) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Tenant Identity: Multi-Tenant JWT Claims, Organization SSO Integration; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Tenant Identity: Multi-Tenant JWT Claims, Organization SSO Integration, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Tenant Identity: Multi-Tenant JWT Claims, Organization SSO Integration, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Model Langganan: Pricing Tiers, Quota Limits, Per-Seat vs Usage Billing (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu merancang skema paket langganan SaaS (Free, Pro, Enterprise) (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Model Langganan: Pricing Tiers, Quota Limits, Per-Seat vs Usage Billing; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Model Langganan: Pricing Tiers, Quota Limits, Per-Seat vs Usage Billing, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Model Langganan: Pricing Tiers, Quota Limits, Per-Seat vs Usage Billing, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Stripe API Integration: Customers, Payment Methods, Subscriptions Lifecycle (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — praktik  
+- **Capaian:** Mampu mengintegrasikan Subscription Engine via Stripe Billing API (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Stripe API Integration: Customers, Payment Methods, Subscriptions Lifecycle; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Stripe API Integration: Customers, Payment Methods, Subscriptions Lifecycle, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Stripe API Integration: Customers, Payment Methods, Subscriptions Lifecycle, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Payment Webhooks: Invoice Payment Succeeded, Subscription Deleted Handlers (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, Docker/cloud/CI/CD  
+- **Capaian:** Mampu menangani Stripe Webhooks untuk aktivasi/pembatalan akun otomatis (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Payment Webhooks: Invoice Payment Succeeded, Subscription Deleted Handlers; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Payment Webhooks: Invoice Payment Succeeded, Subscription Deleted Handlers, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Payment Webhooks: Invoice Payment Succeeded, Subscription Deleted Handlers, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Usage-Based Billing: Event Ingestion, Metering Aggregation, Usage Records (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — deployable + queue/monitoring  
-**Output TUGAS2:** Repo + compose + laporan  
+- **Capaian:** Mampu mengimplementasikan Metered Billing berbasis konsumsi sumber daya (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Usage-Based Billing: Event Ingestion, Metering Aggregation, Usage Records; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Usage-Based Billing: Event Ingestion, Metering Aggregation, Usage Records, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Usage-Based Billing: Event Ingestion, Metering Aggregation, Usage Records, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — Grafana/Prometheus  
+### Bab 10 — Feature Flags: Dynamic Feature Toggling per Tenant Plan di Runtime (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — RPS/latensi/faithfulness  
+- **Capaian:** Mampu mengonfigurasi Feature Toggling berbasis paket langganan (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Feature Flags: Dynamic Feature Toggling per Tenant Plan di Runtime; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Feature Flags: Dynamic Feature Toggling per Tenant Plan di Runtime, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Feature Flags: Dynamic Feature Toggling per Tenant Plan di Runtime, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — Micro-Frontends: Webpack/Vite Module Federation untuk Multi-Team SaaS (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 12m presentasi + 8m demo + 5m Q&A — panel dosen+industri  
-**Output:** Repo final + PORTFOLIO.pdf + video 3m  
+- **Capaian:** Mampu merancang arsitektur Micro-Frontends via Module Federation (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Micro-Frontends: Webpack/Vite Module Federation untuk Multi-Team SaaS; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Micro-Frontends: Webpack/Vite Module Federation untuk Multi-Team SaaS, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Micro-Frontends: Webpack/Vite Module Federation untuk Multi-Team SaaS, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Tenant Fair-Use: Redis Rate Limiter per Tenant, Resource Throttling (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu mencegah Noisy Neighbor Problem via Rate Limiting per tenant (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Tenant Fair-Use: Redis Rate Limiter per Tenant, Resource Throttling; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Tenant Fair-Use: Redis Rate Limiter per Tenant, Resource Throttling, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Tenant Fair-Use: Redis Rate Limiter per Tenant, Resource Throttling, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama SaaS Architecture & Multi-Tenancy (lihat 007 §64. STC-702 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STC-702 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — Self-Service Onboarding: Automated Tenant Database Provisioning Wizard (pekan 14)
 
----
+- **Capaian:** Mampu merancang wizard onboarding mandiri instan tenant baru (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Self-Service Onboarding: Automated Tenant Database Provisioning Wizard; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Self-Service Onboarding: Automated Tenant Database Provisioning Wizard, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Self-Service Onboarding: Automated Tenant Database Provisioning Wizard, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — PjBL SaaS Studio: Pembangunan Solusi Platform SaaS Terpadu (pekan 15)
 
-- Lab GPU/Cloud + GitHub Classroom + Docker + MLflow — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu membangun platform SaaS multi-tenant terpadu siap produksi (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan PjBL SaaS Studio: Pembangunan Solusi Platform SaaS Terpadu; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait PjBL SaaS Studio: Pembangunan Solusi Platform SaaS Terpadu, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang PjBL SaaS Studio: Pembangunan Solusi Platform SaaS Terpadu, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[PostgreSQL Row Security](https://www.postgresql.org/docs/current/ddl-rowsecurity.html), [Stripe Subscriptions](https://docs.stripe.com/billing/subscriptions/overview), dan dokumentasi stack yang digunakan.
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS12` *Web & Mobile*, `BK-IT07` *System Integration*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Software-as-a-Service (SaaS), Pola Multi-Tenancy (Database per Tenant, Shared Database Shared Schema), Tenant Isolation, Sistem Penagihan Berlangganan (Stripe API), Skalabilitas Horisontal Layanan SaaS.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang koding driver perangkat keras, audit pajak korporat, perancangan sensor IoT fisik.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan platform SaaS multi-penyewa yang siap dipasarkan secara komersial dan skalabel.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Gunakan akun pembayaran sandbox, dan uji negatif antar-tenant; hasil uji tidak membuktikan isolasi mutlak. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

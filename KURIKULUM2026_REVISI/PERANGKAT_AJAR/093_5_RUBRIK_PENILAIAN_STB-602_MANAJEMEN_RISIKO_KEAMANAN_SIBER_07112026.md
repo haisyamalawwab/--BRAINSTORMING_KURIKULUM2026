@@ -1,83 +1,71 @@
-# RUBRIK PENILAIAN — STB-602 MANAJEMEN RISIKO KEAMANAN SIBER
+# 093_5 — RUBRIK PENILAIAN PEMBELAJARAN
 
-**Kode:** STB-602 | **3 SKS / Teori** | **Semester:** 7 | **Prasyarat:** STI-418 Dasar Keamanan Informasi
-**CPL:** KK4 (Audit, Risiko, Kepatuhan) | **CPMK:** CPMK-1 C4, CPMK-2 C4, CPMK-3 C5, CPMK-1 C4, CPMK-2 C4, CPMK-3 C5
-**Bobot:** 20% Tugas1 + 30% UTS + 20% Tugas2 + 30% UAS (2 SKS Teori pattern 3SKS Teori: 20/30/20/30) =100% | **Revisi:** 07112026
+## STB-602 — Manajemen Risiko Keamanan Siber
 
----
+**Identitas:** `STB-602` Manajemen Risiko Keamanan Siber · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-418` · PL PL-2 · PEO PEO-1 · IRM M.
 
-## A. RUBRIK TUGAS1 — Milestone 1 / Analisis Awal (20% — Mg4)
+## Skala dan cara pakai
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Fungsionalitas/Kebenaran Konsep (30%)** | Analisis komprehensif 3-5 hal, konsep benar 100%, sitasi regulasi/standar akurat, tidak ada kesalahan | Analisis 70-80% konsep benar, 1-2 kesalahan minor sitasi | Analisis 55-69% benar, beberapa konsep salah | Analisis <55% benar atau plagiarisme |
-| **Kebenaran Teknis/Analisis (30%)** | Kedalaman analisis baik, gap & rekomendasi konkret 3 poin, data valid | Kedalaman sedang, rekomendasi 1-2 poin | Dangkal, tanpa rekomendasi | Salah total atau tidak ada analisis |
-| **Dokumentasi (20%)** | README/laporan lengkap: instruksi runnable, diagram jelas, sitasi lengkap | Lengkap tetapi instruksi kurang 1 langkah | Tidak lengkap (tanpa diagram/sitasi) | Tidak ada docs |
-| **Runnable/Struktur (20%)** | Struktur laporan rapi: TOC, numbering, format akademik | Struktur ada tetapi tanpa TOC | Struktur berantakan | Tidak ada struktur |
+Rubrik mengadaptasi K-3 (adaptasi peminatan STA/STB) dari Dok 018; bobot instrumen mengikuti tipe mata kuliah.
 
----
+Skor tiap kriteria 0–100: sangat baik 81–100, baik 66–80, cukup 56–65, kurang 0–55. Skor instrumen adalah rata-rata berbobot kriteria; bobot instrumen terhadap nilai MK terdapat pada dokumen 4.
 
-## B. RUBRIK UTS — Tertulis Case Analysis (30% — Mg8)
+### Tugas 1 — pekan 4 (20%, CPMK-1)
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Fungsionalitas/Kebenaran (40%)** | PG 17-20 benar + esai analisis mendalam (gap+rekomendasi) | PG 13-16 + esai sedang | PG 9-12 + esai dangkal | PG 0-8 atau esai salah |
-| **Analisis & Trade-off (30%)** | Jelaskan trade-off dengan angka & contoh (mis. latency vs accuracy, cost vs risk) | Jelaskan 2 trade-off tanpa angka | Jelaskan 1 trade-off | Tidak mampu jelaskan |
-| **Benchmark/Evaluasi (20%)** | Evaluasi audit score lengkap + bukti | Evaluasi 70% lengkap | Evaluasi 50% | Tidak ada evaluasi |
-| **Wawancara/Esai (10%)** | Lisan/esai jelas, struktur, data | Cukup jelas | Ragu-ragu | Tidak terjawab |
+**Tugas:** Identifikasi aset, ancaman dan kerentanan pada kasus organisasi fiktif. **Bukti:** inventaris aset, matriks ancaman dan asumsi.
 
----
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
-## C. RUBRIK TUGAS2 — Milestone 2 / Proyek Integrasi (20% — Mg12)
+### UTS — pekan 8 (30%, CPMK-1)
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Integrasi/Kedalaman (35%)** | Kajian mendalam 8-10 hal: analisis komprehensif + roadmap 5-th + KPI + stakeholder lengkap | Kajian 70% lengkap (6-7 hal, roadmap tanpa anggaran) | Kajian 50% (4-5 hal, tanpa KPI) | Tidak ada kajian |
-| **Evaluasi/Metrik (30%)** | Evaluasi matang: maturity index, gap, rekomendasi 3 poin, data valid | Evaluasi sedang (1-2 rekomendasi) | Dangkal | Tidak ada evaluasi |
-| **Runnable/Docs (20%)** | Docs rapi: TOC, numbering, sitasi, Turnitin≤20% | Docs tanpa TOC/sitasi | Docs berantakan | Tidak ada docs |
-| **Analisis & Laporan (15%)** | Laporan 2-3 hal: trade-off, lesson learned, instruksi lengkap | 1-2 hal tanpa lesson | <1 hal | Tidak ada laporan |
+**Tugas:** Hitung SLE, ARO, ALE dan bandingkan dengan matriks risiko kualitatif. **Bukti:** perhitungan individual dan interpretasi.
 
----
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
-## D. RUBRIK UAS — Demo Day / Presentasi Akhir (30% — Mg16)
+### Tugas 2 — pekan 12 (20%, CPMK-2)
 
-| Aspek (Bobot) | Skor 4 (85-100) | Skor 3 (70-84) | Skor 2 (55-69) | Skor 1 (0-54) |
-|---|---|---|---|---|
-| **Fungsionalitas/Kedalaman (30%)** | Laporan/kajian 15-20 hal lengkap: visi, pilar/layanan 3, roadmap, anggaran, KPI, stakeholder, risiko+mitigasi | 10-14 hal, 2 layanan, roadmap tanpa anggaran | 5-9 hal, 1 layanan | <5 hal atau tidak ada roadmap |
-| **Performa/Audit (20%)** | Audit score lengkap + bukti + indeks maturitas valid | Audit 70% lengkap | Audit 50% | Tidak ada audit |
-| **Analisis/Keamanan (20%)** | Analisis kedalaman: trade-off, risiko, rekomendasi konkret | Analisis sedang | Dangkal | Tidak ada analisis |
-| **Docs & Video (15%)** | PORTFOLIO/laporan PDF rapi (TOC) + repo + video 3m HD unlisted + Turnitin≤20% | PDF tanpa TOC, video 2m | PDF berantakan, video <2m | Tidak ada video/Turnitin>20% |
-| **Presentasi & Teamwork (15%)** | Presentasi 10-12m jelas + Q&A jawab trade-off dengan angka + peer eval seimbang (20-25%/org) | Jelas tetapi Q&A ragu | Melebihi waktu, Q&A banyak tidak terjawab | Tidak terstruktur, konflik peer |
+**Tugas:** Susun BIA dan rencana perlakuan risiko dengan pilihan kontrol. **Bukti:** BIA, prioritas dan risk treatment plan.
 
-**Peer eval:** Jika <10% kontribusi → nilai individu -30%. **Syarat lulus UAS:** Minimal skor 2 di semua aspek.
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
----
+### UAS — pekan 16 (30%, CPMK-3)
 
-## E. Formatif & Kehadiran
+**Tugas:** Susun dan uji BCP/DRP dengan RTO dan RPO realistis. **Bukti:** rencana, skenario tabletop dan rekomendasi.
 
-| Kriteria | Lulus | Tidak Lulus |
-|---|---|---|
-| Kehadiran | ≥80% (13/16) | <80% → tugas pengganti/tidak boleh UAS |
-| Formatif | ≥6-8/12 pass | <6 → remedial 7 hari |
+| Kriteria | Bobot | Sangat baik | Baik | Cukup | Kurang |
+| --- | --- | --- | --- | --- | --- |
+| Konsep dan metode | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Kualitas hasil dan verifikasi | 35% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Analisis dan rekomendasi | 20% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
+| Dokumentasi dan tanggung jawab | 10% | Tepat, lengkap dan didukung bukti yang dapat ditelusuri | Tepat pada aspek utama; kekurangan minor | Sebagian benar, bukti atau langkah penting belum memadai | Aspek utama salah atau tidak ada bukti |
 
----
+## Formatif dan refleksi
 
-## F. Konversi NA
+Per pertemuan beri status tercapai / perlu perbaikan / belum ditunjukkan untuk proses, hasil dan refleksi tanpa bobot tambahan. Refleksi diri 1–5: pemahaman, kemampuan memverifikasi, batas dan risiko, kontribusi tim.
 
-```
-NA = 0.20×Tugas1 + 0.30×UTS + 0.20×Tugas2 + 0.30×UAS + bonus (max +3)
-```
+## Batas, keselamatan dan acuan
 
-| NA | Huruf | Keterangan |
-|---|---|---|
-|85-100|A|Sangat memuaskan|
-|70-84|B|Memuaskan|
-|60-69|C|Cukup|
-|55-59|D|Tidak lulus remedial|
-|<55|E|Gagal|
+**BoK Dok 043:** `BK-IS06` *Information Security*, `BK-IT12` *IT Risk Management*.
 
-Aturan: NA≥55 (C) dengan UAS≥50 & hadir≥80%. Remedial Tugas 7 hari (maks B), UAS 14 hari (maks B).
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Kerangka Manajemen Risiko Siber (NIST CSF, ISO 27005), Penilaian Ancaman & Dampak Bisnis (BIA), Rencana Tanggap Darurat & Business Continuity Plan (BCP/DRP), Metrik Kepatuhan Keamanan.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang eksekusi teknis hacking/pentest langsung ke sistem target, penulisan script koding kriptografi, perbaikan source code aplikasi.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menguasai kepatuhan dan mitigasi risiko keamanan; menyerahkan tata kelola strategis dewan direksi ke `STB-701`.
 
----
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-*Rubrik mengikat — perubahan via rapat prodi.*
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

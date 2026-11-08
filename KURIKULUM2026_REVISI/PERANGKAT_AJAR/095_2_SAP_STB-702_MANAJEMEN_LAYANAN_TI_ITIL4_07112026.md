@@ -1,127 +1,181 @@
-# SAP — STB-702 MANAJEMEN LAYANAN TI ITIL4
+# 095_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STB-702 | **Nama:** Manajemen Layanan Ti Itil4 / *IT Service Management (ITIL 4)*
-**SKS:** 3 SKS / Teori | **Semester:** 7 | **Rumpun:** IT Service — P2
-**Prasyarat:** STB-602 | **Dosen:** Tim Dosen IT Service  | **Revisi:** 07112026
+## STB-702 — Manajemen Layanan TI (ITIL 4)
 
----
+**Identitas:** `STB-702` Manajemen Layanan TI (ITIL 4) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-101` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu Case Method + Studio — **Bobot:** 20/30/20/30 =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir kajian + masterplan + presentasi.
+Alokasi minggu: TM 150 menit + PT 180 menit + BM 180 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan konsep Layanan, Nilai (*Value*), dan Co-Creation of Value (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **menguraikan** Service Value System (SVS), 4 Dimensi Manajemen Layanan, dan 7… | C2 | P2 |
-| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan menganalisis** alur kerja Service Desk, Incident Management, d… | C4 | KK4 |
-| CPMK-3 | Mahasiswa (*A*) mampu **merancang** Katalog Layanan TI (*Service Catalog*) dan perjanjian tingkat la… | C5 | P2, KK4 |
-| CPMK-1 | Mahasiswa (*A*) mampu **menguraikan** siklus Architecture Development Method (ADM Fase Preliminary s… | C2 | P2 |
-| CPMK-2 | Mahasiswa (*A*) mampu **memodelkan** 4 pilar arsitektur enterprise (Business, Data, Application, Tec… | C4 | P2, P3, KK4 |
-| CPMK-3 | Mahasiswa (*A*) mampu **menyusun** dokumen cetak biru Architecture Definition Document (ADD) (*B*) d… | C5 | KK4 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar IT Service Management, Konsep Nilai Bersama, Stakeholder Layanan dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §58. STB-702.*
+### Pertemuan 2 — 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams
 
----
+**Kemampuan:** Mampu menganalisis 4 Dimensi Manajemen Layanan ITIL 4 (C4).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi 4 Dimensi Layanan: Organizations, Information, Partners, Value Streams dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar IT Service Management (ITIL 4) (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Diskusi 120m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STB-702  
-**Metode:** Case Method + Diskusi 270m/220m  
-**Asesmen:** Formatif — latihan essay 500 kata  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu menguraikan Service Value System (SVS) dan Service Value Chain (C2).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — case analysis 1 hal  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi ITIL 4 Service Value System (SVS): Governance, Practices, Continual Improvement dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — analisis kasus & rancang skema  
-**Metode:** Kuliah 50m + Workshop 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: laporan analisis 3-5 hal + diagram — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu menerapkan 7 Prinsip Panduan ITIL 4 pada keputusan operasional (C3).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — peer review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi 7 Guiding Principles: Focus on Value, Start Where You Are, Progress Iteratively dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Analisis SVS, empat dimensi dan guiding principles pada kasus layanan. Bukti: peta layanan dan analisis SVS.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Ujian Tertulis 100m (20 PG + 3 esai case)  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 30%  
+**Kemampuan:** Mampu memetakan 6 aktivitas Service Value Chain pada skenario layanan (C4).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Service Value Chain: Plan, Improve, Engage, Design/Transition, Obtain, Deliver dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC)
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STB-702 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu merancang sistem Service Desk dan antarmuka tiket pengguna (C4).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (20%)
-**Bahan:** Proyek integrasi komprehensif — kajian komprehensif + roadmap  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (20%)** — Milestone 2: laporan 8-10 hal + diagram arsitektur/governance — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Praktik Manajemen Layanan: Service Desk Single Point of Contact (SPOC) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu merancang alur Incident Management & strategi eskalasi swarming (C4).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Incident Management: Kategorisasi, Prioritisasi Matriks Dampak-Urgensi dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Sidang presentasi 100m (10m presentasi + 10m demo + 5m Q&A) — kajian komprehensif  
-**Deliverables:** Laporan akhir 15-20 hal + slide deck + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Ujian Tertulis Konsep ITIL 4 SVS, 4 Dimensi, & Praktik Incident Management
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Ujian Tertulis Konsep ITIL 4 SVS, 4 Dimensi, & Praktik Incident Management dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (30%, CPMK-2):** Susun alur incident/problem dan analisis akar masalah dari tiket simulasi. Bukti: diagram alur, prioritas dan RCA.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Tertulis Case |30%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |20%|Mg12|
-| UAS Mg16 | Presentasi + Laporan Akhir |30%|Mg16|
+### Pertemuan 9 — Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu menganalisis Problem Management dan Known Error Database (KEDB) (C4).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Problem Management: Investigasi Proaktif/Reaktif, KEDB Workaround dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis
+
+**Kemampuan:** Mampu menerapkan Root Cause Analysis via Diagram Fishbone & 5-Whys (C3).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Teknik Root Cause Analysis (RCA): Ishikawa Fishbone & 5-Whys Analysis dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Service Request Management: Standar Request Workflows & Otomasi
+
+**Kemampuan:** Mampu merancang Service Request Management dan alur persetujuan (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Service Request Management: Standar Request Workflows & Otomasi dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor
+
+**Kemampuan:** Mampu merancang Service Catalog dan menetapkan SLA, OLA, UC (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Service Level Management: Desain Katalog Layanan, SLA, OLA, Kontrak Vendor dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (20%, CPMK-3):** Susun katalog layanan dan SLA/OLA dengan indikator terukur. Bukti: katalog, SLA dan kriteria pengukuran.
+
+### Pertemuan 13 — Change Enablement: Standar, Normal, Emergency Changes, CAB Governance
+
+**Kemampuan:** Mampu menganalisis praktik Change Enablement & peran Change Advisory Board (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Change Enablement: Standar, Normal, Emergency Changes, CAB Governance dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — Configuration Management: Configuration Items (CI), CMDB Relationship Mapping
+
+**Kemampuan:** Mampu menguraikan Service Configuration Management dan CMDB (C2).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Configuration Management: Configuration Items (CI), CMDB Relationship Mapping dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA
+
+**Kemampuan:** Mampu menyusun Cetak Biru Katalog Layanan TI dan Perjanjian SLA Tim (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penyusunan Portofolio Lengkap IT Service Catalog & Kontrak SLA dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Penilaian Portofolio Lengkap Manajemen Layanan TI & Desain SLA / KEDB
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penilaian Portofolio Lengkap Manajemen Layanan TI & Desain SLA / KEDB dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Evaluasi dan perbaiki katalog, SLA dan service desk berdasarkan data simulasi. Bukti: portofolio layanan, evaluasi dan rekomendasi.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS05` *IS Management*, `BK-IT08` *IT Service Management*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Manajemen Layanan TI (ITIL 4), Service Value System (SVS), Empat Dimensi Manajemen Layanan, Praktik Manajemen Layanan (Incident, Problem, Change, Service Level Management / SLA).
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang mengubah strategi korporat tingkat dewan direksi, koding fitur aplikasi backend, konfigurasi routing hardware.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menjamin operasional layanan TI berjalan andal dan memenuhi kesepakatan SLA pengguna.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

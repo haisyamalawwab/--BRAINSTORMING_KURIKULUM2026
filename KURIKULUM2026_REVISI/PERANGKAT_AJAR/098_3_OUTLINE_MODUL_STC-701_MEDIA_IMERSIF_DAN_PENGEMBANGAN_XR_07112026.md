@@ -1,135 +1,137 @@
-# OUTLINE MODUL — STC-701 MEDIA IMERSIF DAN PENGEMBANGAN XR
+# 098_3 — OUTLINE MODUL PEMBELAJARAN
 
-**Kode:** STC-701 | **3 SKS / +P** — 100T+170P+180M/minggu | **Semester:** 7 | **Prasyarat:** STI-415 Pemrograman Front-End | **CPL:** KK5 (XR, Unity, WebXR) | **Revisi:** 07112026
+## STC-701 — Media Imersif & Pengembangan XR
 
----
+**Identitas:** `STC-701` Media Imersif & Pengembangan XR · Semester 7 · 3 SKS (+P) · Prasyarat `STI-311` · PL PL-3 · PEO PEO-1, PEO-3 · IRM M.
 
-## 1. Peta Modul & Alur PjBL
+## Peta 14 bab
 
-```
-Mg1 Pengantar ─► Mg2 Fondasi1 ─► Mg3 Fondasi2 ─► [Mg4 PRAKTIK AWAL TUGAS1 20%]
-                                                      │
-Mg5 Lanjutan1 ─► Mg6 Lanjutan2 ─► Mg7 Case Study ─► [Mg8 UTS PRAKTIK]
-                                                                  │
-Mg9 Scalability ─► Mg10 Integration ─► Mg11 Governance ─► [Mg12 INTEGRASI TUGAS2 25%]
-                                                                  │
-Mg13 Monitoring ─► Mg14 Testing ─► Mg15 Finalisasi ─► [Mg16 UAS DEMO DAY/PRESENTASI 30%]
-```
+Materi pekan 1–7 dan 9–15 menjadi bab; pekan 8 dan 16 untuk evaluasi. Gunakan rujukan dan guardrails di akhir.
 
-Produk: Service prototype → integrasi → deployable + monitoring — gate Milestone1 & 2.
+### Bab 1 — Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset (pekan 1)
 
----
+- **Capaian:** Mampu menguraikan spektrum Extended Reality (AR, VR, MR) dan Spatial Computing (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 2. Tujuan per Modul (16 Modul)
+### Bab 2 — Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB (pekan 2)
 
-| Modul | Nama | CPMK | Tujuan Akhir | Beban |
-|---|---|---|---|---|
-| M1 | Pengantar Immersive | CPMK-1 | Menguraikan use cases & roadmap MK | 4.5 jam (100T+170P+180M) |
-| M2 | Fondasi Teori 1 | CPMK-1 | Menguasai konsep inti STC-701 | 4.5 jam (100T+170P+180M) |
-| M3 | Fondasi Teori 2 | CPMK-1 | Menguasai arsitektur & tools | 4.5 jam (100T+170P+180M) |
-| M4 | Praktik Awal | CPMK-2 | Implementasi awal milestone1 — **TUGAS1** | 4.5 jam (100T+170P+180M) |
-| M5 | Lanjutan 1 | CPMK-2 | Integrasi & optimasi | 4.5 jam (100T+170P+180M) |
-| M6 | Lanjutan 2 | CPMK-2 | Patterns & best practices | 4.5 jam (100T+170P+180M) |
-| M7 | Case Study | CPMK-3 | Bedah kasus industri | 4.5 jam (100T+170P+180M) |
-| M8 | UTS | CPMK-1,2 | Evaluasi tengah semester | 2.8 jam |
-| M9 | Scalability | CPMK-3 | Scalability & performance | 4.5 jam (100T+170P+180M) |
-| M10 | Integration | CPMK-3 | Integrasi & deployment | 4.5 jam (100T+170P+180M) |
-| M11 | Governance | CPMK-3 | Keamanan/etika/governance | 4.5 jam (100T+170P+180M) |
-| M12 | Integrasi Proyek | CPMK-3 | Proyek integrasi — **TUGAS2** | 4.5 jam (100T+170P+180M) |
-| M13 | Monitoring | CPMK-4 | Observability & monitoring | 4.5 jam (100T+170P+180M) |
-| M14 | Testing | CPMK-4 | UAT & evaluasi | 4.5 jam (100T+170P+180M) |
-| M15 | Finalisasi | CPMK-4 | Finalisasi E2E & docs | 4.5 jam (100T+170P+180M) |
-| M16 | Demo Day / Presentasi | CPMK-1-4 | Sidang akhir — **UAS** | 2.8 jam |
+- **Capaian:** Mampu menguraikan fondasi grafika 3D: Ruang Koordinat, Mesh, Tekstur, Material (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 3 — WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop (pekan 3)
 
-## 3. Rincian Materi per Modul (Ringkasan — Detail SAP 086_2)
+- **Capaian:** Mampu membangun adegan 3D dasar via Three.js: Scene, Camera, Renderer (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M1 — Pengantar (Mg1)
-**Topik:** Motivasi Immersive Media & XR Development, use cases industri (PL-3), setup tools (GitHub Classroom, Docker/GPU), expectation  
-**Aktivitas:** Intro + setup check + quiz  
-**Sumber:** Handbook Ch.1
+### Bab 4 — Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling (pekan 4)
 
-### M2 — Fondasi Teori 1 (Mg2)
-**Topik:** Konsep inti — definisi, taksonomi, standar terkait STC-701  
-**Hands-on/Diskusi:** Notebook + case  
+- **Capaian:** Mampu mengimplementasikan interaktivitas 3D: Raycasting & Orbit Controls (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M3 — Fondasi Teori 2 (Mg3)
-**Topik:** Arsitektur & tools — framework/platform/standar (mis. untuk STC-701: FastAPI/MLOps/LLM/IoT)  
-**Aktivitas:** Hands-on  
+### Bab 5 — Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader (pekan 5)
 
-### M4 — Praktik Awal — TUGAS1 (Mg4)
-**Topik:** Build service/endpoint awal (FastAPI/Model serving/Agent)  
-**Output TUGAS1:** Repo + benchmark  
+- **Capaian:** Mampu memprogram pencahayaan dinamis, bayangan, dan Custom GLSL Shaders (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M5 — Lanjutan 1 (Mg5)
-**Topik:** Integrasi & optimasi performa/keamanan  
-**Hands-on:** Lab  
+### Bab 6 — Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection (pekan 6)
 
-### M6 — Lanjutan 2 (Mg6)
-**Topik:** Patterns & best practices (design patterns, governance patterns)  
-**Hands-on:** Workshop  
+- **Capaian:** Mampu menguraikan konsep Augmented Reality: Pelacakan Pose & Estimasi Cahaya (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M7 — Case Study (Mg7)
-**Topik:** Bedah 3 kasus industri — gap & rekomendasi  
-**Output:** Case analysis 2 hal  
+### Bab 7 — Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif (pekan 7)
 
-### M8 — UTS (Mg8)
-**Kisi:** Mg1-7 — fondasi + praktik awal — praktik  
+- **Capaian:** Mampu membangun aplikasi AR Marker-Based dengan pengenalan target gambar 2D (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M9 — Scalability (Mg9)
-**Topik:** Scalability, performance tuning, observability  
+### Bab 8 — Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial (pekan 9)
 
-### M10 — Integration & Deployment (Mg10)
-**Topik:** E2E integration, Docker/cloud/CI/CD  
+- **Capaian:** Mampu membangun aplikasi Markerless AR berbasis Plane Detection (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M11 — Governance (Mg11)
-**Topik:** Keamanan/etika/governance — COBIT/ITIL/TOGAF controls  
+### Bab 9 — Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation (pekan 10)
 
-### M12 — Integrasi Proyek — TUGAS2 (Mg12)
-**Topik:** Proyek integrasi komprehensif — deployable + queue/monitoring  
-**Output TUGAS2:** Repo + compose + laporan  
+- **Capaian:** Mampu merancang interaksi gestur spasial: Rotasi, Skala, dan Pinch objek AR (C4).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M13 — Monitoring (Mg13)
-**Topik:** Monitoring, logging, dashboard — Grafana/Prometheus  
+### Bab 10 — Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines (pekan 11)
 
-### M14 — Testing (Mg14)
-**Topik:** UAT, evaluasi metrik — RPS/latensi/faithfulness  
+- **Capaian:** Mampu menguraikan prinsip imersi Virtual Reality: 3DoF vs 6DoF & Comfort (C2).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-### M15 — Finalisasi (Mg15)
-**Topik:** Bug bash, docs portofolio, geladi bersih Demo Day  
+### Bab 11 — VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab (pekan 12)
 
-### M16 — Demo Day / Presentasi (Mg16 — UAS)
-**Agenda:** 12m presentasi + 8m demo + 5m Q&A — panel dosen+industri  
-**Output:** Repo final + PORTFOLIO.pdf + video 3m  
+- **Capaian:** Mampu memprogram navigasi VR Teleportasi dan interaksi kontroler 6DoF (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+### Bab 12 — Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect (pekan 13)
 
-## 4. Bahan Ajar
+- **Capaian:** Mampu mengonfigurasi Audio Spasial 3D untuk meningkatkan imersi virtual (C3).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-| Jenis | Judul | Akses |
-|---|---|---|
-| Buku | Textbook utama Immersive Media & XR Development (lihat 007 §63. STC-701 refs) | Perpus |
-| Docs | Docs resmi tools/framework/standar | Online |
-| Paper | IEEE/ACM/vendor whitepapers terkait STC-701 | Scholar |
-| Case | Studi kasus industri (Tokopedia, Gojek, Kemenkes, KemenPAN, dll.) | Web |
-| Dataset | Dummy kampus privacy-safe | Lab |
+### Bab 13 — XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD) (pekan 14)
 
----
+- **Capaian:** Mampu mengoptimalkan performa rendering grafika XR target $\ge 60$ FPS (C5).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD); cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD), tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD), menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
-## 5. Alat & Lingkungan
+### Bab 14 — PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap (pekan 15)
 
-- Lab GPU/Cloud + GitHub Classroom + Docker + MLflow — sesuai MK
-- LMS + Turnitin/MOSS
+- **Capaian:** Mampu membangun simulasi pelatihan industri / tur virtual XR terpadu (C6).
+- **Substansi:** konsep dasar, komponen dan asumsi; tahapan penerapan PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap; cara memverifikasi hasil dan keterbatasannya.
+- **Studi kasus & latihan:** pilih kasus sesuai CPMK; identifikasi input dan tujuan, terapkan konsep, lalu bandingkan hasil pada skenario berbeda.
+- **Praktikum:** buat artefak atau analisis terkait PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap, tuliskan langkah, hasil dan alasan; terapkan batas dan keamanan pada bagian akhir.
+- **Prompt ilustrasi:** diagram edukasi berlabel Indonesia tentang PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap, menunjukkan input, proses, output dan titik verifikasi; tanpa data pribadi.
 
----
+## Pustaka utama dan pendukung
 
-## 6. Skill Ladder
+[WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API), [Unity Manual](https://docs.unity3d.com/Manual/) dan [glTF](https://www.khronos.org/gltf/).
 
-```
-Level1 (Mg1-3): Fondasi teori & tools
-Level2 (Mg4-7): Praktik awal → case study → UTS
-Level3 (Mg9-12): Scalability → integrasi → TUGAS2
-Level4 (Mg13-16): Monitoring → testing → finalisasi → Demo Day (UAS)
-```
+## Batas, keselamatan dan acuan
 
+**BoK Dok 043:** `BK-IS17` *Human-Computer Interaction*, `BK-IT10` *UX Design*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Media Imersif, Dasar Extended Reality (XR: Virtual Reality & Augmented Reality), Framework WebXR / Unity dasar untuk UI spasial, 3D User Interaction Design, Pemanfaatan XR untuk Industri & Edukasi.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang pembuatan game 3D AAA berskala besar, rigging animasi film animasi profesional, koding driver hardware VR.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun antarmuka interaktif spasial generasi masa depan untuk platform digital modern.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Jika perangkat XR tidak tersedia, gunakan emulator dan catat bahwa FPS headset belum teruji. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

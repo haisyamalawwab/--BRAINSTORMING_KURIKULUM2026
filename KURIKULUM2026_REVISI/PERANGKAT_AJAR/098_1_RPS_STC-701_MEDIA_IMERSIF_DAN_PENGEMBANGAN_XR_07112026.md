@@ -1,137 +1,92 @@
-# RPS — STC-701 MEDIA IMERSIF DAN PENGEMBANGAN XR 
+# 098_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STC-701 | **Nama EN:** Immersive Media & XR Development
-**SKS/Tipe:** 3 SKS / +P — 100m Teori + 170m Lab + 180m Mandiri | **Rumpun:** Immersive Media — P3
-**Prasyarat:** STI-415 Pemrograman Front-End | **Dosen:** Tim Dosen Immersive Media | **Revisi:** 07112026
-**CPL:** KK5 (XR, Unity, WebXR) | **PL:** PL-3 | **PEO:** PEO-1 | **Rujukan:** 005, 007 §63. STC-701, 008, 043
+## STC-701 — Media Imersif & Pengembangan XR
 
----
+**Identitas:** `STC-701` Media Imersif & Pengembangan XR · Semester 7 · 3 SKS (+P) · Prasyarat `STI-311` · PL PL-3 · PEO PEO-1, PEO-3 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STC-701 MEDIA IMERSIF DAN PENGEMBANGAN XR |
-| **Semester/Rumpun** | Semester 7 / Immersive Media — P3 |
-| **Prasyarat** | STI-415 Pemrograman Front-End |
-| **CPL Dibebankan** | KK5 (XR, Unity, WebXR) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-3 |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait KK5 |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P3 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-08 (P4) | Menguasai prinsip rekayasa perangkat lunak modern (web, mobile, distributed), manajemen basis data relasional/NoSQL, rekayasa data & visualisasi, serta prinsip desain interaksi pengalaman pengguna (UI/UX). | M |
+| CPL-13 (KK5) | Mampu merancang pengalaman pengguna berbasis riset (UI/UX) serta merekayasa platform digital modern yang skalabel (*Microservices, Web/Mobile, API, SaaS, BPA*). | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STC-701 — Media Imersif Dan Pengembangan Xr** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **KK5 (XR, Unity, WebXR)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-3).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **membangun** adegan grafika 3D interaktif di browser (*B*) menggunakan WebXR dan Three.js (*C*) dengan pemuatan model 3D (glTF/GLB) yang optimal (*D*). | C3 | `CPL-08` (`P4`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **merancang dan mengimplementasikan** aplikasi Augmented Reality (AR) mobile (*B*) dengan teknik Marker-Based dan Markerless Plane Detection (*C*) menggunakan ARCore / WebXR (*D*). | C6 | `CPL-13` (`KK5`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **membangun** simulasi Virtual Reality (VR) 6DoF interaktif (*B*) dengan audio spasial 3D dan navigasi teleportasi (*C*) dengan performa rendering mulus $\ge 60$ FPS (*D*). | C6 | `CPL-13` (`KK5`) |
 
-Relevansi karir: PL-3 — roles: Immersive Media & XR Development Specialist, PL-3 Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menerapkan teknologi XR (AR, VR, MR) pada aplikasi imersif. | CPMK-1 | C3 |
+| Sub-CPMK-1.2 | Membuat dan mengelola 3D asset menggunakan WebGL/Three.js. | CPMK-1 | C3 |
+| Sub-CPMK-2.1 | Mengimplementasikan interaksi kontroller dan gestur spasial. | CPMK-2 | C6 |
+| Sub-CPMK-2.2 | Mengintegrasikan Computer Vision/AI untuk pengalaman imersif. | CPMK-2 | C6 |
+| Sub-CPMK-3.1 | Membangun aplikasi immersive/XR end-to-end yang dapat dijalankan. | CPMK-3 | C6 |
+| Sub-CPMK-3.2 | Mengevaluasi kualitas dan performa pengalaman imersif. | CPMK-3 | C6 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-08` (`P4`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-13` (`KK5`) | — | 25% | — | — | 25% |
+| CPMK-3 | `CPL-13` (`KK5`) | — | — | 25% | 30% | 55% |
+| Total | — | 20% | 25% | 25% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **KK5 (XR** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks Immersive Media & XR Development (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-3.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (25%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 75% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §63. STC-701
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan spektrum Extended Reality (AR, VR, MR) dan Spatial Computing (C2) | Pengantar Immersive Media, Taksonomi Milgram, Hardware VR/AR Headset | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 2 | Mampu menguraikan fondasi grafika 3D: Ruang Koordinat, Mesh, Tekstur, Material (C2) | Grafika 3D: Vektor 3D, Poligon, Shaders, PBR Materials, Format glTF/GLB | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 3 | Mampu membangun adegan 3D dasar via Three.js: Scene, Camera, Renderer (C3) | WebXR Three.js Fundamentals: Scene Graph, Perspective Camera, Render Loop | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 4 | Mampu mengimplementasikan interaktivitas 3D: Raycasting & Orbit Controls (C3) | Interaksi Grafika: Raycasting, Object Picking, Mouse/Touch Event Handling | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 1 20% |
+| 5 | Mampu memprogram pencahayaan dinamis, bayangan, dan Custom GLSL Shaders (C4) | Pencahayaan 3D: Directional Light, Shadow Maps, Custom Vertex/Fragment Shader | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 6 | Mampu menguraikan konsep Augmented Reality: Pelacakan Pose & Estimasi Cahaya (C2) | Pengantar Mobile AR: Arsitektur ARCore/ARKit, SLAM Tracking, Surface Detection | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 7 | Mampu membangun aplikasi AR Marker-Based dengan pengenalan target gambar 2D (C3) | Marker-Based AR: Image Target Tracking & Overlay Objek 3D Interaktif | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Koding Terjadwal Three.js 3D Web & Aplikasi Marker-Based AR | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UTS 25% |
+| 9 | Mampu membangun aplikasi Markerless AR berbasis Plane Detection (C6) | Markerless AR: Deteksi Permukaan Lantai/Meja & Penempatan Objek Spasial | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 10 | Mampu merancang interaksi gestur spasial: Rotasi, Skala, dan Pinch objek AR (C4) | Spatial Gesture Interaction: Two-Finger Pinch Scale, Drag Move, Yaw Rotation | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 11 | Mampu menguraikan prinsip imersi Virtual Reality: 3DoF vs 6DoF & Comfort (C2) | Pengantar VR: 6DoF Head/Hand Tracking, Mencegah Motion Sickness Guidelines | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 12 | Mampu memprogram navigasi VR Teleportasi dan interaksi kontroler 6DoF (C3) | VR Development: WebXR VR Session, Teleport Locomotion, Controller Grab | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Tugas 2 25% |
+| 13 | Mampu mengonfigurasi Audio Spasial 3D untuk meningkatkan imersi virtual (C3) | Spatial Audio: Positional Audio 3D, Audio Listener, Reverberation Effect | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 14 | Mampu mengoptimalkan performa rendering grafika XR target $\ge 60$ FPS (C5) | XR Optimization: Draw Calls Reduction, Texture Compression, Level of Detail (LOD) | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 15 | Mampu membangun simulasi pelatihan industri / tur virtual XR terpadu (C6) | PjBL XR Studio: Pengembangan Purwarupa Simulasi VR/AR Interaktif Lengkap | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Sidang Demonstrasi Produk Aplikasi Extended Reality (WebXR / Mobile AR) | Analisis kasus / praktik terarah | TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **membangun** adegan grafika 3D interaktif di browser (*B*) menggunakan WebXR dan Three.js (*C*) d… | **C3** | `P4` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **merancang dan mengimplementasikan** aplikasi Augmented Reality (AR) mobile (*B*) dengan teknik M… | **C6** | `KK5` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **membangun** simulasi Virtual Reality (VR) 6DoF interaktif (*B*) dengan audio spasial 3D dan navi… | **C6** | `KK5` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **merancang** strategi isolasi data multi-tenant (Shared Database with Row-Level Security vs Datab… | **C4** | `P4` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **membangun** mesin penagihan berlangganan (*Subscription Engine*) otomatis (*B*) dengan integrasi… | **C6** | `KK5` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **mengimplementasikan** arsitektur Micro-Frontends dan *Feature Toggling* (*B*) pada platform SaaS… | **C4** | `P4, KK5` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §63. STC-701. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Bangun scene 3D interaktif dan optimalkan model glTF. Bukti: scene, asset dan hasil uji loading |
+| UTS | 8 | 25% | CPMK-2 | Bangun purwarupa AR marker-based atau markerless dan uji interaksi. Bukti: kode, rekaman uji dan spesifikasi perangkat |
+| Tugas 2 | 12 | 25% | CPMK-3 | Bangun VR 6DoF, navigasi dan audio spasial pada emulator atau perangkat. Bukti: scene VR, rekaman dan hasil pengukuran FPS |
+| UAS | 16 | 30% | CPMK-3 | Evaluasi dan perbaiki purwarupa imersif dari uji kenyamanan dan performa. Bukti: repo, demo, data uji dan analisis |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+[WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API), [Unity Manual](https://docs.unity3d.com/Manual/) dan [glTF](https://www.khronos.org/gltf/).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri Immersive Media & XR Development (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STC-701 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Praktik Live Coding 170m/100m | **UTS 25% Live Coding** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 25%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Demo Day** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20/25/25/30 =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS17` *Human-Computer Interaction*, `BK-IT10` *UX Design*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Media Imersif, Dasar Extended Reality (XR: Virtual Reality & Augmented Reality), Framework WebXR / Unity dasar untuk UI spasial, 3D User Interaction Design, Pemanfaatan XR untuk Industri & Edukasi.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang pembuatan game 3D AAA berskala besar, rigging animasi film animasi profesional, koding driver hardware VR.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Membangun antarmuka interaktif spasial generasi masa depan untuk platform digital modern.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Jika perangkat XR tidak tersedia, gunakan emulator dan catat bahwa FPS headset belum teruji. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan Immersive Media & XR Development (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-3) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 098_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Live Coding Lab Test | CPMK-1,2 | 25% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 25% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai Immersive Media & XR Development (lihat 007 §63. STC-701 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab Immersive (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §63. STC-701.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

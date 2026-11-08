@@ -1,137 +1,93 @@
-# RPS — STB-703 ARSITEKTUR ENTERPRISE TOGAF 
+# 096_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE
 
-**Program Studi:** S1 SISTEKIN | **Semester:** 7 | **Kode:** STB-703 | **Nama EN:** Enterprise Architecture (TOGAF)
-**SKS/Tipe:** 3 SKS / Teori — 100m Kuliah + 120m Mandiri (Teori) | **Rumpun:** Enterprise Architecture — P2
-**Prasyarat:** STI-312 Rekayasa Perangkat Lunak | **Dosen:** Tim Dosen Enterprise Architecture | **Revisi:** 07112026
-**CPL:** P2, KK4 (TOGAF ADM) | **PL:** PL-2 | **PEO:** PEO-1 | **Rujukan:** 005, 007 §59. STB-703, 008, 043
+## STB-703 — Arsitektur Enterprise (TOGAF)
 
----
+**Identitas:** `STB-703` Arsitektur Enterprise (TOGAF) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-306` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## 1. Identitas & Pemetaan Makro
+## Identitas dan pengesahan
 
-| Atribut | Spesifikasi |
-|---|---|
-| **Kode & Nama MK** | STB-703 ARSITEKTUR ENTERPRISE TOGAF |
-| **Semester/Rumpun** | Semester 7 / Enterprise Architecture — P2 |
-| **Prasyarat** | STI-312 Rekayasa Perangkat Lunak |
-| **CPL Dibebankan** | P2, KK4 (TOGAF ADM) — sesuai 003 & 004 Matriks Ketertelusuran OBE |
-| **Profil Lulusan** | PL-2 |
-| **PEO** | PEO-1 |
-| **BoK APTIKOM** | Lihat 003 — BK terkait P2, |
-| **Level KKNI** | Level 6 — Mampu merancang & mengevaluasi solusi sesuai CPMK |
+Prodi S1 SISTEKIN FSTI UWG. Koordinator, dosen dan tanggal pengesahan diisi oleh program studi. Beban mingguan: TM 150 menit + PT 180 menit + BM 180 menit. PT = tugas terstruktur; BM = belajar mandiri.
 
-MK ini adalah bagian dari Semester 7 Peminatan P2 — prasyarat berjenjang dari Semester 5-6.
+## CPL dibebankan
 
----
+| CPL | Rumusan resmi Dok 003 | IRM |
+| --- | --- | --- |
+| CPL-06 (P2) | Menguasai konsep teoretis sistem informasi, analisis & perancangan sistem, arsitektur enterprise, metodologi pengembangan perangkat lunak, serta proses bisnis organisasi untuk transformasi digital. | M |
+| CPL-07 (P3) | Menguasai prinsip dan konsep infrastruktur TI, jaringan komputer, komputasi awan (*cloud*), keamanan informasi & siber, tata kelola TI, serta manajemen proyek sistem dan teknologi informasi. | M |
+| CPL-12 (KK4) | Mampu merancang tata kelola TI (*IT Governance*), melakukan audit sistem informasi, serta memastikan kepatuhan terhadap standar industri dan manajemen risiko (COBIT, ITIL, ISO 27001). | M |
 
-## 2. Deskripsi Mata Kuliah
+## CPMK dan Sub-CPMK
 
-Mata kuliah **STB-703 — Arsitektur Enterprise Togaf** membekali mahasiswa kompetensi inti jalur peminatan sesuai CPL **P2, KK4 (TOGAF ADM)**. Pembelajaran berbasis **Case Method + Project-Based Learning (PjBL) + Lab Hands-on** (untuk +P) atau **Case Method + Studio** (untuk Teori) dengan produk akhir berupa **proyek terpadu/kajian komprehensif** yang dipresentasikan pada **Demo Day / Sidang Presentasi** pada Minggu 16. Materi selaras dengan BoK APTIKOM dan kebutuhan industri (PL-2).
+| CPMK | Rumusan ABCD Dok 043 | Bloom | CPL |
+| --- | --- | --- | --- |
+| CPMK-1 | Mahasiswa (*A*) mampu **menguraikan** siklus Architecture Development Method (ADM Fase Preliminary s.d. H) (*B*) berdasarkan standar The Open Group Architecture Framework (TOGAF) (*C*) secara komprehensif (*D*). | C2 | `CPL-06` (`P2`) |
+| CPMK-2 | Mahasiswa (*A*) mampu **memodelkan** 4 pilar arsitektur enterprise (Business, Data, Application, Technology Architecture) (*B*) menggunakan bahasa pemodelan standar ArchiMate (*C*) secara konsisten (*D*). | C4 | `CPL-06` (`P2`), `CPL-07` (`P3`), `CPL-12` (`KK4`) |
+| CPMK-3 | Mahasiswa (*A*) mampu **menyusun** dokumen cetak biru Architecture Definition Document (ADD) (*B*) dengan analisis kesenjangan (*Gap Analysis As-Is vs To-Be*) dan peta jalan migrasi (*Migration Roadmap*) (*C*) secara profesional (*D*). | C5 | `CPL-12` (`KK4`) |
 
-Relevansi karir: PL-2 — roles: Enterprise Architecture (TOGAF) Specialist, PL-2 Engineer.
+| Sub-CPMK | Kompetensi Dok 043 | CPMK sumber | Bloom |
+| --- | --- | --- | --- |
+| Sub-CPMK-1.1 | Menjelaskan pendekatan TOGAF ADM (Architecture Vision hingga Migration Planning). | CPMK-1 | C2 |
+| Sub-CPMK-1.2 | Menjelaskan peran model arsitektur enterprise pada organisasi. | CPMK-1 | C2 |
+| Sub-CPMK-2.1 | Memodelkan arsitektur business dan data menggunakan ArchiMate. | CPMK-2 | C4 |
+| Sub-CPMK-2.2 | Memodelkan arsitektur application dan technology menggunakan ArchiMate. | CPMK-2 | C4 |
+| Sub-CPMK-3.1 | Menyusun dokumen enterprise architecture yang selaras strategi organisasi. | CPMK-3 | C5 |
+| Sub-CPMK-3.2 | Mengevaluasi kesenjangan arsitektur (gap analysis) dan rencana migrasi. | CPMK-3 | C5 |
 
----
+## Matriks CPL–CPMK dan bobot asesmen
 
-## 3. CPL Dibebankan
+| CPMK | CPL | Tugas 1 | UTS | Tugas 2 | UAS | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| CPMK-1 | `CPL-06` (`P2`) | 20% | — | — | — | 20% |
+| CPMK-2 | `CPL-06` (`P2`), `CPL-07` (`P3`), `CPL-12` (`KK4`) | — | 30% | 20% | — | 50% |
+| CPMK-3 | `CPL-12` (`KK4`) | — | — | — | 30% | 30% |
+| Total | — | 20% | 30% | 20% | 30% | 100% |
 
-| CPL | Indikator Pencapaian MK |
-|---|---|
-| **P2** | Mahasiswa mampu mendemonstrasikan kompetensi sesuai deskripsi CPL dalam konteks Enterprise Architecture (TOGAF) (lihat 003) |
+Bobot merupakan rancangan penilaian MK; CPMK yang mendukung lebih dari satu CPL tidak menggandakan nilai akhir. Nilai CPL tingkat prodi mengikuti formula Dok 008.
 
-Pemetaan BoK: lihat Dok 003 & 004 — MK ini mendukung PL PL-2.
+**Rencana IKU 7:** Tugas 1 (20%) + Tugas 2 (20%) + UAS (30%) direncanakan berbasis kasus/proyek kolaboratif = 70% bobot MK. Target indikatif mata kuliah peminatan Dok 004 adalah 70%; bukti diskusi, kontribusi individual dan produk disimpan. Komposisi metode aktual harus diverifikasi oleh prodi.
 
----
+## Rencana 16 pertemuan
 
-## 4. CPMK (Format ABCD & Level Bloom) — Sumber 007 §59. STB-703
+| Mg | Kemampuan | Materi | Metode | Beban | Asesmen |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Mampu menguraikan hakikat Enterprise Architecture dan framework besar (C2) | Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 2 | Mampu menguraikan struktur TOGAF ADM (Architecture Development Method) (C2) | TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 3 | Mampu menyusun Fase Preliminary: Prinsip Arsitektur & Penyesuaian Framework (C4) | TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 4 | Mampu menyusun Fase A: Architecture Vision & Statement of Architecture Work (C4) | Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 1 20% |
+| 5 | Mampu memodelkan elemen ArchiMate: Business Layer (Aktor, Proses, Peran) (C3) | Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 6 | Mampu merancang Fase B: Business Architecture As-Is dan To-Be (C4) | Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 7 | Mampu merancang Fase C: Data Architecture & Pemodelan Entitas Logis (C4) | Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 8 | EVALUASI TENGAH SEMESTER (UTS) | Ujian Tertulis TOGAF ADM Fase Preliminary, Vision, & Arsitektur Bisnis/Data | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UTS 30% |
+| 9 | Mampu merancang Fase C: Application Architecture & Integrasi Antarmuka (C4) | Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 10 | Mampu merancang Fase D: Technology Architecture Infrastruktur & Cloud (C4) | Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 11 | Mampu melakukan Gap Analysis As-Is vs To-Be lintas 4 pilar arsitektur (C4) | Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 12 | Mampu menyusun Fase E: Opportunities & Solutions dan Work Packages (C4) | Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*) | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Tugas 2 20% |
+| 13 | Mampu merancang Fase F: Migration Planning & Matriks Prioritisasi (C5) | Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 14 | Mampu menguraikan Fase G & H: Implementation Governance & Change Mgmt (C2) | Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 15 | Mampu menyusun dokumen Architecture Definition Document (ADD) lengkap (C5) | Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | Formatif |
+| 16 | EVALUASI AKHIR SEMESTER (UAS) | Sidang Ujian Cetak Biru Enterprise Architecture (ADD) & Model ArchiMate Lengkap | Analisis kasus / diskusi dan latihan | TM 150 menit + PT 180 menit + BM 180 menit | UAS 30% |
 
-| Kode CPMK | Rumusan CPMK (A-B-C-D) | Bloom | CPL |
-|---|---|---|---|
-| **CPMK-1** | Mahasiswa (*A*) mampu **menguraikan** siklus Architecture Development Method (ADM Fase Preliminary s.d. H) (*B*) berdasa… | **C2** | `P2` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **memodelkan** 4 pilar arsitektur enterprise (Business, Data, Application, Technology Architecture… | **C4** | `P2, P3, KK4` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **menyusun** dokumen cetak biru Architecture Definition Document (ADD) (*B*) dengan analisis kesen… | **C5** | `KK4` |
-| **CPMK-1** | Mahasiswa (*A*) mampu **merancang dan mengeksekusi** metode riset pengguna kuantitatif dan kualitatif (Card Sorting, Tre… | **C4** | `KK5` |
-| **CPMK-2** | Mahasiswa (*A*) mampu **mengimplementasikan** eksperimen A/B Testing (*B*) dengan penetapan hipotesis, ukuran sampel sta… | **C4** | `KK5` |
-| **CPMK-3** | Mahasiswa (*A*) mampu **membangun** sistem desain tingkat lanjut (*Advanced Design Tokens*) dan dokumentasi komponen Sto… | **C6** | `P4, KK5` |
+## Ringkasan asesmen
 
-*Detail CPMK lengkap lihat 007 §59. STB-703. Tabel di atas ringkasan; rumusan lengkap ABCD ada di Dok 007.*
+| Instrumen | Pekan | Bobot | CPMK | Tugas dan bukti |
+| --- | --- | --- | --- | --- |
+| Tugas 1 | 4 | 20% | CPMK-1 | Jelaskan ADM dan rancang visi serta stakeholder arsitektur organisasi. Bukti: peta stakeholder, visi dan fase ADM |
+| UTS | 8 | 30% | CPMK-2 | Modelkan arsitektur bisnis dan data menggunakan ArchiMate. Bukti: diagram model dan deskripsi hubungan |
+| Tugas 2 | 12 | 20% | CPMK-2 | Lengkapi model aplikasi dan teknologi serta analisis gap awal. Bukti: diagram empat lapisan dan matriks gap |
+| UAS | 16 | 30% | CPMK-3 | Susun ADD, gap as-is/to-be dan roadmap migrasi. Bukti: model lengkap, dokumen ADD dan roadmap |
 
----
+## Pustaka utama dan pendukung
 
-## 5. Matriks Pembelajaran 16 Minggu (Sub-CPMK, Kajian, Metode, Asesmen)
+[The Open Group TOGAF Standard](https://www.opengroup.org/togaf) dan [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview).
 
-| Mg | Sub-CPMK & Bahan Kajian | Metode | Asesmen & Bobot | Sumber |
-|---|---|---|---|---|
-| 1 | Pengantar & motivasi MK — use cases industri Enterprise Architecture (TOGAF) (C2) | Kuliah interaktif 100m + Lab setup 170m / Diskusi 120m | Formatif quiz | [A1] Handbook, industri whitepapers |
-| 2 | Fondasi teori 1 — konsep inti STB-703 (C2-C3) | Case Method + Lab/Diskusi | Formatif — latihan | [A2] Textbook Ch.1-2 |
-| 3 | Fondasi teori 2 — arsitektur & tools utama (C3-C4) | Case Method + Hands-on | Formatif — notebook/essay | [B1] Docs resmi |
-| **4** | **Topik praktik 1 — implementasi awal (C3-C6)** | Kuliah+Lab/Workshop | **Tugas1 20%** — Milestone 1 | [B2] Tutorial |
-| 5 | Topik lanjutan 1 — integrasi & optimasi (C4) | Case Method + Lab | Formatif — lab report | [B3] Advanced guide |
-| 6 | Topik lanjutan 2 — patterns & best practices (C4) | Workshop + Hands-on | Formatif — code review | [C1] Pattern ref |
-| 7 | Studi kasus industri — bedah kasus nyata (C4-C5) | Case Method | Formatif — case analysis 2 hal | [C2] Case study |
-| **8** | **UTS — Evaluasi Tengah Semester** | Ujian Tertulis Case Analysis 170m/100m | **UTS 30% Tertulis** | Bank soal Mg1-7 |
-| 9 | Topik lanjutan 3 — scalability & performance (C4) | Kuliah+Lab | Formatif — benchmark | [D1] Perf guide |
-| 10 | Topik lanjutan 4 — integration & deployment (C6) | Lab Hands-on | Formatif — integration test | [D2] Deploy docs |
-| 11 | Topik keamanan/etika — governance & risk (C4-C5) | Case Workshop | Formatif — risk matrix | [E1] Governance |
-| **12** | **Topik praktik 2 — proyek integrasi (C6)** | PjBL Studio | **Tugas2 20%** — Milestone 2 | [E2] Project template |
-| 13 | Optimasi & monitoring — observability (C4) | Lab Session | Formatif — monitoring dashboard | [F1] Observability |
-| 14 | Validasi & testing — UAT & evaluation (C5) | Workshop Testing | Formatif — UAT report | [F2] Test guide |
-| 15 | Finalisasi proyek — integrasi E2E & docs (C6) | PjBL Studio | Formatif — E2E demo | [G1] Docs template |
-| **16** | **UAS — Sidang Demonstrasi Produk / Presentasi Komprehensif** | Demo Day & Defense 170m/100m | **UAS 30% Presentasi** | Rubrik UAS 086_5 style |
+## Batas, keselamatan dan acuan
 
-**Bobot:** 20/30/20/30 =100%. Minimal C (55), UAS ≥50, hadir ≥80%.
+**BoK Dok 043:** `BK-IS04` *Enterprise Architecture*, `BK-IT07` *System Integration*.
 
----
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Enterprise Korporat, Framework TOGAF (Architecture Development Method / ADM: Tahap A s.d. H), 4 Lapisan Arsitektur (Bisnis, Data, Aplikasi, Teknologi), Migration Planning.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang perumusan kebijakan tata ruang perkotaan publik (Smart City), konfigurasi teknis Docker/Kubernetes di lapangan, koding modul program.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyusun blueprint arsitektur korporat terpadu yang memandu seluruh transformasi digital organisasi.
 
-## 6. Pengalaman Belajar Mahasiswa
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
 
-- **Case Method 30%:** Bedah kasus industri relevan Enterprise Architecture (TOGAF) (3-4 kasus semester)
-- **PjBL 50% (+P) / 40% (Teori):** Proyek tim 4-5 org bertahap Milestone1→Milestone2→UAS — role: Engineer, Analyst, QA, PM
-- **Team-Based:** Kolaborasi lintas peran, peer evaluation 20% dari nilai UAS
-- **Industry Guest:** 1-2 sesi praktisi (PL-2) — Mg6 & Mg14
-- **Open Source/Portfolio:** Hasil proyek menjadi portofolio karir
-
----
-
-## 7. Asesmen Ringkas (Detail di Dokumen 096_4)
-
-| Komponen | Bentuk | CPMK | Bobot | Kriteria |
-|---|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Case Analysis 1 | CPMK-1,2 | 20% | Fungsionalitas & docs |
-| UTS Mg8 | Ujian Tertulis Case Analysis | CPMK-1,2 | 30% | Kebenaran & analisis |
-| Tugas2 Mg12 | Milestone 2 / Proyek Integrasi | CPMK-3 | 20% | Integrasi & evaluasi |
-| UAS Mg16 | Demo Day / Presentasi Akhir | CPMK-1-4 | 30% | E2E + Q&A |
-
-Remedial 1× untuk Tugas, susulan UTS/UAS terjadwal. Plagiarisme Turnitin ≤20% (laporan), MOSS ≤30% (code).
-
----
-
-## 8. Sumber Belajar Utama
-
-1. Textbook utama sesuai Enterprise Architecture (TOGAF) (lihat 007 §59. STB-703 refs)
-2. Dokumentasi resmi tools/framework terkait (online)
-3. Paper/whitepaper industri (IEEE, ACM, vendor whitepapers)
-4. Case studies industri (Tokopedia, Gojek, Jakarta Smart City, dll. sesuai konteks)
-5. Dokumen kurikulum FSTI: 003, 005, 007, 008, 043
-
----
-
-## 9. Media & Fasilitas
-
-- Lab Enterprise (GPU/Cloud/GIS sesuai MK) + GitHub Classroom
-- Dataset privacy-safe kampus (dummy) + tools edukasi (Figma, Docker, cloud credits)
-- LMS FSTI + Turnitin + MOSS
-
----
-
-## 10. Prinsip 5 Pilar SISTEKIN
-
-- **Academic Excellence:** Evaluasi kuantitatif (metrik performa, audit score)
-- **Vocational Excellence:** Produk deployable/portofolio siap kerja
-- **Character Building:** Etika (data privacy, AI ethics, governance compliance)
-- **Competitive Excellence:** Benchmarking antar-kelompok, leaderboard
-- **Community Empowerment:** Proyek untuk mitra desa/UMKM/kampus
-
----
-
-*Disahkan Kaprodi SISTEKIN — perubahan via rapat kurikulum. Referensi CPMK lengkap di 007 §59. STB-703.*
-
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

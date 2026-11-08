@@ -89,7 +89,7 @@ Mata kuliah ini membekali mahasiswa kemampuan **end-to-end AI Service Integratio
 | 13 | Melakukan Load Testing via Locust/k6 (C4) | RPS, concurrency, P95/P99, ramp-up, failure rate | Lab Testing Session 270m | Formatif: laporan Locust HTML | [D1] Locust docs, k6 guide |
 | 14 | Menerapkan pengamanan API AI: rate limit & prompt injection defense (C4) | Rate limiter (slowapi), input sanitization, guardrails, OWASP LLM Top10 | Case Workshop 270m | Formatif: uji serangan prompt injection dataset | [D2] OWASP LLM, Rebuff/Guardrails AI |
 | 15 | Mengintegrasikan layanan AI ke front-end/mobile tim (C6) | CORS, WebSocket/SSE streaming, FE client, auth | PjBL Studio 270m — integrasi lintas kelompok | Formatif: E2E demo FE→AI backend | [B3] FastAPI CORS, Next.js/React |
-| **16** | **UAS — Sidang Demonstrasi Produk Integrasi AI Terpadu & Portofolio** | Demo Day panel industri + defense portofolio | Demo & Defense 170m | **UAS (30%)** — Demo Day + Portofolio + Laporan Akhir | Rubrik UAS (084_5) |
+| **16** | **UAS — Sidang Demonstrasi Produk Integrasi AI Terpadu & Portofolio** | Demo Day panel industri + defense portofolio | Demo & Defense 170m | **UAS (30%)** — Demo Day + Portofolio + Laporan Akhir | Rubrik UAS (086_5) |
 
 **Total Beban:** Teori 100m ×16 = 1600m, Lab 170m ×14 = 2380m, Mandiri 180m ×16 = 2880m. **Bobot nilai:** Tugas1 20% + UTS 25% + Tugas2 25% + UAS 30% = 100%.
 

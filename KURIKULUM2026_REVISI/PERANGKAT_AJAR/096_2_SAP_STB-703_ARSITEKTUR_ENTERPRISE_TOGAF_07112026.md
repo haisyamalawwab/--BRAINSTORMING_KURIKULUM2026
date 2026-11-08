@@ -1,127 +1,181 @@
-# SAP — STB-703 ARSITEKTUR ENTERPRISE TOGAF
+# 096_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STB-703 | **Nama:** Arsitektur Enterprise Togaf / *Enterprise Architecture (TOGAF)*
-**SKS:** 3 SKS / Teori | **Semester:** 7 | **Rumpun:** Enterprise Architecture — P2
-**Prasyarat:** STI-312 Rekayasa Perangkat Lunak | **Dosen:** Tim Dosen Enterprise Architecture  | **Revisi:** 07112026
+## STB-703 — Arsitektur Enterprise (TOGAF)
 
----
+**Identitas:** `STB-703` Arsitektur Enterprise (TOGAF) · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-306` · PL PL-2, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu Case Method + Studio — **Bobot:** 20/30/20/30 =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir kajian + masterplan + presentasi.
+Alokasi minggu: TM 150 menit + PT 180 menit + BM 180 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan hakikat Enterprise Architecture dan framework besar (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **menguraikan** siklus Architecture Development Method (ADM Fase Preliminary s… | C2 | P2 |
-| CPMK-2 | Mahasiswa (*A*) mampu **memodelkan** 4 pilar arsitektur enterprise (Business, Data, Application, Tec… | C4 | P2, P3, KK4 |
-| CPMK-3 | Mahasiswa (*A*) mampu **menyusun** dokumen cetak biru Architecture Definition Document (ADD) (*B*) d… | C5 | KK4 |
-| CPMK-1 | Mahasiswa (*A*) mampu **merancang dan mengeksekusi** metode riset pengguna kuantitatif dan kualitati… | C4 | KK5 |
-| CPMK-2 | Mahasiswa (*A*) mampu **mengimplementasikan** eksperimen A/B Testing (*B*) dengan penetapan hipotesi… | C4 | KK5 |
-| CPMK-3 | Mahasiswa (*A*) mampu **membangun** sistem desain tingkat lanjut (*Advanced Design Tokens*) dan doku… | C6 | P4, KK5 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar Enterprise Architecture (EA), Mengapa Organisasi Butuh EA?, TOGAF vs Zachman dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §59. STB-703.*
+### Pertemuan 2 — TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository
 
----
+**Kemampuan:** Mampu menguraikan struktur TOGAF ADM (Architecture Development Method) (C2).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi TOGAF ADM: Siklus Iteratif 8 Fase, Architecture Continuum, Repository dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar Enterprise Architecture (TOGAF) (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Diskusi 120m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STB-703  
-**Metode:** Case Method + Diskusi 270m/220m  
-**Asesmen:** Formatif — latihan essay 500 kata  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu menyusun Fase Preliminary: Prinsip Arsitektur & Penyesuaian Framework (C4).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — case analysis 1 hal  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi TOGAF Preliminary Phase: Prinsip Arsitektur Enterprise, Architecture Governance dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — analisis kasus & rancang skema  
-**Metode:** Kuliah 50m + Workshop 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: laporan analisis 3-5 hal + diagram — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu menyusun Fase A: Architecture Vision & Statement of Architecture Work (C4).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — peer review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase A (Architecture Vision): Stakeholder Map, Nilai Bisnis, Vision Scope dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Jelaskan ADM dan rancang visi serta stakeholder arsitektur organisasi. Bukti: peta stakeholder, visi dan fase ADM.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Ujian Tertulis 100m (20 PG + 3 esai case)  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 30%  
+**Kemampuan:** Mampu memodelkan elemen ArchiMate: Business Layer (Aktor, Proses, Peran) (C3).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Bahasa Pemodelan ArchiMate: Konsep Metamodel, Lapisan Bisnis & Notasi dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STB-703 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu merancang Fase B: Business Architecture As-Is dan To-Be (C4).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (20%)
-**Bahan:** Proyek integrasi komprehensif — kajian komprehensif + roadmap  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (20%)** — Milestone 2: laporan 8-10 hal + diagram arsitektur/governance — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase B (Business Architecture): Pemodelan Proses Bisnis, Kapabilitas Organisasi dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu merancang Fase C: Data Architecture & Pemodelan Entitas Logis (C4).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase C (Information Systems - Data): Logical Data Entities, Data Flow ArchiMate dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Sidang presentasi 100m (10m presentasi + 10m demo + 5m Q&A) — kajian komprehensif  
-**Deliverables:** Laporan akhir 15-20 hal + slide deck + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Ujian Tertulis TOGAF ADM Fase Preliminary, Vision, & Arsitektur Bisnis/Data
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Ujian Tertulis TOGAF ADM Fase Preliminary, Vision, & Arsitektur Bisnis/Data dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (30%, CPMK-2):** Modelkan arsitektur bisnis dan data menggunakan ArchiMate. Bukti: diagram model dan deskripsi hubungan.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Tertulis Case |30%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |20%|Mg12|
-| UAS Mg16 | Presentasi + Laporan Akhir |30%|Mg16|
+### Pertemuan 9 — Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu merancang Fase C: Application Architecture & Integrasi Antarmuka (C4).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase C (Information Systems - App): Komponen Aplikasi, Inter-Service API dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem
+
+**Kemampuan:** Mampu merancang Fase D: Technology Architecture Infrastruktur & Cloud (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase D (Technology Architecture): Node Server, Jaringan, Perangkat Lunak Sistem dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru)
+
+**Kemampuan:** Mampu melakukan Gap Analysis As-Is vs To-Be lintas 4 pilar arsitektur (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Gap Analysis: Matriks Identifikasi Kesenjangan (Eliminasi, Penggantian, Baru) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*)
+
+**Kemampuan:** Mampu menyusun Fase E: Opportunities & Solutions dan Work Packages (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase E (Opportunities & Solutions): Paket Kerja, Arsitektur Transisi (*Transition*) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (20%, CPMK-2):** Lengkapi model aplikasi dan teknologi serta analisis gap awal. Bukti: diagram empat lapisan dan matriks gap.
+
+### Pertemuan 13 — Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai
+
+**Kemampuan:** Mampu merancang Fase F: Migration Planning & Matriks Prioritisasi (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase F (Migration Planning): Analisis Biaya/Manfaat, Matriks Risiko-Nilai dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan
+
+**Kemampuan:** Mampu menguraikan Fase G & H: Implementation Governance & Change Mgmt (C2).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Fase G & H: Tata Kelola Implementasi Arsitektur, Kepatuhan, & Manajemen Perubahan dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital
+
+**Kemampuan:** Mampu menyusun dokumen Architecture Definition Document (ADD) lengkap (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penyusunan Cetak Biru ADD & Simulasi Presentasi Transformasi Digital dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Sidang Ujian Cetak Biru Enterprise Architecture (ADD) & Model ArchiMate Lengkap
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Sidang Ujian Cetak Biru Enterprise Architecture (ADD) & Model ArchiMate Lengkap dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Susun ADD, gap as-is/to-be dan roadmap migrasi. Bukti: model lengkap, dokumen ADD dan roadmap.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS04` *Enterprise Architecture*, `BK-IT07` *System Integration*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Arsitektur Enterprise Korporat, Framework TOGAF (Architecture Development Method / ADM: Tahap A s.d. H), 4 Lapisan Arsitektur (Bisnis, Data, Aplikasi, Teknologi), Migration Planning.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang perumusan kebijakan tata ruang perkotaan publik (Smart City), konfigurasi teknis Docker/Kubernetes di lapangan, koding modul program.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menyusun blueprint arsitektur korporat terpadu yang memandu seluruh transformasi digital organisasi.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.

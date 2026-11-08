@@ -1,124 +1,181 @@
-# SAP — STC-703 MANAJEMEN PRODUK DIGITAL DAN PRAKTIK AGILE
+# 100_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
 
-**Kode:** STC-703 | **Nama:** Manajemen Produk Digital Dan Praktik Agile / *Digital Product Management & Agile Practices*
-**SKS:** 3 SKS / Teori | **Semester:** 7 | **Rumpun:** Product Management — P3
-**Prasyarat:** STI-728 & STB-702 | **Dosen:** Tim Dosen Product Management  | **Revisi:** 07112026
+## STC-703 — Manajemen Produk Digital & Praktik Agile
 
----
+**Identitas:** `STC-703` Manajemen Produk Digital & Praktik Agile · Semester 7 · 3 SKS (Teori) · Prasyarat `STI-523` · PL PL-3, PL-4 · PEO PEO-1, PEO-2 · IRM M.
 
-## A. Deskripsi & Posisi MK
+## Panduan
 
-SAP 16 minggu Case Method + Studio — **Bobot:** 20/30/20/30 =100%. Lulus minimal **C (55)**, hadir ≥80%, UAS ≥50. MK Peminatan Semester 7 — prasyarat Semester 5-6. Produk akhir kajian + masterplan + presentasi.
+Alokasi minggu: TM 150 menit + PT 180 menit + BM 180 menit. Dosen menyiapkan contoh kasus dan bahan uji berizin. Asesmen formatif tidak menambah bobot nilai.
 
----
+### Pertemuan 1 — Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner
 
-## B. CPMK & CPL Terkait
+**Kemampuan:** Mampu menguraikan peran Digital Product Manager dan Product Triad (C2).
 
-| CPMK | Rumusan (ABCD) | Bloom | CPL |
-|---|---|---|---|
-| CPMK-1 | Mahasiswa (*A*) mampu **merumuskan** Visi Produk, Strategi Produk, dan Objectives and Key Results (O… | C4 | P2, KK6 |
-| CPMK-2 | Mahasiswa (*A*) mampu **melakukan** Product Discovery dan prioritisasi backlog (*B*) menggunakan ker… | C4 | KK6 |
-| CPMK-3 | Mahasiswa (*A*) mampu **menyusun** dokumen Product Requirement Document (PRD) berstandar industri (*… | C6 | KK6 |
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Pengantar Product Management, Perbedaan PM vs Project Manager vs Product Owner dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-*Detail lengkap 007 §65. STC-703.*
+### Pertemuan 2 — Product Strategy: Product Vision Board, Value Proposition Canvas
 
----
+**Kemampuan:** Mampu merumuskan Product Vision Statement dan identifikasi target pasar (C4).
 
-## C. Rencana Mingguan Detail (16 Minggu)
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Product Strategy: Product Vision Board, Value Proposition Canvas dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 1 — Pengantar Digital Product Management & Agile Practices (C2)
-**Bahan:** Motivasi, use cases industri, roadmap 16 minggu, tools setup  
-**Metode:** Kuliah 100m + Diskusi 120m + Mandiri 180m/120m  
-**Tugas:** Setup check — install tools, clone template repo, quiz konsep (non-graded)  
-**Sumber:** Handbook Ch.1, industri whitepaper
+### Pertemuan 3 — Goal Setting: OKRs Framework, Membedakan Output vs Outcome
 
-### MINGGU 2 — Fondasi Teori 1 (C2-C3)
-**Bahan:** Konsep inti — definisi, prinsip, taksonomi STC-703  
-**Metode:** Case Method + Diskusi 270m/220m  
-**Asesmen:** Formatif — latihan essay 500 kata  
-**Sumber:** Textbook Ch.2
+**Kemampuan:** Mampu menetapkan Objectives and Key Results (OKRs) kuantitatif produk (C4).
 
-### MINGGU 3 — Fondasi Teori 2 (C3-C4)
-**Bahan:** Arsitektur & tools utama (framework, platform, standar)  
-**Metode:** Case Method + Hands-on 270m/220m  
-**Asesmen:** Formatif — case analysis 1 hal  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Goal Setting: OKRs Framework, Membedakan Output vs Outcome dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 4 — Praktik Awal — TUGAS1 (20%)
-**Bahan:** Implementasi awal — analisis kasus & rancang skema  
-**Metode:** Kuliah 50m + Workshop 170m + Studio 50m  
-**Asesmen:** **TUGAS1 (20%)** — Milestone 1: laporan analisis 3-5 hal + diagram — **Rubrik:** Fungsionalitas 30%, kebenaran 30%, docs 20%, runnable 20%. **Deadline:** Mg4 Jumat 23:59  
+### Pertemuan 4 — Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna
 
-### MINGGU 5 — Lanjutan 1 — Integrasi & Optimasi (C4)
-**Bahan:** Integrasi komponen, optimasi performa/keamanan  
-**Metode:** Case Method + Lab 270m/220m  
-**Asesmen:** Formatif — lab report  
+**Kemampuan:** Mampu mengeksekusi Product Discovery via Continuous User Interviews (C4).
 
-### MINGGU 6 — Lanjutan 2 — Patterns & Best Practices (C4)
-**Bahan:** Design patterns, best practices industri  
-**Metode:** Workshop + Hands-on 270m/220m  
-**Asesmen:** Formatif — peer review  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Product Discovery: Opportunity Solution Tree, Pemetaan Masalah Pengguna dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 1 (20%, CPMK-1):** Susun visi produk dan OKR berdasarkan masalah pengguna yang teruji. Bukti: vision, asumsi dan OKR terukur.
 
-### MINGGU 7 — Studi Kasus Industri (C4-C5)
-**Bahan:** Bedah kasus nyata (3 kasus) — analisis gap & rekomendasi  
-**Metode:** Case Method 220m  
-**Asesmen:** Formatif — case analysis 2 hal  
+### Pertemuan 5 — Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas
 
-### MINGGU 8 — UTS Evaluasi Tengah Semester
-**Format:** Ujian Tertulis 100m (20 PG + 3 esai case)  
-**Materi:** Mg1-7 — fondasi & praktik awal  
-**Rubrik:** Fungsionalitas/Kebenaran 40%, analisis 30%, penjelasan 20%, docs 10% — Minimal 50. Susulan H+7.  
-**Bobot:** 30%  
+**Kemampuan:** Mampu memprioritaskan fitur menggunakan RICE Score (Reach, Impact, Confidence, Effort) (C4).
 
-### MINGGU 9 — Lanjutan 3 — Scalability & Performance (C4)
-**Bahan:** Scalability, performance tuning, observability  
-**Metode:** Kuliah+Lab 270m/220m  
-**Asesmen:** Formatif — benchmark report  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Prioritisasi Backlog: Formula RICE Scoring & Analisis Sensitivitas dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 10 — Lanjutan 4 — Integration & Deployment (C6)
-**Bahan:** Integrasi E2E, deployment (Docker/cloud), CI/CD dasar  
-**Metode:** Lab Hands-on 270m/220m  
-**Asesmen:** Formatif — integration test  
+### Pertemuan 6 — Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW
 
-### MINGGU 11 — Keamanan/Etika & Governance (C4-C5)
-**Bahan:** Keamanan, etika, governance sesuai STC-703 (mis. OWASP, COBIT, ITIL, TOGAF)  
-**Metode:** Case Workshop 270m/220m  
-**Asesmen:** Formatif — risk matrix / governance gap  
+**Kemampuan:** Mampu menerapkan Kano Model dan MoSCoW Method pada seleksi fitur (C4).
 
-### MINGGU 12 — Proyek Integrasi — TUGAS2 (20%)
-**Bahan:** Proyek integrasi komprehensif — kajian komprehensif + roadmap  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** **TUGAS2 (20%)** — Milestone 2: laporan 8-10 hal + diagram arsitektur/governance — **Rubrik:** Integrasi 35%, evaluasi 30%, runnable/docs 20%, analisis 15%. **Deadline:** Mg12 Jumat  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Framework Prioritisasi Lanjut: Kano Model (Delighters vs Basic), MoSCoW dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 13 — Optimasi & Monitoring (C4)
-**Bahan:** Monitoring, logging, alerting — dashboard observability  
-**Metode:** Lab Session 270m/220m  
-**Asesmen:** Formatif — dashboard  
+### Pertemuan 7 — Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline
 
-### MINGGU 14 — Validasi & Testing — UAT (C5)
-**Bahan:** UAT bersama pengguna, evaluasi metrik  
-**Metode:** Workshop Testing 270m/220m  
-**Asesmen:** Formatif — UAT report  
+**Kemampuan:** Mampu merancang Outcome-Based Product Roadmap (Now, Next, Later) (C4).
 
-### MINGGU 15 — Finalisasi Proyek — E2E & Docs (C6)
-**Bahan:** Finalisasi E2E, bug bash, dokumentasi portofolio  
-**Metode:** PjBL Studio 270m/220m  
-**Asesmen:** Formatif — E2E demo screen record  
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Product Roadmap: Roadmap Berbasis Outcome vs Feature Timeline dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
 
-### MINGGU 16 — UAS Demo Day / Presentasi Komprehensif (30%)
-**Format:** Sidang presentasi 100m (10m presentasi + 10m demo + 5m Q&A) — kajian komprehensif  
-**Deliverables:** Laporan akhir 15-20 hal + slide deck + video 3m + Laporan Turnitin ≤20%  
-**Rubrik UAS:** Fungsionalitas/Evaluasi 30%, performa/audit 20%, analisis 20%, docs 15%, presentasi 15% — Minimal UAS 50, demo live wajib.  
+### Pertemuan 8 — Evaluasi Dokumen Product Vision, OKRs, & Matriks Prioritisasi RICE
 
----
+**Kemampuan:** EVALUASI TENGAH SEMESTER (UTS).
 
-## D. Tugas Terstruktur
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Evaluasi Dokumen Product Vision, OKRs, & Matriks Prioritisasi RICE dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UTS (30%, CPMK-2):** Lakukan discovery dan prioritaskan backlog menggunakan RICE/Kano/MoSCoW. Bukti: bukti discovery, matriks prioritas dan roadmap.
 
-| Tugas | Output | Bobot | Deadline |
-|---|---|---|---|
-| Tugas1 Mg4 | Milestone 1 / Analisis 1 |20%|Mg4|
-| UTS Mg8 | Tertulis Case |30%|Mg8|
-| Tugas2 Mg12 | Milestone 2 / Integrasi |20%|Mg12|
-| UAS Mg16 | Presentasi + Laporan Akhir |30%|Mg16|
+### Pertemuan 9 — Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs
 
-Keterlambatan -10%/hari, MOSS>30% atau Turnitin>20% → revisi/batal.
+**Kemampuan:** Mampu menyusun Product Requirement Document (PRD) yang komprehensif (C6).
 
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penyusunan Dokumen PRD: Context, Goals, User Flow, Functional Specs dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 10 — Agile Requirements: User Story Splitting & Gherkin (Given-When-Then)
+
+**Kemampuan:** Mampu menulis User Stories dan Acceptance Criteria format Gherkin (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Agile Requirements: User Story Splitting & Gherkin (Given-When-Then) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 11 — Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective
+
+**Kemampuan:** Mampu memfasilitasi ritual Agile Sprint: Grooming, Review, Retrospective (C3).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Agile Rituals: Backlog Refinement, Sprint Demo, Blameless Retrospective dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 12 — Product Analytics: North Star Metric, Funnel Analytics, Retention Curves
+
+**Kemampuan:** Mampu menganalisis North Star Metric, DAU/MAU, Churn, Retention Cohort (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Product Analytics: North Star Metric, Funnel Analytics, Retention Curves dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Tugas 2 (20%, CPMK-3):** Rancang PRD dengan user stories, acceptance criteria dan metrik. Bukti: PRD, acceptance criteria dan matriks KPI.
+
+### Pertemuan 13 — Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients
+
+**Kemampuan:** Mampu merancang strategi Product-Led Growth (PLG) dan Viral Loops (C4).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Product-Led Growth: Freemium vs Free Trial, Time-to-Value, Viral Coefficients dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 14 — Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy
+
+**Kemampuan:** Mampu menyusun strategi peluncuran produk Go-To-Market (GTM Strategy) (C6).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Go-To-Market Strategy: Launch Checklist, Positioning, Pricing Strategy dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 15 — Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder
+
+**Kemampuan:** Mampu menyajikan portofolio lengkap Product Management produk digital (C5).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penyusunan Portofolio PRD & Presentasi Solusi Produk di Hadapan Stakeholder dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **Formatif:** catatan analisis dan latihan, tanpa bobot sumatif.
+
+### Pertemuan 16 — Penilaian Portofolio Lengkap Product Management (PRD, GTM, OKRs, Analytics)
+
+**Kemampuan:** EVALUASI AKHIR SEMESTER (UAS).
+
+- **Pendahuluan:** kaitkan topik dengan CPMK dan prasyarat; jelaskan batas etik.
+- **Inti:** kaji konsep dan contoh; mahasiswa bekerja pada kasus, menerapkan atau mengevaluasi Penilaian Portofolio Lengkap Product Management (PRD, GTM, OKRs, Analytics) dan memeriksa hasil bersama dosen.
+- **Penutup:** jelaskan keputusan, batas asumsi dan terima umpan balik.
+- **PT/BM:** dokumentasikan langkah, sumber dan hasil; berikan satu contoh berbeda serta refleksi keterbatasan.
+- **UAS (30%, CPMK-3):** Sempurnakan PRD dan susun strategi GTM berdasarkan bukti dan asumsi. Bukti: portofolio produk, rencana GTM dan presentasi.
+
+## Batas, keselamatan dan acuan
+
+**BoK Dok 043:** `BK-IS15` *Digital Innovation*, `BK-IT13` *Technology Entrepreneurship*.
+
+* 🟢 **IN-SCOPE (Wajib Diajarkan):** Manajemen Produk Digital (Product Management), Product Roadmap, Product Requirement Document (PRD), Agile Scrum Product Owner, Metrik Pertumbuhan Produk (AARRR Funnel, Churn Rate, LTV/CAC), Eksperimentasi Produk.
+* ❌ **OUT-OF-SCOPE (Dilarang Diajarkan):** ❌ Dilarang penulisan source code teknis aplikasi di lapangan, audit legal kontrak ketenagakerjaan, instalasi server.
+* 🔄 **HANDOFF ANCHOR (Titik Serah Terima):** Menghasilkan produk digital yang berkelanjutan secara metrik pasar dan selaras dengan kebutuhan pengguna nyata.
+
+**Keterangan pelaksanaan:** Seluruh pemrosesan memakai data dan lingkungan berizin; simulasi lokal tidak membuktikan kinerja atau kepatuhan produksi. Ketika relasi Sub-CPMK dan CPMK di Dok 043 tidak sejalan secara substantif, kode sumber dipertahankan dan asesmen mengikuti rumusan CPMK; koordinator perlu memvalidasi pemetaan.
+
+**Sumber:** Dok 003/004 (CPL, IRM), 005/051 (identitas, prasyarat), 007 (materi), 008/018 (asesmen), 037/043 (CPMK dan boundary). Materi mingguan disesuaikan dengan urutan capaian dan aturan batas.
