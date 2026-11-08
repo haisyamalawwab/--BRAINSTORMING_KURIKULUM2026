@@ -145,7 +145,7 @@
 |:---:|---|---|
 | 1 | Mampu melakukan riset pengguna (*UX Research*), pemetaan persona, dan perancangan *User Journey*. | Dokumen Riset UX dan *Empathy Map* (STI-308 / STC-501). |
 | 2 | Mampu membangun prototipe UI interaktif *high-fidelity* berstandar *Design System*. | Prototipe Figma Interaktif dengan *Auto-Layout* & Variabel (STI-308). |
-| 3 | Mampu membangun aplikasi web frontend modern (SPA/SSR) dan backend API microservices. | Aplikasi Full-Stack Web di React/Vue/NodeJS/Go (STI-311 / STI-416 / STI-727). |
+| 3 | Mampu membangun aplikasi web frontend modern (SPA/SSR) dan backend API microservices. | STI-311 menghasilkan dasar antarmuka HTML/CSS/JavaScript, sedangkan STI-416 menghasilkan layanan backend API. Bukti SPA/SSR dan microservices memerlukan penetapan pembelajaran lanjutan oleh prodi; pencapaian indikator penuh tidak dapat disimpulkan dari STI-311 saja. |
 | 4 | Mampu merekayasa aplikasi mobile multiplatform dan sistem arsitektur multi-tenant SaaS. | Aplikasi Mobile Flutter/React Native & Arsitektur SaaS (STI-522 / STC-702). |
 
 ### KK6: Digital Technopreneurship & Agile Project Management (Peminatan P3)

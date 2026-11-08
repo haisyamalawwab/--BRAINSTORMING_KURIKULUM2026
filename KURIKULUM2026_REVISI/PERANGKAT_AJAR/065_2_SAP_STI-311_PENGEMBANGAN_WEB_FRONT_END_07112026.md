@@ -1,134 +1,147 @@
-# 065_2 — SATUAN ACARA PERKULIAHAN (SAP) 16 PERTEMUAN
+# 065_2 — SATUAN ACARA PERKULIAHAN 16 PERTEMUAN
+
 ## STI-311 — PENGEMBANGAN WEB FRONT END (*Web Front End Development*)
 
-**Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN) — FSTI Universitas Widyagama Malang  
-**Nomor Dokumen Induk RPS:** `071030.B4.5.2.RPS-STI311` · **Bobot:** 3 SKS `+P` (`TM 100'`, `Prak 170'`, `PT 120'`, `BM 120'`) · **Semester:** 3  
-**Prasyarat:** `FST-102` Algoritma dan Pemrograman · **CPL:** `CPL-08` (`P4` = 45%) & `CPL-13` (`KK5` = 55%) [Level `R`]  
-**Klaster Rubrik:** `K-2` · **Tanggal Penyusunan:** 07 November 2026  
+**Identitas:** `STI-311` Pengembangan Web Front End (*Web Front End Development*) · Core STI · Semester 3 · 3 SKS (+P, 2T+1P) · Prasyarat `FST-102` Algoritma dan Pemrograman.
 
----
+> **Revisi 7 November 2026 — rancangan:** diselaraskan dengan Dok 005 dan dokumen turunan 043; belum disahkan koordinator atau prodi. Tidak mengubah identitas/SKS/prasyarat.
 
-## PEDOMAN OPERASIONAL SAP & PAGAR PEMBATAS KELAS (*CLASSROOM GUARDRAILS*)
+Beban per pekan pembelajaran: TM 100 menit + praktik 170 menit + PT 120 menit + BM 120 menit = 510 menit; 270 menit pertama adalah tatap muka dan praktik. Pekan ujian mengikuti jadwal lembaga.
 
-| Atribut Pelaksanaan | Ketentuan Baku Dosen Pengampu & Asisten Laboratorium `STI-311` |
-|---|---|
-| **Struktur Waktu per Sesi** | **Sesi Teori (`100'`):** Pendahuluan `15'` · Inti & *Live Coding* `70'` · Penutup `15'`<br>**Sesi Praktikum Lab (`170'`):** *Briefing* `15'` · Praktik Koding Terbimbing `135'` · Inspeksi *Browser DevTools* & *Git Commit* `20'`, diikuti `PT 120'` & `BM 120'`. |
-| **Fokus Keilmuan (*In-Scope*)** | Konstruksi antarmuka klien modern: **HTML5 Semantik & Aksesibilitas**, **CSS3 Flexbox & Grid Responsif**, **JavaScript ES6+ / DOM / Fetch Async-Await**, **React SPA** (*Components, Props, State, Hooks, Router, Context*), integrasi **RESTful API** eksternal, dan optimasi **Lighthouse $\ge 85$**. |
-| **Larangan Kelas (*Out-of-Scope*)** | ❌ **Dilarang** menugaskan pembuatan server *back-end* Node.js/Express/SQL dari nol (ranah **`STI-416 Pengembangan Web Back End`** — wajib gunakan *public REST API* atau *JSON Server mock* siap pakai!) dan dilarang mengulang riset wawancara *Persona/SUS* dari nol (ranah **`STI-308 Desain & Prototyping UI/UX`**). |
+## Lingkup dan fasilitas
 
-### Tabel Peta Cepat 16 Pertemuan SAP
+**Dalam lingkup:** HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap dan Tailwind CSS dasar, JavaScript dasar dan DOM/event, proyek kalkulator dan landing page. **Di luar lingkup:** React/Vue/SPA, Fetch/asinkron/API, backend, database dan build pipeline. Validasi klien bukan keamanan server; data harus dummy atau berizin.
 
-| Pertemuan | Sub-CPMK | Topik Inti Teori (`100'`) & Modul Praktikum (`170'`) | Waktu Total | Evaluasi |
-|:---:|:---:|---|:---:|---|
-| **1** | `Sub-CPMK-1.1` | Teori: Arsitektur Browser & **HTML5 Semantik** · Lab 1: Markup Semantik & Validasi W3C | 270' | Formatif Lab |
-| **2** | `Sub-CPMK-1.1, 1.2` | Teori: Formulir Aksesibel (**ARIA**) & **CSS3 Box Model** · Lab 2: Form & *Design Tokens* CSS | 270' | Formatif Lab |
-| **3** | `Sub-CPMK-1.2` | Teori: **CSS3 Flexbox** & **CSS Grid** · Lab 3: Tata Letak 1D & 2D Kompleks | 270' | Formatif Lab |
-| **4** | `Sub-CPMK-1.2` | Teori: **Mobile-First Responsive** & *Tailwind* · Lab 4: Verifikasi **Tugas 1** | 270' | **Tugas 1 (20%)** |
-| **5** | `Sub-CPMK-2.1` | Teori: **JavaScript ES6+** & *Array HOF* · Lab 5: Transformasi Data Imutabel & *Modules* | 270' | Formatif Lab |
-| **6** | `Sub-CPMK-2.1` | Teori: Manipulasi **DOM**, *Events*, & Anti-XSS · Lab 6: Aplikasi Interaktif DOM + Storage | 270' | Formatif Lab |
-| **7** | `Sub-CPMK-2.2` | Teori: *Event Loop*, **Fetch API**, & **`async/await`** · Lab 7: Konsumsi JSON API & Klinik UTS | 270' | Formatif Lab |
-| **8** | `CPMK-2` | **Ujian Tengah Semester (UTS):** *Live Coding* JavaScript ES6+, DOM, & Fetch Async/Await | 150' | **UTS (25%)** |
-| **9** | `Sub-CPMK-3.1` | Teori: Arsitektur **SPA** & **React Components/Props** · Lab 8: Vite + Pustaka Komponen UI | 270' | Formatif Lab |
-| **10** | `Sub-CPMK-3.1` | Teori: **React Hooks (`useState`, `useEffect`)** & Form · Lab 9: State Interaktif & Efek | 270' | Formatif Lab |
-| **11** | `Sub-CPMK-3.2` | Teori: **React Router**, **Context API**, & *Custom Hooks* · Lab 10: SPA Multi-Rute | 270' | Formatif Lab |
-| **12** | `Sub-CPMK-3.1, 3.2` | Teori: Pola Komposisi Komponen Skalabel · Lab 11: Demo & Bedah Kode **Tugas 2** | 270' | **Tugas 2 (25%)** |
-| **13** | `Sub-CPMK-4.1` | Teori: Lapisan Klien **RESTful API** & *UI States* · Lab 12: Integrasi CRUD API Eksternal | 270' | Formatif Lab |
-| **14** | `Sub-CPMK-4.1, 4.2` | Teori: *Protected Routes* & **`React.lazy` Splitting** · Lab 13: Route Guard & Optimasi Bundle | 270' | Formatif Lab |
-| **15** | `Sub-CPMK-4.2` | Teori: **Core Web Vitals** & Audit **Lighthouse** · Lab 14: Optimasi Performa $\ge 85$ | 270' | Formatif Lab |
-| **16** | `CPMK-4` | **Evaluasi Akhir Semester (UAS):** Sidang Aplikasi React + API & Audit *Lighthouse* Langsung | 150' | **UAS (30%)** |
+Gunakan editor dan browser; dosen menyiapkan CSS Bootstrap dan stylesheet Tailwind dengan semua kelas yang dipakai agar latihan dapat dijalankan tanpa internet, Node.js atau konfigurasi build. Pengenalan dilakukan pada kedua framework; kalkulator memakai salah satu.
 
----
+## Skema kegiatan
 
-## RINCIAN SKENARIO MIKRO 16 PERTEMUAN (TEORI + PRAKTIKUM)
+Untuk minggu materi: teori 100 menit (pembuka 10, konsep/demonstrasi 45, diskusi 35, penutup 10) dan praktik 170 menit (orientasi 20, pengerjaan 120, verifikasi/umpan balik 30). PT dan BM di luar sesi; alokasi evaluasi mengikuti pengampu.
 
-### PERTEMUAN 1 — Arsitektur Browser & Konstruksi **HTML5 Semantik**
-* **Sub-CPMK:** `Sub-CPMK-1.1` [C2→C3] · **Alat:** *VS Code*, Chrome/Firefox *DevTools*, *W3C Markup Validation Service*.
-* **Sesi Teori (`100'`):** Menguraikan alur *Critical Rendering Path* peramban (*HTML → DOM, CSS → CSSOM, Render Tree, Layout, Paint*) dan mengapa penggunaan tag **HTML5 semantik** (`header, nav, main, article, section, aside, footer, figure`) krusial bagi pembaca layar (*Accessibility Tree*) maupun mesin pencari dibanding tumpukan `<div>`.
-* **Sesi Praktikum Lab 1 (`170'`):** Menyiapkan repositori Git dan menyusun halaman portal akademik utuh dengan HTML5 semantik murni hingga 100% lolos *W3C Validator* tanpa peringatan.
-* **PT (`120'`) & BM (`120'`):** Memperbaiki berkas latihan *div-soup* menjadi struktur HTML5 semantik bersih.
+### Pertemuan 1 — HTML: dokumen, teks, heading dan daftar
 
-### PERTEMUAN 2 — Formulir HTML5 Aksesibel (**WCAG/ARIA**) & **CSS3 Box Model / Design Tokens**
-* **Sub-CPMK:** `Sub-CPMK-1.1` & `1.2` [C3] · **Alat:** *Chrome Lighthouse Accessibility Panel*, *CSS Variables*.
-* **Sesi Teori (`100'`):** Membahas pembuatan formulir web yang ramah *keyboard* & pembaca layar (`<label>`, `<fieldset>`, validasi bawaan, atribut `aria-live`/`aria-invalid` seperlunya), dilanjutkan aturan emas **CSS3** (`box-sizing: border-box`, perhitungan spesifisitas selektor, satuan relatif `rem`/`em`/`clamp()`, dan penerjemahan palet `STI-308` ke `:root` *CSS Custom Properties*).
-* **Sesi Praktikum Lab 2 (`170'`):** Membangun halaman pendaftaran aksesibel bertoken CSS dan memverifikasi navigasi penuh tanpa tetikus (*keyboard-only test*).
-* **PT (`120'`) & BM (`120'`):** Merancang berkas `tokens.css` standar untuk proyek Tugas 1.
+**Capaian:** 1.1. **Materi:** Orientasi front-end; peran HTML/CSS/JS dan browser; struktur HTML, teks, heading dan daftar.
 
-### PERTEMUAN 3 — Tata Letak Modern: **CSS3 Flexbox** & **CSS Grid**
-* **Sub-CPMK:** `Sub-CPMK-1.2` [C3] · **Alat:** *Chrome DevTools Flexbox & Grid Inspector Badges*.
-* **Sesi Teori (`100'`):** Membedakan secara tajam kapan memakai **Flexbox** (aliran komponen 1 dimensi: *navbar, button group, card footer alignment*) dan kapan memakai **CSS Grid** (kerangka halaman 2 dimensi: `grid-template-columns`, satuan `fr`, `minmax()`, `auto-fit`, dan `grid-template-areas`). Merilis resmi **Tugas 1 (RTM-1)**.
-* **Sesi Praktikum Lab 3 (`170'`):** Membangun antarmuka *analytics dashboard* yang memadukan kerangka utama *CSS Grid* dengan komponen internal *Flexbox*.
-* **PT (`120'`) & BM (`120'`):** Mengerjakan *slicing* struktur utama halaman pada **Tugas 1**.
+**Teori:** Identifikasi doctype, html, head, body, hierarki heading serta daftar. **Praktik:** Buat halaman profil dengan judul, paragraf dan dua jenis daftar; buka langsung pada browser.
 
-### PERTEMUAN 4 — Desain Responsif **Mobile-First** & Evaluasi Tugas 1
-* **Sub-CPMK:** `Sub-CPMK-1.2` [C3] + **Evaluasi Sumatif Tugas 1 (`CPMK-1`, 20%)** · **Alat:** *DevTools Device Mode*, *Tailwind CSS*.
-* **Sesi Teori (`100'`):** Mengajarkan pendekatan **Mobile-First** (`min-width` *breakpoints*: `640px, 768px, 1024px, 1280px`), teknik gambar responsif (`max-width: 100%`, `aspect-ratio`, `object-fit`), serta pengenalan efisiensi *Utility-First CSS* (**Tailwind CSS**) setelah fondasi CSS murni kokoh.
-* **Sesi Praktikum Lab 4 (`170'`):** Verifikasi dan pengujian langsung hasil **Tugas 1 (`CPMK-1`)** di laboratorium pada resolusi `360px`, `768px`, dan `1440px` + pengecekan skor aksesibilitas dasar.
-* **PT (`120'`) & BM (`120'`):** Mempelajari dasar sintaks modern JavaScript ES6+.
+**Penutup/pengecekan:** Jelaskan perbedaan head dan body serta alasan urutan heading. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: halaman profil HTML awal.
 
-### PERTEMUAN 5 — Pemrograman **JavaScript Modern (ES6+)** & Pengolahan Data Imutabel
-* **Sub-CPMK:** `Sub-CPMK-2.1` [C3] · **Alat:** *Browser Console*, *ES Modules*.
-* **Sesi Teori (`100'`):** Membahas fitur inti **ES6+** yang menjadi prasyarat mutlak pengembangan React modern: `const/let`, *arrow functions*, *template literals*, *object/array destructuring*, *spread/rest*, *optional chaining* (`?.`) & *nullish coalescing* (`??`), *ES Modules* (`import/export`), serta rantai transformasi data deklaratif (`map`, `filter`, `reduce`, `toSorted`).
-* **Sesi Praktikum Lab 5 (`170'`):** Menyelesaikan 10 tantangan pengolahan larik objek JSON transaksi tanpa memakai perulangan mutatif yang merusak data asli.
-* **PT (`120'`) & BM (`120'`):** Membangun modul utilitas kalkulasi & pemfilteran data dengan ES Modules.
+### Pertemuan 2 — HTML semantik, tautan dan gambar
 
-### PERTEMUAN 6 — Manipulasi **DOM**, *Event Delegation*, & Mitigasi *DOM XSS*
-* **Sub-CPMK:** `Sub-CPMK-2.1` [C3] · **Alat:** *DOM Inspector*, *Application Tab (`localStorage`)*.
-* **Sesi Teori (`100'`):** Menguraikan seleksi & modifikasi simpul **DOM**, bahaya keamanan menyuntikkan masukan pengguna ke `innerHTML` (*DOM-based XSS*) vs penggunaan aman `textContent` / `createElement`, mekanisme *Event Bubbling & Event Delegation*, serta penyimpanan preferensi klien di `localStorage`.
-* **Sesi Praktikum Lab 6 (`170'`):** Membangun halaman pengelola tugas/keranjang belanja dinamis lengkap pencarian instan, filter kategori, dan penyimpanan `localStorage` bebas galat konsol.
-* **PT (`120'`) & BM (`120'`):** Menambahkan validasi formulir interaktif waktu nyata pada aplikasi latihan.
+**Capaian:** 1.1. **Materi:** HTML semantik: header, nav, main, section dan footer; tautan dan gambar dengan teks alternatif.
 
-### PERTEMUAN 7 — Komunikasi Asinkron: *Event Loop*, **Fetch API**, & **`async/await`**
-* **Sub-CPMK:** `Sub-CPMK-2.2` [C3] · **Alat:** *Browser Network Inspector* (simulasi *Slow 3G* & *Offline*).
-* **Sesi Teori (`100'`):** Membedah cara kerja *Single-Threaded JavaScript Event Loop* (*Call Stack, Microtask Queue, Callback Queue*), evolusi *Callback → Promise → **`async/await`***, penggunaan **Fetch API** (`response.ok`, penguraian `await response.json()`), serta pola wajib mengelola 3 keadaan antarmuka (*Loading*, *Success*, dan *Error*) di dalam blok `try / catch / finally`.
-* **Sesi Praktikum Lab 7 (`170'`):** Menghubungkan antarmuka katalog ke *endpoint* JSON asinkron, menguji ketangguhan tampilan saat mode *Slow 3G* / *Offline* diaktifkan di *Network Tab*, dan klinik persiapan UTS.
-* **PT (`120'`) & BM (`120'`):** Latihan mandiri menghadapi ujian praktik *live coding* UTS Pekan 8.
+**Teori:** Bedakan header, nav, main, section dan footer; path relatif, atribut href, src dan alt. **Praktik:** Buat navigasi ke bagian halaman dan tampilkan gambar berizin dengan alt bermakna.
 
-### PERTEMUAN 8 — UJIAN TENGAH SEMESTER (UTS)
-* **CPMK Diuji:** **`CPMK-2`** (`Sub-CPMK-2.1` & `Sub-CPMK-2.2` [C3]) · **Bobot:** **25%** · **Durasi:** `150 menit` (*Live Coding* di Laboratorium).
-* **Pelaksanaan:** Mahasiswa membangun secara mandiri halaman web interaktif menggunakan **JavaScript ES6+**, manipulasi **DOM**, dan pengambilan data asinkron **Fetch API (`async/await`)** lengkap pencarian/filter dinamis dan penanganan *loading/error* yang bersih dan bebas *error* konsol.
+**Penutup/pengecekan:** Uji tautan dan jelaskan manfaat elemen semantik dan alt. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: halaman informasi dengan navigasi.
 
-### PERTEMUAN 9 — Paradigma **SPA** & Arsitektur Komponen *Reusable* **React** (*JSX & Props*)
-* **Sub-CPMK:** `Sub-CPMK-3.1` [C3→C6] · **Alat:** Node.js LTS, *Vite*, *React Developer Tools*.
-* **Sesi Teori (`100'`):** Membahas umpan balik UTS dan menjelaskan mengapa antarmuka berskala besar beralih dari manipulasi DOM imperatif ke pendekatan deklaratif berbasis komponen (**React SPA**): konsep *UI as a Function of State*, aturan **JSX**, dekomposisi antarmuka menjadi komponen kecil yang *reusable*, aliran data satu arah via **Props**, komposisi `children`, dan perenderan daftar ber-`key` unik.
-* **Sesi Praktikum Lab 8 (`170'`):** Menginisialisasi proyek React + Vite dan membangun sistem komponen *reusable* (`Button`, `Badge`, `InputField`, `ProductCard`, `Modal`).
-* **PT (`120'`) & BM (`120'`):** Merancang pohon hierarki komponen (*Component Tree*) untuk rencana aplikasi SPA Tugas 2.
+### Pertemuan 3 — Tabel dan formulir HTML
 
-### PERTEMUAN 10 — Manajemen *State* Interaktif (**`useState`**), *Controlled Forms*, & **`useEffect`**
-* **Sub-CPMK:** `Sub-CPMK-3.1` [C6] · **Alat:** *React DevTools Profiler & Components Inspector*.
-* **Sesi Teori (`100'`):** Mengajarkan aturan **React Hooks**, pembaruan objek/larik secara imutabel pada **`useState`**, pola *Controlled Forms*, penaikan *state* ke induk terdekat (*Lifting State Up*), *Derived State* (jangan menyimpan hal yang bisa dihitung langsung di dalam *state*!), serta penggunaan tepat **`useEffect`** beserta larik dependensi dan fungsi *cleanup* (`AbortController` / `clearInterval`). Merilis resmi **Tugas 2 (RTM-2)**.
-* **Sesi Praktikum Lab 9 (`170'`):** Membangun halaman interaktif multi-komponen dengan formulir terkendali, validasi instan, dan sinkronisasi efek yang bersih.
-* **PT (`120'`) & BM (`120'`):** Mengembangkan fitur inti komponen dan *state* pada proyek **Tugas 2**.
+**Capaian:** 1.2. **Materi:** HTML menengah: tabel, formulir, label, input, tombol dan validasi HTML bawaan.
 
-### PERTEMUAN 11 — Navigasi **React Router**, **Context API**, & Abstraksi **Custom Hooks**
-* **Sub-CPMK:** `Sub-CPMK-3.2` [C6] · **Alat:** `react-router-dom`, *React DevTools*.
-* **Sesi Teori (`100'`):** Mengajarkan perutean sisi klien pada **SPA** menggunakan **React Router** (`BrowserRouter / createBrowserRouter`, tata letak bersama `<Outlet />`, tautan aktif `<NavLink>`, parameter dinamis `useParams`, *query string* `useSearchParams`), pemecahan *prop drilling* dengan **Context API (`createContext`, `useContext`)**, serta ekstraksi logika *reusable* menjadi **Custom Hooks** (`useLocalStorage`, `useDebounce`, `useFetch`).
-* **Sesi Praktikum Lab 10 (`170'`):** Mengonfigurasi aplikasi SPA 4 rute dengan *Shared Layout*, tema/keranjang global berbasis *Context*, dan minimal 1 *Custom Hook* buatan sendiri.
-* **PT (`120'`) & BM (`120'`):** Menyelesaikan keseluruhan arsitektur aplikasi **React SPA** untuk **Tugas 2**.
+**Teori:** Susun table dengan header, label dan input; gunakan tipe masukan dan validasi bawaan. **Praktik:** Tambahkan tabel agenda dan formulir simulasi dengan label, required dan tombol.
 
-### PERTEMUAN 12 — Evaluasi Arsitektur Komponen Skalabel & Penilaian Tugas 2
-* **Sub-CPMK:** `Sub-CPMK-3.1` & `3.2` [C6] + **Evaluasi Sumatif Tugas 2 (`CPMK-3`, 25%)** · **Alat:** Repositori Git & Proyektor Lab.
-* **Sesi Teori (`100'`):** Membahas penataan struktur folder berbasis fitur (*Feature-Based Architecture*), pemisahan komponen tampilan murni (*Presentational*) vs pengelola logika, dan anti-pola umum React yang wajib dihindari sebelum masuk tahap integrasi API penuh.
-* **Sesi Praktikum Lab 11 (`170'`):** Demonstrasi langsung & *code walkthrough* proyek **Tugas 2 (`CPMK-3`)** di laboratorium — dosen/asisten menguji *reusability* komponen, ketepatan Hooks, dan navigasi React Router setiap mahasiswa/tim.
-* **PT (`120'`) & BM (`120'`):** Memilih *Public REST API* / menyiapkan skema *JSON Server mock* untuk proyek integrasi akhir UAS.
+**Penutup/pengecekan:** Buktikan label terhubung dan validasi bawaan bekerja tanpa pengiriman data. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: formulir simulasi dan tabel berstruktur.
 
-### PERTEMUAN 13 — Integrasi Penuh Aplikasi **React** dengan **RESTful API** Eksternal
-* **Sub-CPMK:** `Sub-CPMK-4.1` [C5] · **Alat:** *Mock/Public REST API*, *Browser Network Inspector*.
-* **Sesi Teori (`100'`):** Mengajarkan arsitektur lapisan komunikasi HTTP terpusat di sisi *front-end* (konfigurasi `VITE_API_BASE_URL`, abstraksi fungsi layanan `GET / POST / PUT / DELETE`, pembatalan permintaan usang dengan `AbortController`, *debounced search*, paginasi, serta desain pengalaman pengguna tangguh: *Skeleton Loader, Empty State, Optimistic/Toast Feedback,* dan *Error Recovery*) — dengan tetap menjaga pagar kurikulum: kode server basis data akan dibangun di `STI-416`.
-* **Sesi Praktikum Lab 12 (`170'`):** Menghubungkan aplikasi React SPA proyek UAS ke **RESTful API** eksternal secara terverifikasi dan menguji skenario sukses maupun kegagalan jaringan.
-* **PT (`120'`) & BM (`120'`):** Menyelesaikan seluruh integrasi *endpoint* API pada aplikasi proyek UAS.
+### Pertemuan 4 — Tugas HTML dan pengantar CSS
 
-### PERTEMUAN 14 — *Client-Side Protected Routes*, Keamanan Antarmuka, & **Code Splitting**
-* **Sub-CPMK:** `Sub-CPMK-4.1` & `4.2` [C5] · **Alat:** *Vite Production Build*, *Bundle Analyzer*.
-* **Sesi Teori (`100'`):** Membahas mekanisme pembungkus rute terproteksi (*Protected Route Wrapper*) di sisi klien, pemahaman perilaku **CORS** di peramban, pencegahan kebocoran kunci rahasia di bundel klien, serta teknik pemangkasan beban JavaScript awal menggunakan **Route-Based Code Splitting (`React.lazy` + `<Suspense>`)** dan evaluasi kritis kapan `useMemo`/`React.memo` benar-benar dibutuhkan.
-* **Sesi Praktikum Lab 13 (`170'`):** Menerapkan *lazy-loaded routes* pada proyek aplikasi, menjalankan `npm run build && npm run preview`, dan membandingkan ukuran berkas `.js` sebelum vs sesudah *code splitting*.
-* **PT (`120'`) & BM (`120'`):** Mengukur skor awal (*baseline*) Google Lighthouse pada *production preview* aplikasi masing-masing.
+**Capaian:** 1.1–1.2, 2.1. **Materi:** Review HTML dan **Tugas 1**; pengantar stylesheet, selektor, warna dan tipografi CSS. Penilaian Tugas 1 hanya pada HTML.
 
-### PERTEMUAN 15 — Optimasi **Core Web Vitals** & Verifikasi **Google Lighthouse $\ge 85$**
-* **Sub-CPMK:** `Sub-CPMK-4.2` [C5] · **Alat:** *Chrome Lighthouse (Incognito / Production Mode)*, *PageSpeed Insights*.
-* **Sesi Teori (`100'`):** Membedah tiga metrik utama **Core Web Vitals** Google — **Largest Contentful Paint (LCP $\le 2,5\text{ s}$)**, **Interaction to Next Paint (INP $\le 200\text{ ms}$)**, dan **Cumulative Layout Shift (CLS $\le 0,1$)** — beserta teknik konkret mendongkrak skor **Lighthouse** melampaui **85**: konversi gambar ke `WebP/AVIF`, pemberian `width` & `height` eksplisit pencegah pergeseran tata letak (CLS), `loading="lazy"` untuk gambar di bawah lipatan, `fetchpriority="high"` pada elemen LCP utama, perbaikan kontras/label aksesibilitas, serta kelengkapan tag `<title>` dan `<meta name="description">`.
-* **Sesi Praktikum Lab 14 (`170'`):** *Optimization Sprint* di laboratorium — mahasiswa mengaudit silang aplikasi rekan pada mode *Production Build / Live Deployed URL* hingga seluruh 4 kategori (terutama **Performance $\ge 85$** dan **Accessibility $\ge 90$**) terbukti hijau/tuntas.
-* **PT (`120'`) & BM (`120'`):** Finalisasi *deployment* publik, repositori Git, dan laporan metrik *Before–After Optimization* untuk UAS Pekan 16.
+**Teori:** Periksa HTML tugas; jelaskan stylesheet terpisah, selector, color dan font. **Praktik:** Kumpulkan halaman HTML; setelah penilaian, hubungkan stylesheet dan ubah teks serta warna.
 
-### PERTEMUAN 16 — EVALUASI AKHIR SEMESTER (UAS)
-* **CPMK Diuji:** **`CPMK-4`** (`Sub-CPMK-4.1` & `Sub-CPMK-4.2` [C5]) · **Bobot:** **30%** · **Durasi:** `150 menit`.
-* **Pelaksanaan:** Menggabungkan **Penilaian Aplikasi Produksi React + RESTful API & Laporan Optimasi (50% nilai UAS)** dengan **Sidang Audit *Google Lighthouse* Langsung di Mode Incognito & Uji Modifikasi Kode Individu (50% nilai UAS)** — penguji menjalankan langsung audit *Lighthouse* di depan mahasiswa untuk memverifikasi skor **$\ge 85$** secara autentik dan menguji penguasaan kode setiap individu.
+**Penutup/pengecekan:** Tugas 1 dinilai hanya pada struktur/konten HTML, bukan pada CSS. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** **Tugas 1 — 20%:** halaman HTML untuk kasus yang disepakati.
+
+### Pertemuan 5 — CSS dasar–menengah dan box model
+
+**Capaian:** 2.1. **Materi:** CSS dasar–menengah: cascade/spesifisitas dasar, box model, display, ukuran dan position sederhana.
+
+**Teori:** Periksa cascade, spesifisitas dasar, ukuran, margin, padding, border, display dan position sederhana. **Praktik:** Buat kartu informasi yang konsisten dan jelaskan perhitungan ruang padding, border dan margin.
+
+**Penutup/pengecekan:** Bandingkan aturan selector yang bersaing dan cek hasil pada browser. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: stylesheet dan tata letak kartu.
+
+### Pertemuan 6 — Flexbox dasar dan lanjutan
+
+**Capaian:** 2.2. **Materi:** Flexbox: sumbu, direction, alignment, wrap, gap; flex item grow/shrink/basis, align-self, order dan nested flex.
+
+**Teori:** Bedakan sumbu; direction, justify-content, align-items, wrap, gap, align-content, grow/shrink/basis, align-self dan order. **Praktik:** Buat navigasi dan kartu dengan wrap, grow/basis serta nested flex; bandingkan ukuran layar.
+
+**Penutup/pengecekan:** Jelaskan beda grow, shrink dan basis; pastikan urutan visual tidak merusak urutan baca. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: navigasi dan kartu responsif menggunakan Flexbox.
+
+### Pertemuan 7 — Responsivitas serta Bootstrap dan Tailwind dasar
+
+**Capaian:** 2.1–2.3. **Materi:** Media query dan latihan dua ukuran layar; pengenalan **Bootstrap** (container, tombol, kartu, grid dasar) dan **Tailwind** (spacing, warna, Flexbox, breakpoint dasar).
+
+**Teori:** Gunakan media query dan dua breakpoint; bedakan komponen Bootstrap dari utility Tailwind. **Praktik:** Buat satu kartu Bootstrap dan satu kartu Tailwind dengan stylesheet siap pakai; uji dua lebar layar.
+
+**Penutup/pengecekan:** Identifikasi container/tombol Bootstrap dan utility spacing/responsive Tailwind. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: komponen sederhana menggunakan masing-masing framework.
+
+### Pertemuan 8 — UTS
+
+**Capaian:** 2.1–2.3. **Materi:** Ujian praktik CSS/Flexbox responsif; pengenalan kelas Bootstrap dan Tailwind diuji melalui latihan singkat.
+
+**Pembuka:** jelaskan petunjuk, kriteria, integritas akademik dan alat yang diperbolehkan. **Inti:** uji praktik CSS/Flexbox dan kelas dasar dua framework pada kasus yang disediakan. **Penutup:** kumpulkan berkas, bukti dan berikan umpan balik. **Evaluasi:** **UTS — 25%:** CSS/Flexbox, dua ukuran layar dan pemilihan kelas framework dasar.
+
+### Pertemuan 9 — JavaScript dasar dan operasi aritmetika
+
+**Capaian:** 3.1. **Materi:** JavaScript di browser: script, variabel, tipe data, operator aritmetika dan konsol.
+
+**Teori:** Hubungkan script; gunakan let/const, string, number, operator dan console. **Praktik:** Tulis fungsi untuk empat operasi sederhana dengan angka contoh.
+
+**Penutup/pengecekan:** Jelaskan perbedaan teks angka dan nilai number. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: operasi hitung dan keluaran sederhana.
+
+### Pertemuan 10 — Percabangan, perulangan, fungsi dan array
+
+**Capaian:** 3.1. **Materi:** Percabangan, perulangan, fungsi dan array sederhana; konversi input menjadi angka dan kondisi pembagi nol.
+
+**Teori:** Gunakan if/else, loop, function dan array sederhana; konversi nilai input. **Praktik:** Bangun fungsi hitung yang menolak input kosong, nilai bukan angka dan pembagi nol.
+
+**Penutup/pengecekan:** Jalankan contoh valid dan tidak valid lalu jelaskan keluaran. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: fungsi kalkulasi dengan contoh input valid/tidak valid.
+
+### Pertemuan 11 — DOM dan event untuk kalkulator
+
+**Capaian:** 3.2. **Materi:** DOM dan event: membaca input, tombol, menampilkan hasil dan pesan; terapkan kelas Bootstrap atau Tailwind pada rancangan kalkulator.
+
+**Teori:** Pilih elemen, baca value, gunakan addEventListener dan textContent untuk hasil. **Praktik:** Hubungkan dua input, operasi dan tombol hitung/reset; style dengan Bootstrap atau Tailwind.
+
+**Penutup/pengecekan:** Uji klik, reset dan input tidak valid; hindari memasukkan HTML mentah dari input. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: purwarupa kalkulator dengan styling framework pilihan.
+
+### Pertemuan 12 — Proyek kalkulator: penyelesaian dan uji
+
+**Capaian:** 3.1–3.2. **Materi:** Praktikum dan demonstrasi kalkulator dasar menggunakan JavaScript serta Bootstrap **atau** Tailwind CSS.
+
+**Teori:** Uji empat operasi, reset dan penanganan kesalahan; cek tampilan dan styling framework. **Praktik:** Selesaikan kalkulator, jalankan kasus uji, kumpulkan berkas dan demonstrasikan logika.
+
+**Penutup/pengecekan:** Tugas 2 dinilai pada fungsi, event, kesalahan, framework pilihan dan bukti uji. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** **Tugas 2 — 25%:** kalkulator dan hasil uji.
+
+### Pertemuan 13 — Perencanaan landing page
+
+**Capaian:** 4.1. **Materi:** Merencanakan landing page: struktur semantik, hero, manfaat/fitur, call-to-action dan footer; siapkan konten berizin.
+
+**Teori:** Susun tujuan halaman, struktur semantik, hero, manfaat, CTA dan footer; pilih aset berizin. **Praktik:** Buat sketsa dan kerangka HTML landing page untuk produk/kegiatan fiktif.
+
+**Penutup/pengecekan:** Cek hierarki heading, tautan dan atribut alt. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: sketsa dan kerangka HTML.
+
+### Pertemuan 14 — Landing page responsif dan interaktif
+
+**Capaian:** 4.1. **Materi:** Tata landing page responsif dengan CSS/Flexbox; Bootstrap atau Tailwind boleh digunakan. Tambahkan interaksi JS sederhana, misalnya menu atau tombol.
+
+**Teori:** Gunakan CSS/Flexbox dan media query; framework CSS opsional; satu interaksi JS sederhana. **Praktik:** Tata layout pada dua lebar dan tambahkan menu buka/tutup atau tombol tampil pesan.
+
+**Penutup/pengecekan:** Uji fungsi tombol dan navigasi keyboard pada kedua ukuran layar. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: purwarupa responsif dan interaktif.
+
+### Pertemuan 15 — Uji dan penyempurnaan landing page
+
+**Capaian:** 4.2. **Materi:** Uji navigasi, interaksi, keyboard dan tampilan; perbaiki masalah serta dokumentasikan hasil.
+
+**Teori:** Susun uji navigasi, tampilan, interaksi, label dan akses keyboard; catat temuan. **Praktik:** Jalankan uji, perbaiki hasil gagal dan tuliskan langkah menjalankan secara lokal.
+
+**Penutup/pengecekan:** Pastikan bukti uji mencantumkan hasil yang diharapkan dan aktual. **PT:** dokumentasikan hasil dan satu koreksi. **BM:** baca sumber terkait dan coba variasi input/layout. **Bukti:** Formatif: daftar kasus uji dan perbaikan.
+
+### Pertemuan 16 — UAS
+
+**Capaian:** 4.1–4.2. **Materi:** Demonstrasi landing page, penjelasan kode individual dan penyerahan berkas.
+
+**Pembuka:** jelaskan petunjuk, kriteria, integritas akademik dan alat yang diperbolehkan. **Inti:** demonstrasi landing page, periksa uji dan tanyakan kode kepada setiap mahasiswa. **Penutup:** kumpulkan berkas, bukti dan berikan umpan balik. **Evaluasi:** **UAS — 30%:** landing page, dokumentasi dan demonstrasi.
+
+## Sumber
+
+[HTML MDN](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS MDN](https://developer.mozilla.org/en-US/docs/Web/CSS), [Flexbox MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout), [JavaScript MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [Bootstrap](https://getbootstrap.com/docs/), [Tailwind CSS](https://tailwindcss.com/docs/).

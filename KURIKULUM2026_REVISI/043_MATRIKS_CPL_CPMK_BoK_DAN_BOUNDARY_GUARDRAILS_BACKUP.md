@@ -1,4 +1,6 @@
 # 043 — MATRIKS CPL, CPMK, BODY OF KNOWLEDGE (BoK), DAN BOUNDARY GUARDRAILS
+
+> **Arsip historis — tidak selaras dengan rancangan STI-311 terbaru.** Untuk lingkup HTML/CSS/Flexbox, Bootstrap/Tailwind dan JavaScript dasar, gunakan dokumen turunan 043 dan `PERANGKAT_AJAR/065_*`. Rekonsiliasi resmi masih menunggu pengesahan prodi.
 ## Peta Integrasi Kurikuler, Demarkasi Silabus, dan Pencegahan Overlap Antar-Mata Kuliah
 
 > **Program Studi:** S1 Sistem dan Teknologi Informasi (SISTEKIN)  

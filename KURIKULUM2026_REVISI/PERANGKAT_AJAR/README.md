@@ -31,6 +31,8 @@ KURIKULUM2026_REVISI/PERANGKAT_AJAR/<NNN>_<SUB>_<JENIS>_<KODE-MK>_<NAMA_MK_KAPIT
 
 ---
 
+> **Revisi STI-311:** Paket `065_1`–`065_5` diselaraskan ke HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap/Tailwind dasar dan JavaScript dasar; tidak mencakup React/API. Detail dan status validasi ada di `../043_STI-311_WEB_FRONT_END_DEVELOPMENT_DASAR_USULAN_07112026.md` dan `../LAPORAN_AUDIT_DAMPAK_STI-311.md`.
+
 ## 2. Daftar Nomor Urut Baku `<NNN>` (`055` s.d. `100` — 46 MK Core STI & Peminatan)
 
 Seluruh atribut di bawah ini ditarik langsung dari **Single Source of Truth `../005_STRUKTUR_KURIKULUM_8_SEMESTER_DAN_PEMINATAN.md`** (termasuk hasil restrukturisasi kode Semester 6–7 pada Dokumen 050 & 051). **Jangan mengubah nomor urut `<NNN>`, kode MK, SKS, tipe, atau semester.**

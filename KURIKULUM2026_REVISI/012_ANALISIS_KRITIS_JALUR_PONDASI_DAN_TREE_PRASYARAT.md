@@ -202,7 +202,7 @@ graph TD
 
 #### 🔍 Analisis Kritis & Justifikasi Pedagogis Pilar 3:
 1. **Pemisahan Front-End dan Back-End yang Rapi:** 
-   * `STI-311 Web Front-End` di Semester 3 (HTML/CSS/JS, React/Vue, Component Lifecycle)
+   * `STI-311 Web Front-End` di Semester 3 (HTML/CSS dasar–menengah, Flexbox lanjutan, pengenalan Bootstrap/Tailwind, JavaScript dasar); React/Vue dan komponen framework belum menjadi capaian.
    * `STI-416 Web Back-End` di Semester 4 (NodeJS/FastAPI, RESTful/GraphQL, ORM, Auth JWT)
    * Terintegrasi menjadi `STI-522 Mobile App` di Sem 5 dan `STI-727 Platform Engineering` di Sem 6.
 2. **SaaS Architecture sebagai Puncak:** `STC-702 SaaS Architecture` (Sem 7) mengajarkan multi-tenancy database, rate limiting, billing API, dan microservices scaling yang membutuhkan kematangan penuh dari Sem 1 hingga Sem 6.

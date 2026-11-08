@@ -156,7 +156,7 @@ Di akhir semester, mahasiswa mampu **men-deploy aplikasi Flask mereka ke Heroku*
 
 **Prasyarat:** 
 - `FST-207` Sistem Basis Data (untuk memahami konsep RDBMS, SQL, dan normalisasi)
-- `STI-311` Pengembangan Web Front End (untuk memahami komunikasi client-server dan konsumsi API)
+- `STI-311` Pengembangan Web Front End (bekal HTML/CSS dan JavaScript dasar; komunikasi client-server dan konsumsi API tidak diasumsikan)
 
 **Kata Kunci:** Python Flask, RESTful API, SQLAlchemy ORM, JWT Authentication, Role-Based Access Control (RBAC), Heroku Deployment, Backend Engineering
 
@@ -1022,11 +1022,13 @@ Topik-topik berikut adalah **kewenangan mata kuliah STI-416** dan **WAJIB** diaj
 
 Topik-topik berikut **TIDAK BOLEH** diajarkan di STI-416 karena menjadi kewenangan mata kuliah lain atau terlalu kompleks untuk mahasiswa semester 4:
 
-#### A. Front-End Development (Kewenangan STI-311)
+#### A. Front-End Development (di luar lingkup utama STI-416)
 ❌ HTML, CSS, JavaScript front-end development  
-❌ React, Vue, Angular framework  
+❌ React, Vue, Angular framework — bukan capaian STI-311 yang baru; penempatan pembelajaran lanjutan belum ditetapkan.
+
 ❌ UI/UX design dan prototyping  
-❌ Client-side routing dan state management  
+❌ Client-side routing dan state management — tidak diasumsikan telah diajarkan pada STI-311.
+
 
 #### B. Advanced Backend Architecture (Terlalu Kompleks)
 ❌ Microservices architecture  
@@ -1090,8 +1092,10 @@ Mata kuliah STI-416 menjadi **fondasi** untuk mata kuliah berikutnya dengan sera
 ✅ **Fokus STI-416:** Abstraksi database ke ORM (SQLAlchemy), tidak lagi menulis raw SQL  
 
 #### F. Dari STI-311 → STI-416 (Prasyarat Web Front End)
-🔄 **Yang Diterima STI-416:** Mahasiswa sudah paham HTTP protocol, REST API consumption (fetch/axios)  
-✅ **Fokus STI-416:** Backend API provider, bukan consumer  
+🔄 **Yang Diterima STI-416:** Mahasiswa memiliki bekal HTML/CSS dan JavaScript dasar; HTTP/REST dan konsumsi API (fetch/axios) belum dijamin
+
+✅ **Fokus STI-416:** ajarkan konsep HTTP/REST dan backend API provider; uji API dengan klien uji. Integrasi klien/API menunggu keputusan penempatan prodi
+
 
 ---
 
