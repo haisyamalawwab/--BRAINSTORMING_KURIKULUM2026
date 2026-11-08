@@ -104,7 +104,7 @@ def main():
     common = f'> Sumber: {SOURCE}. Identifikasi versi dan batas ekstraksi ada di [README](README.md).\n'
 
     output = {}
-    output['CPL.md'] = f'''# CPL Teknik Informatika UWG 2026
+    output['001_CPL_TEKNIK_INFORMATIKA_07112026_0859.md'] = f'''# CPL Teknik Informatika UWG 2026
 
 {common}
 ## Rumusan CPL dan profil lulusan terkait
@@ -115,13 +115,13 @@ Transkripsi Tabel 11 Bab V; isi rumusan juga cocok dengan Tabel 35 Lampiran A. K
 
 ## CPL–bahan kajian
 
-Transkripsi Tabel 14 Bab VI; lihat uraian BK dan relasi BK–MK pada [BoK](BOK_DAN_BAHAN_KAJIAN.md).
+Transkripsi Tabel 14 Bab VI; lihat uraian BK dan relasi BK–MK pada [BoK](003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md).
 
 {table_to_md(t14)}
 
-Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan MK](PEMETAAN_MK_CPL_BK.md). Tabel 12 (matriks CPL–PL) dan Tabel 19 (matriks CPL–MK) memiliki sel relasi kosong pada teks DOCX; daftar relasi di sini berasal dari Tabel 11 dan 18, bukan mengisi matriks yang kosong.
+Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md). Tabel 12 (matriks CPL–PL) dan Tabel 19 (matriks CPL–MK) memiliki sel relasi kosong pada teks DOCX; daftar relasi di sini berasal dari Tabel 11 dan 18, bukan mengisi matriks yang kosong.
 '''
-    output['BOK_DAN_BAHAN_KAJIAN.md'] = f'''# Body of Knowledge dan bahan kajian — Teknik Informatika UWG 2026
+    output['003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md'] = f'''# Body of Knowledge dan bahan kajian — Teknik Informatika UWG 2026
 
 {common}
 ## Kerangka BoK
@@ -146,9 +146,9 @@ Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan M
 
 {bk_note}
 
-Seluruh baris Tabel 15 tersedia pada [pemetaan MK](PEMETAAN_MK_CPL_BK.md#tabel-15--mk-dengan-bahan-kajian); tabel sumber mengulang 84 baris yang sama tiga kali, sehingga untuk navigasi tiap baris identik ditampilkan sekali. Ini **bukan** bukti bahwa suatu topik sudah diajarkan atau telah disahkan. Nama BK dan kode di sini tidak disamakan secara otomatis dengan BoK APTIKOM atau SISTEKIN.
+Seluruh baris Tabel 15 tersedia pada [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md#tabel-15--mk-dengan-bahan-kajian); tabel sumber mengulang 84 baris yang sama tiga kali, sehingga untuk navigasi tiap baris identik ditampilkan sekali. Ini **bukan** bukti bahwa suatu topik sudah diajarkan atau telah disahkan. Nama BK dan kode di sini tidak disamakan secara otomatis dengan BoK APTIKOM atau SISTEKIN.
 '''
-    output['CPMK.md'] = f'''# CPMK dan Sub-CPMK — Teknik Informatika UWG 2026
+    output['002_CPMK_TEKNIK_INFORMATIKA_07112026_0859.md'] = f'''# CPMK dan Sub-CPMK — Teknik Informatika UWG 2026
 
 {common}
 ## Status hasil ekstraksi
@@ -181,13 +181,13 @@ Tabel ini mencantumkan label CPMK dan Sub-CPMK serta bobot, bukan deskripsi kema
 
 ## Sumber relasi yang sudah tersedia
 
-- CPL dan profil lulusan: [CPL](CPL.md).
-- CPL–BK dan uraian BK: [BoK dan bahan kajian](BOK_DAN_BAHAN_KAJIAN.md).
-- CPL yang dibebankan per MK menurut Tabel 18: [pemetaan MK](PEMETAAN_MK_CPL_BK.md).
+- CPL dan profil lulusan: [CPL](001_CPL_TEKNIK_INFORMATIKA_07112026_0859.md).
+- CPL–BK dan uraian BK: [BoK dan bahan kajian](003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md).
+- CPL yang dibebankan per MK menurut Tabel 18: [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md).
 
 Matriks CPL–CPMK–MK dan MK–CPMK–Sub-CPMK yang berisi deskripsi spesifik **tidak dibuat atau direka** pada hasil ini.
 '''
-    output['PEMETAAN_MK_CPL_BK.md'] = f'''# Pemetaan MK–CPL–BK — Teknik Informatika UWG 2026
+    output['004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md'] = f'''# Pemetaan MK–CPL–BK — Teknik Informatika UWG 2026
 
 {common}
 ## Tabel 18 — mata kuliah dan CPL per semester
@@ -214,10 +214,10 @@ Ekstraksi dari {SOURCE}, bukan panduan Informatika APTIKOM umum dan bukan kuriku
 
 | Hasil | Isi |
 |---|---|
-| [CPL](CPL.md) | 10 CPL, profil lulusan terkait, dan matriks CPL–BK sumber. |
-| [CPMK dan Sub-CPMK](CPMK.md) | Kodifikasi, prinsip, dan contoh asesmen; batas ketersediaan rumusan per MK. |
-| [BoK dan bahan kajian](BOK_DAN_BAHAN_KAJIAN.md) | 10 BK, ruang lingkup, matriks CPL–BK dan contoh MK pengampu. |
-| [Pemetaan MK–CPL–BK](PEMETAAN_MK_CPL_BK.md) | Tabel 18 per semester serta 83 baris unik Tabel 15. |
+| [CPL](001_CPL_TEKNIK_INFORMATIKA_07112026_0859.md) | 10 CPL, profil lulusan terkait, dan matriks CPL–BK sumber. |
+| [CPMK dan Sub-CPMK](002_CPMK_TEKNIK_INFORMATIKA_07112026_0859.md) | Kodifikasi, prinsip, dan contoh asesmen; batas ketersediaan rumusan per MK. |
+| [BoK dan bahan kajian](003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md) | 10 BK, ruang lingkup, matriks CPL–BK dan contoh MK pengampu. |
+| [Pemetaan MK–CPL–BK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md) | Tabel 18 per semester serta 83 baris unik Tabel 15. |
 
 ## Identitas dan keterlacakan sumber
 
@@ -233,6 +233,10 @@ Ekstraksi dari {SOURCE}, bukan panduan Informatika APTIKOM umum dan bukan kuriku
 3. Bab IX memberi prinsip pemetaan CPMK, tetapi tidak ditemukan rumusan per MK dalam teks dan tabel utama. Tabel 29 Bab XI hanya memuat **contoh** label dan bobot; tidak digunakan untuk menciptakan CPMK per MK.
 4. Sel relasi pada Tabel 12 (CPL–PL) dan Tabel 19 (CPL–MK) kosong dalam teks DOCX. Tabel 11 dan Tabel 18 diekstrak apa adanya sebagai sumber relasi yang eksplisit; ketidaksesuaian antartabel belum direkonsiliasi.
 5. Hasil ini merupakan transkripsi rujukan dan **tidak membuktikan validasi atau pengesahan akademik**. Dokumen sumber menyebut 146 SKS dalam Bab VII; angka tersebut untuk Teknik Informatika dan tidak otomatis menggantikan statistik prodi lain.
+
+## Penamaan
+
+Berkas hasil ekstraksi menggunakan format `00x_NAMA_DDMMYYYY_HHMM.md`. Nomor, tanggal, dan waktu pada nama ditetapkan untuk versi hasil ini agar regenerasi tidak membuat duplikat; `README.md` tetap sebagai indeks folder.
 
 ## Reproduksi
 
