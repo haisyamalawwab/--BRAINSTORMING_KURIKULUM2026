@@ -1,0 +1,697 @@
+{
+  "judul": "065_1 — RENCANA PEMBELAJARAN SEMESTER BERBASIS OBE",
+  "status": "Revisi 7 November 2026 — rancangan, belum disahkan oleh koordinator RMK atau prodi. Penyesuaian format bukan persetujuan akademik.",
+  "sumber": "Paket revisi PERANGKAT_AJAR/065_1–065_5, Dok 003/005 dan turunan 043 STI-311. Berkas 065 di subfolder WEB FRONT END dan pilot DOCX lama memuat materi berbeda dan tidak dipakai; rekonsiliasi tetap memerlukan persetujuan prodi.",
+  "identitas": {
+    "universitas": "Universitas Widyagama Malang",
+    "fakultas": "Fakultas Sains dan Teknologi Informasi",
+    "prodi": "S1 Sistem dan Teknologi Informasi",
+    "no_dokumen": "Belum ditetapkan",
+    "mk": "Pengembangan Web Front End (*Web Front End Development*)",
+    "kode": "STI-311",
+    "rumpun": "Core STI",
+    "sks_teori": 2,
+    "sks_praktik": 1,
+    "semester": 3,
+    "tanggal_penyusunan": "Belum ditetapkan",
+    "penyusun": "Belum ditetapkan",
+    "nuptk": "Belum ditetapkan",
+    "pengembang": "Belum ditetapkan",
+    "koordinator": "Belum ditetapkan",
+    "ketua_prodi": "Belum ditetapkan",
+    "pengampu": "Belum ditetapkan",
+    "prasyarat": "FST-102 Algoritma dan Pemrograman",
+    "periode": "Belum ditetapkan"
+  },
+  "konteks": "PL-3; PEO-1 dan PEO-2; BoK BK-IS12 dan BK-IT04. Kontribusi CPL-13 terbatas pada dasar web, tidak mengklaim penguasaan keseluruhan platform skalabel.",
+  "cpl": [
+    {
+      "id": "CPL-08",
+      "display": "`CPL-08` (`P4`)",
+      "rumusan": "Menguasai prinsip rekayasa perangkat lunak modern (web, mobile, distributed), manajemen basis data relasional/NoSQL, rekayasa data & visualisasi, serta prinsip desain interaksi pengalaman pengguna (UI/UX).",
+      "irm": "R"
+    },
+    {
+      "id": "CPL-13",
+      "display": "`CPL-13` (`KK5`)",
+      "rumusan": "Mampu merancang pengalaman pengguna berbasis riset (UI/UX) serta merekayasa platform digital modern yang skalabel (*Microservices, Web/Mobile, API, SaaS, BPA*).",
+      "irm": "R"
+    }
+  ],
+  "cpmk": [
+    {
+      "id": "CPMK-1",
+      "rumusan": "mampu **menyusun** halaman HTML dasar–menengah yang memuat struktur semantik, konten, tabel dan formulir (B) berdasarkan kebutuhan kasus yang diberikan (C), dengan struktur elemen, label dan tautan yang sesuai (D).",
+      "bloom": "C3",
+      "cpl": [
+        "CPL-08"
+      ]
+    },
+    {
+      "id": "CPMK-2",
+      "rumusan": "mampu **menerapkan** CSS dasar–menengah dan Flexbox termasuk pengaturan flex item dan responsivitas (B) pada kasus antarmuka yang diberikan, serta mengenali penggunaan kelas Bootstrap dan Tailwind dasar (C), dengan tampilan rapi dan terbaca pada sedikitnya dua ukuran layar (D).",
+      "bloom": "C3",
+      "cpl": [
+        "CPL-08"
+      ]
+    },
+    {
+      "id": "CPMK-3",
+      "rumusan": "mampu **membangun** kalkulator aritmetika sederhana (B) menggunakan JavaScript dasar dan styling **Bootstrap atau Tailwind CSS** (C), dengan operasi dan penanganan input sesuai kasus uji yang diberikan (D).",
+      "bloom": "C3",
+      "cpl": [
+        "CPL-13"
+      ]
+    },
+    {
+      "id": "CPMK-4",
+      "rumusan": "mampu **membangun dan menguji** landing page responsif dengan interaksi sederhana (B) menggunakan HTML, CSS dan JavaScript dasar, dengan Bootstrap atau Tailwind sebagai pilihan (C), serta mendokumentasikan navigasi, interaksi dan hasil pengujian (D).",
+      "bloom": "C6",
+      "cpl": [
+        "CPL-13"
+      ]
+    }
+  ],
+  "subcpmk": [
+    {
+      "id": "Sub-CPMK-1.1",
+      "rumusan": "Menyusun struktur dokumen semantik dan konten: teks, gambar, daftar serta tautan.",
+      "cpmk": "CPMK-1",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-1.2",
+      "rumusan": "Membuat tabel dan formulir berlabel dengan tipe masukan dan validasi HTML dasar.",
+      "cpmk": "CPMK-1",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-2.1",
+      "rumusan": "Menerapkan selektor, cascade dasar, warna, tipografi, box model, display, position dan media query.",
+      "cpmk": "CPMK-2",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-2.2",
+      "rumusan": "Menggunakan properti container dan item Flexbox, termasuk wrap, grow/shrink/basis dan nested flex, untuk tata letak responsif.",
+      "cpmk": "CPMK-2",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-2.3",
+      "rumusan": "Menerapkan kelas dasar Bootstrap dan utility Tailwind pada latihan antarmuka sederhana.",
+      "cpmk": "CPMK-2",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-3.1",
+      "rumusan": "Menggunakan variabel, tipe data, operator, percabangan, perulangan dan fungsi dalam latihan aritmetika.",
+      "cpmk": "CPMK-3",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-3.2",
+      "rumusan": "Menghubungkan input dan tombol kalkulator dengan fungsi JavaScript melalui DOM dan event, memakai styling Bootstrap atau Tailwind.",
+      "cpmk": "CPMK-3",
+      "bloom": "C3"
+    },
+    {
+      "id": "Sub-CPMK-4.1",
+      "rumusan": "Menggabungkan HTML, CSS/Flexbox dan JavaScript dasar menjadi landing page responsif; framework CSS boleh digunakan.",
+      "cpmk": "CPMK-4",
+      "bloom": "C6"
+    },
+    {
+      "id": "Sub-CPMK-4.2",
+      "rumusan": "Menyusun dan menjalankan kasus uji navigasi, interaksi, dan tampilan; memperbaiki masalah dan mencatat hasilnya.",
+      "cpmk": "CPMK-4",
+      "bloom": "C4"
+    }
+  ],
+  "deskripsi": "Mata kuliah ini melatih penyusunan antarmuka web dasar hingga menengah menggunakan HTML semantik, CSS dan Flexbox, responsivitas, pengenalan Bootstrap dan Tailwind, serta JavaScript dasar dan DOM/event. Mahasiswa membangun kalkulator dan landing page, menguji navigasi, interaksi dan tampilan, serta mendokumentasikan hasil. Pembelajaran menggabungkan teori, praktik terbimbing, penugasan dan belajar mandiri. Kontribusi mata kuliah kepada CPL dibatasi pada keterampilan dasar front end.",
+  "bahan_kajian": "HTML semantik, konten, tabel dan formulir; CSS, box model, media query dan Flexbox; Bootstrap dan Tailwind dasar; JavaScript, aritmetika, DOM/event; kalkulator; landing page responsif, pengujian dan dokumentasi.",
+  "lingkup": "Dalam lingkup: HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap dan Tailwind dasar, JavaScript dasar dan DOM/event, kalkulator dan landing page. Di luar lingkup: React/Vue/SPA, Fetch/asinkron/API, backend, database dan build pipeline. Validasi klien bukan keamanan server; data harus dummy atau berizin. Siapkan editor, browser, CSS Bootstrap dan stylesheet Tailwind dengan semua kelas yang dipakai agar latihan dapat berjalan tanpa internet, Node.js atau konfigurasi build.",
+  "referensi": [
+    {
+      "id": 1,
+      "nama": "MDN Web Docs. HTML.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "jenis": "utama"
+    },
+    {
+      "id": 2,
+      "nama": "MDN Web Docs. CSS.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "jenis": "utama"
+    },
+    {
+      "id": 3,
+      "nama": "MDN Web Docs. JavaScript.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "jenis": "utama"
+    },
+    {
+      "id": 4,
+      "nama": "MDN Web Docs. CSS flexible box layout.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout",
+      "jenis": "pendukung"
+    },
+    {
+      "id": 5,
+      "nama": "Bootstrap. Documentation.",
+      "url": "https://getbootstrap.com/docs/",
+      "jenis": "pendukung"
+    },
+    {
+      "id": 6,
+      "nama": "Tailwind CSS. Documentation.",
+      "url": "https://tailwindcss.com/docs/",
+      "jenis": "pendukung"
+    }
+  ],
+  "catatan_beban": "Usulan minggu materi: TM 100 menit + praktikum terbimbing 170 menit + PT 120 menit + BM 120 menit = 510 menit; TM + praktikum = 270 menit. Pada minggu ujian, alokasi mengikuti jadwal institusi dan dapat menggunakan waktu TM/praktikum. Luring dan daring adalah alternatif, bukan beban ganda.",
+  "minggu": [
+    {
+      "week": 1,
+      "subcpmk": [
+        "Sub-CPMK-1.1"
+      ],
+      "indikator": "Jelaskan perbedaan head dan body serta alasan urutan heading.",
+      "kriteria_teknik": "Formatif: halaman profil HTML awal. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Identifikasi doctype, html, head, body, hierarki heading serta daftar. Praktik: Buat halaman profil dengan judul, paragraf dan dua jenis daftar; buka langsung pada browser. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Orientasi front-end; peran HTML/CSS/JS dan browser; struktur HTML, teks, heading dan daftar.",
+      "referensi": [
+        1
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 2,
+      "subcpmk": [
+        "Sub-CPMK-1.1"
+      ],
+      "indikator": "Uji tautan dan jelaskan manfaat elemen semantik dan alt.",
+      "kriteria_teknik": "Formatif: halaman informasi dengan navigasi. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Bedakan header, nav, main, section dan footer; path relatif, atribut href, src dan alt. Praktik: Buat navigasi ke bagian halaman dan tampilkan gambar berizin dengan alt bermakna. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "HTML semantik: header, nav, main, section dan footer; tautan dan gambar dengan teks alternatif.",
+      "referensi": [
+        1
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 3,
+      "subcpmk": [
+        "Sub-CPMK-1.2"
+      ],
+      "indikator": "Buktikan label terhubung dan validasi bawaan bekerja tanpa pengiriman data.",
+      "kriteria_teknik": "Formatif: formulir simulasi dan tabel berstruktur. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Susun table dengan header, label dan input; gunakan tipe masukan dan validasi bawaan. Praktik: Tambahkan tabel agenda dan formulir simulasi dengan label, required dan tombol. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "HTML menengah: tabel, formulir, label, input, tombol dan validasi HTML bawaan.",
+      "referensi": [
+        1
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 4,
+      "subcpmk": [
+        "Sub-CPMK-1.1",
+        "Sub-CPMK-1.2",
+        "Sub-CPMK-2.1"
+      ],
+      "indikator": "Menyusun halaman HTML semantik dengan konten, tabel, tautan dan formulir berlabel; CSS tidak dinilai.",
+      "kriteria_teknik": "**Tugas 1 — 20%:** halaman HTML untuk kasus yang disepakati. Rubrik analitik pada lampiran.",
+      "luring": "Teori/demonstrasi: Periksa HTML tugas; jelaskan stylesheet terpisah, selector, color dan font. Praktik: Kumpulkan halaman HTML; setelah penilaian, hubungkan stylesheet dan ubah teks serta warna. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Review HTML dan **Tugas 1**; pengantar stylesheet, selektor, warna dan tipografi CSS. Penilaian Tugas 1 hanya pada HTML.",
+      "referensi": [
+        1,
+        2
+      ],
+      "asesmen": [
+        "tugas1"
+      ]
+    },
+    {
+      "week": 5,
+      "subcpmk": [
+        "Sub-CPMK-2.1"
+      ],
+      "indikator": "Bandingkan aturan selector yang bersaing dan cek hasil pada browser.",
+      "kriteria_teknik": "Formatif: stylesheet dan tata letak kartu. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Periksa cascade, spesifisitas dasar, ukuran, margin, padding, border, display dan position sederhana. Praktik: Buat kartu informasi yang konsisten dan jelaskan perhitungan ruang padding, border dan margin. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "CSS dasar–menengah: cascade/spesifisitas dasar, box model, display, ukuran dan position sederhana.",
+      "referensi": [
+        2
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 6,
+      "subcpmk": [
+        "Sub-CPMK-2.2"
+      ],
+      "indikator": "Jelaskan beda grow, shrink dan basis; pastikan urutan visual tidak merusak urutan baca.",
+      "kriteria_teknik": "Formatif: navigasi dan kartu responsif menggunakan Flexbox. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Bedakan sumbu; direction, justify-content, align-items, wrap, gap, align-content, grow/shrink/basis, align-self dan order. Praktik: Buat navigasi dan kartu dengan wrap, grow/basis serta nested flex; bandingkan ukuran layar. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Flexbox: sumbu, direction, alignment, wrap, gap; flex item grow/shrink/basis, align-self, order dan nested flex.",
+      "referensi": [
+        2,
+        4
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 7,
+      "subcpmk": [
+        "Sub-CPMK-2.1",
+        "Sub-CPMK-2.2",
+        "Sub-CPMK-2.3"
+      ],
+      "indikator": "Identifikasi container/tombol Bootstrap dan utility spacing/responsive Tailwind.",
+      "kriteria_teknik": "Formatif: komponen sederhana menggunakan masing-masing framework. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Gunakan media query dan dua breakpoint; bedakan komponen Bootstrap dari utility Tailwind. Praktik: Buat satu kartu Bootstrap dan satu kartu Tailwind dengan stylesheet siap pakai; uji dua lebar layar. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Media query dan latihan dua ukuran layar; pengenalan **Bootstrap** (container, tombol, kartu, grid dasar) dan **Tailwind** (spacing, warna, Flexbox, breakpoint dasar).",
+      "referensi": [
+        2,
+        5,
+        6
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 8,
+      "subcpmk": [
+        "Sub-CPMK-2.1",
+        "Sub-CPMK-2.2",
+        "Sub-CPMK-2.3"
+      ],
+      "indikator": "Menerapkan selektor, box model, Flexbox dan media query pada dua ukuran layar serta mengenali kelas dasar Bootstrap dan Tailwind.",
+      "kriteria_teknik": "**UTS — 25%:** CSS/Flexbox, dua ukuran layar dan pemilihan kelas framework dasar. Rubrik analitik pada lampiran.",
+      "luring": "Pelaksanaan evaluasi praktik, pengumpulan bukti dan umpan balik; waktu mengikuti jadwal institusi.",
+      "daring": "Alternatif daring bila disetujui: evaluasi dan penyerahan bukti sesuai ketentuan pengampu; durasi mengikuti jadwal institusi.",
+      "materi": "Ujian praktik CSS/Flexbox responsif; pengenalan kelas Bootstrap dan Tailwind diuji melalui latihan singkat.",
+      "referensi": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "asesmen": [
+        "uts"
+      ]
+    },
+    {
+      "week": 9,
+      "subcpmk": [
+        "Sub-CPMK-3.1"
+      ],
+      "indikator": "Jelaskan perbedaan teks angka dan nilai number.",
+      "kriteria_teknik": "Formatif: operasi hitung dan keluaran sederhana. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Hubungkan script; gunakan let/const, string, number, operator dan console. Praktik: Tulis fungsi untuk empat operasi sederhana dengan angka contoh. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "JavaScript di browser: script, variabel, tipe data, operator aritmetika dan konsol.",
+      "referensi": [
+        3
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 10,
+      "subcpmk": [
+        "Sub-CPMK-3.1"
+      ],
+      "indikator": "Jalankan contoh valid dan tidak valid lalu jelaskan keluaran.",
+      "kriteria_teknik": "Formatif: fungsi kalkulasi dengan contoh input valid/tidak valid. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Gunakan if/else, loop, function dan array sederhana; konversi nilai input. Praktik: Bangun fungsi hitung yang menolak input kosong, nilai bukan angka dan pembagi nol. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Percabangan, perulangan, fungsi dan array sederhana; konversi input menjadi angka dan kondisi pembagi nol.",
+      "referensi": [
+        3
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 11,
+      "subcpmk": [
+        "Sub-CPMK-3.2"
+      ],
+      "indikator": "Uji klik, reset dan input tidak valid; hindari memasukkan HTML mentah dari input.",
+      "kriteria_teknik": "Formatif: purwarupa kalkulator dengan styling framework pilihan. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Pilih elemen, baca value, gunakan addEventListener dan textContent untuk hasil. Praktik: Hubungkan dua input, operasi dan tombol hitung/reset; style dengan Bootstrap atau Tailwind. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "DOM dan event: membaca input, tombol, menampilkan hasil dan pesan; terapkan kelas Bootstrap atau Tailwind pada rancangan kalkulator.",
+      "referensi": [
+        3,
+        5,
+        6
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 12,
+      "subcpmk": [
+        "Sub-CPMK-3.1",
+        "Sub-CPMK-3.2"
+      ],
+      "indikator": "Mendemonstrasikan empat operasi kalkulator, DOM/event, penanganan kesalahan dan penggunaan Bootstrap atau Tailwind; mencatat hasil uji.",
+      "kriteria_teknik": "**Tugas 2 — 25%:** kalkulator dan hasil uji. Rubrik analitik pada lampiran.",
+      "luring": "Teori/demonstrasi: Uji empat operasi, reset dan penanganan kesalahan; cek tampilan dan styling framework. Praktik: Selesaikan kalkulator, jalankan kasus uji, kumpulkan berkas dan demonstrasikan logika. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Praktikum dan demonstrasi kalkulator dasar menggunakan JavaScript serta Bootstrap **atau** Tailwind CSS.",
+      "referensi": [
+        3,
+        5,
+        6
+      ],
+      "asesmen": [
+        "tugas2"
+      ]
+    },
+    {
+      "week": 13,
+      "subcpmk": [
+        "Sub-CPMK-4.1"
+      ],
+      "indikator": "Cek hierarki heading, tautan dan atribut alt.",
+      "kriteria_teknik": "Formatif: sketsa dan kerangka HTML. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Susun tujuan halaman, struktur semantik, hero, manfaat, CTA dan footer; pilih aset berizin. Praktik: Buat sketsa dan kerangka HTML landing page untuk produk/kegiatan fiktif. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Merencanakan landing page: struktur semantik, hero, manfaat/fitur, call-to-action dan footer; siapkan konten berizin.",
+      "referensi": [
+        1
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 14,
+      "subcpmk": [
+        "Sub-CPMK-4.1"
+      ],
+      "indikator": "Uji fungsi tombol dan navigasi keyboard pada kedua ukuran layar.",
+      "kriteria_teknik": "Formatif: purwarupa responsif dan interaktif. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Gunakan CSS/Flexbox dan media query; framework CSS opsional; satu interaksi JS sederhana. Praktik: Tata layout pada dua lebar dan tambahkan menu buka/tutup atau tombol tampil pesan. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Tata landing page responsif dengan CSS/Flexbox; Bootstrap atau Tailwind boleh digunakan. Tambahkan interaksi JS sederhana, misalnya menu atau tombol.",
+      "referensi": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 15,
+      "subcpmk": [
+        "Sub-CPMK-4.2"
+      ],
+      "indikator": "Pastikan bukti uji mencantumkan hasil yang diharapkan dan aktual.",
+      "kriteria_teknik": "Formatif: daftar kasus uji dan perbaikan. Pemeriksaan hasil praktik dan umpan balik formatif (tidak berbobot sumatif).",
+      "luring": "Teori/demonstrasi: Susun uji navigasi, tampilan, interaksi, label dan akses keyboard; catat temuan. Praktik: Jalankan uji, perbaiki hasil gagal dan tuliskan langkah menjalankan secara lokal. PT: dokumentasikan hasil dan satu koreksi. BM: baca sumber terkait dan coba variasi input/layout. [TM 100; praktik 170; PT 120; BM 120 menit].",
+      "daring": "Alternatif bila disetujui pengampu: penjelasan dan diskusi daring, praktik mandiri/terbimbing, penyerahan bukti melalui media yang ditetapkan; estimasi setara luring, bukan beban tambahan.",
+      "materi": "Uji navigasi, interaksi, keyboard dan tampilan; perbaiki masalah serta dokumentasikan hasil.",
+      "referensi": [
+        1,
+        2,
+        3
+      ],
+      "asesmen": []
+    },
+    {
+      "week": 16,
+      "subcpmk": [
+        "Sub-CPMK-4.1",
+        "Sub-CPMK-4.2"
+      ],
+      "indikator": "Menghasilkan landing page responsif dengan interaksi dasar; menguji navigasi, keyboard dan dua ukuran layar serta menjelaskan kode dan hasil uji.",
+      "kriteria_teknik": "**UAS — 30%:** landing page, dokumentasi dan demonstrasi. Rubrik analitik pada lampiran.",
+      "luring": "Pelaksanaan evaluasi praktik, pengumpulan bukti dan umpan balik; waktu mengikuti jadwal institusi.",
+      "daring": "Alternatif daring bila disetujui: evaluasi dan penyerahan bukti sesuai ketentuan pengampu; durasi mengikuti jadwal institusi.",
+      "materi": "Demonstrasi landing page, penjelasan kode individual dan penyerahan berkas.",
+      "referensi": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "asesmen": [
+        "uas"
+      ]
+    }
+  ],
+  "level_rubrik": [
+    "Sangat baik (81–100)",
+    "Baik (66–80)",
+    "Cukup (56–65)",
+    "Kurang (0–55)"
+  ],
+  "asesmen": [
+    {
+      "id": "tugas1",
+      "nama": "Tugas 1",
+      "week": 4,
+      "bobot": 20,
+      "cpmk": [
+        "CPMK-1"
+      ],
+      "soal": "Buat halaman informasi untuk kasus yang disepakati. Sertakan struktur semantik dan hierarki heading, navigasi dan tautan, gambar berizin dengan alt, daftar, tabel dan formulir dengan label. Kumpulkan HTML, aset dan daftar cek tautan/label. CSS yang diperkenalkan pada minggu ini tidak dinilai.",
+      "rubrik": [
+        {
+          "kriteria": "Struktur dan semantik",
+          "bobot": 35,
+          "deskriptor": [
+            "Semua aspek struktur semantik dan hierarki heading; bukti lengkap.",
+            "Aspek utama struktur semantik dan hierarki heading; ada kekurangan minor.",
+            "Sebagian aspek struktur semantik dan hierarki heading; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Konten, tabel dan tautan",
+          "bobot": 25,
+          "deskriptor": [
+            "Semua aspek konten, tabel, gambar dan tautan sesuai kasus; bukti lengkap.",
+            "Aspek utama konten, tabel, gambar dan tautan sesuai kasus; ada kekurangan minor.",
+            "Sebagian aspek konten, tabel, gambar dan tautan sesuai kasus; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Formulir dan label",
+          "bobot": 25,
+          "deskriptor": [
+            "Semua aspek label dan tipe input terhubung serta sesuai; bukti lengkap.",
+            "Aspek utama label dan tipe input terhubung serta sesuai; ada kekurangan minor.",
+            "Sebagian aspek label dan tipe input terhubung serta sesuai; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Kerapian berkas",
+          "bobot": 15,
+          "deskriptor": [
+            "Semua aspek struktur berkas rapi dan mudah dijalankan; bukti lengkap.",
+            "Aspek utama struktur berkas rapi dan mudah dijalankan; ada kekurangan minor.",
+            "Sebagian aspek struktur berkas rapi dan mudah dijalankan; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uts",
+      "nama": "UTS",
+      "week": 8,
+      "bobot": 25,
+      "cpmk": [
+        "CPMK-2"
+      ],
+      "soal": "Pada HTML yang disediakan, terapkan selektor, box model, Flexbox container dan item, serta media query agar terbaca pada dua ukuran layar. Kerjakan latihan mengenali atau menggunakan kelas dasar Bootstrap dan Tailwind. Kumpulkan halaman, stylesheet, tangkapan dua ukuran layar dan hasil latihan kelas kedua framework.",
+      "rubrik": [
+        {
+          "kriteria": "Selektor dan box model",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek selektor dan box model sesuai spesifikasi; bukti lengkap.",
+            "Aspek utama selektor dan box model sesuai spesifikasi; ada kekurangan minor.",
+            "Sebagian aspek selektor dan box model sesuai spesifikasi; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Flexbox container/item",
+          "bobot": 35,
+          "deskriptor": [
+            "Semua aspek pengaturan sumbu, wrap dan properti item tepat; bukti lengkap.",
+            "Aspek utama pengaturan sumbu, wrap dan properti item tepat; ada kekurangan minor.",
+            "Sebagian aspek pengaturan sumbu, wrap dan properti item tepat; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Responsivitas dua layar",
+          "bobot": 25,
+          "deskriptor": [
+            "Semua aspek tampilan terbaca pada dua lebar tanpa overflow utama; bukti lengkap.",
+            "Aspek utama tampilan terbaca pada dua lebar tanpa overflow utama; ada kekurangan minor.",
+            "Sebagian aspek tampilan terbaca pada dua lebar tanpa overflow utama; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Kelas dua framework",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek kelas dasar Bootstrap dan Tailwind diterapkan benar pada latihan; bukti lengkap.",
+            "Aspek utama kelas dasar Bootstrap dan Tailwind diterapkan benar pada latihan; ada kekurangan minor.",
+            "Sebagian aspek kelas dasar Bootstrap dan Tailwind diterapkan benar pada latihan; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tugas2",
+      "nama": "Tugas 2",
+      "week": 12,
+      "bobot": 25,
+      "cpmk": [
+        "CPMK-3"
+      ],
+      "soal": "Bangun kalkulator HTML dan JavaScript dengan Bootstrap atau Tailwind CSS; CSS sendiri boleh mendampingi. Sediakan dua input angka, operasi tambah/kurang/kali/bagi, tombol hitung dan reset serta tampilan hasil. Tangani input kosong/tidak valid dan pembagi nol dengan pesan yang jelas. Uji 2+3=5, 5−3=2, 2×3=6, 6÷3=2, input kosong dan pembagi nol. Kumpulkan berkas, stylesheet yang diperlukan, petunjuk menjalankan, tabel input–operasi–hasil yang diharapkan–hasil aktual, dan penjelasan individual.",
+      "rubrik": [
+        {
+          "kriteria": "Operasi aritmetika dan logika JS",
+          "bobot": 30,
+          "deskriptor": [
+            "Semua aspek empat operasi menghasilkan nilai yang benar; bukti lengkap.",
+            "Aspek utama empat operasi menghasilkan nilai yang benar; ada kekurangan minor.",
+            "Sebagian aspek empat operasi menghasilkan nilai yang benar; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "DOM dan event",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek input, tombol hitung/reset dan keluaran bekerja; bukti lengkap.",
+            "Aspek utama input, tombol hitung/reset dan keluaran bekerja; ada kekurangan minor.",
+            "Sebagian aspek input, tombol hitung/reset dan keluaran bekerja; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Input dan pembagi nol",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek input kosong/tidak valid dan pembagi nol ditangani; bukti lengkap.",
+            "Aspek utama input kosong/tidak valid dan pembagi nol ditangani; ada kekurangan minor.",
+            "Sebagian aspek input kosong/tidak valid dan pembagi nol ditangani; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Framework pilihan",
+          "bobot": 15,
+          "deskriptor": [
+            "Semua aspek kelas Bootstrap atau Tailwind digunakan sesuai tujuan; bukti lengkap.",
+            "Aspek utama kelas Bootstrap atau Tailwind digunakan sesuai tujuan; ada kekurangan minor.",
+            "Sebagian aspek kelas Bootstrap atau Tailwind digunakan sesuai tujuan; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Kode dan hasil uji",
+          "bobot": 15,
+          "deskriptor": [
+            "Semua aspek kode terbaca dan kasus uji mencantumkan hasil aktual; bukti lengkap.",
+            "Aspek utama kode terbaca dan kasus uji mencantumkan hasil aktual; ada kekurangan minor.",
+            "Sebagian aspek kode terbaca dan kasus uji mencantumkan hasil aktual; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uas",
+      "nama": "UAS",
+      "week": 16,
+      "bobot": 30,
+      "cpmk": [
+        "CPMK-4"
+      ],
+      "soal": "Bangun landing page produk/kegiatan dengan HTML, CSS/Flexbox dan JavaScript dasar; Bootstrap atau Tailwind boleh digunakan. Sertakan header/navigasi, hero, sedikitnya dua bagian konten, call-to-action dan footer; gunakan konten/aset berizin. Sediakan setidaknya satu interaksi DOM/event bermakna. Uji navigasi, interaksi, input valid/tidak valid bila ada formulir, keyboard dan tampilan sedikitnya dua lebar; catat hasil dan perbaikan. Kumpulkan proyek yang berjalan lokal, petunjuk, daftar uji dan hasil; demonstrasikan serta jelaskan kode secara individual. Tanpa React, backend, database atau API.",
+      "rubrik": [
+        {
+          "kriteria": "Struktur HTML dan konten",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek bagian semantik, konten, CTA dan footer lengkap; bukti lengkap.",
+            "Aspek utama bagian semantik, konten, CTA dan footer lengkap; ada kekurangan minor.",
+            "Sebagian aspek bagian semantik, konten, CTA dan footer lengkap; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "CSS/Flexbox dan responsivitas",
+          "bobot": 25,
+          "deskriptor": [
+            "Semua aspek layout responsif terbaca pada dua lebar; bukti lengkap.",
+            "Aspek utama layout responsif terbaca pada dua lebar; ada kekurangan minor.",
+            "Sebagian aspek layout responsif terbaca pada dua lebar; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Interaksi JS dasar",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek setidaknya satu interaksi DOM/event berfungsi; bukti lengkap.",
+            "Aspek utama setidaknya satu interaksi DOM/event berfungsi; ada kekurangan minor.",
+            "Sebagian aspek setidaknya satu interaksi DOM/event berfungsi; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Pengujian dan perbaikan",
+          "bobot": 20,
+          "deskriptor": [
+            "Semua aspek uji navigasi, interaksi, keyboard dan dua lebar dicatat dan diperbaiki; bukti lengkap.",
+            "Aspek utama uji navigasi, interaksi, keyboard dan dua lebar dicatat dan diperbaiki; ada kekurangan minor.",
+            "Sebagian aspek uji navigasi, interaksi, keyboard dan dua lebar dicatat dan diperbaiki; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        },
+        {
+          "kriteria": "Dokumentasi dan demonstrasi",
+          "bobot": 15,
+          "deskriptor": [
+            "Semua aspek langkah lokal jelas dan penjelasan individual sesuai kode; bukti lengkap.",
+            "Aspek utama langkah lokal jelas dan penjelasan individual sesuai kode; ada kekurangan minor.",
+            "Sebagian aspek langkah lokal jelas dan penjelasan individual sesuai kode; ada kekurangan penting.",
+            "Aspek utama belum terpenuhi atau bukti tidak ada."
+          ]
+        }
+      ]
+    }
+  ],
+  "catatan_evaluasi": "Skor tiap instrumen adalah jumlah skor kriteria (0–100) dikalikan bobot kriteria. Nilai akhir MK = (20 × Tugas 1 + 25 × UTS + 25 × Tugas 2 + 30 × UAS) / 100. Satu CPMK utama dipetakan pada setiap instrumen agar tidak dihitung ganda. Ketercapaian CPL lintas MK mengikuti Dok 008 dan kebijakan prodi; 45% dan 55% bukan otomatis skor CPL. Tugas 1, Tugas 2 dan UAS direncanakan sebagai kasus/proyek (75% bobot), bukan klaim realisasi IKU; bila berkelompok simpan bukti kontribusi dan lakukan penjelasan individual. Remedial dan ambang ketuntasan mengikuti kebijakan prodi.",
+  "validasi": {
+    "tempat_tanggal": "Belum ditetapkan",
+    "upm": "Belum ditetapkan",
+    "upm_nuptk": "Belum ditetapkan",
+    "dosen": "Belum ditetapkan",
+    "dosen_nuptk": "Belum ditetapkan",
+    "ketua_prodi": "Belum ditetapkan",
+    "ketua_prodi_nuptk": "Belum ditetapkan"
+  }
+}
