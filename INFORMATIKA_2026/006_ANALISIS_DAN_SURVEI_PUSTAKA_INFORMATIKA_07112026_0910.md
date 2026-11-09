@@ -8,7 +8,7 @@ Ini adalah **kajian dokumen dan pemetaan awal**, bukan hasil survei lapangan ata
 2. Di antara 83 MK tersebut: 49 muncul sebagai baris non-konsentrasi dalam Tabel 18; sembilan adalah alternatif wajib untuk tiga konsentrasi (masing-masing tiga); dan 25 tidak muncul sebagai MK berkode pada Tabel 18. Tabel 18 memuat empat slot pilihan tambahan tanpa kode. Istilah ini mencerminkan posisi dalam tabel, bukan verifikasi aturan pengambilan resmi.
 3. Terdapat **17 MK** yang tidak memperoleh kandidat APTIKOM pada pemetaan konservatif berbasis judul. Artinya **belum dipetakan oleh kajian ini**, bukan tidak memiliki materi, bukan celah kurikulum.
 4. Untuk 58 MK berkode yang ada pada kedua tabel, perbandingan turunan Tabel 18 → Tabel 14 dengan BK eksplisit Tabel 15 menemukan 23 set sama dan 35 set dengan BK tambahan; tidak ada set yang kehilangan BK turunan dalam perhitungan tersebut. Tambahan dapat mencerminkan lintas bidang; bukan otomatis kesalahan.
-5. Pada versi DOCX yang diekstrak, daftar CPMK per MK tidak ditemukan dalam teks/tabel utama. Tabel 12 dan 19 memiliki sel relasi kosong pada teks DOCX. Keputusan atas ketercapaian CPL dan cakupan BoK harus menunggu **RPS, CPMK/Sub-CPMK dan bukti asesmen**.
+5. Pada versi DOCX yang diekstrak, daftar CPMK per MK tidak ditemukan dalam teks/tabel utama. Pembacaan awal `python-docx` tidak menampilkan tanda relasi Tabel 12/19; pemeriksaan XML terbatas menemukan tanda CPL04 pada tiga baris Tabel 19 ([009](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md)); audit penuh Tabel 12/19 belum dilakukan. Keputusan atas ketercapaian CPL dan cakupan BoK harus menunggu **RPS, CPMK/Sub-CPMK dan bukti asesmen**.
 6. Survei responden belum dilaksanakan. [Instrumen dan rencana](007_INSTRUMEN_SURVEI_VALIDASI_INFORMATIKA_07112026_0910.md) disiapkan untuk pengampu, mahasiswa, alumni dan pengguna lulusan.
 
 ## 2. Sumber dan batas metode
@@ -87,7 +87,7 @@ Ketiga sinyal eksternal digunakan untuk menyusun **pertanyaan survei dan priorit
 | Prioritas | Tindakan | Penanggung jawab yang diusulkan | Bukti/hasil yang diharapkan |
 |---|---|---|---|
 | P1 | Kumpulkan RPS, CPMK/Sub-CPMK, matriks asesmen, bukti tugas dan aturan pilihan untuk seluruh U dan tiap jalur. | Kaprodi, koordinator kurikulum, pengampu | Inventaris versi dan tautan dokumen; daftar yang belum tersedia. |
-| P1 | Rekonsiliasi Tabel 14, 15, 16, 18 dan matriks kosong; mulai dengan 35 set tambahan dan KOM-526. | RMK dan pengampu | Keputusan tertulis per MK/relasi, dengan alasan; tidak menghapus relasi otomatis. |
+| P1 | Rekonsiliasi Tabel 14, 15, 16, 18 dan matriks relasi yang belum diaudit; mulai dengan 35 set tambahan dan KOM-526. | RMK dan pengampu | Keputusan tertulis per MK/relasi, dengan alasan; tidak menghapus relasi otomatis. |
 | P1 | Telusuri seluruh CS Core per knowledge unit ke MK, CPMK, indikator, materi, asesmen dan bukti per jalur. | RMK/penjaminan mutu | Matriks bukti yang menyatakan terbukti, parsial, tidak ditemukan atau belum diperiksa. |
 | P2 | Reviu jalur grafika, AI, keamanan dan bahasa pemrograman serta ketergantungan pilihan tiap konsentrasi. | Koordinator konsentrasi | Peta minimum bersama dan pendalaman tiap jalur, tanpa perubahan SKS otomatis. |
 | P2 | Pastikan versi tabel APTIKOM/CS2023 dan regulasi serta kebijakan institusi yang relevan. | Tim kurikulum/GPM | Daftar sumber primer dan keputusan versi yang disetujui. |
