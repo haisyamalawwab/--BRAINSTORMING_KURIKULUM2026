@@ -13,7 +13,7 @@
 
 ## Perangkat terpisah: outline, asesmen dan rubrik
 
-Setiap paket kini mempunyai tiga dokumen pendamping. Dokumen 012–017 tetap menyimpan ringkasan; bila ada perubahan, tinjau kembali pasangan dokumen karena tidak tersinkron otomatis. Semua bahan adalah rancangan [U].
+Setiap paket kini mempunyai tiga dokumen pendamping. KFC-506 memiliki rencana dasar netral (033–035) **dan dua jalur teknis** dengan paket RPS/SAP masing-masing: [037 KFC-506a Dart + Flutter](037_PAKET_RPS_SAP_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) dan [041 KFC-506b React Native + Expo](041_PAKET_RPS_SAP_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md); lihat 010 bagian 14. Dokumen 012–017 tetap menyimpan ringkasan; bila ada perubahan, tinjau kembali pasangan dokumen karena tidak tersinkron otomatis. Semua bahan adalah rancangan [U].
 
 | Paket | Outline modul | Rencana evaluasi dan asesmen | Rubrik penilaian |
 |---|---|---|---|
@@ -23,10 +23,12 @@ Setiap paket kini mempunyai tiga dokumen pendamping. Dokumen 012–017 tetap men
 | KOM-526c | [027 — Outline](027_OUTLINE_MODUL_KOM-526C_07112026_1332.md) | [028 — Evaluasi](028_RENCANA_EVALUASI_ASESMEN_KOM-526C_07112026_1332.md) | [029 — Rubrik](029_RUBRIK_PENILAIAN_KOM-526C_07112026_1332.md) |
 | KOM-526d | [030 — Outline](030_OUTLINE_MODUL_KOM-526D_07112026_1332.md) | [031 — Evaluasi](031_RENCANA_EVALUASI_ASESMEN_KOM-526D_07112026_1332.md) | [032 — Rubrik](032_RUBRIK_PENILAIAN_KOM-526D_07112026_1332.md) |
 | KFC-506 | [033 — Outline](033_OUTLINE_MODUL_KFC-506_07112026_1332.md) | [034 — Evaluasi](034_RENCANA_EVALUASI_ASESMEN_KFC-506_07112026_1332.md) | [035 — Rubrik](035_RUBRIK_PENILAIAN_KFC-506_07112026_1332.md) |
+| KFC-506a Dart + Flutter | [036 — Outline](036_OUTLINE_MODUL_KFC-506A_DART_FLUTTER_09112026_1339.md) | [038 — Evaluasi](038_RENCANA_EVALUASI_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) | [039 — Rubrik](039_RUBRIK_PENILAIAN_KFC-506A_DART_FLUTTER_09112026_1339.md) |
+| KFC-506b React Native + Expo | [040 — Outline](040_OUTLINE_MODUL_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [042 — Evaluasi](042_RENCANA_EVALUASI_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [043 — Rubrik](043_RUBRIK_PENILAIAN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) |
 
 ## Cara pakai
 
-1. Pilih satu paket. Untuk KOM-526 pilih **a** bagi pemula, **b atau c** untuk yang telah mempelajari dasar a atau setara, atau **d** bagi yang ingin belajar mandiri terarah. Label a–d adalah rancangan di bawah kode resmi KOM-526, bukan kode baru yang sudah berlaku; lihat 010 bagian 13 untuk diagnostik, persetujuan dan aturan pengambilan.
+1. Pilih satu paket. Untuk KFC-506 putuskan lebih dulu apakah memakai rencana dasar netral atau salah satu jalur teknis (a Dart + Flutter atau b React Native + Expo); label a–b adalah usulan, bukan kode KRS, dan satu kelas sebaiknya memakai satu jalur. Untuk KOM-526 pilih **a** bagi pemula, **b atau c** untuk yang telah mempelajari dasar a atau setara, atau **d** bagi yang ingin belajar mandiri terarah. Label a–d adalah rancangan di bawah kode resmi KOM-526, bukan kode baru yang sudah berlaku; lihat 010 bagian 13 untuk diagnostik, persetujuan dan aturan pengambilan.
 2. Isi bagian 1 ke template RPS yang disetujui: identitas, CPL, CPMK/Sub-CPMK, pemetaan, 8 kolom mingguan, metode dan pustaka. Rumusan tetap usulan. Bandingkan [template SWO](../KURIKULUM2026_REVISI/Template_RPS_GEN_2026_20092026-SWO.docx) sebagai contoh format, bukan bukti format TI disahkan.
 3. Bagian 2 adalah SAP 16 pertemuan; lengkapi waktu tiap fase, kegiatan kelas dan lembar kerja setelah aturan waktu ditetapkan. Bagian 3 adalah outline 14 modul/praktikum, bukan modul lengkap.
 4. Bagian 4 berisi instruksi contoh, kisi-kisi lima cek tiap instrumen, rubrik, formulir dan rekap; sesuaikan data/kondisi, uji waktu dan setujui sebelum dipakai. Bagian 5 mengumpulkan pustaka dan pemeriksaan kesiapan. T1/UTS/T2/UAS bernilai 20/25/25/30 hanya usulan, total 100%.

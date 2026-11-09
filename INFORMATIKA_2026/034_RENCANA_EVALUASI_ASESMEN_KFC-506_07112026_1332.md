@@ -6,6 +6,8 @@
 
 Kasus: daftar perlengkapan dummy dengan satu basis kode untuk dua target berbeda (misalnya browser desktop dan emulator Android jika tersedia); gunakan mock lokal.
 
+**Dua jalur teknis [U]:** butir, bobot dan ambang di bawah berlaku untuk kedua jalur. Kondisi uji konkret ada di [038 (KFC-506a Dart + Flutter)](038_RENCANA_EVALUASI_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) dan [042 (KFC-506b React Native + Expo)](042_RENCANA_EVALUASI_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md); lihat 010 bagian 14.3.
+
 ## Matriks asesmen dan ketentuan
 
 | Instrumen | Pekan | CPMK | Bobot MK | Teknik/bukti |

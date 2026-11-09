@@ -690,3 +690,64 @@ Kode Sub-CPMK, waktu A/E, pekan instrumen dan bobot mengikuti rencana bersama 4.
 3. Periksa T/P, slot A/E dan durasi PT/BM; validasi kelayakan materi, instrumen, rubrik dan bobot terhadap RPS/pedoman prodi.
 4. Tinjau penggunaan seed dummy, parameterisasi, pengelolaan rahasia, peran, output, sesi dan CSRF pada lingkungan lokal. Validasi fungsi bukan audit keamanan produksi.
 5. Catat versi yang diuji, cara penyediaan paket dan bukti reproduksi; tentukan RPS, dosen, otorisasi dan penanggung jawab tiap kelas. Rencana di atas **belum diuji menjalankan aplikasi** dan belum disahkan.
+
+---
+
+## 14. Dua jalur implementasi KFC-506: Dart + Flutter dan React Native + Expo [U]
+
+### 14.1 Aturan bersama dan batas kesetaraan
+
+**KFC-506a** dan **KFC-506b** adalah label usulan untuk dua jalur alternatif di dalam **satu mata kuliah resmi KFC-506 Sistem Aplikasi Lintas Platform**; sufiks a–b bukan kode kurikulum/KRS resmi yang telah ditemukan atau disahkan. Mahasiswa mengambil **satu** jalur bila prodi menyetujui pembukaan/penempatan, pengampu, fasilitas, lisensi alat dan pencatatan akademiknya. Keduanya bukan MK baru dan bukan urutan wajib.
+
+| Aspek | KFC-506a — Dart + Flutter | KFC-506b — React Native + Expo |
+|---|---|---|
+| Gaya implementasi [U] | Satu basis kode **Dart** dengan widget Flutter; build web dan build Android dari proyek yang sama. | Satu basis kode **JavaScript/TypeScript** dengan komponen React Native dalam proyek **Expo**; target web dan Android dari proyek yang sama. |
+| Alat utama [U] | Flutter SDK stabil, `flutter doctor`, editor dengan ekstensi Flutter, browser, Android SDK/emulator. | Node.js LTS, `create-expo-app`, Expo CLI (`npx expo start`), Expo Go atau development build, Android SDK/emulator. |
+| Navigasi dan state [U] | `Navigator`/route Flutter; `StatefulWidget` dan `setState`. | Expo Router atau React Navigation; `useState`/`useReducer`. |
+| Penyimpanan lokal [U] | `sqflite`/`path` di Android; mekanisme alternatif untuk web dicatat keterbatasannya. | `expo-sqlite` (basis data yang bertahan setelah restart) atau async storage (key-value tidak terenkripsi). |
+| Aksesibilitas [U] | `Semantics`, label kontrol, ukuran target sentuh, uji pembaca layar/fokus. | `accessibilityLabel`, `accessibilityRole`, `accessibilityHint`, `accessible`, uji TalkBack/VoiceOver. |
+| Uji [U] | `flutter test` dan integration test. | `jest-expo` dengan Testing Library dan uji manual per target. |
+| Fondasi yang didiagnosis [U] | Dasar pemrograman dan objek; Dart diperkenalkan pada jalur ini. | Dasar pemrograman, JavaScript/React dan ekosistem Node/npm. |
+
+Yang **tidak berubah** antarpjalur: CPL04, BK02, kerangka CPMK04.1–04.4 dan delapan Sub-CPMK pada 5.2 (redaksi teknis disesuaikan), pekan 1–15 serta evaluasi pekan 8/16, instrumen T1/UTS/T2/UAS dengan bobot 20/25/25/30, lima cek biner bernilai sama per instrumen, target usulan ≥4/5, syarat dua **runtime/platform** berbeda, kasus dummy, serta larangan menambah butir/bobot. Perbedaan hanya pada teknologi, alat dan bukti yang wajar. Fondasi bahasa adalah materi diagnostik/penguatan pada minggu 1–4, **bukan prasyarat akademik baru**.
+
+### 14.2 Dua target: definisi operasional [U]
+
+Dua target berarti dua **runtime/platform** berbeda yang dihasilkan dari satu basis kode, misalnya **web di browser desktop** dan **Android di emulator atau perangkat**. Dua ukuran layar, dua orientasi, atau dua tab browser pada satu target **bukan** dua target. Jika perangkat/emulator tidak tersedia, pengampu menyediakan akses lab atau perangkat pinjaman sebelum mengunci jalur; alternatif target lain (misalnya iOS pada macOS atau desktop native) hanya jika fasilitasnya terverifikasi.
+
+### 14.3 Skenario dan kriteria asesmen setara [U]
+
+Lima butir 5.4 **tidak diganti**; kondisi uji diadaptasi dengan alat jalur. Perangkat rinci ada di dokumen turunan.
+
+| Instrumen | Kondisi uji jalur a (Flutter) | Kondisi uji jalur b (Expo) |
+|---|---|---|
+| **Tugas 1, minggu 4 — CPMK04.1** | Proyek Flutter berjalan di web dan Android; aksi tambah data dummy bekerja pada keduanya; `lib`/`pubspec.yaml` dan konfigurasi target ditunjukkan. | Proyek Expo berjalan di web (`npx expo start`) dan Android (Expo Go/development build); aksi tambah bekerja; `app`/`package.json` dan konfigurasi target ditunjukkan. |
+| **UTS, minggu 8 — CPMK04.2** | Layout adaptif dengan `MediaQuery`/`LayoutBuilder` terbaca di kedua target; `Semantics`/label kontrol; fokus keyboard di web dan TalkBack di Android; umpan balik aksi. | Layout adaptif dengan `useWindowDimensions`/`Platform`; `accessibilityLabel`/`accessibilityRole`; fokus keyboard di web dan TalkBack di Android; umpan balik aksi. |
+| **Tugas 2, minggu 12 — CPMK04.3** | State/`setState`, `Navigator` dua halaman, penyimpanan lokal yang didukung kedua target (atau keterbatasan dicatat), pemulihan setelah buka ulang, pesan data invalid/gagal. | State React, Expo Router/React Navigation, `expo-sqlite` atau async storage, pemulihan setelah buka ulang, pesan data invalid/gagal. |
+| **UAS, minggu 16 — CPMK04.4** | Satu basis kode terintegrasi; fitur utama jalan di web dan Android; hasil `flutter test`/integration test, perbedaan dan perbaikan dicatat; petunjuk dan demonstrasi. | Satu basis kode terintegrasi; fitur utama jalan di web dan Android; hasil `jest-expo` dan uji manual, perbedaan (termasuk batas Expo Go) dan perbaikan dicatat; petunjuk dan demonstrasi. |
+
+Kegagalan alat pada alur yang diperiksa berarti cek terkait belum terpenuhi, sesuai rubrik biner; namun kendala fasilitas yang terdokumentasi harus diselesaikan pengampu sebelum penilaian, bukan menjadi penalti mahasiswa.
+
+### 14.4 Pustaka teknis jalur [U]
+
+- **R13–R15 — Flutter:** [Install and set up Flutter](https://docs.flutter.dev/install), [Flutter learning pathway](https://docs.flutter.dev/learn/pathway), [Adaptive and responsive design](https://docs.flutter.dev/ui/adaptive-responsive), [Navigation basics](https://docs.flutter.dev/cookbook/navigation/navigation-basics), [Accessibility](https://docs.flutter.dev/ui/accessibility), [Testing Flutter apps](https://docs.flutter.dev/testing/overview). Halaman dokumentasi menampilkan versi Flutter terkini saat diakses; cocokkan dengan versi yang dipasang.
+- **R16–R18 — React Native + Expo:** [Create a project](https://docs.expo.dev/get-started/create-a-project/), [Set up your environment](https://docs.expo.dev/get-started/set-up-your-environment/), [Expo Router](https://docs.expo.dev/router/introduction/), React Native [Accessibility](https://reactnative.dev/docs/accessibility), [expo-sqlite](https://docs.expo.dev/versions/latest/sdk/sqlite/), [AsyncStorage](https://docs.expo.dev/versions/latest/sdk/async-storage/), [Unit testing with Jest](https://docs.expo.dev/develop/unit-testing/). SDK Expo bergerak cepat (dokumentasi saat diakses menyebut SDK 58 sebagai versi terbaru); jangan mengunci versi yang belum disetujui pengampu.
+- R7–R9 pada bagian 10 tetap rujukan konsep lintas platform; R13–R15 dan R16–R18 adalah rujukan teknis per jalur.
+
+### 14.5 Perangkat rinci dan rencana 16 minggu [U]
+
+| Jalur | Paket RPS/SAP/asesmen | Outline 14 bab | Rencana evaluasi | Rubrik |
+|---|---|---|---|---|
+| KFC-506a Dart + Flutter | [037](037_PAKET_RPS_SAP_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) | [036](036_OUTLINE_MODUL_KFC-506A_DART_FLUTTER_09112026_1339.md) | [038](038_RENCANA_EVALUASI_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) | [039](039_RUBRIK_PENILAIAN_KFC-506A_DART_FLUTTER_09112026_1339.md) |
+| KFC-506b React Native + Expo | [041](041_PAKET_RPS_SAP_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [040](040_OUTLINE_MODUL_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [042](042_RENCANA_EVALUASI_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [043](043_RUBRIK_PENILAIAN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) |
+
+Rencana mingguan, SAP 16 pertemuan dan tabel 14 modul untuk masing-masing jalur ada di paket 037/041; isinya mengikuti Sub-CPMK, pekan dan bobot pada 5.2–5.4 dengan kegiatan teknis yang berbeda. **Dokumen netral** [017](017_PAKET_RPS_SAP_ASESMEN_KFC-506_SISTEM_APLIKASI_LINTAS_PLATFORM_07112026_1328.md), [033](033_OUTLINE_MODUL_KFC-506_07112026_1332.md), [034](034_RENCANA_EVALUASI_ASESMEN_KFC-506_07112026_1332.md) dan [035](035_RUBRIK_PENILAIAN_KFC-506_07112026_1332.md) tetap berlaku sebagai rencana dasar tanpa mengunci framework.
+
+### 14.6 Validasi sebelum membuka jalur [K]
+
+1. Prodi/RMK menyetujui mekanisme pilihan a–b, status kode/KRS, kapasitas kelas, dosen, serta pencatatan nilai.
+2. Pastikan ketersediaan Flutter SDK **dan** Node/npm/Expo beserta paket offline yang sah; catat versi, lisensi dan cara instalasi. Emulator Android atau perangkat fisik tersedia untuk semua mahasiswa, termasuk opsi pinjaman.
+3. Periksa kesiapan dasar mahasiswa (pemrograman, objek, JavaScript/React untuk jalur b) dan sediakan pengayaan minggu 1–4 tanpa mengubah prasyarat resmi.
+4. Uji kelayakan waktu build/refresh pada kedua target, terutama Flutter web dan Expo Go, agar durasi ujian praktik realistis.
+5. Validasi instrumen dan rubrik terhadap RPS/pedoman prodi; jangan menambah butir atau bobot tanpa revisi kisi-kisi.
+6. Catat versi SDK yang diuji dan bukti reproduksi. Rencana ini **belum diuji menjalankan aplikasi** dan belum disahkan.

@@ -10,7 +10,7 @@
 |---|---|
 | Institusi / program studi | Universitas Widyagama Malang / S1 Teknik Informatika [S]; nama fakultas pada RPS [K]. |
 | MK / kode resmi | Sistem Aplikasi Lintas Platform (+P); KFC-506; 3 SKS; semester 5; wajib konsentrasi MC [S]. |
-| Label jalur | Tidak berlaku; bukan varian KOM-526. |
+| Label jalur | Usulan **dua jalur**: KFC-506a Dart + Flutter ([037](037_PAKET_RPS_SAP_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md)) atau KFC-506b React Native + Expo ([041](041_PAKET_RPS_SAP_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md)); bukan kode KRS. Dokumen ini tetap rencana dasar netral. |
 | Prasyarat | Formal **belum terverifikasi** [K]; usulan FST-102 Algoritma dan Pemrograman dan KOM-311 Pemrograman Berorientasi Objek [U], tidak membatasi KRS sebelum keputusan prodi. |
 | Teori / praktik / PT / BM | Belum ditetapkan [K]; `+P` tidak menentukan T/P. Skenario A/E di bawah hanya simulasi. |
 | Tahun ajaran, kelas, rumpun, nomor dokumen | Belum ditetapkan [K]. |
@@ -21,7 +21,7 @@
 
 **Deskripsi [U]:** Membangun satu basis kode untuk dua target berbeda melalui setup, antarmuka adaptif, aksesibilitas, navigasi/state, penyimpanan lokal dan uji lintas target.
 
-**Fasilitas dan batas [U/K]:** Editor, SDK dan dua target berbeda yang tersedia (contoh browser desktop dan emulator Android); mock lokal, data dummy. R7/R8 hanya contoh jika Flutter dipilih. Persiapan alat, versi, aksesibilitas, bahan offline dan ketersediaan disetujui pengampu. PT/BM serta moda dan durasi penugasan menunggu kebijakan prodi.
+**Fasilitas dan batas [U/K]:** Editor, SDK dan dua target berbeda yang tersedia (contoh browser desktop dan emulator Android); mock lokal, data dummy. R7/R8 hanya contoh jika Flutter dipilih. Bila pengampu memilih jalur teknis, gunakan paket turunan **KFC-506a Dart + Flutter** ([037](037_PAKET_RPS_SAP_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md)) atau **KFC-506b React Native + Expo** ([041](041_PAKET_RPS_SAP_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md)); lihat 010 bagian 14. Persiapan alat, versi, aksesibilitas, bahan offline dan ketersediaan disetujui pengampu. PT/BM serta moda dan durasi penugasan menunggu kebijakan prodi.
 
 ### CPMK dan Sub-CPMK [U]
 
@@ -209,6 +209,8 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 **Pembuka:** Jelaskan ketentuan dan siapkan lingkungan/alat; tidak memberikan petunjuk jawaban saat ujian. **Inti:** Mahasiswa mengerjakan dan mendemonstrasikan instrumen pada bagian 4; pengampu mencatat hasil aktual per butir. **Penutup:** Kumpulkan bukti dan catatan lima cek; umpan balik mengikuti aturan pengampu.
 
 **Bukti:** **UAS: 30%, CPMK04.4.** **Rujukan:** R7, R8. **Instrumen sumatif:** gunakan ketentuan bagian 4; jangan menambah butir berbobot.
+
+**Jalur teknis:** [KFC-506a Dart + Flutter](037_PAKET_RPS_SAP_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) · [KFC-506b React Native + Expo](041_PAKET_RPS_SAP_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md). Dokumen ini adalah rencana dasar netral; jangan mencampur dua jalur dalam satu kelas tanpa keputusan prodi.
 
 **Perangkat rinci:** [outline modul](033_OUTLINE_MODUL_KFC-506_07112026_1332.md) · [rencana evaluasi dan asesmen](034_RENCANA_EVALUASI_ASESMEN_KFC-506_07112026_1332.md) · [rubrik penilaian](035_RUBRIK_PENILAIAN_KFC-506_07112026_1332.md).
 
