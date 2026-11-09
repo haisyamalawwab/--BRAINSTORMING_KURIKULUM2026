@@ -60,25 +60,35 @@ Handoff di bawah **bukan prasyarat formal**. Mahasiswa pada KOM-526 dan KFC-506 
 
 ### 3.2 CPMK dan Sub-CPMK [U]
 
-Setiap rumusan berikut menggunakan kondisi tugas praktikum dan kriteria minimum yang dijabarkan pada instrumen di bagian 3.4. Target 4/5 adalah usulan, bukan ambang resmi.
+> **Rumusan OBE.** Sejak bagian ini, seluruh CPMK dan Sub-CPMK ditulis dengan kerangka **ABCD** dan diberi level **Bloom C2–C6**; ringkasan kerangka, kata kerja, bukti asesmen, pola per MK dan aturan konsistensinya ada pada [bagian 15](#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan ini tidak mengubah bobot maupun lima cek instrumen.
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **menyusun** halaman HTML semantik untuk kasus yang diberikan, termasuk konten dan formulir, dengan memenuhi minimal 4 dari 5 cek Tugas 1. | C3 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **menerapkan** CSS dan tata letak responsif pada halaman yang diberikan, dengan memenuhi minimal 4 dari 5 cek UTS pada dua lebar layar. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **mengimplementasikan** interaksi JavaScript dan validasi masukan sisi klien pada kasus yang diberikan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **membangun dan menguji** halaman web responsif interaktif pada kasus yang disepakati serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
+Setiap rumusan ditulis lengkap dengan kerangka **ABCD** (Audience–Behaviour–Condition–Degree) dan diberi **level Bloom C2–C6**; penjelasan kerangka dan aturan konsistensi ada di bagian 15. Target 4/5 adalah usulan, bukan ambang resmi. Penambahan kolom A–D dan level tidak mengubah bobot maupun lima cek instrumen.
+
+| Kode | CPMK (rumusan lengkap A–D) | Bloom | CPL |
 |---|---|---|---|
-| Sub-CPMK04.1.1 | Menyusun struktur dokumen semantik, heading, konten, gambar dan navigasi. | CPMK04.1 | C3 |
-| Sub-CPMK04.1.2 | Membuat tabel dan formulir berlabel dengan validasi HTML dasar. | CPMK04.1 | C3 |
-| Sub-CPMK04.2.1 | Menerapkan selektor, warna, tipografi dan box model pada kasus. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menggunakan Flexbox dan media query untuk dua lebar layar. | CPMK04.2 | C3 |
-| Sub-CPMK04.3.1 | Menulis variabel, fungsi dan percabangan untuk membaca serta memvalidasi masukan. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menghubungkan elemen halaman dan fungsi dengan DOM/event serta menampilkan hasil. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan HTML, CSS dan JavaScript dasar pada halaman sesuai kasus. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menjalankan dan mencatat pengujian navigasi, interaksi, responsivitas dan perbaikan. | CPMK04.4 | C4 |
+| CPMK04.1 | Mahasiswa mampu **menyusun** halaman HTML semantik yang memuat heading, konten, tabel, gambar, navigasi dan formulir berlabel untuk kasus halaman profil yang disediakan, dengan memenuhi minimal 4 dari 5 cek Tugas 1. | C3 | CPL04 |
+| CPMK04.2 | Mahasiswa mampu **menerapkan** CSS dan tata letak responsif dengan Flexbox serta media query pada halaman HTML yang disediakan, dengan memenuhi minimal 4 dari 5 cek UTS pada dua lebar layar. | C3 | CPL04 |
+| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menganalisis** interaksi JavaScript serta validasi masukan sisi klien pada kasus formulir yang disediakan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 | CPL04 |
+| CPMK04.4 | Mahasiswa mampu **membangun dan menguji** halaman web responsif interaktif beserta dokumentasi hasil uji pada kasus yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+
+| Kode | A | B — Behaviour (kata kerja) | Objek perilaku | C — Condition | D — Degree | Bloom |
+|---|---|---|---|---|---|---|
+| CPMK04.1 | Mahasiswa | menyusun | halaman HTML semantik yang memuat heading, konten, tabel, gambar, navigasi dan formulir berlabel | untuk kasus halaman profil yang disediakan | dengan memenuhi minimal 4 dari 5 cek Tugas 1 | C3 |
+| CPMK04.2 | Mahasiswa | menerapkan | CSS dan tata letak responsif dengan Flexbox serta media query | pada halaman HTML yang disediakan | dengan memenuhi minimal 4 dari 5 cek UTS pada dua lebar layar | C3 |
+| CPMK04.3 | Mahasiswa | mengimplementasikan dan menganalisis | interaksi JavaScript serta validasi masukan sisi klien | pada kasus formulir yang disediakan | dengan minimal 4 dari 5 kasus Tugas 2 lulus | C4 |
+| CPMK04.4 | Mahasiswa | membangun dan menguji | halaman web responsif interaktif beserta dokumentasi hasil uji | pada kasus yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi | C6 |
+
+| Kode | CPMK | A | B — Behaviour (kata kerja) | Objek perilaku | C — Condition | Bloom |
+|---|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Mahasiswa | mengklasifikasikan | elemen HTML semantik dan menjelaskan perannya pada struktur dokumen | untuk kasus halaman profil yang disediakan | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Mahasiswa | membuat | tabel berheader dan formulir berlabel dengan validasi HTML dasar | sesuai kasus yang diberikan | C3 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Mahasiswa | menerapkan | selektor, warna, tipografi dan box model | pada halaman kasus yang disediakan | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Mahasiswa | menggunakan | Flexbox dan media query | untuk dua lebar layar yang ditetapkan | C3 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Mahasiswa | menulis | variabel, fungsi dan percabangan JavaScript | untuk membaca serta memvalidasi masukan pengguna | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Mahasiswa | menganalisis | perilaku masukan valid, kosong dan tidak valid | melalui pengujian formulir pada halaman yang disediakan | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Mahasiswa | mengintegrasikan | HTML, CSS dan JavaScript dasar | pada satu halaman sesuai kasus yang disepakati | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Mahasiswa | mengevaluasi | hasil pengujian navigasi, interaksi dan responsivitas terhadap kriteria yang ditetapkan | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
 
 ### 3.3 Rencana 16 pertemuan [U]
 
@@ -137,23 +147,32 @@ A = skenario 100 menit tatap muka + 170 menit praktik; E = slot evaluasi usulan 
 
 ### 4.2 CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **merancang** kebutuhan, alur dan model data untuk kasus sistem web yang diberikan, dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi. | C6 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **mengimplementasikan** rute dan operasi CRUD server–basis data pada kasus yang diberikan, dengan minimal 4 dari 5 kasus UTS lulus. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **menerapkan dan menguji** autentikasi, pembatasan akses dan validasi server dasar pada aplikasi latihan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** sistem web sesuai rancangan serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+Rumusan memakai kerangka **ABCD** dan level **Bloom C2–C6** (bagian 15). Redaksi kontekstual per jalur a–d ada di bagian 13.1B dan memakai level serta pola yang sama.
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
+| Kode | CPMK (rumusan lengkap A–D) | Bloom | CPL |
 |---|---|---|---|
-| Sub-CPMK04.1.1 | Menganalisis aktor, kebutuhan dan alur kasus yang dapat diuji. | CPMK04.1 | C4 |
-| Sub-CPMK04.1.2 | Merancang entitas, relasi dan keterkaitan kebutuhan–data. | CPMK04.1 | C6 |
-| Sub-CPMK04.2.1 | Mengimplementasikan rute, handler dan respons server sesuai kasus. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menghubungkan operasi create, read, update dan delete dengan penyimpanan data. | CPMK04.2 | C3 |
-| Sub-CPMK04.3.1 | Menerapkan login, logout, sesi dan pembatasan akses berdasarkan peran. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menerapkan validasi server dan penggunaan kueri terparameter pada data masukan. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan rute, data, antarmuka dan akses sesuai rancangan. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menguji alur normal dan kesalahan serta mendokumentasikan hasil dan perbaikan. | CPMK04.4 | C4 |
+| CPMK04.1 | Mahasiswa mampu **merancang** kebutuhan, alur dan model data (aktor, entitas dan relasi) untuk kasus sistem web yang disediakan, dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi. | C6 | CPL04 |
+| CPMK04.2 | Mahasiswa mampu **mengimplementasikan** rute dan operasi CRUD server–basis data pada kasus yang diberikan, dengan minimal 4 dari 5 kasus UTS lulus. | C3 | CPL04 |
+| CPMK04.3 | Mahasiswa mampu **menerapkan dan menguji** autentikasi, pembatasan akses berbasis peran dan validasi server dasar pada aplikasi latihan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 | CPL04 |
+| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** sistem web terintegrasi beserta dokumentasi hasil uji sesuai rancangan yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+
+| Kode | A | B — Behaviour (kata kerja) | Objek perilaku | C — Condition | D — Degree | Bloom |
+|---|---|---|---|---|---|---|
+| CPMK04.1 | Mahasiswa | merancang | kebutuhan, alur dan model data (aktor, entitas dan relasi) | untuk kasus sistem web yang disediakan | dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi | C6 |
+| CPMK04.2 | Mahasiswa | mengimplementasikan | rute dan operasi CRUD server–basis data | pada kasus yang diberikan | dengan minimal 4 dari 5 kasus UTS lulus | C3 |
+| CPMK04.3 | Mahasiswa | menerapkan dan menguji | autentikasi, pembatasan akses berbasis peran dan validasi server dasar | pada aplikasi latihan | dengan minimal 4 dari 5 kasus Tugas 2 lulus | C4 |
+| CPMK04.4 | Mahasiswa | mengintegrasikan dan menguji | sistem web terintegrasi beserta dokumentasi hasil uji | sesuai rancangan yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi | C6 |
+
+| Kode | CPMK | A | B — Behaviour (kata kerja) | Objek perilaku | C — Condition | Bloom |
+|---|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Mahasiswa | mengklasifikasikan | aktor, peran dan alur kasus serta menjelaskan batasannya | sebelum menyusun kebutuhan yang dapat diuji | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Mahasiswa | merancang | entitas, relasi dan keterkaitan kebutuhan–data | untuk kasus sistem web yang disediakan | C6 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Mahasiswa | mengimplementasikan | rute, handler dan respons server | sesuai kasus yang diberikan | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Mahasiswa | menghubungkan | operasi create, read, update dan delete dengan penyimpanan data | menggunakan data dummy | C3 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Mahasiswa | menerapkan | login, logout, sesi dan pembatasan akses berbasis peran | pada aplikasi latihan | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Mahasiswa | menganalisis | masukan tidak valid | lalu menerapkan validasi server dan kueri terparameter pada data masukan aplikasi | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Mahasiswa | mengintegrasikan | rute, data, antarmuka dan akses | sesuai rancangan yang disepakati | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Mahasiswa | mengevaluasi | hasil uji alur normal dan alur kesalahan terhadap kriteria yang ditetapkan | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
 
 ### 4.3 Rencana 16 pertemuan [U]
 
@@ -213,23 +232,32 @@ A dan E mengikuti skenario bersyarat pada bagian 1.2; PT/BM belum ditetapkan. Em
 
 ### 5.2 CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **membangun dan menjalankan** aplikasi sederhana dari satu basis kode pada dua target yang disepakati, dengan minimal 4 dari 5 cek Tugas 1 terpenuhi. | C3 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **menerapkan** antarmuka adaptif dan aksesibel dasar pada dua target kasus yang diberikan, dengan minimal 4 dari 5 cek UTS terpenuhi. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menguji** navigasi, state dan penyimpanan lokal pada kasus aplikasi, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** aplikasi lintas platform sesuai kasus serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+Rumusan memakai kerangka **ABCD** dan level **Bloom C2–C6** (bagian 15). Sub-CPMK 04.1.1–04.4.2 sama untuk jalur netral maupun jalur teknis; redaksi teknis per jalur ada pada paket 037 (Dart + Flutter) dan 041 (React Native + Expo).
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
+| Kode | CPMK (rumusan lengkap A–D) | Bloom | CPL |
 |---|---|---|---|
-| Sub-CPMK04.1.1 | Menyiapkan proyek dan mengidentifikasi kode bersama serta konfigurasi target. | CPMK04.1 | C3 |
-| Sub-CPMK04.1.2 | Menjalankan dan menguji fungsi sederhana pada dua target berbeda. | CPMK04.1 | C3 |
-| Sub-CPMK04.2.1 | Menyusun layout adaptif dan komponen sesuai ukuran serta platform. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menguji label, fokus keyboard dan umpan balik interaksi dasar. | CPMK04.2 | C4 |
-| Sub-CPMK04.3.1 | Mengelola state dan navigasi antarhalaman sesuai kasus. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menyimpan dan memulihkan data lokal serta menangani kegagalan sederhana. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan fitur dari satu basis kode dan menjalankannya pada dua target. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menyusun uji lintas target, mencatat hasil dan keterbatasan serta perbaikan. | CPMK04.4 | C4 |
+| CPMK04.1 | Mahasiswa mampu **membangun dan menjalankan** aplikasi sederhana dari satu basis kode pada dua target yang disepakati pada kasus aplikasi lintas platform yang disediakan, dengan minimal 4 dari 5 cek Tugas 1 terpenuhi. | C3 | CPL04 |
+| CPMK04.2 | Mahasiswa mampu **menerapkan dan menguji** antarmuka adaptif dan aksesibel dasar pada dua target pada kasus yang diberikan, dengan minimal 4 dari 5 cek UTS terpenuhi. | C4 | CPL04 |
+| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menguji** navigasi, state dan penyimpanan lokal pada aplikasi lintas platform pada kasus aplikasi yang disediakan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 | CPL04 |
+| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** aplikasi lintas platform beserta dokumentasi hasil uji sesuai kasus yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+
+| Kode | A | B — Behaviour (kata kerja) | Objek perilaku | C — Condition | D — Degree | Bloom |
+|---|---|---|---|---|---|---|
+| CPMK04.1 | Mahasiswa | membangun dan menjalankan | aplikasi sederhana dari satu basis kode pada dua target yang disepakati | pada kasus aplikasi lintas platform yang disediakan | dengan minimal 4 dari 5 cek Tugas 1 terpenuhi | C3 |
+| CPMK04.2 | Mahasiswa | menerapkan dan menguji | antarmuka adaptif dan aksesibel dasar pada dua target | pada kasus yang diberikan | dengan minimal 4 dari 5 cek UTS terpenuhi | C4 |
+| CPMK04.3 | Mahasiswa | mengimplementasikan dan menguji | navigasi, state dan penyimpanan lokal pada aplikasi lintas platform | pada kasus aplikasi yang disediakan | dengan minimal 4 dari 5 kasus Tugas 2 lulus | C4 |
+| CPMK04.4 | Mahasiswa | mengintegrasikan dan menguji | aplikasi lintas platform beserta dokumentasi hasil uji | sesuai kasus yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi | C6 |
+
+| Kode | CPMK | A | B — Behaviour (kata kerja) | Objek perilaku | C — Condition | Bloom |
+|---|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Mahasiswa | mengklasifikasikan | bagian kode bersama dan konfigurasi tiap target serta menjelaskan perannya | pada proyek yang disiapkan pengampu | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Mahasiswa | menjalankan dan menguji | fungsi sederhana | pada dua target berbeda dari satu basis kode | C3 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Mahasiswa | menyusun | layout adaptif dan komponen | sesuai ukuran dan platform target | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Mahasiswa | menguji | label, fokus keyboard dan umpan balik interaksi dasar | pada target yang mendukung | C4 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Mahasiswa | mengelola | state dan navigasi antarhalaman | sesuai kasus aplikasi | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Mahasiswa | menganalisis | kegagalan penyimpanan | lalu menyimpan dan memulihkan data lokal pada kedua target yang diuji | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Mahasiswa | mengintegrasikan | fitur dari satu basis kode | dan menjalankannya pada dua target | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Mahasiswa | mengevaluasi | hasil uji lintas target dan keterbatasan platform terhadap kriteria yang ditetapkan | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
 
 ### 5.3 Rencana 16 pertemuan [U]
 
@@ -275,13 +303,13 @@ A dan E mengikuti skenario bersyarat pada bagian 1.2; PT/BM belum ditetapkan. Du
 
 ## 6. Matriks keterlacakan asesmen usulan
 
-Kode CPMK pada setiap baris merujuk ke MK di kolom pertama. Nilai dalam tabel adalah **bobot instrumen terhadap nilai akhir MK**, bukan persentase ketercapaian CPL.
+Kode CPMK pada setiap baris merujuk ke MK di kolom pertama. Nilai dalam tabel adalah **bobot instrumen terhadap nilai akhir MK**, bukan persentase ketercapaian CPL. Level Bloom dalam tanda kurung mengikuti rumusan ABCD pada bagian 3.2/4.2/5.2 serta bagian 15; kode level tidak menambah bobot.
 
 | MK | CPMK04.1 / T1 pekan 4 | CPMK04.2 / UTS pekan 8 | CPMK04.3 / T2 pekan 12 | CPMK04.4 / UAS pekan 16 | Total |
 |---|---:|---:|---:|---:|---:|
-| KOM-312 | 20% | 25% | 25% | 30% | 100% |
-| KOM-526 | 20% | 25% | 25% | 30% | 100% |
-| KFC-506 | 20% | 25% | 25% | 30% | 100% |
+| KOM-312 | 20% (C3) | 25% (C3) | 25% (C4) | 30% (C6) | 100% |
+| KOM-526 | 20% (C6) | 25% (C3) | 25% (C4) | 30% (C6) | 100% |
+| KFC-506 | 20% (C3) | 25% (C4) | 25% (C4) | 30% (C6) | 100% |
 
 Setiap instrumen berisi lima butir minimum yang dinyatakan pada bagian MK masing-masing, masing-masing 20% dari skor instrumen. Target 4/5 adalah **rencana demonstrasi**; keputusan ketuntasan, teknik sampling, rubrik lebih rinci dan agregasi CPL tetap menunggu ketentuan prodi. Formatif dan diagnostik tidak menambah bobot sumatif. Bukti hasil individu tetap diperlukan untuk kerja kelompok.
 
@@ -751,3 +779,43 @@ Rencana mingguan, SAP 16 pertemuan dan tabel 14 modul untuk masing-masing jalur 
 4. Uji kelayakan waktu build/refresh pada kedua target, terutama Flutter web dan Expo Go, agar durasi ujian praktik realistis.
 5. Validasi instrumen dan rubrik terhadap RPS/pedoman prodi; jangan menambah butir atau bobot tanpa revisi kisi-kisi.
 6. Catat versi SDK yang diuji dan bukti reproduksi. Rencana ini **belum diuji menjalankan aplikasi** dan belum disahkan.
+
+---
+
+## 15. Taksonomi Bloom C2–C6 dan rumusan ABCD pada RPS [U]
+
+**Status [U]:** kerangka ini adalah **usulan penyusun berbasis praktik OBE**, bukan kutipan buku KPT Teknik Informatika UWG. Pemeriksaan dokumen sumber tidak menemukan tabel taksonomi Bloom dan CPL04 tidak diberi kode Bloom di sana; pemetaan level adalah tafsiran atas kata kerja CPL04 (*menganalisis*; *merancang, mengimplementasikan, menguji, mengintegrasikan, memelihara*) dan harus disahkan prodi/RMK.
+
+**ABCD.** Setiap capaian ditulis lengkap agar terukur: **A** *Audience* — selalu "Mahasiswa"; **B** *Behaviour* — satu kata kerja terukur sesuai level Bloom; **C** *Condition* — kasus, alat, batasan atau konteks pengerjaan; **D** *Degree* — ambang ketercapaian. Pada rancangan ini **D diseragamkan: minimal 4 dari 5 cek instrumen terpenuhi** (target usulan, bukan standar kelulusan) dan **C** memuat kasus/alat yang memang sudah ditetapkan pada instrumen terkait.
+
+**Level yang dipakai: C2, C3, C4, C5, C6.** C1 (mengingat) tidak dijadikan capaian MK karena bukan bukti kompetensi lulusan.
+
+| Level | Proses kognitif | Kata kerja operasional | Bukti/asesmen yang cocok | Penempatan pada RPS |
+|---|---|---|---|---|
+| **C2** | Memahami | mengklasifikasikan, menjelaskan, membandingkan, mengilustrasikan, merangkum, memberi contoh | penjelasan lisan/tertulis, diagram, kuis/tanya jawab formatif | pekan 1–3: menjelaskan peran, alur dan istilah teknis (formatif) |
+| **C3** | Menerapkan | menerapkan, menggunakan, mengimplementasikan, menjalankan, membuat, menyusun | unjuk kerja, kode/produk berjalan, studi kasus terarah | pekan 2–12: praktik terbimbing serta T1/UTS/T2 |
+| **C4** | Menganalisis | menganalisis, membedakan, menelusuri, memeriksa, menguji, mendiagnosis | analisis kebutuhan, laporan uji, tabel hasil diharapkan vs aktual | pekan 3–15: analisis kebutuhan, pengujian dan diagnosis kegagalan |
+| **C5** | Mengevaluasi | mengevaluasi, menilai, memvalidasi, mengkritisi, memilih, memutuskan | justifikasi prioritas perbaikan, reviu hasil uji terhadap kriteria | pekan 15–16: menilai hasil uji dan memilih prioritas perbaikan |
+| **C6** | Menciptakan | merancang, membangun, menyusun, mengintegrasikan, mengembangkan, memproduksi | produk/proyek terintegrasi, rancangan, dokumentasi, demonstrasi | pekan 4 dan 13–16: rancangan T1 dan integrasi UAS |
+
+**Pola level per MK dan instrumen [U]:**
+
+| MK | CPMK04.1 (T1) | CPMK04.2 (UTS) | CPMK04.3 (T2) | CPMK04.4 (UAS) | Sub-CPMK C2 | Sub-CPMK C5 |
+|---|---|---|---|---|---|---|
+| KOM-312 | C3 | C3 | C4 | C6 | 04.1.1 | 04.4.2 |
+| KOM-526 (a–d) | C6 | C3 | C4 | C6 | 04.1.1 | 04.4.2 |
+| KFC-506 (netral, a, b) | C3 | C4 | C4 | C6 | 04.1.1 | 04.4.2 |
+
+Dengan pola ini **kelima level C2–C6 benar-benar muncul pada capaian**: C2 pada Sub-CPMK pengantar yang diukur formatif, C3 pada penerapan alat dan prosedur, C4 pada pengujian/analisis, C5 pada Sub-CPMK 04.4.2 (mengevaluasi hasil uji dan memilih prioritas perbaikan, dinilai di dalam lima cek UAS/T2), dan C6 pada perancangan serta integrasi. Tidak ada CPMK yang levelnya lebih rendah daripada Sub-CPMK turunannya.
+
+**Aturan konsistensi** (dapat diperiksa pada tabel CPMK/Sub-CPMK bagian 3.2, 4.2, 5.2 dan setiap paket 012–017/037/041):
+
+1. **Level Sub-CPMK tidak melebihi level CPMK-nya**, dan setiap CPMK memiliki Sub-CPMK pada level yang sama atau lebih rendah.
+2. **Level tertinggi CPMK tercermin pada instrumennya**: CPMK C6 dinilai melalui produk/rancangan, bukan kuis; C5 dinilai melalui justifikasi prioritas perbaikan, bukan sekadar melaporkan hasil uji.
+3. **Kata kerja pada tabel level dipakai konsisten**; kata kerja kabur ("memahami", "mengetahui", "mengerti") tidak dipakai pada rumusan capaian, meskipun nama levelnya "Memahami".
+4. **Setiap Sub-CPMK terlacak** ke satu CPMK, satu instrumen dan satu pekan pada tabel 16 minggu.
+5. **ABCD bukan butir penilaian baru**: bobot T1/UTS/T2/UAS (20/25/25/30), lima cek biner per instrumen dan target ≥4/5 tidak berubah.
+
+**Telaah C5 [K]:** C5 melekat pada Sub-CPMK 04.4.2 dan dinilai sebagai bagian cek UAS/T2 yang sudah ada, bukan butir berbobot baru. Bila prodi menghendaki C5 sebagai CPMK tersendiri dengan instrumen terpisah, revisi kisi-kisi, rubrik dan bobot lebih dahulu dan sahkan sebelum perkuliahan. Bila prodi memakai versi taksonomi lain (misalnya Bloom lama atau level C1–C6 penuh), sesuaikan tabel ini dan seluruh rumusan capaian agar tetap konsisten.
+
+**R19 — Taksonomi Bloom dan ABCD:** Anderson & Krathwohl (eds.), *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives* (Longman, 2001) untuk dimensi proses kognitif C1–C6; struktur ABCD mengikuti praktik penyusunan capaian OBE. Rujukan ini **usulan penyusun**, bukan daftar pustaka resmi prodi.

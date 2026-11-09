@@ -11,7 +11,7 @@ Gunakan lima cek untuk setiap instrumen; masing-masing **20% dari skor instrumen
 
 Untuk UTS/T2/UAS, cek terkait dibuktikan menggunakan PHP prosedural dan PDO; endpoint/handler berupa file/fungsi. T1 menilai rancangan, bukan kode; kondisi ini bukan cek berbobot tambahan.
 
-### Tugas 1, pekan 4 — 04.1 / 20%
+### Tugas 1, pekan 4 — 04.1 / 20% · Bloom C6
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -21,7 +21,7 @@ Untuk UTS/T2/UAS, cek terkait dibuktikan menggunakan PHP prosedural dan PDO; end
 | 4. minimal dua entitas dan relasinya terdefinisi. | 20% | Kategori dan barang (atau dua entitas setara) serta relasinya terdefinisi. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. kebutuhan terhubung ke data/alur. | 20% | Keterkaitan kebutuhan dengan data/alur tampak. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 
-### UTS, pekan 8 — 04.2 / 25%
+### UTS, pekan 8 — 04.2 / 25% · Bloom C3
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -31,7 +31,7 @@ Untuk UTS/T2/UAS, cek terkait dibuktikan menggunakan PHP prosedural dan PDO; end
 | 4. delete. | 20% | Barang terhapus dan tidak lagi tersedia. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. permintaan untuk data yang tidak ditemukan ditangani. | 20% | Respons atau pesan tidak ditemukan ditangani. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 
-### Tugas 2, pekan 12 — 04.3 / 25%
+### Tugas 2, pekan 12 — 04.3 / 25% · Bloom C4
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -41,7 +41,7 @@ Untuk UTS/T2/UAS, cek terkait dibuktikan menggunakan PHP prosedural dan PDO; end
 | 4. logout mengakhiri akses sesi. | 20% | Browser yang diuji tidak lagi memperoleh akses terlindungi. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. masukan invalid ditolak server dan data diproses dengan kueri terparameter. | 20% | Masukan invalid ditolak server dan nilai query diparameterisasi. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 
-### UAS, pekan 16 — 04.4 / 30%
+### UAS, pekan 16 — 04.4 / 30% · Bloom C6
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -50,6 +50,10 @@ Untuk UTS/T2/UAS, cek terkait dibuktikan menggunakan PHP prosedural dan PDO; end
 | 3. pembatasan akses bekerja. | 20% | Pembatasan akses sesuai peran bekerja. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 4. alur salah ditangani dan dicatat. | 20% | Kegagalan ditangani dan dicatat. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. petunjuk lokal, hasil uji dan perbaikan tersedia. | 20% | Ketiganya tersedia dan dapat dijelaskan. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
+
+## Pemetaan level Bloom [U]
+
+Level tiap instrumen mengikuti CPMK yang dinilai: lihat tabel peta evaluasi pada paket [013](013_PAKET_RPS_SAP_ASESMEN_KOM-526A_SISTEM_APLIKASI_WEB_PHP_NATIVE_07112026_1328.md). Rubrik ini **tidak menambah bobot atau butir**: level menjelaskan kognisi yang dibuktikan, sedangkan penilaian tetap biner 100/0 pada lima cek (20% per cek) dengan target usulan ≥4/5. Rujukan kerangka dan kata kerja ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 ## Formatif, rekap dan CQI
 

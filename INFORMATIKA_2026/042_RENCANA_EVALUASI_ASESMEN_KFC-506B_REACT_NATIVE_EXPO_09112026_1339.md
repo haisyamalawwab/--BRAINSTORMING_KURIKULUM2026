@@ -10,17 +10,17 @@ Kasus: daftar perlengkapan dummy dengan satu basis kode; dua target berbeda adal
 
 ## Matriks asesmen dan ketentuan
 
-| Instrumen | Pekan | CPMK | Bobot MK | Teknik/bukti |
-|---|---:|---|---:|---|
-| Tugas 1 | 4 | 04.1 | 20% | Produk/rancangan dan penjelasan sesuai kasus |
-| UTS | 8 | 04.2 | 25% | Unjuk kerja/ujian praktik dan hasil uji |
-| Tugas 2 | 12 | 04.3 | 25% | Unjuk kerja dan lima hasil uji |
-| UAS | 16 | 04.4 | 30% | Produk terintegrasi, demonstrasi dan hasil uji |
-| **Total** | | | **100%** | |
+| Instrumen | Pekan | CPMK | Bloom | Bobot MK | Teknik/bukti |
+|---|---:|---|---|---:|---|
+| Tugas 1 | 4 | 04.1 | C3 | 20% | Produk/rancangan dan penjelasan sesuai kasus |
+| UTS | 8 | 04.2 | C4 | 25% | Unjuk kerja/ujian praktik dan hasil uji |
+| Tugas 2 | 12 | 04.3 | C4 | 25% | Unjuk kerja dan lima hasil uji |
+| UAS | 16 | 04.4 | C6 | 30% | Produk terintegrasi, demonstrasi dan hasil uji |
+| **Total** | | | | **100%** | |
 
 Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputusan resmi. Contoh input dapat disesuaikan pengampu sebelum diberitahukan kepada mahasiswa; jangan menambah butir atau bobot tanpa revisi kisi-kisi. Durasi, moda, individu/kelompok, akses alat, penyerahan dan remedial [K] diputuskan prodi/pengampu. Proyek kelompok tetap menyertakan penjelasan individu. Data harus dummy/berizin; jangan menyimpan rahasia atau data pribadi nyata pada penyimpanan lokal.
 
-### Tugas 1, pekan 4 — 04.1 / 20%
+### Tugas 1, pekan 4 — 04.1 / 20% · Bloom C3
 
 **Instruksi mahasiswa:** Siapkan proyek React Native + Expo dengan satu aksi sederhana pada dua target (web dan Android); serahkan kode bersama, konfigurasi, petunjuk menjalankan dan bukti berjalan pada masing-masing target.
 
@@ -34,7 +34,7 @@ Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputu
 | 4 | aksi yang sama berjalan di target Android. | Lakukan aksi tambah yang sama di target Android. | Aksi bekerja sesuai kasus di target Android. | Diisi penilai |
 | 5 | kode bersama dan konfigurasi dua target dapat ditunjukkan. | Tunjukkan direktori `app`, `package.json` dan konfigurasi kedua target. | Satu basis kode React Native dan konfigurasi target web/Android dapat ditunjukkan. | Diisi penilai |
 
-### UTS, pekan 8 — 04.2 / 25%
+### UTS, pekan 8 — 04.2 / 25% · Bloom C4
 
 **Instruksi mahasiswa:** Buat UI adaptif pada dua target dan buktikan label aksesibilitas, fokus/pembaca layar pada target yang mendukung, serta umpan balik interaksi sesuai lima cek.
 
@@ -48,7 +48,7 @@ Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputu
 | 4 | fokus/pembaca layar diuji pada target yang mendukung. | Uji fokus keyboard di web dan TalkBack di Android; catat hasilnya. | Hasil pengujian fokus/pembaca layar tercatat. | Diisi penilai |
 | 5 | interaksi memberi umpan balik yang jelas di kedua target. | Lakukan aksi tambah atau hapus dan amati umpan balik pada kedua target. | Umpan balik interaksi terlihat jelas di kedua target. | Diisi penilai |
 
-### Tugas 2, pekan 12 — 04.3 / 25%
+### Tugas 2, pekan 12 — 04.3 / 25% · Bloom C4
 
 **Instruksi mahasiswa:** Bangun navigasi, state dan penyimpanan lokal dengan penanganan data invalid/kegagalan; serahkan proyek dan lima uji, termasuk pemulihan setelah aplikasi dibuka ulang.
 
@@ -62,7 +62,7 @@ Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputu
 | 4 | data dipulihkan saat aplikasi dibuka ulang. | Tutup dan buka ulang aplikasi pada target yang diuji. | Data dummy dipulihkan. | Diisi penilai |
 | 5 | kegagalan penyimpanan atau data invalid memberi pesan yang dapat dipahami. | Kirim stok negatif atau simulasikan kegagalan penyimpanan. | Pesan yang dapat dipahami ditampilkan. | Diisi penilai |
 
-### UAS, pekan 16 — 04.4 / 30%
+### UAS, pekan 16 — 04.4 / 30% · Bloom C6
 
 **Instruksi mahasiswa:** Integrasikan aplikasi satu basis kode pada dua target; serahkan proyek, petunjuk, hasil uji lintas target, keterbatasan, perbaikan dan demonstrasi individu.
 

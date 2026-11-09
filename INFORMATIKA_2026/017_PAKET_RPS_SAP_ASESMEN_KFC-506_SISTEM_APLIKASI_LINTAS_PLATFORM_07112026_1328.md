@@ -25,23 +25,64 @@
 
 ### CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **membangun dan menjalankan** aplikasi sederhana dari satu basis kode pada dua target yang disepakati, dengan minimal 4 dari 5 cek Tugas 1 terpenuhi. | C3 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **menerapkan** antarmuka adaptif dan aksesibel dasar pada dua target kasus yang diberikan, dengan minimal 4 dari 5 cek UTS terpenuhi. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menguji** navigasi, state dan penyimpanan lokal pada kasus aplikasi, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** aplikasi lintas platform sesuai kasus serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+**Rumusan ABCD dan level Bloom [U].** Setiap capaian ditulis lengkap (Audience–Behaviour–Condition–Degree) dan diberi level Bloom C2–C6. Kerangka, kata kerja, bukti asesmen dan aturan konsistensinya ada di [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan kolom ini **tidak mengubah** bobot maupun lima cek instrumen.
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
-|---|---|---|---|
-| Sub-CPMK04.1.1 | Menyiapkan proyek dan mengidentifikasi kode bersama serta konfigurasi target. | CPMK04.1 | C3 |
-| Sub-CPMK04.1.2 | Menjalankan dan menguji fungsi sederhana pada dua target berbeda. | CPMK04.1 | C3 |
-| Sub-CPMK04.2.1 | Menyusun layout adaptif dan komponen sesuai ukuran serta platform. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menguji label, fokus keyboard dan umpan balik interaksi dasar. | CPMK04.2 | C4 |
-| Sub-CPMK04.3.1 | Mengelola state dan navigasi antarhalaman sesuai kasus. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menyimpan dan memulihkan data lokal serta menangani kegagalan sederhana. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan fitur dari satu basis kode dan menjalankannya pada dua target. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menyusun uji lintas target, mencatat hasil dan keterbatasan serta perbaikan. | CPMK04.4 | C4 |
+**CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | Rumusan lengkap (A–D) dan level Bloom | Bloom |
+|---|---|---|
+| CPMK04.1 | Mahasiswa mampu **membangun dan menjalankan** aplikasi sederhana dari satu basis kode pada dua target yang disepakati pada kasus aplikasi lintas platform yang disediakan, dengan minimal 4 dari 5 cek Tugas 1 terpenuhi. | C3 |
+| CPMK04.2 | Mahasiswa mampu **menerapkan dan menguji** antarmuka adaptif dan aksesibel dasar pada dua target pada kasus yang diberikan, dengan minimal 4 dari 5 cek UTS terpenuhi. | C4 |
+| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menguji** navigasi, state dan penyimpanan lokal pada aplikasi lintas platform pada kasus aplikasi yang disediakan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 |
+| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** aplikasi lintas platform beserta dokumentasi hasil uji sesuai kasus yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 |
+
+| Kode | A — Audience | B — Behaviour | C — Condition | D — Degree |
+|---|---|---|---|---|
+| CPMK04.1 | Mahasiswa | membangun dan menjalankan | pada kasus aplikasi lintas platform yang disediakan | dengan minimal 4 dari 5 cek Tugas 1 terpenuhi |
+| CPMK04.2 | Mahasiswa | menerapkan dan menguji | pada kasus yang diberikan | dengan minimal 4 dari 5 cek UTS terpenuhi |
+| CPMK04.3 | Mahasiswa | mengimplementasikan dan menguji | pada kasus aplikasi yang disediakan | dengan minimal 4 dari 5 kasus Tugas 2 lulus |
+| CPMK04.4 | Mahasiswa | mengintegrasikan dan menguji | sesuai kasus yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi |
+
+**Sub-CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | CPMK | A — Audience | B — Behaviour | C — Condition | Bloom |
+|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Sub-CPMK04.1.1 | Mahasiswa | mengklasifikasikan | pada proyek yang disiapkan pengampu | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Sub-CPMK04.1.2 | Mahasiswa | menjalankan dan menguji | pada dua target berbeda dari satu basis kode | C3 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Sub-CPMK04.2.1 | Mahasiswa | menyusun | sesuai ukuran dan platform target | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Sub-CPMK04.2.2 | Mahasiswa | menguji | pada target yang mendukung | C4 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Sub-CPMK04.3.1 | Mahasiswa | mengelola | sesuai kasus aplikasi | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Sub-CPMK04.3.2 | Mahasiswa | menganalisis | lalu menyimpan dan memulihkan data lokal pada kedua target yang diuji | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Sub-CPMK04.4.1 | Mahasiswa | mengintegrasikan | dan menjalankannya pada dua target | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Sub-CPMK04.4.2 | Mahasiswa | mengevaluasi | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
+
+### Taksonomi Bloom C2–C6 dan rumusan ABCD pada RPS [U]
+
+**Status [U]:** kerangka ini adalah **usulan penyusun berbasis praktik OBE**, bukan kutipan buku KPT Teknik Informatika UWG. Pemeriksaan dokumen sumber tidak menemukan tabel taksonomi Bloom dan CPL04 tidak diberi kode Bloom di sana; pemetaan level adalah tafsiran atas kata kerja CPL04 (*menganalisis*; *merancang, mengimplementasikan, menguji, mengintegrasikan, memelihara*) dan harus disahkan prodi/RMK.
+
+**ABCD.** Setiap capaian ditulis lengkap agar terukur: **A** *Audience* — selalu "Mahasiswa"; **B** *Behaviour* — satu kata kerja terukur sesuai level Bloom; **C** *Condition* — kasus, alat, batasan atau konteks pengerjaan; **D** *Degree* — ambang ketercapaian. Pada rancangan ini **D diseragamkan: minimal 4 dari 5 cek instrumen terpenuhi** (target usulan, bukan standar kelulusan) dan **C** memuat kasus/alat yang memang sudah ditetapkan pada instrumen terkait.
+
+**Level yang dipakai: C2, C3, C4, C5, C6.** C1 (mengingat) tidak dijadikan capaian MK karena bukan bukti kompetensi lulusan.
+
+| Level | Proses kognitif | Kata kerja operasional | Bukti/asesmen yang cocok | Penempatan pada RPS |
+|---|---|---|---|---|
+| **C2** | Memahami | menjelaskan, mengklasifikasikan, membandingkan, mengilustrasikan, merangkum, memberi contoh | penjelasan lisan/tertulis, diagram, kuis/tanya jawab formatif | pekan 1–3: menjelaskan alur, peran dan istilah teknis (formatif) |
+| **C3** | Menerapkan | menerapkan, menggunakan, mengimplementasikan, menjalankan, membuat, menyusun | unjuk kerja, kode/produk berjalan, studi kasus terarah | pekan 2–12: praktik terbimbing serta T1/UTS/T2 |
+| **C4** | Menganalisis | menganalisis, membedakan, menelusuri, memeriksa, menguji, mendiagnosis | analisis kebutuhan, laporan uji, tabel hasil diharapkan vs aktual | pekan 3–15: analisis kebutuhan dan diagnosis kegagalan |
+| **C5** | Mengevaluasi | menilai, memvalidasi, mengkritisi, memilih, memutuskan, membandingkan dengan kriteria | justifikasi perbaikan berprioritas, reviu hasil uji terhadap kriteria | pekan 15–16: menilai hasil uji dan memilih perbaikan (masuk lima cek UAS) |
+| **C6** | Menciptakan | merancang, membangun, menyusun, mengintegrasikan, mengembangkan, memproduksi | produk/proyek terintegrasi, rancangan, dokumentasi, demonstrasi | pekan 4 dan 13–16: rancangan T1 dan integrasi UAS |
+
+**Pola capaian pada rancangan ini:** T1 = **C6** untuk perancangan (KOM-526/KFC-506) atau **C3** untuk penyusunan artefak terarah (KOM-312); UTS dan T2 = **C3–C4** (menerapkan serta menganalisis/menguji); **UAS = C6** (mengintegrasikan) dengan **C5** dinilai di dalam lima cek UAS melalui penilaian hasil uji dan pemilihan perbaikan. Dengan pola ini kelima level C2–C6 terpakai: C2 secara formatif pada pekan awal, C3 pada penerapan alat, C4 pada analisis dan pengujian, C5 pada evaluasi hasil uji, C6 pada perancangan dan integrasi.
+
+**Aturan konsistensi** (dapat diperiksa pada tabel CPMK/Sub-CPMK setiap paket):
+
+1. **Level Sub-CPMK tidak melebihi level CPMK-nya**, dan setiap CPMK memiliki Sub-CPMK pada level yang sama atau lebih rendah.
+2. **Level tertinggi CPMK tercermin pada instrumennya**: CPMK berlevel C6 dinilai melalui produk/rancangan, bukan kuis; C5 dinilai melalui justifikasi perbaikan, bukan sekadar melaporkan hasil.
+3. **Kata kerja pada tabel level dipakai konsisten**; kata kerja kabur ("memahami", "mengetahui", "mengerti") tidak dipakai pada rumusan capaian.
+4. **Setiap Sub-CPMK terlacak** ke satu CPMK, satu instrumen dan satu pekan pada tabel 16 minggu.
+5. **ABCD bukan butir penilaian baru**: bobot T1/UTS/T2/UAS (20/25/25/30), lima cek biner per instrumen dan target ≥4/5 tidak berubah.
+
+**Telaah C5 [K]:** C5 pada rancangan ini melekat pada Sub-CPMK 04.4.2 (mengevaluasi hasil uji dan memilih perbaikan) dan dinilai sebagai bagian cek UAS/T2 yang sudah ada, bukan butir berbobot baru. Bila prodi menghendaki C5 sebagai CPMK tersendiri dengan instrumen terpisah, revisi kisi-kisi, rubrik dan bobot lebih dahulu dan sahkan sebelum perkuliahan.
 
 ### Peta evaluasi [U]
 
@@ -57,26 +98,26 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ### Rencana mingguan RPS — 8 kolom [U]
 
-`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Pustaka sesuai daftar di bagian 5.
+`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Kolom **Bloom** mengikuti level Sub-CPMK yang dinilai minggu tersebut (010 bagian 15); level bukan bobot tambahan. Pustaka sesuai daftar di bagian 5.
 
-| Minggu | Sub-CPMK | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
-|---:|---|---|---|---|---|---|---:|
-| 1 | 04.1.1 | Mahasiswa menjelaskan satu basis kode dan dua target yang direncanakan. | Observasi dan umpan balik formatif; tanpa bobot. | Diskusi, demonstrasi — A | Diagnostik pemrograman; konsep basis kode bersama dan dua target. | R7 | 0% |
-| 2 | 04.1.1 | Proyek dan konfigurasi untuk dua target dapat disiapkan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Menyiapkan proyek dan konfigurasi dua target. | R7 | 0% |
-| 3 | 04.1.2 | Aksi sederhana dijalankan pada kedua target. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Menjalankan contoh, input sederhana dan perbedaan target. | R7 | 0% |
-| 4 | 04.1.1, 04.1.2 | Lima cek basis kode/aksi pada dua target Tugas 1 dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Menyerahkan contoh satu basis kode dan demonstrasi dua target. | R7 | 20% |
-| 5 | 04.2.1 | Layout dan komponen menyesuaikan target yang disepakati. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Layout adaptif dan komponen lintas platform. | R7 | 0% |
-| 6 | 04.2.1 | Perbedaan ukuran/kemampuan target dicatat bersama hasil uji layout. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, diskusi — A | Adaptasi ukuran, orientasi dan batas kemampuan target. | R7 | 0% |
-| 7 | 04.2.2 | Label, fokus dan umpan balik dasar diuji sesuai kemampuan target. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Label, fokus keyboard, umpan balik dan uji aksesibilitas dasar. | R7, R9 | 0% |
-| 8 | 04.2.1, 04.2.2 | Lima cek UI adaptif dan aksesibilitas dasar UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | Evaluasi antarmuka adaptif pada dua target. | R7, R9 | 25% |
-| 9 | 04.3.1 | Aksi mengubah state dan tampilan sesuai contoh. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | State, perubahan data dan pemutakhiran tampilan. | R8 | 0% |
-| 10 | 04.3.1 | Navigasi maju/kembali mempertahankan state sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Navigasi antarhalaman dan konsistensi state. | R8 | 0% |
-| 11 | 04.3.2 | Data lokal dipulihkan pada kondisi yang diuji dan kesalahan ditangani. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, studi kasus — A | Penyimpanan lokal, pemulihan data dan penanganan kesalahan. | R8 | 0% |
-| 12 | 04.3.1, 04.3.2 | Lima kasus state, navigasi dan persistensi Tugas 2 dicatat. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Penyelesaian fitur state/navigasi dan data lokal. | R8 | 25% |
-| 13 | 04.4.1 | Rancangan proyek menunjukkan kasus dan fitur bersama. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, praktik — A | Rancang kasus proyek dan integrasi fitur satu basis kode. | R7, R8 | 0% |
-| 14 | 04.4.1 | Fitur terintegrasi berjalan pada dua target berbeda. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Adaptasi proyek untuk dua target; mock lokal opsional. | R7, R8 | 0% |
-| 15 | 04.4.2 | Matriks hasil uji, perbedaan target dan perbaikan tersedia. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Uji lintas target, dokumentasi perbedaan dan perbaikan. | R7, R8 | 0% |
-| 16 | 04.4.1, 04.4.2 | Lima cek integrasi lintas target dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | Demonstrasi dua target, hasil uji dan penjelasan individu. | R7, R8 | 30% |
+| Minggu | Sub-CPMK | Bloom | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
+|---:|---|---|---|---|---|---|---|---:|
+| 1 | 04.1.1 | C2 | Mahasiswa menjelaskan satu basis kode dan dua target yang direncanakan. | Observasi dan umpan balik formatif; tanpa bobot. | Diskusi, demonstrasi — A | Diagnostik pemrograman; konsep basis kode bersama dan dua target. | R7 | 0% |
+| 2 | 04.1.1 | C2 | Proyek dan konfigurasi untuk dua target dapat disiapkan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Menyiapkan proyek dan konfigurasi dua target. | R7 | 0% |
+| 3 | 04.1.2 | C3 | Aksi sederhana dijalankan pada kedua target. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Menjalankan contoh, input sederhana dan perbedaan target. | R7 | 0% |
+| 4 | 04.1.1, 04.1.2 | C3 | Lima cek basis kode/aksi pada dua target Tugas 1 dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Menyerahkan contoh satu basis kode dan demonstrasi dua target. | R7 | 20% |
+| 5 | 04.2.1 | C3 | Layout dan komponen menyesuaikan target yang disepakati. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Layout adaptif dan komponen lintas platform. | R7 | 0% |
+| 6 | 04.2.1 | C3 | Perbedaan ukuran/kemampuan target dicatat bersama hasil uji layout. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, diskusi — A | Adaptasi ukuran, orientasi dan batas kemampuan target. | R7 | 0% |
+| 7 | 04.2.2 | C4 | Label, fokus dan umpan balik dasar diuji sesuai kemampuan target. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Label, fokus keyboard, umpan balik dan uji aksesibilitas dasar. | R7, R9 | 0% |
+| 8 | 04.2.1, 04.2.2 | C4 | Lima cek UI adaptif dan aksesibilitas dasar UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | Evaluasi antarmuka adaptif pada dua target. | R7, R9 | 25% |
+| 9 | 04.3.1 | C3 | Aksi mengubah state dan tampilan sesuai contoh. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | State, perubahan data dan pemutakhiran tampilan. | R8 | 0% |
+| 10 | 04.3.1 | C3 | Navigasi maju/kembali mempertahankan state sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Navigasi antarhalaman dan konsistensi state. | R8 | 0% |
+| 11 | 04.3.2 | C4 | Data lokal dipulihkan pada kondisi yang diuji dan kesalahan ditangani. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, studi kasus — A | Penyimpanan lokal, pemulihan data dan penanganan kesalahan. | R8 | 0% |
+| 12 | 04.3.1, 04.3.2 | C4 | Lima kasus state, navigasi dan persistensi Tugas 2 dicatat. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Penyelesaian fitur state/navigasi dan data lokal. | R8 | 25% |
+| 13 | 04.4.1 | C6 | Rancangan proyek menunjukkan kasus dan fitur bersama. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, praktik — A | Rancang kasus proyek dan integrasi fitur satu basis kode. | R7, R8 | 0% |
+| 14 | 04.4.1 | C6 | Fitur terintegrasi berjalan pada dua target berbeda. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Adaptasi proyek untuk dua target; mock lokal opsional. | R7, R8 | 0% |
+| 15 | 04.4.2 | C5 | Matriks hasil uji, perbedaan target dan perbaikan tersedia. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Uji lintas target, dokumentasi perbedaan dan perbaikan. | R7, R8 | 0% |
+| 16 | 04.4.1, 04.4.2 | C6 | Lima cek integrasi lintas target dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | Demonstrasi dua target, hasil uji dan penjelasan individu. | R7, R8 | 30% |
 
 ## 2. SAP — Satuan Acara Pertemuan [U]
 
@@ -216,24 +257,24 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ## 3. Outline modul dan praktikum — 14 topik [U]
 
-Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
+Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Kolom Bloom mengikuti level Sub-CPMK minggu tersebut atau level CPMK pada minggu instrumen (010 bagian 15). Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
 
-| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Rujukan |
-|---:|---:|---|---|---|
-| 1 | 1 | Diagnostik pemrograman; konsep basis kode bersama dan dua target. | Formatif: daftar kebutuhan alat dan kemampuan awal. | R7 |
-| 2 | 2 | Menyiapkan proyek dan konfigurasi dua target. | Formatif: proyek awal dan panduan setup. | R7 |
-| 3 | 3 | Menjalankan contoh, input sederhana dan perbedaan target. | Formatif: hasil berjalan pada kedua target. | R7 |
-| 4 | 4 | Menyerahkan contoh satu basis kode dan demonstrasi dua target. | **Tugas 1: 20%, CPMK04.1.** | R7 |
-| 5 | 5 | Layout adaptif dan komponen lintas platform. | Formatif: tampilan pada dua target. | R7 |
-| 6 | 6 | Adaptasi ukuran, orientasi dan batas kemampuan target. | Formatif: perbandingan hasil dua target. | R7 |
-| 7 | 7 | Label, fokus keyboard, umpan balik dan uji aksesibilitas dasar. | Formatif: daftar cek aksesibilitas. | R7, R9 |
-| 8 | 9 | State, perubahan data dan pemutakhiran tampilan. | Formatif: state dan perubahan UI. | R8 |
-| 9 | 10 | Navigasi antarhalaman dan konsistensi state. | Formatif: alur dua halaman. | R8 |
-| 10 | 11 | Penyimpanan lokal, pemulihan data dan penanganan kesalahan. | Formatif: uji persistensi dan kegagalan. | R8 |
-| 11 | 12 | Penyelesaian fitur state/navigasi dan data lokal. | **Tugas 2: 25%, CPMK04.3.** | R8 |
-| 12 | 13 | Rancang kasus proyek dan integrasi fitur satu basis kode. | Formatif: rancangan dan purwarupa. | R7, R8 |
-| 13 | 14 | Adaptasi proyek untuk dua target; mock lokal opsional. | Formatif: proyek berjalan pada dua target. | R7, R8 |
-| 14 | 15 | Uji lintas target, dokumentasi perbedaan dan perbaikan. | Formatif: matriks uji dan keterbatasan. | R7, R8 |
+| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Bloom | Rujukan |
+|---:|---:|---|---|---|---|
+| 1 | 1 | Diagnostik pemrograman; konsep basis kode bersama dan dua target. | Formatif: daftar kebutuhan alat dan kemampuan awal. | C2 | R7 |
+| 2 | 2 | Menyiapkan proyek dan konfigurasi dua target. | Formatif: proyek awal dan panduan setup. | C2 | R7 |
+| 3 | 3 | Menjalankan contoh, input sederhana dan perbedaan target. | Formatif: hasil berjalan pada kedua target. | C3 | R7 |
+| 4 | 4 | Menyerahkan contoh satu basis kode dan demonstrasi dua target. | **Tugas 1: 20%, CPMK04.1.** | C3 | R7 |
+| 5 | 5 | Layout adaptif dan komponen lintas platform. | Formatif: tampilan pada dua target. | C3 | R7 |
+| 6 | 6 | Adaptasi ukuran, orientasi dan batas kemampuan target. | Formatif: perbandingan hasil dua target. | C3 | R7 |
+| 7 | 7 | Label, fokus keyboard, umpan balik dan uji aksesibilitas dasar. | Formatif: daftar cek aksesibilitas. | C4 | R7, R9 |
+| 8 | 9 | State, perubahan data dan pemutakhiran tampilan. | Formatif: state dan perubahan UI. | C3 | R8 |
+| 9 | 10 | Navigasi antarhalaman dan konsistensi state. | Formatif: alur dua halaman. | C3 | R8 |
+| 10 | 11 | Penyimpanan lokal, pemulihan data dan penanganan kesalahan. | Formatif: uji persistensi dan kegagalan. | C4 | R8 |
+| 11 | 12 | Penyelesaian fitur state/navigasi dan data lokal. | **Tugas 2: 25%, CPMK04.3.** | C4 | R8 |
+| 12 | 13 | Rancang kasus proyek dan integrasi fitur satu basis kode. | Formatif: rancangan dan purwarupa. | C6 | R7, R8 |
+| 13 | 14 | Adaptasi proyek untuk dua target; mock lokal opsional. | Formatif: proyek berjalan pada dua target. | C6 | R7, R8 |
+| 14 | 15 | Uji lintas target, dokumentasi perbedaan dan perbaikan. | Formatif: matriks uji dan keterbatasan. | C5 | R7, R8 |
 
 ## 4. Rencana evaluasi, instrumen dan rubrik [U]
 
@@ -313,5 +354,7 @@ Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 te
 | R7 | Flutter, [Adaptive and responsive design](https://docs.flutter.dev/ui/adaptive-responsive) dan [Web support](https://docs.flutter.dev/platform-integration/web) — contoh satu framework dengan target berbeda. | Contoh utama KFC-506 jika Flutter dipilih |
 | R8 | Flutter, [Navigation basics](https://docs.flutter.dev/cookbook/navigation/navigation-basics) dan [Store key-value data on disk](https://docs.flutter.dev/cookbook/persistence/key-value) — contoh navigasi dan penyimpanan lokal. | Contoh pendukung KFC-506 jika Flutter dipilih |
 | R9 | MDN, [Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) — label dan interaksi keyboard pada konten web. | Pendukung KOM-312; konsep umum untuk KFC-506 |
+
+**R19 — Taksonomi Bloom dan ABCD:** Anderson & Krathwohl (eds.), *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives* (Longman, 2001) untuk dimensi proses kognitif C1–C6; struktur ABCD mengikuti praktik penyusunan capaian OBE. Rujukan ini **usulan penyusun**, bukan daftar pustaka resmi prodi, dan pengampu perlu memverifikasi edisi serta ketersediaannya. Penerapan ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 **Sebelum finalisasi:** periksa buku KPT/RPS atau workbook terkait, CPL/BK dan kode jalur; tetapkan dosen, tahun, format, prasyarat formal, T/P, PT/BM dan durasi evaluasi; tinjau kesiapan alat, akses dan instrumen bersama RMK; lengkapi identitas/pengesahan dan kebijakan remedial/CQI. Periksa 010 bagian 8–13. Tidak ada uji coba instrumen pada mahasiswa atau pengesahan akademik yang diklaim.

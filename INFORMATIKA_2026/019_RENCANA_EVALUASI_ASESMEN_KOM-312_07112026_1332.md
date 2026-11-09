@@ -8,17 +8,17 @@ Kasus: halaman informasi kegiatan kampus fiktif; formulir dengan contoh jumlah p
 
 ## Matriks asesmen dan ketentuan
 
-| Instrumen | Pekan | CPMK | Bobot MK | Teknik/bukti |
-|---|---:|---|---:|---|
-| Tugas 1 | 4 | 04.1 | 20% | Produk/rancangan dan penjelasan sesuai kasus |
-| UTS | 8 | 04.2 | 25% | Unjuk kerja/ujian praktik dan hasil uji |
-| Tugas 2 | 12 | 04.3 | 25% | Unjuk kerja dan lima hasil uji |
-| UAS | 16 | 04.4 | 30% | Produk terintegrasi, demonstrasi dan hasil uji |
-| **Total** | | | **100%** | |
+| Instrumen | Pekan | CPMK | Bloom | Bobot MK | Teknik/bukti |
+|---|---:|---|---|---:|---|
+| Tugas 1 | 4 | 04.1 | C3 | 20% | Produk/rancangan dan penjelasan sesuai kasus |
+| UTS | 8 | 04.2 | C3 | 25% | Unjuk kerja/ujian praktik dan hasil uji |
+| Tugas 2 | 12 | 04.3 | C4 | 25% | Unjuk kerja dan lima hasil uji |
+| UAS | 16 | 04.4 | C6 | 30% | Produk terintegrasi, demonstrasi dan hasil uji |
+| **Total** | | | | **100%** | |
 
 Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputusan resmi. Contoh input dapat disesuaikan pengampu sebelum diberitahukan kepada mahasiswa; jangan menambah butir atau bobot tanpa revisi kisi-kisi. Durasi, moda, individu/kelompok, akses alat, penyerahan dan remedial [K] diputuskan prodi/pengampu. Proyek kelompok tetap menyertakan penjelasan individu. Data harus dummy/berizin.
 
-### Tugas 1, pekan 4 — 04.1 / 20%
+### Tugas 1, pekan 4 — 04.1 / 20% · Bloom C3
 
 **Instruksi mahasiswa:** Buat halaman informasi HTML untuk kasus yang disediakan; sertakan konten, navigasi, tabel dan formulir. Serahkan HTML, aset dan daftar cek; CSS tidak dinilai.
 
@@ -34,7 +34,7 @@ Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputu
 
 T1 menilai HTML; pengantar CSS tidak dinilai pada T1.
 
-### UTS, pekan 8 — 04.2 / 25%
+### UTS, pekan 8 — 04.2 / 25% · Bloom C3
 
 **Instruksi mahasiswa:** Terapkan CSS/Flexbox dan media query pada HTML yang disediakan; tampilkan dua lebar layar. Serahkan berkas dan tangkapan yang mendukung lima cek UTS pada bagian 4 (sumber: 010 bagian 3.4).
 
@@ -48,7 +48,7 @@ T1 menilai HTML; pengantar CSS tidak dinilai pada T1.
 | 4 | tampilan lebar terbaca. | Buka halaman pada lebar yang disepakati sebagai lebar. | Konten utama terbaca pada lebar tersebut. | Diisi penilai. |
 | 5 | tampilan sempit terbaca tanpa overflow utama. | Buka pada lebar sempit yang disepakati. | Konten utama terbaca tanpa overflow utama. | Diisi penilai. |
 
-### Tugas 2, pekan 12 — 04.3 / 25%
+### Tugas 2, pekan 12 — 04.3 / 25% · Bloom C4
 
 **Instruksi mahasiswa:** Buat formulir interaktif dengan JavaScript untuk input valid, kosong dan tidak valid, aksi dan reset. Sertakan lima hasil uji dan jelaskan kode.
 
@@ -62,7 +62,7 @@ T1 menilai HTML; pengantar CSS tidak dinilai pada T1.
 | 4 | event tombol memperbarui DOM. | Ubah input lalu aktifkan event tombol. | Elemen hasil DOM diperbarui sesuai aksi. | Diisi penilai. |
 | 5 | reset memulihkan kondisi awal. | Setelah input dan hasil terisi, aktifkan reset. | Input dan keluaran kembali ke kondisi awal. | Diisi penilai. |
 
-### UAS, pekan 16 — 04.4 / 30%
+### UAS, pekan 16 — 04.4 / 30% · Bloom C6
 
 **Instruksi mahasiswa:** Bangun halaman responsif interaktif dari kasus yang disepakati; serahkan proyek lokal, petunjuk, hasil uji/perbaikan dan demonstrasi individu.
 

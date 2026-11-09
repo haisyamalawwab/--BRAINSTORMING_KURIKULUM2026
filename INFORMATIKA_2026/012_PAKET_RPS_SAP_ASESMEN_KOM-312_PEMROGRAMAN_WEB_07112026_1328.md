@@ -25,58 +25,99 @@
 
 ### CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **menyusun** halaman HTML semantik untuk kasus yang diberikan, termasuk konten dan formulir, dengan memenuhi minimal 4 dari 5 cek Tugas 1. | C3 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **menerapkan** CSS dan tata letak responsif pada halaman yang diberikan, dengan memenuhi minimal 4 dari 5 cek UTS pada dua lebar layar. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **mengimplementasikan** interaksi JavaScript dan validasi masukan sisi klien pada kasus yang diberikan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **membangun dan menguji** halaman web responsif interaktif pada kasus yang disepakati serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+**Rumusan ABCD dan level Bloom [U].** Setiap capaian ditulis lengkap (Audience–Behaviour–Condition–Degree) dan diberi level Bloom C2–C6. Kerangka, kata kerja, bukti asesmen dan aturan konsistensinya ada di [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan kolom ini **tidak mengubah** bobot maupun lima cek instrumen.
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
-|---|---|---|---|
-| Sub-CPMK04.1.1 | Menyusun struktur dokumen semantik, heading, konten, gambar dan navigasi. | CPMK04.1 | C3 |
-| Sub-CPMK04.1.2 | Membuat tabel dan formulir berlabel dengan validasi HTML dasar. | CPMK04.1 | C3 |
-| Sub-CPMK04.2.1 | Menerapkan selektor, warna, tipografi dan box model pada kasus. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menggunakan Flexbox dan media query untuk dua lebar layar. | CPMK04.2 | C3 |
-| Sub-CPMK04.3.1 | Menulis variabel, fungsi dan percabangan untuk membaca serta memvalidasi masukan. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menghubungkan elemen halaman dan fungsi dengan DOM/event serta menampilkan hasil. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan HTML, CSS dan JavaScript dasar pada halaman sesuai kasus. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menjalankan dan mencatat pengujian navigasi, interaksi, responsivitas dan perbaikan. | CPMK04.4 | C4 |
+**CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | Rumusan lengkap (A–D) dan level Bloom | Bloom |
+|---|---|---|
+| CPMK04.1 | Mahasiswa mampu **menyusun** halaman HTML semantik yang memuat heading, konten, tabel, gambar, navigasi dan formulir berlabel untuk kasus halaman profil yang disediakan, dengan memenuhi minimal 4 dari 5 cek Tugas 1. | C3 |
+| CPMK04.2 | Mahasiswa mampu **menerapkan** CSS dan tata letak responsif dengan Flexbox serta media query pada halaman HTML yang disediakan, dengan memenuhi minimal 4 dari 5 cek UTS pada dua lebar layar. | C3 |
+| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menganalisis** interaksi JavaScript serta validasi masukan sisi klien pada kasus formulir yang disediakan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 |
+| CPMK04.4 | Mahasiswa mampu **membangun dan menguji** halaman web responsif interaktif beserta dokumentasi hasil uji pada kasus yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 |
+
+| Kode | A — Audience | B — Behaviour | C — Condition | D — Degree |
+|---|---|---|---|---|
+| CPMK04.1 | Mahasiswa | menyusun | untuk kasus halaman profil yang disediakan | dengan memenuhi minimal 4 dari 5 cek Tugas 1 |
+| CPMK04.2 | Mahasiswa | menerapkan | pada halaman HTML yang disediakan | dengan memenuhi minimal 4 dari 5 cek UTS pada dua lebar layar |
+| CPMK04.3 | Mahasiswa | mengimplementasikan dan menganalisis | pada kasus formulir yang disediakan | dengan minimal 4 dari 5 kasus Tugas 2 lulus |
+| CPMK04.4 | Mahasiswa | membangun dan menguji | pada kasus yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi |
+
+**Sub-CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | CPMK | A — Audience | B — Behaviour | C — Condition | Bloom |
+|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Sub-CPMK04.1.1 | Mahasiswa | mengklasifikasikan | untuk kasus halaman profil yang disediakan | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Sub-CPMK04.1.2 | Mahasiswa | membuat | sesuai kasus yang diberikan | C3 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Sub-CPMK04.2.1 | Mahasiswa | menerapkan | pada halaman kasus yang disediakan | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Sub-CPMK04.2.2 | Mahasiswa | menggunakan | untuk dua lebar layar yang ditetapkan | C3 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Sub-CPMK04.3.1 | Mahasiswa | menulis | untuk membaca serta memvalidasi masukan pengguna | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Sub-CPMK04.3.2 | Mahasiswa | menganalisis | melalui pengujian formulir pada halaman yang disediakan | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Sub-CPMK04.4.1 | Mahasiswa | mengintegrasikan | pada satu halaman sesuai kasus yang disepakati | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Sub-CPMK04.4.2 | Mahasiswa | mengevaluasi | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
+
+### Taksonomi Bloom C2–C6 dan rumusan ABCD pada RPS [U]
+
+**Status [U]:** kerangka ini adalah **usulan penyusun berbasis praktik OBE**, bukan kutipan buku KPT Teknik Informatika UWG. Pemeriksaan dokumen sumber tidak menemukan tabel taksonomi Bloom dan CPL04 tidak diberi kode Bloom di sana; pemetaan level adalah tafsiran atas kata kerja CPL04 (*menganalisis*; *merancang, mengimplementasikan, menguji, mengintegrasikan, memelihara*) dan harus disahkan prodi/RMK.
+
+**ABCD.** Setiap capaian ditulis lengkap agar terukur: **A** *Audience* — selalu "Mahasiswa"; **B** *Behaviour* — satu kata kerja terukur sesuai level Bloom; **C** *Condition* — kasus, alat, batasan atau konteks pengerjaan; **D** *Degree* — ambang ketercapaian. Pada rancangan ini **D diseragamkan: minimal 4 dari 5 cek instrumen terpenuhi** (target usulan, bukan standar kelulusan) dan **C** memuat kasus/alat yang memang sudah ditetapkan pada instrumen terkait.
+
+**Level yang dipakai: C2, C3, C4, C5, C6.** C1 (mengingat) tidak dijadikan capaian MK karena bukan bukti kompetensi lulusan.
+
+| Level | Proses kognitif | Kata kerja operasional | Bukti/asesmen yang cocok | Penempatan pada RPS |
+|---|---|---|---|---|
+| **C2** | Memahami | menjelaskan, mengklasifikasikan, membandingkan, mengilustrasikan, merangkum, memberi contoh | penjelasan lisan/tertulis, diagram, kuis/tanya jawab formatif | pekan 1–3: menjelaskan alur, peran dan istilah teknis (formatif) |
+| **C3** | Menerapkan | menerapkan, menggunakan, mengimplementasikan, menjalankan, membuat, menyusun | unjuk kerja, kode/produk berjalan, studi kasus terarah | pekan 2–12: praktik terbimbing serta T1/UTS/T2 |
+| **C4** | Menganalisis | menganalisis, membedakan, menelusuri, memeriksa, menguji, mendiagnosis | analisis kebutuhan, laporan uji, tabel hasil diharapkan vs aktual | pekan 3–15: analisis kebutuhan dan diagnosis kegagalan |
+| **C5** | Mengevaluasi | menilai, memvalidasi, mengkritisi, memilih, memutuskan, membandingkan dengan kriteria | justifikasi perbaikan berprioritas, reviu hasil uji terhadap kriteria | pekan 15–16: menilai hasil uji dan memilih perbaikan (masuk lima cek UAS) |
+| **C6** | Menciptakan | merancang, membangun, menyusun, mengintegrasikan, mengembangkan, memproduksi | produk/proyek terintegrasi, rancangan, dokumentasi, demonstrasi | pekan 4 dan 13–16: rancangan T1 dan integrasi UAS |
+
+**Pola capaian pada rancangan ini:** T1 = **C6** untuk perancangan (KOM-526/KFC-506) atau **C3** untuk penyusunan artefak terarah (KOM-312); UTS dan T2 = **C3–C4** (menerapkan serta menganalisis/menguji); **UAS = C6** (mengintegrasikan) dengan **C5** dinilai di dalam lima cek UAS melalui penilaian hasil uji dan pemilihan perbaikan. Dengan pola ini kelima level C2–C6 terpakai: C2 secara formatif pada pekan awal, C3 pada penerapan alat, C4 pada analisis dan pengujian, C5 pada evaluasi hasil uji, C6 pada perancangan dan integrasi.
+
+**Aturan konsistensi** (dapat diperiksa pada tabel CPMK/Sub-CPMK setiap paket):
+
+1. **Level Sub-CPMK tidak melebihi level CPMK-nya**, dan setiap CPMK memiliki Sub-CPMK pada level yang sama atau lebih rendah.
+2. **Level tertinggi CPMK tercermin pada instrumennya**: CPMK berlevel C6 dinilai melalui produk/rancangan, bukan kuis; C5 dinilai melalui justifikasi perbaikan, bukan sekadar melaporkan hasil.
+3. **Kata kerja pada tabel level dipakai konsisten**; kata kerja kabur ("memahami", "mengetahui", "mengerti") tidak dipakai pada rumusan capaian.
+4. **Setiap Sub-CPMK terlacak** ke satu CPMK, satu instrumen dan satu pekan pada tabel 16 minggu.
+5. **ABCD bukan butir penilaian baru**: bobot T1/UTS/T2/UAS (20/25/25/30), lima cek biner per instrumen dan target ≥4/5 tidak berubah.
+
+**Telaah C5 [K]:** C5 pada rancangan ini melekat pada Sub-CPMK 04.4.2 (mengevaluasi hasil uji dan memilih perbaikan) dan dinilai sebagai bagian cek UAS/T2 yang sudah ada, bukan butir berbobot baru. Bila prodi menghendaki C5 sebagai CPMK tersendiri dengan instrumen terpisah, revisi kisi-kisi, rubrik dan bobot lebih dahulu dan sahkan sebelum perkuliahan.
 
 ### Peta evaluasi [U]
 
-| CPMK | Instrumen / minggu | Bobot terhadap nilai akhir | CPL |
-|---|---|---:|---|
-| 04.1 | Tugas 1 / 4 | 20% | CPL04 |
-| 04.2 | UTS / 8 | 25% | CPL04 |
-| 04.3 | Tugas 2 / 12 | 25% | CPL04 |
-| 04.4 | UAS / 16 | 30% | CPL04 |
-| **Total** | | **100%** | |
+| CPMK | Instrumen / minggu | Bloom | Bobot terhadap nilai akhir | CPL |
+|---|---|---|---:|---|
+| 04.1 | Tugas 1 / 4 | C3 | 20% | CPL04 |
+| 04.2 | UTS / 8 | C3 | 25% | CPL04 |
+| 04.3 | Tugas 2 / 12 | C4 | 25% | CPL04 |
+| 04.4 | UAS / 16 | C6 | 30% | CPL04 |
+| **Total** | | | **100%** | |
 
-Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode CPMK/Sub-CPMK bersifat lokal per MK. Bobot instrumen bukan bobot CPL lintas MK.
+Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Level Bloom mengikuti tabel CPMK dan tidak menambah bobot. Kode CPMK/Sub-CPMK bersifat lokal per MK. Bobot instrumen bukan bobot CPL lintas MK.
 
 ### Rencana mingguan RPS — 8 kolom [U]
 
-`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Pustaka sesuai daftar di bagian 5.
+`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Kolom **Bloom** mengikuti level Sub-CPMK yang dinilai minggu tersebut (010 bagian 15); level ini bukan bobot tambahan.
 
-| Minggu | Sub-CPMK | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
-|---:|---|---|---|---|---|---|---:|
-| 1 | 04.1.1 | Struktur dasar dokumen dan hierarki heading tampak pada halaman profil. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, demonstrasi, praktik — A | Orientasi web, browser, struktur dokumen, teks dan heading. | R1 | 0% |
-| 2 | 04.1.1 | Elemen semantik, tautan dan gambar dengan alt berfungsi sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, umpan balik — A | Elemen semantik, tautan, navigasi dan gambar ber-alt. | R1, R9 | 0% |
-| 3 | 04.1.2 | Tabel memiliki header dan label terhubung ke input; validasi HTML diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Tabel, formulir, label, tipe input dan validasi HTML. | R1 | 0% |
-| 4 | 04.1.1, 04.1.2, 04.2.1 | Lima butir HTML Tugas 1 dapat diperiksa; CSS tidak dinilai pada T1. | Lima cek instrumen; bukti dan rubrik bagian 4. | Penugasan, praktik — A | Tugas HTML dan pengantar CSS; penilaian T1 hanya pada HTML. | R1, R2 | 20% |
-| 5 | 04.2.1 | Selektor dan box model menghasilkan kartu sesuai spesifikasi. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Selektor, cascade dasar, warna, tipografi dan box model. | R2 | 0% |
-| 6 | 04.2.2 | Pengaturan container/item Flexbox menghasilkan navigasi dan kartu fleksibel. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Flexbox: container, item, alignment, wrap dan gap. | R2 | 0% |
-| 7 | 04.2.2 | Layout terbaca dan overflow utama diuji pada dua lebar. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, diskusi — A | Media query, pengujian dua lebar layar dan perbaikan overflow. | R2 | 0% |
-| 8 | 04.2.1, 04.2.2 | Lima cek UTS CSS, Flexbox dan dua lebar dapat dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | Evaluasi CSS dan layout responsif. | R2 | 25% |
-| 9 | 04.3.1 | Fungsi menggunakan variabel dan operator menghasilkan nilai sesuai contoh. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, latihan — A | JavaScript dasar: nilai, tipe, operator dan fungsi. | R3 | 0% |
-| 10 | 04.3.1 | Fungsi membedakan masukan valid, kosong dan tidak valid. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji kasus — A | Percabangan dan validasi masukan, termasuk nilai kosong/tidak valid. | R3 | 0% |
-| 11 | 04.3.2 | Event membaca input dan memperbarui elemen keluaran DOM. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | DOM/event, membaca input dan memperbarui keluaran secara aman. | R3 | 0% |
-| 12 | 04.3.1, 04.3.2 | Lima kasus interaksi dan validasi Tugas 2 dijalankan dan dicatat. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Menyelesaikan dan menguji interaksi berbasis formulir. | R1, R3 | 25% |
-| 13 | 04.4.1 | Sketsa, konten berizin dan kerangka HTML sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, diskusi — A | Perencanaan kasus halaman, konten berizin dan sketsa. | R1, R9 | 0% |
-| 14 | 04.4.1 | HTML, CSS dan JavaScript terhubung pada purwarupa. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Integrasi HTML, CSS dan interaksi JavaScript. | R1, R2, R3 | 0% |
-| 15 | 04.4.2 | Hasil uji navigasi, interaksi, keyboard dan dua lebar mencatat perbaikan. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Uji navigasi, interaksi, keyboard dan dua lebar; perbaikan. | R2, R3, R9 | 0% |
-| 16 | 04.4.1, 04.4.2 | Lima cek integrasi, fungsi dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | Demonstrasi, penjelasan kode dan penyerahan halaman. | R1, R2, R3, R9 | 30% |
+| Minggu | Sub-CPMK | Bloom | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
+|---:|---|---|---|---|---|---|---|---:|
+| 1 | 04.1.1 | C2 | Struktur dasar dokumen dan hierarki heading tampak pada halaman profil. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, demonstrasi, praktik — A | Orientasi web, browser, struktur dokumen, teks dan heading. | R1 | 0% |
+| 2 | 04.1.1 | C2 | Elemen semantik, tautan dan gambar dengan alt berfungsi sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, umpan balik — A | Elemen semantik, tautan, navigasi dan gambar ber-alt. | R1, R9 | 0% |
+| 3 | 04.1.2 | C3 | Tabel memiliki header dan label terhubung ke input; validasi HTML diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Tabel, formulir, label, tipe input dan validasi HTML. | R1 | 0% |
+| 4 | 04.1.1, 04.1.2, 04.2.1 | C3 | Lima butir HTML Tugas 1 dapat diperiksa; CSS tidak dinilai pada T1. | Lima cek instrumen; bukti dan rubrik bagian 4. | Penugasan, praktik — A | Tugas HTML dan pengantar CSS; penilaian T1 hanya pada HTML. | R1, R2 | 20% |
+| 5 | 04.2.1 | C3 | Selektor dan box model menghasilkan kartu sesuai spesifikasi. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Selektor, cascade dasar, warna, tipografi dan box model. | R2 | 0% |
+| 6 | 04.2.2 | C3 | Pengaturan container/item Flexbox menghasilkan navigasi dan kartu fleksibel. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Flexbox: container, item, alignment, wrap dan gap. | R2 | 0% |
+| 7 | 04.2.2 | C3 | Layout terbaca dan overflow utama diuji pada dua lebar. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, diskusi — A | Media query, pengujian dua lebar layar dan perbaikan overflow. | R2 | 0% |
+| 8 | 04.2.1, 04.2.2 | C3 | Lima cek UTS CSS, Flexbox dan dua lebar dapat dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | Evaluasi CSS dan layout responsif. | R2 | 25% |
+| 9 | 04.3.1 | C3 | Fungsi menggunakan variabel dan operator menghasilkan nilai sesuai contoh. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, latihan — A | JavaScript dasar: nilai, tipe, operator dan fungsi. | R3 | 0% |
+| 10 | 04.3.1 | C3 | Fungsi membedakan masukan valid, kosong dan tidak valid. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji kasus — A | Percabangan dan validasi masukan, termasuk nilai kosong/tidak valid. | R3 | 0% |
+| 11 | 04.3.2 | C4 | Event membaca input dan memperbarui elemen keluaran DOM. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | DOM/event, membaca input dan memperbarui keluaran secara aman. | R3 | 0% |
+| 12 | 04.3.1, 04.3.2 | C4 | Lima kasus interaksi dan validasi Tugas 2 dijalankan dan dicatat. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Menyelesaikan dan menguji interaksi berbasis formulir. | R1, R3 | 25% |
+| 13 | 04.4.1 | C6 | Sketsa, konten berizin dan kerangka HTML sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, diskusi — A | Perencanaan kasus halaman, konten berizin dan sketsa. | R1, R9 | 0% |
+| 14 | 04.4.1 | C6 | HTML, CSS dan JavaScript terhubung pada purwarupa. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Integrasi HTML, CSS dan interaksi JavaScript. | R1, R2, R3 | 0% |
+| 15 | 04.4.2 | C5 | Hasil uji navigasi, interaksi, keyboard dan dua lebar mencatat perbaikan. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Uji navigasi, interaksi, keyboard dan dua lebar; perbaikan. | R2, R3, R9 | 0% |
+| 16 | 04.4.1, 04.4.2 | C6 | Lima cek integrasi, fungsi dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | Demonstrasi, penjelasan kode dan penyerahan halaman. | R1, R2, R3, R9 | 30% |
 
 ## 2. SAP — Satuan Acara Pertemuan [U]
 
@@ -216,22 +257,22 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
 
-| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Rujukan |
-|---:|---:|---|---|---|
-| 1 | 1 | Orientasi web, browser, struktur dokumen, teks dan heading. | Formatif: halaman profil awal. | R1 |
-| 2 | 2 | Elemen semantik, tautan, navigasi dan gambar ber-alt. | Formatif: halaman informasi dan cek navigasi. | R1, R9 |
-| 3 | 3 | Tabel, formulir, label, tipe input dan validasi HTML. | Formatif: tabel dan formulir simulasi. | R1 |
-| 4 | 4 | Tugas HTML dan pengantar CSS; penilaian T1 hanya pada HTML. | **Tugas 1: 20%, CPMK04.1.** | R1, R2 |
-| 5 | 5 | Selektor, cascade dasar, warna, tipografi dan box model. | Formatif: stylesheet dan kartu. | R2 |
-| 6 | 6 | Flexbox: container, item, alignment, wrap dan gap. | Formatif: navigasi dan kartu fleksibel. | R2 |
-| 7 | 7 | Media query, pengujian dua lebar layar dan perbaikan overflow. | Formatif: tangkapan layar dua lebar. | R2 |
-| 8 | 9 | JavaScript dasar: nilai, tipe, operator dan fungsi. | Formatif: fungsi dan keluaran sederhana. | R3 |
-| 9 | 10 | Percabangan dan validasi masukan, termasuk nilai kosong/tidak valid. | Formatif: fungsi dengan kasus valid dan invalid. | R3 |
-| 10 | 11 | DOM/event, membaca input dan memperbarui keluaran secara aman. | Formatif: purwarupa interaksi. | R3 |
-| 11 | 12 | Menyelesaikan dan menguji interaksi berbasis formulir. | **Tugas 2: 25%, CPMK04.3.** | R1, R3 |
-| 12 | 13 | Perencanaan kasus halaman, konten berizin dan sketsa. | Formatif: rancangan dan kerangka halaman. | R1, R9 |
-| 13 | 14 | Integrasi HTML, CSS dan interaksi JavaScript. | Formatif: purwarupa. | R1, R2, R3 |
-| 14 | 15 | Uji navigasi, interaksi, keyboard dan dua lebar; perbaikan. | Formatif: catatan kasus dan perbaikan. | R2, R3, R9 |
+| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Bloom | Rujukan |
+|---:|---:|---|---|---|---|
+| 1 | 1 | Orientasi web, browser, struktur dokumen, teks dan heading. | Formatif: halaman profil awal. | C2 | R1 |
+| 2 | 2 | Elemen semantik, tautan, navigasi dan gambar ber-alt. | Formatif: halaman informasi dan cek navigasi. | C2 | R1, R9 |
+| 3 | 3 | Tabel, formulir, label, tipe input dan validasi HTML. | Formatif: tabel dan formulir simulasi. | C3 | R1 |
+| 4 | 4 | Tugas HTML dan pengantar CSS; penilaian T1 hanya pada HTML. | **Tugas 1: 20%, CPMK04.1.** | C3 | R1, R2 |
+| 5 | 5 | Selektor, cascade dasar, warna, tipografi dan box model. | Formatif: stylesheet dan kartu. | C3 | R2 |
+| 6 | 6 | Flexbox: container, item, alignment, wrap dan gap. | Formatif: navigasi dan kartu fleksibel. | C3 | R2 |
+| 7 | 7 | Media query, pengujian dua lebar layar dan perbaikan overflow. | Formatif: tangkapan layar dua lebar. | C3 | R2 |
+| 8 | 9 | JavaScript dasar: nilai, tipe, operator dan fungsi. | Formatif: fungsi dan keluaran sederhana. | C3 | R3 |
+| 9 | 10 | Percabangan dan validasi masukan, termasuk nilai kosong/tidak valid. | Formatif: fungsi dengan kasus valid dan invalid. | C3 | R3 |
+| 10 | 11 | DOM/event, membaca input dan memperbarui keluaran secara aman. | Formatif: purwarupa interaksi. | C4 | R3 |
+| 11 | 12 | Menyelesaikan dan menguji interaksi berbasis formulir. | **Tugas 2: 25%, CPMK04.3.** | C4 | R1, R3 |
+| 12 | 13 | Perencanaan kasus halaman, konten berizin dan sketsa. | Formatif: rancangan dan kerangka halaman. | C6 | R1, R9 |
+| 13 | 14 | Integrasi HTML, CSS dan interaksi JavaScript. | Formatif: purwarupa. | C6 | R1, R2, R3 |
+| 14 | 15 | Uji navigasi, interaksi, keyboard dan dua lebar; perbaikan. | Formatif: catatan kasus dan perbaikan. | C5 | R2, R3, R9 |
 
 ## 4. Rencana evaluasi, instrumen dan rubrik [U]
 
@@ -312,5 +353,7 @@ Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 te
 | R2 | MDN, [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) — layout, Flexbox dan responsivitas. | Utama KOM-312 |
 | R3 | MDN, [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — fungsi, kontrol alur dan bahasa. | Utama KOM-312 |
 | R9 | MDN, [Accessibility on the web](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility) — label dan interaksi keyboard pada konten web. | Pendukung KOM-312; konsep umum untuk KFC-506 |
+
+**R19 — Taksonomi Bloom dan ABCD:** Anderson & Krathwohl (eds.), *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives* (Longman, 2001) untuk dimensi proses kognitif C1–C6; struktur ABCD mengikuti praktik penyusunan capaian OBE. Rujukan ini **usulan penyusun**, bukan daftar pustaka resmi prodi, dan pengampu perlu memverifikasi edisi serta ketersediaannya. Penerapan ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 **Sebelum finalisasi:** periksa buku KPT/RPS atau workbook terkait, CPL/BK dan kode jalur; tetapkan dosen, tahun, format, prasyarat formal, T/P, PT/BM dan durasi evaluasi; tinjau kesiapan alat, akses dan instrumen bersama RMK; lengkapi identitas/pengesahan dan kebijakan remedial/CQI. Periksa 010 bagian 8–13. Tidak ada uji coba instrumen pada mahasiswa atau pengesahan akademik yang diklaim.

@@ -10,17 +10,17 @@ Kasus: inventaris peralatan dummy dengan kategori–barang, nama/stok, admin yan
 
 ## Matriks asesmen dan ketentuan
 
-| Instrumen | Pekan | CPMK | Bobot MK | Teknik/bukti |
-|---|---:|---|---:|---|
-| Tugas 1 | 4 | 04.1 | 20% | Produk/rancangan dan penjelasan sesuai kasus |
-| UTS | 8 | 04.2 | 25% | Unjuk kerja/ujian praktik dan hasil uji |
-| Tugas 2 | 12 | 04.3 | 25% | Unjuk kerja dan lima hasil uji |
-| UAS | 16 | 04.4 | 30% | Produk terintegrasi, demonstrasi dan hasil uji |
-| **Total** | | | **100%** | |
+| Instrumen | Pekan | CPMK | Bloom | Bobot MK | Teknik/bukti |
+|---|---:|---|---|---:|---|
+| Tugas 1 | 4 | 04.1 | C6 | 20% | Produk/rancangan dan penjelasan sesuai kasus |
+| UTS | 8 | 04.2 | C3 | 25% | Unjuk kerja/ujian praktik dan hasil uji |
+| Tugas 2 | 12 | 04.3 | C4 | 25% | Unjuk kerja dan lima hasil uji |
+| UAS | 16 | 04.4 | C6 | 30% | Produk terintegrasi, demonstrasi dan hasil uji |
+| **Total** | | | | **100%** | |
 
 Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputusan resmi. Contoh input dapat disesuaikan pengampu sebelum diberitahukan kepada mahasiswa; jangan menambah butir atau bobot tanpa revisi kisi-kisi. Durasi, moda, individu/kelompok, akses alat, penyerahan dan remedial [K] diputuskan prodi/pengampu. Proyek kelompok tetap menyertakan penjelasan individu. Data harus dummy/berizin.
 
-### Tugas 1, pekan 4 — 04.1 / 20%
+### Tugas 1, pekan 4 — 04.1 / 20% · Bloom C6
 
 **Instruksi mahasiswa:** Rancang kebutuhan dan model data untuk kasus sistem yang disediakan; serahkan aktor, kebutuhan, alur, entitas/relasi dan keterlacakan rancangan.
 
@@ -34,7 +34,7 @@ Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputu
 | 4 | minimal dua entitas dan relasinya terdefinisi. | Periksa model data. | Kategori dan barang (atau dua entitas setara) serta relasinya terdefinisi. | Diisi penilai. |
 | 5 | kebutuhan terhubung ke data/alur. | Telusuri kebutuhan menuju alur/data. | Keterkaitan kebutuhan dengan data/alur tampak. | Diisi penilai. |
 
-### UTS, pekan 8 — 04.2 / 25%
+### UTS, pekan 8 — 04.2 / 25% · Bloom C3
 
 **Instruksi mahasiswa:** Implementasikan rute server dan CRUD pada database dummy; perlihatkan empat operasi serta penanganan data yang tidak ditemukan, disertai lima uji.
 
@@ -50,7 +50,7 @@ Bobot, instrumen, kasus, target dan kondisi di bawah adalah usulan, bukan keputu
 
 UTS dilaksanakan di lab terisolasi dengan database dummy; login/peran belum dipersyaratkan pada UTS.
 
-### Tugas 2, pekan 12 — 04.3 / 25%
+### Tugas 2, pekan 12 — 04.3 / 25% · Bloom C4
 
 **Instruksi mahasiswa:** Terapkan login, logout, sesi/peran dan validasi server pada aplikasi latihan; gunakan kueri terparameter, data dummy, matriks peran dan lima uji.
 
@@ -64,7 +64,7 @@ UTS dilaksanakan di lab terisolasi dengan database dummy; login/peran belum dipe
 | 4 | logout mengakhiri akses sesi. | Logout lalu minta akses terlindungi dari browser yang sama. | Browser yang diuji tidak lagi memperoleh akses terlindungi. | Diisi penilai. |
 | 5 | masukan invalid ditolak server dan data diproses dengan kueri terparameter. | Kirim stok negatif; periksa query yang memproses input. | Masukan invalid ditolak server dan nilai query diparameterisasi. | Diisi penilai. |
 
-### UAS, pekan 16 — 04.4 / 30%
+### UAS, pekan 16 — 04.4 / 30% · Bloom C6
 
 **Instruksi mahasiswa:** Integrasikan antarmuka, server, data dan akses sesuai rancangan; serahkan aplikasi lokal, petunjuk, uji alur normal/gagal dan demonstrasi individu.
 

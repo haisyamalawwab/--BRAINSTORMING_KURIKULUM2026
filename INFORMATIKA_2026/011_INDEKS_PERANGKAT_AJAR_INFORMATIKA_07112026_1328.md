@@ -26,6 +26,10 @@ Setiap paket kini mempunyai tiga dokumen pendamping. KFC-506 memiliki rencana da
 | KFC-506a Dart + Flutter | [036 — Outline](036_OUTLINE_MODUL_KFC-506A_DART_FLUTTER_09112026_1339.md) | [038 — Evaluasi](038_RENCANA_EVALUASI_ASESMEN_KFC-506A_DART_FLUTTER_09112026_1339.md) | [039 — Rubrik](039_RUBRIK_PENILAIAN_KFC-506A_DART_FLUTTER_09112026_1339.md) |
 | KFC-506b React Native + Expo | [040 — Outline](040_OUTLINE_MODUL_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [042 — Evaluasi](042_RENCANA_EVALUASI_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) | [043 — Rubrik](043_RUBRIK_PENILAIAN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md) |
 
+## Taksonomi Bloom dan ABCD [U]
+
+Setiap CPMK dan Sub-CPMK pada paket 012–017, 037 dan 041 kini ditulis dengan kerangka **ABCD** (Audience–Behaviour–Condition–Degree) dan diberi **level Bloom C2–C6**; peta evaluasi, tabel 16 minggu, tabel modul, serta judul instrumen pada rencana evaluasi dan rubrik memuat level yang sama. Kerangka, kata kerja operasional, bukti asesmen, pola level per MK dan aturan konsistensi ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan ini **tidak mengubah** bobot T1/UTS/T2/UAS (20/25/25/30), lima cek biner per instrumen, atau target ≥4/5; C5 dinilai di dalam cek UAS/T2 yang sudah ada.
+
 ## Cara pakai
 
 1. Pilih satu paket. Untuk KFC-506 putuskan lebih dulu apakah memakai rencana dasar netral atau salah satu jalur teknis (a Dart + Flutter atau b React Native + Expo); label a–b adalah usulan, bukan kode KRS, dan satu kelas sebaiknya memakai satu jalur. Untuk KOM-526 pilih **a** bagi pemula, **b atau c** untuk yang telah mempelajari dasar a atau setara, atau **d** bagi yang ingin belajar mandiri terarah. Label a–d adalah rancangan di bawah kode resmi KOM-526, bukan kode baru yang sudah berlaku; lihat 010 bagian 13 untuk diagnostik, persetujuan dan aturan pengambilan.

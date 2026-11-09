@@ -12,7 +12,7 @@ Gunakan lima cek untuk setiap instrumen; masing-masing **20% dari skor instrumen
 
 Untuk T1, cek terkait dibuktikan dengan menjalankan kedua build/target dari satu basis kode; untuk UTS/T2/UAS, cek dibuktikan pada aplikasi berjalan dan, bila digunakan, hasil `jest-expo` dan uji manual per target. T1 tidak menilai estetika atau kompleksitas kode. Kondisi ini bukan cek berbobot tambahan.
 
-### Tugas 1, pekan 4 — 04.1 / 20%
+### Tugas 1, pekan 4 — 04.1 / 20% · Bloom C3
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -22,7 +22,7 @@ Untuk T1, cek terkait dibuktikan dengan menjalankan kedua build/target dari satu
 | 4. aksi yang sama berjalan di target Android. | 20% | Aksi bekerja sesuai kasus di target Android. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. kode bersama dan konfigurasi dua target dapat ditunjukkan. | 20% | Satu basis kode React Native dan konfigurasi target web/Android dapat ditunjukkan. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 
-### UTS, pekan 8 — 04.2 / 25%
+### UTS, pekan 8 — 04.2 / 25% · Bloom C4
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -32,7 +32,7 @@ Untuk T1, cek terkait dibuktikan dengan menjalankan kedua build/target dari satu
 | 4. fokus/pembaca layar diuji pada target yang mendukung. | 20% | Hasil pengujian fokus/pembaca layar tercatat. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. interaksi memberi umpan balik yang jelas di kedua target. | 20% | Umpan balik interaksi terlihat jelas di kedua target. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 
-### Tugas 2, pekan 12 — 04.3 / 25%
+### Tugas 2, pekan 12 — 04.3 / 25% · Bloom C4
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -42,7 +42,7 @@ Untuk T1, cek terkait dibuktikan dengan menjalankan kedua build/target dari satu
 | 4. data dipulihkan saat aplikasi dibuka ulang. | 20% | Data dummy dipulihkan. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. kegagalan penyimpanan atau data invalid memberi pesan yang dapat dipahami. | 20% | Pesan yang dapat dipahami ditampilkan. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 
-### UAS, pekan 16 — 04.4 / 30%
+### UAS, pekan 16 — 04.4 / 30% · Bloom C6
 
 | No. / kriteria | Bobot instrumen | Terpenuhi — skor 100 | Belum terpenuhi — skor 0 | Bukti/umpan balik |
 |---|---:|---|---|---|
@@ -51,6 +51,10 @@ Untuk T1, cek terkait dibuktikan dengan menjalankan kedua build/target dari satu
 | 3. fitur utama berjalan di target Android. | 20% | Fitur utama berjalan di target Android. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 4. hasil uji, perbedaan target dan perbaikan dicatat. | 20% | Hasil uji, perbedaan dan perbaikan dicatat. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
 | 5. petunjuk menjalankan dan demonstrasi tersedia. | 20% | Petunjuk dan demonstrasi tersedia. | Hasil tersebut gagal/tidak lengkap atau tidak terbukti. | Hasil aktual dan umpan balik diisi penilai. |
+
+## Pemetaan level Bloom [U]
+
+Level tiap instrumen mengikuti CPMK yang dinilai: lihat tabel peta evaluasi pada paket [041](041_PAKET_RPS_SAP_ASESMEN_KFC-506B_REACT_NATIVE_EXPO_09112026_1339.md). Rubrik ini **tidak menambah bobot atau butir**: level menjelaskan kognisi yang dibuktikan, sedangkan penilaian tetap biner 100/0 pada lima cek (20% per cek) dengan target usulan ≥4/5. Rujukan kerangka dan kata kerja ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 ## Formatif, rekap dan CQI
 

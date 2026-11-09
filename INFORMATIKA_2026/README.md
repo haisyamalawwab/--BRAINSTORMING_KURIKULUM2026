@@ -14,7 +14,7 @@ Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (1
 | [008 — Tabel 4 BK APTIKOM Informatika](008_TABEL_4_RUMUSAN_BAHAN_KAJIAN_APTIKOM_INFORMATIKA_07112026_0942.md) | Transkripsi 22 BK beserta bobot dan referensi. |
 | [009 — inventaris dan analisis tiga MK](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md) | Daftar MK serta CPL, CPMK, BK dan catatan Tabel 19 untuk KOM-312, KOM-526 dan KFC-506. |
 | [010 — rancangan matriks tiga MK](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md) | Usulan CPMK/Sub-CPMK, rencana 16 pertemuan, asesmen dan guardrails; belum disahkan. |
-| [011 — indeks perangkat ajar Informatika](011_INDEKS_PERANGKAT_AJAR_INFORMATIKA_07112026_1328.md) | Paket rancangan RPS, SAP, outline modul, asesmen dan rubrik untuk tiga MK, termasuk empat jalur KOM-526 dan dua jalur teknis KFC-506 (Dart + Flutter; React Native + Expo). |
+| [011 — indeks perangkat ajar Informatika](011_INDEKS_PERANGKAT_AJAR_INFORMATIKA_07112026_1328.md) | Paket rancangan RPS, SAP, outline modul, asesmen dan rubrik untuk tiga MK, termasuk empat jalur KOM-526 dan dua jalur teknis KFC-506 (Dart + Flutter; React Native + Expo), dengan rumusan ABCD dan level Bloom C2–C6. |
 
 ## Identitas dan keterlacakan sumber
 

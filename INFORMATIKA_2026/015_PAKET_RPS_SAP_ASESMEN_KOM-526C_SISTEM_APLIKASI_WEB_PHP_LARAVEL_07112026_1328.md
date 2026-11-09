@@ -27,31 +27,36 @@
 
 ### CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **merancang** kebutuhan, alur dan model data untuk kasus sistem web yang diberikan, dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi. | C6 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **mengimplementasikan** rute dan operasi CRUD server–basis data pada kasus yang diberikan, dengan minimal 4 dari 5 kasus UTS lulus. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **menerapkan dan menguji** autentikasi, pembatasan akses dan validasi server dasar pada aplikasi latihan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** sistem web sesuai rancangan serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+**Rumusan ABCD dan level Bloom [U].** Setiap capaian ditulis lengkap (Audience–Behaviour–Condition–Degree) dan diberi level Bloom C2–C6. Kerangka, kata kerja, bukti asesmen dan aturan konsistensinya ada di [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan kolom ini **tidak mengubah** bobot maupun lima cek instrumen.
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
-|---|---|---|---|
-| Sub-CPMK04.1.1 | Menganalisis aktor, kebutuhan dan alur kasus yang dapat diuji. | CPMK04.1 | C4 |
-| Sub-CPMK04.1.2 | Merancang entitas, relasi dan keterkaitan kebutuhan–data. | CPMK04.1 | C6 |
-| Sub-CPMK04.2.1 | Mengimplementasikan rute, handler dan respons server sesuai kasus. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menghubungkan operasi create, read, update dan delete dengan penyimpanan data. | CPMK04.2 | C3 |
-| Sub-CPMK04.3.1 | Menerapkan login, logout, sesi dan pembatasan akses berdasarkan peran. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menerapkan validasi server dan penggunaan kueri terparameter pada data masukan. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan rute, data, antarmuka dan akses sesuai rancangan. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menguji alur normal dan kesalahan serta mendokumentasikan hasil dan perbaikan. | CPMK04.4 | C4 |
+**CPMK — rumusan ABCD dan level Bloom**
 
-### Konteks capaian spesifik jalur [U]
+| Kode | Rumusan lengkap (A–D) dan level Bloom | Bloom |
+|---|---|---|
+| CPMK04.1 | Mahasiswa mampu **merancang** kebutuhan, alur dan model data (aktor, entitas dan relasi) untuk kasus sistem web yang disediakan, dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi. | C6 |
+| CPMK04.2 | Mahasiswa mampu **mengimplementasikan** rute dan operasi CRUD server–basis data pada kasus yang diberikan, dengan minimal 4 dari 5 kasus UTS lulus. | C3 |
+| CPMK04.3 | Mahasiswa mampu **menerapkan dan menguji** autentikasi, pembatasan akses berbasis peran dan validasi server dasar pada aplikasi latihan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 |
+| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** sistem web terintegrasi beserta dokumentasi hasil uji sesuai rancangan yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 |
 
-| Jalur | CPMK04.1 / Sub .1.1–.1.2 | CPMK04.2 / Sub .2.1–.2.2 | CPMK04.3 / Sub .3.1–.3.2 | CPMK04.4 / Sub .4.1–.4.2 |
+| Kode | A — Audience | B — Behaviour | C — Condition | D — Degree |
 |---|---|---|---|---|
-| **c Laravel** | Merancang kebutuhan dan data aplikasi Laravel: identifikasi aktor/kebutuhan/alur / modelkan relasi entitas dan rencana migration. | Mengimplementasikan rute dan CRUD Laravel: route/controller dan respons / migration/Eloquent untuk CRUD dan ID hilang. | Menerapkan autentikasi dan validasi Laravel: login/logout dan otorisasi peran / validasi request dan query terparameter. | Mengintegrasikan dan menguji aplikasi Laravel: hubungkan Blade, route, controller, model dan akses / uji alur serta dokumentasikan perbaikan. |
+| CPMK04.1 | Mahasiswa | merancang | untuk kasus sistem web yang disediakan | dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi |
+| CPMK04.2 | Mahasiswa | mengimplementasikan | pada kasus yang diberikan | dengan minimal 4 dari 5 kasus UTS lulus |
+| CPMK04.3 | Mahasiswa | menerapkan dan menguji | pada aplikasi latihan | dengan minimal 4 dari 5 kasus Tugas 2 lulus |
+| CPMK04.4 | Mahasiswa | mengintegrasikan dan menguji | sesuai rancangan yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi |
 
-Gunakan redaksi kontekstual ini sebagai usulan RPS jalur; 4 CPMK dan 8 Sub-CPMK adalah versi kontekstual kerangka di atas, bukan capaian tambahan. Seluruh target dan rubrik inti tetap berlaku.
+**Sub-CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | CPMK | A — Audience | B — Behaviour | C — Condition | Bloom |
+|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Sub-CPMK04.1.1 | Mahasiswa | mengklasifikasikan | sebelum menyusun kebutuhan yang dapat diuji | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Sub-CPMK04.1.2 | Mahasiswa | merancang | untuk kasus sistem web yang disediakan | C6 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Sub-CPMK04.2.1 | Mahasiswa | mengimplementasikan | sesuai kasus yang diberikan | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Sub-CPMK04.2.2 | Mahasiswa | menghubungkan | menggunakan data dummy | C3 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Sub-CPMK04.3.1 | Mahasiswa | menerapkan | pada aplikasi latihan | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Sub-CPMK04.3.2 | Mahasiswa | menganalisis | lalu menerapkan validasi server dan kueri terparameter pada data masukan aplikasi | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Sub-CPMK04.4.1 | Mahasiswa | mengintegrasikan | sesuai rancangan yang disepakati | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Sub-CPMK04.4.2 | Mahasiswa | mengevaluasi | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
 
 ### Peta evaluasi [U]
 
@@ -67,26 +72,26 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ### Rencana mingguan RPS — 8 kolom [U]
 
-`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Pustaka sesuai daftar di bagian 5.
+`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Kolom **Bloom** mengikuti level Sub-CPMK yang dinilai minggu tersebut (010 bagian 15); level bukan bobot tambahan. Pustaka sesuai daftar di bagian 5.
 
-| Minggu | Sub-CPMK | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
-|---:|---|---|---|---|---|---|---:|
-| 1 | 04.1.1 | Aktor dan alur klien–server awal dijelaskan untuk kasus dummy. | Observasi dan umpan balik formatif; tanpa bobot. | Diskusi, demonstrasi — A | Diagnostik PHP/OOP dan Composer; orientasi proyek Laravel dan rute sederhana. | R4, R11 | 0% |
-| 2 | 04.1.1 | Kebutuhan dan peran dituliskan dengan kondisi penerimaan yang dapat diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, lokakarya — A | Aktor/kebutuhan inventaris; konvensi controller, view dan struktur proyek. | R4, R11 | 0% |
-| 3 | 04.1.2 | Entitas, relasi dan contoh data konsisten dengan kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik perancangan — A | Model kategori–barang, relasi dan rancangan migration dari kebutuhan. | R5, R11 | 0% |
-| 4 | 04.1.1, 04.1.2, 04.2.1 | Lima cek rancangan Tugas 1 tersedia; pengantar rute tidak dinilai pada T1. | Lima cek instrumen; bukti dan rubrik bagian 4. | Presentasi, praktik — A | Presentasi Tugas 1; pengantar route dan controller Laravel. | R4, R5, R11 | 20% |
-| 5 | 04.2.1 | Rute menerima permintaan dan memberi respons sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Route web, controller, request/response dan Blade. | R4, R11 | 0% |
-| 6 | 04.2.2 | Data dummy dapat dibuat dan dibaca melalui server dan database. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Konfigurasi database, migration dan Eloquent create/read. | R4, R5, R11 | 0% |
-| 7 | 04.2.2 | Update/delete serta kondisi data tidak ditemukan diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Eloquent update/delete, validasi dasar dan penanganan not-found. | R4, R5, R11 | 0% |
-| 8 | 04.2.1, 04.2.2 | Lima kasus CRUD dan data tidak ditemukan pada UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | UTS praktik: route/controller, Eloquent dan lima kasus CRUD/not-found. | R4, R5, R11 | 25% |
-| 9 | 04.3.1 | Login valid/tidak valid dan logout dapat didemonstrasikan. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Fasilitas autentikasi Laravel atau starter kit pilihan; login/logout dan sesi. | R6, R11 | 0% |
-| 10 | 04.3.1 | Peran yang tidak berwenang ditolak mengakses fitur terbatas. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, praktik — A | Middleware/otorisasi peran admin dan petugas pada route/controller. | R6, R11 | 0% |
-| 11 | 04.3.2 | Input invalid ditolak server dan kueri menggunakan parameter. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji kasus — A | Validasi Request, Eloquent/query builder dan CSRF pada Blade. | R5, R6, R11 | 0% |
-| 12 | 04.3.1, 04.3.2 | Lima cek autentikasi, akses dan validasi Tugas 2 dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Tugas 2: demonstrasi autentikasi, peran dan validasi dengan Laravel. | R5, R6, R11 | 25% |
-| 13 | 04.4.1 | Antarmuka, rute, data dan akses terhubung pada purwarupa. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Integrasi Blade, route, controller, model dan otorisasi. | R4, R5, R6, R11 | 0% |
-| 14 | 04.4.1 | Alur end-to-end menggunakan data dummy sesuai kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, konsultasi — A | Penyelesaian alur dan penjelasan kontribusi kode sendiri serta komponen framework. | R4, R5, R11 | 0% |
-| 15 | 04.4.2 | Uji alur normal/gagal dan perbaikan dicatat dengan hasil aktual. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Feature test atau uji terdokumentasi normal/gagal; cek CSRF pengayaan dan setup. | R4, R6, R11 | 0% |
-| 16 | 04.4.1, 04.4.2 | Lima cek integrasi, akses, data dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | UAS: demonstrasi proyek Laravel dan bukti lima cek integrasi. | R4, R5, R6, R11 | 30% |
+| Minggu | Sub-CPMK | Bloom | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
+|---:|---|---|---|---|---|---|---|---:|
+| 1 | 04.1.1 | C2 | Aktor dan alur klien–server awal dijelaskan untuk kasus dummy. | Observasi dan umpan balik formatif; tanpa bobot. | Diskusi, demonstrasi — A | Diagnostik PHP/OOP dan Composer; orientasi proyek Laravel dan rute sederhana. | R4, R11 | 0% |
+| 2 | 04.1.1 | C2 | Kebutuhan dan peran dituliskan dengan kondisi penerimaan yang dapat diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, lokakarya — A | Aktor/kebutuhan inventaris; konvensi controller, view dan struktur proyek. | R4, R11 | 0% |
+| 3 | 04.1.2 | C6 | Entitas, relasi dan contoh data konsisten dengan kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik perancangan — A | Model kategori–barang, relasi dan rancangan migration dari kebutuhan. | R5, R11 | 0% |
+| 4 | 04.1.1, 04.1.2, 04.2.1 | C6 | Lima cek rancangan Tugas 1 tersedia; pengantar rute tidak dinilai pada T1. | Lima cek instrumen; bukti dan rubrik bagian 4. | Presentasi, praktik — A | Presentasi Tugas 1; pengantar route dan controller Laravel. | R4, R5, R11 | 20% |
+| 5 | 04.2.1 | C3 | Rute menerima permintaan dan memberi respons sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Route web, controller, request/response dan Blade. | R4, R11 | 0% |
+| 6 | 04.2.2 | C3 | Data dummy dapat dibuat dan dibaca melalui server dan database. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Konfigurasi database, migration dan Eloquent create/read. | R4, R5, R11 | 0% |
+| 7 | 04.2.2 | C3 | Update/delete serta kondisi data tidak ditemukan diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Eloquent update/delete, validasi dasar dan penanganan not-found. | R4, R5, R11 | 0% |
+| 8 | 04.2.1, 04.2.2 | C3 | Lima kasus CRUD dan data tidak ditemukan pada UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | UTS praktik: route/controller, Eloquent dan lima kasus CRUD/not-found. | R4, R5, R11 | 25% |
+| 9 | 04.3.1 | C3 | Login valid/tidak valid dan logout dapat didemonstrasikan. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Fasilitas autentikasi Laravel atau starter kit pilihan; login/logout dan sesi. | R6, R11 | 0% |
+| 10 | 04.3.1 | C3 | Peran yang tidak berwenang ditolak mengakses fitur terbatas. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, praktik — A | Middleware/otorisasi peran admin dan petugas pada route/controller. | R6, R11 | 0% |
+| 11 | 04.3.2 | C4 | Input invalid ditolak server dan kueri menggunakan parameter. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji kasus — A | Validasi Request, Eloquent/query builder dan CSRF pada Blade. | R5, R6, R11 | 0% |
+| 12 | 04.3.1, 04.3.2 | C4 | Lima cek autentikasi, akses dan validasi Tugas 2 dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Tugas 2: demonstrasi autentikasi, peran dan validasi dengan Laravel. | R5, R6, R11 | 25% |
+| 13 | 04.4.1 | C6 | Antarmuka, rute, data dan akses terhubung pada purwarupa. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Integrasi Blade, route, controller, model dan otorisasi. | R4, R5, R6, R11 | 0% |
+| 14 | 04.4.1 | C6 | Alur end-to-end menggunakan data dummy sesuai kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, konsultasi — A | Penyelesaian alur dan penjelasan kontribusi kode sendiri serta komponen framework. | R4, R5, R11 | 0% |
+| 15 | 04.4.2 | C5 | Uji alur normal/gagal dan perbaikan dicatat dengan hasil aktual. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Feature test atau uji terdokumentasi normal/gagal; cek CSRF pengayaan dan setup. | R4, R6, R11 | 0% |
+| 16 | 04.4.1, 04.4.2 | C6 | Lima cek integrasi, akses, data dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | UAS: demonstrasi proyek Laravel dan bukti lima cek integrasi. | R4, R5, R6, R11 | 30% |
 
 ## 2. SAP — Satuan Acara Pertemuan [U]
 
@@ -224,24 +229,24 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ## 3. Outline modul dan praktikum — 14 topik [U]
 
-Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
+Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Kolom Bloom mengikuti level Sub-CPMK minggu tersebut atau level CPMK pada minggu instrumen (010 bagian 15). Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
 
-| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Rujukan |
-|---:|---:|---|---|---|
-| 1 | 1 | Diagnostik PHP/OOP dan Composer; orientasi proyek Laravel dan rute sederhana. | Diagnostik, pengayaan bahasa dan bukti lingkungan. | R4, R11 |
-| 2 | 2 | Aktor/kebutuhan inventaris; konvensi controller, view dan struktur proyek. | Aktor dan kebutuhan awal. | R4, R11 |
-| 3 | 3 | Model kategori–barang, relasi dan rancangan migration dari kebutuhan. | Diagram/model data dan jejak kebutuhan. | R5, R11 |
-| 4 | 4 | Presentasi Tugas 1; pengantar route dan controller Laravel. | **Tugas 1: 20% — CPMK04.1.** | R4, R5, R11 |
-| 5 | 5 | Route web, controller, request/response dan Blade. | Bukti request dan respons. | R4, R11 |
-| 6 | 6 | Konfigurasi database, migration dan Eloquent create/read. | Bukti create/read menggunakan data dummy. | R4, R5, R11 |
-| 7 | 7 | Eloquent update/delete, validasi dasar dan penanganan not-found. | Bukti update/delete dan not-found. | R4, R5, R11 |
-| 8 | 9 | Fasilitas autentikasi Laravel atau starter kit pilihan; login/logout dan sesi. | Bukti login/logout dengan data dummy. | R6, R11 |
-| 9 | 10 | Middleware/otorisasi peran admin dan petugas pada route/controller. | Bukti uji dua peran. | R6, R11 |
-| 10 | 11 | Validasi Request, Eloquent/query builder dan CSRF pada Blade. | Bukti validasi, parameterisasi dan penjelasan kontrol. | R5, R6, R11 |
-| 11 | 12 | Tugas 2: demonstrasi autentikasi, peran dan validasi dengan Laravel. | **Tugas 2: 25% — CPMK04.3.** | R5, R6, R11 |
-| 12 | 13 | Integrasi Blade, route, controller, model dan otorisasi. | Purwarupa terintegrasi. | R4, R5, R6, R11 |
-| 13 | 14 | Penyelesaian alur dan penjelasan kontribusi kode sendiri serta komponen framework. | Alur kasus dan penjelasan kode. | R4, R5, R11 |
-| 14 | 15 | Feature test atau uji terdokumentasi normal/gagal; cek CSRF pengayaan dan setup. | Hasil uji, temuan, perbaikan dan petunjuk lokal. | R4, R6, R11 |
+| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Bloom | Rujukan |
+|---:|---:|---|---|---|---|
+| 1 | 1 | Diagnostik PHP/OOP dan Composer; orientasi proyek Laravel dan rute sederhana. | Diagnostik, pengayaan bahasa dan bukti lingkungan. | C2 | R4, R11 |
+| 2 | 2 | Aktor/kebutuhan inventaris; konvensi controller, view dan struktur proyek. | Aktor dan kebutuhan awal. | C2 | R4, R11 |
+| 3 | 3 | Model kategori–barang, relasi dan rancangan migration dari kebutuhan. | Diagram/model data dan jejak kebutuhan. | C6 | R5, R11 |
+| 4 | 4 | Presentasi Tugas 1; pengantar route dan controller Laravel. | **Tugas 1: 20% — CPMK04.1.** | C6 | R4, R5, R11 |
+| 5 | 5 | Route web, controller, request/response dan Blade. | Bukti request dan respons. | C3 | R4, R11 |
+| 6 | 6 | Konfigurasi database, migration dan Eloquent create/read. | Bukti create/read menggunakan data dummy. | C3 | R4, R5, R11 |
+| 7 | 7 | Eloquent update/delete, validasi dasar dan penanganan not-found. | Bukti update/delete dan not-found. | C3 | R4, R5, R11 |
+| 8 | 9 | Fasilitas autentikasi Laravel atau starter kit pilihan; login/logout dan sesi. | Bukti login/logout dengan data dummy. | C3 | R6, R11 |
+| 9 | 10 | Middleware/otorisasi peran admin dan petugas pada route/controller. | Bukti uji dua peran. | C3 | R6, R11 |
+| 10 | 11 | Validasi Request, Eloquent/query builder dan CSRF pada Blade. | Bukti validasi, parameterisasi dan penjelasan kontrol. | C4 | R5, R6, R11 |
+| 11 | 12 | Tugas 2: demonstrasi autentikasi, peran dan validasi dengan Laravel. | **Tugas 2: 25% — CPMK04.3.** | C4 | R5, R6, R11 |
+| 12 | 13 | Integrasi Blade, route, controller, model dan otorisasi. | Purwarupa terintegrasi. | C6 | R4, R5, R6, R11 |
+| 13 | 14 | Penyelesaian alur dan penjelasan kontribusi kode sendiri serta komponen framework. | Alur kasus dan penjelasan kode. | C6 | R4, R5, R11 |
+| 14 | 15 | Feature test atau uji terdokumentasi normal/gagal; cek CSRF pengayaan dan setup. | Hasil uji, temuan, perbaikan dan petunjuk lokal. | C5 | R4, R6, R11 |
 
 ## 4. Rencana evaluasi, instrumen dan rubrik [U]
 
@@ -325,5 +330,7 @@ Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 te
 | R6 | OWASP, [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) dan [SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) — autentikasi dan parameterisasi. | Pendukung KOM-526 |
 
 - **R11 — Laravel:** [Routing Laravel 12.x](https://laravel.com/docs/12.x/routing) dan [Authentication Laravel 12.x](https://laravel.com/docs/12.x/authentication). Halaman versi ini adalah **contoh rujukan**, bukan mandat memakai Laravel 12; cocokkan dengan versi terpilih dan status dukungannya.
+
+**R19 — Taksonomi Bloom dan ABCD:** Anderson & Krathwohl (eds.), *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives* (Longman, 2001) untuk dimensi proses kognitif C1–C6; struktur ABCD mengikuti praktik penyusunan capaian OBE. Rujukan ini **usulan penyusun**, bukan daftar pustaka resmi prodi, dan pengampu perlu memverifikasi edisi serta ketersediaannya. Penerapan ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 **Sebelum finalisasi:** periksa buku KPT/RPS atau workbook terkait, CPL/BK dan kode jalur; tetapkan dosen, tahun, format, prasyarat formal, T/P, PT/BM dan durasi evaluasi; tinjau kesiapan alat, akses dan instrumen bersama RMK; lengkapi identitas/pengesahan dan kebijakan remedial/CQI. Periksa 010 bagian 8–13. Tidak ada uji coba instrumen pada mahasiswa atau pengesahan akademik yang diklaim.

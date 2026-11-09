@@ -28,23 +28,36 @@ Kasus: daftar perlengkapan dummy dengan satu basis kode; dua target berbeda adal
 
 ### CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **membangun dan menjalankan** aplikasi sederhana dari satu basis kode pada dua target yang disepakati, dengan minimal 4 dari 5 cek Tugas 1 terpenuhi. | C3 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **menerapkan** antarmuka adaptif dan aksesibel dasar pada dua target kasus yang diberikan, dengan minimal 4 dari 5 cek UTS terpenuhi. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menguji** navigasi, state dan penyimpanan lokal pada kasus aplikasi, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** aplikasi lintas platform sesuai kasus serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+**Rumusan ABCD dan level Bloom [U].** Setiap capaian ditulis lengkap (Audience–Behaviour–Condition–Degree) dan diberi level Bloom C2–C6. Kerangka, kata kerja, bukti asesmen dan aturan konsistensinya ada di [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan kolom ini **tidak mengubah** bobot maupun lima cek instrumen.
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
-|---|---|---|---|
-| Sub-CPMK04.1.1 | Menyiapkan proyek Flutter, mengenali `pubspec.yaml`/`lib` dan mengidentifikasi kode bersama serta konfigurasi target web dan Android. | CPMK04.1 | C3 |
-| Sub-CPMK04.1.2 | Menjalankan dan menguji satu aksi sederhana Dart/Flutter pada target web dan Android dari basis kode yang sama. | CPMK04.1 | C3 |
-| Sub-CPMK04.2.1 | Menyusun layout adaptif dengan widget Flutter (`LayoutBuilder`, `MediaQuery`) sesuai ukuran dan platform. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menguji label `Semantics`, urutan fokus dan umpan balik interaksi dasar pada target yang mendukung. | CPMK04.2 | C4 |
-| Sub-CPMK04.3.1 | Mengelola state dengan `StatefulWidget`/`setState` dan navigasi `Navigator` antardua halaman sesuai kasus. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menyimpan dan memulihkan data lokal memakai mekanisme yang tersedia pada kedua target serta menangani kegagalan sederhana. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan fitur kasus ke dalam satu basis kode Flutter dan menjalankannya pada target web dan Android. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menyusun uji lintas target Flutter, mencatat perbedaan perilaku dan keterbatasan plugin serta perbaikannya. | CPMK04.4 | C4 |
+**CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | Rumusan lengkap (A–D) dan level Bloom | Bloom |
+|---|---|---|
+| CPMK04.1 | Mahasiswa mampu **membangun dan menjalankan** aplikasi sederhana dari satu basis kode pada dua target yang disepakati pada kasus aplikasi lintas platform yang disediakan, dengan minimal 4 dari 5 cek Tugas 1 terpenuhi. | C3 |
+| CPMK04.2 | Mahasiswa mampu **menerapkan dan menguji** antarmuka adaptif dan aksesibel dasar pada dua target pada kasus yang diberikan, dengan minimal 4 dari 5 cek UTS terpenuhi. | C4 |
+| CPMK04.3 | Mahasiswa mampu **mengimplementasikan dan menguji** navigasi, state dan penyimpanan lokal pada aplikasi lintas platform pada kasus aplikasi yang disediakan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 |
+| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** aplikasi lintas platform beserta dokumentasi hasil uji sesuai kasus yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 |
+
+| Kode | A — Audience | B — Behaviour | C — Condition | D — Degree |
+|---|---|---|---|---|
+| CPMK04.1 | Mahasiswa | membangun dan menjalankan | pada kasus aplikasi lintas platform yang disediakan | dengan minimal 4 dari 5 cek Tugas 1 terpenuhi |
+| CPMK04.2 | Mahasiswa | menerapkan dan menguji | pada kasus yang diberikan | dengan minimal 4 dari 5 cek UTS terpenuhi |
+| CPMK04.3 | Mahasiswa | mengimplementasikan dan menguji | pada kasus aplikasi yang disediakan | dengan minimal 4 dari 5 kasus Tugas 2 lulus |
+| CPMK04.4 | Mahasiswa | mengintegrasikan dan menguji | sesuai kasus yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi |
+
+**Sub-CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | CPMK | A — Audience | B — Behaviour | C — Condition | Bloom |
+|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Sub-CPMK04.1.1 | Mahasiswa | mengklasifikasikan | pada proyek Flutter yang disiapkan pengampu | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Sub-CPMK04.1.2 | Mahasiswa | menjalankan dan menguji | pada target web dan Android dari basis kode yang sama | C3 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Sub-CPMK04.2.1 | Mahasiswa | menyusun | sesuai ukuran layar dan platform target | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Sub-CPMK04.2.2 | Mahasiswa | menguji | pada target yang mendukung | C4 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Sub-CPMK04.3.1 | Mahasiswa | mengelola | antar dua halaman sesuai kasus | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Sub-CPMK04.3.2 | Mahasiswa | menganalisis | lalu menyimpan dan memulihkan data lokal dengan mekanisme yang tersedia pada kedua target yang diuji | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Sub-CPMK04.4.1 | Mahasiswa | mengintegrasikan | dan menjalankannya pada target web dan Android | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Sub-CPMK04.4.2 | Mahasiswa | mengevaluasi | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
 
 ### Peta evaluasi [U]
 
@@ -62,24 +75,24 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 `A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Pustaka sesuai bagian 5.
 
-| Minggu | Sub-CPMK | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
-|---:|---|---|---|---|---|---|---:|
-| 1 | 04.1.1 | Mahasiswa menjelaskan satu basis kode dan dua target yang direncanakan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Diagnostik Dart dan web; konsep satu basis kode, dua target dan batas framework. | R13 | 0% |
-| 2 | 04.1.1 | Proyek dan konfigurasi untuk dua target dapat disiapkan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Pembuatan proyek Flutter, struktur berkas, dependensi dan konfigurasi target web serta Android. | R13, R14 | 0% |
-| 3 | 04.1.2 | Aksi sederhana dijalankan pada kedua target. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Menjalankan aplikasi, input sederhana dan perbedaan perilaku antara target web dan Android. | R13, R14 | 0% |
-| 4 | 04.1.1, 04.1.2 | Lima cek basis kode/aksi pada dua target Tugas 1 dibuktikan. | Lima cek instrumen Tugas 1; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Konsolidasi bukti kode bersama, konfigurasi dan hasil berjalan pada dua target untuk Tugas 1. | R13, R14 | 20% |
-| 5 | 04.2.1 | Layout dan komponen menyesuaikan target yang disepakati. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Layout adaptif dan komponen lintas platform pada Flutter. | R14 | 0% |
-| 6 | 04.2.1 | Perbedaan ukuran/kemampuan target dicatat bersama hasil uji layout. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Adaptasi ukuran layar, orientasi dan batas kemampuan tiap target. | R14 | 0% |
-| 7 | 04.2.2 | Label, fokus dan umpan balik dasar diuji sesuai kemampuan target. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Label kontrol, fokus/pembaca layar dan umpan balik interaksi pada Flutter. | R15 | 0% |
-| 8 | 04.2.1, 04.2.2 | Lima cek UI adaptif dan aksesibilitas dasar UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | Evaluasi antarmuka adaptif pada dua target. | R14, R15 | 25% |
-| 9 | 04.3.1 | Aksi mengubah state dan tampilan sesuai contoh. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | State pada Flutter dan pemutakhiran tampilan setelah aksi. | R14, R15 | 0% |
-| 10 | 04.3.1 | Navigasi maju/kembali mempertahankan state sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Navigasi `Navigator` Flutter dan konsistensi state antarhalaman. | R14 | 0% |
-| 11 | 04.3.2 | Data lokal dipulihkan pada kondisi yang diuji dan kesalahan ditangani. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Penyimpanan lokal pada Flutter, pemulihan data dan penanganan data invalid/kegagalan. | R15 | 0% |
-| 12 | 04.3.1, 04.3.2 | Lima kasus state, navigasi dan persistensi Tugas 2 dicatat. | Lima cek instrumen Tugas 2; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Konsolidasi bukti state, navigasi dan penyimpanan lokal untuk Tugas 2. | R14, R15 | 25% |
-| 13 | 04.4.1 | Rancangan proyek menunjukkan kasus dan fitur bersama. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Rancangan kasus proyek dan integrasi fitur dalam satu basis kode. | R13, R14 | 0% |
-| 14 | 04.4.1 | Fitur terintegrasi berjalan pada dua target berbeda. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Integrasi antarmuka, state dan data lokal, lalu menjalankannya pada dua target. | R13, R14 | 0% |
-| 15 | 04.4.2 | Matriks hasil uji, perbedaan target dan perbaikan tersedia. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Uji lintas target, dokumentasi perbedaan perilaku dan perbaikan. | R14, R15 | 0% |
-| 16 | 04.4.1, 04.4.2 | Lima cek integrasi lintas target dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | Demonstrasi dua target, hasil uji dan penjelasan individu. | R13, R14, R15 | 30% |
+| Minggu | Sub-CPMK | Bloom | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
+|---:|---|---|---|---|---|---|---|---:|
+| 1 | 04.1.1 | C2 | Mahasiswa menjelaskan satu basis kode dan dua target yang direncanakan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Diagnostik Dart dan web; konsep satu basis kode, dua target dan batas framework. | R13 | 0% |
+| 2 | 04.1.1 | C2 | Proyek dan konfigurasi untuk dua target dapat disiapkan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Pembuatan proyek Flutter, struktur berkas, dependensi dan konfigurasi target web serta Android. | R13, R14 | 0% |
+| 3 | 04.1.2 | C3 | Aksi sederhana dijalankan pada kedua target. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Menjalankan aplikasi, input sederhana dan perbedaan perilaku antara target web dan Android. | R13, R14 | 0% |
+| 4 | 04.1.1, 04.1.2 | C3 | Lima cek basis kode/aksi pada dua target Tugas 1 dibuktikan. | Lima cek instrumen Tugas 1; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Konsolidasi bukti kode bersama, konfigurasi dan hasil berjalan pada dua target untuk Tugas 1. | R13, R14 | 20% |
+| 5 | 04.2.1 | C3 | Layout dan komponen menyesuaikan target yang disepakati. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Layout adaptif dan komponen lintas platform pada Flutter. | R14 | 0% |
+| 6 | 04.2.1 | C3 | Perbedaan ukuran/kemampuan target dicatat bersama hasil uji layout. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Adaptasi ukuran layar, orientasi dan batas kemampuan tiap target. | R14 | 0% |
+| 7 | 04.2.2 | C4 | Label, fokus dan umpan balik dasar diuji sesuai kemampuan target. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Label kontrol, fokus/pembaca layar dan umpan balik interaksi pada Flutter. | R15 | 0% |
+| 8 | 04.2.1, 04.2.2 | C4 | Lima cek UI adaptif dan aksesibilitas dasar UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | Evaluasi antarmuka adaptif pada dua target. | R14, R15 | 25% |
+| 9 | 04.3.1 | C3 | Aksi mengubah state dan tampilan sesuai contoh. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | State pada Flutter dan pemutakhiran tampilan setelah aksi. | R14, R15 | 0% |
+| 10 | 04.3.1 | C3 | Navigasi maju/kembali mempertahankan state sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Navigasi `Navigator` Flutter dan konsistensi state antarhalaman. | R14 | 0% |
+| 11 | 04.3.2 | C4 | Data lokal dipulihkan pada kondisi yang diuji dan kesalahan ditangani. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Penyimpanan lokal pada Flutter, pemulihan data dan penanganan data invalid/kegagalan. | R15 | 0% |
+| 12 | 04.3.1, 04.3.2 | C4 | Lima kasus state, navigasi dan persistensi Tugas 2 dicatat. | Lima cek instrumen Tugas 2; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Konsolidasi bukti state, navigasi dan penyimpanan lokal untuk Tugas 2. | R14, R15 | 25% |
+| 13 | 04.4.1 | C6 | Rancangan proyek menunjukkan kasus dan fitur bersama. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Rancangan kasus proyek dan integrasi fitur dalam satu basis kode. | R13, R14 | 0% |
+| 14 | 04.4.1 | C6 | Fitur terintegrasi berjalan pada dua target berbeda. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Integrasi antarmuka, state dan data lokal, lalu menjalankannya pada dua target. | R13, R14 | 0% |
+| 15 | 04.4.2 | C5 | Matriks hasil uji, perbedaan target dan perbaikan tersedia. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik terbimbing — A | Uji lintas target, dokumentasi perbedaan perilaku dan perbaikan. | R14, R15 | 0% |
+| 16 | 04.4.1, 04.4.2 | C6 | Lima cek integrasi lintas target dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | Demonstrasi dua target, hasil uji dan penjelasan individu. | R13, R14, R15 | 30% |
 
 ## 2. SAP — Satuan Acara Pertemuan [U]
 
@@ -217,24 +230,24 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ## 3. Outline modul dan praktikum — 14 topik [U]
 
-Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Rincian langkah, bukti dan refleksi ada di [outline modul](036_OUTLINE_MODUL_KFC-506A_DART_FLUTTER_09112026_1339.md).
+Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Kolom Bloom mengikuti level Sub-CPMK minggu tersebut atau level CPMK pada minggu instrumen (010 bagian 15). Rincian langkah, bukti dan refleksi ada di [outline modul](036_OUTLINE_MODUL_KFC-506A_DART_FLUTTER_09112026_1339.md).
 
-| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Rujukan |
-|---:|---:|---|---|---|
-| 1 | 1 | Diagnostik dan konsep satu basis kode dua target. | Formatif: Mahasiswa menjelaskan satu basis kode dan dua target yang direncanakan. | R13 |
-| 2 | 2 | Menyiapkan proyek dan konfigurasi target. | Formatif: Proyek dan konfigurasi untuk dua target dapat disiapkan. | R13, R14 |
-| 3 | 3 | Menjalankan aksi pertama pada dua target. | Formatif: Aksi sederhana dijalankan pada kedua target. | R13, R14 |
-| 4 | 4 | Menyiapkan bukti Tugas 1. | **Tugas 1: 20%, CPMK04.1.** | R13, R14 |
-| 5 | 5 | Layout adaptif dan komponen lintas platform. | Formatif: Layout dan komponen menyesuaikan target yang disepakati. | R14 |
-| 6 | 6 | Adaptasi ukuran, orientasi dan batas platform. | Formatif: Perbedaan ukuran/kemampuan target dicatat bersama hasil uji layout. | R14 |
-| 7 | 7 | Aksesibilitas dasar dan umpan balik interaksi. | Formatif: Label, fokus dan umpan balik dasar diuji sesuai kemampuan target. | R15 |
-| 8 | 9 | State dan pemutakhiran tampilan. | Formatif: Aksi mengubah state dan tampilan sesuai contoh. | R14, R15 |
-| 9 | 10 | Navigasi antardua halaman. | Formatif: Navigasi maju/kembali mempertahankan state sesuai kasus. | R14 |
-| 10 | 11 | Penyimpanan lokal dan penanganan kegagalan. | Formatif: Data lokal dipulihkan pada kondisi yang diuji dan kesalahan ditangani. | R15 |
-| 11 | 12 | Menyiapkan bukti Tugas 2. | **Tugas 2: 25%, CPMK04.3.** | R14, R15 |
-| 12 | 13 | Rancangan proyek terintegrasi. | Formatif: Rancangan proyek menunjukkan kasus dan fitur bersama. | R13, R14 |
-| 13 | 14 | Integrasi proyek pada dua target. | Formatif: Fitur terintegrasi berjalan pada dua target berbeda. | R13, R14 |
-| 14 | 15 | Uji lintas target dan dokumentasi keterbatasan. | Formatif: Matriks hasil uji, perbedaan target dan perbaikan tersedia. | R14, R15 |
+| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Bloom | Rujukan |
+|---:|---:|---|---|---|---|
+| 1 | 1 | Diagnostik dan konsep satu basis kode dua target. | Formatif: Mahasiswa menjelaskan satu basis kode dan dua target yang direncanakan. | C2 | R13 |
+| 2 | 2 | Menyiapkan proyek dan konfigurasi target. | Formatif: Proyek dan konfigurasi untuk dua target dapat disiapkan. | C2 | R13, R14 |
+| 3 | 3 | Menjalankan aksi pertama pada dua target. | Formatif: Aksi sederhana dijalankan pada kedua target. | C3 | R13, R14 |
+| 4 | 4 | Menyiapkan bukti Tugas 1. | **Tugas 1: 20%, CPMK04.1.** | C3 | R13, R14 |
+| 5 | 5 | Layout adaptif dan komponen lintas platform. | Formatif: Layout dan komponen menyesuaikan target yang disepakati. | C3 | R14 |
+| 6 | 6 | Adaptasi ukuran, orientasi dan batas platform. | Formatif: Perbedaan ukuran/kemampuan target dicatat bersama hasil uji layout. | C3 | R14 |
+| 7 | 7 | Aksesibilitas dasar dan umpan balik interaksi. | Formatif: Label, fokus dan umpan balik dasar diuji sesuai kemampuan target. | C4 | R15 |
+| 8 | 9 | State dan pemutakhiran tampilan. | Formatif: Aksi mengubah state dan tampilan sesuai contoh. | C3 | R14, R15 |
+| 9 | 10 | Navigasi antardua halaman. | Formatif: Navigasi maju/kembali mempertahankan state sesuai kasus. | C3 | R14 |
+| 10 | 11 | Penyimpanan lokal dan penanganan kegagalan. | Formatif: Data lokal dipulihkan pada kondisi yang diuji dan kesalahan ditangani. | C4 | R15 |
+| 11 | 12 | Menyiapkan bukti Tugas 2. | **Tugas 2: 25%, CPMK04.3.** | C4 | R14, R15 |
+| 12 | 13 | Rancangan proyek terintegrasi. | Formatif: Rancangan proyek menunjukkan kasus dan fitur bersama. | C6 | R13, R14 |
+| 13 | 14 | Integrasi proyek pada dua target. | Formatif: Fitur terintegrasi berjalan pada dua target berbeda. | C6 | R13, R14 |
+| 14 | 15 | Uji lintas target dan dokumentasi keterbatasan. | Formatif: Matriks hasil uji, perbedaan target dan perbaikan tersedia. | C5 | R14, R15 |
 
 ## 4. Rencana evaluasi, instrumen dan rubrik [U]
 
@@ -316,5 +329,7 @@ Rujukan teknis jalur ini: R13–R15 untuk Flutter, R16–R18 untuk React Native 
 | R13 | Flutter, [Install and set up Flutter](https://docs.flutter.dev/install) dan [Flutter learning pathway](https://docs.flutter.dev/learn/pathway) — pemasangan SDK, Dart, proyek pertama dan `flutter doctor`. | Utama jalur a |
 | R14 | Flutter, [Adaptive and responsive design](https://docs.flutter.dev/ui/adaptive-responsive) dan [Navigation basics](https://docs.flutter.dev/cookbook/navigation/navigation-basics) — layout adaptif, `MediaQuery`/`LayoutBuilder` dan navigasi bergaya tumpukan. | Utama jalur a |
 | R15 | Flutter, [Accessibility](https://docs.flutter.dev/ui/accessibility) dan [Testing Flutter apps](https://docs.flutter.dev/testing/overview) — label/pembaca layar, daftar periksa aksesibilitas, unit/widget/integration test. | Pendukung jalur a |
+
+**R19 — Taksonomi Bloom dan ABCD:** Anderson & Krathwohl (eds.), *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives* (Longman, 2001) untuk dimensi proses kognitif C1–C6; struktur ABCD mengikuti praktik penyusunan capaian OBE. Rujukan ini **usulan penyusun**, bukan daftar pustaka resmi prodi, dan pengampu perlu memverifikasi edisi serta ketersediaannya. Penerapan ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 **Sebelum finalisasi:** periksa buku KPT/RPS atau workbook terkait, CPL/BK dan kode jalur; tetapkan dosen, tahun, format, prasyarat formal, T/P, PT/BM dan durasi evaluasi; tinjau kesiapan alat, akses, lisensi SDK, ketersediaan emulator/perangkat dan instrumen bersama RMK; lengkapi identitas/pengesahan dan kebijakan remedial/CQI. Periksa 010 bagian 8–14. Tidak ada uji coba instrumen pada mahasiswa atau pengesahan akademik yang diklaim. Rujukan daring dapat berubah; cocokkan versi dengan SDK yang dipakai.

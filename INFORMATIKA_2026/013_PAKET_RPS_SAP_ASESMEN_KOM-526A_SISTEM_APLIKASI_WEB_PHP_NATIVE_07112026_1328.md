@@ -27,31 +27,64 @@
 
 ### CPMK dan Sub-CPMK [U]
 
-| Kode lokal | CPMK terukur | Bloom | CPL |
-|---|---|---|---|
-| CPMK04.1 | Mahasiswa mampu **merancang** kebutuhan, alur dan model data untuk kasus sistem web yang diberikan, dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi. | C6 | CPL04 |
-| CPMK04.2 | Mahasiswa mampu **mengimplementasikan** rute dan operasi CRUD server–basis data pada kasus yang diberikan, dengan minimal 4 dari 5 kasus UTS lulus. | C3 | CPL04 |
-| CPMK04.3 | Mahasiswa mampu **menerapkan dan menguji** autentikasi, pembatasan akses dan validasi server dasar pada aplikasi latihan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C3 | CPL04 |
-| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** sistem web sesuai rancangan serta mendokumentasikan hasil, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 | CPL04 |
+**Rumusan ABCD dan level Bloom [U].** Setiap capaian ditulis lengkap (Audience–Behaviour–Condition–Degree) dan diberi level Bloom C2–C6. Kerangka, kata kerja, bukti asesmen dan aturan konsistensinya ada di [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u). Penambahan kolom ini **tidak mengubah** bobot maupun lima cek instrumen.
 
-| Kode lokal | Sub-CPMK operasional | CPMK | Bloom |
-|---|---|---|---|
-| Sub-CPMK04.1.1 | Menganalisis aktor, kebutuhan dan alur kasus yang dapat diuji. | CPMK04.1 | C4 |
-| Sub-CPMK04.1.2 | Merancang entitas, relasi dan keterkaitan kebutuhan–data. | CPMK04.1 | C6 |
-| Sub-CPMK04.2.1 | Mengimplementasikan rute, handler dan respons server sesuai kasus. | CPMK04.2 | C3 |
-| Sub-CPMK04.2.2 | Menghubungkan operasi create, read, update dan delete dengan penyimpanan data. | CPMK04.2 | C3 |
-| Sub-CPMK04.3.1 | Menerapkan login, logout, sesi dan pembatasan akses berdasarkan peran. | CPMK04.3 | C3 |
-| Sub-CPMK04.3.2 | Menerapkan validasi server dan penggunaan kueri terparameter pada data masukan. | CPMK04.3 | C3 |
-| Sub-CPMK04.4.1 | Mengintegrasikan rute, data, antarmuka dan akses sesuai rancangan. | CPMK04.4 | C6 |
-| Sub-CPMK04.4.2 | Menguji alur normal dan kesalahan serta mendokumentasikan hasil dan perbaikan. | CPMK04.4 | C4 |
+**CPMK — rumusan ABCD dan level Bloom**
 
-### Konteks capaian spesifik jalur [U]
+| Kode | Rumusan lengkap (A–D) dan level Bloom | Bloom |
+|---|---|---|
+| CPMK04.1 | Mahasiswa mampu **merancang** kebutuhan, alur dan model data (aktor, entitas dan relasi) untuk kasus sistem web yang disediakan, dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi. | C6 |
+| CPMK04.2 | Mahasiswa mampu **mengimplementasikan** rute dan operasi CRUD server–basis data pada kasus yang diberikan, dengan minimal 4 dari 5 kasus UTS lulus. | C3 |
+| CPMK04.3 | Mahasiswa mampu **menerapkan dan menguji** autentikasi, pembatasan akses berbasis peran dan validasi server dasar pada aplikasi latihan, dengan minimal 4 dari 5 kasus Tugas 2 lulus. | C4 |
+| CPMK04.4 | Mahasiswa mampu **mengintegrasikan dan menguji** sistem web terintegrasi beserta dokumentasi hasil uji sesuai rancangan yang disepakati, dengan minimal 4 dari 5 cek UAS terpenuhi. | C6 |
 
-| Jalur | CPMK04.1 / Sub .1.1–.1.2 | CPMK04.2 / Sub .2.1–.2.2 | CPMK04.3 / Sub .3.1–.3.2 | CPMK04.4 / Sub .4.1–.4.2 |
+| Kode | A — Audience | B — Behaviour | C — Condition | D — Degree |
 |---|---|---|---|---|
-| **a Native** | Merancang kebutuhan dan data untuk aplikasi PHP prosedural: identifikasi aktor/kebutuhan/alur / modelkan entitas, relasi dan keterlacakan. | Menerapkan endpoint dan CRUD prosedural PHP–PDO: buat handler/request/response / buat operasi create/read/update/delete dan tangani ID hilang. | Menerapkan akses dan validasi pada file/fungsi PHP: buat login, logout, sesi dan pemeriksaan peran / validasi server serta parameterisasi PDO. | Mengintegrasikan dan menguji aplikasi prosedural: hubungkan form, endpoint, fungsi, data dan akses / uji normal-gagal serta dokumentasikan perbaikan. |
+| CPMK04.1 | Mahasiswa | merancang | untuk kasus sistem web yang disediakan | dengan minimal 4 dari 5 cek rancangan Tugas 1 terpenuhi |
+| CPMK04.2 | Mahasiswa | mengimplementasikan | pada kasus yang diberikan | dengan minimal 4 dari 5 kasus UTS lulus |
+| CPMK04.3 | Mahasiswa | menerapkan dan menguji | pada aplikasi latihan | dengan minimal 4 dari 5 kasus Tugas 2 lulus |
+| CPMK04.4 | Mahasiswa | mengintegrasikan dan menguji | sesuai rancangan yang disepakati | dengan minimal 4 dari 5 cek UAS terpenuhi |
 
-Gunakan redaksi kontekstual ini sebagai usulan RPS jalur; 4 CPMK dan 8 Sub-CPMK adalah versi kontekstual kerangka di atas, bukan capaian tambahan. Seluruh target dan rubrik inti tetap berlaku.
+**Sub-CPMK — rumusan ABCD dan level Bloom**
+
+| Kode | CPMK | A — Audience | B — Behaviour | C — Condition | Bloom |
+|---|---|---|---|---|---|
+| Sub-CPMK04.1.1 | CPMK04.1 | Sub-CPMK04.1.1 | Mahasiswa | mengklasifikasikan | sebelum menyusun kebutuhan yang dapat diuji | C2 |
+| Sub-CPMK04.1.2 | CPMK04.1 | Sub-CPMK04.1.2 | Mahasiswa | merancang | untuk kasus sistem web yang disediakan | C6 |
+| Sub-CPMK04.2.1 | CPMK04.2 | Sub-CPMK04.2.1 | Mahasiswa | mengimplementasikan | sesuai kasus yang diberikan | C3 |
+| Sub-CPMK04.2.2 | CPMK04.2 | Sub-CPMK04.2.2 | Mahasiswa | menghubungkan | menggunakan data dummy | C3 |
+| Sub-CPMK04.3.1 | CPMK04.3 | Sub-CPMK04.3.1 | Mahasiswa | menerapkan | pada aplikasi latihan | C3 |
+| Sub-CPMK04.3.2 | CPMK04.3 | Sub-CPMK04.3.2 | Mahasiswa | menganalisis | lalu menerapkan validasi server dan kueri terparameter pada data masukan aplikasi | C4 |
+| Sub-CPMK04.4.1 | CPMK04.4 | Sub-CPMK04.4.1 | Mahasiswa | mengintegrasikan | sesuai rancangan yang disepakati | C6 |
+| Sub-CPMK04.4.2 | CPMK04.4 | Sub-CPMK04.4.2 | Mahasiswa | mengevaluasi | kemudian memilih prioritas perbaikan bersama pengampu | C5 |
+
+### Taksonomi Bloom C2–C6 dan rumusan ABCD pada RPS [U]
+
+**Status [U]:** kerangka ini adalah **usulan penyusun berbasis praktik OBE**, bukan kutipan buku KPT Teknik Informatika UWG. Pemeriksaan dokumen sumber tidak menemukan tabel taksonomi Bloom dan CPL04 tidak diberi kode Bloom di sana; pemetaan level adalah tafsiran atas kata kerja CPL04 (*menganalisis*; *merancang, mengimplementasikan, menguji, mengintegrasikan, memelihara*) dan harus disahkan prodi/RMK.
+
+**ABCD.** Setiap capaian ditulis lengkap agar terukur: **A** *Audience* — selalu "Mahasiswa"; **B** *Behaviour* — satu kata kerja terukur sesuai level Bloom; **C** *Condition* — kasus, alat, batasan atau konteks pengerjaan; **D** *Degree* — ambang ketercapaian. Pada rancangan ini **D diseragamkan: minimal 4 dari 5 cek instrumen terpenuhi** (target usulan, bukan standar kelulusan) dan **C** memuat kasus/alat yang memang sudah ditetapkan pada instrumen terkait.
+
+**Level yang dipakai: C2, C3, C4, C5, C6.** C1 (mengingat) tidak dijadikan capaian MK karena bukan bukti kompetensi lulusan.
+
+| Level | Proses kognitif | Kata kerja operasional | Bukti/asesmen yang cocok | Penempatan pada RPS |
+|---|---|---|---|---|
+| **C2** | Memahami | menjelaskan, mengklasifikasikan, membandingkan, mengilustrasikan, merangkum, memberi contoh | penjelasan lisan/tertulis, diagram, kuis/tanya jawab formatif | pekan 1–3: menjelaskan alur, peran dan istilah teknis (formatif) |
+| **C3** | Menerapkan | menerapkan, menggunakan, mengimplementasikan, menjalankan, membuat, menyusun | unjuk kerja, kode/produk berjalan, studi kasus terarah | pekan 2–12: praktik terbimbing serta T1/UTS/T2 |
+| **C4** | Menganalisis | menganalisis, membedakan, menelusuri, memeriksa, menguji, mendiagnosis | analisis kebutuhan, laporan uji, tabel hasil diharapkan vs aktual | pekan 3–15: analisis kebutuhan dan diagnosis kegagalan |
+| **C5** | Mengevaluasi | menilai, memvalidasi, mengkritisi, memilih, memutuskan, membandingkan dengan kriteria | justifikasi perbaikan berprioritas, reviu hasil uji terhadap kriteria | pekan 15–16: menilai hasil uji dan memilih perbaikan (masuk lima cek UAS) |
+| **C6** | Menciptakan | merancang, membangun, menyusun, mengintegrasikan, mengembangkan, memproduksi | produk/proyek terintegrasi, rancangan, dokumentasi, demonstrasi | pekan 4 dan 13–16: rancangan T1 dan integrasi UAS |
+
+**Pola capaian pada rancangan ini:** T1 = **C6** untuk perancangan (KOM-526/KFC-506) atau **C3** untuk penyusunan artefak terarah (KOM-312); UTS dan T2 = **C3–C4** (menerapkan serta menganalisis/menguji); **UAS = C6** (mengintegrasikan) dengan **C5** dinilai di dalam lima cek UAS melalui penilaian hasil uji dan pemilihan perbaikan. Dengan pola ini kelima level C2–C6 terpakai: C2 secara formatif pada pekan awal, C3 pada penerapan alat, C4 pada analisis dan pengujian, C5 pada evaluasi hasil uji, C6 pada perancangan dan integrasi.
+
+**Aturan konsistensi** (dapat diperiksa pada tabel CPMK/Sub-CPMK setiap paket):
+
+1. **Level Sub-CPMK tidak melebihi level CPMK-nya**, dan setiap CPMK memiliki Sub-CPMK pada level yang sama atau lebih rendah.
+2. **Level tertinggi CPMK tercermin pada instrumennya**: CPMK berlevel C6 dinilai melalui produk/rancangan, bukan kuis; C5 dinilai melalui justifikasi perbaikan, bukan sekadar melaporkan hasil.
+3. **Kata kerja pada tabel level dipakai konsisten**; kata kerja kabur ("memahami", "mengetahui", "mengerti") tidak dipakai pada rumusan capaian.
+4. **Setiap Sub-CPMK terlacak** ke satu CPMK, satu instrumen dan satu pekan pada tabel 16 minggu.
+5. **ABCD bukan butir penilaian baru**: bobot T1/UTS/T2/UAS (20/25/25/30), lima cek biner per instrumen dan target ≥4/5 tidak berubah.
+
+**Telaah C5 [K]:** C5 pada rancangan ini melekat pada Sub-CPMK 04.4.2 (mengevaluasi hasil uji dan memilih perbaikan) dan dinilai sebagai bagian cek UAS/T2 yang sudah ada, bukan butir berbobot baru. Bila prodi menghendaki C5 sebagai CPMK tersendiri dengan instrumen terpisah, revisi kisi-kisi, rubrik dan bobot lebih dahulu dan sahkan sebelum perkuliahan.
 
 ### Peta evaluasi [U]
 
@@ -67,26 +100,26 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ### Rencana mingguan RPS — 8 kolom [U]
 
-`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Pustaka sesuai daftar di bagian 5.
+`A`: simulasi 100 menit tatap muka + 170 menit praktik **hanya jika** disetujui 2T+1P; `E`: usulan slot evaluasi sampai 270 menit, bukan tambahan A. T/P, PT/BM dan durasi E belum terverifikasi. Bobot hanya pada T1/UTS/T2/UAS. Kolom **Bloom** mengikuti level Sub-CPMK yang dinilai minggu tersebut (010 bagian 15); level bukan bobot tambahan. Pustaka sesuai daftar di bagian 5.
 
-| Minggu | Sub-CPMK | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
-|---:|---|---|---|---|---|---|---:|
-| 1 | 04.1.1 | Aktor dan alur klien–server awal dijelaskan untuk kasus dummy. | Observasi dan umpan balik formatif; tanpa bobot. | Diskusi, demonstrasi — A | Diagnostik web dan sintaks PHP; jalankan respons PHP lokal dan jelaskan alur request. | R4, R10 | 0% |
-| 2 | 04.1.1 | Kebutuhan dan peran dituliskan dengan kondisi penerimaan yang dapat diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, lokakarya — A | Aktor/kebutuhan inventaris; latihan variabel, kondisi dan fungsi prosedural pada data dummy. | R4, R10 | 0% |
-| 3 | 04.1.2 | Entitas, relasi dan contoh data konsisten dengan kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik perancangan — A | Entitas/relasi kategori–barang dan keterlacakan kebutuhan; fungsi membaca data contoh. | R5, R10 | 0% |
-| 4 | 04.1.1, 04.1.2, 04.2.1 | Lima cek rancangan Tugas 1 tersedia; pengantar rute tidak dinilai pada T1. | Lima cek instrumen; bukti dan rubrik bagian 4. | Presentasi, praktik — A | Presentasi Tugas 1; pengantar endpoint file PHP dan metode GET/POST. | R4, R5, R10 | 20% |
-| 5 | 04.2.1 | Rute menerima permintaan dan memberi respons sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Endpoint PHP prosedural: GET/POST, parameter, validasi dasar dan respons. | R4, R10 | 0% |
-| 6 | 04.2.2 | Data dummy dapat dibuat dan dibaca melalui server dan database. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | PDO dengan driver SQLite: koneksi, create/read dan parameter binding. | R4, R5, R10 | 0% |
-| 7 | 04.2.2 | Update/delete serta kondisi data tidak ditemukan diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Fungsi update/delete dan penanganan ID tidak ditemukan menggunakan PDO. | R4, R5, R10 | 0% |
-| 8 | 04.2.1, 04.2.2 | Lima kasus CRUD dan data tidak ditemukan pada UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | UTS praktik: endpoint PHP prosedural dan lima kasus CRUD/not-found. | R4, R5, R10 | 25% |
-| 9 | 04.3.1 | Login valid/tidak valid dan logout dapat didemonstrasikan. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Pustaka password_hash/password_verify; login/logout dan sesi PHP. | R6, R10 | 0% |
-| 10 | 04.3.1 | Peran yang tidak berwenang ditolak mengakses fitur terbatas. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, praktik — A | Pemeriksaan sesi dan peran admin/petugas pada tiap endpoint server. | R6, R10 | 0% |
-| 11 | 04.3.2 | Input invalid ditolak server dan kueri menggunakan parameter. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji kasus — A | Validasi server, PDO prepared statements, escape output dan pengenalan token CSRF. | R5, R6, R10 | 0% |
-| 12 | 04.3.1, 04.3.2 | Lima cek autentikasi, akses dan validasi Tugas 2 dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Tugas 2: demonstrasi autentikasi, peran dan validasi dalam PHP prosedural. | R5, R6, R10 | 25% |
-| 13 | 04.4.1 | Antarmuka, rute, data dan akses terhubung pada purwarupa. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Integrasi halaman, fungsi, endpoint, data dan akses dalam proyek inventaris. | R4, R5, R6, R10 | 0% |
-| 14 | 04.4.1 | Alur end-to-end menggunakan data dummy sesuai kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, konsultasi — A | Penyelesaian alur role dan data; tinjau perbedaan endpoint dan fungsi. | R4, R5, R10 | 0% |
-| 15 | 04.4.2 | Uji alur normal/gagal dan perbaikan dicatat dengan hasil aktual. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Uji normal/gagal, cek CSRF pengayaan dan dokumentasi setup PHP/DB lokal. | R4, R6, R10 | 0% |
-| 16 | 04.4.1, 04.4.2 | Lima cek integrasi, akses, data dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | UAS: demonstrasi proyek PHP prosedural dan bukti lima cek integrasi. | R4, R5, R6, R10 | 30% |
+| Minggu | Sub-CPMK | Bloom | Indikator | Kriteria & teknik penilaian | Bentuk/metode dan waktu | Materi / kegiatan | Pustaka | Bobot |
+|---:|---|---|---|---|---|---|---|---:|
+| 1 | 04.1.1 | C2 | Aktor dan alur klien–server awal dijelaskan untuk kasus dummy. | Observasi dan umpan balik formatif; tanpa bobot. | Diskusi, demonstrasi — A | Diagnostik web dan sintaks PHP; jalankan respons PHP lokal dan jelaskan alur request. | R4, R10 | 0% |
+| 2 | 04.1.1 | C2 | Kebutuhan dan peran dituliskan dengan kondisi penerimaan yang dapat diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, lokakarya — A | Aktor/kebutuhan inventaris; latihan variabel, kondisi dan fungsi prosedural pada data dummy. | R4, R10 | 0% |
+| 3 | 04.1.2 | C6 | Entitas, relasi dan contoh data konsisten dengan kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik perancangan — A | Entitas/relasi kategori–barang dan keterlacakan kebutuhan; fungsi membaca data contoh. | R5, R10 | 0% |
+| 4 | 04.1.1, 04.1.2, 04.2.1 | C6 | Lima cek rancangan Tugas 1 tersedia; pengantar rute tidak dinilai pada T1. | Lima cek instrumen; bukti dan rubrik bagian 4. | Presentasi, praktik — A | Presentasi Tugas 1; pengantar endpoint file PHP dan metode GET/POST. | R4, R5, R10 | 20% |
+| 5 | 04.2.1 | C3 | Rute menerima permintaan dan memberi respons sesuai kasus. | Observasi dan umpan balik formatif; tanpa bobot. | Kuliah, praktik — A | Endpoint PHP prosedural: GET/POST, parameter, validasi dasar dan respons. | R4, R10 | 0% |
+| 6 | 04.2.2 | C3 | Data dummy dapat dibuat dan dibaca melalui server dan database. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | PDO dengan driver SQLite: koneksi, create/read dan parameter binding. | R4, R5, R10 | 0% |
+| 7 | 04.2.2 | C3 | Update/delete serta kondisi data tidak ditemukan diuji. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji — A | Fungsi update/delete dan penanganan ID tidak ditemukan menggunakan PDO. | R4, R5, R10 | 0% |
+| 8 | 04.2.1, 04.2.2 | C3 | Lima kasus CRUD dan data tidak ditemukan pada UTS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian praktik — E | UTS praktik: endpoint PHP prosedural dan lima kasus CRUD/not-found. | R4, R5, R10 | 25% |
+| 9 | 04.3.1 | C3 | Login valid/tidak valid dan logout dapat didemonstrasikan. | Observasi dan umpan balik formatif; tanpa bobot. | Demonstrasi, praktik — A | Pustaka password_hash/password_verify; login/logout dan sesi PHP. | R6, R10 | 0% |
+| 10 | 04.3.1 | C3 | Peran yang tidak berwenang ditolak mengakses fitur terbatas. | Observasi dan umpan balik formatif; tanpa bobot. | Studi kasus, praktik — A | Pemeriksaan sesi dan peran admin/petugas pada tiap endpoint server. | R6, R10 | 0% |
+| 11 | 04.3.2 | C4 | Input invalid ditolak server dan kueri menggunakan parameter. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, uji kasus — A | Validasi server, PDO prepared statements, escape output dan pengenalan token CSRF. | R5, R6, R10 | 0% |
+| 12 | 04.3.1, 04.3.2 | C4 | Lima cek autentikasi, akses dan validasi Tugas 2 dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Praktik, demonstrasi — A | Tugas 2: demonstrasi autentikasi, peran dan validasi dalam PHP prosedural. | R5, R6, R10 | 25% |
+| 13 | 04.4.1 | C6 | Antarmuka, rute, data dan akses terhubung pada purwarupa. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik proyek — A | Integrasi halaman, fungsi, endpoint, data dan akses dalam proyek inventaris. | R4, R5, R6, R10 | 0% |
+| 14 | 04.4.1 | C6 | Alur end-to-end menggunakan data dummy sesuai kebutuhan. | Observasi dan umpan balik formatif; tanpa bobot. | Praktik, konsultasi — A | Penyelesaian alur role dan data; tinjau perbedaan endpoint dan fungsi. | R4, R5, R10 | 0% |
+| 15 | 04.4.2 | C5 | Uji alur normal/gagal dan perbaikan dicatat dengan hasil aktual. | Observasi dan umpan balik formatif; tanpa bobot. | Pengujian, umpan balik — A | Uji normal/gagal, cek CSRF pengayaan dan dokumentasi setup PHP/DB lokal. | R4, R6, R10 | 0% |
+| 16 | 04.4.1, 04.4.2 | C6 | Lima cek integrasi, akses, data dan dokumentasi UAS dibuktikan. | Lima cek instrumen; bukti dan rubrik bagian 4. | Ujian proyek — E | UAS: demonstrasi proyek PHP prosedural dan bukti lima cek integrasi. | R4, R5, R6, R10 | 30% |
 
 ## 2. SAP — Satuan Acara Pertemuan [U]
 
@@ -224,24 +257,24 @@ Target usulan tiap CPMK ≥4 dari 5 cek instrumen, bukan ketentuan resmi. Kode C
 
 ## 3. Outline modul dan praktikum — 14 topik [U]
 
-Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
+Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 tetap memuat T1/T2. Kolom Bloom mengikuti level Sub-CPMK minggu tersebut atau level CPMK pada minggu instrumen (010 bagian 15). Sumber mengikuti bagian 5; isi modul lengkap dan aksesibilitas perlu disiapkan pengampu.
 
-| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Rujukan |
-|---:|---:|---|---|---|
-| 1 | 1 | Diagnostik web dan sintaks PHP; jalankan respons PHP lokal dan jelaskan alur request. | Diagnostik, pengayaan bahasa dan bukti lingkungan. | R4, R10 |
-| 2 | 2 | Aktor/kebutuhan inventaris; latihan variabel, kondisi dan fungsi prosedural pada data dummy. | Aktor dan kebutuhan awal. | R4, R10 |
-| 3 | 3 | Entitas/relasi kategori–barang dan keterlacakan kebutuhan; fungsi membaca data contoh. | Diagram/model data dan jejak kebutuhan. | R5, R10 |
-| 4 | 4 | Presentasi Tugas 1; pengantar endpoint file PHP dan metode GET/POST. | **Tugas 1: 20% — CPMK04.1.** | R4, R5, R10 |
-| 5 | 5 | Endpoint PHP prosedural: GET/POST, parameter, validasi dasar dan respons. | Bukti request dan respons. | R4, R10 |
-| 6 | 6 | PDO dengan driver SQLite: koneksi, create/read dan parameter binding. | Bukti create/read menggunakan data dummy. | R4, R5, R10 |
-| 7 | 7 | Fungsi update/delete dan penanganan ID tidak ditemukan menggunakan PDO. | Bukti update/delete dan not-found. | R4, R5, R10 |
-| 8 | 9 | Pustaka password_hash/password_verify; login/logout dan sesi PHP. | Bukti login/logout dengan data dummy. | R6, R10 |
-| 9 | 10 | Pemeriksaan sesi dan peran admin/petugas pada tiap endpoint server. | Bukti uji dua peran. | R6, R10 |
-| 10 | 11 | Validasi server, PDO prepared statements, escape output dan pengenalan token CSRF. | Bukti validasi, parameterisasi dan penjelasan kontrol. | R5, R6, R10 |
-| 11 | 12 | Tugas 2: demonstrasi autentikasi, peran dan validasi dalam PHP prosedural. | **Tugas 2: 25% — CPMK04.3.** | R5, R6, R10 |
-| 12 | 13 | Integrasi halaman, fungsi, endpoint, data dan akses dalam proyek inventaris. | Purwarupa terintegrasi. | R4, R5, R6, R10 |
-| 13 | 14 | Penyelesaian alur role dan data; tinjau perbedaan endpoint dan fungsi. | Alur kasus dan penjelasan kode. | R4, R5, R10 |
-| 14 | 15 | Uji normal/gagal, cek CSRF pengayaan dan dokumentasi setup PHP/DB lokal. | Hasil uji, temuan, perbaikan dan petunjuk lokal. | R4, R6, R10 |
+| Modul | Pekan | Materi/pengalaman | Latihan dan bukti | Bloom | Rujukan |
+|---:|---:|---|---|---|---|
+| 1 | 1 | Diagnostik web dan sintaks PHP; jalankan respons PHP lokal dan jelaskan alur request. | Diagnostik, pengayaan bahasa dan bukti lingkungan. | C2 | R4, R10 |
+| 2 | 2 | Aktor/kebutuhan inventaris; latihan variabel, kondisi dan fungsi prosedural pada data dummy. | Aktor dan kebutuhan awal. | C2 | R4, R10 |
+| 3 | 3 | Entitas/relasi kategori–barang dan keterlacakan kebutuhan; fungsi membaca data contoh. | Diagram/model data dan jejak kebutuhan. | C6 | R5, R10 |
+| 4 | 4 | Presentasi Tugas 1; pengantar endpoint file PHP dan metode GET/POST. | **Tugas 1: 20% — CPMK04.1.** | C6 | R4, R5, R10 |
+| 5 | 5 | Endpoint PHP prosedural: GET/POST, parameter, validasi dasar dan respons. | Bukti request dan respons. | C3 | R4, R10 |
+| 6 | 6 | PDO dengan driver SQLite: koneksi, create/read dan parameter binding. | Bukti create/read menggunakan data dummy. | C3 | R4, R5, R10 |
+| 7 | 7 | Fungsi update/delete dan penanganan ID tidak ditemukan menggunakan PDO. | Bukti update/delete dan not-found. | C3 | R4, R5, R10 |
+| 8 | 9 | Pustaka password_hash/password_verify; login/logout dan sesi PHP. | Bukti login/logout dengan data dummy. | C3 | R6, R10 |
+| 9 | 10 | Pemeriksaan sesi dan peran admin/petugas pada tiap endpoint server. | Bukti uji dua peran. | C3 | R6, R10 |
+| 10 | 11 | Validasi server, PDO prepared statements, escape output dan pengenalan token CSRF. | Bukti validasi, parameterisasi dan penjelasan kontrol. | C4 | R5, R6, R10 |
+| 11 | 12 | Tugas 2: demonstrasi autentikasi, peran dan validasi dalam PHP prosedural. | **Tugas 2: 25% — CPMK04.3.** | C4 | R5, R6, R10 |
+| 12 | 13 | Integrasi halaman, fungsi, endpoint, data dan akses dalam proyek inventaris. | Purwarupa terintegrasi. | C6 | R4, R5, R6, R10 |
+| 13 | 14 | Penyelesaian alur role dan data; tinjau perbedaan endpoint dan fungsi. | Alur kasus dan penjelasan kode. | C6 | R4, R5, R10 |
+| 14 | 15 | Uji normal/gagal, cek CSRF pengayaan dan dokumentasi setup PHP/DB lokal. | Hasil uji, temuan, perbaikan dan petunjuk lokal. | C5 | R4, R6, R10 |
 
 ## 4. Rencana evaluasi, instrumen dan rubrik [U]
 
@@ -325,5 +358,7 @@ Topik mengikuti pertemuan pembelajaran selain UTS dan UAS; pertemuan 4 dan 12 te
 | R6 | OWASP, [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) dan [SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) — autentikasi dan parameterisasi. | Pendukung KOM-526 |
 
 - **R10 — PHP dasar dan PDO:** [PHP Manual: PDO](https://www.php.net/manual/en/book.pdo.php); [PHP Manual: Classes and Objects](https://www.php.net/manual/en/language.oop5.php). PDO memerlukan driver untuk database yang dipilih.
+
+**R19 — Taksonomi Bloom dan ABCD:** Anderson & Krathwohl (eds.), *A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives* (Longman, 2001) untuk dimensi proses kognitif C1–C6; struktur ABCD mengikuti praktik penyusunan capaian OBE. Rujukan ini **usulan penyusun**, bukan daftar pustaka resmi prodi, dan pengampu perlu memverifikasi edisi serta ketersediaannya. Penerapan ada pada [010 bagian 15](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md#15-taksonomi-bloom-c2c6-dan-rumusan-abcd-pada-rps-u).
 
 **Sebelum finalisasi:** periksa buku KPT/RPS atau workbook terkait, CPL/BK dan kode jalur; tetapkan dosen, tahun, format, prasyarat formal, T/P, PT/BM dan durasi evaluasi; tinjau kesiapan alat, akses dan instrumen bersama RMK; lengkapi identitas/pengesahan dan kebijakan remedial/CQI. Periksa 010 bagian 8–13. Tidak ada uji coba instrumen pada mahasiswa atau pengesahan akademik yang diklaim.
