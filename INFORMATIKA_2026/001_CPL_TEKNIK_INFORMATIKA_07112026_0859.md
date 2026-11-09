@@ -36,4 +36,4 @@ Transkripsi Tabel 14 Bab VI; lihat uraian BK dan relasi BK–MK pada [BoK](003_B
 | CPL09 | BK08 |
 | CPL10 | BK09, BK10 |
 
-Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md). Tabel 12 (matriks CPL–PL) dan Tabel 19 (matriks CPL–MK) memiliki sel relasi kosong pada teks DOCX; daftar relasi di sini berasal dari Tabel 11 dan 18, bukan mengisi matriks yang kosong.
+Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md). Pembacaan awal `python-docx` tidak menampilkan tanda relasi pada Tabel 12/19; ini tidak berarti sel sumber kosong. Pemeriksaan XML Tabel 19 menemukan tanda CPL04 untuk KOM-312, KOM-526 dan KFC-506 dalam content control; audit seluruh Tabel 12/19 belum dilakukan. Lihat [analisis 009](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md).
