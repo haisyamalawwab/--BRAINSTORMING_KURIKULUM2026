@@ -35,6 +35,8 @@ KURIKULUM2026_REVISI/PERANGKAT_AJAR/<NNN>_<SUB>_<JENIS>_<KODE-MK>_<NAMA_MK_KAPIT
 
 > **Revisi STI-311:** Paket `065_1`–`065_5` diselaraskan ke HTML/CSS dasar–menengah, Flexbox lanjutan, Bootstrap/Tailwind dasar dan JavaScript dasar; tidak mencakup React/API. Buka [rancangan 043 STI-311](../043_STI-311_WEB_FRONT_END_DEVELOPMENT_DASAR_USULAN_07112026.md), [audit dampak dan status validasi](../LAPORAN_AUDIT_DAMPAK_STI-311.md), atau [tautan paket STI-311](../INDEX.md#semester-3). Revisi menunggu tinjauan/pengesahan RMK dan prodi. Ekspor non-Markdown dan pilot lama dapat belum selaras.
 >
+> **RPS format template:** [065_1 STI-311](065_1_RPS_STI-311_PENGEMBANGAN_WEB_FRONT_END_07112026.md) telah disusun mengikuti struktur template dalam Markdown; tersedia pula [DOCX terisi dari template](../DOCX/RPS_STI-311_TEMPLATE_REVISI_07112026.docx). [Petunjuk generator RPS untuk MK lain](../_tools/README_GENERATOR_RPS_MD.md); hasil memerlukan pemeriksaan tata letak dan validasi akademik.
+>
 > **Paket di luar cakupan:** `113_1`–`113_5` untuk FST-714 Skripsi / Tugas Akhir tersedia terpisah, bukan bagian dari 46 MK Core STI/peminatan. [Buka kelima dokumen FST-714](../INDEX.md#paket-di-luar-cakupan-46-mk).
 
 ## 2. Daftar Nomor Urut Baku `<NNN>` (`055` s.d. `100` — 46 MK Core STI & Peminatan)
