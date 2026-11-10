@@ -1,6 +1,6 @@
 # Ekstraksi KPT Teknik Informatika UWG 2026
 
-Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](https://github.com/rozanhaisyam/--BRAINSTORMING_KURIKULUM2026/blob/91b793377cd4b051f7bdcb89d3c19427ff344f9d/KPT_FIX_3PRODI/KPT%20Program%20Studi/Buku%20KPT%20OBE%20Teknik%20Informatika%20UWG%202026%20%5BUpdate%2011%20September%202026%5D.docx), bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika; `009` merangkum inventaris dan analisis tiga MK; `010` adalah rancangan matriks untuk ketiga MK.
+Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](https://github.com/rozanhaisyam/--BRAINSTORMING_KURIKULUM2026/blob/91b793377cd4b051f7bdcb89d3c19427ff344f9d/KPT_FIX_3PRODI/KPT%20Program%20Studi/Buku%20KPT%20OBE%20Teknik%20Informatika%20UWG%202026%20%5BUpdate%2011%20September%202026%5D.docx), bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika; `009` merangkum inventaris dan analisis tiga MK; `010` adalah rancangan matriks untuk ketiga MK; `044` memetakan kurikulum per klaster konsentrasi terhadap CS2023 dan APTIKOM sebagai pembanding, tanpa mengubah BoK UWG.
 
 | Hasil | Isi |
 |---|---|
@@ -15,6 +15,7 @@ Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (1
 | [009 — inventaris dan analisis tiga MK](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md) | Daftar MK serta CPL, CPMK, BK dan catatan Tabel 19 untuk KOM-312, KOM-526 dan KFC-506. |
 | [010 — rancangan matriks tiga MK](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md) | Usulan CPMK/Sub-CPMK, rencana 16 pertemuan, asesmen dan guardrails; belum disahkan. |
 | [011 — indeks perangkat ajar Informatika](011_INDEKS_PERANGKAT_AJAR_INFORMATIKA_07112026_1328.md) | Paket rancangan RPS, SAP, outline modul, asesmen dan rubrik untuk tiga MK, termasuk empat jalur KOM-526 dan dua jalur teknis KFC-506 (Dart + Flutter; React Native + Expo), dengan rumusan ABCD dan level Bloom C2–C6. |
+| [044 — pemetaan kurikulum dan bahan kajian per klaster kepakaran](044_PEMETAAN_KURIKULUM_BAHAN_KAJIAN_KLASTER_KEPAKARAN_10112026_0733.md) | Tiga klaster IM/DS/MC: ranting ilmu, bahan kajian turunan (`BK-IM/DS/MC-*`), pemetaan MK × klaster terhadap CS2023 dan APTIKOM, keterlacakan CPL, serta celah dan 11 butir keputusan. Pembanding eksternal, bukan pengganti BoK UWG. |
 
 ## Identitas dan keterlacakan sumber
 
