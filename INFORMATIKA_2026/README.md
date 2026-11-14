@@ -1,6 +1,6 @@
 # Ekstraksi KPT Teknik Informatika UWG 2026
 
-Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](https://github.com/rozanhaisyam/--BRAINSTORMING_KURIKULUM2026/blob/91b793377cd4b051f7bdcb89d3c19427ff344f9d/KPT_FIX_3PRODI/KPT%20Program%20Studi/Buku%20KPT%20OBE%20Teknik%20Informatika%20UWG%202026%20%5BUpdate%2011%20September%202026%5D.docx), bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika.
+Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (11 September 2026)](https://github.com/rozanhaisyam/--BRAINSTORMING_KURIKULUM2026/blob/91b793377cd4b051f7bdcb89d3c19427ff344f9d/KPT_FIX_3PRODI/KPT%20Program%20Studi/Buku%20KPT%20OBE%20Teknik%20Informatika%20UWG%202026%20%5BUpdate%2011%20September%202026%5D.docx), bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika; `009` merangkum inventaris dan analisis tiga MK; `010` adalah rancangan matriks untuk ketiga MK; `044` memetakan kurikulum per klaster konsentrasi terhadap CS2023 dan APTIKOM sebagai pembanding, tanpa mengubah BoK UWG.
 
 | Hasil | Isi |
 |---|---|
@@ -12,6 +12,10 @@ Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (1
 | [006 — analisis dan survei pustaka](006_ANALISIS_DAN_SURVEI_PUSTAKA_INFORMATIKA_07112026_0910.md) | Analisis hubungan tabel, perbedaan rujukan dan tindak lanjut. |
 | [007 — instrumen survei](007_INSTRUMEN_SURVEI_VALIDASI_INFORMATIKA_07112026_0910.md) | Rancangan survei dan validasi; belum ada respons. |
 | [008 — Tabel 4 BK APTIKOM Informatika](008_TABEL_4_RUMUSAN_BAHAN_KAJIAN_APTIKOM_INFORMATIKA_07112026_0942.md) | Transkripsi 22 BK beserta bobot dan referensi. |
+| [009 — inventaris dan analisis tiga MK](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md) | Daftar MK serta CPL, CPMK, BK dan catatan Tabel 19 untuk KOM-312, KOM-526 dan KFC-506. |
+| [010 — rancangan matriks tiga MK](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md) | Usulan CPMK/Sub-CPMK, rencana 16 pertemuan, asesmen dan guardrails; belum disahkan. |
+| [011 — indeks perangkat ajar Informatika](011_INDEKS_PERANGKAT_AJAR_INFORMATIKA_07112026_1328.md) | Paket rancangan RPS, SAP, outline modul, asesmen dan rubrik untuk tiga MK, termasuk empat jalur KOM-526 dan dua jalur teknis KFC-506 (Dart + Flutter; React Native + Expo), dengan rumusan ABCD dan level Bloom C2–C6. |
+| [044 — pemetaan kurikulum dan bahan kajian per klaster kepakaran](044_PEMETAAN_KURIKULUM_BAHAN_KAJIAN_KLASTER_KEPAKARAN_10112026_0733.md) | Tiga klaster IM/DS/MC: ranting ilmu, bahan kajian turunan (`BK-IM/DS/MC-*`), pemetaan MK × klaster terhadap CS2023 dan APTIKOM, keterlacakan CPL, serta celah dan 11 butir keputusan. Pembanding eksternal, bukan pengganti BoK UWG. |
 
 ## Identitas dan keterlacakan sumber
 
@@ -25,7 +29,7 @@ Berkas `001`–`004` diekstrak dari [Buku KPT OBE Teknik Informatika UWG 2026 (1
 1. Bab V Tabel 11 dan Lampiran A Tabel 35 sama-sama memuat 10 rumusan CPL; teksnya sesuai setelah perapian spasi.
 2. Bab VI Tabel 13 memuat 10 kelompok BK. Tabel 14 memetakan CPL–BK; Tabel 15 memuat tiga salinan identik dari 83 baris MK, ditampilkan satu kali dalam hasil. Dokumen sendiri menyatakan pemetaan rinci BK–MK masih perlu validasi kelompok bidang keahlian.
 3. Bab IX memberi prinsip pemetaan CPMK, tetapi tidak ditemukan rumusan per MK dalam teks dan tabel utama. Tabel 29 Bab XI hanya memuat **contoh** label dan bobot; tidak digunakan untuk menciptakan CPMK per MK.
-4. Sel relasi pada Tabel 12 (CPL–PL) dan Tabel 19 (CPL–MK) kosong dalam teks DOCX. Tabel 11 dan Tabel 18 diekstrak apa adanya sebagai sumber relasi yang eksplisit; ketidaksesuaian antartabel belum direkonsiliasi.
+4. Ekstraksi awal `python-docx` tidak menampilkan tanda relasi Tabel 12/19; jangan menyimpulkan bahwa sel sumber kosong. Pemeriksaan XML Tabel 19 menemukan tanda CPL04 pada tiga MK yang diperiksa dalam content control. Audit penuh Tabel 12/19 belum dilakukan; rincian di [009](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md).
 5. Hasil ini merupakan transkripsi rujukan dan **tidak membuktikan validasi atau pengesahan akademik**. Dokumen sumber menyebut 146 SKS dalam Bab VII; angka tersebut untuk Teknik Informatika dan tidak otomatis menggantikan statistik prodi lain.
 
 ## Penamaan

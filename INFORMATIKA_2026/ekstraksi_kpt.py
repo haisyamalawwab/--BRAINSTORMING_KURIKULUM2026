@@ -69,6 +69,21 @@ def main():
     t15 = rows(find_table('Tabel 15. Pemetaan Mata Kuliah'))
     t16 = rows(find_table('Tabel 16. Pemetaan Terpadu'))
     t18 = rows(find_table('Tabel 18. Distribusi Mata Kuliah'))
+    # python-docx tidak menampilkan w:sdtContent dalam cell.text. Periksa hanya
+    # tiga baris Tabel 19 yang dibahas pada 009; ini bukan audit seluruh tabel.
+    t19 = find_table('Tabel 19. Matriks CPL dengan Mata Kuliah')
+    xml_text = lambda cell: clean(''.join(node.text or '' for node in cell._tc.iter(qn('w:t'))))
+    header19 = [xml_text(cell) for cell in t19.rows[0].cells]
+    if 'CPL04' not in header19:
+        raise ValueError('Tabel 19 tidak memiliki kolom CPL04')
+    col19 = header19.index('CPL04')
+    for kode in ('KOM-312', 'KOM-526', 'KFC-506'):
+        matches = [row for row in t19.rows[1:] if xml_text(row.cells[0]) == kode]
+        if len(matches) != 1 or xml_text(matches[0].cells[col19]) != '✓':
+            raise ValueError(f'Tabel 19: tanda CPL04 untuk {kode} tidak ditemukan secara unik')
+        cell = matches[0].cells[col19]
+        if not any(True for _ in cell._tc.iter(qn('w:sdtContent'))):
+            raise ValueError(f'Tabel 19: {kode} bukan content control seperti yang dicatat')
     t29 = rows(find_table('Tabel 29. Pengukuran CPMK'))
     t35 = rows(find_table('Tabel 35. Deskripsi Kode CPL'))
     # Kodifikasi is a heading rather than a caption; locate by its unique header.
@@ -119,7 +134,7 @@ Transkripsi Tabel 14 Bab VI; lihat uraian BK dan relasi BK–MK pada [BoK](003_B
 
 {table_to_md(t14)}
 
-Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md). Tabel 12 (matriks CPL–PL) dan Tabel 19 (matriks CPL–MK) memiliki sel relasi kosong pada teks DOCX; daftar relasi di sini berasal dari Tabel 11 dan 18, bukan mengisi matriks yang kosong.
+Pemetaan mata kuliah dan CPL sebagaimana Tabel 18 dapat dilihat pada [pemetaan MK](004_PEMETAAN_MK_CPL_BK_TEKNIK_INFORMATIKA_07112026_0859.md). Pembacaan awal `python-docx` tidak menampilkan tanda relasi pada Tabel 12/19; ini tidak berarti sel sumber kosong. Pemeriksaan XML Tabel 19 menemukan tanda CPL04 untuk KOM-312, KOM-526 dan KFC-506 dalam content control; audit seluruh Tabel 12/19 belum dilakukan. Lihat [analisis 009](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md).
 '''
     output['003_BOK_DAN_BAHAN_KAJIAN_TEKNIK_INFORMATIKA_07112026_0859.md'] = f'''# Body of Knowledge dan bahan kajian — Teknik Informatika UWG 2026
 
@@ -210,7 +225,7 @@ Tabel 15 dan 18 adalah transkripsi masing-masing, bukan hasil rekonsiliasi. Seba
 '''
     output['README.md'] = f'''# Ekstraksi KPT Teknik Informatika UWG 2026
 
-Berkas `001`–`004` diekstrak dari {SOURCE}, bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika.
+Berkas `001`–`004` diekstrak dari {SOURCE}, bukan dari panduan APTIKOM umum atau kurikulum SISTEKIN. Berkas `005`–`007` merupakan kajian pembanding; `008` menyalin Tabel 4 dari panduan APTIKOM Informatika; `009` merangkum inventaris dan analisis tiga MK; `010` adalah rancangan matriks untuk ketiga MK.
 
 | Hasil | Isi |
 |---|---|
@@ -222,6 +237,9 @@ Berkas `001`–`004` diekstrak dari {SOURCE}, bukan dari panduan APTIKOM umum at
 | [006 — analisis dan survei pustaka](006_ANALISIS_DAN_SURVEI_PUSTAKA_INFORMATIKA_07112026_0910.md) | Analisis hubungan tabel, perbedaan rujukan dan tindak lanjut. |
 | [007 — instrumen survei](007_INSTRUMEN_SURVEI_VALIDASI_INFORMATIKA_07112026_0910.md) | Rancangan survei dan validasi; belum ada respons. |
 | [008 — Tabel 4 BK APTIKOM Informatika](008_TABEL_4_RUMUSAN_BAHAN_KAJIAN_APTIKOM_INFORMATIKA_07112026_0942.md) | Transkripsi 22 BK beserta bobot dan referensi. |
+| [009 — inventaris dan analisis tiga MK](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md) | Daftar MK serta CPL, CPMK, BK dan catatan Tabel 19 untuk KOM-312, KOM-526 dan KFC-506. |
+| [010 — rancangan matriks tiga MK](010_MATRIKS_CPL_CPMK_BOK_TIGA_MK_INFORMATIKA_07112026_1303.md) | Usulan CPMK/Sub-CPMK, rencana 16 pertemuan, asesmen dan guardrails; belum disahkan. |
+| [011 — indeks perangkat ajar Informatika](011_INDEKS_PERANGKAT_AJAR_INFORMATIKA_07112026_1328.md) | Paket rancangan RPS, SAP, outline modul, asesmen dan rubrik untuk tiga MK, termasuk empat jalur KOM-526 dan dua jalur teknis KFC-506 (Dart + Flutter; React Native + Expo), dengan rumusan ABCD dan level Bloom C2–C6. |
 
 ## Identitas dan keterlacakan sumber
 
@@ -235,7 +253,7 @@ Berkas `001`–`004` diekstrak dari {SOURCE}, bukan dari panduan APTIKOM umum at
 1. Bab V Tabel 11 dan Lampiran A Tabel 35 sama-sama memuat 10 rumusan CPL; teksnya sesuai setelah perapian spasi.
 2. Bab VI Tabel 13 memuat 10 kelompok BK. Tabel 14 memetakan CPL–BK; Tabel 15 memuat tiga salinan identik dari 83 baris MK, ditampilkan satu kali dalam hasil. Dokumen sendiri menyatakan pemetaan rinci BK–MK masih perlu validasi kelompok bidang keahlian.
 3. Bab IX memberi prinsip pemetaan CPMK, tetapi tidak ditemukan rumusan per MK dalam teks dan tabel utama. Tabel 29 Bab XI hanya memuat **contoh** label dan bobot; tidak digunakan untuk menciptakan CPMK per MK.
-4. Sel relasi pada Tabel 12 (CPL–PL) dan Tabel 19 (CPL–MK) kosong dalam teks DOCX. Tabel 11 dan Tabel 18 diekstrak apa adanya sebagai sumber relasi yang eksplisit; ketidaksesuaian antartabel belum direkonsiliasi.
+4. Ekstraksi awal `python-docx` tidak menampilkan tanda relasi Tabel 12/19; jangan menyimpulkan bahwa sel sumber kosong. Pemeriksaan XML Tabel 19 menemukan tanda CPL04 pada tiga MK yang diperiksa dalam content control. Audit penuh Tabel 12/19 belum dilakukan; rincian di [009](009_ANALISIS_MK_CPL_CPMK_BOK_TEKNIK_INFORMATIKA_07112026_1258.md).
 5. Hasil ini merupakan transkripsi rujukan dan **tidak membuktikan validasi atau pengesahan akademik**. Dokumen sumber menyebut 146 SKS dalam Bab VII; angka tersebut untuk Teknik Informatika dan tidak otomatis menggantikan statistik prodi lain.
 
 ## Penamaan
